@@ -23,6 +23,7 @@ Local-level:
 * [Leeds City Council](https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/) (22.9 MB page load) - [info](https://www.leeds.gov.uk/campaign/warm-spaces) 
 * [Sefton CVS](https://seftoncvs.org.uk/warmspaces/) (4.6 MB page load)
 * [Suffolk - Rural Coffee Caravan](https://ruralcoffeecaravan.org.uk/map/) (26.6 MB map)
+* [Surrey Council](https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs) (14.5MB page load) - also available as [a non-geocoded list](https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs/list-of-warm-hubs-in-surrey)
 * [Sunderland Council](https://sunderland.gov.uk/article/24806/Warm-spaces?p=5) (1.5 MB page load) - image of a map
 * [Wakefield Council](https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces) (3.9 MB page load) - non-geocoded list
 * [Wolverhampton Council](https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces) (3.9 MB page load) - non-geocoded list
