@@ -17,6 +17,8 @@ Local-level:
 * [Cambridge Council](https://www.cambridge.gov.uk/warm-and-welcoming-spaces) (1.3 MB page load) - non-geocoded list
 * [Durham Council](https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True) (2.5 MB page load) - [info](https://durham.gov.uk/article/28227/What-Warm-Spaces-are-why-we-need-them-and-how-to-find-them) 
 * [Gateshead Council](https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory) (2.6 MB page load) - [info](https://www.gateshead.gov.uk/article/21164/Warm-Spaces)
+* [Gloucester Council](https://www.gloucester.gov.uk/community-living/warm-spaces/) (1.5 MB page load) - non-geocoded list
+* [Hertfordshire Council](https://directory.hertfordshire.gov.uk/Search?categoryId=165) (2.9 MB page load) - [info](https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx)
 * [Huntingdonshire Council](https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/) (6.2 MB page load) - also [available as a list](https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/) (3.9 MB page load)
 * [Leeds City Council](https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/) (22.9 MB page load) - [info](https://www.leeds.gov.uk/campaign/warm-spaces) 
 * [Sefton CVS](https://seftoncvs.org.uk/warmspaces/) (4.6 MB page load)
