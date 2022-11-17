@@ -15,4 +15,4 @@ Local-level:
 * [Bradford Council](https://costoflivingbradford.co.uk/warm-spaces-directory/) (3.5 MB page load) - [info](https://www.bradford.gov.uk/health/health-advice-and-support/warm-spaces/)
 * [Durham Council](https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True) (2.5 MB page load) - [info](https://durham.gov.uk/article/28227/What-Warm-Spaces-are-why-we-need-them-and-how-to-find-them) 
 * [Leeds City Council](https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/) (22.9 MB page load) - [info](https://www.leeds.gov.uk/campaign/warm-spaces) 
-
+* [Wolverhampton Council](https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces) (3.9 MB page load) - non-geocoded list
