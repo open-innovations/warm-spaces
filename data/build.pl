@@ -29,6 +29,7 @@ my $data = LoadFile('data.yml');
 my $n = @{$data->{'directories'}};
 
 my $total = 0;
+my $table = "";
 
 # Loop over the directories
 for($i = 0, $j = 1; $i < $n; $i++, $j++){
@@ -142,6 +143,13 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			
 		}
 	}
+	$table .= "<tr>";
+	$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
+	$table .= "<td>".($d->{'count'} ? $d->{'count'} : "?")."</td>";
+	$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
+	$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
+	$table .= "</tr>\n";
+
 	$sources->{$d->{'id'}} = $d;
 	if($sources->{$d->{'id'}}{'count'}){
 		$sources->{$d->{'id'}}{'count'} += 0;
@@ -154,6 +162,17 @@ close($fh);
 open($fh,">:utf8",$dir."sources.json");
 print $fh tidyJSON($sources,2);
 close($fh);
+
+open($fh,">:utf8",$dir."summary.html");
+print $fh "<table>\n";
+print $fh "<thead><tr><td>Directory</td><td>Entries</td><td>Map</td><td>Register</td></thead></tr>\n";
+print $fh "<tbody>\n";
+print $fh $table;
+print $fh "</tbody>\n";
+print $fh "</table>\n";
+close($fh);
+
+
 
 
 msg("Added $total features in total.\n");
