@@ -11,16 +11,47 @@
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
+	"birmingham_council": {
+		"data": { "type": "portal", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" },
+		"id": "birmingham_council",
+		"title": "Birmingham Council",
+		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
+	},
+	"boston_borough_council": {
+		"id": "boston_borough_council",
+		"title": "Boston Borough Council",
+		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
+	},
 	"bradford_council": {
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
 		"url": "https://costoflivingbradford.co.uk/warm-spaces-directory/"
 	},
+	"buckinghamshire_council": {
+		"id": "buckinghamshire_council",
+		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
+		"title": "Buckinghamshire Council",
+		"url": "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
+	},
 	"cambridge_council": {
 		"id": "cambridge_council",
 		"title": "Cambridge Council",
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
+	},
+	"camden_council": {
+		"data": { "type": "html", "url": "https://www.camden.gov.uk/warm-spaces-in-camden#Warm_spaces_map" },
+		"id": "camden_council",
+		"map": { "type": "arcgis", "url": "https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
+		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
+		"title": "Camden Council",
+		"url": "https://www.camden.gov.uk/warm-spaces-in-camden"
+	},
+	"central_bedfordshire_council": {
+		"data": { "type": "portal", "url": "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z" },
+		"id": "central_bedfordshire_council",
+		"title": "Central Bedfordshire Council",
+		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"durham_county_council": {
 		"data": { "type": "locatemarketplace", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
@@ -37,6 +68,12 @@
 		"map": { "type": "googlemap", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title": "Gateshead Council",
 		"url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
+	},
+	"gedling_council": {
+		"data": { "type": "html", "url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/" },
+		"id": "gedling_council",
+		"title": "Gedling Council",
+		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
 	},
 	"huntingdonshire_council": {
 		"count": 30,
@@ -55,6 +92,27 @@
 		"title": "Leeds City Council",
 		"url": "https://www.leeds.gov.uk/campaign/warm-spaces"
 	},
+	"lewes_and_eastbourne_council": {
+		"id": "lewes_and_eastbourne_council",
+		"register": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/",
+		"title": "Lewes and Eastbourne Council",
+		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
+	},
+	"middlesbrough_council": {
+		"data": { "type": "html", "url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces" },
+		"id": "middlesbrough_council",
+		"map": { "type": "googlemap", "url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces" },
+		"register": { "url": "mailto:livewellcentre@middlesbrough.gov.uk" },
+		"title": "Middlesbrough Council",
+		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
+	},
+	"perth_and_kinross_council": {
+		"id": "perth_and_kinross_council",
+		"map": { "type": "arcgis", "url": "https://www.pkc.gov.uk/warmspaces" },
+		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
+		"title": "Perth and Kinross Council",
+		"url": "https://www.pkc.gov.uk/warmspaces"
+	},
 	"sefton_cvs": {
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
@@ -67,6 +125,13 @@
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+	},
+	"stafford_borough_council": {
+		"data": { "type": "html", "url": "https://www.staffordbc.gov.uk/warm-spaces" },
+		"id": "stafford_borough_council",
+		"register": "mailto:warmspaces@staffordbc.gov.uk",
+		"title": "Stafford Borough Council",
+		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"id": "suffolk_-_rural_coffee_caravan",
@@ -87,6 +152,12 @@
 		"map": { "type": "arcgis", "url": "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515" },
 		"title": "Surrey County Council warm hubs",
 		"url": "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs"
+	},
+	"tewkesbury_council": {
+		"id": "tewkesbury_council",
+		"register": { "url": "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration" },
+		"title": "Tewkesbury Council",
+		"url": "https://www.tewkesbury.gov.uk/warm-spaces"
 	},
 	"wakefield_council": {
 		"data": { "type": "html", "url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces" },
@@ -121,6 +192,20 @@
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
 		"title": "Warm Welcome",
 		"url": "https://www.warmwelcome.uk/"
+	},
+	"west_northamptonshire": {
+		"data": { "type": "html", "url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces" },
+		"id": "west_northamptonshire",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
+		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
+		"title": "West Northamptonshire",
+		"url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+	},
+	"wigan_council": {
+		"id": "wigan_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y" },
+		"title": "Wigan Council",
+		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wolverhampton_council": {
 		"count": 22,

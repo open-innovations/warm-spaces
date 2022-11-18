@@ -34,13 +34,39 @@ directories:
       url: mailto:warmspace@aberdeencity.gov.uk
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
+  - title: "Birmingham Council"
+    url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
+    data:
+      url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
+      type: portal
+  - title: "Boston Borough Council"
+    url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
   - title: "Bradford Council"
     url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
     map:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: googlemap
+  - title: "Buckinghamshire Council"
+    url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
+    register:
+      url: "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/"
   - title: "Cambridge Council"
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
+  - title: "Camden Council"
+    url: "https://www.camden.gov.uk/warm-spaces-in-camden"
+    map:
+      url: "https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap"
+      type: arcgis
+    data:
+      url: "https://www.camden.gov.uk/warm-spaces-in-camden#Warm_spaces_map"
+      type: html
+    register:
+      url: "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u"
+  - title: "Central Bedfordshire Council"
+    url: "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
+    data:
+      url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
+      type: portal
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
@@ -58,6 +84,11 @@ directories:
       type: googlemap
     data:
       url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
+      type: html
+  - title: "Gedling Council"
+    url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
+    data:
+      url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
       type: html
   - title: "Huntingdonshire Council"
     url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
@@ -92,6 +123,26 @@ directories:
         friday: Friday
         saturday: Saturday
         sunday: Sunday
+  - title: "Lewes and Eastbourne Council"
+    url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
+    register: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/"
+  - title: "Middlesbrough Council"
+    url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
+    map:
+      url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
+      type: googlemap
+    data:
+      url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
+      type: html
+    register:
+      url: mailto:livewellcentre@middlesbrough.gov.uk
+  - title: "Perth and Kinross Council"
+    url: "https://www.pkc.gov.uk/warmspaces"
+    map:
+      url: "https://www.pkc.gov.uk/warmspaces"
+      type: arcgis
+    register:
+      url: mailto:CommunityPlanningPartnership@pkc.gov.uk
   - title: "Sefton CVS"
     url: "https://seftoncvs.org.uk/warmspaces/"
     map:
@@ -101,6 +152,12 @@ directories:
     url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
     data:
       url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+      type: html
+  - title: "Stafford Borough Council"
+    url: "https://www.staffordbc.gov.uk/warm-spaces"
+    register: mailto:warmspaces@staffordbc.gov.uk
+    data:
+      url: "https://www.staffordbc.gov.uk/warm-spaces"
       type: html
   - title: "Suffolk - Rural Coffee Caravan"
     url: https://ruralcoffeecaravan.org.uk/map/
@@ -125,12 +182,31 @@ directories:
         title: Hub_Name
         address: Address
         hours: OpenHours
+  - title: "Tewkesbury Council"
+    url: "https://www.tewkesbury.gov.uk/warm-spaces"
+    register:
+      url: "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration"
   - title: "Wakefield Council"
     url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
     data:
       url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
       type: html
     notes: "Wakefield Council website blocks automatic access of webpages"
+  - title: "West Northamptonshire"
+    url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+    map:
+      url: "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10"
+      type: googlemap
+    register:
+      url: "https://forms.office.com/r/EHJpfj9uCF"
+    data:
+      url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+      type: html
+  - title: "Wigan Council"
+    url: "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y"
+      type: googlemap
   - title: "Wolverhampton Council"
     url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
     data:
