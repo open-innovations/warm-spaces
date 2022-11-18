@@ -19,6 +19,7 @@ binmode STDOUT, 'utf8';
 	{'text'=>'Wednesday-Friday, 10.30am-3pm','good'=>'We-Fr 10:30-15:00'},
 	{'text'=>'Every Wednesday, 1pm-3pm','good'=>'We 13:00-15:00'},
 	{'text'=>'9am-5pm, daily','good'=>'Mo-Su 09:00-17:00'},
+	{'text'=>'Weekdays, 9am-2pm','good'=>'Mo-Fr 09:00-14:00'},
 	{'text'=>'Sunday 10.30am-11.30pm; Wed 11.30am-3.30pm; Thur 2pm-4pm','good'=>'Su 10:30-23:30; We 11:30-15:30; Th 14:00-16:00'},
 	{'text'=>'Thursdays &amp; Fridays, 11:00am-2:00pm','good'=>'Th 11:00-14:00; Fr 11:00-14:00'},
 	{'text'=>'10am-4pm, Monday - Saturday','good'=>'Mo-Sa 10:00-16:00'},

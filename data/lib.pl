@@ -125,6 +125,8 @@ sub parseOpeningHours {
 		$str =~ s/Second ([^\s]+) of the month/$1\[2\]/gi;
 		$str =~ s/Third ([^\s]+) of the month/$1\[3\]/gi;
 		$str =~ s/Fourth ([^\s]+) of the month/$1\[4\]/gi;
+		$str =~ s/Weekdays/Mo-Fr/gi;
+		$str =~ s/Weekends/Sa-Su/gi;
 		$str =~ s/12 ?noon/12am/g;
 		$str =~ s/ noon/ 12:00/g;
 		$str =~ s/a\.?m\.?/am/g;
