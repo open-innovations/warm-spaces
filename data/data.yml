@@ -20,6 +20,9 @@ directories:
     map:
       url: "https://warmspaces.org/spaces"
       type: googlemap
+    data:
+      url: "https://warmspaces.org/locations/"
+      type: squarespace
     register:
       url: "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform"
   - title: "Aberdeen City Council"

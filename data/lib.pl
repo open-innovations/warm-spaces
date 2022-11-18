@@ -114,6 +114,8 @@ sub parseOpeningHours {
 		$str =~ s/ noon/ 12:00/g;
 		$str =~ s/a\.?m\.?/am/g;
 		$str =~ s/p\.?m\.?/pm/g;
+		$str =~ s/\&apos\;//g;
+		$str =~ s/ \&amp\; /, /g;
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){

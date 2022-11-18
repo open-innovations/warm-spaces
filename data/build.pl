@@ -132,6 +132,16 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				}
 			}
 
+		}elsif($d->{'data'}{'type'} eq "squarespace"){
+
+			@features = getSquareSpace($d);
+			$nf = @features;
+			for($f = 0; $f < $nf; $f++){
+				push(@warmplaces,$features[$f])
+			}
+			msg("\tAdded $nf features.\n");
+			$total += $nf;
+			
 		}
 	}
 }
@@ -178,10 +188,30 @@ sub getDataFromURL {
 		$age = ($now-$epoch_timestamp);
 	}
 
-	print "\tFile: $file\n";
+	msg("\tFile: $file\n");
 	if($age >= 86400){
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		print "\tDownloaded\n";
+		msg("\tDownloaded\n");
+	}
+	return $file;
+}
+
+sub getURL {
+	my $url = $_[0];
+	my $file = $_[1];
+	my ($age,$now,$epoch_timestamp);
+
+	$age = 100000;
+	if(-e $file){
+		$epoch_timestamp = (stat($file))[9];
+		$now = time;
+		$age = ($now-$epoch_timestamp);
+	}
+
+	msg("\tDownload $url\n");
+	if($age >= 86400 || -s $file == 0){
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		msg("\tDownloaded\n");
 	}
 	return $file;
 }
@@ -240,3 +270,51 @@ sub parseGeoJSONFeature {
 	return $json;
 }
 
+sub getSquareSpace {
+	my $d = shift;
+	my $keys = shift;
+	my ($url,$page,$p,@items,$purl,$i,$n,$json,$f);
+	my @fields = ("title","address","lat","lon","description","accessibility","type");
+
+	$url = $d->{'data'}{'url'}."?format=json-pretty";
+
+	$p = 1;
+	$page = $rawdir.$d->{'id'}."-$p.json";
+	getURL($url,$page);
+	$json = getJSON($page);
+	
+	@items = @{$json->{'items'}};
+	
+	while($json->{'pagination'}{'nextPage'}){
+		$purl = $url."&offset=$json->{'pagination'}{'nextPageOffset'}";
+		$p++;
+		$page = $rawdir.$d->{'id'}."-$p.json";
+		getURL($purl,$page);
+		$json = getJSON($page);
+		@items = (@items,@{$json->{'items'}});
+		$n = @items;
+	}
+	print "$n items\n";
+	
+	@features;
+
+	for($i = 0; $i < @items; $i++){
+			
+		$json = {};
+		for($f = 0; $f < @fields; $f++){
+			if($items[$i]{$fields[$f]}){ $json->{$fields[$f]} = $items[$i]{$fields[$f]}; }
+			if($keys->{$fields[$f]} && $items[$i]{$keys->{$fields[$f]}}){ $json->{$fields[$f]} = $items[$i]{$keys->{$fields[$f]}}; }
+		}
+		$json->{'lat'} = $items[$i]{'location'}{'mapLat'}+0;
+		$json->{'lon'} = $items[$i]{'location'}{'mapLng'}+0;
+		$json->{'address'} = $items[$i]{'location'}{'addressLine1'}.", ".$items[$i]{'location'}{'addressLine2'};
+		if($items[$i]{'excerpt'} =~ /<a href="([^\"]+)">Find out more<\/a>/){ $json->{'url'} = $1; }
+		if($items[$i]{'excerpt'} =~ /<strong>Opening Hours:<\/strong> (.*?)<br>/){ $json->{'hours'} = {'_text'=>$1}; }
+		$json->{'hours'} = parseOpeningHours($json->{'hours'});
+
+		$json->{'_source'} = $d->{'id'};
+		
+		push(@features,$json);
+	}
+	return @features;
+}
