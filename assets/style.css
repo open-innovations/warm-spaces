@@ -118,7 +118,7 @@ section { padding: 2em 0; }
 ul > li + *, ul > li > ul { margin-top: 0.5em; } 
 
 table { width: 100%; }
-table th { background: #dfdfdf; }
+table th { background: #dfdfdf; font-family: Poppins; }
 table th, table td { padding: 0.5em; border: 1px solid #dfdfdf; }
 
 .elsewhere { float: right; margin-top: 0; }

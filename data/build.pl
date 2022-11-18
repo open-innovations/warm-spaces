@@ -165,7 +165,7 @@ close($fh);
 
 open($fh,">:utf8",$dir."summary.html");
 print $fh "<table>\n";
-print $fh "<thead><tr><td>Directory</td><td>Entries</td><td>Map</td><td>Register</td></thead></tr>\n";
+print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Map</th><th>Register</th></thead></tr>\n";
 print $fh "<tbody>\n";
 print $fh $table;
 print $fh "</tbody>\n";
