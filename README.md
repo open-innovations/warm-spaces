@@ -20,6 +20,7 @@ Local-level:
 * [Gloucester Council](https://www.gloucester.gov.uk/community-living/warm-spaces/) (1.5 MB page load) - non-geocoded list
 * [Hertfordshire Council](https://directory.hertfordshire.gov.uk/Search?categoryId=165) (2.9 MB page load) - [info](https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx)
 * [Huntingdonshire Council](https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/) (6.2 MB page load) - also [available as a list](https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/) (3.9 MB page load)
+* [Kirklees Council](https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx) (2.1 MB page load) - no specific list 
 * [Leeds City Council](https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/) (22.9 MB page load) - [info](https://www.leeds.gov.uk/campaign/warm-spaces) 
 * [Sefton CVS](https://seftoncvs.org.uk/warmspaces/) (4.6 MB page load)
 * [Suffolk - Rural Coffee Caravan](https://ruralcoffeecaravan.org.uk/map/) (26.6 MB map)

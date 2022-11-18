@@ -1,0 +1,143 @@
+directories:
+  - title: "Warm Welcome"
+    url: "https://www.warmwelcome.uk/"
+    map:
+      url: "https://www.warmwelcome.uk/#find-a-space"
+      type: mapbox
+    register:
+      url: "https://www.warmwelcome.uk/get-started/signup"
+    data:
+      url: "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq"
+      type: storepoint
+      licence: none
+      keys:
+        title: name
+        address: streetaddress
+        lat: loc_lat
+        lon: loc_long
+  - title: "Warm spaces"
+    url: "https://warmspaces.org/"
+    map:
+      url: "https://warmspaces.org/spaces"
+      type: googlemap
+    register:
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform"
+  - title: "Aberdeen City Council"
+    url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
+    map:
+      url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
+      type: googlemap
+    register:
+      url: mailto:warmspace@aberdeencity.gov.uk
+  - title: "Bedford Council"
+    url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
+  - title: "Bradford Council"
+    url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
+    map:
+      url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
+      type: googlemap
+  - title: "Cambridge Council"
+    url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
+  - title: "Durham County Council"
+    url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+    register:
+      url: "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network"
+    map:
+      url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+      type: googlemap
+    data:
+      url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+      type: locatemarketplace
+  - title: "Gateshead Council"
+    url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
+    map:
+      url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*"
+      type: googlemap
+    data:
+      url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
+      type: html
+  - title: "Huntingdonshire Council"
+    url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
+    map:
+      url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
+      type: googlemap
+    data:
+      url: "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/"
+      type: html
+  - title: "Leeds City Council"
+    url: https://datamillnorth.org/dataset/leeds-warm-spaces
+    map:
+      url: https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/
+      type: arcgis
+    data:
+      url: https://services1.arcgis.com/brSffcdOV7o1pDVT/arcgis/rest/services/WarmSpacesNov_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects
+      type: geojson
+      keys:
+        title: Venue
+        address: Address
+        lat: Latitude
+        lon: Longitude
+        description: Description
+        accessibility: Accessibility_Comments
+        type: Venue_Type
+        monday: Monday
+        tuesday: Tuesday
+        wednesday: Wednesday
+        thursday: Thursday
+        friday: Friday
+        saturday: Saturday
+        sunday: Sunday
+  - title: "Sefton CVS"
+    url: "https://seftoncvs.org.uk/warmspaces/"
+    map:
+      url: "https://seftoncvs.org.uk/warmspaces/"
+      type: googlemap
+  - title: "Southwalk Council"
+    url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+    data:
+      url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+      type: html
+  - title: "Suffolk - Rural Coffee Caravan"
+    url: https://ruralcoffeecaravan.org.uk/map/
+    map:
+      url: "https://ruralcoffeecaravan.org.uk/map/"
+      type: googlemap
+  - title: "Sunderland Council"
+    url: "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
+    map:
+      url: "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg"
+      type: image
+  - title: "Surrey County Council warm hubs"
+    url: "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs"
+    map:
+      url: "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515"
+      type: arcgis
+    data:
+      url: "https://services2.arcgis.com/lLe1XejBt1om9C8p/arcgis/rest/services/WarmHomes_v1/FeatureServer/0/query?f=geojson&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333336%2C%22extent%22%3A%7B%22xmin%22%3A483642.0031000003%2C%22ymin%22%3A132818.2544999998%2C%22xmax%22%3A540462.7911999999%2C%22ymax%22%3A171644.57689999975%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D"
+      type: geojson
+      licence: none
+      keys:
+        title: Hub_Name
+        address: Address
+        hours: OpenHours
+  - title: "Wakefield Council"
+    url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
+    data:
+      url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
+      type: html
+    notes: "Wakefield Council website blocks automatic access of webpages"
+  - title: "Wolverhampton Council"
+    url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
+    data:
+      url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
+      type: html
+  - title: "Wandsworth Council"
+    url: "https://www.wandsworth.gov.uk/warm-spaces"
+    register:
+      url: "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network"
+    map:
+      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      type: leaflet
+    data:
+      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      type: html
