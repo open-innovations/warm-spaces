@@ -44,6 +44,18 @@ sub getJSON {
 	return JSON::XS->new->decode($str);	
 }
 
+sub tidyJSON {
+	my $json = shift;
+	my $depth = shift;
+	my $d = $depth+1;
+	
+	$txt = JSON::XS->new->canonical(1)->pretty->space_before(0)->encode($json);
+	$txt =~ s/   /\t/g;
+	$txt =~ s/([\{\,\"])\n\t{$d,}([\"\}])/$1 $2/g;
+	$txt =~ s/"\n\t{$depth}\}/\" \}/g;
+	return $txt;
+}
+
 sub makeJSON {
 	my $json = shift;
 	my $compact = shift;

@@ -39,8 +39,6 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	# Add an ID if we haven't provided one
 	if(!$d->{'id'}){ $d->{'id'} = getID($d->{'title'}); }
 
-	$sources->{$d->{'id'}} = $d;
-
 	# Print the title of this one
 	msg("$j: <cyan>$d->{'title'}<none>\n");
 
@@ -57,19 +55,19 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			$geojson = getJSON($file);
 
 			# How many features in the GeoJSON
-			$nf = @{$geojson->{'features'}};
-			if($nf == 0){
+			$d->{'count'} = @{$geojson->{'features'}};
+			if($d->{'count'} == 0){
 				warning("\tNo features for $d->{'title'}\n");
 			}else{
 
 				# For each feature 
-				for($f = 0; $f < $nf; $f++){
+				for($f = 0; $f < $d->{'count'}; $f++){
 					$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
 					$json->{'_source'} = $d->{'id'};
 					push(@warmplaces,$json);
 				}
-				msg("\tAdded $nf features.\n");
-				$total += $nf;
+				msg("\tAdded $d->{'count'} features.\n");
+				$total += $d->{'count'};
 			}
 		}elsif($d->{'data'}{'type'} eq "storepoint"){
 
@@ -79,20 +77,20 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			msg("\tProcessing Storepoint data\n");
 			$json = getJSON($file);
 
-			$nf = @{$json->{'results'}{'locations'}};
-			if($nf == 0){
+			$d->{'count'} = @{$json->{'results'}{'locations'}};
+			if($d->{'count'} == 0){
 				warning("\tNo features for $d->{'title'}\n");
 			}else{
 
 				# For each feature 
-				for($f = 0; $f < $nf; $f++){
+				for($f = 0; $f < $d->{'count'}; $f++){
 					$rtnjson = parseStorepointFeature($json->{'results'}{'locations'}[$f],$d->{'data'}{'keys'});
 					$rtnjson->{'_source'} = $d->{'id'};
 					push(@warmplaces,$rtnjson);
 				}
 
-				msg("\tAdded $nf features.\n");
-				$total += $nf;
+				msg("\tAdded $d->{'count'} features.\n");
+				$total += $d->{'count'};
 			}
 
 		}elsif($d->{'data'}{'type'} eq "html"){
@@ -120,13 +118,13 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 					};
 					if($@){ warning("\tInvalid output from scraper.\n".$str); }
 
-					$nf = @{$json};
-					for($f = 0; $f < $nf; $f++){
+					$d->{'count'} = @{$json};
+					for($f = 0; $f < $d->{'count'}; $f++){
 						$json->[$f]{'_source'} = $d->{'id'};
 						push(@warmplaces,$json->[$f]);
 					}
-					msg("\tAdded $nf features.\n");
-					$total += $nf;
+					msg("\tAdded $d->{'count'} features.\n");
+					$total += $d->{'count'};
 				}else{
 					warning("\tNo JSON returned from scraper\n");
 				}
@@ -135,14 +133,18 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 		}elsif($d->{'data'}{'type'} eq "squarespace"){
 
 			@features = getSquareSpace($d);
-			$nf = @features;
-			for($f = 0; $f < $nf; $f++){
+			$d->{'count'} = @features;
+			for($f = 0; $f < $d->{'count'}; $f++){
 				push(@warmplaces,$features[$f])
 			}
 			msg("\tAdded $nf features.\n");
-			$total += $nf;
+			$total += $d->{'count'};
 			
 		}
+	}
+	$sources->{$d->{'id'}} = $d;
+	if($sources->{$d->{'id'}}{'count'}){
+		$sources->{$d->{'id'}}{'count'} += 0;
 	}
 }
 open($fh,">:utf8",$dir."places.json");
@@ -150,7 +152,7 @@ print $fh makeJSON(\@warmplaces);
 close($fh);
 
 open($fh,">:utf8",$dir."sources.json");
-print $fh makeJSON($sources,1);
+print $fh tidyJSON($sources,2);
 close($fh);
 
 
