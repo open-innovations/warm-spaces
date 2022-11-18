@@ -30,9 +30,10 @@ jobs:
       - name: install cpanm and multiple modules
         uses: perl-actions/install-with-cpanm@v1
         with:
-          install: JSON::XS
-          install: YAML::XS
-          install: Web::Scraper
+          install: |
+            JSON::XS
+            YAML::XS
+            Web::Scraper
 
       # Runs script
       - name: Run build script
