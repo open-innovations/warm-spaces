@@ -5,3 +5,5 @@ With a cost-of-living crisis and an energy-price crisis, lots of people will be 
 ## Existing directories of warm spaces
 
 [Our directory of directories](https://open-innovations.github.io/warm-spaces/)
+
+To add more directories, update the [data/data.yml](data/data.yml) file then run `perl build.pl` in the `data/` sub-directory.
