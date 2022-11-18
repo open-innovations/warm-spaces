@@ -235,9 +235,9 @@
 		"lon": -1.960108,
 		"title": "All Saints Church Coffee Pot"
 	},{
-		"_source": "warm_welcome", "address": "All Saints Community Centre, Camborne, Cornwall TR148RQ", "description": "**Open from We are open Monday to Friday all year except for bank holidays and two weeks around Christmas.  Everyone is welcome  We have a community larder, a cafe for hot food, a computer room, a sensory room for people needing relaxation or a quiet environment, community laundrette, advocacy support, benefit support, and much more besides", "hours": { "_parsed": "Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-12:00, Fr 09:00-17:00", "friday": "09:00 - 17:00", "monday": "09:00 - 17:00", "thursday": "09:00 - 12:00", "tuesday": "09:00 - 17:00", "wednesday": "09:00 - 17:00" },
-		"lat": 50.21048,
-		"lon": -5.29952,
+		"_source": "warm_welcome", "address": "All Saints Community Centre, 75 Church View Road, Camborne, Cornwall TR148RQ", "description": "**Open from We are open Monday to Friday all year except for bank holidays and two weeks around Christmas.  Everyone is welcome  We have a community larder, a cafe for hot food, a computer room, a sensory room for people needing relaxation or a quiet environment, community laundrette, advocacy support, benefit support, and much more besides", "hours": { "_parsed": "Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-12:00, Fr 09:00-17:00", "friday": "09:00 - 17:00", "monday": "09:00 - 17:00", "thursday": "09:00 - 12:00", "tuesday": "09:00 - 17:00", "wednesday": "09:00 - 17:00" },
+		"lat": 50.220396,
+		"lon": -5.285497,
 		"title": "All Saints Church Community Centre"
 	},{
 		"_source": "warm_welcome", "address": "Blackwell Road, Huthwaite, Nottinghamshire NG17 2JT", "description": "  ", "hours": { "_parsed": "Mo 09:00-14:00, Tu 09:00-14:00, We 09:00-14:00, Th 09:00-14:00, Fr 09:00-14:00", "friday": "9:00 - 14:00", "monday": "9:00 - 14:00", "thursday": "9:00 - 14:00", "tuesday": "9:00 - 14:00", "wednesday": "9:00 - 14:00" },
@@ -409,6 +409,11 @@
 		"lat": 50.833445,
 		"lon": -0.485555,
 		"title": "Angmering Library"
+	},{
+		"_source": "warm_welcome", "address": "Copperworks Road, Llanelli, Carmarthenshire  SA15 2NE", "description": "Our community  We are a community cafe, you can sit and read, craft or work. We also offer hot meals from £2.50.", "hours": { "_parsed": "Tu 10:00-13:30, We 10:00-13:30, Th 10:00-13:30", "thursday": "10:00 - 13:30", "tuesday": "10:00 - 13:30", "wednesday": "10:00 - 13:30" },
+		"lat": 51.67296,
+		"lon": -4.16187,
+		"title": "Antioch Christian Centre"
 	},{
 		"_source": "warm_welcome", "address": "Chapel Street, Peterhead, Aberdeenshire AB42 1ZD", "description": "  Community Cafe", "hours": { "_parsed": "We 12:00-13:15", "wednesday": "12:00 - 13:15" },
 		"lat": 57.505565,
@@ -1225,6 +1230,11 @@
 		"lon": -3.005904,
 		"title": "Bridgwater Town Council"
 	},{
+		"_source": "warm_welcome", "address": "2nd Floor Bridlington Central Library, King Street , Bridlington, East Riding of Yorkshire YO15 2DF", "description": "**Open from 25/11/2022.  Our welcoming space is an adult only environment.	We're open as a welcoming space once a week bringing a morning of coffee, tea, biscuits and the opportunity to socialise with other like-minded people. We're also offering an afternoon of activities you're welcome to stay for too.", "hours": { "_parsed": "Fr 09:00-13:00", "friday": "09:00 - 13:00" },
+		"lat": 54.08225,
+		"lon": -0.19134,
+		"title": "Bridlington Adult Learning Centre"
+	},{
 		"_source": "warm_welcome", "address": "14 King Street, Bridlington, East Riding of Yorkshire YO15 2DF", "description": "**Open from 01/11/2022.	  East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.", "hours": { "_parsed": "Mo 09:30-17:00, We 09:30-18:00, Th 09:30-15:00, Sa 09:30-13:00", "monday": "09:30 - 17:00", "saturday": "09:30 - 13:00", "thursday": "09:30 - 15:00", "wednesday": "09:30 - 18:00" },
 		"lat": 54.082353,
 		"lon": -0.191397,
@@ -1510,16 +1520,6 @@
 		"lon": -1.91283,
 		"title": "Calderdale MBC"
 	},{
-		"_source": "warm_welcome", "address": "Northowram Library, Lydgate Northowram , Halifax HX3 7EJ", "description": "  Please note the library closes between 13:00 and 14:00 on Monday, Tuesday and ThursdayMonday, ", "hours": { "_parsed": "Mo 10:00-17:00, Tu 10:00-17:00, Th 10:00-17:00, Fr 14:00-17:00, Sa 10:00-13:00", "friday": "14:00 - 17:00", "monday": "10:00 - 17:00", "saturday": "10:00 - 13:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00" },
-		"lat": 53.7401,
-		"lon": -1.82993,
-		"title": "Calderdale MBC"
-	},{
-		"_source": "warm_welcome", "address": "Mixenden Library, Mixenden Activity Centre Clough Lane, Mixenden, Halifax  HX2 8SH", "description": "  We also have a selection of board games, which are free to use, and free crafts for kids too. use. ", "hours": { "_parsed": "Tu 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00", "friday": "10:00 - 17:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00" },
-		"lat": 53.75358,
-		"lon": -1.90936,
-		"title": "Calderdale MBC"
-	},{
 		"_source": "warm_welcome", "address": "Todmorden Library, Todmorden, West Yorkshire OL14 7UD", "description": "Jigsaws available", "hours": { "_parsed": "Mo 10:00-18:30, Tu 10:00-17:00, We 10:00-17:00, Fr 10:00-18:30, Sa 10:00-16:00", "friday": "10:00 - 18:30", "monday": "10:00 - 18:30", "saturday": "10:00 - 16:00", "tuesday": "10:00 - 17:00", "wednesday": "10:00 - 17:00" },
 		"lat": 53.713671,
 		"lon": -2.097827,
@@ -1553,6 +1553,16 @@
 		"_source": "warm_welcome", "address": "Brighouse Library, Halifax Road, Brighouse HD6 2AF", "hours": { "_parsed": "Mo 10:00-18:30, Tu 10:00-17:00, Th 10:00-17:00, Fr 10:00-18:30, Sa 10:00-16:00", "friday": "10:00 - 18:30", "monday": "10:00 - 18:30", "saturday": "10:00 - 16:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00" },
 		"lat": 53.70371,
 		"lon": -1.78692,
+		"title": "Calderdale MBC"
+	},{
+		"_source": "warm_welcome", "address": "Northowram Library, Lydgate Northowram , Halifax HX3 7EJ", "description": "  Please note the library closes between 13:00 and 14:00 on Monday, Tuesday and ThursdayMonday, ", "hours": { "_parsed": "Mo 10:00-17:00, Tu 10:00-17:00, Th 10:00-17:00, Fr 14:00-17:00, Sa 10:00-13:00", "friday": "14:00 - 17:00", "monday": "10:00 - 17:00", "saturday": "10:00 - 13:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00" },
+		"lat": 53.7401,
+		"lon": -1.82993,
+		"title": "Calderdale MBC"
+	},{
+		"_source": "warm_welcome", "address": "Mixenden Library, Mixenden Activity Centre Clough Lane, Mixenden, Halifax  HX2 8SH", "description": "  We also have a selection of board games, which are free to use, and free crafts for kids too. use. ", "hours": { "_parsed": "Tu 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00", "friday": "10:00 - 17:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00" },
+		"lat": 53.75358,
+		"lon": -1.90936,
 		"title": "Calderdale MBC"
 	},{
 		"_source": "warm_welcome", "address": "Maxwellton Road, East Kilbride, GLASGOW, Lanarkshire G74 3LW", "description": "**Open from 31-10-2022.	 ", "hours": { "_parsed": "Mo 13:00-15:00, Tu 15:00-17:00, We 11:00-15:00, Th 15:00-17:00", "monday": "13:00 - 15:00", "thursday": "15:00 - 17:00", "tuesday": "15:00 - 17:00", "wednesday": "11:00 - 15:00" },
@@ -1930,7 +1940,7 @@
 		"lon": -2.631009,
 		"title": "Chorley URC"
 	},{
-		"_source": "warm_welcome", "address": "CHORLTON CEENTRAL CHURCH, CHORLTON, MANCHESTER M21 8BF", "description": "**Open from 24/11/2022.	 We are open every Sunday morning from 10.30 for a church service. Refreshments of tea and coffee are served after the service and we have a free soup lunch once a month to which all are welcome.", "hours": { "_parsed": "Su 10:30-13:00", "sunday": "10:30 - 13:00" },
+		"_source": "warm_welcome", "address": "CHORLTON CEENTRAL CHURCH, CHORLTON, MANCHESTER M21 8BF", "description": "**Open from 24/11/2022.	 We are open every Sunday morning from 10.30 for a church service. Refreshments of tea and coffee are served after the service and we have a free soup lunch once a month to which all are welcome. On Thursdays there is a simple pasta meal and activities for ", "hours": { "_parsed": "Th 15:30-18:00, Su 10:30-13:00", "sunday": "10:30 - 13:00", "thursday": "15:30 - 18:00" },
 		"lat": 53.43921,
 		"lon": -2.27472,
 		"title": "CHORLTON CENTRAL CHURCH"
@@ -2405,6 +2415,11 @@
 		"lon": -1.656853,
 		"title": "Cornerstone Benwell"
 	},{
+		"_source": "warm_welcome", "address": "45 Fobbing Road, Corringham, Essex SS17 9BN", "description": "**Open from Wednesday 23rd November 2022.	 Board games, Puzzles, Crosswords and more!", "hours": { "_parsed": "We 08:30-13:30", "wednesday": "08:30 - 13:30" },
+		"lat": 51.525758,
+		"lon": 0.46341,
+		"title": "Corringham Evangelical Church"
+	},{
 		"_source": "warm_welcome", "address": "Park Road, Cosby, Leicestershire  LE9 1RN", "description": "**Open from 24/11/22.  We cater for any age group - children to be accompanied by an adult.	Books, jigsaws, quiet space, chatty space, but most importantly, a warm welcome and warm space!", "hours": { "_parsed": "Th 14:00-18:00", "thursday": "14:00 - 18:00" },
 		"lat": 52.550127,
 		"lon": -1.195774,
@@ -2760,10 +2775,20 @@
 		"lon": -1.02784,
 		"title": "Doncaster Council, East Family Hubs"
 	},{
+		"_source": "warm_welcome", "address": "Doncaster Minster, Church Street, Doncaster DN1 1RD", "description": "  ", "hours": { "_parsed": "Mo 10:30-15:00, Tu 10:30-15:00, We 10:30-15:00, Th 10:30-15:00, Fr 10:30-15:00, Sa 10:30-13:30", "friday": "10:30 - 15:00", "monday": "10:30 - 15:00", "saturday": "10:30 - 13:30", "thursday": "10:30 - 15:00", "tuesday": "10:30 - 15:00", "wednesday": "10:30 - 15:00" },
+		"lat": 53.52604,
+		"lon": -1.13469,
+		"title": "Doncaster Minster"
+	},{
 		"_source": "warm_welcome", "address": "1 Bridport Road, Dorchester, Dorset DT1 1RR", "description": "  Come and enjoy warmth, company and hot refreshments in a safe space at the Wednesday morning Cafe. The Lounge is also open on the last Friday of every month for refreshments and games too if you wish.", "hours": { "_parsed": "We 10:00-12:00, Fr 14:30-16:00", "friday": "14:30 - 16:00 /  -  Monthly", "wednesday": "10:00 - 12:00" },
 		"lat": 50.71459,
 		"lon": -2.44245,
 		"title": "Dorchester Baptist Church"
+	},{
+		"_source": "warm_welcome", "address": "Liscombe Street, Poundbury, Dorchester, Dorset DT1 3DF", "description": "**Open from 23rd November 2022.	 A Warm Welcome to Everyone on Wednesdays with free Tea, Coffee, Biscuits & Cake.", "hours": { "_parsed": "We 11:00-15:00", "wednesday": "11:00 - 15:00" },
+		"lat": 50.71587,
+		"lon": -2.46156,
+		"title": "Dorchester Community Church"
 	},{
 		"_source": "warm_welcome", "address": "48 South Street, 48 South Street, Dorchester, Dorset DT1 1DQ", "description": "  ", "hours": { "_parsed": "Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00", "friday": "10:00 - 16:00", "monday": "10:00 - 16:00", "thursday": "10:00 - 16:00", "tuesday": "10:00 - 16:00", "wednesday": "10:00 - 16:00" },
 		"lat": 50.713089,
@@ -2935,6 +2960,11 @@
 		"lon": -2.28232,
 		"title": "Eden family Cafe "
 	},{
+		"_source": "warm_welcome", "address": "The Salvation Army, 1 East Adam Street, Edinburgh EH8 9TF", "description": "**Open from 03-11-2022.	 Our 'Toasty' cafe is open from 10am-2.30pm serving simple hot food and drinks.  Debt Advice Service and Digital Skills Training Service also running at the same time.", "hours": { "_parsed": "Th 10:00-14:30", "thursday": "10:00 - 14:30" },
+		"lat": 55.94736,
+		"lon": -3.18258,
+		"title": "Edinburgh City Salvation Army"
+	},{
 		"_source": "warm_welcome", "address": "Martinwells Centre, Thompson Avenue, Edlington, Doncaster DN12 1JD", "description": "  ", "hours": { "_parsed": "Mo 08:40-13:00, Tu 08:40-13:00, We 08:40-13:00, Th 08:40-13:00, Fr 08:40-13:00, Sa 08:40-12:50", "friday": "08:40 - 13:00 / 13:30 - 17:00 ", "monday": "08:40 - 13:00 / 13:30 - 17:00 ", "saturday": "08:40 - 12:50", "thursday": "08:40 - 13:00 / 13:30 - 17:00 ", "tuesday": "08:40 - 13:00  / 13:30 - 17:00 ", "wednesday": "08:40 - 13:00 / 13:30 - 16:00 " },
 		"lat": 53.48096,
 		"lon": -1.19394,
@@ -2974,6 +3004,11 @@
 		"lat": 53.27673,
 		"lon": -2.901924,
 		"title": "Ellesmere Port Library"
+	},{
+		"_source": "warm_welcome", "address": "Hospital Road, Ellon, Aberdeenshire AB41 9AW", "description": "**Open from 23-11-2022.  We cater for adults (mother and babies are allowed)  Table top games", "hours": { "_parsed": "We 11:00-15:00", "wednesday": "11:00 - 15:00 /  -  Fortnightly" },
+		"lat": 57.368432,
+		"lon": -2.084278,
+		"title": "Ellon and District Men's Shed"
 	},{
 		"_source": "warm_welcome", "address": "Station Road, Ellon , Aberdeenshire AB41 9AE", "description": "**Open from 11-11-2022.  All ages welcome, toys available for children.	Free homemade soup available, plus rolls & hot/cold drinks for all. ", "hours": { "_parsed": "Fr 12:00-14:00", "friday": "12:00 - 14:00" },
 		"lat": 57.365604,
@@ -3485,14 +3520,14 @@
 		"lon": -1.60089,
 		"title": "Gateshead Libraries"
 	},{
-		"_source": "warm_welcome", "address": "Leam Lane Library, 129 Cotemede, Leam Lane NE10 8QH", "hours": { "_parsed": "Mo 09:00-19:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:00-13:00", "friday": "09:00 - 17:00", "monday": "09:00 - 19:00", "saturday": "09:00 - 13:00", "thursday": "09:00 - 19:00", "tuesday": "09:00 - 17:00", "wednesday": "09:00 - 17:00" },
-		"lat": 54.93995,
-		"lon": -1.54653,
-		"title": "Gateshead Libraries"
-	},{
 		"_source": "warm_welcome", "address": "Chopwell Primary School, Derwent Street, Chopwell NE17 7HS", "hours": { "_parsed": "Mo 09:00-17:00, Tu 09:00-17:00, Th 09:00-17:00, Sa 09:00-13:00", "monday": "09:00 - 17:00", "saturday": "09:00 - 13:00", "thursday": "09:00 - 17:00", "tuesday": "09:00 - 17:00" },
 		"lat": 54.9186,
 		"lon": -1.81692,
+		"title": "Gateshead Libraries"
+	},{
+		"_source": "warm_welcome", "address": "Leam Lane Library, 129 Cotemede, Leam Lane NE10 8QH", "hours": { "_parsed": "Mo 09:00-19:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:00-13:00", "friday": "09:00 - 17:00", "monday": "09:00 - 19:00", "saturday": "09:00 - 13:00", "thursday": "09:00 - 19:00", "tuesday": "09:00 - 17:00", "wednesday": "09:00 - 17:00" },
+		"lat": 54.93995,
+		"lon": -1.54653,
 		"title": "Gateshead Libraries"
 	},{
 		"_source": "warm_welcome", "address": "Gateway 2 New Life, Gateway Centre, Madford Lane, Launceston, Cornwall PL15 9TR", "description": "  The largest community centre in Launceston. We offer plenty of space to come and relax in our community cafe, Cafe Avodah.", "hours": { "_parsed": "Mo 09:00-15:30, Tu 09:00-15:30, We 09:00-15:30, Th 09:00-15:30, Fr 09:00-15:30, Su 10:00-14:00", "friday": "09:00 - 15:30", "monday": "09:00 - 15:30", "sunday": "10:00 - 14:00", "thursday": "09:00 - 15:30", "tuesday": "09:00 - 15:30", "wednesday": "09:00 - 15:30" },
@@ -3930,7 +3965,7 @@
 		"lon": -0.99658,
 		"title": "Hatfield Community Library "
 	},{
-		"_source": "warm_welcome", "address": "Two Trees Lane, Haugthon Green, Denton M34 7AJ", "description": "**Open from 05-12-2022.	 ", "hours": { "_parsed": "Mo 12:30-03:30", "monday": "12:30 - 3:30" },
+		"_source": "warm_welcome", "address": "Two Trees Lane, Haugthon Green, Denton M34 7AJ", "description": "**Open from 05-12-2022.	 ", "hours": { "_parsed": "Mo 12:30-03:30, We 10:00-12:00", "monday": "12:30 - 3:30", "wednesday": "10:00 - 12:00" },
 		"lat": 53.44495,
 		"lon": -2.09939,
 		"title": "Haughton Green Methodist Centre"
@@ -4230,6 +4265,11 @@
 		"lon": -5.94708,
 		"title": "Holy Trinity Ballylesson, Church of Ireland"
 	},{
+		"_source": "warm_welcome", "address": "Holy Trinity Church, Malvern, Worcs WR14 4LR", "description": "We aim to be as inclusive as possible  This is a coffee morning with a warm welcome ", "hours": { "_parsed": "" },
+		"lat": 52.11849,
+		"lon": -2.32903,
+		"title": "Holy Trinity Church "
+	},{
 		"_source": "warm_welcome", "address": "50 Norris Road, Chester, Cheshire CH1 5DZ", "description": "**Open from 17/10/22.	 ", "hours": { "_parsed": "Mo 12:00-17:00, Th 11:45-17:00, Su 13:00-18:00", "monday": "12:00 - 17:00", "sunday": "13:00 - 18:00", "thursday": "11:45 - 17:00" },
 		"lat": 53.2091,
 		"lon": -2.92631,
@@ -4249,11 +4289,6 @@
 		"lat": 51.249651,
 		"lon": -0.174623,
 		"title": "Holy Trinity Church"
-	},{
-		"_source": "warm_welcome", "address": "Holy Trinity Church, Malvern, Worcs WR14 4LR", "description": "We aim to be as inclusive as possible  This is a coffee morning with a warm welcome ", "hours": { "_parsed": "" },
-		"lat": 52.11849,
-		"lon": -2.32903,
-		"title": "Holy Trinity Church "
 	},{
 		"_source": "warm_welcome", "address": "Holy Trinity Church 2 Rolle Road, Exmouth, Devon EX8 2AB", "description": "  Holy Trinity Cafe is a warm, welcoming, and safe space where anyone can drop in for a cup of coffee, toast and a chat. The access is level and children and dogs are welcome.", "hours": { "_parsed": "Mo 10:00-12:00, Tu 10:00-12:00, We 10:00-12:00, Th 10:00-12:00, Fr 10:00-12:00, Sa 10:00-12:00, Su 09:30-11:30", "friday": "10:00 - 12:00", "monday": "10:00 - 12:00", "saturday": "10:00 - 12:00", "sunday": "09:30 - 11:30", "thursday": "10:00 - 12:00", "tuesday": "10:00 - 12:00", "wednesday": "10:00 - 12:00" },
 		"lat": 50.61719,
@@ -4315,7 +4350,7 @@
 		"lon": -2.055705,
 		"title": "Holy Trinity Stalybridge"
 	},{
-		"_source": "warm_welcome", "address": "Mossford Grn, Ilford IG6 2BX", "description": "  We can make hot soup. Mondays & Wednesdays we are in the church building; Tuesdays we open up our Parish Hall next door, and this includes play area for children.", "hours": { "_parsed": "Mo 10:00-12:00, Tu 09:00-13:00, We 10:30-12:00", "monday": "10:00 - 12:00", "tuesday": "9:00 - 13:00", "wednesday": "10:30 - 12:00" },
+		"_source": "warm_welcome", "address": "Mossford Grn, Ilford IG6 2BX", "description": "  We can make hot soup. Mondays & Wednesdays we are in the church building; Tuesdays we open up our Parish Hall next door, and this includes play area for children.", "hours": { "_parsed": "Mo 10:00-12:00, Tu 09:00-13:00, We 10:30-12:00, Fr 10:00-12:00", "friday": "10:00 - 12:00", "monday": "10:00 - 12:00", "tuesday": "9:00 - 13:00", "wednesday": "10:30 - 12:00" },
 		"lat": 51.58922,
 		"lon": 0.078258,
 		"title": "Holy Trinity, Barkingside"
@@ -4935,6 +4970,11 @@
 		"lon": -3.46373,
 		"title": "KNEC Community Listening Project "
 	},{
+		"_source": "warm_welcome", "address": "Knighton and District Community Centre, Bowling Green Lane, Knighton, Powys ld7 1dr", "description": "  Mondays: Families only (Family Centre), also offer Library opening hours https://en.powys.gov.uk/knightonlibrary", "hours": { "_parsed": "Mo 11:00-14:00, Tu 10:00-13:00, Th 10:00-14:00", "monday": "11:00 - 14:00", "thursday": "10:00 - 14:00", "tuesday": "10:00 - 13:00" },
+		"lat": 52.34327,
+		"lon": -3.045947,
+		"title": "Knighton and District Community Centre"
+	},{
 		"_source": "warm_welcome", "address": "165 Clarendon Park Road, Leicester, Leicester LE2 3AJ", "description": "  ", "hours": { "_parsed": "Mo 10:00-18:30, Tu 10:00-18:30, We 10:00-18:30, Th 10:00-18:30, Fr 10:00-18:30, Sa 10:00-16:00", "friday": "10:00 - 18:30", "monday": "10:00 - 18:30", "saturday": "10:00 - 16:00", "thursday": "10:00 - 18:30", "tuesday": "10:00 - 18:30", "wednesday": "10:00 - 18:30" },
 		"lat": 52.616479,
 		"lon": -1.118329,
@@ -4994,6 +5034,11 @@
 		"lat": 51.036621,
 		"lon": -2.828874,
 		"title": "Langport Library"
+	},{
+		"_source": "warm_welcome", "address": "27 Machan Road, Larkhall, South Lanarkshire ML9 1HX", "description": "  ", "hours": { "_parsed": "Tu 12:00-14:00, We 12:00-14:00", "tuesday": "12:00 - 14:00", "wednesday": "12:00 - 14:00" },
+		"lat": 55.733605,
+		"lon": -3.96902,
+		"title": "Larkhall Baptist Church"
 	},{
 		"_source": "warm_welcome", "address": "Carnethie Street, Rosewell, Midlothian EH24 9DN", "description": "**Open from Wednesday mornings from 10.00 a.m. to 12 noon.	 This will be a \"Warm Space\" for members of the community to access.", "hours": { "_parsed": "" },
 		"lat": 55.852401,
@@ -5635,6 +5680,11 @@
 		"lon": 1.633417,
 		"title": "Martham Library"
 	},{
+		"_source": "warm_welcome", "address": "7 The Willows, Marton, Middlesbrough TS7 8BL", "description": "**Open from 11/11/2022.	 ", "hours": { "_parsed": "Mo 09:30-12:00, Th 09:30-12:00, Fr 09:30-12:00, Sa 09:30-12:30", "friday": "09:30 - 12:00 / 13:00 - 17:00 ", "monday": "9:30 - 12:00 / 13:00 - 17:00 ", "saturday": "9:30 - 12:30", "thursday": "9:30 - 12:00 / 13:00 - 17:00 " },
+		"lat": 54.531416,
+		"lon": -1.197647,
+		"title": "Marton Community Hub & Library"
+	},{
 		"_source": "warm_welcome", "address": "15-17 Shakespeare Street, Glasgow G20 8TH", "description": "  ", "hours": { "_parsed": "Fr 12:00-16:00", "friday": "12:00 - 16:00" },
 		"lat": 55.88557,
 		"lon": -4.28593,
@@ -5700,6 +5750,11 @@
 		"lon": -2.92158,
 		"title": "MHA Communities Cheshire West"
 	},{
+		"_source": "warm_welcome", "address": "Mickleover Library, Holly End Road, Derby DE3 0GA", "description": "  ", "hours": { "_parsed": "Mo 13:00-17:00, Tu 10:00-17:00, Th 10:00-19:00, Fr 10:00-17:00, Sa 10:00-13:00", "friday": "10:00 - 17:00", "monday": "13:00 - 17:00", "saturday": "10:00 - 13:00", "thursday": "10:00 - 19:00", "tuesday": "10:00 - 17:00" },
+		"lat": 52.90486,
+		"lon": -1.54539,
+		"title": "Mickleover Library"
+	},{
 		"_source": "warm_welcome", "address": "Grove Hill Community Hub , Middlesbrough Council , Middlesbrough  Ts4 2RP", "description": "  ", "hours": { "_parsed": "Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00", "friday": "9:00 - 16:00", "monday": "9:00 - 16:00", "thursday": "9:00 - 16:00", "tuesday": "9:00 - 16:00", "wednesday": "9:00 - 16:00" },
 		"lat": 54.55895,
 		"lon": -1.22665,
@@ -5754,6 +5809,11 @@
 		"lat": 51.206394,
 		"lon": -3.482713,
 		"title": "Minehead Baptist Church"
+	},{
+		"_source": "warm_welcome", "address": "Bancks Street, Minehead, Somerset TA24 5DG", "description": "Wherever you are on life’s journey you are welcome.  We have hot drinks, biscuits and sometimes cake after our Sunday morning service. Sometimes our services are held in the church hall. ", "hours": { "_parsed": "We 10:30-12:00, Th 14:30-16:00, Sa 10:30-12:00, Su 10:30-12:00", "saturday": "10:30 - 12:00 /  -  Monthly", "sunday": "10:30 - 12:00", "thursday": "14:30 - 16:00 /  -  Monthly", "wednesday": "10:30 - 12:00" },
+		"lat": 51.204995,
+		"lon": -3.477599,
+		"title": "Minehead United Reformed Church"
 	},{
 		"_source": "warm_welcome", "address": "East Thorpe Lodge, Huddersfield Road, Mirfield, West Yorkshire WF14 8AN", "description": "  All our libraries are heated, comfortable to stay in for long periods of time - they have a range of both comfy seating, and more functional furniture for study or computer use.  A place to keep warm, meet friends, sit and read and take part in activities.", "hours": { "_parsed": "Mo 10:00-19:00, Tu 10:00-13:00, We 10:00-19:00, Th 10:00-13:00, Fr 10:00-17:00, Sa 10:00-14:30", "friday": "10:00 - 17:00", "monday": "10:00 - 19:00", "saturday": "10:00 - 14:30", "thursday": "10:00 - 13:00", "tuesday": "10:00 - 13:00", "wednesday": "10:00 - 19:00" },
 		"lat": 53.67411,
@@ -6054,6 +6114,11 @@
 		"lat": 52.994708,
 		"lon": -2.219692,
 		"title": "Newcastle Baptist Church"
+	},{
+		"_source": "warm_welcome", "address": "Church Hill, Newhaven, East sussex BN9 9NA", "description": "  ", "hours": { "_parsed": "We 09:30-13:00, Fr 09:30-13:00", "friday": "9:30 - 13:00", "wednesday": "9:30 - 13:00" },
+		"lat": 50.791549,
+		"lon": 0.044539,
+		"title": "Newhaven Baptist Church"
 	},{
 		"_source": "warm_welcome", "address": "Chywoone Hill, Newlyn, Cornwall TR18 5AD", "description": "  ", "hours": { "_parsed": "Sa 09:00-12:00", "saturday": "09:00 - 12:00" },
 		"lat": 50.101475,
@@ -6740,7 +6805,7 @@
 		"lon": -0.50069,
 		"title": "Pulborough Library"
 	},{
-		"_source": "warm_welcome", "address": "PXI - Mount Tabor, Sheffield, South Yorkshire S5 8NJ", "description": "  ", "hours": { "_parsed": "Tu 09:00-12:00, Th 09:00-12:00", "thursday": "09:00 - 12:00", "tuesday": "09:00 - 12:00" },
+		"_source": "warm_welcome", "address": "PXI - Mount Tabor, Mount Tabor Methodist Church, 258 Wordsworth Avenue, Sheffield, South Yorkshire S5 8NJ", "description": "  ", "hours": { "_parsed": "Tu 09:00-12:00, Th 09:00-12:00", "thursday": "09:00 - 12:00", "tuesday": "09:00 - 12:00" },
 		"lat": 53.42499,
 		"lon": -1.48574,
 		"title": "PXI-Parson Cross Initiative Projects & Share Community Chaplaincy"
@@ -7230,7 +7295,7 @@
 		"lon": -2.329692,
 		"title": "Sale Salvation Army"
 	},{
-		"_source": "warm_welcome", "address": "St Edmund's Church Street, Salisbury, Wiltshire SP1 1EF", "description": "  The Listening Place - informal and confidential listening service - operates while foyer is open", "hours": { "_parsed": "We 10:00-12:00", "wednesday": "10:00 - 12:00" },
+		"_source": "warm_welcome", "address": "St Edmund's Church Street, Salisbury, Wiltshire SP1 1EF", "description": "  The Listening Place - informal and confidential listening service - operates while foyer is open", "hours": { "_parsed": "We 10:00-12:00, Sa 10:00-12:00", "saturday": "10:00 - 12:00", "wednesday": "10:00 - 12:00" },
 		"lat": 51.070697,
 		"lon": -1.792036,
 		"title": "Salisbury Methodist Church"
@@ -7755,14 +7820,14 @@
 		"lon": -2.71482,
 		"title": "St Ambrose Widnes"
 	},{
-		"_source": "warm_welcome", "address": "St. Andrews Church, WOKING, Surrey GU21 3LG", "description": "**Open from November 1st.	 We are dog friendly", "hours": { "_parsed": "Mo 09:00-14:30, Tu 09:00-14:30, We 09:00-14:30, Th 09:00-14:30", "monday": "9:00 - 14:30", "thursday": "9:00 - 14:30", "tuesday": "9:00 - 14:30", "wednesday": "9:00 - 14:30" },
-		"lat": 51.31881,
-		"lon": -0.59073,
-		"title": "St Andrew's Church"
-	},{
 		"_source": "warm_welcome", "address": "Worden Lane, Leyland, Lancashire PR25 3EL", "description": "  ", "hours": { "_parsed": "Fr 10:00-11:30, Sa 10:00-12:00", "friday": "10:00 - 11:30", "saturday": "10:00 - 12:00" },
 		"lat": 53.68521,
 		"lon": -2.695137,
+		"title": "St Andrew's Church"
+	},{
+		"_source": "warm_welcome", "address": "St. Andrews Church, WOKING, Surrey GU21 3LG", "description": "**Open from November 1st.	 We are dog friendly", "hours": { "_parsed": "Mo 09:00-14:30, Tu 09:00-14:30, We 09:00-14:30, Th 09:00-14:30", "monday": "9:00 - 14:30", "thursday": "9:00 - 14:30", "tuesday": "9:00 - 14:30", "wednesday": "9:00 - 14:30" },
+		"lat": 51.31881,
+		"lon": -0.59073,
 		"title": "St Andrew's Church"
 	},{
 		"_source": "warm_welcome", "address": "153 Colworth Road, Leytonstone, London E11 1JD", "description": "  Monday 5.30pm - 7.30pm free quiz night and dinner.  Thursday 6pm - 8.30pm free Film Night & popcorn", "hours": { "_parsed": "Mo 15:00-16:30, Th 11:00-14:30", "monday": "15:00 - 16:30", "thursday": "11:00 - 14:30" },
@@ -7810,11 +7875,6 @@
 		"lon": -2.87296,
 		"title": "St Andrews Church Centre"
 	},{
-		"_source": "warm_welcome", "address": "St Andrews Methodist Church, Crawley Road, Horsham RH12 4DX", "description": "**Open from 24/10/2022.  Our focus is on providing a safe and warm space for people to spend time with others, for company and friendship.  A variety of opportunities to come in and keep warm through the week. Tuesday is the Horsham Matters Connecting Cafe with subsidised/pay-it-forward meals. Tea/coffee and simple refreshments will be available on all other days.", "hours": { "_parsed": "Mo 14:00-16:00, Tu 11:30-13:30, We 10:00-12:00, Th 10:00-12:00, Fr 10:30-13:30", "friday": "10:30 - 13:30", "monday": "14:00 - 16:00", "thursday": "10:00 - 12:00", "tuesday": "11:30 - 13:30", "wednesday": "10:00 - 12:00" },
-		"lat": 51.07417,
-		"lon": -0.29947,
-		"title": "St Andrews Methodist Church"
-	},{
 		"_source": "warm_welcome", "address": "St Andrews Church, Western Way, Basingstoke , Hampshire  RG22 6ER", "hours": { "_parsed": "Tu 10:00-13:30, We 10:00-13:30, Th 10:00-13:30", "thursday": "10:00 - 13:30", "tuesday": "10:00 - 13:30", "wednesday": "10:00 - 13:30" },
 		"lat": 51.2566,
 		"lon": -1.11302,
@@ -7823,6 +7883,11 @@
 		"_source": "warm_welcome", "address": "Stafford Square, Halifax, West Yorkshire HX3 0AT", "description": "**Open from 15/11/2022.  All welcome  A friendly welcome awaits in the Moore Hall time for a chat over a cuppa, maybe a jigsaw, puzzles or sit quietly. It's up to you", "hours": { "_parsed": "Tu 13:00-17:00", "tuesday": "13:00 - 17:00" },
 		"lat": 53.707343,
 		"lon": -1.856456,
+		"title": "St Andrews Methodist Church"
+	},{
+		"_source": "warm_welcome", "address": "St Andrews Methodist Church, Crawley Road, Horsham RH12 4DX", "description": "**Open from 24/10/2022.  Our focus is on providing a safe and warm space for people to spend time with others, for company and friendship.  A variety of opportunities to come in and keep warm through the week. Tuesday is the Horsham Matters Connecting Cafe with subsidised/pay-it-forward meals. Tea/coffee and simple refreshments will be available on all other days.", "hours": { "_parsed": "Mo 14:00-16:00, Tu 11:30-13:30, We 10:00-12:00, Th 10:00-12:00, Fr 10:30-13:30", "friday": "10:30 - 13:30", "monday": "14:00 - 16:00", "thursday": "10:00 - 12:00", "tuesday": "11:30 - 13:30", "wednesday": "10:00 - 12:00" },
+		"lat": 51.07417,
+		"lon": -0.29947,
 		"title": "St Andrews Methodist Church"
 	},{
 		"_source": "warm_welcome", "address": "St Ann's RC Church, 29, Vicarage Avenue, Cheadle Hulme SK8 7JW", "description": "  We are working with other churches in Cheadle Hulme to ensure that there is a Warm Space open in the area every day of the week.", "hours": { "_parsed": "Fr 13:00-16:00", "friday": "13:00 - 16:00" },
@@ -8115,19 +8180,24 @@
 		"lon": -2.85946,
 		"title": "St Hilda's Church, Hunts Cross"
 	},{
+		"_source": "warm_welcome", "address": "St John-in-the-Fields Hall, St Ives, Cornwall TR26 2FB", "description": "  On Wednesdays we offer arts & crafts activities from 10.30 till 12, drop in session. On Friday it's a community meal - max 30 spaces. Simply call or text 07769 624410 to book.", "hours": { "_parsed": "We 10:30-14:00, Fr 17:30-19:30", "friday": "17:30 - 19:30", "wednesday": "10:30 - 14:00" },
+		"lat": 50.20722,
+		"lon": -5.49475,
+		"title": "St Ives Community Foodshare"
+	},{
 		"_source": "warm_welcome", "address": "4 Library Row, Station Road, St Ives, Cambridgeshire PE27 5BW", "description": "  The library is open via self service access outside of core library hours. Please see a member of staff for more details.", "hours": { "_parsed": "Mo 09:30-19:00, Tu 09:30-17:00, We 09:30-17:00, Th 09:30-13:00, Fr 09:30-17:00, Sa 09:30-16:00", "friday": "09:30 - 17:00", "monday": "09:30 - 19:00", "saturday": "09:30 - 16:00", "thursday": "09:30 - 13:00", "tuesday": "09:30 - 17:00", "wednesday": "09:30 - 17:00" },
 		"lat": 52.32216,
 		"lon": -0.06925,
 		"title": "St Ives Library"
 	},{
-		"_source": "warm_welcome", "address": "395 Tile Hill Lane, Coventry , West Midlands  CV4 9DP", "description": "  ", "hours": { "_parsed": "Fr 09:15-14:00", "friday": "9:15 - 14:00" },
-		"lat": 52.40248,
-		"lon": -1.56893,
-		"title": "St James Church "
-	},{
 		"_source": "warm_welcome", "address": "Blake Street, Barrow-in-Furness, Cumbria  LA14 1NY", "description": "We offer a friendly space for everyone.	We offer some activities, or the chance to sit and and chat with others", "hours": { "_parsed": "Th 13:00-16:00", "thursday": "13:00 - 16:00" },
 		"lat": 54.117604,
 		"lon": -3.235441,
+		"title": "St James Church "
+	},{
+		"_source": "warm_welcome", "address": "395 Tile Hill Lane, Coventry , West Midlands  CV4 9DP", "description": "  ", "hours": { "_parsed": "Fr 09:15-14:00", "friday": "9:15 - 14:00" },
+		"lat": 52.40248,
+		"lon": -1.56893,
 		"title": "St James Church "
 	},{
 		"_source": "warm_welcome", "address": "Church Street, Trowbridge, Wiltshire BA148DU", "description": "  ", "hours": { "_parsed": "Mo 10:00-12:00, We 10:00-12:00, Sa 10:00-12:00", "monday": "10:00 - 12:00", "saturday": "10:00 - 12:00", "wednesday": "10:00 - 12:00" },
@@ -8635,7 +8705,7 @@
 		"lon": -2.15536,
 		"title": "St Paul's Church"
 	},{
-		"_source": "warm_welcome", "address": "St Paul's Church, Bishopton Road, Stockton on Tees TS18 4PB", "description": "Tuesday is only for children and parents/guardians  Tuesdays is Toddler morning - come and bring your little ones! Wednesday is open to all for coffee and a warm place. Thursday is Board Games Day - Bring a game or play one of ours!", "hours": { "_parsed": "Tu 10:00-11:30, We 10:00-12:00, Th 19:00-22:00, Sa 10:00-12:00, Su 10:30-12:30", "saturday": "10:00 - 12:00 /  -  Monthly", "sunday": "10:30 - 12:30", "thursday": "19:00 - 22:00", "tuesday": "10:00 - 11:30", "wednesday": "10:00 - 12:00" },
+		"_source": "warm_welcome", "address": "St Paul's Church, Bishopton Road, Stockton on Tees TS18 4PB", "description": "Tuesday is only for children and parents/guardians  Tuesdays is Toddler morning - come and bring your little ones! Wednesday is open to all for coffee and a warm place. Thursday is Board Games Day - Bring a game or play one of ours!", "hours": { "_parsed": "Tu 10:00-11:30, We 10:00-12:00, Sa 10:00-12:00, Su 10:30-12:30", "saturday": "10:00 - 12:00 /  -  Monthly", "sunday": "10:30 - 12:30", "tuesday": "10:00 - 11:30", "wednesday": "10:00 - 12:00" },
 		"lat": 54.57031,
 		"lon": -1.33078,
 		"title": "St Paul's Church Stockton-on-Tees"
@@ -8939,6 +9009,11 @@
 		"lat": 54.45806,
 		"lon": -6.339145,
 		"title": "St. John the Evangelist"
+	},{
+		"_source": "warm_welcome", "address": "High Park Road, Ryde, Isle of Wight PO33 1BX", "description": "**Open from 24th November 2022.	 ", "hours": { "_parsed": "Th 14:00-17:00", "thursday": "14:00 - 17:00" },
+		"lat": 50.717532,
+		"lon": -1.149904,
+		"title": "St. John's church"
 	},{
 		"_source": "warm_welcome", "address": "4 Station Road East, Grantham, Lincolnshire NG31 6HX", "description": "**Open from 31.10.22.	 St John's Warm Hub meets in the hall within St John's Spitalgate", "hours": { "_parsed": "Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-17:00", "friday": "9:00 - 17:00", "saturday": "9:00 - 17:00", "thursday": "9:00 - 17:00", "tuesday": "9:00 - 17:00", "wednesday": "9:00 - 17:00" },
 		"lat": 52.90629,
@@ -9605,6 +9680,11 @@
 		"lon": -1.105419,
 		"title": "The Church of Christ the King"
 	},{
+		"_source": "warm_welcome", "address": "Temple Way, Chorley, Lancashire PR6 7EQ", "description": "  ", "hours": { "_parsed": "Tu 11:00-13:00, Fr 11:00-13:00", "friday": "11:00 - 13:00", "tuesday": "11:00 - 13:00" },
+		"lat": 53.67187,
+		"lon": -2.630616,
+		"title": "The Church of Jesus Christ of Latter Day Saints"
+	},{
 		"_source": "warm_welcome", "address": "Forty Acres Road,, Canterbury, Kent  CT2 7HJ", "description": "  ", "hours": { "_parsed": "Mo 19:30-21:00, We 17:00-21:00, Fr 19:30-21:00, Su 10:00-12:00", "friday": "19:30 - 21:00", "monday": "19:30 - 21:00", "sunday": "10:00 - 12:00", "wednesday": "17:00 - 21:00" },
 		"lat": 51.285713,
 		"lon": 1.07223,
@@ -9664,6 +9744,11 @@
 		"lat": 52.41531,
 		"lon": -1.93091,
 		"title": "The Cotteridge Church"
+	},{
+		"_source": "warm_welcome", "address": "The Crown, High Street, South Moreton OX11 9AG", "description": "  ", "hours": { "_parsed": "Th 12:00-17:00, Fr 12:00-17:00, Sa 12:00-17:00", "friday": "12:00 - 17:00", "saturday": "12:00 - 17:00", "thursday": "12:00 - 17:00" },
+		"lat": 51.58982,
+		"lon": -1.1921,
+		"title": "The Crown"
 	},{
 		"_source": "warm_welcome", "address": "Dorothy Parkes Centre, Church Road, Smethwick, West Midlands B67 6EH", "hours": { "_parsed": "Mo 08:30-20:30, Tu 08:30-20:30, We 08:30-20:30, Th 08:30-20:30, Fr 08:30-20:30, Sa 09:00-13:00, Su 09:00-13:00", "friday": "08:30 - 20:30", "monday": "08:30 - 20:30", "saturday": "09:00 - 13:00", "sunday": "09:00 - 13:00", "thursday": "08:30 - 20:30", "tuesday": "08:30 - 20:30", "wednesday": "08:30 - 20:30" },
 		"lat": 52.48662,
@@ -9965,19 +10050,19 @@
 		"lon": -2.790824,
 		"title": "The Salvation Army"
 	},{
-		"_source": "warm_welcome", "address": "The Salvation Army, Sturges Road, Wokingham RG40 2HD", "description": "  ", "hours": { "_parsed": "Mo 10:00-13:30, We 10:00-13:30, Fr 10:00-13:30", "friday": "10:00 - 13:30", "monday": "10:00 - 13:30", "wednesday": "10:00 - 13:30" },
-		"lat": 51.40924,
-		"lon": -0.83152,
+		"_source": "warm_welcome", "address": "4 Padstow Road, Knowle West, Bristol BS4 1EN", "description": "**Open from 31/10/2022", "hours": { "_parsed": "Mo 10:00-14:00, Su 10:00-12:30", "monday": "10:00 - 14:00", "sunday": "10:00 - 12:30" },
+		"lat": 51.426414,
+		"lon": -2.584218,
 		"title": "The Salvation Army"
 	},{
-		"_source": "warm_welcome", "address": "Canada Grove, Bognor Regis, West Sussex PO21 1DN", "description": "  ", "hours": { "_parsed": "Tu 09:00-11:00, We 11:00-13:00", "tuesday": "09:00 - 11:00", "wednesday": "11:00 - 13:00" },
-		"lat": 50.79961,
-		"lon": -0.66369,
+		"_source": "warm_welcome", "address": "58 Westow Street, Crystal Palace, London SE193AF", "description": "**Open from 30 October 2022.	 ", "hours": { "_parsed": "We 14:00-15:00, Th 14:00-15:30, Fr 18:15-19:45, Su 10:00-13:00", "friday": "18:15 - 19:45", "sunday": "10:00 - 13:00", "thursday": "14:00 - 15:30", "wednesday": "14:00 - 15:00" },
+		"lat": 51.41807,
+		"lon": -0.08245,
 		"title": "The Salvation Army"
 	},{
-		"_source": "warm_welcome", "address": "The Salvation Army, Addlestone, Surrey KT15 1SG", "description": "  ", "hours": { "_parsed": "Tu 08:30-14:00, We 08:30-15:00, Th 08:30-14:00, Fr 08:30-12:30", "friday": "08:30 - 12:30", "thursday": "08:30 - 14:00", "tuesday": "08:30 - 14:00", "wednesday": "08:30 - 15:00" },
-		"lat": 51.36915,
-		"lon": -0.49951,
+		"_source": "warm_welcome", "address": "Holt Road, Briston, Melton Constable NR24 2HR", "description": "  ", "hours": { "_parsed": "Tu 10:30-13:00, Fr 14:00-16:00, Su 14:00-16:00", "friday": "14:00 - 16:00", "sunday": "14:00 - 16:00", "tuesday": "10:30 - 13:00" },
+		"lat": 52.853783,
+		"lon": 1.0594,
 		"title": "The Salvation Army"
 	},{
 		"_source": "warm_welcome", "address": "181 Wilmot Road, Swadlincote, Derbyshire DE11 9BN", "description": "**Open from 14-11-2022.	 ", "hours": { "_parsed": "Mo 13:00-17:00", "monday": "13:00 - 17:00" },
@@ -10020,6 +10105,61 @@
 		"lon": 0.989454,
 		"title": "The Salvation Army"
 	},{
+		"_source": "warm_welcome", "address": "Middletons Row, Redruth, Cornwall TR15 1NH", "description": "On Wednesdays we provide free hot sandwiches. Tea and Coffee free on Wednesdays and Fridays", "hours": { "_parsed": "We 10:00-13:00, Fr 10:00-12:00", "friday": "10:00 - 12:00", "wednesday": "10:00 - 13:00" },
+		"lat": 50.234712,
+		"lon": -5.224119,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "9 Southfield Avenue, Shotts, North Lanarkshire ML7 5LR", "description": "We have more services which are age specific. Please check the website or Facebook for further information of open times.", "hours": { "_parsed": "Tu 13:00-15:00, Su 11:00-12:30", "sunday": "11:00 - 12:30", "tuesday": "13:00 - 15:00" },
+		"lat": 55.817281,
+		"lon": -3.779037,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "The Salvation Army Church, Academy Street, Warrington WA1 2BQ, Warrington, Cheshire WA1 2BQ", "description": "Toddler Group, Thursdays 0930-11.30  Refreshments are available in our Coffee Shop. Knitting Group fortnightly Thursdays 1100-1300", "hours": { "_parsed": "Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00", "friday": "10:00 - 14:00", "monday": "10:00 - 14:00", "thursday": "10:00 - 14:00", "tuesday": "10:00 - 14:00", "wednesday": "10:00 - 14:00" },
+		"lat": 53.38852,
+		"lon": -2.58907,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "95 Cavendish Drive, Liverpool L9 1NB", "description": "All age groups  We offer tea, coffee, soup & roll and snacks", "hours": { "_parsed": "Mo 10:00-02:00, Tu 10:00-02:00, We 10:00-02:00, Th 10:00-02:00", "monday": "10:00 - 2:00", "thursday": "10:00 - 2:00", "tuesday": "10:00 - 2:00", "wednesday": "10:00 - 2:00" },
+		"lat": 53.45137,
+		"lon": -2.9593,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "The Salvation Army, Sturges Road, Wokingham RG40 2HD", "description": "  ", "hours": { "_parsed": "Mo 10:00-13:30, We 10:00-13:30, Fr 10:00-13:30", "friday": "10:00 - 13:30", "monday": "10:00 - 13:30", "wednesday": "10:00 - 13:30" },
+		"lat": 51.40924,
+		"lon": -0.83152,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "Canada Grove, Bognor Regis, West Sussex PO21 1DN", "description": "  ", "hours": { "_parsed": "Tu 09:00-11:00, We 11:00-13:00", "tuesday": "09:00 - 11:00", "wednesday": "11:00 - 13:00" },
+		"lat": 50.79961,
+		"lon": -0.66369,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "The Salvation Army, Addlestone, Surrey KT15 1SG", "description": "  ", "hours": { "_parsed": "Tu 08:30-14:00, We 08:30-15:00, Th 08:30-14:00, Fr 08:30-12:30", "friday": "08:30 - 12:30", "thursday": "08:30 - 14:00", "tuesday": "08:30 - 14:00", "wednesday": "08:30 - 15:00" },
+		"lat": 51.36915,
+		"lon": -0.49951,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "The Salvation Army, Palmerston Street, Stockton on Tees TS18 1NU", "description": "**Open from 24-10-2022.	 ", "hours": { "_parsed": "Mo 09:00-12:00, Tu 09:00-12:00", "monday": "9:00 - 12:00", "tuesday": "9:00 - 12:00" },
+		"lat": 54.5649,
+		"lon": -1.31787,
+		"title": "The Salvation Army "
+	},{
+		"_source": "warm_welcome", "address": "19 Regent Street, Newtownards, Down BT237FN", "description": "  We provide food and drinks, and a warm welcoming space for people to come together.", "hours": { "_parsed": "Mo 09:30-14:00, We 09:30-14:00, Fr 09:30-14:00", "friday": "09:30 - 14:00", "monday": "09:30 - 14:00", "wednesday": "09:30 - 14:00" },
+		"lat": 54.59427,
+		"lon": -5.69882,
+		"title": "The Salvation Army"
+	},{
+		"_source": "warm_welcome", "address": "Field Street, Willenhall, West Midlands  WV13 2PD", "description": "We are open to all	There are volunteers available to chat too ", "hours": { "_parsed": "Tu 01:00-04:00, Th 09:30-12:30", "thursday": "9:30 - 12:30", "tuesday": "1:00 - 4:00" },
+		"lat": 52.585616,
+		"lon": -2.059098,
+		"title": "The Salvation Army "
+	},{
+		"_source": "warm_welcome", "address": "The Salvation Army,, Abbey Street, Carlisle, Cumbria CA3 8TX", "description": "  ", "hours": { "_parsed": "We 10:30-13:00", "wednesday": "10:30 - 13:00" },
+		"lat": 54.89508,
+		"lon": -2.94124,
+		"title": "The Salvation Army"
+	},{
 		"_source": "warm_welcome", "address": "1, Commercial Road , Bedford, Bedfordshire MK40 1QS", "description": "Wednesday - Our focus is on catering for adults  One Support present for housing support", "hours": { "_parsed": "We 13:00-14:00, Fr 17:30-19:30", "friday": "17:30 - 19:30", "wednesday": "13:00 - 14:00" },
 		"lat": 52.13426,
 		"lon": -0.47313,
@@ -10043,61 +10183,6 @@
 		"_source": "warm_welcome", "address": "12 West Saint Helen Street , Abingdon, Oxfordshire OX145BL", "description": "  ", "hours": { "_parsed": "We 10:00-14:00", "wednesday": "10:00 - 14:00" },
 		"lat": 51.66941,
 		"lon": -1.2832,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "Middletons Row, Redruth, Cornwall TR15 1NH", "description": "On Wednesdays we provide free hot sandwiches. Tea and Coffee free on Wednesdays and Fridays", "hours": { "_parsed": "We 10:00-13:00, Fr 10:00-12:00", "friday": "10:00 - 12:00", "wednesday": "10:00 - 13:00" },
-		"lat": 50.234712,
-		"lon": -5.224119,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "9 Southfield Avenue, Shotts, North Lanarkshire ML7 5LR", "description": "We have more services which are age specific. Please check the website or Facebook for further information of open times.", "hours": { "_parsed": "Tu 13:00-15:00, Su 11:00-12:30", "sunday": "11:00 - 12:30", "tuesday": "13:00 - 15:00" },
-		"lat": 55.817281,
-		"lon": -3.779037,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "The Salvation Army Church, Academy Street, Warrington WA1 2BQ, Warrington, Cheshire WA1 2BQ", "description": "Toddler Group, Thursdays 0930-11.30  Refreshments are available in our Coffee Shop. Knitting Group fortnightly Thursdays 1100-1300", "hours": { "_parsed": "Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00", "friday": "10:00 - 14:00", "monday": "10:00 - 14:00", "thursday": "10:00 - 14:00", "tuesday": "10:00 - 14:00", "wednesday": "10:00 - 14:00" },
-		"lat": 53.38852,
-		"lon": -2.58907,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "The Salvation Army, Palmerston Street, Stockton on Tees TS18 1NU", "description": "**Open from 24-10-2022.	 ", "hours": { "_parsed": "Mo 09:00-12:00, Tu 09:00-12:00", "monday": "9:00 - 12:00", "tuesday": "9:00 - 12:00" },
-		"lat": 54.5649,
-		"lon": -1.31787,
-		"title": "The Salvation Army "
-	},{
-		"_source": "warm_welcome", "address": "19 Regent Street, Newtownards, Down BT237FN", "description": "  We provide food and drinks, and a warm welcoming space for people to come together.", "hours": { "_parsed": "Mo 09:30-14:00, We 09:30-14:00, Fr 09:30-14:00", "friday": "09:30 - 14:00", "monday": "09:30 - 14:00", "wednesday": "09:30 - 14:00" },
-		"lat": 54.59427,
-		"lon": -5.69882,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "Field Street, Willenhall, West Midlands  WV13 2PD", "description": "We are open to all	There are volunteers available to chat too ", "hours": { "_parsed": "Tu 01:00-04:00, Th 09:30-12:30", "thursday": "9:30 - 12:30", "tuesday": "1:00 - 4:00" },
-		"lat": 52.585616,
-		"lon": -2.059098,
-		"title": "The Salvation Army "
-	},{
-		"_source": "warm_welcome", "address": "The Salvation Army,, Abbey Street, Carlisle, Cumbria CA3 8TX", "description": "  ", "hours": { "_parsed": "We 10:30-13:00", "wednesday": "10:30 - 13:00" },
-		"lat": 54.89508,
-		"lon": -2.94124,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "4 Padstow Road, Knowle West, Bristol BS4 1EN", "description": "**Open from 31/10/2022", "hours": { "_parsed": "Mo 10:00-14:00, Su 10:00-12:30", "monday": "10:00 - 14:00", "sunday": "10:00 - 12:30" },
-		"lat": 51.426414,
-		"lon": -2.584218,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "58 Westow Street, Crystal Palace, London SE193AF", "description": "**Open from 30 October 2022.	 ", "hours": { "_parsed": "We 14:00-15:00, Th 14:00-15:30, Fr 18:15-19:45, Su 10:00-13:00", "friday": "18:15 - 19:45", "sunday": "10:00 - 13:00", "thursday": "14:00 - 15:30", "wednesday": "14:00 - 15:00" },
-		"lat": 51.41807,
-		"lon": -0.08245,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "Holt Road, Briston, Melton Constable NR24 2HR", "description": "  ", "hours": { "_parsed": "Tu 10:30-13:00, Fr 14:00-16:00, Su 14:00-16:00", "friday": "14:00 - 16:00", "sunday": "14:00 - 16:00", "tuesday": "10:30 - 13:00" },
-		"lat": 52.853783,
-		"lon": 1.0594,
-		"title": "The Salvation Army"
-	},{
-		"_source": "warm_welcome", "address": "95 Cavendish Drive, Liverpool L9 1NB", "description": "All age groups  We offer tea, coffee, soup & roll and snacks", "hours": { "_parsed": "Mo 10:00-02:00, Tu 10:00-02:00, We 10:00-02:00, Th 10:00-02:00", "monday": "10:00 - 2:00", "thursday": "10:00 - 2:00", "tuesday": "10:00 - 2:00", "wednesday": "10:00 - 2:00" },
-		"lat": 53.45137,
-		"lon": -2.9593,
 		"title": "The Salvation Army"
 	},{
 		"_source": "warm_welcome", "address": "12 Psalter Lane, Sheffield , South Yorkshire  S11 8YN", "description": "All ages welcomeA warm welcome awaits you, free drinks and hot snacks. Pre school toys available.", "hours": { "_parsed": "Tu 10:00-14:00, Th 10:00-14:00", "thursday": "10:00 - 14:00", "tuesday": "10:00 - 14:00" },
@@ -10125,7 +10210,7 @@
 		"lon": -2.36582,
 		"title": "The Salvation Army Bath Citadel"
 	},{
-		"_source": "warm_welcome", "address": "Lion Road, Bexleyheath, Kent DA6 8NR", "description": "  ", "hours": { "_parsed": "Tu 12:00-15:00, We 10:00-14:00", "tuesday": "12:00 - 15:00", "wednesday": "10:00 - 14:00" },
+		"_source": "warm_welcome", "address": "Lion Road, Bexleyheath, Kent DA6 8NR", "description": "  ", "hours": { "_parsed": "Tu 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00", "friday": "10:00 - 14:00", "thursday": "10:00 - 14:00", "tuesday": "10:00 - 14:00" },
 		"lat": 51.454694,
 		"lon": 0.136132,
 		"title": "The Salvation Army Bexleyheath"
@@ -10970,14 +11055,14 @@
 		"lon": -1.27191,
 		"title": "Wesley Memorial Church"
 	},{
-		"_source": "warm_welcome", "address": "Elm Road, Leigh-on-Sea, Select Province/State SS9 1SJ", "description": "**Open from 15-11-22.	 ", "hours": { "_parsed": "Tu 10:00-16:00, Th 10:00-16:00", "thursday": "10:00 - 16:00", "tuesday": "10:00 - 16:00" },
-		"lat": 51.54298,
-		"lon": 0.65461,
-		"title": "Wesley Methodist Church"
-	},{
 		"_source": "warm_welcome", "address": "453 Cowbridge Road East, Canton, Cardiff CF5 1BA", "description": "  ", "hours": { "_parsed": "Th 14:00-16:00", "thursday": "14:00 - 16:00" },
 		"lat": 51.482546,
 		"lon": -3.212017,
+		"title": "Wesley Methodist Church"
+	},{
+		"_source": "warm_welcome", "address": "Elm Road, Leigh-on-Sea, Select Province/State SS9 1SJ", "description": "**Open from 15-11-22.	 ", "hours": { "_parsed": "Tu 10:00-16:00, Th 10:00-16:00", "thursday": "10:00 - 16:00", "tuesday": "10:00 - 16:00" },
+		"lat": 51.54298,
+		"lon": 0.65461,
 		"title": "Wesley Methodist Church"
 	},{
 		"_source": "warm_welcome", "address": "Baildon Methodist Church, Newton Way,,  Baildon, Shipley. West Yorkshire. BD17 5NH", "description": "All  Free soup and a roll available 11.30-13.30 every weekday.  Community Pantry starting 1 November on a \"help yourself if you need food for today\" basis.", "hours": { "_parsed": "" },
@@ -11121,6 +11206,11 @@
 		"lat": 57.156361,
 		"lon": -2.291442,
 		"title": "Westhill Men's Shed"
+	},{
+		"_source": "warm_welcome", "address": "Library Street, Westhoughton, Bolton BL5 3AT", "description": "All welcome  Please see staff for more information about free activities and sessions", "hours": { "_parsed": "Mo 10:00-17:00, Tu 10:00-19:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-17:00", "friday": "10:00 - 17:00", "monday": "10:00 - 17:00", "saturday": "10:00 - 17:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 19:00" },
+		"lat": 53.548935,
+		"lon": -2.52078,
+		"title": "Westhougton Library "
 	},{
 		"_source": "warm_welcome", "address": "Romilly Street, South Shields , South Tyneside  NE33 2SP", "description": "**Open from 20th November 2022.	 We are open for a relaxed drop-in with soup every Sunday 1-2pm. Families are welcomed to join us for a movie with food provided and optional activities every other Sunday 4-6pm starting the 20th November.", "hours": { "_parsed": "Su 13:00-14:00", "sunday": "13:00 - 14:00 / 16:00 - 18:00 Fortnightly" },
 		"lat": 54.99404,
@@ -11337,7 +11427,7 @@
 		"lon": -3.31242,
 		"title": "Wiveliscombe Community Library"
 	},{
-		"_source": "warm_welcome", "address": "25A Wincott Street, London, Kennington SE11 4NT", "description": "  ", "hours": { "_parsed": "Tu 09:30-16:00, We 09:30-16:00, Th 09:30-16:00", "thursday": "9:30 - 16:00", "tuesday": "9:30 - 16:00", "wednesday": "9:30 - 16:00" },
+		"_source": "warm_welcome", "address": "25A Wincott Street, London, Kennington SE11 4NT", "description": "  ", "hours": { "_parsed": "Tu 09:30-16:00, We 14:00-16:00, Th 09:30-16:00", "thursday": "9:30 - 16:00", "tuesday": "9:30 - 16:00", "wednesday": "14:00 - 16:00" },
 		"lat": 51.49221,
 		"lon": -0.10896,
 		"title": "WLM St Luke's"
@@ -11487,14 +11577,14 @@
 		"lon": -0.13276,
 		"title": "WSCC"
 	},{
-		"_source": "warm_welcome", "address": "Claigmar Road, Rustington, West Sussex BN16 2NL", "description": "  ", "hours": { "_parsed": "Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-14:00", "friday": "10:00 - 17:00", "monday": "10:00 - 17:00", "saturday": "10:00 - 14:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00", "wednesday": "10:00 - 17:00" },
-		"lat": 50.80885,
-		"lon": -0.50731,
-		"title": "WSCC"
-	},{
 		"_source": "warm_welcome", "address": "Hurstpierpoint Library, Trinity Road, Hurstpierpoint, West Sussex BN6 9UY", "description": "  ", "hours": { "_parsed": "Mo 09:00-13:00, Tu 09:00-13:00, We 09:00-13:00, Th 13:00-17:00, Fr 13:00-17:00, Sa 09:00-13:00", "friday": "13:00 - 17:00", "monday": "09:00 - 13:00", "saturday": "09:00 - 13:00", "thursday": "13:00 - 17:00", "tuesday": "09:00 - 13:00", "wednesday": "09:00 - 13:00" },
 		"lat": 50.9336,
 		"lon": -0.17439,
+		"title": "WSCC"
+	},{
+		"_source": "warm_welcome", "address": "Claigmar Road, Rustington, West Sussex BN16 2NL", "description": "  ", "hours": { "_parsed": "Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-14:00", "friday": "10:00 - 17:00", "monday": "10:00 - 17:00", "saturday": "10:00 - 14:00", "thursday": "10:00 - 17:00", "tuesday": "10:00 - 17:00", "wednesday": "10:00 - 17:00" },
+		"lat": 50.80885,
+		"lon": -0.50731,
 		"title": "WSCC"
 	},{
 		"_source": "warm_welcome", "address": "Church Road, Camborne, Cornwall TR14 0QE", "description": "  ", "hours": { "_parsed": "We 14:00-16:30", "wednesday": "14:00 - 16:30" },
@@ -13697,1166 +13787,6 @@
 		"lon": -2.2596672,
 		"title": "Butt Lane Baptist Church", "url": "https://en-gb.facebook.com/people/BUTT-LANE-Baptist-Church/100064378703431/"
 	},{
-		"_source": "warm_spaces", "address": "North Cornelly Playgroup, Integrated centre, Greenfield Terrace, Bridgend, Wales, CF33 4LW", "hours": {},
-		"lat": 51.521835,
-		"lon": -3.7043335,
-		"title": "NCP Warm Space &amp; Wellbeing Wednesday"
-	},{
-		"_source": "warm_spaces", "address": "Fore Street, Torpoint, England, PL11 2AG", "hours": {},
-		"lat": 50.3749839,
-		"lon": -4.1946424,
-		"title": "Torpoint Library and Community Hub", "url": "https://www.torpointtiwncouncil.gov.uk"
-	},{
-		"_source": "warm_spaces", "address": "Oliver Street, Rugby, England, CV21 2LE", "hours": {},
-		"lat": 52.3750084,
-		"lon": -1.2659654,
-		"title": "The Church of Jesus Christ of Latter-day Saints"
-	},{
-		"_source": "warm_spaces", "address": "6 The Strand, Dawlish, England, EX7 9PS", "hours": {},
-		"lat": 50.5813072,
-		"lon": -3.4673965,
-		"title": "Hub Store"
-	},{
-		"_source": "warm_spaces", "address": "Kessingland Library, Marram Green, Hall Road,, Lowestoft, England, NR33 7AH", "hours": {},
-		"lat": 52.4193749,
-		"lon": 1.7204526,
-		"title": "Kessingland Library", "url": "https://www.suffolklibraries.co.uk/visit/locations-and-times/kessingland-library"
-	},{
-		"_source": "warm_spaces", "address": "Unit 3, St George’s Business Park, Alstone Lane, Cheltenham, England, GL51", "hours": {},
-		"lat": 51.9043035,
-		"lon": -2.098744,
-		"title": "Cheltenham Open Door", "url": "https://Www.Cheltenhamopendoor.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Ringmer Village Library, Lewes Road, Lewes, England, BN8 5QH", "hours": {},
-		"lat": 50.8933203,
-		"lon": 0.0567405,
-		"title": "Ringmer Village Library", "url": "https://ringmervillagehall.chessck.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Bowthorpe Church Centre, The Worship Centre, Bowthorpe Hall Road, Norwich, England, NR5 9AA", "hours": {},
-		"lat": 52.6358555,
-		"lon": 1.2160398,
-		"title": "Bowthorpe Church Centre"
-	},{
-		"_source": "warm_spaces", "address": "8 Chaucer Road, Weston-super-Mare, England, BS23 3UG", "hours": {},
-		"lat": 51.3310556,
-		"lon": -2.9609176,
-		"title": "Bournville Family Centre", "url": "http://www.bournvillefamilycentre.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Oswald&#39;s Church, Lawford Road, Rugby, England, CV21 2HR", "hours": {},
-		"lat": 52.3728835,
-		"lon": -1.2765968,
-		"title": "St Oswald's - Connexions", "url": "https://www.smso.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Petrock&#39;s Church, Church Street, Minehead, England, TA24 7TP", "hours": {},
-		"lat": 51.1681849,
-		"lon": -3.4946629,
-		"title": "St Petrock's Church, Timberscombe", "url": "https://timberscombevillage.com/st-petrocks-church-2/"
-	},{
-		"_source": "warm_spaces", "address": "St Peter&#39;s Church, Eastwick Road, Somerset, England, TA2 7HD", "hours": {},
-		"lat": 51.0321912,
-		"lon": -3.0924328,
-		"title": "St Peter's Church Hall"
-	},{
-		"_source": "warm_spaces", "address": "St Peter&#39;s Recreation Ground, Callis Court Road/Grange Road, Broadstairs, England, CT10", "hours": {},
-		"lat": 51.3688183,
-		"lon": 1.4280476,
-		"title": "The Pavilion Youth &amp; Community Cafe", "url": "http://thepavilioncommunitycafe.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "163 High Street, Sheerness, England, ME12 1UH", "hours": {},
-		"lat": 51.4379165,
-		"lon": 0.7638296,
-		"title": "Sheerness Salvation Army", "url": "https://www.salvationarmy.org/sheerness"
-	},{
-		"_source": "warm_spaces", "address": "The Bircham Centre, Market Place, Norwich, England, NR10 4JJ", "hours": {},
-		"lat": 52.7624528,
-		"lon": 1.1113573,
-		"title": "The Bircham Centre", "url": "https://www.birchamcentrereepham.org"
-	},{
-		"_source": "warm_spaces", "address": "The East Side Curve, York Avenue, East Cowes, England, PO32 6RU", "hours": {},
-		"lat": 50.7572185,
-		"lon": -1.2874566,
-		"title": "East Side Curve", "url": "https://www.eastcowestowncouncil.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Heaton Moor United Church, Stanley Road, Stockport, England, SK4", "hours": {},
-		"lat": 53.4200161,
-		"lon": -2.1829088,
-		"title": "Heaton Moor United Church", "url": "https://www.heatonmoorunitedchurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Newport Parish Centre, Town Lane, Newport, England, PO30 1JU", "hours": {},
-		"lat": 50.6990166,
-		"lon": -1.2929878,
-		"title": "Newport Minster Parish Centre", "url": "https://newportminster.org"
-	},{
-		"_source": "warm_spaces", "address": "St Mary&#39;s Church Hall, Carisbrooke High Street, Newport, England, PO30 1NN", "hours": {},
-		"lat": 50.6918259,
-		"lon": -1.3137542,
-		"title": "St Mary's Church Hall", "url": "http://carisbrookestmary.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Aspire Ryde, Dover Street, Ryde, England, PO33 2BN", "hours": {},
-		"lat": 50.7278065,
-		"lon": -1.1578109,
-		"title": "Aspire Ryde", "url": "https://www.aspireryde.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Newport Congregational Church, 98 Pyle Street, Newport, England, PO30 1UH", "hours": {},
-		"lat": 50.6990584,
-		"lon": -1.2972912,
-		"title": "Newport Congregational Church", "url": "https://www.newportcongregationalchurch.com"
-	},{
-		"_source": "warm_spaces", "address": "48 South Street, Dorchester, England, DT1 1DQ", "hours": {},
-		"lat": 50.7138585,
-		"lon": -2.43762,
-		"title": "The Dorset Carers Hub", "url": "https://dorsetcarershub.com"
-	},{
-		"_source": "warm_spaces", "address": "Bungay Community Library, Wharton Street, Bungay, England, NR35 1EL", "hours": {},
-		"lat": 52.4540437,
-		"lon": 1.4398886,
-		"title": "Bungay Community Library", "url": "https://www.suffolklibraries.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Clare Library, The Guildhall, High Street, Sudbury, England, CO10 8NY", "hours": {},
-		"lat": 52.0791671,
-		"lon": 0.5799932,
-		"title": "Clare Library", "url": "https://suffolklibraries.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Pancras &amp; Somers Town Living Centre, 2 Ossulston Street, London, England, NW1 1DF", "hours": {},
-		"lat": 51.5310901,
-		"lon": -0.129785,
-		"title": "Stay Warm", "url": "https://www.thelivingcentre.org"
-	},{
-		"_source": "warm_spaces", "address": "Capel Library, The Street, Ipswich, England, IP9 2EF", "hours": {},
-		"lat": 52.0036233,
-		"lon": 1.0491945,
-		"title": "Capel St Mary Library"
-	},{
-		"_source": "warm_spaces", "address": "St Mary&#39;s Church, Sholing, Southampton, England, SO19 8ES", "hours": {},
-		"lat": 50.8991964,
-		"lon": -1.3574445,
-		"title": "St Mary's Sholing", "url": "https://www.sholing.church"
-	},{
-		"_source": "warm_spaces", "address": "Risby Village Hall, Aylmer Close, Bury Saint Edmunds, England, IP28 6RT", "hours": {},
-		"lat": 52.265618,
-		"lon": 0.6343059,
-		"title": "Cozy Coffee Club", "url": "https://www.risbyvillagehall.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Creative Home and Garden, Leicester Road, Fakenham, England, NR21 9PW", "hours": {},
-		"lat": 52.8821559,
-		"lon": 0.7693165,
-		"title": "Creative Home and Garden", "url": "https://www.creativehomeandgarden.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Pink Pig Farm, Holme Lane, Scunthorpe, England, DN16 3RE", "hours": {},
-		"lat": 53.550578,
-		"lon": -0.6304122,
-		"title": "The Pink Pig Farm", "url": "https://www.pinkpigfarm.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Michael&#39;s Church, 1 Gills Lane, Wirral, England, CH61 1AF", "hours": {},
-		"lat": 53.3478218,
-		"lon": -3.094131,
-		"title": "St Michael's", "url": "https://www.barnston.info"
-	},{
-		"_source": "warm_spaces", "address": "Church Road, Haywards Heath, England, RH17 7NY", "hours": {},
-		"lat": 50.9924109,
-		"lon": -0.0511504,
-		"title": "St Augustine's Church, Scaynes Hill", "url": "https://www.sash.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Saint Mark&#39;s Lane, Horsham, England, RH12 5PU", "hours": {},
-		"lat": 51.0823454,
-		"lon": -0.3154303,
-		"title": "Holbrook Heart Cafe, St Mark's Church", "url": "http://www.stmarksholbrook.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "427 Nottingham Road, Nottingham, England, NG16 2GB", "hours": {},
-		"lat": 53.0086309,
-		"lon": -1.2850892,
-		"title": "The Hayloft", "url": "https://Www.hayloftGiltbrook.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The King&#39;s, Pixon Lane, Tavistock, England, PL19 9AZ", "hours": {},
-		"lat": 50.5438322,
-		"lon": -4.1464125,
-		"title": "Tavistock Food Hub", "url": "https://www.feedingdevon.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Bovey Scout Hut, Mill Marsh Park, Newton Abbot, England, TQ13 9FF", "hours": {},
-		"lat": 50.5928721,
-		"lon": -3.6799281,
-		"title": "Bovey Food Hub", "url": "https://www.feedingdevon.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Wessex Cancer Trust, 21A Lugley Street, Newport, England, PO30 5HD", "hours": {},
-		"lat": 50.7005856,
-		"lon": -1.2953645,
-		"title": "Wessex Cancer Trust", "url": "https://www.wessexcancer.org.uk/support-services/isle-of-wight/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4Or-MpMUA7xTO9Oe_TWLOH87jFv2kFK_Jya_7cTO8hQV42PML-KqkaAolVEALw_wcB"
-	},{
-		"_source": "warm_spaces", "address": "Riverside Centre, The Quay, Newport, England, PO30 2QR", "hours": {},
-		"lat": 50.7024483,
-		"lon": -1.2905416,
-		"title": "Carers Isle of Wight", "url": "https://www.carersiw.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "George Street, Ryde, England, PO33 2JE", "hours": {},
-		"lat": 50.7280742,
-		"lon": -1.1615732,
-		"title": "Ryde Library", "url": "https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"
-	},{
-		"_source": "warm_spaces", "address": "Haven Centre, Wadsworth Road, Nottingham, England, NG9 8BD", "hours": {},
-		"lat": 52.9351428,
-		"lon": -1.2613187,
-		"title": "The Haven", "url": "https://www.havencentre.co"
-	},{
-		"_source": "warm_spaces", "address": "Farnborough Baptist Church, Queens Road, Farnborough, England, GU14 6DX", "hours": {},
-		"lat": 51.2770373,
-		"lon": -0.7462529,
-		"title": "Altogether", "url": "https://www.farnboroughbaptist.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Old Library, Green Lane, Liverpool, England, L13 7EB", "hours": {},
-		"lat": 53.4205225,
-		"lon": -2.9257865,
-		"title": "The Old Library", "url": "https://www.tol.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Hunderford Methodist Church, Bridge Street, Hungerford, England, RG17 0EH", "hours": {},
-		"lat": 51.4173859,
-		"lon": -1.5137408,
-		"title": "Hungerford Methodist Church", "url": "https://www.kennet-and-test-valleymethodist.org.uk/churches/kennet-test-valley-circuit/hungerford.html"
-	},{
-		"_source": "warm_spaces", "address": "Woolston Methodist Church, Manor Road North, Southampton, England, SO19", "hours": {},
-		"lat": 50.9021988,
-		"lon": -1.3721504,
-		"title": "Woolston Methodist Church", "url": "https://www.facebook.com/pages/category/Community/Woolston-methodist-church-and-hall-events-page-110848350336439/"
-	},{
-		"_source": "warm_spaces", "address": "All Saints Church, Killigrew Street, Falmouth, England, TR11 3PN", "hours": {},
-		"lat": 50.151222,
-		"lon": -5.0767465,
-		"title": "All Saints Church", "url": "http://www.allsaintschurchfalmouth.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Good Heart, 7 Palmer Street, Frome, England, BA11 1DS", "hours": {},
-		"lat": 51.2304581,
-		"lon": -2.322641,
-		"title": "The Good Heart", "url": "https://www.thegoodheart.uk"
-	},{
-		"_source": "warm_spaces", "address": "SP2 Hope Centre, 159-161 Fisherton Street, Salisbury, England, SP2 7RP", "hours": {},
-		"lat": 51.0717969,
-		"lon": -1.8050726,
-		"title": "SP2 Hope Centre", "url": "https://www.stpaulssalisbury.org"
-	},{
-		"_source": "warm_spaces", "address": "Priorswood Library, Hillside Children&#39;s Centre, Eastwick Road, Taunton, England, TA2 7HD", "hours": {},
-		"lat": 51.0322154,
-		"lon": -3.0934826,
-		"title": "Priorswood Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "St Mary&#39;s Shaw, Church Road, Newbury, England, RG14 2DR", "hours": {},
-		"lat": 51.4113929,
-		"lon": -1.3173052,
-		"title": "St Mary's Shaw cum Donnington", "url": "https://www.shawchurch.org"
-	},{
-		"_source": "warm_spaces", "address": "Primrose Hospice, Saint Godwald&#39;s Road, Bromsgrove, England, B60", "hours": {},
-		"lat": 52.3208429,
-		"lon": -2.044915,
-		"title": "Primrose Hospice and Family Support Centre", "url": "https://www.primrosehospice.org"
-	},{
-		"_source": "warm_spaces", "address": "Taunton Library, Paul Street, Taunton, England, TA1 3XZ", "hours": {},
-		"lat": 51.0135834,
-		"lon": -3.1013124,
-		"title": "Taunton Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Shireoaks Village Hall, Shireoaks Road, Worksop, England, S81 8LX", "hours": {},
-		"lat": 53.3220544,
-		"lon": -1.1701905,
-		"title": "St. Luke's Church, Shireoaks", "url": "https://stlukeschurchshireoaks.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Christ Church Worksop, Thievesdale Close, Worksop, England, S81 0XS", "hours": {},
-		"lat": 53.3248899,
-		"lon": -1.1104113,
-		"title": "Christ Church Worksop", "url": "http://christchurchworksop.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Sevenoaks Library, Buckhurst Lane, Sevenoaks, England, TN13 1LQ", "hours": {},
-		"lat": 51.2713245,
-		"lon": 0.1948513,
-		"title": "Sevenoaks Library", "url": "https://webapps.kent.gov.uk/KCC.Libraries.Web.Sites.Public/LibraryDetails.aspx?aid=0&amp;lid=62&amp;uprn=100062546713"
-	},{
-		"_source": "warm_spaces", "address": "Doggetts Barn, 72a High Street, Edenbridge, England, TN8 5AR", "hours": {},
-		"lat": 51.1961285,
-		"lon": 0.0646653,
-		"title": "Edenbridge Town Council", "url": "https://www.edenbridgetowncouncil.gov.uk"
-	},{
-		"_source": "warm_spaces", "address": "Dartmouth Library, Flavel Place, Dartmouth, England, TQ6 9ND", "hours": {},
-		"lat": 50.3520098,
-		"lon": -3.5791639,
-		"title": "Dartmouth Library (Libraries Unlimited)", "url": "https://www.devonlibraries.org.uk/web/arena/dartmouthlibrary"
-	},{
-		"_source": "warm_spaces", "address": "Priorswood Community Centre, 13-14 Priorswood Place, Taunton, England, TA2 7JW", "hours": {},
-		"lat": 51.032805,
-		"lon": -3.094225,
-		"title": "Priorswood Community Centre", "url": "https://www.priorswoodcommunitycentre.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Royal Oak, 1 Cirencester Road, Tetbury, England, GL8 8EY", "hours": {},
-		"lat": 51.6389689,
-		"lon": -2.1556356,
-		"title": "The Royal Oak (Tetbury) Ltd", "url": "https://www.theroyaloaktetbury.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Barnham Community Hall, Yapton Road, Bognor Regis, England, PO22 0AY", "hours": {},
-		"lat": 50.8285214,
-		"lon": -0.6358954,
-		"title": "Barnham &amp; Eastergate Community Trust", "url": "www.barnhamandeastergatecommunitytrust.com "
-	},{
-		"_source": "warm_spaces", "address": "Bridgwater Library, Binford Place, Bridgwater, England, TA6 3LF", "hours": {},
-		"lat": 51.1280196,
-		"lon": -3.0008905,
-		"title": "Bridgwater Library", "url": "https://www.librarieswest.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Reepham Town Hall, Church Street, Norwich, England, NR10 4JW", "hours": {},
-		"lat": 52.7620634,
-		"lon": 1.1121441,
-		"title": "Reepham Town Council", "url": "https://www.reephamtowncouncil.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Gap Christian Family Centre, Hargate Lane, West Bromwich, England, B71 1PH", "hours": {},
-		"lat": 52.5251608,
-		"lon": -1.99348,
-		"title": "The Gap Christian Family Centre", "url": "http//www.thegaponline.org"
-	},{
-		"_source": "warm_spaces", "address": "Lichfield Garrick Theatre, Castle Dyke, Lichfield, England, WS13 6HR", "hours": {},
-		"lat": 52.682385,
-		"lon": -1.826328,
-		"title": "Lichfield Garrick Theatre", "url": "https://www.lichfieldgarrick.com"
-	},{
-		"_source": "warm_spaces", "address": "Handsacre Methodist Church, Lichfield Road, Rugeley, England, WS15 4DE", "hours": {},
-		"lat": 52.7416348,
-		"lon": -1.8685491,
-		"title": "The Vine", "url": "https://Handsacremethodist.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Kitchen Table, 19 Camden Road, Tunbridge Wells, England, TN1 2QY", "hours": {},
-		"lat": 51.1346205,
-		"lon": 0.2671903,
-		"title": "The Kitchen Table", "url": "https://crosswayscommunity.org.uk/how-we-can-help/kitchen-table/"
-	},{
-		"_source": "warm_spaces", "address": "610 Community Centre, 610 Kingstanding Road, Birmingham, England, B44 9SH", "hours": {},
-		"lat": 52.5472978,
-		"lon": -1.8853452,
-		"title": "Birmingham Settlement", "url": "https://www.birminghamsettlement.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Stephen&#39;s Church, 37 Waterloo Road, Tonbridge, England, TN9 2SW", "hours": {},
-		"lat": 51.1899946,
-		"lon": 0.268856,
-		"title": "St Stephen's Church", "url": "https://www.ststephens.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Cranleigh Methodist Church, High Street, Cranleigh, England, GU6", "hours": {},
-		"lat": 51.1418624,
-		"lon": -0.4910334,
-		"title": "Cranleigh Methodist Church", "url": "https://www.weyvalleycircuit.org.uk/churches/circuit-churches/cranleigh-methodist-church.html"
-	},{
-		"_source": "warm_spaces", "address": "The Old Library Room, AM Brown Institute, Institute Avenue, Mauchline, Scotland, KA5 6RT", "hours": {},
-		"lat": 55.5029532,
-		"lon": -4.3321669,
-		"title": "Mama’s Nest"
-	},{
-		"_source": "warm_spaces", "address": "Rowleys Centre for Community, Victoria Road, Cranleigh, England, GU6 8NT", "hours": {},
-		"lat": 51.142356,
-		"lon": -0.4901628,
-		"title": "Rowleys Centre for Community", "url": "https://Www.rowleyscranleigh.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Trull Church Community Centre, Church Road, Taunton, England, TA3 7JZ", "hours": {},
-		"lat": 50.9936857,
-		"lon": -3.1191127,
-		"title": "All Saints, Trull", "url": "https://trullchurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Helping Hands Hub, Town Hall, The Green, Hunstanton, England, PE36 6BQ", "hours": {},
-		"lat": 52.9397494,
-		"lon": 0.4881786,
-		"title": "Hunstanton Town Council", "url": "https://www.hunstantontowncouncil.gov.uk"
-	},{
-		"_source": "warm_spaces", "address": "Serenity Bean, 3A Oxford Street, Moreton-in-Marsh, England, GL56 0LA", "hours": {},
-		"lat": 51.9902347,
-		"lon": -1.7024917,
-		"title": "Serenity Bean", "url": "https://www.serenitybean.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "MHA The Wilderness, 17 Shirley Church Road, Croydon, England, CR9 5AL", "hours": {},
-		"lat": 51.3716301,
-		"lon": -0.0527388,
-		"title": "MHA", "url": "https://www.mha.org.uk/get-involved/the-wilderness/"
-	},{
-		"_source": "warm_spaces", "address": "St Stephen&#39;s Church, Rampant Horse Street, Norwich, England, NR2, UK", "hours": {},
-		"lat": 52.626601,
-		"lon": 1.2922306,
-		"title": "St Stephen's Church, Norwich", "url": "https://www.ststephensnorwich.org"
-	},{
-		"_source": "warm_spaces", "address": "Aldridge Methodist Church, 51 Anchor Road, Walsall, England, WS9 8PT", "hours": {},
-		"lat": 52.604975,
-		"lon": -1.9183649,
-		"title": "Aldridge Methodist Church", "url": "https://www.walsallmethodist.org/aldridge"
-	},{
-		"_source": "warm_spaces", "address": "Chain Lane Community Centre, Hinckley Road, Saint Helens, England, WA11 9HT", "hours": {},
-		"lat": 53.4679156,
-		"lon": -2.7136334,
-		"title": "Chain Lane Community Centre", "url": "https://www.facebook.com/chainlanecommunitycentre/"
-	},{
-		"_source": "warm_spaces", "address": "Southam Congregational Church, Wood Street, Southam, England, CV47 1PP", "hours": {},
-		"lat": 52.2534135,
-		"lon": -1.3871165,
-		"title": "Southam Congregational Church", "url": "https://www.southamcongregational.com"
-	},{
-		"_source": "warm_spaces", "address": "Ashmole Community Hall, 113 Claylands Road, London, England, SW8 1PL", "hours": {},
-		"lat": 51.4824461,
-		"lon": -0.1172637,
-		"title": "Metropolitan Thames Valley Housing", "url": "https://www.mtvh.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Clapham Park Cube, 116 Kings Avenue, London, England, SW4 8EP", "hours": {},
-		"lat": 51.4482231,
-		"lon": -0.1320734,
-		"title": "Metropolitan Thames Valley Housing", "url": "https://www.mtvh.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Little Stoke Baptist Church, Kingsway, Bristol, England, BS34 6JW", "hours": {},
-		"lat": 51.5247108,
-		"lon": -2.5581932,
-		"title": "Little Stoke Baptist Church", "url": "https://www.littlestokebaptist.org"
-	},{
-		"_source": "warm_spaces", "address": "Bridgwater Town Hall, High Street, Bridgwater, England, TA6 3BL", "hours": {},
-		"lat": 51.1280393,
-		"lon": -3.0062485,
-		"title": "Bridgwater Town Council", "url": "https://bridgwater-tc.gov.uk/news/the-bridgwater-community-drop-in-launches-next-week/"
-	},{
-		"_source": "warm_spaces", "address": "Salvation Army, Mulfords Hill, Tadley, England, RG26 3LJ", "hours": {},
-		"lat": 51.3519557,
-		"lon": -1.1385588,
-		"title": "The Salvation Army — Tadley", "url": "https://Salvationarmy.org.uk/Tadley"
-	},{
-		"_source": "warm_spaces", "address": "Brampton Lodge, 4 Dixwell Road, Folkestone, England, CT20 2LG", "hours": {},
-		"lat": 51.0770708,
-		"lon": 1.1589923,
-		"title": "Brampton Lodge"
-	},{
-		"_source": "warm_spaces", "address": "Trinity Methodist Church, Radcliffe Street, Oldham, England, OL2 5QR", "hours": {},
-		"lat": 53.5671362,
-		"lon": -2.1245265,
-		"title": "The Methodist Church Oldham Circuit", "url": "https://www.oldhammethodist.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Porlock Community Library, The Old School Building, High Street, Minehead, England, TA24 8NP", "hours": {},
-		"lat": 51.2092097,
-		"lon": -3.5988352,
-		"title": "Porlock Community Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "Chadderton Library, Burnley Street, Oldham, England, OL9 0JW", "hours": {},
-		"lat": 53.5461703,
-		"lon": -2.1425016,
-		"title": "Chadderton Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Northmoor Library, Chadderton Way, Oldham, England, OL9 6DH", "hours": {},
-		"lat": 53.5468214,
-		"lon": -2.123521,
-		"title": "Northmoor Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Limehurst Library, Ste Chad&#39;s Centre, Lime Green Parade, Oldham, England, OL8 3HH", "hours": {},
-		"lat": 53.5152619,
-		"lon": -2.1265116,
-		"title": "Limehurst Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Fitton Hill Library, Fitton Hill Neighbourhood Centre, Fircroft Road, Oldham, England, OL8 2QD", "hours": {},
-		"lat": 53.5213849,
-		"lon": -2.1016238,
-		"title": "Fitton Hill Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Failsworth Library, Oldham Road, Failsworth, Manchester, England", "hours": {},
-		"lat": 53.5092656,
-		"lon": -2.1614684,
-		"title": "Failsworth Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Wells Library, Union Street, Wells, England, BA5 2PU", "hours": {},
-		"lat": 51.208846,
-		"lon": -2.647866,
-		"title": "Wells Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "Salvation Army, 429 Cowbridge Road East, Cardiff, Wales, CF5 1JG", "hours": {},
-		"lat": 51.4823462,
-		"lon": -3.2108674,
-		"title": "The Salvation Army", "url": "https://www.salvationarmy.org.uk/cardiff-canton"
-	},{
-		"_source": "warm_spaces", "address": "Wincanton Library, Carrington Way, Wincanton, England, BA9 9JS", "hours": {},
-		"lat": 51.0571761,
-		"lon": -2.4094229,
-		"title": "Wincanton Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "The Haven, 2 Bow Street, Stirling, Scotland, FK8 1BS", "hours": {},
-		"lat": 56.1204622,
-		"lon": -3.9417789,
-		"title": "SBC Community - The Haven", "url": "https://SBCcommunity.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Life Centre, 67 Murray Place, Stirling, Scotland, FK8 1AU", "hours": {},
-		"lat": 56.1191024,
-		"lon": -3.937279,
-		"title": "SBC Community - Life Centre", "url": "https://SBCcommunity.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Wells Community Hospital, Mill Road, Wells-next-the-Sea, England, NR23 1RF", "hours": {},
-		"lat": 52.9545876,
-		"lon": 0.8371006,
-		"title": "Coastal Health and Wellbeing at the Old Cottage Hospital", "url": "https://www.wellshospital.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Langport Library, Whatley, Langport, England, TA10 9RA", "hours": {},
-		"lat": 51.0364232,
-		"lon": -2.8285504,
-		"title": "Langport Library", "url": "https://www.librarieswest.org.uk/client/en_GB/default"
-	},{
-		"_source": "warm_spaces", "address": "Williton Library, Killick Way, Taunton, England, TA4 4QA", "hours": {},
-		"lat": 51.1610245,
-		"lon": -3.3203098,
-		"title": "Williton Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Minehead Library, Bancks Street, Minehead, England, TA24 5DJ", "hours": {},
-		"lat": 51.2046706,
-		"lon": -3.4775886,
-		"title": "Minehead LIbrary", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Bishop Road, Cheltenham, England, GL51 4TB", "hours": {},
-		"lat": 51.8666826,
-		"lon": -2.1160165,
-		"title": "Shurdington Parish Council", "url": "https://shurdingtonparishcouncil.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Thomas More Church, 54 Sutton Road, Seaford, England, BN25 1SS", "hours": {},
-		"lat": 50.7738951,
-		"lon": 0.1073195,
-		"title": "St Thomas More Church Seaford", "url": "https://www.seapeace.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "2 Market Place, Shepton Mallet, England, BA4 5AZ", "hours": {},
-		"lat": 51.1909199,
-		"lon": -2.5466287,
-		"title": "Somerset Libraries", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Binford Place, Bridgwater, England, TA6 3LF", "hours": {},
-		"lat": 51.1279323,
-		"lon": -3.0008572,
-		"title": "Bridgwater Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Union Street, Cheddar, England, BS27 3NB", "hours": {},
-		"lat": 51.2757096,
-		"lon": -2.7760139,
-		"title": "Cheddar Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "The Library, Princess Street, Burnham-on-Sea, England, TA8 1EH", "hours": {},
-		"lat": 51.238118,
-		"lon": -2.9962938,
-		"title": "Burnham Library", "url": "https://www.somerset.gov.uk/libraries"
-	},{
-		"_source": "warm_spaces", "address": "Street Library, 6 Leigh Road, Street, England, BA16 0HA", "hours": {},
-		"lat": 51.1262793,
-		"lon": -2.7393418,
-		"title": "Street Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "Glastonbury Library, 1 Orchard Court, Glastonbury, England, BA6 9JB", "hours": {},
-		"lat": 51.1486496,
-		"lon": -2.7154234,
-		"title": "Glastonbury Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "Green Street Green Baptist Church, 1 Worlds End Lane, Orpington, England, BR6 6AA", "hours": {},
-		"lat": 51.3517609,
-		"lon": 0.0898901,
-		"title": "Green Street Green Baptist Church", "url": "https://www.gsgbaptist.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Christ Church, Christchurch Lane, Lichfield, England, WS13 8AY", "hours": {},
-		"lat": 52.6814286,
-		"lon": -1.8417567,
-		"title": "Christ Church, Lichfield", "url": "http://www.christchurch-lichfield.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Tonbridge Baptist Church, Darenth Avenue, Tonbridge, England, TN10 3HZ", "hours": {},
-		"lat": 51.2104819,
-		"lon": 0.2754415,
-		"title": "Tonbridge Baptist Church"
-	},{
-		"_source": "warm_spaces", "address": "Epsom Methodist Church, Ashley Road, Epsom, England, KT18 5AQ", "hours": {},
-		"lat": 51.332329,
-		"lon": -0.2663913,
-		"title": "Epsom Methodist Church", "url": "https://www.epsommethodistchurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Frome Library, Justice Lane, Frome, England, BA11 1BE", "hours": {},
-		"lat": 51.2324731,
-		"lon": -2.3209193,
-		"title": "Frome Library", "url": "https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"
-	},{
-		"_source": "warm_spaces", "address": "Dalmuir Barclay Church, 20 Durban Avenue, Clydebank, Scotland, G81 4JH", "hours": {},
-		"lat": 55.9127367,
-		"lon": -4.4344718,
-		"title": "Dalmuir Barclay Church", "url": "https://www.dalmuirbarclaychurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Tonbridge Methodist Church, Higham Lane, Tonbridge, England, TN10 4JG", "hours": {},
-		"lat": 51.2118152,
-		"lon": 0.2949947,
-		"title": "Tonbridge Methodist Church", "url": "https://www.tonbridgemethodistchurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Sheerness Salvation Army, 163 High Street, Sheerness, England, ME12 1UH", "hours": {},
-		"lat": 51.4376579,
-		"lon": 0.7641027,
-		"title": "Sheerness Salvation Army", "url": "https://www.salvationarmy.org.uk/sheerness"
-	},{
-		"_source": "warm_spaces", "address": "Pontardawe Arts Centre, Herbert Street, Swansea, Wales, SA8 4ED", "hours": {},
-		"lat": 51.719854,
-		"lon": -3.850091,
-		"title": "Pontardawe Arts Centre", "url": "https://pontardaweartscentre.com"
-	},{
-		"_source": "warm_spaces", "address": "Kingsland Church, 86 London Road, Colchester, England, CO3 9DW", "hours": {},
-		"lat": 51.8892957,
-		"lon": 0.8520718,
-		"title": "Kingsland Church Cafe and Community Centre", "url": "https://kingsland.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "DeeDee’s Cafe, Bankwood Lane, Rossington, Doncaster, England, DN11 0PS", "hours": {},
-		"lat": 53.4827308,
-		"lon": -1.0863705,
-		"title": "DeeDee’s Cafe", "url": "https://m.facebook.com/DeeDeesCafeandDesserts/"
-	},{
-		"_source": "warm_spaces", "address": "Jephson Hall, Sutton Road, Walpole Cross Keys, King&#39;s Lynn, England, PE34 4HE", "hours": {},
-		"lat": 52.755237,
-		"lon": 0.2347235,
-		"title": "Jephson Hall Committee", "url": "https://en-gb.facebook.com/JephsonHall/"
-	},{
-		"_source": "warm_spaces", "address": "The Community Cafe, 46 Market Street, Wrexham, Wales, LL14 2HY", "hours": {},
-		"lat": 53.0092431,
-		"lon": -3.0577613,
-		"title": "The Community Cafe", "url": "https://www.rhoscommunitycafe.org"
-	},{
-		"_source": "warm_spaces", "address": "Clayton Gospel Hall, Clayton, Bradford Road, Bradford, England, BD14 6DD", "hours": {},
-		"lat": 53.7847541,
-		"lon": -1.8165428,
-		"title": "Clayton Gospel Hall", "url": "http://www.claytongospelhall.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Martin&#39;s Church Centre, Church Street, Liskeard, England, PL14 3BH", "hours": {},
-		"lat": 50.4538,
-		"lon": -4.460491,
-		"title": "St Martin's Church, Liskeard", "url": "https://www.smartchurchliskeard.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Hailsham Methodist Church, High Street, Hailsham, England, BN27 1BW", "hours": {},
-		"lat": 50.8647031,
-		"lon": 0.2578884,
-		"title": "Hailsham Methodist Church", "url": "https://e-voice.org.uk/hailshammethodist/"
-	},{
-		"_source": "warm_spaces", "address": "Fresh Start Cafe, Recycling Lives Centre, 1a Essex Street, Preston, England, PR1 1QE", "hours": {},
-		"lat": 53.7670855,
-		"lon": -2.6983208,
-		"title": "Recycling Lives Charity", "url": "https://www.facebook.com/FreshStartCafePreston"
-	},{
-		"_source": "warm_spaces", "address": "Delph Library, Millgate, Oldham, England, OL3", "hours": {},
-		"lat": 53.5665449,
-		"lon": -2.0225125,
-		"title": "Delph Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/1173/delph_library"
-	},{
-		"_source": "warm_spaces", "address": "Uppermill Library Street, Chad&#39;s High Street, Oldham, England, OL3 6AZ", "hours": {},
-		"lat": 53.5480398,
-		"lon": -2.0063946,
-		"title": "Uppermill Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/724/uppermill_library"
-	},{
-		"_source": "warm_spaces", "address": "Lees Library Community Hub, Thomas Street, Oldham, England, OL4 5DA", "hours": {},
-		"lat": 53.5373418,
-		"lon": -2.0717852,
-		"title": "Lees Library", "url": "https://www.oldham.gov.uk/info/200395/find_a_library/719/lees_library_community_hub"
-	},{
-		"_source": "warm_spaces", "address": "Bethel Community Church, Sandfields Road, Port Talbot, Wales, SA12 6LR", "hours": {},
-		"lat": 51.5956889,
-		"lon": -3.7961436,
-		"title": "Bethel Trust Port Talbot", "url": "http://www.betheltrustpt.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Salvation Army, 17 Church Street, Liskeard, England, PL14 3AG", "hours": {},
-		"lat": 50.4542311,
-		"lon": -4.4626885,
-		"title": "The Salvation Army", "url": "https://www.salvationarmy.org.uk/liskeard"
-	},{
-		"_source": "warm_spaces", "address": "Eastergate Village Hall, Barnham Road, Barnham, England", "hours": {},
-		"lat": 50.8375243,
-		"lon": -0.6486703,
-		"title": "Eastergate Village Hall", "url": "https://www.facebook.com/EastergateVillageHall/"
-	},{
-		"_source": "warm_spaces", "address": "The Wickbourne Centre, Clun Road, Littlehampton, England, BN17 7DZ", "hours": {},
-		"lat": 50.8142824,
-		"lon": -0.5477438,
-		"title": "The Wickbourne Centre", "url": "https://www.arunchurch.com/wickbourne"
-	},{
-		"_source": "warm_spaces", "address": "Headington Baptist Church, 78 Old High Street, Oxford, England, OX3 9HW", "hours": {},
-		"lat": 51.7638409,
-		"lon": -1.2111779,
-		"title": "Headington Baptist Church", "url": "https://hbc-oxford.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "11 The Square, Thorpe Marriott, Norwich, England, NR8 6XE", "hours": {},
-		"lat": 52.6871032,
-		"lon": 1.2122954,
-		"title": "Trinity Ecumenical Church Centre", "url": "https://Thorpemarriottchurch.org"
-	},{
-		"_source": "warm_spaces", "address": "Linden Church, Elmgrove Road, Swansea, Wales, SA3 5LD", "hours": {},
-		"lat": 51.5887357,
-		"lon": -4.0101106,
-		"title": "Linden Church", "url": "https://www.lindenchurch.com"
-	},{
-		"_source": "warm_spaces", "address": "Knighton and District Community Centre, Bowling Green Lane, Knighton, Wales, LD7 1DR", "hours": {},
-		"lat": 52.3431588,
-		"lon": -3.0448628,
-		"title": "Knighton and District Community Centre", "url": "https://knightoncomm.wales"
-	},{
-		"_source": "warm_spaces", "address": "Park Farm Community Centre, 54 Kentmere Avenue, Saint Helens, England, WA11 7PG", "hours": {},
-		"lat": 53.4769032,
-		"lon": -2.7212995,
-		"title": "Park Farm Community Centre", "url": "https://www.parkfarmcommunitycentre.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Hope Centre, Swift Road, Dawlish, England, EX7 0FS", "hours": {},
-		"lat": 50.6000233,
-		"lon": -3.4600441,
-		"title": "Hope Church", "url": "https://www.hopechurchdawlish.org"
-	},{
-		"_source": "warm_spaces", "address": "Copperhouse Club, 142 Albion Street, Kenilworth, England, CV8 2HJ", "hours": {},
-		"lat": 52.3485394,
-		"lon": -1.5731655,
-		"title": "Copperhouse Club", "url": "https://copperhouseclub.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Mustard Seed, 14-16 Wendron Street, Helston, England, TR13 8PS", "hours": {},
-		"lat": 50.1014991,
-		"lon": -5.2734967,
-		"title": "Mustard Seed (SW)", "url": "http://www.mustardseedcharity.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Cayton Parish Council, Main Street, Scarborough, England, YO11 3TF", "hours": {},
-		"lat": 54.2335827,
-		"lon": -0.3774975,
-		"title": "Cayton Parish Council", "url": "https://Www.caytonparish.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Scartho Methodist Church, Louth Road, Grimsby, England, DN33 2EH", "hours": {},
-		"lat": 53.5386341,
-		"lon": -0.0924966,
-		"title": "Scartho Methodist Church", "url": "https://www.scarthomethodists.net"
-	},{
-		"_source": "warm_spaces", "address": "Old Kilpatrick Food Parcels, Unit 5, Industrial Estate, 5 Station Road, Glasgow, Scotland, G60 5LP", "hours": {},
-		"lat": 55.9245421,
-		"lon": -4.456522,
-		"title": "OKFP HUB CIC", "url": "https://www.okfp.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Saint Ambrose Barlow RC Church, Lakey Lane, Birmingham, England, B28 8QU", "hours": {},
-		"lat": 52.4307768,
-		"lon": -1.8300728,
-		"title": "Saint Ambrose Barlow RC Church", "url": "https://sites.google.com/view/st-ambrose-barlow"
-	},{
-		"_source": "warm_spaces", "address": "Hedingham Baptist Church, 177 Swan Street, Halstead, England, CO9 3PX", "hours": {},
-		"lat": 51.9805469,
-		"lon": 0.5893087,
-		"title": "Hedingham Baptist Church", "url": "https://hedinghambaptist.org"
-	},{
-		"_source": "warm_spaces", "address": "St Lawrence&#39;s Church, The Rectory, School Hill, Bourton-on-the-Water, Cheltenham, England, GL54 2AW", "hours": {},
-		"lat": 51.8860637,
-		"lon": -1.7589388,
-		"title": "St Lawrence Church", "url": "https://www.bourtonparishchurch.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Age Concern Sandwich, 19-21 Cattle Market, Sandwich, England, CT13 9AP", "hours": {},
-		"lat": 51.2742718,
-		"lon": 1.3385633,
-		"title": "Age Concern Sandwich"
-	},{
-		"_source": "warm_spaces", "address": "Old Lakenham Community Centre, Harwood Road, Norwich, England, NR1 2NG", "hours": {},
-		"lat": 52.6072084,
-		"lon": 1.2974841,
-		"title": "Old Lakenham Community Centre", "url": "https://www.facebook.com/Oldlakenhamcommunitycentre"
-	},{
-		"_source": "warm_spaces", "address": "Woolmer Green Hall, Hall Lane, Woolmer Green, England, SG3 6XA", "hours": {},
-		"lat": 51.8522071,
-		"lon": -0.1830967,
-		"title": "Warm Welcome Woolmer Green", "url": "https://www.woolmergreenpc.org"
-	},{
-		"_source": "warm_spaces", "address": "The King&#39;s Centre, Whessoe Road, Darlington, England, DL3 0QT", "hours": {},
-		"lat": 54.5413385,
-		"lon": -1.558539,
-		"title": "King's Church Darlington", "url": "https://www.kingschurchdarlington.org"
-	},{
-		"_source": "warm_spaces", "address": "Kent MS Therapy Centre, Bradbury House, Merton Lane North, Canterbury, England, CT4 7DZ", "hours": {},
-		"lat": 51.2570609,
-		"lon": 1.0835525,
-		"title": "Kent MS Therapy Centre", "url": "https://kentmstc.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Lingwood Village Hall, Station Road, Norwich, England, NR13 4AZ", "hours": {},
-		"lat": 52.6189451,
-		"lon": 1.4907841,
-		"title": "Hug a Mug Cafe", "url": "https://www.lingwoodvh.co.uk/hug-a-mug-cafe"
-	},{
-		"_source": "warm_spaces", "address": "Faversham Umbrella, Court Street, Faversham, England, ME13", "hours": {},
-		"lat": 51.3168276,
-		"lon": 0.8921231,
-		"title": "Faversham Umbrella", "url": "https://favershamumbrella.org"
-	},{
-		"_source": "warm_spaces", "address": "The Crich Glebe Field Centre, Glebe Field Close, Matlock, England, DE4 5EU", "hours": {},
-		"lat": 53.0843077,
-		"lon": -1.4823575,
-		"title": "Crich Glebe Field Trust Ltd", "url": "https://www.crichglebefieldcentre.org"
-	},{
-		"_source": "warm_spaces", "address": "Brachdy House, 50 Brachdy Road, Cardiff, Wales, CF3 3BG", "hours": {},
-		"lat": 51.5040331,
-		"lon": -3.1274676,
-		"title": "Rumney Forum"
-	},{
-		"_source": "warm_spaces", "address": "Sheppey Healthy Living Centre, Sheerness, England, ME12 1HH", "hours": {},
-		"lat": 51.4415057,
-		"lon": 0.7635425,
-		"title": "Sheppey Matters", "url": "http://www.sheppeymatters.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Leodegarius, 152 Church Street, Nottingham, England, NG6 0GD", "hours": {},
-		"lat": 52.9795204,
-		"lon": -1.1778829,
-		"title": "Woven St Leo's", "url": "https://wearewoven.church/stleos"
-	},{
-		"_source": "warm_spaces", "address": "Silver Road Community Centre, Silver Road, Norwich, England, NR3 4TB", "hours": {},
-		"lat": 52.6384066,
-		"lon": 1.3027663,
-		"title": "Silver Road Community Centre", "url": "https://silverroadcommunitycentre.com"
-	},{
-		"_source": "warm_spaces", "address": "Portobello Inn, Stepney Road, Burry Port, Wales, SA16 0BP", "hours": {},
-		"lat": 51.6844152,
-		"lon": -4.2489785,
-		"title": "Portobello Inn", "url": "https://www.facebook.com/portobelloinnburryport/"
-	},{
-		"_source": "warm_spaces", "address": "Vineyard Church Dungannon, The Storehouse, 4 Church Lane, Dungannon, Northern Ireland, BT71 6AA", "hours": {},
-		"lat": 54.5040728,
-		"lon": -6.768444,
-		"title": "Vineyard Church Dungannon", "url": "http://www.vineyarddungannon.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "St Peter&#39;s Church, Coronation Avenue, Yeovil, England, BA21 3DY", "hours": {},
-		"lat": 50.9519691,
-		"lon": -2.6488752,
-		"title": "St Peters Community Centre, Westfield", "url": "http://www.stpeters-yeovil.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Beaulieu Community Centre, Beaulieu Square, Chelmsford, England, CM1 6AU", "hours": {},
-		"lat": 51.7598054,
-		"lon": 0.4995368,
-		"title": "Beaulieu Community Trust (BCT)", "url": "https://Beaulieucommunitycentre.org"
-	},{
-		"_source": "warm_spaces", "address": "insideOUT Hair Studio, 36 Moat Sole, Sandwich, England, CT13 9AU", "hours": {},
-		"lat": 51.2742147,
-		"lon": 1.3368081,
-		"title": "InsideOut", "url": "https://www.insideouthairstudio.com"
-	},{
-		"_source": "warm_spaces", "address": "The Baseline Centre, 65-67 Knowland Grove, Norwich, England, NR5 8YD", "hours": {},
-		"lat": 52.6422021,
-		"lon": 1.2381744,
-		"title": "Future Projects"
-	},{
-		"_source": "warm_spaces", "address": "Shirehampton JTE Hub, The Methodist Church, High Street, Shirehampton, England, BS11 0DY", "hours": {},
-		"lat": 51.4893055,
-		"lon": -2.6756215,
-		"title": "Shirehampton JTE Hub", "url": "https://jtehubshire.org"
-	},{
-		"_source": "warm_spaces", "address": "The City Wall, 120 High Street, Rochester, England, ME1 1JT", "hours": {},
-		"lat": 51.3877796,
-		"lon": 0.5054578,
-		"title": "The City Wall", "url": "https://www.facebook.com/CITYWALLROCHESTER"
-	},{
-		"_source": "warm_spaces", "address": "Tree Community Centre, Cedar Road, Dartford, England, DA1 2RS", "hours": {},
-		"lat": 51.4357935,
-		"lon": 0.2107992,
-		"title": "Healthy Living Centre Dartford", "url": "https://www.hlcdartford.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Temple Hill Community Centre, Temple Hill Square, Dartford, England, DA1 5HY", "hours": {},
-		"lat": 51.4503669,
-		"lon": 0.2273388,
-		"title": "Healthy Living Centre Dartford", "url": "https://www.hlcdartford.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "239 Milton Road, Southsea, England, PO4 8PH", "hours": {},
-		"lat": 50.7964905,
-		"lon": -1.059142,
-		"title": "Christ Church Milton United Reformed Church", "url": "https://miltonunitedreformedchurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Trinity Centre, Fishermead Boulevard, Milton Keynes, England, MK6", "hours": {},
-		"lat": 52.0362723,
-		"lon": -0.7462926,
-		"title": "Trinity Centre, Fishermead"
-	},{
-		"_source": "warm_spaces", "address": "St John&#39;s Church Centre, Foxbush, Hildenborough, Tonbridge, England, TN11 9HT", "hours": {},
-		"lat": 51.217488,
-		"lon": 0.2384729,
-		"title": "St John's Church Hildenborough", "url": "https://www.stjohnshildenborough.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Milford Club, 1 Church Road, Godalming, England, GU8 5JA", "hours": {},
-		"lat": 51.1696288,
-		"lon": -0.6457867,
-		"title": "Milford Club"
-	},{
-		"_source": "warm_spaces", "address": "Taunton Minster, Church Square, Taunton, England, TA1 1SA", "hours": {},
-		"lat": 51.0156747,
-		"lon": -3.100717,
-		"title": "Taunton Minster", "url": "https://tauntonminster.org"
-	},{
-		"_source": "warm_spaces", "address": "Tap House at Stokeley Farm Shop, Stokeley Barton Farms, Stokenham, Devon, England, TQ7 2SE", "hours": {},
-		"lat": 50.2740159,
-		"lon": -3.6578906,
-		"title": "South Hams Brewery Ltd", "url": "https://stokeleyfarmshop.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Adj Forge House The Broadway, Lamberhurst, Tunbridge Wells, England, TN3 8DA", "hours": {},
-		"lat": 51.100815,
-		"lon": 0.3925024,
-		"title": "Teise &amp; Coffee", "url": "https://www.facebook.com/teiseandcoffee/"
-	},{
-		"_source": "warm_spaces", "address": "St Paul&#39;s Church Centre, Rusthall High Street, Tunbridge Wells, England, TN4", "hours": {},
-		"lat": 51.1353555,
-		"lon": 0.2295801,
-		"title": "Charlie's Angels Kitchens", "url": "https://Charliesangelskitchens.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Fountain Head Inn, 45 Mount Pellon Road, Halifax, England, HX2 0EE", "hours": {},
-		"lat": 53.7298534,
-		"lon": -1.8884173,
-		"title": "Fountain Community Organisation Ltd", "url": "https://m.facebook.com/profile.php?_rdr&amp;eav=AfatPV-7qSB3nynDuNvSlai3_SxkQ6Eaqn1GS4L6bezMM8yQWe3Cf8oB5kTI-rqWkZA&amp;id=100047988896151&amp;paipv=0&amp;ref=py_c"
-	},{
-		"_source": "warm_spaces", "address": "Harwich Arts and Heritage Centre, Main Road, Harwich, England, CO12 4AJ", "hours": {},
-		"lat": 51.9367291,
-		"lon": 1.2705487,
-		"title": "Harwich Festival", "url": "https://www.harwichfestival.com"
-	},{
-		"_source": "warm_spaces", "address": "Poppies Tearooms, Memorial Hall, King George V Road, Bovington, Wareham, England, BH20 6JQ", "hours": {},
-		"lat": 50.7021522,
-		"lon": -2.2423775,
-		"title": "Poppies Tearooms", "url": "https://www.facebook.com/Bovingtonscommunitycafe/"
-	},{
-		"_source": "warm_spaces", "address": "Reepham Methodist Church, Station Road, Norwich, England, NR10 4LF", "hours": {},
-		"lat": 52.7645575,
-		"lon": 1.1104132,
-		"title": "Reepham Methodist Church"
-	},{
-		"_source": "warm_spaces", "address": "Slades Park Pavilion, Ensbury Avenue, Bournemouth, England, BH10 4HG", "hours": {},
-		"lat": 50.7477851,
-		"lon": -1.8952454,
-		"title": "Active Dorset", "url": "https://www.activedorset.org"
-	},{
-		"_source": "warm_spaces", "address": "Blandford Leisure Centre, Milldown Road, Blandford Forum, England, DT11 7DB", "hours": {},
-		"lat": 50.8611089,
-		"lon": -2.169596,
-		"title": "Everyone Active", "url": "https://www.everyoneactive.com"
-	},{
-		"_source": "warm_spaces", "address": "Rossmore Leisure Centre, Herbert Avenue, Poole, England, BH12 4HR", "hours": {},
-		"lat": 50.7427861,
-		"lon": -1.9325219,
-		"title": "Everyone Active", "url": "https://www.everyoneactive.com"
-	},{
-		"_source": "warm_spaces", "address": "The Hub, Church Street, Lyme Regis, England, DT7 3BS", "hours": {},
-		"lat": 50.7254417,
-		"lon": -2.9318556,
-		"title": "Lyme Regis Development Trust"
-	},{
-		"_source": "warm_spaces", "address": "Fed&amp;Watered, Middle Hedgefield Farm, Blaydon-on-Tyne, England, NE21 4NN", "hours": {},
-		"lat": 54.9720512,
-		"lon": -1.743912,
-		"title": "Fed&amp;Watered", "url": "https://www.fedandwatered.cafe"
-	},{
-		"_source": "warm_spaces", "address": "St Mary’s Church Bridgwater, Saint Mary Street, Bridgwater, England, TA6 3EQ", "hours": {},
-		"lat": 51.1278324,
-		"lon": -3.0049934,
-		"title": "St Mary’s Church Bridgwater", "url": "https://www.stmarysbridgwater.org"
-	},{
-		"_source": "warm_spaces", "address": "Friendship Hall, Mill Road, Norwich, England, NR11 6DS", "hours": { "_text": "8:30am-11pm" },
-		"lat": 52.7937175,
-		"lon": 1.2472427,
-		"title": "Aylsham Older Peoples Association", "url": "https://communitydirectory.norfolk.gov.uk/Services/4688/Aylsham-Older-People"
-	},{
-		"_source": "warm_spaces", "address": "The Blue Bell Pub-Cafe, Lynn Road, King&#39;s Lynn, England, PE33 9SW", "hours": { "_parsed": "Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-23:00; Sa 12:00-23:00; Su 12:00-20:00", "_text": "Monday &amp; Tuesdays 9am-4pm, Wednesday &amp; Thursday 9am-4pm, 6.30pm-10pm, Friday 9am-11pm, Saturday 12pm-11pm, Sunday 12pm-8pm.", "friday": "09:00-23:00", "monday": "09:00-16:00", "saturday": "12:00-23:00", "sunday": "12:00-20:00", "thursday": "09:00-16:00", "tuesday": "09:00-16:00", "wednesday": "09:00-16:00" },
-		"lat": 52.5733184,
-		"lon": 0.5103116,
-		"title": "Stoke Ferry Community Enterprise Limited", "url": "https://www.bluebellstokeferry.org"
-	},{
-		"_source": "warm_spaces", "address": "St Martin&#39;s Church, Mill Road, Cromer, England, NR27 0AD", "hours": {},
-		"lat": 52.9211249,
-		"lon": 1.3087088,
-		"title": "St Martin’s Church"
-	},{
-		"_source": "warm_spaces", "address": "Cromer Parish Church (St Peter and St Paul), Church Street, Cromer, England, NR27 9HH", "hours": {},
-		"lat": 52.9313046,
-		"lon": 1.3012988,
-		"title": "Cromer Parish Church", "url": "https://cromer-church.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Rock City Climbing, Hawthorn Avenue, Hull, England, HU3 5GL", "hours": {},
-		"lat": 53.7361946,
-		"lon": -0.3800769,
-		"title": "Rock City", "url": "https://www.rockcity.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Bethel Church, Stone Street, Oldbury, England, B69 4JQ", "hours": {},
-		"lat": 52.5019114,
-		"lon": -2.0126236,
-		"title": "Bethel Church"
-	},{
-		"_source": "warm_spaces", "address": "Turner Contemporary, Rendezvous, Margate, England, CT9 1HG", "hours": {},
-		"lat": 51.3911213,
-		"lon": 1.3819307,
-		"title": "Turner Contemporary", "url": "https://turnercontemporary.org"
-	},{
-		"_source": "warm_spaces", "address": "Grace Centre, Somerset Road, Bolton, England, BL1 4NE", "hours": {},
-		"lat": 53.5820159,
-		"lon": -2.4585854,
-		"title": "Grace Church Bolton"
-	},{
-		"_source": "warm_spaces", "address": "Geek Retreat Ipswich, 41A Upper Brook Street, Ipswich, England, IP4 1DU", "hours": {},
-		"lat": 52.0563604,
-		"lon": 1.1563187,
-		"title": "Geek Retreat Ipswich", "url": "https://ipswichgeek.com"
-	},{
-		"_source": "warm_spaces", "address": "Lilys Kitchen, Saint George&#39;s Place (opposite Waitrose), Canterbury, England, CT1 1UT", "hours": { "_parsed": "Th 11:00-14:00; Fr 11:00-14:00", "_text": "Thursdays &amp; Fridays, 11:00am-2:00pm", "friday": "11:00-14:00", "thursday": "11:00-14:00" },
-		"lat": 51.2757326,
-		"lon": 1.0857814,
-		"title": "The Hub Cafe", "url": "https://lilyscommunity.org"
-	},{
-		"_source": "warm_spaces", "address": "Saint Mary&#39;s Church, Chapel Road, Southampton, England, SO14 1AQ", "hours": {},
-		"lat": 50.9028297,
-		"lon": -1.3955812,
-		"title": "Saint Mary's Church", "url": "https://saintmarys.church"
-	},{
-		"_source": "warm_spaces", "address": "Thomas Risley Church, Glover Road, Warrington, England, WA3", "hours": {},
-		"lat": 53.4224322,
-		"lon": -2.5335882,
-		"title": "Thomas Risley Church", "url": "https://thomasrisley.org"
-	},{
-		"_source": "warm_spaces", "address": "Pear Tree Church Hall, 80 Peartree Road, Southampton, England, SO19 7GZ", "hours": {},
-		"lat": 50.903296,
-		"lon": -1.3739571,
-		"title": "Peartree Church", "url": "https://www.peartreechurch.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "Hales Christian Assembly Hall, Briar Lane, Hales, NR14 6SX", "hours": {},
-		"lat": 52.5220483,
-		"lon": 1.5081389,
-		"title": "Hales Christian Assembly Hall"
-	},{
-		"_source": "warm_spaces", "address": "St Paul&#39;s Centre, Back Constablelee, Rossendale, England, BB4 8HU", "hours": {},
-		"lat": 53.7101727,
-		"lon": -2.2897578,
-		"title": "Ow do!", "url": "https://owdo.space"
-	},{
-		"_source": "warm_spaces", "address": "Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT", "hours": { "_parsed": "Mo-Sa 10:00-16:00", "_text": "10am-4pm, Monday - Saturday", "friday": "10:00-16:00", "monday": "10:00-16:00", "saturday": "10:00-16:00", "thursday": "10:00-16:00", "tuesday": "10:00-16:00", "wednesday": "10:00-16:00" },
-		"lat": 51.3203334,
-		"lon": -2.2095089,
-		"title": "Trowbridge Museum", "url": "https://Trowbridgemuseum.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Belper Central  Methodist Church, Chapel Street, Belper, England, DE56 1AR", "hours": { "_parsed": "Fr 10:00-16:00", "_text": "Friday, 10-4pm", "friday": "10:00-16:00" },
-		"lat": 53.0220843,
-		"lon": -1.4843324,
-		"title": "Belper Central Methodist Church", "url": "http://www.belpercentralmethodist.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Pob Sports &amp; Community Hub, Nibley Road, Bristol, England, BS11 9XW", "hours": {},
-		"lat": 51.4828035,
-		"lon": -2.6771078,
-		"title": "Pob Sports and Community Hub", "url": "https://Pbaclub.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Swan, 50 Manor Road, Walton-on-Thames, England, KT12 2PF", "hours": {},
-		"lat": 51.3896585,
-		"lon": -0.4221305,
-		"title": "The Swan Walton on Thames", "url": "https://www.swanwalton.com"
-	},{
-		"_source": "warm_spaces", "address": "Water Mill Primary School, Water Mill Close, Birmingham, England, B29 6TS", "hours": {},
-		"lat": 52.4456201,
-		"lon": -1.9471936,
-		"title": "Water Mill Primary School", "url": "https://Www.watermill.bham.sch.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Hub Cafe, Canterbury Baptist Church, Saint George&#39;s Place, Canterbury, England, CT1 1UT", "hours": {},
-		"lat": 51.275956,
-		"lon": 1.0855117,
-		"title": "The Hub Cafe - Lily's Social Kitchen CIC"
-	},{
-		"_source": "warm_spaces", "address": "St Petrock&#39;s Church, Church Street, Minehead, England, TA24", "hours": { "_parsed": "Mo-Su 09:00-17:00", "_text": "9am-5pm, daily" },
-		"lat": 51.1682209,
-		"lon": -3.4943916,
-		"title": "St Petrock's Church", "url": "https://timberscombevillage.com/church-services/"
-	},{
-		"_source": "warm_spaces", "address": "104 Bath Road, Slough, England, SL1 3SY", "hours": {},
-		"lat": 51.5123967,
-		"lon": -0.6104943,
-		"title": "Windmill Care Centre", "url": "https://www.mmcgcarehomes.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Central Baptist Church, Devonshire Road, Southampton, England, SO15 2GY", "hours": {},
-		"lat": 50.9121611,
-		"lon": -1.4092778,
-		"title": "Central Baptist Church", "url": "http://www.southamptoncbc.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Treehouse Cafe, Charles Road, Holt, England, NR25 6DA", "hours": { "_parsed": "Mo-Fr 09:00-14:00", "_text": "Weekdays, 9am-2pm", "friday": "09:00-14:00", "monday": "09:00-14:00", "thursday": "09:00-14:00", "tuesday": "09:00-14:00", "wednesday": "09:00-14:00" },
-		"lat": 52.9015426,
-		"lon": 1.0974409,
-		"title": "The Treehouse Cafe", "url": "https://www.thetreehousecafe.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Whisby Garden Centre, Whisby Road, Lincoln, England, LN6 9BY", "hours": {},
-		"lat": 53.1992702,
-		"lon": -0.6231317,
-		"title": "Whisby Garden Centre", "url": "https://www.whisbygardencentre.com"
-	},{
-		"_source": "warm_spaces", "address": "The Copper Pipe Cafe The Bridge, Barnby Dun Road, Doncaster, England, DN2 4RG", "hours": { "_parsed": "Tu 09:00-13:00; We 09:00-13:00; Th 09:00-13:00", "_text": "Tuesday, Wednesday, Thursday 9am-1pm", "thursday": "09:00-13:00", "tuesday": "09:00-13:00", "wednesday": "09:00-13:00" },
-		"lat": 53.5500718,
-		"lon": -1.0864,
-		"title": "The Copper Pipe Cafe (Cambeth Community Project CIV)", "url": "https://www.facebook.com/TheCopperPipe/"
-	},{
-		"_source": "warm_spaces", "address": "The Zero Waste Company, 13 The Pantiles, Tunbridge Wells, England, TN2 5TD", "hours": { "_text": "9:30am-5pm" },
-		"lat": 51.1264692,
-		"lon": 0.2584035,
-		"title": "The Zero Waste Company", "url": "https://www.thezerowastecompany.com"
-	},{
-		"_source": "warm_spaces", "address": "The Centre Baglan Community Church, Lodge Drive, Port Talbot, Wales, SA12 8UB", "hours": { "_parsed": "Su 10:30-12:00", "_text": "Sundays 10:30am-12pm, ", "sunday": "10:30-12:00" },
-		"lat": 51.620402,
-		"lon": -3.807374,
-		"title": "Baglan Community Church", "url": "https://www.baglanchurch.com"
-	},{
-		"_source": "warm_spaces", "address": "Charlbury Community Centre, Enstone Road, Chipping Norton, England, OX7 3PQ", "hours": {},
-		"lat": 51.8740312,
-		"lon": -1.4807148,
-		"title": "Charlbury Community Centre", "url": "https://www.charlburycommunitycentre.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "The Risebrow Centre, Chantry Road, Norwich, England, NR2 1RF", "hours": { "_text": "1:30pm-5pm" },
-		"lat": 52.6259699,
-		"lon": 1.2894532,
-		"title": "MAP - Mancroft Advice Project", "url": "https://www.map.uk.net"
-	},{
-		"_source": "warm_spaces", "address": "Infusion Coffee House, 82 Derby Road, Nottingham, England, NG10 4LB", "hours": { "_parsed": "We-Fr 10:30-15:00", "_text": "Wednesday-Friday, 10.30am-3pm", "friday": "10:30-15:00", "thursday": "10:30-15:00", "wednesday": "10:30-15:00" },
-		"lat": 52.9010526,
-		"lon": -1.2779686,
-		"title": "Infusion Coffee House", "url": "https://www.longeatonoasis.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Singleton Village Hall, Hoxton Close, Ashford, England, TN23 5LB", "hours": { "_text": "8am-4pm " },
-		"lat": 51.1385894,
-		"lon": 0.8401453,
-		"title": "Lily's at Singleton", "url": "https://lilyscommunity.org"
-	},{
-		"_source": "warm_spaces", "address": "Trinity Church Nottingham, 192 Mansfield Road, Nottingham, England, NG1", "hours": { "_parsed": "We 13:00-15:00", "_text": "Every Wednesday, 1pm-3pm", "wednesday": "13:00-15:00" },
-		"lat": 52.9637679,
-		"lon": -1.1516872,
-		"title": "Trinity Church Nottingham", "url": "https://www.trinitychurchnottingham.org"
-	},{
-		"_source": "warm_spaces", "address": "Creations Hair &amp; Beauty, 66 Kirklington Road, Newark, England, NG22 8SP", "hours": { "_parsed": "We-Sa 09:00-18:00", "_text": "Wednesday-Saturday, 9am-6pm (some days later)", "friday": "09:00-18:00", "saturday": "09:00-18:00", "thursday": "09:00-18:00", "wednesday": "09:00-18:00" },
-		"lat": 53.132911,
-		"lon": -1.027087,
-		"title": "Creations", "url": "https://www.facebook.com/CreationsHairBeauty"
-	},{
-		"_source": "warm_spaces", "address": "The Three Cottages, 229 Mansfield Road, Chesterfield, England, S41 0JJ", "hours": { "_parsed": "Mo-Su 00:00-00:00", "_text": "Daily, 12pm-6pm" },
-		"lat": 53.2147196,
-		"lon": -1.3955996,
-		"title": "The Three Cottages", "url": "https://ourlocal.pub/pubs/the-three-cottages-hasland/"
-	},{
-		"_source": "warm_spaces", "address": "Cromer Methodist Church Hall, West Street, Cromer, England, NR27 9HZ", "hours": { "_parsed": "Mo 10:30-13:00; Th 10:30-13:00", "_text": "Mondays &amp; Thursdays, 10.30am-1.00pm", "monday": "10:30-13:00", "thursday": "10:30-13:00" },
-		"lat": 52.9301621,
-		"lon": 1.2955201,
-		"title": "Community Matters Cafe", "url": "https://www.northnorfolkmethodist.org.uk/cromer.htm"
-	},{
-		"_source": "warm_spaces", "address": "Honesty Library, Level 2 , Castle Quarter, Norwich, England, NR1 3DD", "hours": { "_parsed": "Tu-Sa 10:00-16:00", "_text": "Tues-Sat, 10am-4pm (Closed on the last Thurs, Fri, Sat of every month and between Christmas and New Year)", "friday": "10:00-16:00", "saturday": "10:00-16:00", "thursday": "10:00-16:00", "tuesday": "10:00-16:00", "wednesday": "10:00-16:00" },
-		"lat": 52.6273956,
-		"lon": 1.2963689,
-		"title": "Honesty Library", "url": "https://www.new-ultd.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Audacious Church, Trinity Way, Manchester, England, M3 7BD", "hours": { "_parsed": "Tu 17:00-21:00", "_text": "Tuesdays, 5pm-9pm", "tuesday": "17:00-21:00" },
-		"lat": 53.4853877,
-		"lon": -2.2545006,
-		"title": "Audacious Foundation", "url": "https://www.audaciousfoundation.com"
-	},{
-		"_source": "warm_spaces", "address": "52a South Clough Lane, King&#39;s Lynn, England, PE30", "hours": { "_parsed": "Mo-Fr 10:00-16:00; Fr 10:00-14:00; Sa 10:00-14:00", "_text": "Monday-Friday, 10am-4pm Monday to Friday &amp; Saturdays, 10am-2pm", "friday": "10:00-14:00", "monday": "10:00-16:00", "saturday": "10:00-14:00", "thursday": "10:00-16:00", "tuesday": "10:00-16:00", "wednesday": "10:00-16:00" },
-		"lat": 52.7529139,
-		"lon": 0.3982994,
-		"title": "Bridge for Heroes", "url": "https://www.thebridgeforheroes.org"
-	},{
-		"_source": "warm_spaces", "address": "New Hope Christian Centre, Martineau Lane, Norwich, England, NR1 2HX", "hours": { "_parsed": "We 10:00-14:00", "_text": "Wednesdays, 10am-2pm", "wednesday": "10:00-14:00" },
-		"lat": 52.6098568,
-		"lon": 1.3032181,
-		"title": "Community Action Norwich", "url": "https://www.communityactionnorwich.co.uk"
-	},{
-		"_source": "warm_spaces", "address": "Adderley, Peterborough, England, PE3 8RA", "hours": { "_parsed": "Mo-Th 09:30-12:00", "_text": "Monday - Thursday, 09:30am-12pm (More hours coming soon)", "monday": "09:30-12:00", "thursday": "09:30-12:00", "tuesday": "09:30-12:00", "wednesday": "09:30-12:00" },
-		"lat": 52.5974639,
-		"lon": -0.2720641,
-		"title": "The Alpha Centre", "url": "https://www.facebook.com/The-Alpha-Centre-480749702428780/about/?ref=page_internal"
-	},{
-		"_source": "warm_spaces", "address": "Hawksworth, Tamworth, England, B77 2HH", "hours": { "_parsed": "We 09:00-11:00; Fr 09:00-11:00", "_text": "Wednesdays &amp; Fridays, 9am-11am", "friday": "09:00-11:00", "wednesday": "09:00-11:00" },
-		"lat": 52.6198038,
-		"lon": -1.6656103,
-		"title": "St Peter’s Church &amp; Community Centre", "url": "https://stpeters-glascote.org.uk"
-	},{
-		"_source": "warm_spaces", "address": "NCBC, Duke St, England, NR3 1DL", "hours": { "_parsed": "Mo 10:00-15:00; Tu 10:00-15:00", "_text": "Mondays &amp; Tuesdays, 10am-3pm (Starting on Oct)", "monday": "10:00-15:00", "tuesday": "10:00-15:00" },
-		"lat": 52.6348362873746,
-		"lon": 1.29079308437807,
-		"title": "NCBC", "url": "https://www.norwichcentral.org"
-	},{
-		"_source": "warm_spaces", "address": "Queen Street, Wymondham, England, NR18 0AY", "hours": { "_parsed": "We 14:00-17:00; Th 14:00-17:00", "_text": "Wednesday &amp; Thursday, 2pm-5pm (from Oct)", "thursday": "14:00-17:00", "wednesday": "14:00-17:00" },
-		"lat": 52.5696508,
-		"lon": 1.1124028,
-		"title": "Wymondham Baptist Church — Home from Home", "url": "https://www.wymondhambaptist.org"
-	},{
-		"_source": "warm_spaces", "address": "2 Bursledon Road, Bitterne, Southampton, England, SO19 7LW", "hours": { "_text": "Various" },
-		"lat": 50.9138412,
-		"lon": -1.3583529,
-		"title": "Holy Saviour Bitterne", "url": "https://www.holysaviour.church"
-	},{
 		"_source": "gateshead_council", "address": "Blaydon Shopping Centre, Wesley Court, Blaydon, Gateshead, NE21 5BT, United Kingdom", "description": "Charging facilities, Hot drinks, Accessible toilets, Baby changing facilities, Parking, Free Wifi", "title": "Age UK Gateshead - Blaydon Shopping Centre"
 	},{
 		"_source": "gateshead_council", "address": "Heworth Hub, St Marys, Heworth, Gateshead, NE10 0UY, United Kingdom", "description": "Charging facilities, Hot drinks, Accessible toilets, Baby changing facilities, Parking, Free Wifi", "title": "Age UK Gateshead - Heworth Hub"
@@ -14922,7 +13852,7 @@
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Car park - large, free car park, Public transport - bus stop 750 metres away. Stagecoach 65 and 66, Accessibility - wheelchair-friendly and fully accessible for all. Bell outside front door., Computers - available to book, Free WiFi - you don't need a library card to use this service, Food hygiene registered", "title": "Buckden Library, Community Hall and Sports Centre, Burberry Road, Buckden, PE19 5UY"
 	},{
-		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Power sockets for people to use, Kitchen, Facilities to make hot food and drinks - kettle/microwave, Secure building, Food hygiene registered", "hours": { "_parsed": "Fr 00:00-11:30, Su 10:30-11:30", "_text": "Friday: First Friday of the month - 10am - 11.30amThird Friday of the month - 12pm, Sunday: 10.30am - 11.30am", "friday": "[1]10:00-11:30", "sunday": "10:30-11:30" },
+		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Power sockets for people to use, Kitchen, Facilities to make hot food and drinks - kettle/microwave, Secure building, Food hygiene registered", "hours": { "_parsed": "Fr 00:00-11:30, Su 10:30-12:00", "_text": "Friday: First Friday of the month - 10am - 11.30am, Friday: Third Friday of the month - 12pm, Sunday: 10.30am - 12pm", "friday": "[1]10:00-11:30", "sunday": "10:30-12:00" },
 		"title": "Buckden Methodist Church, Church Street, Buckden, PE19 5TP"
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Car park, Free wi-fi access, Available power sockets for people to use, Kitchen, Facilities to make hot food/drink (For example: kettle/microwave), Secure building, Access to free activities (For example: board games, jigsaws, drawing and colouring resources).", "hours": { "_parsed": "Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00", "_text": "Monday, Tuesday, Wednesday: 9am - 4pm", "monday": "09:00-16:00", "tuesday": "09:00-16:00", "wednesday": "09:00-16:00" },
@@ -16014,7 +14944,7 @@
 		"lon": -0.154332,
 		"title": "Balham Library"
 	},{
-		"_source": "wandsworth_council", "address": "Rowfant Road, London, SW17 7AP", "description": "Open to all. Run by Vineyard 61 Church.", "hours": { "_parsed": "Mo 11:00-14:00", "_text": "Mondays 11am to 2pm", "monday": "11:00-14:00" },
+		"_source": "wandsworth_council", "address": "Rowfant Road, London, SW17 7AP", "description": "Open to all. Run by Vineyard 61 Church.", "hours": { "_parsed": "Mo 11:00-14:00", "_text": "Monday 11am to 2pm", "monday": "11:00-14:00" },
 		"lat": 51.44168,
 		"lon": -0.15685,
 		"title": "St Marks Church Hall"
@@ -16049,7 +14979,11 @@
 		"lon": -0.186587,
 		"title": "Earlsfield Library"
 	},{
-		"_source": "wandsworth_council", "address": "22 Ascalon Street, London, SW8 4AN", "description": "Open to all.", "hours": { "_parsed": "Mo 10:00-20:00", "_text": "Mondays 10am to 8pm", "monday": "10:00-20:00" },
+		"_source": "wandsworth_council", "address": "St Andrew&apos;s Church, Garratt Lane, London, SW18 4SR", "description": "Open to all.", "hours": { "_parsed": "Tu 09:00-16:00; We 10:30-16:00", "_text": "<ul><li>Tuesday 9am to 4pm</li><li>Wednesday 10.30am to 4pm</li></ul>", "tuesday": "09:00-16:00", "wednesday": "10:30-16:00" },
+		"lat": 51.44094,
+		"lon": "-18643", "title": "Home Community Cafe"
+	},{
+		"_source": "wandsworth_council", "address": "22 Ascalon Street, London, SW8 4AN", "description": "Open to all.", "hours": { "_parsed": "Mo 10:00-20:00", "_text": "Monday 10am to 8pm", "monday": "10:00-20:00" },
 		"lat": 51.47836,
 		"lon": -0.14156,
 		"title": "ROSE Community Clubroom"
@@ -16074,17 +15008,17 @@
 		"lon": -0.24184,
 		"title": "Roehampton Library"
 	},{
-		"_source": "wandsworth_council", "address": "Montfort Place, London, SW19 6QL", "description": "Open to all. Run by the Ackroyden Community Church.", "hours": { "_parsed": "Mo 01:00-15:00", "_text": "Mondays 1 to 3pm", "monday": "01:00-15:00" },
+		"_source": "wandsworth_council", "address": "Montfort Place, London, SW19 6QL", "description": "Open to all. Run by the Ackroyden Community Church.", "hours": { "_parsed": "Mo 01:00-15:00", "_text": "Monday 1 to 3pm", "monday": "01:00-15:00" },
 		"lat": 51.44744,
 		"lon": -0.21823,
 		"title": "Ackroydon Community HallÂ "
 	},{
-		"_source": "wandsworth_council", "address": "Brathway Road, London, SW18 4BE", "description": "Open to all. Run by St Michael's & All Angels Church.", "hours": { "_parsed": "Tu 10:00-15:00", "_text": "Tuesdays 10am to 3pm", "tuesday": "10:00-15:00" },
+		"_source": "wandsworth_council", "address": "Brathway Road, London, SW18 4BE", "description": "Open to all. Run by St Michael's & All Angels Church.", "hours": { "_parsed": "Tu 10:00-15:00", "_text": "Tuesday 10am to 3pm", "tuesday": "10:00-15:00" },
 		"lat": 51.45026,
 		"lon": -0.19889,
 		"title": "Brathway Hall"
 	},{
-		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_parsed": "We 12:00-14:00", "_text": "Wednesdays 12 noon to 2pm", "wednesday": "12:00-14:00" },
+		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_parsed": "We 12:00-14:00", "_text": "Wednesday 12 noon to 2pm", "wednesday": "12:00-14:00" },
 		"lat": 51.45035,
 		"lon": -0.2026,
 		"title": "St Michael's & All Angels Church"
@@ -16109,7 +15043,7 @@
 		"lon": -0.16574,
 		"title": "Tooting Library"
 	},{
-		"_source": "wandsworth_council", "address": "182 East Hill, London, SW18 2HD", "hours": { "_parsed": "Mo-Th 10:00-15:00; Fr 04:00-18:00; Sa 10:00-15:00", "_text": "<ul><li>Monday to Thursday: 10am to 3pm</li><li>Fridays: 4 to 6pm</li><li>Saturdays: 10am to 3pm</li></ul>", "friday": "04:00-18:00", "monday": "10:00-15:00", "saturday": "10:00-15:00", "thursday": "10:00-15:00", "tuesday": "10:00-15:00", "wednesday": "10:00-15:00" },
+		"_source": "wandsworth_council", "address": "182 East Hill, London, SW18 2HD", "hours": { "_parsed": "Mo-Th 10:00-15:00; Fr 04:00-18:00; Sa 10:00-15:00", "_text": "<ul><li>Monday to Thursday: 10am to 3pm</li><li>Friday: 4 to 6pm</li><li>Saturday: 10am to 3pm</li></ul>", "friday": "04:00-18:00", "monday": "10:00-15:00", "saturday": "10:00-15:00", "thursday": "10:00-15:00", "tuesday": "10:00-15:00", "wednesday": "10:00-15:00" },
 		"lat": 51.45727,
 		"lon": -0.18867,
 		"title": "East Hill Baptist Church"

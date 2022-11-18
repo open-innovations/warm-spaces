@@ -167,7 +167,7 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 23,
+		"count": 24,
 		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
@@ -176,7 +176,7 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 652,
+		"count": 420,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
@@ -185,7 +185,7 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2320,
+		"count": 2338,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
