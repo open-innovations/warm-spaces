@@ -118,7 +118,8 @@ section { padding: 2em 0; }
 ul > li + *, ul > li > ul { margin-top: 0.5em; } 
 
 table { width: 100%; }
-table th, table td { padding: 0.5em 1em; }
+table th { background: #dfdfdf; }
+table th, table td { padding: 0.5em 1em; border: 1px solid #dfdfdf; }
 
 .elsewhere { float: right; margin-top: 0; }
 .elsewhere li { display: inline-block; margin-left: 0.5em; }
