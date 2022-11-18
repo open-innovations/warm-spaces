@@ -54,6 +54,20 @@ sub tidyJSON {
 	$txt =~ s/   /\t/g;
 	$txt =~ s/([\{\,\"])\n\t{$d,}([\"\}])/$1 $2/g;
 	$txt =~ s/"\n\t{$depth}\}/\" \}/g;
+
+	# Kludge to fix validation white space issues with warm_spaces entries
+	while($txt =~ s/("description": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("address": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("title": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("url": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("accessibility": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("_text": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	$txt =~ s/\"\*\*/\"/g;
+	$txt =~ s/  \"/\"/g;
+	$txt =~ s/	 / /g;
+	$txt =~ s/ / /g;
+	$txt =~ s/ {2,}/ /g;
+
 	return $txt;
 }
 
@@ -77,6 +91,7 @@ sub makeJSON {
 		
 		$txt =~ s/\}\,\n\t\{/\},\{/g;
 		$txt =~ s/",[\s\t]+"/", "/g;
+
 	}	
 	return $txt;
 }
@@ -105,6 +120,7 @@ sub parseOpeningHours {
 			}
 			$hours->{$days[$i]->{'key'}} =~ s/^[\s\t]+\-[\s\t]+\/[\s\t]+\-[\s\t]+$//g;
 			$hours->{$days[$i]->{'key'}} =~ s/[\s\t]+\/[\s\t]+\-[\s\t]+$//g;
+			$hours->{$days[$i]->{'key'}} =~ s/^[\s\t]+\-[\s\t]+\/[\s\t]+//g;
 			if($hours->{$days[$i]->{'key'}} eq ""){ delete $hours->{$days[$i]->{'key'}}; }
 
 		}

@@ -153,7 +153,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	}
 }
 open($fh,">:utf8",$dir."places.json");
-print $fh makeJSON(\@warmplaces);
+print $fh tidyJSON(\@warmplaces,1);
 close($fh);
 
 open($fh,">:utf8",$dir."sources.json");
