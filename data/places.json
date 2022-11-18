@@ -14702,7 +14702,7 @@
 		"lon": -2.2897578,
 		"title": "Ow do!", "url": "https://owdo.space"
 	},{
-		"_source": "warm_spaces", "address": "Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT", "hours": { "_parsed": "Mo-Sa 10:00-16:00", "_text": "10am-4pm, Monday - Saturday", "friday": "10:00-16:00", "monday": "10:00-16:00", "saturday": "10:00-16:00", "thursday": "10:00-16:00", "tuesday": "10:00-16:00", "wednesday": "10:00-16:00" },
+		"_source": "warm_spaces", "address": "Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT", "hours": { "_parsed": "ampm-Mo 10:00-16:00", "_text": "10am-4pm, Monday - Saturday" },
 		"lat": 51.3203334,
 		"lon": -2.2095089,
 		"title": "Trowbridge Museum", "url": "https://Trowbridgemuseum.co.uk"
@@ -14917,7 +14917,7 @@
 	},{
 		"_source": "gateshead_council", "address": "Woodgreen , Bill Quay, Gateshead, NE10 0ST", "description": "Free wifi, Hot drinks, cordial and biscuits, Accessible toilet, Charging facilities , Book borrowing/swap, Car parking", "title": "Gateshead Council (Woodgreen)"
 	},{
-		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Free WiFi access, Available power sockets for people to use, Kitchen, Facilities to make hot food/drink, for example kettle/microwave, Secure building, Hearing loop", "hours": { "_parsed": "We 10:30-11:30, Sa 00:30-12:00, Su 11:00-12:3028", "_text": "Wednesday: Wednesdays 10.30am - 11.30am.Second Wednesday of the month 2.30pm - 3.30pm, Saturday: First Saturday of the month 10.30am - 12pm, Sunday: 11am - 12.30pm28 January 2023/25 Feb/25 March 2023 3pm-4pm", "saturday": "[1]10:30-12:00", "sunday": "11:00-12:3028", "wednesday": "10:30-11:30" },
+		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Free WiFi access, Available power sockets for people to use, Kitchen, Facilities to make hot food/drink, for example kettle/microwave, Secure building, Hearing loop", "hours": { "_parsed": "We 00:30-15:30, Sa 00:30-12:00, Su 11:00-12:30", "_text": "Wednesday: Wednesdays 10.30am - 11.30am.Second Wednesday of the month 2.30pm - 3.30pm, Saturday: First Saturday of the month 10.30am - 12pm, Sunday: 11am - 12.30pm28 January 2023/25 Feb/25 March 2023 3pm-4pm", "saturday": "[1]10:30-12:00", "sunday": "11:00-12:30", "wednesday": "[2]14:30-15:30" },
 		"title": "Buckden - Church Of England Benefice of Buckden and The Offords, St Maryâs Church, Church St, Buckden, PE19 5TL"
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Car park - large, free car park, Public transport - bus stop 750 metres away. Stagecoach 65 and 66, Accessibility - wheelchair-friendly and fully accessible for all. Bell outside front door., Computers - available to book, Free WiFi - you don't need a library card to use this service, Food hygiene registered", "title": "Buckden Library, Community Hall and Sports Centre, Burberry Road, Buckden, PE19 5UY"
@@ -14950,7 +14950,7 @@
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Changing facilities, Car park, Free wi-fi access, Available power sockets for people to use, Secure building, Hearing loop, Screen or television, Access to free activities (board games, jigsaws, drawing and colouring resources).", "hours": { "_parsed": "Tu 09:00-12:00, We 16:30-18:30, Th 09:00-12:00", "_text": "Tuesday: 9am - 12pm, Wednesday: 10am - 1pm, Wednesday: 4.30pm - 6.30pm, Thursday: 9am - 12pm", "thursday": "09:00-12:00", "tuesday": "09:00-12:00", "wednesday": "16:30-18:30" },
 		"title": "Huntingdon - The Coneygear Centre, Buttsgrove Way, Huntingdon, PE29 1PE"
 	},{
-		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Power sockets for people to use, Facilities to make hot food and drinks - kettle/microwave, Secure building, Hearing loop, Screen or television, Access to free activities, eg board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Tu 00:30-15:30, Fr 10:30-12:00, Sa 00:30-14:30, Su 00:45-12:00", "_text": "First Tuesday of the month: 1.30pm - 3.30pm, Fourth Tuesday of the month: 2pm - 5pm, Wednesday (term-time only): 11am - 12.30pm, Friday: 10.30am - 12pm, First Saturday of the month: 12.30pm - 2.30pm, First Sunday of the month: 10.45am - 12pm, Second, third and fourth Sunday of the month: 9.15am - 10.15am", "friday": "10:30-12:00", "saturday": "[1]12:30-14:30", "sunday": "[1]10:45-12:00", "tuesday": "[1]13:30-15:30" },
+		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Power sockets for people to use, Facilities to make hot food and drinks - kettle/microwave, Secure building, Hearing loop, Screen or television, Access to free activities, eg board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Tu 00:00-17:00, Fr 10:30-12:00, Sa 00:30-14:30, Su 00:15-10:15", "_text": "First Tuesday of the month: 1.30pm - 3.30pm, Fourth Tuesday of the month: 2pm - 5pm, Wednesday (term-time only): 11am - 12.30pm, Friday: 10.30am - 12pm, First Saturday of the month: 12.30pm - 2.30pm, First Sunday of the month: 10.45am - 12pm, Second, third and fourth Sunday of the month: 9.15am - 10.15am", "friday": "10:30-12:00", "saturday": "[1]12:30-14:30", "sunday": "[4]09:15-10:15", "tuesday": "[4]14:00-17:00" },
 		"title": "Little Paxton - St James' Church, High Street, PE19 6EY"
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible parking, Baby changing facilities, Accessibility - wheelchair-friendly and disabled toilets, Printer - A4 black and white, and colour, Computers - available to book, Free WiFi - you don't need a library card to use this service", "title": "Ramsey Library, 25 Great Whyte, Ramsey, Cambridgeshire, PE26 1HG"
@@ -14966,7 +14966,7 @@
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Changing facilities, Car park, Free WiFi access, Available power sockets for people to use, Kitchen, Facilities to make hot food/drink, for example, kettle/microwave, Secure building, Hearing loop, Screen or television, Access to free activities, for example, board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "th 14:00-16:00", "_text": "Friday: The last Friday of each month from 2pm - 4pm" },
 		"title": "St Ives - Field Lodge Care Home, London Road, St Ives, PE27 5EX"
 	},{
-		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Changing facilities, Free WiFi access, Facilities to make hot food/drink (for example: kettle/microwave), Secure building, Screen or television, Access to free activities, for example board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Mo 11:00-14:30, Tu 11:00-14:30, We 11:00-14:30, Th 11:00-14:30, Fr 11:00-00:00, Sa 11:00-00:00, Su 12:00-22:30", "_text": "Monday to Thursday: 11am - 2.30pm and 6pm - 11pm, Friday and Saturday: 11am - Midnight, Sunday: 12pm - 10.30pm", "friday": "11:00-00:00", "monday": "11:00-14:30", "saturday": "11:00-00:00", "sunday": "12:00-22:30", "thursday": "11:00-14:30", "tuesday": "11:00-14:30", "wednesday": "11:00-14:30" },
+		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Changing facilities, Free WiFi access, Facilities to make hot food/drink (for example: kettle/microwave), Secure building, Screen or television, Access to free activities, for example board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Mo 11:00-14:30, Tu 11:00-14:30, We 11:00-14:30, Th 11:00-14:30, Su 12:00-22:30", "_text": "Monday to Thursday: 11am - 2.30pm and 6pm - 11pm, Friday and Saturday: 11am - Midnight, Sunday: 12pm - 10.30pm", "monday": "11:00-14:30", "sunday": "12:00-22:30", "thursday": "11:00-14:30", "tuesday": "11:00-14:30", "wednesday": "11:00-14:30" },
 		"title": "St Ives Ivy Leaf Club, 23 The Broadway, St Ives, Cambridgeshire, PE27 5BX"
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessibility - accessible parking, wheelchair access and disabled toilets, Baby changing facilities, Computers - available to book, Free WiFi - you don't need a library card to use this service, Vending machine with a range of hot drinks", "title": "St Ives Library, 4 Library Row, Station Road, St Ives, Cambridgeshire PE27 5BW"
@@ -15645,7 +15645,7 @@
 		"lon": -0.728616461608844,
 		"title": "Frimley Green Methodist Church"
 	},{
-		"_source": "surrey_county_council_warm_hubs", "address": "83 Portsmouth Rd, Guildford GU2 4DU", "hours": { "_parsed": "Mo-Fr 09:30-12:30", "_text": "09:30 to 12:30 Monday to Friday", "friday": "09:30-12:30", "monday": "09:30-12:30", "thursday": "09:30-12:30", "tuesday": "09:30-12:30", "wednesday": "09:30-12:30" },
+		"_source": "surrey_county_council_warm_hubs", "address": "83 Portsmouth Rd, Guildford GU2 4DU", "hours": { "_parsed": "-Mo 09:30-12:30", "_text": "09:30 to 12:30 Monday to Friday" },
 		"lat": 51.2318406728299,
 		"lon": -0.578866441418612,
 		"title": "Guildford United Reformed Church"
@@ -16084,7 +16084,7 @@
 		"lon": -0.19889,
 		"title": "Brathway Hall"
 	},{
-		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_parsed": "We 00:00-14:00", "_text": "Wednesdays 12 noon to 2pm", "wednesday": "00:00-14:00" },
+		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_text": "Wednesdays 12 noon to 2pm" },
 		"lat": 51.45035,
 		"lon": -0.2026,
 		"title": "St Michael's & All Angels Church"

@@ -15,9 +15,6 @@ $rawdir = "raw/";
 makeDir($rawdir);
 
 
-#print Dumper parseOpeningHours({'_text'=>'&lsquo;Soup Socials&rsquo; will operate from noon to 2pm on Mondays.'});
-#print Dumper parseOpeningHours({'_text'=>'Open 10am to 6pm, 7 days a week'});
-
 
 @warmplaces;
 $sources;

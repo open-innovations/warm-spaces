@@ -89,7 +89,7 @@ sub parseOpeningHours {
 		{'match'=>['Monday','Mon'],'short'=> 'Mo','key'=>'monday'},
 		{'match'=>['Tuesday','Tue','Tues'],'short' => 'Tu','key'=>'tuesday'},
 		{'match'=>['Wednesday','Wed'],'short' => 'We','key'=>'wednesday'},
-		{'match'=>['Thursday','Thurs','Thu'],'short' => 'Th','key'=>'thursday'},
+		{'match'=>['Thursday','Thurs','Thur','Thu'],'short' => 'Th','key'=>'thursday'},
 		{'match'=>['Friday','Fri'],'short' => 'Fr','key'=>'friday'},
 		{'match'=>['Saturday','Sat'],'short' => 'Sa','key'=>'saturday'},
 		{'match'=>['Sunday','Sun'],'short' => 'Su','key'=>'sunday'}
@@ -122,22 +122,26 @@ sub parseOpeningHours {
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/First ([^\s]+) of the month/$1\[1\]/gi;
-		$str =~ s/12 noon/am/g;
+		$str =~ s/Second ([^\s]+) of the month/$1\[2\]/gi;
+		$str =~ s/Third ([^\s]+) of the month/$1\[3\]/gi;
+		$str =~ s/Fourth ([^\s]+) of the month/$1\[4\]/gi;
+		$str =~ s/12 ?noon/12am/g;
 		$str =~ s/ noon/ 12:00/g;
 		$str =~ s/a\.?m\.?/am/g;
 		$str =~ s/p\.?m\.?/pm/g;
 		$str =~ s/\&apos\;//g;
 		$str =~ s/ \&amp\; /, /g;
+		$str =~ s/\([^\)]+\)//g;
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
 				$d = $days[$i]->{'match'}[$j];
-				$str =~ s/$d[\'s]*(\W)/$days[$i]->{'short'}$1/gi;
+				$str =~ s/$d[\'s]*(\W|$)/$days[$i]->{'short'}$1/gi;
 			}
 		}
 
 		# Match day range + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)//i){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
 			$day1 = $1;
 			$mod1 = $2;
 			$day2 = $3;
@@ -155,12 +159,12 @@ sub parseOpeningHours {
 		}
 
 		# Match time + day range
-		while($str =~ s/([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)//i){
+		while($str =~ s/([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//i){
+			$day1 = $4;
+			$mod1 = $5;
+			$day2 = $6;
+			$mod2 = $7;
 			$t = getHourRange($1);
-			$day1 = $2;
-			$mod1 = $3;
-			$day2 = $4;
-			$mod2 = $5;
 			$ok = 0;
 			for($i = 0; $i < @days; $i++){
 				if($days[$i]->{'short'} eq $day1){ $ok = 1; }
@@ -173,7 +177,7 @@ sub parseOpeningHours {
 		}
 
 		# Match multiple days with time
-		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)//i){
+		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
 			$day1 = $1;
 			$t = getHourRange($4);
 			for($i = 0; $i < @days; $i++){
@@ -183,9 +187,9 @@ sub parseOpeningHours {
 				}
 			}
 		}
-		
+
 		# Match single day + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)//i){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
@@ -199,7 +203,7 @@ sub parseOpeningHours {
 		}
 
 		# Match time + single day
-		while($str =~ s/([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
+		while($str =~ s/([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
 			$day1 = $3;
 			$mod1 = $2;
 			$t = getHourRange($1);
