@@ -12117,7 +12117,7 @@
 		"lon": -2.9634266,
 		"title": "Our Lady of Mount Carmel", "url": "https://www.facebook.com/pages/Our-Lady-of-Mount-Carmel-Social-Club/703592499846520"
 	},{
-		"_source": "warm_spaces", "address": "Lodge Lane, Preston, England, PR4", "hours": { "_parsed": "Su 10:30-23:30; We 11:30-15:30", "_text": "Sunday 10.30am-11.30pm; Wed 11.30am-3.30pm; Thur 2pm-4pm", "sunday": "10:30-23:30", "wednesday": "11:30-15:30" },
+		"_source": "warm_spaces", "address": "Lodge Lane, Preston, England, PR4", "hours": { "_parsed": "Su 10:30-23:30; We 11:30-15:30; Th 14:00-16:00", "_text": "Sunday 10.30am-11.30pm; Wed 11.30am-3.30pm; Thur 2pm-4pm", "sunday": "10:30-23:30", "thursday": "14:00-16:00", "wednesday": "11:30-15:30" },
 		"lat": 53.8375942,
 		"lon": -2.8687995,
 		"title": "Elswick Church", "url": "https://elswickchurch.org.uk"
@@ -13292,7 +13292,7 @@
 		"lon": 0.2143681,
 		"title": "Meet Up"
 	},{
-		"_source": "warm_spaces", "address": "63 Newnham Avenue, Bedford, England, MK41 9QJ", "hours": { "_text": "Sundays 12noon-4pm" },
+		"_source": "warm_spaces", "address": "63 Newnham Avenue, Bedford, England, MK41 9QJ", "hours": { "_parsed": "Su 12:00-16:00", "_text": "Sundays 12noon-4pm", "sunday": "12:00-16:00" },
 		"lat": 52.13722,
 		"lon": -0.4441523,
 		"title": "Priory Methodist Church", "url": "https://www.priorychurch.org.uk"
@@ -14702,7 +14702,7 @@
 		"lon": -2.2897578,
 		"title": "Ow do!", "url": "https://owdo.space"
 	},{
-		"_source": "warm_spaces", "address": "Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT", "hours": { "_parsed": "ampm-Mo 10:00-16:00", "_text": "10am-4pm, Monday - Saturday" },
+		"_source": "warm_spaces", "address": "Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT", "hours": { "_parsed": "Mo-Sa 10:00-16:00", "_text": "10am-4pm, Monday - Saturday", "friday": "10:00-16:00", "monday": "10:00-16:00", "saturday": "10:00-16:00", "thursday": "10:00-16:00", "tuesday": "10:00-16:00", "wednesday": "10:00-16:00" },
 		"lat": 51.3203334,
 		"lon": -2.2095089,
 		"title": "Trowbridge Museum", "url": "https://Trowbridgemuseum.co.uk"
@@ -14747,7 +14747,7 @@
 		"lon": -1.4092778,
 		"title": "Central Baptist Church", "url": "http://www.southamptoncbc.org.uk"
 	},{
-		"_source": "warm_spaces", "address": "The Treehouse Cafe, Charles Road, Holt, England, NR25 6DA", "hours": { "_text": "Weekdays, 9am-2pm" },
+		"_source": "warm_spaces", "address": "The Treehouse Cafe, Charles Road, Holt, England, NR25 6DA", "hours": { "_parsed": "Mo-Fr 09:00-14:00", "_text": "Weekdays, 9am-2pm", "friday": "09:00-14:00", "monday": "09:00-14:00", "thursday": "09:00-14:00", "tuesday": "09:00-14:00", "wednesday": "09:00-14:00" },
 		"lat": 52.9015426,
 		"lon": 1.0974409,
 		"title": "The Treehouse Cafe", "url": "https://www.thetreehousecafe.co.uk"
@@ -14950,7 +14950,7 @@
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Fully accessible access throughout the building, Changing facilities, Car park, Free wi-fi access, Available power sockets for people to use, Secure building, Hearing loop, Screen or television, Access to free activities (board games, jigsaws, drawing and colouring resources).", "hours": { "_parsed": "Tu 09:00-12:00, We 16:30-18:30, Th 09:00-12:00", "_text": "Tuesday: 9am - 12pm, Wednesday: 10am - 1pm, Wednesday: 4.30pm - 6.30pm, Thursday: 9am - 12pm", "thursday": "09:00-12:00", "tuesday": "09:00-12:00", "wednesday": "16:30-18:30" },
 		"title": "Huntingdon - The Coneygear Centre, Buttsgrove Way, Huntingdon, PE29 1PE"
 	},{
-		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Power sockets for people to use, Facilities to make hot food and drinks - kettle/microwave, Secure building, Hearing loop, Screen or television, Access to free activities, eg board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Tu 00:00-17:00, Fr 10:30-12:00, Sa 00:30-14:30, Su 00:15-10:15", "_text": "First Tuesday of the month: 1.30pm - 3.30pm, Fourth Tuesday of the month: 2pm - 5pm, Wednesday (term-time only): 11am - 12.30pm, Friday: 10.30am - 12pm, First Saturday of the month: 12.30pm - 2.30pm, First Sunday of the month: 10.45am - 12pm, Second, third and fourth Sunday of the month: 9.15am - 10.15am", "friday": "10:30-12:00", "saturday": "[1]12:30-14:30", "sunday": "[4]09:15-10:15", "tuesday": "[4]14:00-17:00" },
+		"_source": "huntingdonshire_council", "description": "Facilities: Accessible toilets, Accessible access in and out of the building, Power sockets for people to use, Facilities to make hot food and drinks - kettle/microwave, Secure building, Hearing loop, Screen or television, Access to free activities, eg board games, jigsaws, drawing and colouring resources", "hours": { "_parsed": "Tu 00:00-17:00, We 11:00-12:30, Fr 10:30-12:00, Sa 00:30-14:30, Su 00:15-10:15", "_text": "First Tuesday of the month: 1.30pm - 3.30pm, Fourth Tuesday of the month: 2pm - 5pm, Wednesday (term-time only): 11am - 12.30pm, Friday: 10.30am - 12pm, First Saturday of the month: 12.30pm - 2.30pm, First Sunday of the month: 10.45am - 12pm, Second, third and fourth Sunday of the month: 9.15am - 10.15am", "friday": "10:30-12:00", "saturday": "[1]12:30-14:30", "sunday": "[4]09:15-10:15", "tuesday": "[4]14:00-17:00", "wednesday": "11:00-12:30" },
 		"title": "Little Paxton - St James' Church, High Street, PE19 6EY"
 	},{
 		"_source": "huntingdonshire_council", "description": "Facilities: Accessible parking, Baby changing facilities, Accessibility - wheelchair-friendly and disabled toilets, Printer - A4 black and white, and colour, Computers - available to book, Free WiFi - you don't need a library card to use this service", "title": "Ramsey Library, 25 Great Whyte, Ramsey, Cambridgeshire, PE26 1HG"
@@ -15491,7 +15491,7 @@
 		"lon": -1.46969708465571,
 		"title": "Kentmere Community Centre", "type": "Community CTR"
 	},{
-		"_source": "southwalk_council", "address": "1 Rushworth Street, SE1 0RB (<a href=\"https://goo.gl/maps/g2rNzireF7gbJmnA7\">find on Google Maps</a>)<br> 020 7928 9521<br> <a href=\"https://www.blackfriars-settlement.org.uk/\">Visit the Blackfriars Settlement website</a>", "hours": { "_parsed": "Mo 14:00-17:00; Tu 09:30-14:00; We 09:30-13:00; Th 09:30-16:00; Fr 09:30-16:00", "_text": "Monday: 2pm to 5pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). Older men can also join Franks Club at the same time.<br> Tuesday: 9.30am to 2pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). 2pm to 4pm Forget-Me-Nots for older people who want to maintain their memory.<br> Wednesday: 9.30am to 1pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). 1.30pm to 3.30pm (older people are welcome to join in with arts and crafts social activities).<br> Thursday: 9.30am to 4pm (any older person is welcome to join in with positive ageing activities.<br> Friday: 9.30am to 4pm (any older person with vision impairment is welcome to join in with our regular Crusoe Club activities, with a two-course lunch for &pound;6).", "friday": "09:30-16:00", "monday": "14:00-17:00", "thursday": "09:30-16:00", "tuesday": "09:30-14:00", "wednesday": "09:30-13:00" },
+		"_source": "southwalk_council", "address": "1 Rushworth Street, SE1 0RB (<a href=\"https://goo.gl/maps/g2rNzireF7gbJmnA7\">find on Google Maps</a>)<br> 020 7928 9521<br> <a href=\"https://www.blackfriars-settlement.org.uk/\">Visit the Blackfriars Settlement website</a>", "hours": { "_parsed": "Mo 14:00-17:00; Tu 09:30-14:00; We 09:30-13:00; Th 09:30-16:00", "_text": "Monday: 2pm to 5pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). Older men can also join Franks Club at the same time.<br> Tuesday: 9.30am to 2pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). 2pm to 4pm Forget-Me-Nots for older people who want to maintain their memory.<br> Wednesday: 9.30am to 1pm Warm Hub (visitors can read, use the internet, talk, and have tea and coffee). 1.30pm to 3.30pm (older people are welcome to join in with arts and crafts social activities).<br> Thursday: 9.30am to 4pm (any older person is welcome to join in with positive ageing activities.<br> Friday: 9.30am to 4pm (any older person with vision impairment is welcome to join in with our regular Crusoe Club activities, with a two-course lunch for &pound;6).", "monday": "14:00-17:00", "thursday": "09:30-16:00", "tuesday": "09:30-14:00", "wednesday": "09:30-13:00" },
 		"title": "Blackfriars Settlement"
 	},{
 		"_source": "southwalk_council", "address": "T&amp;T, Surrey Quays Shopping Centre, Redriff Road, SE16 7NB (<a href=\"https://goo.gl/maps/mokmYhXJsbEDVjFJ7\">find on Google Maps</a>)<br> <a href=\"mailto:info@timeandtalents.org.uk\">Email Time and Talents</a> or <a href=\"https://www.timeandtalents.org.uk/\">visit the Time and Talents website</a>.</p><p>Hot drinks, games, puzzles and reading materials will be on offer along with information about staying warm, energy bills, grants and more. Scarves, hats and slipper socks are also free for participants to take away as needed.", "hours": { "_parsed": "Mo 10:30-12:30; We 13:00-15:00", "_text": "Monday: 10.30am to 12.30pm<br> Wednesday: 1pm to 3pm ", "monday": "10:30-12:30", "wednesday": "13:00-15:00" },
@@ -15512,7 +15512,7 @@
 		"_source": "southwalk_council", "address": "Market Place, SE16 3UQ (<a href=\"https://goo.gl/maps/LaQfyJhnjJDV8CqDA\">find on Google Maps</a>)<br> <a href=\"mailto:southwark.libraries@southwark.gov.uk\">Email Southwark Libraries</a> or <a href=\"https://www.southwark.gov.uk/libraries/find-a-library?chapter=2\">find out more about Southwark Libraries</a>.", "hours": { "_parsed": "Mo 09:00-19:00; Tu 09:00-19:00; Th 09:00-19:00; Fr 10:00-18:00; Sa 09:00-17:00", "_text": "Weekly tea/coffee sessions: Tuesday 11am<br> <br> Library opening times:<br> Monday: 9am to 7pm<br> Tuesday: 9am to 7pm<br> Wednesday: closed<br> Thursday: 9am to 7pm<br> Friday: 10am to 6pm<br> Saturday: 9am to 5pm<br> Sunday: closed<br> <br> All of our libraries have desk space, comfy places to sit, and plenty of books and periodicals for those who want something to read while they stay warm. You can stay in our libraries for as long as you like, and our larger libraries are open all day. Other things that libraries are offering to help residents with the cost of living:", "friday": "10:00-18:00", "monday": "09:00-19:00", "saturday": "09:00-17:00", "thursday": "09:00-19:00", "tuesday": "09:00-19:00" },
 		"title": "Blue Anchor Library"
 	},{
-		"_source": "southwalk_council", "address": "21 Surrey Quays Rd, SE16 7AR (<a href=\"https://goo.gl/maps/bej37P75kjB3H2Pt6\">find on Google Maps</a>)<br> <a href=\"mailto:southwark.libraries@southwark.gov.uk\">Email Southwark Libraries</a> or <a href=\"https://www.southwark.gov.uk/libraries/find-a-library?chapter=2\">find out more about Southwark Libraries</a>.", "hours": { "_parsed": "Mo 08:00-20:00; Tu 08:00-20:00; We 08:00-20:00; Th 08:00-20:00; Fr 08:00-20:00; Sa 09:00-17:00", "_text": "Weekly tea/coffee sessions: Thursday 11:30am<br> <br> Library opening times:<br> Monday: 8am to 8pm<br> Tuesday: 8am to 8pm<br> Wednesday: 8am to 8pm<br> Thursday: 8am to 8pm<br> Friday: 8am to 8pm<br> Saturday: 9am to 5pm<br> Sunday: 12noon to 4pm", "friday": "08:00-20:00", "monday": "08:00-20:00", "saturday": "09:00-17:00", "thursday": "08:00-20:00", "tuesday": "08:00-20:00", "wednesday": "08:00-20:00" },
+		"_source": "southwalk_council", "address": "21 Surrey Quays Rd, SE16 7AR (<a href=\"https://goo.gl/maps/bej37P75kjB3H2Pt6\">find on Google Maps</a>)<br> <a href=\"mailto:southwark.libraries@southwark.gov.uk\">Email Southwark Libraries</a> or <a href=\"https://www.southwark.gov.uk/libraries/find-a-library?chapter=2\">find out more about Southwark Libraries</a>.", "hours": { "_parsed": "Mo 08:00-20:00; Tu 08:00-20:00; We 08:00-20:00; Th 08:00-20:00; Fr 08:00-20:00; Sa 09:00-17:00; Su 12:00-16:00", "_text": "Weekly tea/coffee sessions: Thursday 11:30am<br> <br> Library opening times:<br> Monday: 8am to 8pm<br> Tuesday: 8am to 8pm<br> Wednesday: 8am to 8pm<br> Thursday: 8am to 8pm<br> Friday: 8am to 8pm<br> Saturday: 9am to 5pm<br> Sunday: 12noon to 4pm", "friday": "08:00-20:00", "monday": "08:00-20:00", "saturday": "09:00-17:00", "sunday": "12:00-16:00", "thursday": "08:00-20:00", "tuesday": "08:00-20:00", "wednesday": "08:00-20:00" },
 		"title": "Canada Water Library"
 	},{
 		"_source": "southwalk_council", "address": "211 Borough High St, SE1 1JA (<a href=\"https://goo.gl/maps/bej37P75kjB3H2Pt6\">find on Google Maps</a>)<br> <a href=\"mailto:southwark.libraries@southwark.gov.uk\">Email Southwark Libraries</a> or <a href=\"https://www.southwark.gov.uk/libraries/find-a-library?chapter=2\">find out more about Southwark Libraries</a>.", "hours": { "_parsed": "Mo 09:00-19:00; Tu 09:00-19:00; We 09:00-19:00; Th 09:00-19:00; Fr 09:00-19:00; Sa 09:00-17:00", "_text": "Weekly tea/coffee sessions: Tuesday 11am<br> <br> Monthly archivist talks 2pm on: 8 November, 13 December, 17 January, 21 February, 21 March<br> <br> Library opening times:<br> Monday: 9am to 7pm<br> Tuesday: 9am to 7pm<br> Wednesday: 9am to 7pm<br> Thursday: 9am to 7pm<br> Friday: 9am to 7pm<br> Saturday: 9am to 5pm", "friday": "09:00-19:00", "monday": "09:00-19:00", "saturday": "09:00-17:00", "thursday": "09:00-19:00", "tuesday": "09:00-19:00", "wednesday": "09:00-19:00" },
@@ -15615,7 +15615,7 @@
 		"lon": -0.234418073040957,
 		"title": "Merland Rise Church"
 	},{
-		"_source": "surrey_county_council_warm_hubs", "address": "231 Upper College Ride, Camberley GU15 4HE", "hours": { "_parsed": "Sa 10:00-11:30; Su 10:00-11:00", "_text": "Every Wednesday at Wednesday Cafe from 10.00-11.30, Every Saturday at Saturday Cafe from 10.00-11.00, Every Sunday at The Free Community Breakfast from 10.00-10.400.", "saturday": "10:00-11:30", "sunday": "10:00-11:00" },
+		"_source": "surrey_county_council_warm_hubs", "address": "231 Upper College Ride, Camberley GU15 4HE", "hours": { "_parsed": "We 10:00-11:30; Sa 10:00-11:00; Su 10:00-10:40", "_text": "Every Wednesday at Wednesday Cafe from 10.00-11.30, Every Saturday at Saturday Cafe from 10.00-11.00, Every Sunday at The Free Community Breakfast from 10.00-10.400.", "saturday": "10:00-11:00", "sunday": "10:00-10:40", "wednesday": "10:00-11:30" },
 		"lat": 51.3487788776728,
 		"lon": -0.724015157194664,
 		"title": "St Martin's Church, Camberley"
@@ -15645,7 +15645,7 @@
 		"lon": -0.728616461608844,
 		"title": "Frimley Green Methodist Church"
 	},{
-		"_source": "surrey_county_council_warm_hubs", "address": "83 Portsmouth Rd, Guildford GU2 4DU", "hours": { "_parsed": "-Mo 09:30-12:30", "_text": "09:30 to 12:30 Monday to Friday" },
+		"_source": "surrey_county_council_warm_hubs", "address": "83 Portsmouth Rd, Guildford GU2 4DU", "hours": { "_parsed": "Mo-Fr 09:30-12:30", "_text": "09:30 to 12:30 Monday to Friday", "friday": "09:30-12:30", "monday": "09:30-12:30", "thursday": "09:30-12:30", "tuesday": "09:30-12:30", "wednesday": "09:30-12:30" },
 		"lat": 51.2318406728299,
 		"lon": -0.578866441418612,
 		"title": "Guildford United Reformed Church"
@@ -15685,7 +15685,7 @@
 		"lon": -0.502471549730709,
 		"title": "Hebrews Coffee Shop"
 	},{
-		"_source": "surrey_county_council_warm_hubs", "address": "Franklyn Road, Godalming,  GU7 2NH", "hours": { "_parsed": "Tu 12:30-16:30", "_text": "From 12.30-16.30pm every Tuesday for a light meal with activities offered to help people to socialise.", "tuesday": "12:30-16:30" },
+		"_source": "surrey_county_council_warm_hubs", "address": "Franklyn Road, Godalming,  GU7 2NH", "hours": { "_parsed": "pm 12:30-16:30", "_text": "From 12.30-16.30pm every Tuesday for a light meal with activities offered to help people to socialise." },
 		"lat": 51.1811879555102,
 		"lon": -0.631929119011119,
 		"title": "St Marks Church and Community Centre"
@@ -16084,7 +16084,7 @@
 		"lon": -0.19889,
 		"title": "Brathway Hall"
 	},{
-		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_text": "Wednesdays 12 noon to 2pm" },
+		"_source": "wandsworth_council", "address": "71 Wimbledon Park Road, London, SW18 5TT", "description": "Open to all.", "hours": { "_parsed": "We 12:00-14:00", "_text": "Wednesdays 12 noon to 2pm", "wednesday": "12:00-14:00" },
 		"lat": 51.45035,
 		"lon": -0.2026,
 		"title": "St Michael's & All Angels Church"

@@ -41,6 +41,7 @@ sub getJSON {
 	@lines = <FILE>;
 	close(FILE);
 	$str = decode_utf8(join("",@lines));
+	if(!$str){ $str = "{}"; }
 	return JSON::XS->new->decode($str);	
 }
 
@@ -118,6 +119,7 @@ sub parseOpeningHours {
 	if($str && !$hours->{'_parsed'}){
 
 
+		$str =~ s/ at [^0-9]+ from /: /g;
 		$str =~ s/ to / - /g;
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
@@ -134,6 +136,7 @@ sub parseOpeningHours {
 		$str =~ s/\&apos\;//g;
 		$str =~ s/ \&amp\; /, /g;
 		$str =~ s/\([^\)]+\)//g;
+
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
@@ -283,6 +286,7 @@ sub niceHours {
 	if($str =~ s/pm//g){ $pm = 1; }
 	if($str =~ /[\:\.]/){
 		($hh,$mm) = split(/[\:\.]/,$str);
+		$mm = substr($mm,0,2);	# Truncate to two digits (sometimes people mistype an extra digit)
 	}else{
 		$hh = $str+0;
 		$mm = 0;
