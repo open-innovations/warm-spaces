@@ -176,7 +176,7 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 380,
+		"count": 240,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
@@ -185,7 +185,7 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2355,
+		"count": 2373,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
@@ -208,7 +208,7 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wolverhampton_council": {
-		"count": 22,
+		"count": 23,
 		"data": { "type": "html", "url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces" },
 		"id": "wolverhampton_council",
 		"title": "Wolverhampton Council",
