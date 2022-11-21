@@ -28,6 +28,12 @@
 		"title": "Bradford Council",
 		"url": "https://costoflivingbradford.co.uk/warm-spaces-directory/"
 	},
+	"brighton___hove_council": {
+		"id": "brighton___hove_council",
+		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
+		"title": "Brighton & Hove Council",
+		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+	},
 	"buckinghamshire_council": {
 		"id": "buckinghamshire_council",
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -120,7 +126,7 @@
 		"url": "https://seftoncvs.org.uk/warmspaces/"
 	},
 	"southwalk_council": {
-		"count": 28,
+		"count": 30,
 		"data": { "type": "html", "url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces" },
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
@@ -176,7 +182,7 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 260,
+		"count": 300,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
@@ -185,7 +191,7 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2384,
+		"count": 2411,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
