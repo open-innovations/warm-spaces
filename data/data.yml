@@ -46,6 +46,11 @@ directories:
     map:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: googlemap
+  - title: "Brighton & Hove Council"
+    url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+    map:
+      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+      type: leaflet
   - title: "Buckinghamshire Council"
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:
