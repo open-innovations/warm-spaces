@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.10137,57.14401],"type":"Point"},"properties":{"_source":"warm_welcome","address":"8 Crown Terrace, Aberdeen, Aberdeenshire Ab11 6HE","description":"","hours":"Mo 14:00-16:00, Tu 14:00-16:00, We 14:00-16:00, Th 14:00-16:00, Fr 14:00-16:00, Su 13:00-14:00","title":"Aberdeen Methodist Church"},"type":"Feature"}

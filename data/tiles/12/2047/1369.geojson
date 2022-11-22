@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.01684,51.12285],"type":"Point"},"properties":{"_source":"warm_welcome","address":"32-40 West Street , East Grinstead , West Sussex RH19 4SR","hours":"Mo 09:30-18:00, Tu 09:30-18:00, We 09:30-18:00, Th 09:30-18:00, Fr 09:30-18:00, Sa 09:30-17:00","title":"East Grinstead Library "},"type":"Feature"}

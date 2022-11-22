@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.43217,51.64722],"type":"Point"},"properties":{"_source":"warm_welcome","address":"236-237 East Road, Tylorstown, Rhondda Cynon Taff CF43 3DA","description":" All welcome. Free food and drinks. Child friendly play area. Our building is fully insulated and warm.","hours":"Mo 09:30-13:30, Tu 09:30-13:30","title":"Acts Community Church/Rhondda Foodbank"},"type":"Feature"}

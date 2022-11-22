@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.29117,54.21089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Filey , North Yorkshire YO14 9AE","description":"","hours":"Mo 10:00-19:00, We 10:00-17:00, Th 13:00-17:00, Fr 10:00-17:00, Sa 10:00-13:00","title":"Filey Library "},"type":"Feature"}

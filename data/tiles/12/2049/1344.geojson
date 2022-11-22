@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.17541,52.48203],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29 high Street, Manea, CAMBS PE15 0jd","hours":"We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00, Sa 09:00-16:00","title":"Cafe@No29 "},"type":"Feature"}

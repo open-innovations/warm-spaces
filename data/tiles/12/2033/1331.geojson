@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.30795,53.12675],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Blackwell Road, Huthwaite, Nottinghamshire NG17 2JT","description":"","hours":"Mo 09:00-14:00, Tu 09:00-14:00, We 09:00-14:00, Th 09:00-14:00, Fr 09:00-14:00","title":"All Saints Church Huthwaite"},"type":"Feature"}

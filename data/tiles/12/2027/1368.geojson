@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.78070,51.17300],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, , Amesbury, Wiltshire SP4 7ET","description":"Open from from now onwards .","hours":"Sa 10:00-12:00, Su 10:00-12:00","title":"Amesbury Methodist Church "},"type":"Feature"}

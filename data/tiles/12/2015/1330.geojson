@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.88799,53.19701],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church Mission House, 31 Church Street, Chester CH1 3JD","description":"Open from 07-11-2022. Free tea, coffee, toast and biscuits. Conversation for those who want it and quiet/work spaces for those who don't! We have a selection of games/jigsaws/newspapers, and occasional additional activities.","hours":"Mo 10:00-14:00","title":"Christ Church Chester"},"type":"Feature"}

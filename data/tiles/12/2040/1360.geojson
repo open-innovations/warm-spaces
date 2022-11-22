@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.64825,51.61266],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Reynolds Road, Beaconsfield, Buckinghamshire HP92NJ","description":" Computer access","hours":"Tu 09:30-19:00, We 09:30-13:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 10:00-16:00","title":"Beaconsfield Library - Buckinghamshire Council"},"type":"Feature"}

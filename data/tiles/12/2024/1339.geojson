@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.04014,52.70883],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Stafford Road, (behind the co-op), Cannock , Staffordshire WS12 4PE","description":"","hours":"Mo 11:00-15:00, Fr 12:00-15:00","title":"Create Community Church & Hub"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.44065,54.00517],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cross Hill, Driffield, East Riding of Yorkshire YO25 6RQ","description":"Open from 01/11/2022. East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":"Mo 09:30-18:30, Tu 09:30-16:30, We 09:30-16:30, Th 09:30-16:30, Fr 09:30-16:30, Sa 09:30-12:30","title":"Driffield Centre"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.05167,52.32886],"type":"Point"},"properties":{"_source":"warm_welcome","address":"New Road, Bromsgrove, Worcestershire B60 2JD","description":"All welcome. Free sit down hot dinner. Gluten free and vegan options available.","hours":"Th 19:30-20:30","title":"Bromsgrove Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.05983,52.33682],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Parkside, Market Street, Bromsgrove, Worcestershire B61 8DA","description":"","hours":"Mo 09:00-19:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 10:00-16:00","title":"Bromsgrove Library"},"type":"Feature"}

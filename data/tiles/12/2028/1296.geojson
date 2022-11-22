@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.69076,54.93896],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ancaster Road, Whickham, Gateshead Ne16 5bq","description":"Open from 10-10-2022.","hours":"Mo 09:00-12:00, We 13:00-16:00, Fr 09:00-12:00","title":"Fellside Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.37798,50.83609],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chilsworthy Methodist Church, Chilsworthy, Holsworthy , Devon EX227BH","description":"","title":"Chilsworthy Methodist Church"},"type":"Feature"}

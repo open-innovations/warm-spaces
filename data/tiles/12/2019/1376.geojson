@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.46156,50.71587],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Liscombe Street, Poundbury, Dorchester, Dorset DT1 3DF","description":"Open from 23rd November 2022. A Warm Welcome to Everyone on Wednesdays with free Tea, Coffee, Biscuits & Cake.","hours":"We 11:00-15:00","title":"Dorchester Community Church"},"type":"Feature"}

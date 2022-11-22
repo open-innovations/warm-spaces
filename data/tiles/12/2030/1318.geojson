@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.56815,53.80865],"type":"Point"},"properties":{"_source":"warm_welcome","address":"24 Regent Terrace, Hyde Park, Leeds LS6 1NP","description":"","hours":"Mo 11:30-15:00, Th 11:30-15:00, Fr 11:30-16:00","title":"All Hallows church + Rainbow Junktion community cafe"},"type":"Feature"}

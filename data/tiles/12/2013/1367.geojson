@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.00475,51.17976],"type":"Point"},"properties":{"_source":"warm_welcome","address":"18 Gaunts Road, Pawlett, Bridgwater TA6 4SF","description":"","title":"Churches Together in Pawlett, Royal British Legion, Pawlett"},"type":"Feature"}

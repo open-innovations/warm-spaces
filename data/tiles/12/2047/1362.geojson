@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.06944,51.46932],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Church, Blenheim Grove, Peckham, London SE15 4QS","description":"A relaxed space to have a hot drink and a chat with others from the local community.","hours":"Tu 09:30-11:15","title":"All Saints Church"},"type":"Feature"}

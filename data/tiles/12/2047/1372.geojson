@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.01920,50.93700],"type":"Point"},"properties":{"_source":"warm_welcome","address":"South Common (A275), South Chailey, East Sussex BN8 4AN","description":"Open from 16/01/2023. We have board games, jigsaws, newspapers etc & toys for toddlers","hours":"Mo 11:00-15:00, We 11:00-15:00, Fr 11:00-15:00","title":"Chailey Free Church"},"type":"Feature"}

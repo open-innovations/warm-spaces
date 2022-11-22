@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.75266,51.41419],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Time Square Market Street, Bracknell, Berkshire RG12 1JD","description":"","hours":"Mo 08:30-17:00, Tu 08:30-17:00, We 08:30-17:00, Th 08:30-17:00, Fr 08:30-17:00","title":"Bracknell Forest Council"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.74758,51.41824],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bracknell Library, Bracknell, Berkshire RG12 1BH","description":"","hours":"Mo 09:30-17:00, Tu 09:30-19:00, Th 09:30-19:00, Fr 09:30-19:00, Sa 09:30-16:00","title":"Bracknell Forest Libraries"},"type":"Feature"}

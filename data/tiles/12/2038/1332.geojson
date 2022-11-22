@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.79724,53.07262],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Charles Street, Charles Street, Newark NG24 1RN","description":"Open from 04/10/22. All are welcome. A small play area for children who must be supervised by parents and carers. Parking is usually possible in the local streets. Limited phone charging facilities.","hours":"Tu 08:30-13:00","title":"Charles Street Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.79684,53.08981],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Winthorpe Road, Newark-on-Trent, Nottinghamshire NG24 2AA","description":"Open from 3/11/2022. Parents need to supervise their children. Some toys are available","hours":"Th 09:00-12:00","title":"Church of Promise"},"type":"Feature"}

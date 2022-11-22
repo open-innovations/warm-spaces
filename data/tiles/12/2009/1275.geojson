@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.37552,55.98160],"type":"Point"},"properties":{"_source":"warm_welcome","address":"22 Main Street , Dalmeny, Edinburgh Eh30 9TT","description":"All welcome Cafe on tues and Friday . Lunch club on Thursdays . Kids activities under 5 tues am ","hours":"Tu 09:15-14:15, Th 09:15-14:15, Fr 09:15-12:15, Su 10:30-13:00","title":"Dalmeny Kirk "},"type":"Feature"}

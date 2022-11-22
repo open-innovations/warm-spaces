@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.01855,52.18997],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Comberton Baptist Church, Green End, Comberton CB23 7DY","description":"Open from Thursday 10th November 2022. Once we have received a food license we will also be providing hot lunch / tea","hours":"Mo 15:30-18:30, Th 10:30-13:30","title":"Comberton Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.01647,52.18681],"type":"Point"},"properties":{"_source":"warm_welcome","address":"West Street, Comberton, Cambridgeshire CB23 7DU","description":"Open from 24.10.22.","hours":"Mo 10:00-13:00, We 10:00-13:00, Fr 14:30-17:30, Sa 10:00-13:00","title":"Comberton Library"},"type":"Feature"}

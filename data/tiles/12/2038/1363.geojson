@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.79391,51.42872],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Benetfeld Road, Binfield, Bracknell RG42 4JZ","description":"","hours":"Mo 02:00-07:00, Tu 02:00-05:00, Th 09:00-05:00, Fr 02:00-05:00, Sa 09:30-04:00","title":"Binfield Library"},"type":"Feature"}

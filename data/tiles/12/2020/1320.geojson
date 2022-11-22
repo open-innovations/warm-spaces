@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.44454,53.74778],"type":"Point"},"properties":{"_source":"warm_welcome","address":"339-341 Accrington Road , Blackburn , Lancashire Bb1 2al","description":"","hours":"Mo 13:00-15:00, Fr 13:00-15:00","title":"Big Local"},"type":"Feature"}

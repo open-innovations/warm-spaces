@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.75071,51.62947],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Square, High Wycombe, Bucks HP11 2BN","description":"Open from 20th October .","hours":"Mo 11:00-13:00, Tu 10:00-13:00, We 10:00-12:00, Th 10:30-13:00, Fr 10:00-12:30, Sa 10:30-12:30, Su 10:00-11:30","title":"All Saints Church, High Wycombe"},"type":"Feature"}

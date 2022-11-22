@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.17731,50.85400],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fareham Library, Osborn Road, Fareham PO16 7EN","description":" Citizens Advice also within building, please check their website for opening hours. Coffee shop on site. Multi storey car park next door. 3 disabled parking bays directly behind building. Please check our Facebook page for free weekly activities. ","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-13:30, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Fareham Library- Hampshire Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.18244,50.85367],"type":"Point"},"properties":{"_source":"warm_welcome","address":"18 Osborn Road South, Fareham, Hampshire PO16 7DG","description":"Open from 05-12-2022. Games, puzzles, books, tea, coffee, biscuits","hours":"Mo 13:00-16:00","title":"Fareham United Reformed Church"},"type":"Feature"}

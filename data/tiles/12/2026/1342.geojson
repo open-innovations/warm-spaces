@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.93303,52.54560],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scott Arms Shopping Centre, Great Barr, Birmingham B42 1TQ","description":" Our space is very small holding approximately 15 people. There are round tables, access to warm drinks. The toilet is upstairs, so mobility needed. There is no space for prams, buggies and small children","hours":"Mo 10:00-14:00, We 10:00-14:00, Fr 10:00-14:00","title":"Crosspoint Hub, Great Barr"},"type":"Feature"}

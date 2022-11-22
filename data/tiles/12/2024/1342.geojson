@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.07790,52.57003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Prouds Lane, Bilston, West Midlands WV14 6PW","description":"Cafe, Games, Space for toddlers","hours":"We 11:00-14:00","title":"Bilston Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.05628,52.58535],"type":"Point"},"properties":{"_source":"warm_welcome","address":"79a Stafford Street , Willenhall , West Midlands WV13 1 RT","description":" We have a Foodbank that runs on Thursdays 12 till 3","hours":"Th 10:00-12:00","title":"Bridging the Gap "},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.08437,52.54907],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Darkhouse Baptist Church, Coseley, West Midlands WV14 8XH","description":"","hours":"Tu 14:00-16:00","title":"Darkhouse Baptist Church"},"type":"Feature"}

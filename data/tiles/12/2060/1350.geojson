@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.12121,52.11465],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Lane, Barham, Ipswich IP6 0pT","description":" Friday morning drop-in. Free local Library housed in Church over winter","hours":"Fr 10:00-12:30","title":"Claydon & Barham Church"},"type":"Feature"}

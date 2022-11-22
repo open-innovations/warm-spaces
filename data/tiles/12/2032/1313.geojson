@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.39498,54.09501],"type":"Point"},"properties":{"_source":"warm_welcome","address":"17, Boroughbridge, North Yorkshire YO51 9AR","description":"Our focus is older people. Board Games, books, puzzles and a warm welcome","hours":"Mo 09:30-12:30, Tu 09:30-12:30","title":"Boroughbridge & District Community Care"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.14049,52.61179],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aylestone Library, Leicester, Leicestershire LE2 6LU","description":" Library is based within Aylestone Leisure Centre. ","hours":"Mo 08:00-19:00, Tu 08:00-19:00, We 08:00-19:00, Th 08:00-19:00, Fr 08:00-19:00, Sa 08:00-13:00, Su 08:00-13:00","title":"Aylestone Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.11557,52.61734],"type":"Point"},"properties":{"_source":"warm_welcome","address":"105a Clarendon Park Road, Leicester LE2 3AH","description":"Open from November 9 2022 onwards. A place to socialise, or read a book, or work, or do simple crafts, or relax. Board games available","hours":"We 14:00-20:00","title":"Christchurch, Clarendon Park"},"type":"Feature"}

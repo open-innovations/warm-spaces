@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.67914,51.73507],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 Fullbridge, Maldon CM9 4LE","description":"Open from 09/11/2022. Regardless of age, you are welcome! Just beside Tesco and the free bus stopping off point","hours":"Tu 09:30-13:00","title":"Fullbridge Community Hub"},"type":"Feature"}

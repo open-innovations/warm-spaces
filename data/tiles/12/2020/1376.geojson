@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.44245,50.71459],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Bridport Road, Dorchester, Dorset DT1 1RR","description":" Come and enjoy warmth, company and hot refreshments in a safe space at the Wednesday morning Cafe. The Lounge is also open on the last Friday of every month for refreshments and games too if you wish.","hours":"We 10:00-12:00, Fr 14:30-16:00","title":"Dorchester Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.43722,50.71309],"type":"Point"},"properties":{"_source":"warm_welcome","address":"48 South Street, 48 South Street, Dorchester, Dorset DT1 1DQ","description":"","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Dorset Carers Hub"},"type":"Feature"}

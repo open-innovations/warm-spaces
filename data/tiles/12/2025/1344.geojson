@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.96670,52.43756],"type":"Point"},"properties":{"_source":"warm_welcome","address":"119 Weoley Castle Road, B29 5QD, Birmingham, West Midlands B29 5QD","description":"Open from 03-11-2022. Games, arts and crafts","hours":"Th 10:30-14:30","title":"Encounter Church Weoley Castle"},"type":"Feature"}

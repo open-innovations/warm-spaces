@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.72686,53.29327],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Princeway,, Frodsham, Cheshire WA6 6RX","description":"","hours":"Mo 09:00-18:00, Tu 09:00-18:00, We 09:00-18:00, Th 09:00-18:00, Fr 09:00-18:00, Sa 09:30-13:00","title":"Frodsham Library"},"type":"Feature"}

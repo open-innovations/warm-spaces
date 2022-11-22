@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.04303,51.37426],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29a Gravel Road, Bromley, Kent BR2 8PE","description":"","hours":"Fr 10:30-13:30","title":"Bromley Common Baptist Church "},"type":"Feature"},
+		{"geometry":{"coordinates":[0.07930,51.37970],"type":"Point"},"properties":{"_source":"warm_welcome","address":"100 Crofton Lane, Orpington, Kent BR5 1HD","hours":"Mo 10:30-13:30, We 10:30-13:30, Su 10:30-12:30","title":"Crofton Baptist Church"},"type":"Feature"}

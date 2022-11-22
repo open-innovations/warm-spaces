@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.20058,52.45626],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chapel Street Christian Fellowship, Lutterworth, Leicestershire LE17 4EU","description":"Open from 20/10/2022. We offer hot drinks, soups, toasties and plenty of snacks. There's also toys and games available for families with children.","hours":"Th 14:00-17:00","title":"Chapel Street Christian Fellowship"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.20449,52.45698],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lutterworth Sports Centre , Lutterworth , Leicestershire LE174RB","description":"","hours":"Mo 06:30-22:00, Tu 06:30-22:00, We 06:30-22:00, Th 06:30-22:00, Fr 06:30-22:00, Sa 08:00-18:00, Su 08:00-18:00","title":"Everyone Active"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.34780,51.43098],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Coldharbour Road, Northfleet, Kent DA11 8AE","description":"","hours":"Mo 10:00-17:00, Tu 10:00-17:00, Th 10:00-17:00, Sa 10:00-17:00","title":"Coldharbour Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.33392,51.43010],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eastgate 141 Springhead Parkway, Northfleet, Kent DA11 8AD","description":"Open from Monday 7th November. We cater for anyone. Free Parent and Tots group running from 09:00 - 12:00. Tea Junction group 13:30 - 15:30 with free tea/ coffee and cake, book swaps, board games, bring your own crafts to do. Plus a pay it forward board at the Coffee shop providing drinks and food.","hours":"Mo 09:00-17:30","title":"Eastgate Church and Eastgate Coffee Shop"},"type":"Feature"}

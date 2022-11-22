@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.00760,52.70712],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cannock Road, , Cannock, Staffordshire WS11 5DD","description":"","hours":"Fr 10:00-12:00","title":"Chadsmoor Methodist Church"},"type":"Feature"}

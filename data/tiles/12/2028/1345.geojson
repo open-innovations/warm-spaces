@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.75614,52.37957],"type":"Point"},"properties":{"_source":"warm_welcome","address":"103 Mill Lane, Solihull, West Midlands B93 8NY","description":"Open from 30/11/2022.","hours":"We 14:00-16:00","title":"Dorridge Methodist church"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.07204,50.15517],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Church, Killigrew Street, Falmouth, Cornwall TR11 3PN","description":" Open from 02/11/2022","hours":"We 13:30-16:30","title":"All Saints Church & New Street Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-5.07486,50.14904],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Emmanuel Baptist Church, Western Terrace, Falmouth TR11 4QJ","description":"Open from Nov 14th 2022.","hours":"Mo 10:00-03:00","title":"Emmanuel Baptist Church"},"type":"Feature"}

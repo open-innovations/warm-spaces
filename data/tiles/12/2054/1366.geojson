@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.57764,51.27544],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bearsted Rail Station, Ware Street , Bearsted, Kent ME14 4PH","description":" Visit our website for more information on what your local library offers, and find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","title":"Bearsted Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.57642,51.27563],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bearsted Methodist Church, Ware Street, Bearsted, Maidstone ME14 4PH","description":"","hours":"Th 14:30-16:00","title":"Bearsted Methodist Church"},"type":"Feature"}

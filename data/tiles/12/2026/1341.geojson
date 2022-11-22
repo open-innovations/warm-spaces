@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.91570,52.60386],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Rookery Lane, Aldridge, Walsall WS9 8NP","description":"","hours":"Tu 08:30-18:00, We 08:30-18:00, Th 08:30-18:00, Fr 08:30-18:00, Sa 09:00-17:00","title":"Aldridge Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.91244,52.60450],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Green, next to Cooper and Jordan School, Aldridge, Walsall WS9 8NH","description":"Open from 18.10.2022. come and join us for time to sit and have a friendly chat, play a board game, get some helpful information","hours":"Tu 12:00-14:00","title":"Aldridge Parish Church Centre"},"type":"Feature"}

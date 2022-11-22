@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.55099,51.04010],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dulverton Library, 7-9 Fore Street, Dulverton, Somerset TA22 9EX","description":"The library is closed between 1.00-1.30 for lunch period.","hours":"Tu 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00, Sa 10:00-12:30","title":"Dulverton Library"},"type":"Feature"}

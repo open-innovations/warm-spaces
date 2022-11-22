@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.08428,57.36843],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hospital Road, Ellon, Aberdeenshire AB41 9AW","description":"Open from 23-11-2022. We cater for adults (mother and babies are allowed) Table top games","hours":"We 11:00-15:00","title":"Ellon and District Men's Shed"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.07988,57.36560],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Ellon , Aberdeenshire AB41 9AE","description":"Open from 11-11-2022. All ages welcome, toys available for children. Free homemade soup available, plus rolls & hot/cold drinks for all. ","hours":"Fr 12:00-14:00","title":"Ellon Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.07185,57.36541],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4 Station Road, Ellon, Aberdeenshire AB41 9AE","description":"Gluten free available Thursday:coffee, cakes,soup. Saturday:coffee, cakes, bacon/sausage rolls","hours":"Th 09:30-13:30, Sa 09:30-12:00","title":"Ellon Parish Church"},"type":"Feature"}

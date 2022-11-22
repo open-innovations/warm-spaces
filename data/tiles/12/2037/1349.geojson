@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.94097,52.17726],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chapel Lane, Blisworth , Northamptonshire NN7 3 BU","description":" Community Cafe Tuesdays 10-12, Toddler group Fridays 10-12, Soup & Roll Fridays 12-2","hours":"Tu 09:30-14:00, Fr 10:00-14:00","title":"Blisworth Baptist Church"},"type":"Feature"}

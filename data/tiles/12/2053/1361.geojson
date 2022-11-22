@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.46341,51.52576],"type":"Point"},"properties":{"_source":"warm_welcome","address":"45 Fobbing Road, Corringham, Essex SS17 9BN","description":"Open from Wednesday 23rd November 2022. Board games, Puzzles, Crosswords and more!","hours":"We 08:30-13:30","title":"Corringham Evangelical Church"},"type":"Feature"}

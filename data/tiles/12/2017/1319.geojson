@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.68837,53.76344],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crossgate Church, St Mary's St North, Preston PR1 5LG","description":" Hot snacks available: Limited parking available","hours":"Mo 10:30-14:30, Tu 10:30-14:30, We 10:30-14:30, Th 10:30-14:30, Fr 10:30-14:30","title":"Crossgate Church Cafe"},"type":"Feature"}

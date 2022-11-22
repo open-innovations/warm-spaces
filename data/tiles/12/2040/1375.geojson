@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.67284,50.78801],"type":"Point"},"properties":{"_source":"warm_welcome","address":"69 London Road, Bognor Regis, West Sussex PO21 1DE","description":"","hours":"Mo 09:30-18:00, Tu 09:30-18:00, We 09:30-18:00, Th 09:30-18:00, Fr 09:30-18:00, Sa 09:30-17:00","title":"Bognor Regis Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.67702,50.78211],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Waterloo Square, , BOGNOR REGIS , West Sussex PO21 1ST","description":"Open from 02/12/22.","hours":"Fr 10:00-14:00","title":"Bognor Regis Methodist Church"},"type":"Feature"}

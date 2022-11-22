@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.16139,51.49371],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Albany Road Baptist Church, Albany Road, Roath, Cardiff, South Glamorgan CF24 3NU","description":"Everyone Welcome We provide a pop up cafe where you pay what you feel, if you can't afford to pay that's fine as well. Fresh ground coffee, tea, hot chocolate and biscuits ","hours":"Th 10:00-12:30","title":"Albany Road Baptist Church"},"type":"Feature"}

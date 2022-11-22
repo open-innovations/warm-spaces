@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.50349,51.48714],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Downend Baptist Church, Salisbury Road, Bristol , Bristol BS165RA","hours":"Mo 13:00-15:00","title":"Downend Baptist Church "},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.43762,50.97630],"type":"Point"},"properties":{"_source":"warm_welcome","address":"23 Fleming Avenue, North Baddesley, Southampton SO52 9EJ","description":"On Tuesday mornings we run our Tots and toddlers (birth to school age) songs, signing and stories group. We have to control the numbers slightly to ensure the safety of the children, but do contact info.communitylifecentre@gmail.com to contact Rosie. We have a range of comfy seating, plenty of toys for babies and toddlers, free hot/cold drinks and biscuits, sometimes even cake!","hours":"Mo 10:00-12:00, We 10:00-13:00, Th 10:00-12:00, Fr 01:30-15:00","title":"Community Life Centre"},"type":"Feature"}

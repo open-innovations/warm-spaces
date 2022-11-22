@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.99021,53.65690],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cherish Centre West Park, Southport, 65-67 Albert Road PR99LD","description":"Our focus is catering for the elderly and vulnerable adults We have a regular quiz ","hours":"Su 13:00-15:00","title":"Cherish Friendship Cafe"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.09980,51.60630],"type":"Point"},"properties":{"_source":"warm_welcome","address":"75 Tredegar Street, Risca, Newport NP11 6BW","description":"Everyone welcomeLunch time closure between 13:00 - 14:00 week days Saturday open all day.","hours":"Mo 09:30-18:00, Tu 09:30-17:00, We 09:30-18:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Caerphilly Borough Council"},"type":"Feature"}

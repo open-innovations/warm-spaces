@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.85844,51.10839],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bordon Library, Forest Centre, Pinehill Road, Bordon GU35 0TN","description":"","hours":"Mo 09:30-17:00, Tu 09:30-17:00, Th 09:30-17:00, Sa 09:30-13:30","title":"Bordon Library- Hampshire Libraries"},"type":"Feature"}

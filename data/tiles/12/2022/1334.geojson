@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.20281,52.99520],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4 Woodberry Close, Stoke-on-Trent , Staffordshire ST4 5LU","description":"Open from 11-10-2022. on street parking, snacks available, baby changing facility","hours":"Tu 08:30-10:00, We 09:00-11:30, Th 10:00-12:30, Sa 10:30-13:00","title":"Better Together Community Support Group for Stoke-on-Trent and NuL "},"type":"Feature"}

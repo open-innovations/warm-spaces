@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.16447,51.46408],"type":"Point"},"properties":{"_source":"warm_welcome","address":"265 Lavender Hill, Battersea, London SW11 1JB","hours":"Mo 09:00-20:00, Tu 09:00-20:00, We 09:00-20:00, Fr 09:00-18:00, Sa 09:00-17:00, Su 13:00-17:00","title":"Battersea Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.15456,51.47454],"type":"Point"},"properties":{"_source":"warm_welcome","address":"309 Battersea Park Road, Battersea, London SW11 4NF","hours":"Mo 09:00-19:00, Tu 09:00-19:00, Fr 09:00-17:00, Sa 10:00-14:30","title":"Battersea Park Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.14077,51.45475],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Narbonne Avenue, Clapham, London SW49JU","description":"Open from Wednesday 11th October 2022. Everyone welcome. Wednesday Winter Warmers! Join us in church from 6.30pm to 8.30pm for warm drinks & biscuits. You can enjoy company or some quiet time. ","hours":"We 18:30-20:30","title":"Church of the Holy Spirit Clapham"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.39635,51.43239],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Maltings Lower Higham Riad, Gravesend, Kent DA12 2LY","description":" Our Lounge is open for free tea + coffee, with comfy seats + sofa's, wifi + workspace, a coffee shop without the cost! In school holidays we run 'Make Lunch' and provide a three-course lunch for free to local families on a Tuesday and Thursday 11:30-1:30","hours":"Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 12:00-17:00","title":"City Praise Centre CIO"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.36059,51.43205],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dashwood Road, Gravesend, Kent DA11 7LY","description":" Please visit our website for services provided at your local library","hours":"Mo 09:00-13:00, Tu 13:00-17:00, Fr 14:00-17:00, Sa 10:00-14:00","title":"Dashwood Library"},"type":"Feature"}

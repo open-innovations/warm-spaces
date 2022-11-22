@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.30332,51.29040],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Quarry Hill Road, , Borough Green, Sevenoaks TN15 8RF","description":"","hours":"Fr 10:00-13:00","title":"Church of the Good Shepherd"},"type":"Feature"}

@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.71120,51.57891],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wakeman Road, Bourne End, Buckinghamshire SL8 5SX","description":"Open from 1st October 2022. On Mondays, from 12th December, the Community Centre next door is open as a Warm Space","hours":"Tu 09:30-19:00, We 09:30-13:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-14:00","title":"Bourne End Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.71142,51.60135],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chapel Road, Flackwell Heath, Buckinghamshire HP10 9AA","hours":"Mo 08:45-11:30, Tu 08:45-11:30, We 08:45-11:30, Th 08:45-11:30, Fr 08:45-11:30","title":"Christ Church Flackwell Heath"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.76600,51.57515],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Newfield Place, Foxes Piece School Campus, Newfield Road, Marlow, Bucks SL7 1JW","description":"Open from 06/10/2022.","hours":"Th 12:00-17:00","title":"Foxes Piece School partnering with Newfield Community Church"},"type":"Feature"}

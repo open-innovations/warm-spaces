@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.51547,52.56198],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints and St James Church, Kings Cliffe, Peterborough PE8 6XQ","description":"Open from 19/11/22.","hours":"Fr 09:00-18:00, Su 09:00-18:00","title":"All Saints and St James Church "},"type":"Feature"}

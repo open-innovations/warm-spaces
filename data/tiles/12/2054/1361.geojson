@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.58985,51.52376],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canvey Methodist Church, Canvey Island , Essex SS8 9AB","description":"","hours":"We 10:30-12:00, Sa 10:30-12:00, Su 10:30-12:00","title":"Canvey Methodist Church "},"type":"Feature"}

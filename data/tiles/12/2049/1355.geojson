@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.16056,51.86878],"type":"Point"},"properties":{"_source":"warm_welcome","address":"34b South Street , Bishops Stortford cm23 3az","description":"All are welcome, fully accessible different activities cater for lonely and isolated, but all welcome. Open to all, we have a fully accessible premises with a Changing places facility including a hoist. A Foodbank , CAB, Bereavement and Memory cafe also meet on the premises (times vary) Craft groups on Tuesday morning, with cakes available Wed, Thurs & Sa","hours":"Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-13:00, Sa 10:00-12:00","title":"Bishops Stortford Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.16798,51.86968],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hockerill Christian Centre 7-9 Dunmow Road, Bishop's Stortford , Herts Cm23 5he","description":" We provide free tea, coffee & cakes. We can also provide a free hot light lunch. We have pool, table tennis, the daily newspapers and lovely people to chat with. ","hours":"Th 10:00-12:00","title":"BSCA "},"type":"Feature"}

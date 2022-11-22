@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.03156,53.35942],"type":"Point"},"properties":{"_source":"warm_welcome","address":"119 Buxton Road, Disley, Stockport SK12 2HH","description":"Open from 1 November 2022.","hours":"Tu 12:00-16:00, Su 10:30-12:30","title":"Disley Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.03752,53.35772],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Disley Library, Off Buxton Old Road, Disley SK12 2BB","description":"","hours":"Tu 09:00-13:00, We 09:00-13:00, Th 14:00-18:00, Fr 14:00-18:00, Sa 09:00-13:00","title":"Disley Library"},"type":"Feature"}

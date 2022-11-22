@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.22779,51.55677],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cricklewood Library, 152 Olive Road, London NW2 6UY","description":" We are a community library and hub offering a free book borrowing and information service. We are run entirely by volunteers and receive no statutory funding.","hours":"Mo 10:00-16:00, We 10:00-16:00, Fr 15:00-18:00, Sa 10:00-16:00","title":"Cricklewood Library"},"type":"Feature"}

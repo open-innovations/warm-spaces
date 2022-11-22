@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.51859,52.29028],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Newbold Comyn Leisure Centre, Newbold Terrace East, Leamington Spa, Warwickshire CV32 4EW","description":"","hours":"Mo 08:00-15:00, Tu 08:00-15:00, We 08:00-15:00, Th 08:00-15:00, Fr 08:00-15:00","title":"Everyone Active Newbold Comyn Leisure Centre"},"type":"Feature"}

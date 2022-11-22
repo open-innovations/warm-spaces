@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.31484,53.65283],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Great Eaves Road, Ramsbottom, Bury BL0 0PX","description":"Open from 17/11/22.","hours":"Th 12:00-16:00","title":"Christ Church Ramsbottom "},"type":"Feature"}

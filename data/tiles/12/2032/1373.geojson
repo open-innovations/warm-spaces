@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.32308,50.88543],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Paul's Church, Chamberlayne Road, Bursledon, Hampshire SO31 8DT","description":"We cater for everyone","hours":"Mo 14:00-16:00, Tu 11:30-15:00","title":"Bursledon Parish Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.33980,51.96931],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Seaton Road, Felixstowe, Suffolk IP11 9BT","description":"","hours":"Th 11:00-15:00","title":"Felixstowe Peninsula Methodist Churches @ Seaton Road"},"type":"Feature"}

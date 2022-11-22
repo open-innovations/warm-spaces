@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.38542,52.72799],"type":"Point"},"properties":{"_source":"warm_welcome","address":"ASHBY ROAD, COALVILLE, Leicestershire LE67 3LF","description":"Open from 18th November 2022. Hot soup Wednesdays when there is also a craft group pm","hours":"We 10:00-15:30, Fr 10:00-12:00","title":"Ebenezer Baptist Church"},"type":"Feature"}

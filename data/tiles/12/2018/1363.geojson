@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.56800,51.43382],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Knowle Public Library, Broadwalk Shopping Centre, 1 Wells Road, , Bristol BS4 2QU","description":"Open from 16-11-2022. We are opening the library for an hour on a Wednesday morning when it is usually closed. Come along to find warmth, conversation, newspapers, knitting, reading, a quiet corner, free tea and coffee. ","hours":"We 11:00-12:00","title":"Friends of Knowle Library"},"type":"Feature"}

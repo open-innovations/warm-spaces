@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.10076,51.03815],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wellsprings Leisure Centre, Cheddon Road, Taunton. TA2 7QP, Taunton, Somerset TA2 7QP","description":"Open from 01 Nov 2022.","hours":"Mo 06:00-20:00, Tu 06:00-20:00, We 06:00-20:00, Th 06:00-20:00, Fr 06:00-20:00, Sa 08:00-17:00, Su 08:00-17:00","title":"Everyone Active"},"type":"Feature"}

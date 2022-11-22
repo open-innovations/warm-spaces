@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.41648,50.93530],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints' Church Centre, Southampton, Hampshire SO16 7DL","description":"Open from 21-11-2022. All are welcome. We are a small group of people but are looking forward to welcoming you here.","hours":"Mo 10:00-16:00, Tu 10:00-16:00, Fr 10:00-16:00, Sa 10:15-11:30","title":"All Saints' Church, Old Bassett"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.43082,50.92456],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Southampton, Hampshire SO15 5SD","description":"Over 18s We offer a clean, stress free safe area for you to come and meet likeminded people, have some biscuits and a cuppa, perhaps try some arts & crafts, or some board games. We also have some computers available to help you with basic IT queries .","hours":"Mo 11:00-16:00, We 11:00-16:00","title":"Friends of St. James' Park"},"type":"Feature"}

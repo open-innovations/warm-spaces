@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.40737,50.19214],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Phillack Church Hall, 11 Copper Terrace, Hayle, Cornwall TR27 4EB","description":"Open from Thursday November 3rd 2022.","hours":"Th 12:00-15:00","title":"Copperhouse Community Cafe"},"type":"Feature"}

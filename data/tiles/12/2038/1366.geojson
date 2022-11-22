@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.84518,51.27960],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fleet Library, 236 Fleet Road, Fleet GU51 4BX","description":" You are very welcome to bring a \"mug and the makings\" and we can provide hot water for your tea/coffee/cupasoup etc","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-13:30, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Fleet Library- Hampshire Libraries"},"type":"Feature"}

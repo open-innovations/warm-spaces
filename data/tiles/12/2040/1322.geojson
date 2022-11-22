@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.65805,53.59601],"type":"Point"},"properties":{"_source":"warm_welcome","address":"CrosbyONE Centre, Scunthorpe, North Lincolnshire DN15 7LU","description":"We are a safe space that caters for the whole community. We have our space open as part of our warm welcome Mondays, Wednesdays and Fridays. There is other actives and groups that meet at other times in the week with more info on our website under events and groups.","hours":"Mo 10:00-14:00, Tu 09:00-17:00, We 10:00-14:00, Th 09:00-17:00, Fr 10:00-14:00, Su 09:00-17:00","title":"CrosbyONE Centre"},"type":"Feature"}

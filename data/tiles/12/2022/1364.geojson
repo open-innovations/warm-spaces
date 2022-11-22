@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.25148,51.34544],"type":"Point"},"properties":{"_source":"warm_welcome","address":"16 St. Margaret's Street, Bradford on Avon, Wiltshire BA15 1DA","description":" On Wednesdays mornings 10:30-12:00 we have a ladies meetings with craft activities. On Friday mornings 10:30-12:00 we have a men's gathering and at 12:30-14:00 serve soup & rolls to everyone who would like to drop in.","hours":"Mo 11:00-13:00, Tu 09:30-13:00, We 10:30-13:00, Th 09:30-13:00, Fr 10:30-14:00","title":"Bradford-on-Avon Community Church"},"type":"Feature"}

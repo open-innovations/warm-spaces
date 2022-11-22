@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.72553,53.36399],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Foundry Community Church, Lugsdale Road, Widnes wa8 6da","description":"Open from 09-12-2022. Our space is for anyone who is isolated and feeling alone and would appreciate a friendly conversation, cuppa and warm room. ","hours":"Fr 10:00-12:00","title":"Foundry Community Church "},"type":"Feature"}

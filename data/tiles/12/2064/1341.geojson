@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.44838,52.63505],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Reading Room, Blofield, Norwich NR13 4RQ","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 13:00-19:00, We 10:30-19:00, Fr 16:00-19:00, Sa 12:00-16:00","title":"Blofield Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.43218,52.62442],"type":"Point"},"properties":{"_source":"warm_welcome","address":"90 The Street, Brundall, Norwich NR13 5LH","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 16:00-19:00, Tu 10:00-19:00, Th 14:30-19:00, Sa 13:00-16:00","title":"Brundall Libray"},"type":"Feature"}

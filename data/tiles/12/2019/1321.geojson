@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.46538,53.69629],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Railway Road, Darwen, Lancs BB3 2RG","description":"","hours":"We 10:00-15:00, Fr 10:00-15:00, Sa 10:00-15:00","title":"Darwen Heritage Centre"},"type":"Feature"}

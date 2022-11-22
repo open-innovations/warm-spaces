@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.57392,51.75113],"type":"Point"},"properties":{"_source":"warm_welcome","address":"WEST DEAN CENTRE HIGH STREET, LYDNEY, Gloucestershire GL15 6JW","description":"Open from 16th November 2022. We are a warm welcoming space for all age groups. Bream Friends will also be offering crafting activities on Wednesdays afternoons.","hours":"We 10:30-18:30, Fr 10:30-17:00","title":"Bream Library & Bream Friends"},"type":"Feature"}

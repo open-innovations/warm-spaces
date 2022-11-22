@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.53815,53.23584],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bailgate methodist church , Lincoln , Lincolnshire LN1 3AR","description":" People often bring craft with them on a friday ","hours":"Th 09:30-12:00, Fr 10:30-13:00, Su 10:00-12:00","title":"Bailgate methodist church "},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.53113,53.24723],"type":"Point"},"properties":{"_source":"warm_welcome","address":"19 Ravendale Drive, Lincoln, Lincolnshire LN2 2BT","description":"","hours":"Tu 09:00-16:00, We 09:00-13:00","title":"Ermine Library and Community Hub"},"type":"Feature"}

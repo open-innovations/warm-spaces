@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.42850,53.50591],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Jump Family centre, Barnsley, SOUTH YORKSHIRE S74 0HZ","description":"We cater for all the family We have crafts and activities for all family members","hours":"Tu 15:30-19:00","title":"Barnsley Council"},"type":"Feature"}

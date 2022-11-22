@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.68222,55.76721],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forth Community Resource Centre, 57 Hawkwood Terrace, Forth, South Lanarkshire ML11 8AT","description":"","hours":"Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00","title":"Forth Community Resource Centre SG"},"type":"Feature"}

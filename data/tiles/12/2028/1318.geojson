@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.73114,53.81724],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bolton Road, Bradford, West Yorkshire BD24SR","description":"","hours":"Mo 09:00-19:00, Tu 09:00-19:00, We 09:00-19:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:00-17:00","title":"Eccleshill Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.72800,53.80791],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Undercliffe Cricket Club , 2 Intake Road, Bradford BD2 3JR","description":"","hours":"We 11:00-13:00, Fr 11:00-13:00","title":"Flying Futures CIC"},"type":"Feature"}

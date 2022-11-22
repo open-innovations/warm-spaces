@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.47948,52.37963],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Lower Street, Cleobury Mortimer, Shropshire DY14 8BN","description":"We cater for anyone that walks through our doors! We have a free soup lunch every Monday between 12:30pm-2pm. This is available for anyone... Working from home, Who fancies soup for lunch, Who home educates, Who hasn't spoken to anyone on that day, Who needs a different environment for lunch... etc, etc. ","hours":"Mo 09:30-17:30, Tu 09:30-17:30, Fr 09:30-17:30, Su 14:30-18:00","title":"Cleobury Community Hub"},"type":"Feature"}

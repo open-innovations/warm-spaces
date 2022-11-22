@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.59880,54.95046],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hope House, Durham Road, Gateshead NE8 4AR","description":"","hours":"Tu 11:00-13:00, Th 11:00-13:00","title":"Alive Church, St George's"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.65685,54.96863],"type":"Point"},"properties":{"_source":"warm_welcome","address":"62-64 Armstrong Road, Benwell, Newcastle NE4 7TU","description":"","hours":"Mo 09:00-16:00, Tu 08:00-16:00, We 08:00-16:00, Th 08:00-16:00","title":"Cornerstone Benwell"},"type":"Feature"}

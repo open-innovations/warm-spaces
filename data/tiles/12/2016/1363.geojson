@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.75810,51.43331],"type":"Point"},"properties":{"_source":"warm_welcome","address":"91 High Street, Nailsea, Bristol BS48 1AW","description":"","hours":"Mo 09:00-22:00, Tu 09:00-22:00, We 09:00-22:00, Th 09:00-22:00, Fr 09:00-23:00, Sa 09:00-23:00, Su 09:00-22:00","title":"Coates House "},"type":"Feature"}

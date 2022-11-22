@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.39226,55.79920],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ralston Road, Barrhead, East Renfrewshire G782QQ","description":"Open from 01-11/2022.","hours":"Th 10:00-12:00","title":"Barrhead St Andrews Parish Church of Scotland"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.38656,55.80213],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Main Street , Barrhead, East Renfrewshire G78 1SW","description":"Everyone is welcome","hours":"Tu 13:00-15:00","title":"Bourock Parish Church Barrhead"},"type":"Feature"}

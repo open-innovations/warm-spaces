@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.71336,53.46781],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chain Lane Community Centre, Hinckley Road, St Helens, Merseyside WA11 9HT","description":"","hours":"Mo 09:30-14:30, We 09:30-14:30","title":"Chain Lane Community Centre"},"type":"Feature"}

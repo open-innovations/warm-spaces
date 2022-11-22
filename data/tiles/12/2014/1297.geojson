@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.94018,54.88717],"type":"Point"},"properties":{"_source":"warm_welcome","address":"62 - 66 Denton Street, Carlisle, Cumbria CA25EH","description":" All are welcome! Free superfast wifi - Toilets - Baby changing - Pay it forward drinks available. We also have a selection of games and toys that can be used in Cornerstone. Join us every Thursday between 10am and 1pm for our weekly wellbeing café.","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 10:00-13:00, Fr 09:00-16:00, Sa 10:00-13:00","title":"Cornerstone"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.50286,50.99834],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Freedom Centre, Unit 6, Greatbridge Business Park, Budds Lane, Romsey SO51 0HA","description":"Open from 01-11-2022.","hours":"Tu 09:00-12:00, We 09:00-17:00, Th 09:00-12:00","title":"Freedom Church UK"},"type":"Feature"}

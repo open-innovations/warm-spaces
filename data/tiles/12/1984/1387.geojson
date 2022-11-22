@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.53969,50.11744],"type":"Point"},"properties":{"_source":"warm_welcome","address":"62 Morrab Road, Penzance, Cornwall TR18 4EP","description":"Open from 15/11/22. We cater for all people. We have a large open space with chairs & tables available. There are games etc for children. There is always tea, coffee, hot chocolate available plus on some occasions there will be home made soup.","hours":"Tu 10:00-12:00, We 18:00-20:00","title":"Discovery Church"},"type":"Feature"}

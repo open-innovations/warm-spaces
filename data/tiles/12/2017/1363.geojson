@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.66555,51.43056],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Keedwell Church, Church Of Ascension, Keedwell Hill, Long Ashton, Bristol BS41 9DP","description":"Open from 05-10-2022.","hours":"We 10:00-12:00","title":"Cafe @ Keedwell"},"type":"Feature"}

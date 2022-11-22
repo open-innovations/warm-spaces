@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.42994,52.89741],"type":"Point"},"properties":{"_source":"warm_welcome","address":"252-1254 London Road, Alvaston , Derby DE24 8QP","description":"","hours":"Mo 13:00-17:00, Tu 09:30-17:00, Th 09:30-19:00, Fr 09:30-17:00, Sa 09:30-13:00","title":"Alvaston Library"},"type":"Feature"}

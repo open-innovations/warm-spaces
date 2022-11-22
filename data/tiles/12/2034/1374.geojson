@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.16936,50.82078],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bridgemary Library, 74 Brewers Lane, Bridgemary, Gosport PO13 0LA","hours":"Mo 13:00-17:00, Tu 09:30-13:30, Th 13:00-17:00, Sa 09:30-13:30","title":"Bridgemary Library- Hampshire Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.14558,50.80843],"type":"Point"},"properties":{"_source":"warm_welcome","address":"136 Chantry Road , Gosport , hants PO12 4NG","description":"We cater for all ages. Large children’s library with play area. Board Games, jigsaws, books available to use. Hot and cold drinks and sweet snacks available. Close by to shops. Off road parking. ","hours":"Mo 09:30-16:00, Tu 09:30-16:00, We 09:30-16:00, Th 09:30-16:00, Fr 09:30-18:00, Sa 09:30-14:30","title":"Elson community library and hub"},"type":"Feature"}

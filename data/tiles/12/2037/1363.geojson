@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.91145,51.43273],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Brookside Close, Earley, Reading, Berkshire RG6 7HG","description":"Open from 18/11/2022. On Wednesday’s our focus is for Over 60’s We have table tennis, table football, lounge area and board games","hours":"We 14:00-16:00, Fr 15:30-18:00","title":"Brookside Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.89414,51.43601],"type":"Point"},"properties":{"_source":"warm_welcome","address":"614 Reading Road,, Winnersh , Wokingham RG41 5HF","description":"We cannot cater for any who cannot use stairs - we are on the first floor and have no lift access Free Parking in roads nearby. Quiet Meeting room suitable for Studying and Working, we offer a warm welcome as well as a warm room ","hours":"We 08:30-15:30","title":"Cavity Dental Staff Agency Ltd"},"type":"Feature"}

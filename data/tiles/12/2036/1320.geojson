@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.02076,53.70663],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carlton Methodist Church , High Street, Carlton , Goole DN149LU","description":"Open from 08/11/2022.","hours":"Tu 13:00-15:00","title":"Carlton Methodist Church "},"type":"Feature"}

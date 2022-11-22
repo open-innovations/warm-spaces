@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.49367,51.74325],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints' Church, Springfield Green, Chelmsford, Essex CM1 7HS","description":" Drop in for free tea, coffee and biscuits and a friendly chat in a nice, warm place","hours":"Tu 14:00-16:00","title":"All Saints' Springfield"},"type":"Feature"}

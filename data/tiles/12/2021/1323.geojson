@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.30081,53.58675],"type":"Point"},"properties":{"_source":"warm_welcome","address":"114 Manchester Road, Bury, Bury BL9 OTH","description":"","hours":"We 10:30-13:30, Su 10:30-13:30","title":"Bury Baptist Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.24179,52.02341],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Town Council Committee Room , Saffron Walden, Essex CB10 1HZ","description":"Open from Monday November28. Anyone welcome Town Hall Committee Room","hours":"Mo 10:00-15:00","title":"Churches Together in Saffron Walden"},"type":"Feature"}

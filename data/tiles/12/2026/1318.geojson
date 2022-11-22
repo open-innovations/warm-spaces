@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.89708,53.80792],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Keighley Road, Denholme, Bradford BD13 4JY","description":"Open from 04-11-2022.","hours":"Fr 12:00-15:00, Su 16:00-19:00","title":"Denholme Shared Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.89418,53.80250],"type":"Point"},"properties":{"_source":"warm_welcome","address":"DMI Community Centre, Main Road, Denholme, Bradford BD13 4BL","description":"","hours":"We 10:00-12:00","title":"Denholme Shared Church Place of Welcome"},"type":"Feature"}

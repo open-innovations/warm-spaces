@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.26849,51.59492],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 Aberfawr Road, Abertridwr, Caerphilly CF83 4EJ","description":" We are closed between 13.00 and 14.00 for lunch everyday","hours":"Mo 09:30-18:00, Tu 09:30-17:00, Th 14:00-18:00, Fr 09:30-17:00, Sa 09:30-13:00","title":"Abertridwr Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.33367,51.60809],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Coedpenmaen Road, Pontypridd, RHONDDA CYNON TAFF CF37 4RS","description":"Open from 01-11-2022. Soup, light snacks, hot & cold drinks available any time. Wednesdays 2-course dinner served 12:00-13:00.","hours":"Tu 12:00-17:00, We 12:00-17:00, Th 12:00-17:00","title":"Coedpenmaen Community Church"},"type":"Feature"}

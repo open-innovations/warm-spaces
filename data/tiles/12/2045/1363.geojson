@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.17740,51.41867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"105-109 High Street, Colliers Wood, London SW19 2HR","description":"Our library is open to all","hours":"Mo 08:00-19:00, Tu 08:00-19:00, Th 08:00-19:00, Fr 08:00-19:00, Sa 08:00-19:00","title":"Colliers Wood Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.18657,51.44230],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Earlsfield Library, 276 Magdalen Road, Earlsfield SW18 3NY","hours":"Mo 09:00-19:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 10:00-14:30","title":"Earlsfield Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.20217,51.42236],"type":"Point"},"properties":{"_source":"warm_welcome","address":"30 Queens Road, Wimbledon, London SW19 8LR","description":" Step-free access","hours":"We 10:00-12:00","title":"Everyday Wimbledon"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.04458,52.64354],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Hill, Scraptoft, Leicester LE7 9SN","description":"","hours":"Tu 10:00-12:00, Sa 10:00-12:00","title":"All Saints Church, Scraptoft"},"type":"Feature"}

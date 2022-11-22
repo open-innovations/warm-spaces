@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.94543,52.09349],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oat Street, Evesham, Worcestershire WR11 4PJ","description":"","hours":"Mo 09:30-17:00, Tu 09:30-19:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Evesham Library"},"type":"Feature"}

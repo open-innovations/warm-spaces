@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.30019,50.75403],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Apex Church, St Faiths Road, Cowes, Isle of Wight PO31 7HH","description":"All are welcome We want to empower members of our local community to access any help and support they might need, by providing a listening ear and a resource of information.","hours":"Tu 08:30-11:00","title":"Bridges at The Apex Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.30019,50.75403],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Faiths Church, St Faiths Road, Cowes, Isle of Wight PO31 7HH","description":"Open from 1st November 2022. all ages -meet for good company, often have Island speakers company, coffee, cake, various speakers and activities","hours":"Th 09:30-12:00","title":"Drop-In for coffee"},"type":"Feature"}

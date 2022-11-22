@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.91402,52.46598],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Harborough Leisure Centre, Northampton Rd, Market Harborough, Leicestershire LE169HF","description":"Open from 08/11/22. Small children's activity/craft area","hours":"Mo 09:30-18:30, Tu 09:30-18:30, We 09:30-18:30, Th 09:30-18:30, Fr 09:30-18:30, Sa 08:00-15:30, Su 08:00-15:30","title":"Everyone Active"},"type":"Feature"}

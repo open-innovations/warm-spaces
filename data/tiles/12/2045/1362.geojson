@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.18819,51.49003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"210 Old Brompton Road, Kensington, London SW5 0BS","description":"","hours":"Mo 09:30-20:00, Tu 09:30-20:00, We 10:00-17:00, Th 09:30-20:00, Fr 09:30-17:00, Sa 09:30-17:00, Su 13:00-17:00","title":"Brompton Library "},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.23754,51.48027],"type":"Point"},"properties":{"_source":"warm_welcome","address":"75 Castelnau, Barnes, London Borough of Richmond Upon Thames SW13 9RT","description":" Computer access must be booked in advance","hours":"Mo 09:30-18:00, Tu 09:30-18:00, We 10:00-19:00, Fr 09:30-18:00, Sa 09:30-16:00","title":"Castelnau Library"},"type":"Feature"}

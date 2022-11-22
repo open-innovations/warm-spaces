@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.93664,50.84637],"type":"Point"},"properties":{"_source":"warm_welcome","address":"19 High Street, Emsworth, South East PO10 7AQ","description":"","hours":"Mo 10:00-13:00, Tu 10:00-13:00, We 10:00-13:00, Th 10:00-13:00, Fr 10:00-13:00","title":"Emsworth Methodist Church and Pastoral Centre"},"type":"Feature"}

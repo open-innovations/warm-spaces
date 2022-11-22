@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.45516,54.00867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chain Lane Community Hub, Knaresborough, North Yorkshire HG5 0AS","description":"We cater for everyone We have a range of board games, books, hot drinks and biscuits every Friday 9-12pm We look forward to welcoming you at Chain Lane Community Hub","hours":"Fr 09:00-12:00","title":"Chain Lane Community Hub"},"type":"Feature"}

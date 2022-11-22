@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.02062,52.51901],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ground Floor, Attleborough Community and Enterprise Centre, Church Street, Attleborough, Norwich NR17 2AH","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 10:00-19:00, We 10:00-19:00, Th 10:00-19:00, Fr 10:00-19:00, Sa 10:00-16:00","title":"Attleborough Library"},"type":"Feature"}

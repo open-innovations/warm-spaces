@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.20843,50.95644],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bishops Waltham Library, Free Street, Bishops Waltham SO32 1EE","hours":"Tu 13:00-17:00, We 09:30-13:30, Fr 13:00-17:00, Sa 09:30-13:30","title":"Bishops Waltham Library- Hampshire Libraries"},"type":"Feature"}

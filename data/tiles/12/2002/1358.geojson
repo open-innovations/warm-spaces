@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.03310,51.71282],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bont Elim Community Church, Alltiago Road, Pontarddulais, SWANSEA SA4 8HU","description":" Follow us on Facebook for up-to-date information on daily events. https://www.facebook.com/BontElimCommunityChurch ","hours":"Mo 07:30-16:00, Tu 07:30-16:00, We 07:30-16:00, Th 07:30-16:00, Fr 07:30-16:00, Su 07:30-17:00","title":"BONT ELIM COMMUNITY CHURCH"},"type":"Feature"}

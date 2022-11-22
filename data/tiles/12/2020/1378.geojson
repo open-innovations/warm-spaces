@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.45967,50.61201],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Stavordale Road, Weymouth, Dorset DT40AB","description":" Hall behind the church open to all Weds 2.00-4.00 and Thurs 10.30- 12.30 for warmth, support, activities or quiet space hot drinks, biscuits, for hot drinks","hours":"We 14:00-16:00, Th 10:30-12:30","title":"Catholic Parish of Our Lady Star of the Sea"},"type":"Feature"}

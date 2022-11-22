@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.43962,53.09664],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crewe Library, Crewe Lifestyle Centre, Moss Square, Crewe, Cheshire CW1 2BB","description":"","hours":"Mo 09:00-18:00, Tu 09:00-18:00, We 09:00-18:00, Th 09:00-18:00, Fr 09:00-18:00, Sa 09:00-13:00","title":"Cheshire East - Crewe Library"},"type":"Feature"}

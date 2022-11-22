@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.71183,51.53529],"type":"Point"},"properties":{"_source":"warm_welcome","address":"57 West, 6 Clarence Road, Southend, Essex SS1 1AN","description":" Open from 02-11-2022.","hours":"We 12:00-14:00, Th 12:00-14:00, Fr 11:00-13:00","title":"57 West"},"type":"Feature"}

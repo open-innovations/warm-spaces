@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.16068,53.39619],"type":"Point"},"properties":{"_source":"warm_welcome","address":"71 Adswood Road, Cale Green, Stockport SK3 8HR","description":"Open from November 3rd 2022. Thursdays we are open for food, company, conversation etc. Sundays we are open for our church service. Hot drinks are available after the service. ","hours":"Th 10:00-21:00, Su 10:30-12:30","title":"360Life church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.16199,53.39109],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Garners Lane, Stockport, Cheshire SK3 8QS","description":"Open from Thursday Nov 10th.","hours":"Th 10:00-14:00","title":"Davenport Methodist Church"},"type":"Feature"}

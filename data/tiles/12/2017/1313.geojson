@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.71347,54.07407],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Artlebeck Road, Caton, Lancaster LA2 9RQ","description":"","hours":"Tu 14:00-16:00","title":"Caton Baptist Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.30895,52.97413],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4b, Ilkeston, Derbyshire DE7 8LH","description":"","hours":"We 11:00-13:00","title":"Elim Christian Centre"},"type":"Feature"}

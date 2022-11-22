@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.26993,52.39626],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Franche Community Church, KIDDERMINSTER, Worcestershire DY11 5QA","description":"All Welcome! We will be running our foodbank alongside our warm welcome space. ","hours":"Tu 08:30-12:00, Fr 08:30-12:00","title":"Franche Community Church and Wyre Forest Food Bank"},"type":"Feature"}

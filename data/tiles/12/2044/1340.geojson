@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.31345,52.67467],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Park, High Street, Market Deeping, Lincs PE68ED","description":"","hours":"Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Fr 10:00-17:00, Sa 10:00-15:00","title":"Deepings Community Library"},"type":"Feature"}

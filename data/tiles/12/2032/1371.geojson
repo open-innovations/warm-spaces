@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.37303,50.98710],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chandler's Ford Library, Oakmount Road, Chandler's Ford SO53 2LH","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-13:30, Sa 09:30-17:00","title":"Chandler's Ford Library- Hampshire Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.35318,50.96686],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eastleigh Library, 1st Floor Swan Centre, Eastleigh SO50 5SF","hours":"Mo 09:30-13:30, Tu 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Eastleigh Library- Hampshire Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.37435,50.98582],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fryern Pavilion, Greenways, Chandlers Ford, Eastleigh , Hampshire SO53 2LE","description":"We attract an older audience but want to attract families to use our facilities. We offer table tennis and a range of games including rummikub, cribbage, canasta, scrabble, dominoes and bridge depending on numbers and interest.","hours":"Fr 10:00-12:00","title":"Fryern Community Association"},"type":"Feature"}

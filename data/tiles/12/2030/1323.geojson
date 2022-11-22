@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.51294,53.58928],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Alder Close, Mapplewell, Barnsley S75 6JA","description":"","hours":"Tu 10:30-14:00","title":"Berneslai Homes"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.52276,53.54164],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Dodworth, Barnsley S75 3RF","description":" We have regular activities every week including Story & Rhyme sessions, Lego Club, Employment Support as well as a range of children and adult activities and school holiday activities. Details on our website","hours":"Mo 10:00-13:00, Tu 10:00-13:00, Th 10:00-13:00, Fr 10:00-13:00, Sa 09:30-12:30","title":"Dodworth Library - Barnsley Libraries"},"type":"Feature"}

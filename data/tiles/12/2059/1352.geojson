@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.04695,52.00300],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Street, Capel St Mary, Suffolk IP9 2EF","description":" Open from 02-11-2022.","hours":"Tu 09:00-12:30","title":"Capel St Mary Methodist Church"},"type":"Feature"}

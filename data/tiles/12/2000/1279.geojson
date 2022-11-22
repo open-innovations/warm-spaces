@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.16417,55.82039],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Unit 1a 3 mansion st, Cambuslang , South Lanarkshire g72 7JN","description":"Open from Tues 22nd Nov .","hours":"Tu 12:30-14:30","title":"Energise Therapies and Training/ Metta Wellbeing CIC"},"type":"Feature"}

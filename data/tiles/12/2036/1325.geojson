@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.02094,53.43616],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Doncaster Road , Bawtry , South Yorkshire DN10 6NE","description":" We have lots of books, suitable for both children and adults. We have games and toys for children, and jigsaws for the grown ups. ","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00, Sa 10:00-13:00","title":"Bawtry Community Library "},"type":"Feature"}

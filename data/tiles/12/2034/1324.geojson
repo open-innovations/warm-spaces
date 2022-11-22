@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.15692,53.50403],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Alder Grove , Doncaster, South Yorkshire DN4 8RF","description":" We offer a Warm welcome. Hot drinks, soup and a roll","hours":"We 10:00-14:00","title":"Alder Grove Church "},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.15530,53.50487],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Road, Balby, Doncaster, South Yorkshire DN4 0PL","description":"","hours":"Mo 10:00-15:00, Tu 10:00-15:00, We 10:00-15:00, Fr 10:00-16:00","title":"Balby Community Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.14599,53.49482],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Servant's Hall, Flourish Enterprises, , Woodfield Park, Tickhill Road, , Balby, Doncaster DN4 8QP","description":"We cater for people aged 18 and over. Feel free to fetch a craft project with you to work on. We can offer support and help with your project. If you don't have something to work on, let us know and we may be able to help.","hours":"Mo 12:00-14:00, Tu 12:00-14:00, We 12:00-14:00, Fr 12:00-14:00, Sa 12:00-14:00","title":"Dadesley Crafting CIC"},"type":"Feature"}

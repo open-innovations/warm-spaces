@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.24591,59.99875],"type":"Point"},"properties":{"_source":"warm_welcome","address":"COMPASS HOUSE, Stove Sandwick, Shetland ZE2 9HH","description":"Everyone It is open to all ages and everyone is welcome.","hours":"Fr 10:00-16:00","title":"Carnagie hall Sandwick Shetland"},"type":"Feature"}

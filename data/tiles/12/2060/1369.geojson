@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.11587,51.09429],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sanford House, Stade Street, Hythe ,, Kent, County (optional) CT18 8AX","description":"people aged 50 and overFree Flasks, hot water bottles energy efficient light bulbs","hours":"Mo 09:30-15:30, Tu 09:30-15:30, We 09:30-15:30, Th 09:30-15:30, Fr 09:30-15:30, Sa 10:30-13:30, Su 10:30-13:30","title":"Age Uk Hythe and Lyminge"},"type":"Feature"}

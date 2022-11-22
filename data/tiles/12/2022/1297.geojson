@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.25510,54.89753],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Allendale Forge Studios, Allendale, northumberland ne47 9BD","description":"","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00, Sa 09:00-16:00, Su 09:00-16:00","title":"Forge studios"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.16187,51.67296],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Copperworks Road, Llanelli, Carmarthenshire SA15 2NE","description":"Our community We are a community cafe, you can sit and read, craft or work. We also offer hot meals from £2.50.","hours":"Tu 10:00-13:30, We 10:00-13:30, Th 10:00-13:30","title":"Antioch Christian Centre"},"type":"Feature"}

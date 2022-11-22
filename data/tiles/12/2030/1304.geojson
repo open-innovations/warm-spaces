@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.51945,54.53268],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Redhall Community Association, Darlington, County Durham DL1 2ST","description":"","hours":"Mo 18:00-21:00, Su 10:00-12:00","title":"Embrace Church "},"type":"Feature"}

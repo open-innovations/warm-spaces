@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.78692,53.70371],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Brighouse Library, Halifax Road, Brighouse HD6 2AF","description":" We are closed from 1pm on Christmas Eve until 10am 4th January 2023","hours":"Mo 10:00-18:30, Tu 10:00-17:00, Th 10:00-17:00, Fr 10:00-18:30, Sa 10:00-16:00","title":"Calderdale MBC"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.82993,53.74010],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Northowram Library, Lydgate Northowram , Halifax HX3 7EJ","description":" Please note the library closes between 13:00 and 14:00 on Monday, Tuesday and Thursday. We are closed from 1pm on Christmas Eve, we will reopen at 10am on Tuesday 4th January","hours":"Mo 10:00-17:00, Tu 10:00-17:00, Th 10:00-17:00, Fr 14:00-17:00, Sa 10:00-13:00","title":"Calderdale MBC"},"type":"Feature"}

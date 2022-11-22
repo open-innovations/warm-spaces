@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.69548,51.55733],"type":"Point"},"properties":{"_source":"warm_welcome","address":"120 Hobleythick Lane, Westcliff on Sea, Essex SS0 0RJ","description":"Open from 01-11-22. Warm and friendly with activities for all ages as well as tea, coffee and toast","hours":"Tu 15:00-18:00, Th 12:00-15:00","title":"Earls Hall Baptist Church"},"type":"Feature"}

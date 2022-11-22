@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.48503,53.74973],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Blackburn Central Library. Town Hall Street., Blackburn, Lancashire BB2 1AG","description":" Wednesdays close from 12.:30 until 14.:00 for lunch","hours":"Mo 14:00-16:30, We 10:00-17:00, Fr 14:00-17:00, Sa 10:00-12:30","title":"Blackburn with Darwen Library and Information Service. Cherry Tree Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.48503,53.74973],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Blackburn Library, Town Hall Street, Blackburn BB2 1AG","description":"Everyone is welcomeWe have a dedicated Children's Library, Community History Library, Study Spaces, Community Hub in addition comfy seating areas to meet and chat.","hours":"Mo 10:00-19:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-16:00","title":"Blackburn with Darwen Library Service"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.27831,52.21453],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church , Church Lane , Lower Broadheath, Worcestershire Wr2 6qy","description":"","hours":"Tu 09:00-15:00","title":"Christ Church Lower Broadheath"},"type":"Feature"}

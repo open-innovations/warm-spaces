@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.35433,51.68179],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Street, Dursley, Glos GL11 4BS","description":"","hours":"Fr 10:00-16:00","title":"Dursley Methodist Church"},"type":"Feature"}

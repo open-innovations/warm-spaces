@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.85270,51.43581],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Clevedon, North Somerset BS216NH","description":"","hours":"Mo 10:00-16:00","title":"Clevedon Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.85507,51.43599],"type":"Point"},"properties":{"_source":"warm_welcome","address":"37 Old Church Road , Clevedon BS21 6NN","description":"","hours":"Mo 09:30-17:00, Tu 09:30-17:00, Fr 09:30-17:00, Sa 09:30-13:00","title":"Clevedon Library"},"type":"Feature"}

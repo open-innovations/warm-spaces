@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.23954,50.68365],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Teresa's Hall , Sidmouth , Devon EX10 8TT","description":"Open from 07.11.2022.","hours":"Mo 12:00-14:00, Su 11:30-12:30","title":"Catholic Church, Sidmouth "},"type":"Feature"}

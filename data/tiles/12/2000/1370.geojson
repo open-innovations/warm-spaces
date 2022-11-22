@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.19088,51.05320],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Quay, Appledore, Devon EX39 1QS","description":"Tucked away on the waterfront, Appledore Library is a small but busy branch that is an important part of the local community. The library is open four days a week offers the full range of library services for adults and children. ","hours":"Tu 10:00-13:00, We 14:00-17:00, Th 10:00-12:00, Sa 10:00-12:00","title":"Appledore Library"},"type":"Feature"}

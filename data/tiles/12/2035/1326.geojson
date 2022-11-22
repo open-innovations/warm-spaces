@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.10830,53.43151],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Close Community Centre , Tickhill , Doncaster DN11 9QT","description":"Open from 12/12/2022.","hours":"Mo 09:00-11:00","title":"Circle of Friends Tickhill"},"type":"Feature"}

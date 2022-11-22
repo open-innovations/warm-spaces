@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.72274,52.40028],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27c Victoria Street, Kettering, Northants NN16 0BU","description":"","hours":"Fr 10:00-14:00","title":"Bonkers Playhoyse Theatre"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.22609,54.10971],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Dalton Road, Barrow-in-furness, Cumbria LA14 2HD","description":" We have a dedicated space for babies/small children with toys","hours":"Fr 13:00-16:00","title":"Emmanuel Community Church"},"type":"Feature"}

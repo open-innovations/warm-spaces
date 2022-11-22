@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.04470,54.51100],"type":"Point"},"properties":{"_source":"warm_welcome","address":"49 Market Square, Lisburn, Antrim BT28 1AD","description":" A space to come and work, rest, or just hang out. There will be a kids corner with toys and games for younger children. Enjoy a free cup of tea or coffee, with sweet treats too. Open Friday mornings in December and January. (Excluding 23rd or 30th Dec)","hours":"Fr 09:30-12:30","title":"First Lisburn Presbyterian Church"},"type":"Feature"}

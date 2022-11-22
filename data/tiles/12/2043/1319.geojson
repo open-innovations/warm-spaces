@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.41424,53.78212],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hallgate, Cottingham, East Yorkshire HU16 4DD","description":"Open from 23/11/2022. We’re an adult only welcoming space. You can join us once a week for a morning of staying warm with coffee, tea, biscuits and socialising. Do you want to stay around for the full day? Then you’re welcome to join us for an optional afternoon of activities.","hours":"We 09:15-17:00","title":"Cottingham Adult Learning Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.41417,53.78135],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Market Green, Cottingham, East Riding of Yorkshire HU16 5QG","description":"Open from 01/11/2022. East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":"Mo 09:30-16:30, Tu 09:30-16:30, Th 09:30-18:30, Fr 09:30-13:00, Sa 09:30-12:30","title":"Cottingham Centre"},"type":"Feature"}

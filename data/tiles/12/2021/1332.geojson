@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.31176,53.09952],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sandbach Road North, Alsager, Stoke on Trent ST7 2QH","description":"","hours":"Mo 09:00-17:00, Tu 09:00-19:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Alsager Library"},"type":"Feature"}

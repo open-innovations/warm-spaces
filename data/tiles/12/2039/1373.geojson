@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.71134,50.85329],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sage House, 110-130 City Fields Business Park, Tangmere, West Sussex PO20 2FP","description":"Our focus is on people living with Dementia and their families and carers, our warm space and cafe is open to all . Sage House is a Community Hub and Cafe providing support for people living with Dementia and their carers, our warm space and cafe is open to anyone in the local community to access, we have a pay it forward scheme and offers on food and drinks. ","hours":"Mo 09:00-16:30, Tu 09:00-16:30, We 09:00-16:30, Th 09:00-16:30, Fr 09:30-16:30","title":"Dementia Support"},"type":"Feature"}

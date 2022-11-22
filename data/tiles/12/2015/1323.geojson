@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.89509,53.56635],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cottage Lane, Ormskirk L39 3NE","description":"Tea/coffee/cold dirnks/soup and a roll provided","hours":"Mo 10:30-14:30, Th 10:30-14:30","title":"CLM Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.87708,53.56854],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Derby Street, Ormskirk, Lancashire L39","hours":"Th 10:30-13:30","title":"Emmanuel Church Ormskirk"},"type":"Feature"}

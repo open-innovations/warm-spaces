@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.26225,53.42243],"type":"Point"},"properties":{"_source":"warm_welcome","address":"23 Merseybank Avenue, Chorlton, Manchester M21 7NT","description":"","hours":"Mo 09:00-16:00, Tu 09:00-19:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-14:00","title":"Barlow Moor Community Association Ltd"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.21711,53.39309],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cheadle Parish Office, Cheadle, Cheshire SK8 1DW","description":"Open from 07/11/22.","hours":"Mo 08:00-16:00, Tu 08:00-16:00, We 08:00-16:00, Th 08:00-16:00, Fr 08:00-16:00, Sa 09:00-15:00","title":"Cheadle Parish PCC"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.23180,53.41804],"type":"Point"},"properties":{"_source":"warm_welcome","address":"692 Wilmslow Rd, Didsbury, Manchester M20 2DN","description":"","hours":"Mo 09:00-20:00, Tu 09:00-20:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-17:00","title":"Didsbury Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.28232,53.41254],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Michaels Hall, Wythenshawe, Manchester M230QR","description":"","hours":"Fr 09:00-10:30","title":"Eden family Cafe "},"type":"Feature"}

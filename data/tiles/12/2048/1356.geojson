@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.00906,51.78996],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrew's Church , Stanstead Abbotts, Herts SG12 8BU","description":"Open from 31-10-2022. We welcome everyone!","hours":"Mo 09:30-13:30","title":"3 Churches Foodbank & Community Hub"},"type":"Feature"}

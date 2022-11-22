@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.38377,55.89590],"type":"Point"},"properties":{"_source":"warm_welcome","address":"28 Sylvania Way South, Clydebank, West Dunbartonshire G81 1ER","description":"Open from 19/10/2022.","hours":"We 10:00-14:00","title":"Clydebank Salvation Army Community Church"},"type":"Feature"}

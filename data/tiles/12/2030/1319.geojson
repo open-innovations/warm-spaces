@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.52838,53.79920],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Rider Street, Leeds, West Yorkshire LS9 7BQ","description":"Free hot meal, film and activities starting end of October","hours":"Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00, Sa 17:00-20:00","title":"Bridge Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.54512,53.77198],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 Ashbrooke Park, Parkside Lane, Leeds, West Yorkshire LS11 5SF","description":"Everyone is welcome We are open every Monday except bank holidays, come for a coffee, or light lunch in a warm, lovely, welcome space and various different activities on the last Monday of every month. Sundays are lively with singing, prayers, preaching and refreshments., ","hours":"Mo 10:00-13:00, Su 11:00-13:00","title":"Chosen Church"},"type":"Feature"}

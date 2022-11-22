@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.14309,51.09132],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Marigold Centre, Folkestone, Kent CT194NS","description":"Open from 07/11/2022. Our focus is catering for people aged 50+ although younger people are also welcome Step in from the cold with Age UK South Kent Coast's warm space scheme. A warm space with access to free Wi-Fi and a friendly welcome - whether you want to relax, work or grab a low cost bite to eat.","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00","title":"Age UK South Kent Coast"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.14318,51.08898],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Somerset Road, Folkestone , Kent CT19 4NW","description":"","title":"ALL SOULS CHURCH, CHERITON ,FOLKESTONE"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.14434,51.08767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"5 Park Road, Folkestone, Kent CT19 4DG","description":"Open from 08-11-2022.","hours":"Tu 13:00-17:00","title":"Cheriton Pentecostal Church "},"type":"Feature"}

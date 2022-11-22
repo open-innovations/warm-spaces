@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.91599,52.21510],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10, Overslade Close, Northampton, Northamptonshire NN4 0RZ","description":"There is the potential for seniors to join the Monday lunch club, as well as use the warm space Whilst most attendees will be hosted in the lobby area, those needing to work will have access to another space","hours":"Mo 11:00-16:30","title":"Abbey Centre and Abbey Centre Baptist Church"},"type":"Feature"}

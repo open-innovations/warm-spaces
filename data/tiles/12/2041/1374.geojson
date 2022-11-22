@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.61420,50.84215],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Yapton Lane, Walberton, Arundel BN18 0LS","description":"","hours":"Mo 12:00-14:00, Tu 12:00-14:00, We 12:00-14:00, Th 12:00-14:00, Fr 12:00-14:00, Sa 12:00-14:00, Su 12:00-14:00","title":"Avisford Park Hotel"},"type":"Feature"}

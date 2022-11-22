@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.31698,52.37652],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dog Lane, Bewdley , Worcestershire DY12 2EF","description":"","hours":"Mo 09:30-17:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-13:00","title":"Bewdley Library"},"type":"Feature"}

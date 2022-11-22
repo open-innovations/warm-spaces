@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.67477,50.59360],"type":"Point"},"properties":{"_source":"warm_welcome","address":"37 Fore Street, Bovey Tracey, Newton Abbot TQ13 9AD","description":"","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Angel Home Care"},"type":"Feature"}

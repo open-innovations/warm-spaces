@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.61959,52.80640],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Colsterworth Methodist Church, Back Lane, Colsterworth, Grantham NG33 5HU","description":"Open from 08-11-2022.","hours":"Tu 15:00-17:00","title":"Colsterworth Methodist Church/ Colsterworth Parish Church"},"type":"Feature"}

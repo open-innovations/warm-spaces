@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.87724,50.74943],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Life Centre, 711-715 Wimborne Road,, Bournemouth, Dorset BH9 2AU","description":" Our warm welcome hub is called 'Lifehouse' and has been in operation for around 14years now. We are also a foodbank and signposting agency and offer Community Money Advice help. We are a warm friendly space where you can just drop in for a drink and chat","hours":"Mo 10:00-12:30, Tu 10:00-12:30, We 10:00-12:30, Th 10:00-12:30, Fr 10:00-12:30","title":"Bournemouth Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.86938,50.73896],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Heron Court Road, Bournemouth, Dorset BH9 1DE","description":"","hours":"We 09:30-12:00","title":"Faithworks Wessex"},"type":"Feature"}

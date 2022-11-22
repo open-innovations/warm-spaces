@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.27050,51.40480],"type":"Point"},"properties":{"_source":"warm_welcome","address":"38 Holton Road, Barry, Vale of Glamorgan cf634hd","description":"Our focus is for older people but everyone is welcome We are a small one room Wellbeing Centre ","hours":"Mo 09:30-12:30, Tu 09:30-12:30, We 09:30-12:30, Th 11:00-12:30, Fr 09:30-12:30","title":"Age Connects Cardiff & Vale"},"type":"Feature"}

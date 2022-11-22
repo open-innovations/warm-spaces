@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.57904,50.35214],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dartmouth Library, Dartmouth, Devon TQ69ND","description":" There is a cafe next door (part of the same arts centre). We also have daily newspapers, and with free membership you can access e-books, e-audio etc. We also have Large Print and audio CDs for the Visually Impaired.","hours":"Mo 09:00-13:00, Tu 09:00-17:00, We 09:00-13:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Dartmouth Library"},"type":"Feature"}

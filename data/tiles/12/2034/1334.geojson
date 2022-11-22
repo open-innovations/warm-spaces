@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.18399,52.97882],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Basford Road Baptist Church, Nottingham, Nottinghamshire NG6 0JL","description":"","hours":"We 11:00-13:00","title":"Basford Road Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.18674,52.99773],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Broomhill Road, Bulwell, Nottingham NG6 9JL","description":"Open from 28-11-2022. Everybody is welcome, but under 18's must be accompanied by an adult. Open every Monday evening (except bank hols) from 18:00-20:00 for warm space, free soup and refreshments, games, jigsaws & conversation","hours":"Mo 18:00-20:00","title":"BULWELL URC"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.20681,52.98444],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bells Lane Community Centre, Nottingham, Nottingham NG8 6DD","description":"","hours":"Tu 11:00-13:00","title":"Diversify Education and Communities CIC"},"type":"Feature"}

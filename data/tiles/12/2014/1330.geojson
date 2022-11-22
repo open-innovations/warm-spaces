@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.92626,53.20836],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Parade Enterprise Centre, 14 the Parade, Blacon, Chester CH1 5HN","description":"","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 09:30-13:00","title":"Blacon Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.91433,53.17339],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hawthorn Road, Chester, Cheshire CH4 8HX","title":"Cheshire West and Chester Council"},"type":"Feature"}

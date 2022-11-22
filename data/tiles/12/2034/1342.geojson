@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.19577,52.55013],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Park Road, Cosby, Leicestershire LE9 1RN","description":"Open from 24/11/22. We cater for any age group - children to be accompanied by an adult. Books, jigsaws, quiet space, chatty space, but most importantly, a warm welcome and warm space!","hours":"Th 14:00-18:00","title":"Cosby Methodist Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.39255,50.64328],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Churchill Road, Exmouth, Devon EX8 5PP","description":"Everyone is welcome no matter your age or ability","hours":"We 10:00-12:00, Th 13:00-15:15, Fr 10:00-12:00","title":"Brixington Community Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.43634,55.03407],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Georges Road, Cullercoats, Tyne and Wear NE30 3JY","description":" Services include books, magazines, games and toys, free use of PCs and wifi, bottle warmers. Free hot drinks available during opening hours.","hours":"Tu 09:00-13:00, Fr 09:00-13:00, Sa 09:00-13:00","title":"Cullercoats Library"},"type":"Feature"}

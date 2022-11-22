@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.24559,51.77145],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tredegar Library, The Circle, Tredegar, Blaenau Gwent NP22 3PS","description":" The Library is closed for lunch between 1:00-2:00pm","hours":"Mo 09:00-17:30, Tu 09:00-17:30, We 09:00-17:30, Fr 09:00-17:30, Sa 09:00-01:00","title":"Aneurin Leisure Trust/ Blaenau Gwent Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.18390,51.74125],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cwm Library Canning Street, Cwm, Ebbw Vale NP23 7RW","description":" Please note our library is closed between 1pm and 2pm for lunch","hours":"Tu 09:30-17:30, Th 09:30-17:30, Fr 09:30-17:30","title":"Aneurin Leisure Trust/Blaenau Gwent Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.20841,51.77848],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ebbw Vale Library, 21 Bethcar St, Ebbw Vale, Blaenau Gwent NP23 6HH","description":"","hours":"Mo 09:00-17:30, Tu 09:00-17:30, Th 09:00-17:30, Fr 09:00-17:30, Sa 09:00-13:00","title":"Ebbw Vale Library"},"type":"Feature"}

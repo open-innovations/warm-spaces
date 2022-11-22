@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.11936,52.37098],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Victoria Road, Diss, Norfolk IP22 4EY","description":"","hours":"Sa 10:00-12:00","title":"Diss Methodist Church"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.18079,54.15635],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Market Street , Dalton-in-Furness, Cumbria LA15 8RQ","description":"Open from 26/10/2022.","hours":"We 14:00-15:30","title":"Dalton Community Church, Dalton-in-Furness, Cumbria"},"type":"Feature"}

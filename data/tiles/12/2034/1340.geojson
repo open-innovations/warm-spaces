@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.16365,52.69191],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Church , Thurcaston , Leicestershire LE7 7JB","description":"Open from 09-11-2022. Parent/ carers on school run Church space alongside warm meeting room","hours":"We 14:00-16:00","title":"All Saints Thurcaston "},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.16393,52.66616],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Beaumont Way, Leicester, Leics LE4 1DS","description":" Wi-Fi and free computer use available to Library members, it is free to join Leicester Libraries.Parking is available at the shopping centre, disabled parking at the side of our building.","hours":"Mo 09:00-18:30, Tu 09:00-18:30, We 09:00-18:30, Th 09:00-18:30, Fr 09:00-17:00, Sa 09:30-13:00","title":"Beaumont Leys Library"},"type":"Feature"}

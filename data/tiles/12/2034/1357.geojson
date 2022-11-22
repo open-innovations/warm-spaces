@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.19635,51.76728],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barton Neighbourhood Centre Underhill Circus, Headington, Oxford , Oxfordshire OX3 9LS","description":"","hours":"Mo 14:00-18:00","title":"Barton Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.19157,51.76164],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Collinwood Rd, , Risinghurst, Headington, , Oxford OX3 8HW","description":"Open from 10-10-2022. Everyone is welcome to come to the coffee lounge at COLLINWOOD ROAD CHURCH, RISINGHURST (Collinwood Rd, Headington, Oxford OX3 8HW). We hope you will enjoy a warm welcome to a warm space, with a chance to get to know your neighbours and make new friends. ","hours":"Mo 10:00-16:00, Tu 10:00-16:00, Th 10:00-16:00, Su 10:00-12:00","title":"Collinwood Road Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.22718,51.73077],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Rose Hill Methodist Church, Rose Hill,Iffley, Oxford OX4 4HS","description":"","hours":"Mo 14:00-16:30","title":"Community Drop In at Rose Hill Methodist Church"},"type":"Feature"}

@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.97753,51.14969],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Alton Community Centre, Amery Street, , Alton GU34 1HN","description":"All are welcome! No judgement, No criteria! We can provide free wi-fi and hot drinks, cup a soups, biscuits etc","hours":"Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00, Sa 09:30-12:30","title":"Alton Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.97604,51.14964],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Alton Library, Vicarage Hill, Alton GU34 1HT","description":"","hours":"Mo 09:30-13:30, Tu 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Alton Library- Hampshire Libraries"},"type":"Feature"}

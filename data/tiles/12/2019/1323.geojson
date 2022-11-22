@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.52597,53.58671],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Brazley Community Centre, Horwich, bolton BL66HT","description":"Open from 07/11/22. We cater for all groups","hours":"Mo 09:00-16:00, We 09:00-12:30","title":"brazley community centre"},"type":"Feature"}

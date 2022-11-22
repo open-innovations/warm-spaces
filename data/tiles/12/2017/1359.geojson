@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.67813,51.63992],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Rainbow Centre, 38 Moor Street, Chepstow NP16 5DF","hours":"We 09:00-12:00","title":"Chepstow & District CAP Debt Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.67734,51.64073],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Albion Square, Chepstow, Monmouthshire NP16 5DA","description":"Open from From 17th Nov 2022. There will be 2 rooms - one with books, magazines, newspapers, table games, free Wifi & mobile charging facilities The 2 rooms are upstairs. friendly physical assistance can be given, but the lift is currently extremely unreliable","hours":"Th 10:00-12:00, Fr 10:00-12:00","title":"Chepstow Methodist Church"},"type":"Feature"}

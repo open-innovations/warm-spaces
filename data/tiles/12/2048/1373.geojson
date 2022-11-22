@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.00031,50.87570],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Prince Edwards Road, Lewes, East Sussex bn7 1bl","description":"","hours":"We 10:00-15:00","title":"Christ Church Lewes"},"type":"Feature"}

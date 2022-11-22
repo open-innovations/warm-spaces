@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.10065,53.52014],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fitton Hill Neighbourhood Centre, Fitton Hill, Oldham Ol8 2QD","description":"","hours":"Tu 14:00-17:00, We 14:00-19:00, Th 14:00-19:00, Fr 09:30-13:00, Sa 09:30-13:00","title":"Fitton Hill Library"},"type":"Feature"}

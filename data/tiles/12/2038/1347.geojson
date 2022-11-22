@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.84065,52.27233],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Thorplands Community Hub, Farm Field close, Thorplands, Northamptonshire NN3 8AG","description":"We cater for adults but children are welcome with guardian The group is on every other Saturday, the next date is 18/12/22. You are welcome to simply come in and sit with a cuppa. ","hours":"Fr 09:45-11:30","title":"Arts, Crafts & Chat group (Emmanuel group of churches) "},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.15344,54.62485],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Underskiddaw Village Hall, Millbeck, Cumbria CA12 4PS","description":"Open from 16-11-2022.","hours":"We 13:00-17:00","title":"CA12 Winter Warmth Initiative"},"type":"Feature"}

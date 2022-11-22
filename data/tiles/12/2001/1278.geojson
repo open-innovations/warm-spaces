@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.12270,55.86799],"type":"Point"},"properties":{"_source":"warm_welcome","address":"5 Shandwick Street, Easterhouse, Glasgow G34 9BN","description":"Open from 28-11-2022.","hours":"Mo 10:00-12:00, We 10:00-12:00","title":"Easterhouse Phoenix Community Centre"},"type":"Feature"}

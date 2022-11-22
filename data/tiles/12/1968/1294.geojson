@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.95116,55.04473],"type":"Point"},"properties":{"_source":"warm_welcome","address":"110 Roemill Road, Limavady, County Londonderry BT49 9BE","description":"Open from 01-11-22.","hours":"Tu 18:00-21:00, Th 18:00-21:00","title":"Be Safe Be Well"},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.29738,52.64329],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church Centre, Norwich, US Addresses Only NR3 4LA","description":"Open to anyone in the community. Book Swap is held in the large hall. We have hot drinks, a variety of cakes and a wide selection of books available to borrow.","hours":"We 10:00-12:00","title":"Christ Church Centre"},"type":"Feature"}

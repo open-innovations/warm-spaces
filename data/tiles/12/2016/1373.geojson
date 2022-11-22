@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.79522,50.88400],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Falkland Square, Crewkerne, Somerset TA18 7JS","description":"","hours":"Mo 09:30-13:30, Tu 09:30-17:00, We 09:30-17:00, Fr 09:30-17:00, Sa 09:30-12:00","title":"Crewkerne Library"},"type":"Feature"}

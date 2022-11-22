@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.47236,52.43603],"type":"Point"},"properties":{"_source":"warm_welcome","address":"17-23 Riley Square, Bell Green, Coventry CV2 1LS","description":"","hours":"Mo 09:00-19:00, Tu 09:00-19:00, Th 09:00-19:00, Fr 09:00-19:00, Sa 09:00-16:00","title":"Bell Green Library"},"type":"Feature"}

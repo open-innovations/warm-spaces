@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.11174,52.45686],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street Lye, Stourbridge, West Midlands DY9 8LF","description":"","title":"Christ Church Lye, Worcester Diocese"},"type":"Feature"}

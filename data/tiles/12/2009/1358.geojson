@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.39928,51.68402],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Community Link Building, Fernhill, Mountain Ash, Rhondda Cynon Taf CF45 3EW","description":"Open from 17/11/22. Our focus is over 16s We have a coffee morning where we have free tea, coffee, and toasties (donation basis), music playing, sofas, and toys available for kids. Come along, enjoy the warm, meet someone new or simply relax.","hours":"Th 10:30-12:00","title":"Cynon Valley Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.41440,51.70382],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Sion Terrace, Cwmbach, Aberdare CF44 0AS","description":"Over 16s There is a Coffee Morning that runs serving free refreshments, alongside a Clothes bank. SO come along, warm up, have a drink and why not grab a few items off the rail - all free!","hours":"Mo 10:00-12:00","title":"Cynon Valley Church Cornerstone"},"type":"Feature"}

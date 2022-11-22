@@ -1,0 +1,5 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.25661,55.85284],"type":"Point"},"properties":{"_source":"warm_welcome","address":"37 South Portland Street, Gorbals, Glasgow G5 9JL","description":"Open from 1st October 2022.","hours":"Mo 10:00-14:30, Tu 10:00-14:30, We 10:00-14:30, Th 10:00-14:30, Fr 10:00-14:30","title":"Destiny Church Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.26842,55.87184],"type":"Point"},"properties":{"_source":"warm_welcome","address":"56 Clarendon Place, St Georges Cross, Glasgow G20 7PZ","description":" Open to all in the community, including families who would like a warm space to get a heat, connect with others and enjoy some refreshments. From 3pm on a Wednesday children and families are especially welcome to drop in after school.","hours":"We 12:00-16:30, Su 10:30-11:30","title":"Findlay Church"},"type":"Feature"}

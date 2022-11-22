@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.10805,52.82272],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sandon Rd Baptist Church , Stafford, Staffordshire ST16 3HW","description":"Open from 10/11/2022. Child friendly facilities with lots to do to entertain people of all ages ","hours":"Th 15:00-17:30","title":"Beacon Church at Sandon Rd Baptist Church "},"type":"Feature"}

@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.13323,50.40865],"type":"Point"},"properties":{"_source":"warm_welcome","address":"3 Crownhill Road, Plymouth, Devon PL6 5AG","description":"Our focus is mainly catering for lonely people Mon-Thurs church open. Thurs hall open.","hours":"Mo 10:30-12:00, Tu 10:30-12:00, We 10:30-12:00, Th 10:00-11:30, Su 10:30-12:00","title":"Crownhill Methodist Church"},"type":"Feature"}

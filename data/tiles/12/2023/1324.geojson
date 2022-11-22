@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.16491,53.50765],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oldham Road, Failsworth, Manchester M35 0FJ","description":"","hours":"Mo 09:00-19:00, Tu 09:00-19:00, We 09:00-19:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:30-13:00","title":"Failsworth Library"},"type":"Feature"}

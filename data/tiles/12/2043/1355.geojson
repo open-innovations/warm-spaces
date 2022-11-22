@@ -1,0 +1,4 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.43318,51.87445],"type":"Point"},"properties":{"_source":"warm_welcome","address":"North Drift Way, , Farley Hill, Luton LU1 5JG","description":"For all (except Wednesdays which is for over 55’s) Tea and Toast on Mondays, Wednesdays is a lunch for the elderly, Saturday mornings are food bank collection and breakfast ","hours":"Mo 09:00-10:30, We 12:30-14:30, Sa 10:00-12:00","title":"Farley Hill Methodist Church"},"type":"Feature"}
