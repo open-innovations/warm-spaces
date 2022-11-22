@@ -7,6 +7,7 @@
 		{"geometry":{"coordinates":[-1.16164,50.72799],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ryde Library, 101 George Street, Ryde, Isle of Wight PO33 2JE","description":" We have information and advice from other services and groups in the town. We offer free activities for adults and children","hours":"Mo 09:00-17:30, Tu 09:00-17:30, We 10:30-19:00, Fr 09:00-17:30, Sa 09:00-17:00","title":"Ryde Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.14990,50.71753],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Park Road, Ryde, Isle of Wight PO33 1BX","description":"Open from 24th November 2022.","hours":"Th 14:00-17:00","title":"St. John's church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.14800,50.72326],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Park Road, Ryde, England, PO33 1BX","title":"St. Johns Church","url":"https://en-gb.facebook.com/stjohnsryde/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.29217,50.70199],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sea Street, Newport, England, PO30 5BD","title":"Quay Arts Cafe","url":"https://www.quayarts.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.29217,50.70199],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sea Street, Newport, England, PO30 5BD","title":"Quay Arts Cafe","url":"https://www.quayarts.org"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.15354,50.72983],"type":"Point"},"properties":{"_source":"warm_spaces","address":"11 East Street, Ryde, England, PO33 1JP","title":"Monkton Arts","url":"https://Www.monktonarts.co.uk"},"type":"Feature"}
 	]
 }
