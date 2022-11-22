@@ -27,6 +27,7 @@ binmode STDOUT, 'utf8';
 	{'text'=>'Wednesday: Wednesdays 10.30am - 11.30am.Second Wednesday of the month 2.30pm - 3.30pm, Saturday: First Saturday of the month 10.30am - 12pm, Sunday: 11am - 12.30pm28 January 2023/25 Feb/25 March 2023 3pm-4pm','good'=>'We 10:30-11:30; We[2] 14:30-15:30; Sa[1] 10:30-12:00; Su 11:00-12:30'},
 	{'text'=>'First Tuesday of the month: 1.30pm - 3.30pm, Fourth Tuesday of the month: 2pm - 5pm, Wednesday (term-time only): 11am - 12.30pm, Friday: 10.30am - 12pm, First Saturday of the month: 12.30pm - 2.30pm, First Sunday of the month: 10.45am - 12pm, Second, third and fourth Sunday of the month: 9.15am - 10.15am','good'=>'Tu[1] 13:30-15:30; Tu[4] 14:00-17:00; We 11:00-12:30; Fr 10:30-12:00; Sa[1] 12:30-14:30; Su[1] 10:45-12:00; Su[2,3,4] 09:15-10:15'},
 	{'text'=>'Every Wednesday at Wednesday Cafe from 10.00-11.30, Every Saturday at Saturday Cafe from 10.00-11.00, Every Sunday at The Free Community Breakfast from 10.00-10.400.','good'=>'We 10:00-11:30; Sa 10:00-11:00; Su 10:00-10:40'},
+	{'text'=>'Friday: The last Friday of each month from 2pm - 4pm','good'=>'Fr[-1] 14:00-16:00'},
 	{'text'=>'Monday-Friday: 8am-noon and 1pm-5:30pm','good'=>'Mo-Fr 08:00-12:00,13:00-17:30'},
 	{'text'=>'Mo-Fr 08:00-17:30','good'=>'Mo-Fr 08:00-17:30'},
 	{'text'=>'Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00','good'=>'Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00'}
@@ -36,7 +37,7 @@ for($i = 0; $i < @tests; $i++){
 	$d = parseOpeningHours({'_text'=>$tests[$i]{'text'}});
 	msg("<green>Test ".($i+1)."<none>:\n");
 	msg("  Input: \"$tests[$i]{'text'}\"\n");
-	$good = ($tests[$i]{'good'} ? ($d->{'_parsed'} eq $tests[$i]{'good'} ? '<green>':'<red>') : '<none>');
-	msg("  Output: $good\"$d->{'_parsed'}\"<none>\n");
+	$good = ($tests[$i]{'good'} ? ($d->{'opening'} eq $tests[$i]{'good'} ? '<green>':'<red>') : '<none>');
+	msg("  Output: $good\"$d->{'opening'}\"<none>\n");
 	msg("  Ideal:  $good\"$tests[$i]{'good'}\"<none>\n");
 }

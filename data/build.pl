@@ -135,7 +135,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			for($f = 0; $f < $d->{'count'}; $f++){
 				push(@warmplaces,$features[$f])
 			}
-			msg("\tAdded $nf features.\n");
+			msg("\tAdded $d->{'count'} features.\n");
 			$total += $d->{'count'};
 			
 		}
@@ -226,7 +226,6 @@ sub getURL {
 		$age = ($now-$epoch_timestamp);
 	}
 
-	msg("\tDownload $url\n");
 	if($age >= 86400 || -s $file == 0){
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 		msg("\tDownloaded\n");
@@ -248,12 +247,15 @@ sub parseStorepointFeature {
 
 	# Explicit days
 	@days = ("monday","tuesday","wednesday","thursday","friday","saturday","sunday");
-	$json->{'hours'}{'_parsed'} = "";
+	$json->{'hours'}{'opening'} = "";
 	for($i = 0; $i < @days; $i++){
 		if($f->{$days[$i]}){ $json->{'hours'}{$days[$i]} = $f->{$days[$i]}; }
 		if($keys->{$days[$i]} && $f->{$keys->{$days[$i]}}){ $json->{'hours'}{$days[$i]} = $f->{$keys->{$days[$i]}}; }
-
-		$json->{'hours'} = parseOpeningHours($json->{'hours'});
+		$json->{'hours'}{$days[$i]} =~ s/(^[\s\t]|[\s\t]$)//g;
+	}
+	$json->{'hours'} = parseOpeningHours($json->{'hours'});
+	if(!$json->{'hours'}{'_text'} && !$json->{'hours'}{'opening'}){
+		delete $json->{'hours'};
 	}
 
 	return $json;
@@ -312,7 +314,6 @@ sub getSquareSpace {
 		@items = (@items,@{$json->{'items'}});
 		$n = @items;
 	}
-	print "$n items\n";
 	
 	@features;
 

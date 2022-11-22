@@ -53,7 +53,8 @@ sub tidyJSON {
 	$txt = JSON::XS->new->canonical(1)->pretty->space_before(0)->encode($json);
 	$txt =~ s/   /\t/g;
 	$txt =~ s/([\{\,\"])\n\t{$d,}([\"\}])/$1 $2/g;
-	$txt =~ s/"\n\t{$depth}\}/\" \}/g;
+	$txt =~ s/"\n\t{$depth,}\}/\" \}/g;
+	$txt =~ s/null\n\t{$depth,}\}/null \}/g;
 
 	# Kludge to fix validation white space issues with warm_spaces entries
 	while($txt =~ s/("description": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
@@ -88,10 +89,10 @@ sub makeJSON {
 		$txt =~ s/\{\n\t{3}/\{ /g;
 		$txt =~ s/\{\t+\"/\{ \"/g;
 		$txt =~ s/\"\t+\}/\" \}/g;
+
 		
 		$txt =~ s/\}\,\n\t\{/\},\{/g;
 		$txt =~ s/",[\s\t]+"/", "/g;
-
 	}	
 	return $txt;
 }
@@ -171,7 +172,7 @@ sub parseOpeningHours {
 					if($nth =~ /last/i){ $nstr .= ($nstr?",":"")."-1"; }
 					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
 					else { $nstr = " ".$d; }
-					$str =~ s/((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of the month)?/$nstr/;
+					$str =~ s/((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of (the|each) month)?/$nstr/;
 				}				
 
 				# Replace a day match with the short version
@@ -180,38 +181,22 @@ sub parseOpeningHours {
 		}
 
 		# Match day range + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,apm\s\t\-]+)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,apm\s\t\-]+)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$day2 = $3;
 			$mod2 = $4;
 			$t = getHourRange($5);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){ $ok = 1; }
-				if($ok){
-					$hours->{$days[$i]->{'key'}} = $t;
-				}
-				if($days[$i]->{'short'} eq $day2){ $ok = 0; }			
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
 		}
 
 		# Match time + day range
-		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?//){
 			$day1 = $4;
 			$mod1 = $5;
 			$day2 = $6;
 			$mod2 = $7;
 			$t = getHourRange($1);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){ $ok = 1; }
-				if($ok){
-					$hours->{$days[$i]->{'key'}} = $t;
-				}
-				if($days[$i]->{'short'} eq $day2){ $ok = 0; }			
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
 		}
 
@@ -221,37 +206,24 @@ sub parseOpeningHours {
 			$t = getHourRange($4);
 			for($i = 0; $i < @days; $i++){
 				if($day1 =~ $days[$i]->{'short'}){
-					$hours->{$days[$i]->{'key'}} = $t;
 					$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$days[$i]->{'short'} $t";
 				}
 			}
 		}
 
 		# Match single day + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){
-					$hours->{$days[$i]->{'key'}} = $mod1.$t;
-				}
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 
 		# Match time + "every" + single day
-		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,\-]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $3;
 			$mod1 = $2;
 			$t = getHourRange($1);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){
-					$hours->{$days[$i]->{'key'}} = $mod1.$t;
-				}
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 		
@@ -259,26 +231,14 @@ sub parseOpeningHours {
 		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $4;
 			$t = getHourRange($1);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){
-					$hours->{$days[$i]->{'key'}} = $mod1.$t;
-				}
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
 		}
 
 		# Match "Daily"
-		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//i){
+		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,\-]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//i){
 			$day1 = "Mo-Su";
 			$mod1 = $2;
 			$t = getHourRange($3);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){
-					$hours->{$days[$i]->{'key'}} = $mod1.$t;
-				}
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 
@@ -286,21 +246,29 @@ sub parseOpeningHours {
 		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\t\,]*(Daily|7 days (a|per) week)//i){
 			$day1 = "Mo-Su";
 			$t = getHourRange($1);
-			$ok = 0;
-			for($i = 0; $i < @days; $i++){
-				if($days[$i]->{'short'} eq $day1){
-					$hours->{$days[$i]->{'key'}} = $mod1.$t;
-				}
-			}
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 
 		if(!$hours->{'_parsed'}){
 			warning("\tCan't parse hours from \"$hours->{'_text'}\"\n");
 		}
-
+	}
+	
+	# Now delete individual days but add them to a '_text' string
+	if(!$hours->{'_text'}){
+		$hours->{'_text'} = "";
+		for($i = 0; $i < @days; $i++){
+			$hours->{$days[$i]{'key'}} =~ s/(\-[\s\t]*\/[\s\t]*\-)//g;
+			$hours->{$days[$i]{'key'}} =~ s/(^[\s\t]+|[\s\t]+$)//g;
+			if(!($hours->{$days[$i]{'key'}} eq "-" || $hours->{$days[$i]{'key'}} eq "")){
+				$hours->{'_text'} .= ($hours->{'_text'} ? ", ":"").$days[$i]{'key'}.": ".$hours->{$days[$i]{'key'}};
+			}
+			delete $hours->{$days[$i]{'key'}};
+		}
 	}
 
+	$hours->{'opening'} = $hours->{'_parsed'};
+	delete $hours->{'_parsed'};
 	return $hours;
 }
 
