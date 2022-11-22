@@ -141,7 +141,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	}
 	$table .= "<tr>";
 	$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
-	$table .= "<td>".($d->{'count'} ? $d->{'count'} : "?")."</td>";
+	$table .= "<td".($d->{'count'} ? " class=\"c13-bg\"":"").">".($d->{'count'} ? $d->{'count'} : "?")."</td>";
 	$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
 	$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
 	$table .= "</tr>\n";
