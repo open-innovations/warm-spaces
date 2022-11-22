@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.94708,54.53639],"type":"Point"},"properties":{"_source":"warm_welcome","address":"107 Ballylesson Road, Ballylesson , Belfast BT8 8JT","description":"","hours":"Mo 10:30-11:30, Tu 11:00-12:00, Su 11:00-12:00","title":"Holy Trinity Ballylesson, Church of Ireland"},"type":"Feature"}
+	]
+}

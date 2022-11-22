@@ -1,0 +1,8 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.75218,52.41418],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army, Thetford, Norfolk IP24 2BN","description":"We cater for all ages and also provide support for those who are homeless or vulnerable. We also Have access to Games and craft materials.","hours":"Tu 09:30-12:00, Th 09:30-12:00, Fr 09:30-12:00, Sa 09:30-12:00","title":"The salvation army"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.75120,52.41159],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Raymond St, Thetford , Norfolk IP24 2EA","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 10:00-19:00, Tu 10:00-19:00, We 10:00-19:00, Th 10:00-19:00, Fr 10:00-19:00, Sa 10:00-16:00","title":"Thetford Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.94576,52.32560],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wattisfield Chapel, Chapel Road, Wattisfield , Diss, Suffolk IP22 1NX","description":"AnyoneWe run Puddle Duck café on the 1st and 3rd Saturday every month. No charge for hot drinks, cold drinks and cakes","hours":"Sa 10:00-13:00","title":"Wattisfield Chapel "},"type":"Feature"}
+	]
+}

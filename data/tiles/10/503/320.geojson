@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.05903,55.61945],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Buccleuch Road, Innerleithen, Peeblesshire EH44 6LA","description":" People are welcome to bring their own hot drinks in","hours":"Tu 12:00-18:00, Th 11:00-17:00","title":"Innerleithen Library Contact Centre"},"type":"Feature"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.03245,50.77835],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Baptist Church Kilmington, Kilmington, Devon EX13 7RF","description":"Open from 01-11-2022.","hours":"Tu 10:00-14:00, Th 00:00-00:00, Su 10:00-12:30","title":"Baptist Church Kilmington"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.96439,50.87156],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Holyrood Lace Mill, Holyrood Street, Chard, Somerset TA20 2YA","description":"","hours":"Mo 09:30-16:30, Tu 09:30-16:30, Th 09:30-17:00, Fr 09:30-16:30, Sa 09:30-12:30","title":"Chard Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.91085,50.92470],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ditton Street, Ilminster, Somerset TA19 0BW","description":"","hours":"Mo 09:30-12:00, Tu 09:30-16:30, We 09:30-12:00, Fr 09:30-16:30, Sa 09:30-12:00","title":"Ilminster Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.96537,50.87023],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Duck Lane, Chard, Somerset TA202ES","description":"","hours":"We 13:15-15:30","title":"Manor Court Community Primary School"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.96736,50.86815],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Manor Court Community Primary, Chard, Somerset TA202ES","description":"","hours":"We 13:15-15:30","title":"Manor Court Primary School"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.98611,50.78622],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Millwey Community Centre, Axminster, Devon EX13 5EH","description":"","hours":"Su 10:00-13:00","title":"Millwey Rise Community Centre Warm Room Project"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.95370,50.84106],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Hub @ South Chard, South Chard Church, Post Office Lane, Tatworth, Somerset TA20 2PS","description":"","hours":"Mo 10:00-16:00, We 10:00-15:00","title":"The Hub at South Chard"},"type":"Feature"}
+	]
+}

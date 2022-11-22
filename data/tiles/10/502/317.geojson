@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.19414,56.19137],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Caskieberran Road, Glenrothes, Fife KY6 2NR","description":"Open from 7 November 2022.","hours":"Mo 10:30-14:00, Fr 10:30-14:00","title":"Glenrothes Salvation Army"},"type":"Feature"}
+	]
+}

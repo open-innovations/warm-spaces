@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.82908,54.85125],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Consett, County Durham DH8 5RL","description":"Open from November 15 2022.","hours":"Mo 09:30-12:00, Tu 09:30-12:00, We 09:30-12:00, Th 09:30-12:00, Fr 09:30-12:00","title":"Consett Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.81692,54.91860],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chopwell Primary School, Derwent Street, Chopwell NE17 7HS","hours":"Mo 09:00-17:00, Tu 09:00-17:00, Th 09:00-17:00, Sa 09:00-13:00","title":"Gateshead Libraries"},"type":"Feature"}
+	]
+}

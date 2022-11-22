@@ -1,0 +1,9 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.50318,52.89850],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, Buntingsdale Road,, Market Drayton, Shropshire TF9 1LT","description":"","hours":"Tu 11:00-15:00","title":"Christ Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.73578,52.73567],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Riversway Elim Church, Harlescott, Shrewsbury SY1 3LE","description":"Open from 17/10/2022.","hours":"Tu 09:30-16:00, We 09:30-16:00, Th 09:30-16:00","title":"Riversway Elim Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.54315,52.71314],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Admaston House Community Centre, Wellington Road, Admaston, Telford, Shropshire TF5 0BN","description":"Open from 07-12-2022. We welcome all, but children must be accompanied by a responsible adult. We offer a pleasant lounge space with sofas and chairs.","hours":"We 09:15-17:00","title":"St Christopher's Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.75988,52.71242],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St George's Street, Shrewsbury, Shropshire SY3 8QA","description":"Open from 01-11-2022.","hours":"Tu 12:00-17:00, We 12:00-17:00","title":"St George's Church, Shrewsbury"},"type":"Feature"}
+	]
+}

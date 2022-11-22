@@ -1,0 +1,11 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.05215,52.15217],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Needham Market Community Centre, School Street, Needham Market , Suffolk IP6 8BB","description":" Community Bar ","hours":"We 19:00-23:00, Fr 19:00-23:00, Sa 19:00-23:00","title":"Needham Market Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.71665,52.24385],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Cathedral Office, Bury St Edmunds, Suffolk IP33 1LS","description":"Open from 03-11-2022.","hours":"Th 10:00-15:00","title":"St Edmundsbury Cathedral"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.70393,52.26416],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St George's Church, Anselm Ave, Bury St Edmunds IP32 6JZ","description":"Open from 31 10 2022. Our focus is on people who live on their own whether elderly or younger who would like somewhere to meet up with others. We have a space to do crafts...bring you own...and there are also board games and jigsaws available.","hours":"Mo 00:00-14:30","title":"St George's church"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.71813,52.24234],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Mary's Church, Honey Hill , Bury St Edmunds, Suffolk IP33 1RT","description":" Childrens' area with toys","hours":"Mo 10:30-15:00, Tu 10:30-15:00, We 10:30-15:00, Th 10:30-15:00, Fr 10:30-15:00, Sa 10:30-15:00, Su 09:15-12:00","title":"St Mary's Parish Church, Bury St Edmunds"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.98945,52.19212],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Violet Hill Road, Stowmarket, Suffolk IP14 1NE","description":"","hours":"Tu 10:00-15:00, Su 10:00-12:00","title":"The Salvation Army"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.71722,52.24389],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Angel Hill, Bury Saint Edmunds, England, IP33 1LS","title":"St Edmundsbury Cathedral","url":"https://stedscathedral.org/warm-space/"},"type":"Feature"}
+	]
+}

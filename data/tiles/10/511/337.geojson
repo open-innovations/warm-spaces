@@ -1,0 +1,12 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.26640,52.22312],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 Berkley St, Eynesbury, St Neots PE19 2NB","description":"Open from 07122022.","hours":"Th 12:00-16:00","title":"Berkley St Methodist Church St. Neots"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.06568,52.21881],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sackville House, Cambourne, Cambridgeshire CB23 6HL","description":"Open from 25.10.2022.","hours":"Mo 09:00-17:00, Tu 09:00-13:00, Th 16:00-19:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Cambourne Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.11904,52.25064],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lower Pendrill Court, Ermine Street North, Papworth Everard, Cambridgeshire CB23 3UY","description":"Open from 23/10/22.","hours":"Tu 10:00-13:00, We 10:00-13:00, Th 14:00-17:00, Sa 10:00-13:00","title":"Papworth Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.27101,52.22834],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Priory Lane, St Neots, Cambridgeshire PE19 2BH","description":"Open from 18/10/22. We cater for all ages with many free events and activities throughout the week.","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 13:30-19:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"St Neots Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.26229,52.08698],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Rose, 75 High St Biggleswade, Bedfordshire SG18 0JH","description":" Fabulous Wifi, low-cost hot drinks and most importantly, friendly staff & a warm welcome. ","hours":"Tu 16:00-23:00, We 16:00-23:00, Th 16:00-23:00, Fr 16:00-12:00, Sa 16:00-12:00, Su 16:00-23:00","title":"The Rose Pub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.02556,52.20759],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Furlong Way, Cambridge, England, CB23 7ZH","title":"Caldecote Warm Hub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.18990,52.15337],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Stocks Lane, Sandy, England, SG19","title":"Backroom Cafe (Gamlingay Baptist Church)","url":"https://gbchurch.org.uk"},"type":"Feature"}
+	]
+}

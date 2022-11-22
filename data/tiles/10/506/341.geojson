@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.99300,51.34940],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Long Street , Devizes, Wiltshire SN10 1NJ","description":" A Climate Cafe meeting in an adjacent space that is open to all.","hours":"Th 09:30-14:00","title":"St Andrews Church"},"type":"Feature"}
+	]
+}

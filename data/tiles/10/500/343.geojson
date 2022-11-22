@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.00101,50.73982],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4 North Street, Okehampton, Devon EX20 1AR","description":" Okehampton Library will be offering so much more than books this winter. It’s a warm, welcoming space for people. Enjoy a chat with other people over a FREE tea, coffee or hot chocolate, kindly supplied by Waitrose Okehampton.","hours":"Mo 09:00-17:00, Tu 09:00-18:00, We 09:00-13:00, Th 09:00-17:00, Fr 09:00-18:00, Sa 09:00-13:00","title":"Libraries Unlimited"},"type":"Feature"}
+	]
+}

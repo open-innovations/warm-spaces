@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.62393,53.31005],"type":"Point"},"properties":{"_source":"warm_spaces","address":"16 Ffordd Tudur, Holyhead, Wales, LL65 2DH","title":"Gwelfor","url":"https://m.facebook.com/people/Ynys-Cybi-Valley-Good-Turn-Scheme/100077925330915/"},"type":"Feature"}
+	]
+}

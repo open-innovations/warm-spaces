@@ -1,0 +1,11 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.32486,51.40480],"type":"Point"},"properties":{"_source":"warm_welcome","address":"56 Northbrook Street, Newbury, Berkshire RG14 1AN","description":"Open from Saturday 19th November 2022.","hours":"Sa 10:00-12:00","title":"Newbury Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.19210,51.58982],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Crown, High Street, South Moreton OX11 9AG","description":"","hours":"Th 12:00-17:00, Fr 12:00-17:00, Sa 12:00-17:00","title":"The Crown"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.12237,51.59949],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wallingford Baptist Church, Thames Street, Wallingford OX10 0BH","description":" Open every Monday 9:30am to 4pm. All are welcome to join us. Hot drinks available all day. There is a public car park next door","hours":"Mo 09:30-16:00","title":"The Living Room at Wallingford Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.32182,51.40176],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Wharf, Newbury, Berkshire RG14 5AU","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 10:00-16:00","title":"West Berkshire Libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.28696,51.40514],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bath Road, Thatcham, Berkshire RG18 3AG","description":"","hours":"Mo 09:30-17:00, Tu 09:30-17:00, Th 09:30-17:00, Fr 09:00-17:30, Sa 10:00-12:30","title":"West Berkshire Libraries - Thatcham Library "},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.08181,51.43631],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Theale, Berkshire RG7 5BZ","description":"","hours":"Mo 13:00-17:00, We 10:30-17:00, Th 14:00-18:00, Fr 10:30-17:00, Sa 10:00-12:30","title":"West Berkshire Libraries - Theale Library "},"type":"Feature"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.10137,57.14401],"type":"Point"},"properties":{"_source":"warm_welcome","address":"8 Crown Terrace, Aberdeen, Aberdeenshire Ab11 6HE","description":"","hours":"Mo 14:00-16:00, Tu 14:00-16:00, We 14:00-16:00, Th 14:00-16:00, Fr 14:00-16:00, Su 13:00-14:00","title":"Aberdeen Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.08810,57.18616],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kings Way, Bridge of Don, Aberdeen AB23 8BL","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-20:00, Sa 10:00-16:00","title":"King's Church, Aberdeen"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.07115,57.13669],"type":"Point"},"properties":{"_source":"warm_welcome","address":"258 North Balnagask Road, Aberdeen, Aberdeen Ab118RX","description":"Open from 21-11-2022. We provide some board games, puzzle books, and colouring books. We have clothes donations","hours":"Tu 11:00-15:00, We 11:00-15:00, Th 11:00-15:00","title":"The Bridge Centre "},"type":"Feature"}
+	]
+}

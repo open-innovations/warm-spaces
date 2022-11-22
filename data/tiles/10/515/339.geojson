@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[1.15014,51.79093],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Methodist Church, Pier Avenue, Clacton-on-Sea, Essex CO15 1NJ","description":"Our Focus is for homeless and vulnerable people Our Focus is for homeless and vulnerable people","hours":"Tu 10:30-14:00, We 10:30-14:00, Th 10:30-14:00, Fr 10:30-14:00","title":"Hope@Trinity for homeless and vulnerable people"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.11996,51.78134],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Jaywick Methodist Church, Jaywick, Essex CO15 2NA","description":"","hours":"We 10:00-12:00","title":"Jaywick Methodist Church"},"type":"Feature"}
+	]
+}

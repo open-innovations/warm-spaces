@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.68863,57.68149],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Seafield Road, Portsoy, Aberdeenshire AB45 2QT","description":"Open from 07-11.2022.","hours":"Mo 10:00-15:00, Tu 10:00-15:00, We 10:00-15:00, Th 10:00-15:00, Fr 10:00-15:00","title":"Portsoy Church of Scotland"},"type":"Feature"}
+	]
+}

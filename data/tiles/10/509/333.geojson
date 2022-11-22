@@ -1,0 +1,10 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.79724,53.07262],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Charles Street, Charles Street, Newark NG24 1RN","description":"Open from 04/10/22. All are welcome. A small play area for children who must be supervised by parents and carers. Parking is usually possible in the local streets. Limited phone charging facilities.","hours":"Tu 08:30-13:00","title":"Charles Street Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.79684,53.08981],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Winthorpe Road, Newark-on-Trent, Nottinghamshire NG24 2AA","description":"Open from 3/11/2022. Parents need to supervise their children. Some toys are available","hours":"Th 09:00-12:00","title":"Church of Promise"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.96066,53.07492],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Holy Trinity Church, Westgate, , Southwell , Nottinghamshire NG25 0HQ","description":" Games, activities, friendship and a cuppa. Come and join us for free coffee & cake, a warm bowl of homemade soup and a delicious pud!  Everyone welcome we’d love to see you.","hours":"We 10:00-13:00","title":"Connections @ Holy Trinity"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.79113,53.05326],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mead Way, Newark, Nottinghamshire NG243GA","description":"","hours":"Fr 10:00-12:00","title":"Newark Salvation Army"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.96431,53.06579],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Nottingham Road, Southwell, Nottinghamshire NG25 0LG","description":"Open from 31st October 2022. Join us for free tea and coffee, biscuits and a warm welcome - there are craft activities to have a go at, jigsaws and puzzle books, or simply grab a cuppa and have a chat. Everyone is welcome. ","hours":"Mo 13:00-15:00","title":"Southwell Baptist Church"},"type":"Feature"}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.86167,56.62532],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aberfeldy Parish Church, Aberfeldy, Perthshire PH15 2JW","description":"Open from 25-10-2022.","hours":"Tu 09:30-11:30","title":"Warm Welcome Café"},"type":"Feature"}
+	]
+}

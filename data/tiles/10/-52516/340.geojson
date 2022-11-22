@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-18643.00000,51.44094],"type":"Point"},"properties":{"_source":"wandsworth_council","address":"St Andrew&apos;s Church, Garratt Lane, London, SW18 4SR","description":"Open to all.","hours":"Tu 09:00-16:00; We 10:30-16:00","title":"Home Community Cafe"},"type":"Feature"}
+	]
+}

@@ -40,7 +40,11 @@ jobs:
         working-directory: data/
         run: |
           perl build.pl
-          perl makeTiles.pl 11
+
+      - name: Make data tiles
+        working-directory: data/
+        run: |
+          perl makeTiles.pl 10
 
       - name: Commit changes to files
         working-directory: ./
@@ -51,6 +55,7 @@ jobs:
           git add data/summary.html
           git add data/places.json
           git add data/sources.json
+          git add data/tiles/10/
           git commit -m "Update data" || exit 0
 
       - name: Push changes

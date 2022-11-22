@@ -1,0 +1,8 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.71347,54.07407],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Artlebeck Road, Caton, Lancaster LA2 9RQ","description":"","hours":"Tu 14:00-16:00","title":"Caton Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.80160,54.04495],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hope Church Lancaster, Queen Street, Lancaster, Lancashire LA1 1RX","description":"Open from 01-12-2022.","hours":"Th 09:00-17:00","title":"Hope Church Lancaster and Bay Volunteers"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.79652,54.04829],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Cornerstone, Sulyard Street,, LANCASTER, Lancashire LA1 1PX","description":"","hours":"Mo 10:00-15:00, Tu 13:00-15:00, Fr 11:00-13:00","title":"LMC The Cornerstone - Lancaster"},"type":"Feature"}
+	]
+}

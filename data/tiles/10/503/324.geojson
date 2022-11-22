@@ -1,0 +1,8 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.94018,54.88717],"type":"Point"},"properties":{"_source":"warm_welcome","address":"62 - 66 Denton Street, Carlisle, Cumbria CA25EH","description":" All are welcome! Free superfast wifi - Toilets - Baby changing - Pay it forward drinks available. We also have a selection of games and toys that can be used in Cornerstone. Join us every Thursday between 10am and 1pm for our weekly wellbeing café.","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 10:00-13:00, Fr 09:00-16:00, Sa 10:00-13:00","title":"Cornerstone"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.96504,54.88298],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Coleridge House, Shaddongate, Carlisle CA2 6PD","description":"Open from 15-11-2022.","hours":"Tu 10:00-12:00","title":"Restore (Cumbria)"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.94124,54.89508],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army,, Abbey Street, Carlisle, Cumbria CA3 8TX","description":"","hours":"We 10:30-13:00","title":"The Salvation Army"},"type":"Feature"}
+	]
+}

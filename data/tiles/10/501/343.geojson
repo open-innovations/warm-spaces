@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.68210,50.73666],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tedburn St Mary Village Hall, Tedburn st Mary, Exeter EX6 6WS","description":"Open from 7/11/2022. We cater for all ages. We have books and games available, we may extend to offering a soup and roll lunch too, if there is demand in future.","hours":"Mo 09:30-11:30, Fr 09:30-11:30","title":"Tedburn st Mary community"},"type":"Feature"}
+	]
+}

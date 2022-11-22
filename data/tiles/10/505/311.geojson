@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.31284,57.33522],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Meldrum Parish Church, Kirk Brea, Oldmeldrum, Inverurie AB51 0FP","description":"","hours":"Mo 11:00-16:00, Tu 11:00-16:00, We 11:00-16:00","title":"Meldrum and Bourtie Parish Church"},"type":"Feature"}
+	]
+}

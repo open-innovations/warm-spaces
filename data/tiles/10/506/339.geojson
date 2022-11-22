@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.96318,51.71681],"type":"Point"},"properties":{"_source":"warm_welcome","address":"14-16 The Waterloo, Cirencester, Glos GL7 2PY","description":"Open from 16/09/2022. A variety of games and newspapers available. ","hours":"Fr 13:00-15:00","title":"The Churn Project "},"type":"Feature"}
+	]
+}

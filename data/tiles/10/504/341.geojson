@@ -1,0 +1,8 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.65263,51.20863],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Connect Centre, Portway, Wells BA5 2BE","description":"Providing a warm space and meal for those who need it","hours":"We 13:00-14:00, Su 13:00-15:00","title":"Connect Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.65239,51.20855],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Connect Centre, Portway, Wells, England, BA5 2BE","title":"The Connect Centre","url":"https://www.connect-centre.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.64867,51.20952],"type":"Point"},"properties":{"_source":"warm_spaces","address":"23 Union Street, Wells, England, BA5 2PU","title":"Wells United Church","url":"https://www.facebook.com/unionstreetwells/"},"type":"Feature"}
+	]
+}

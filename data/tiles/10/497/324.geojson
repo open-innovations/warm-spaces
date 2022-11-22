@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.03967,54.90782],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Leswalt High Road, Stranraer, Wigtownshire DG9 0AA","description":"","hours":"Fr 14:00-16:00","title":"Stranraer Parish Church"},"type":"Feature"}
+	]
+}

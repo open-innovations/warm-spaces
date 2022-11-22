@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.08126,52.99779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Beonna at All Saints, Main Road, Benington, Boston, Lincolnshire PE22 0BT","description":" Friday Cuppa Mornings at the Beonna - refreshments available to purchase, Regular extras include monthly visits from the Mobile Library, Beonna Explorers family activities, special talks and more!","hours":"Fr 10:00-12:00","title":"The Beonna at All Saints"},"type":"Feature"}
+	]
+}

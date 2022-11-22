@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.02416,52.97855],"type":"Point"},"properties":{"_source":"warm_welcome","address":"County Hall, Boston, Lincolnshire PE21 6DY","description":"It is free to join and use the library and everyone is welcome. Alongside free access to books, computers, casual and study seating, the Library runs a host of free activities for adults and children including Connect Over A Cuppa community coffee morning every Thursday 10am-12noon, there is no charge for refreshments.","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 09:00-16:00","title":"Boston Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.02868,52.97468],"type":"Point"},"properties":{"_source":"warm_welcome","address":"restore church, Boston, Lincolnshire PE21 8UJ","description":"Open from 14.11.2022. A free warm space, activities available","hours":"Mo 10:00-14:00, Tu 10:00-14:00","title":"Restore Church"},"type":"Feature"}
+	]
+}

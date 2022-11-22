@@ -1,0 +1,12 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.45967,50.61201],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Stavordale Road, Weymouth, Dorset DT40AB","description":" Hall behind the church open to all Weds 2.00-4.00 and Thurs 10.30- 12.30 for warmth, support, activities or quiet space hot drinks, biscuits, for hot drinks","hours":"We 14:00-16:00, Th 10:30-12:30","title":"Catholic Parish of Our Lady Star of the Sea"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.44245,50.71459],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Bridport Road, Dorchester, Dorset DT1 1RR","description":" Come and enjoy warmth, company and hot refreshments in a safe space at the Wednesday morning Cafe. The Lounge is also open on the last Friday of every month for refreshments and games too if you wish.","hours":"We 10:00-12:00, Fr 14:30-16:00","title":"Dorchester Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.43722,50.71309],"type":"Point"},"properties":{"_source":"warm_welcome","address":"48 South Street, 48 South Street, Dorchester, Dorset DT1 1DQ","description":"","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Dorset Carers Hub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.10980,50.68479],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Not Just Sundaes Community Cafe, Holy Trinity Church, South Street, Wareham, Dorset BH20 4LU","description":"Open from 15-11-2022.","hours":"Tu 14:00-16:00, We 14:00-16:00, Th 14:00-16:00, Fr 14:00-16:00","title":"Not Just Sundaes Community Cafe & Wareham’s Church Family"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.45549,50.61185],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Westham Road, Weymouth, Dorset DT4 8NS","hours":"Tu 18:00-21:00","title":"The Salvation Army Weymouth"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.44718,50.71004],"type":"Point"},"properties":{"_source":"warm_welcome","address":"3 Cambridge Road, Dorchester, Dorset DT1 2LR","description":" We have soft play equipment for young children","hours":"Tu 10:00-12:00, Th 10:00-12:00","title":"The Storehouse Church "},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.43625,50.71292],"type":"Point"},"properties":{"_source":"warm_welcome","address":"49/51 Charles Street, Dorchester, Dorset DT1 1EE","hours":"Tu 10:00-12:30, We 09:30-12:00, Fr 10:00-12:30, Su 10:00-12:15","title":"United Church Dorchester"},"type":"Feature"}
+	]
+}

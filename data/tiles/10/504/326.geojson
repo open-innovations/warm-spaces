@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.59104,54.43424],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o The Old Post House, Mount Pleasant, Tebay, Cumbria CA10 3TH","description":"Open from 06-11-2022.","hours":"Su 10:30-16:30","title":"Wild Wanderings, St James, Tebay Methodist and friends"},"type":"Feature"}
+	]
+}

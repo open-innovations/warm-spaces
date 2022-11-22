@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.19681,57.11706],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Earlswells Road, Cults, Aberdeen, Aberdeen AB15 9NY","description":"Open from 16th November. Electric Sockets available","hours":"We 09:00-12:00, Th 14:00-16:00, Fr 10:00-12:00","title":"Hillview Community Church"},"type":"Feature"}
+	]
+}

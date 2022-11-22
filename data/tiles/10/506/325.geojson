@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.88545,54.73004],"type":"Point"},"properties":{"_source":"warm_welcome","address":"22 Front Street , Wolsingham, County Durham DL13 3JT","description":"Open from 07/11/2022.","hours":"Mo 10:00-12:00, We 10:00-13:00","title":"Wolsingham Methodist Church"},"type":"Feature"}
+	]
+}

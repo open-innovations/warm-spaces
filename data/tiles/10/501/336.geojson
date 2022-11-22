@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.53870,52.44866],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bethel Hall, Bethel Street, Llanidloes, Wales SY186BS","description":" We have a lovely indoor garden and a community café open to all. Dogs are welcome. We have books and games for children, and regularly organise activities and workshops (see https://www.facebook.com/HangingGardensLlanidloes/)","hours":"We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00, Sa 10:00-15:00, Su 10:00-15:00","title":"The Wilderness Trust"},"type":"Feature"}
+	]
+}

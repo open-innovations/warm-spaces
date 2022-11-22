@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.62631,55.46418],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 John Street, Ayr, South Ayrshire KA8 0BS","description":"","hours":"Tu 11:00-14:00, Th 11:00-14:00, Sa 11:00-14:00","title":"St. Margaret's Cathedral, Ayr"},"type":"Feature"}
+	]
+}

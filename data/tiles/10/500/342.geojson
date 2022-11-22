@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.19088,51.05320],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Quay, Appledore, Devon EX39 1QS","description":"Tucked away on the waterfront, Appledore Library is a small but busy branch that is an important part of the local community. The library is open four days a week offers the full range of library services for adults and children. ","hours":"Tu 10:00-13:00, We 14:00-17:00, Th 10:00-12:00, Sa 10:00-12:00","title":"Appledore Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.15932,51.11221],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Vicarage, BRAUNTON, Devon EX33 2EL","description":"Open from 20/10/2022. St Brannock's Rooms can be found directly opposite the fire station. The smaller lounge area is warm and welcoming. Friendly faces & a hot drink'","hours":"We 10:30-11:45","title":"St Brannock's Parish Church Braunton with St Anne's Chapel Saunton"},"type":"Feature"}
+	]
+}

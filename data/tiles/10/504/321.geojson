@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.78469,55.42726],"type":"Point"},"properties":{"_source":"warm_welcome","address":"North Bridge Street, Hawick, Scottish Borders TD9 9QT","description":" People are welcome to bring their own hot drinks and flasks in","hours":"Mo 09:30-17:00, Tu 09:30-18:00, Th 09:30-17:00, Fr 09:30-16:00","title":"Hawick Public Library"},"type":"Feature"}
+	]
+}

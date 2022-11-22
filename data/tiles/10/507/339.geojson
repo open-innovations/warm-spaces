@@ -1,0 +1,10 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.69099,51.69393],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Market Place, Lechlade on Thames, Gloucestershire GL73AB","description":"We cater for any member of the community and have disabled access We can print for a charge. Free computer use. Loans of books and DVD' s to those registered with Gloucestershire libraries.","hours":"Mo 13:00-16:00, Tu 10:00-13:00, We 10:00-13:00, Th 10:00-13:00, Fr 13:00-16:00, Sa 10:00-13:00","title":"Lechlade Community Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.58552,51.65714],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Blessed Hugh Church Hall, Faringdon, oxon SN77JE","description":"Open from 04-11-22.","hours":"Fr 10:00-16:00","title":"Open Kitchen Faringdon"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.70999,51.63104],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Bridge, 8 Sheep Street, Highworth, Swindon SN6 7AA","description":" We welcome people of all ages and backgrounds. Offering foodbank, help with benefits and forms, debt advice through CAP, drop in, emotional support and prayer.","hours":"Mo 11:00-13:00, Tu 11:00-13:00, We 11:00-13:00, Th 11:00-13:00, Fr 11:00-13:00","title":"The Bridge, Highworth Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.58268,51.65857],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old Theatre, Swan Lane, Faringdon, Oxfordshire SN77AF","description":"Open from 01-11-2022.","hours":"Tu 09:30-17:00","title":"The Pump House Project"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.58889,51.77955],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Burford Road, Carterton, Oxfordshire OX18 3AG","description":"Open from 08-11-2022.","hours":"Mo 09:00-12:00, Tu 09:00-17:00","title":"The Sanctuary, Carterton Methodist Church"},"type":"Feature"}
+	]
+}

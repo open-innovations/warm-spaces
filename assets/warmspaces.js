@@ -153,7 +153,7 @@
 			if(source.map && source.map.url && source.map.url!=source.url){
 				html += ' / <a href="'+source.map.url+'" target="_source">Map</a>'
 			}
-			return (html ? '<div class="source b1-bg"><strong>Source:</strong> '+html+'</div>' : '');
+			return (html ? '<div class="source b2-bg"><strong>Source:</strong> '+html+'</div>' : '');
 		}
 		Date.prototype.getNthOfMonth = function(){
 			var dd = new Date(this),

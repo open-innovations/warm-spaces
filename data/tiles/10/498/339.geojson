@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.72213,51.73148],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Mary’s Church, Begelly, Pembrokeshire SA68","description":"","hours":"Mo 13:00-15:00","title":"Anglican churches of Saundersfoot, Begelly, Amroth, and Ludchurch"},"type":"Feature"}
+	]
+}
