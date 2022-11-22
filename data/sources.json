@@ -38,6 +38,9 @@
 		"url": "https://costoflivingbradford.co.uk/warm-spaces/"
 	},
 	"brighton___hove_council": {
+		"count": 39,
+		"data": { "type": "html", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
+		"geocount": 39,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -197,9 +200,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 660,
+		"count": 769,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 660,
+		"geocount": 769,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },

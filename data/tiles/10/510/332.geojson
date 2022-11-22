@@ -21,6 +21,7 @@
 		{"geometry":{"coordinates":[-0.45515,53.24188],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Vine Centre, (library), The Parade, Cherry Willingham Lincoln LN3 4JL","description":"","hours":"We 13:00-15:00, Th 09:30-16:30, Sa 10:00-12:00","title":"Vine Community Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.54812,53.22684],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Isaac Newton Building, University of Lincoln, Brayford Pool, Lincoln, England, LN6 7TS","title":"Faith and Diversity Embroidery Project","url":"https://www.tcf-reconciliation.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.54351,53.22283],"type":"Point"},"properties":{"_source":"warm_spaces","address":"377 High Street, Lincoln, England, LN5 7RY","title":"Cosy Crafters","url":"https://www.tcf-reconciliation.org/ https://www.tcf-reconciliation.org/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.54937,53.23318],"type":"Point"},"properties":{"_source":"warm_spaces","address":"73 West Parade, Lincoln, England, LN1 1QL","title":"Chat Cafe","url":"https://www.tcf-reconciliation.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.54937,53.23318],"type":"Point"},"properties":{"_source":"warm_spaces","address":"73 West Parade, Lincoln, England, LN1 1QL","title":"Chat Cafe","url":"https://www.tcf-reconciliation.org"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.62313,53.19927],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Whisby Garden Centre, Whisby Road, Lincoln, England, LN6 9BY","title":"Whisby Garden Centre","url":"https://www.whisbygardencentre.com"},"type":"Feature"}
 	]
 }

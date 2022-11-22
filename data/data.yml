@@ -61,6 +61,9 @@ directories:
     map:
       url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
       type: leaflet
+    data:
+      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+      type: html
   - title: "Buckinghamshire Council"
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:

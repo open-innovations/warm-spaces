@@ -29,6 +29,8 @@
 		{"geometry":{"coordinates":[-0.45650,50.91594],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Pulborough, England, RH20 4LJ","title":"St Mary's Church, Storrington","url":"https://www.storringtonparishchurch.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.61636,50.84990],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Yapton Lane, Arundel, England, BN18 0LS","title":"Avisford Park Hotel","url":"https://avisfordparkhotel.com"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.67777,50.78513],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Canada Grove, Bognor Regis, England, PO21","title":"The Salvation Army - Open House","url":"https://www.salvationarmy.org.uk/bognor-regis"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.63590,50.82852],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Barnham Community Hall, Yapton Road, Bognor Regis, England, PO22 0AY","title":"Barnham &amp; Eastergate Community Trust","url":"www.barnhamandeastergatecommunitytrust.com "},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.63590,50.82852],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Barnham Community Hall, Yapton Road, Bognor Regis, England, PO22 0AY","title":"Barnham &amp; Eastergate Community Trust","url":"www.barnhamandeastergatecommunitytrust.com "},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.64867,50.83752],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Eastergate Village Hall, Barnham Road, Barnham, England","title":"Eastergate Village Hall","url":"https://www.facebook.com/EastergateVillageHall/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.54774,50.81428],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Wickbourne Centre, Clun Road, Littlehampton, England, BN17 7DZ","title":"The Wickbourne Centre","url":"https://www.arunchurch.com/wickbourne"},"type":"Feature"}
 	]
 }

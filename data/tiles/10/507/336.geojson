@@ -30,6 +30,7 @@
 		{"geometry":{"coordinates":[-1.52017,52.43137],"type":"Point"},"properties":{"_source":"warm_spaces","address":"110 Treherne Road, Coventry, England, CV6 3DY","title":"St Francis Employability","url":"https://www.facebook.com/stfrancisemployability"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.53095,52.40099],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Earlsdon Avenue North, Coventry, England, CV5 6FZ","title":"Earlsdon Carnegie Community Library","url":"https://earlsdonlibrary.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.59194,52.28558],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Albert Street, Warwick, England, CV34 4JX","title":"Saltisford Church Warm Spaces","url":"https://www.saltisfordchurch.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.49839,52.27949],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Lane, Radford Semele, Leamington Spa, England, CV31","title":"St Nicholas church, Radford Semele","url":"https://Www.Stnicholasrestored.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.49839,52.27949],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Lane, Radford Semele, Leamington Spa, England, CV31","title":"St Nicholas church, Radford Semele","url":"https://Www.Stnicholasrestored.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.57317,52.34854],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Copperhouse Club, 142 Albion Street, Kenilworth, England, CV8 2HJ","title":"Copperhouse Club","url":"https://copperhouseclub.co.uk"},"type":"Feature"}
 	]
 }

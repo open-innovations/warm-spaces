@@ -16,6 +16,7 @@
 		{"geometry":{"coordinates":[-2.13041,51.37172],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Queensway Chapel, Pembroke Road, Melksham, England, SN12 7NB","title":"Queensway Chapel - Open Lunch","url":"https://www.queenswaychapel.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.35972,51.38359],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Michael&#39;s Church, Broad Street, Bath, England, BA1 5LJ","title":"St. Michael's Without","url":"https://stmichaelsbath.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.32264,51.23046],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Good Heart, 7 Palmer Street, Frome, England, BA11 1DS","title":"The Good Heart","url":"https://www.thegoodheart.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.32092,51.23247],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Frome Library, Justice Lane, Frome, England, BA11 1BE","title":"Frome Library","url":"https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.32092,51.23247],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Frome Library, Justice Lane, Frome, England, BA11 1BE","title":"Frome Library","url":"https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.20951,51.32033],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Trowbridge Museum, The Shires Shopping Centre, Trowbridge, England, BA14 8AT","hours":"Mo-Sa 10:00-16:00","title":"Trowbridge Museum","url":"https://Trowbridgemuseum.co.uk"},"type":"Feature"}
 	]
 }

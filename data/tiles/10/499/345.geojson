@@ -7,6 +7,7 @@
 		{"geometry":{"coordinates":[-4.22811,50.40526],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Core, Church Rd, Saltash PL12 4AE","description":"Child and breastfeeding friendly community café We are only open during term time. ","hours":"Th 09:00-12:00","title":"The Core"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.31456,50.50217],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Town Hall, New Road, Callington, England, PL17","title":"Callington Town Hall Complex"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.29767,50.36459],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Crafthole Methodist Church, Main Street Crafthole, Torpoint, England, PL11 3BQ","title":"Crafthole Methodist church, Crafthole Cornwall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-4.46049,50.45380],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Martin&#39;s Church Centre, Church Street, Liskeard, England, PL14 3BH","title":"St Martin's Church, Liskeard","url":"https://www.smartchurchliskeard.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.46049,50.45380],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Martin&#39;s Church Centre, Church Street, Liskeard, England, PL14 3BH","title":"St Martin's Church, Liskeard","url":"https://www.smartchurchliskeard.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.46269,50.45423],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Salvation Army, 17 Church Street, Liskeard, England, PL14 3AG","title":"The Salvation Army","url":"https://www.salvationarmy.org.uk/liskeard"},"type":"Feature"}
 	]
 }

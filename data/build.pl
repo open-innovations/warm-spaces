@@ -173,6 +173,8 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				}else{
 					warning("\tNo JSON returned from scraper\n");
 				}
+			}else{
+				warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
 			}
 
 		}elsif($d->{'data'}{'type'} eq "squarespace"){

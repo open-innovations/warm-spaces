@@ -27,6 +27,8 @@
 		{"geometry":{"coordinates":[-3.11911,50.99369],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Trull Church Community Centre, Church Road, Taunton, England, TA3 7JZ","title":"All Saints, Trull","url":"https://trullchurch.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.00625,51.12804],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bridgwater Town Hall, High Street, Bridgwater, England, TA6 3BL","title":"Bridgwater Town Council","url":"https://bridgwater-tc.gov.uk/news/the-bridgwater-community-drop-in-launches-next-week/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.82855,51.03642],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Langport Library, Whatley, Langport, England, TA10 9RA","title":"Langport Library","url":"https://www.librarieswest.org.uk/client/en_GB/default"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.00086,51.12793],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Binford Place, Bridgwater, England, TA6 3LF","title":"Bridgwater Library","url":"https://www.somerset.gov.uk/libraries"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.00086,51.12793],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Binford Place, Bridgwater, England, TA6 3LF","title":"Bridgwater Library","url":"https://www.somerset.gov.uk/libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.10072,51.01567],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Taunton Minster, Church Square, Taunton, England, TA1 1SA","title":"Taunton Minster","url":"https://tauntonminster.org"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.00499,51.12783],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Mary’s Church Bridgwater, Saint Mary Street, Bridgwater, England, TA6 3EQ","title":"St Mary’s Church Bridgwater","url":"https://www.stmarysbridgwater.org"},"type":"Feature"}
 	]
 }

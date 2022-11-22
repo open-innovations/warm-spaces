@@ -7,6 +7,7 @@
 		{"geometry":{"coordinates":[-0.60981,50.98577],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Petworth, West Sussex GU28 0AU","description":"","hours":"Mo 13:00-17:00, Tu 13:00-17:00, We 13:00-17:00, Th 09:00-13:00, Fr 09:00-13:00, Sa 09:00-13:00","title":"Petworth Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.49103,51.14186],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Cranleigh Methodist Church, High Street, Cranleigh, England, GU6","title":"Cranleigh Methodist Church","url":"https://www.weyvalleycircuit.org.uk/churches/circuit-churches/cranleigh-methodist-church.html"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.49016,51.14236],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Rowleys Centre for Community, Victoria Road, Cranleigh, England, GU6 8NT","title":"Rowleys Centre for Community","url":"https://Www.rowleyscranleigh.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.64579,51.16963],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Milford Club, 1 Church Road, Godalming, England, GU8 5JA","title":"Milford Club"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.64627,51.17415],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"Chapel Ln, Milford, Godalming GU8 5EZ","hours":"Mo-Fr 10:00-15:00","title":"Clockhouse Centre Chapel (Age UK Surrey)"},"type":"Feature"}
 	]
 }

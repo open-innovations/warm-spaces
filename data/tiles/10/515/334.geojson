@@ -17,6 +17,9 @@
 		{"geometry":{"coordinates":[1.37859,52.89879],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Cromer Road, Norwich, England, NR11 8HY","title":"Trimingham Village Hall","url":"https://TRIMINGHAM.ORG"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.33483,52.90446],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Northrepps Village Hall, School Close, Cromer, England, NR27 0LB","title":"Northrepps Community Cafe"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.11136,52.76245],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Bircham Centre, Market Place, Norwich, England, NR10 4JJ","title":"The Bircham Centre","url":"https://www.birchamcentrereepham.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.11214,52.76206],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Reepham Town Hall, Church Street, Norwich, England, NR10 4JW","title":"Reepham Town Council","url":"https://www.reephamtowncouncil.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.11214,52.76206],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Reepham Town Hall, Church Street, Norwich, England, NR10 4JW","title":"Reepham Town Council","url":"https://www.reephamtowncouncil.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.11041,52.76456],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Reepham Methodist Church, Station Road, Norwich, England, NR10 4LF","title":"Reepham Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.24724,52.79372],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Friendship Hall, Mill Road, Norwich, England, NR11 6DS","title":"Aylsham Older Peoples Association","url":"https://communitydirectory.norfolk.gov.uk/Services/4688/Aylsham-Older-People"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.09744,52.90154],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Treehouse Cafe, Charles Road, Holt, England, NR25 6DA","hours":"Mo-Fr 09:00-14:00","title":"The Treehouse Cafe","url":"https://www.thetreehousecafe.co.uk"},"type":"Feature"}
 	]
 }
