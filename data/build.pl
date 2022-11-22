@@ -4,7 +4,6 @@ use lib "./";
 use utf8;
 use JSON::XS;
 use YAML::XS 'LoadFile';
-use Encode;
 use Data::Dumper;
 require "lib.pl";
 binmode STDOUT, 'utf8';

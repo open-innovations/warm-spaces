@@ -40,6 +40,7 @@ jobs:
         working-directory: data/
         run: |
           perl build.pl
+          perl makeTiles.pl 11
 
       - name: Commit changes to files
         working-directory: ./

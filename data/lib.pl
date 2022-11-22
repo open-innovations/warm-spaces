@@ -2,6 +2,7 @@
 
 use utf8;
 use JSON::XS;
+use Encode;
 
 my %colours = (
 	'black'=>"\033[0;30m",
@@ -291,6 +292,8 @@ sub niceHours {
 	$pm = 0;
 	if($str =~ s/am//g){ $am = 1; }
 	if($str =~ s/pm//g){ $pm = 1; }
+	$str =~ s/Closed//ig;	# Fudge for LCC times
+
 	if($str =~ /[\:\.]/){
 		($hh,$mm) = split(/[\:\.]/,$str);
 		$mm = substr($mm,0,2);	# Truncate to two digits (sometimes people mistype an extra digit)
