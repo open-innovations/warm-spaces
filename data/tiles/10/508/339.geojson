@@ -11,7 +11,6 @@
 		{"geometry":{"coordinates":[-1.27191,51.75395],"type":"Point"},"properties":{"_source":"warm_welcome","address":"New Inn Hall Street, Oxford, Oxfordshire OX2 0AD","description":"Open from 1st November 2022. Young families at Rainbow House and others We have various groups during the week offering a range of activities","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00, Su 10:30-12:00","title":"Wesley Memorial Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.22473,51.72204],"type":"Point"},"properties":{"_source":"warm_spaces","address":"12 Dudgeon Drive, Oxford, England, OX4 4QL","title":"Littlemore Church","url":"https://www.littlemorechurch.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.26081,51.75304],"type":"Point"},"properties":{"_source":"warm_spaces","address":"New Inn Hall Street, Oxford, England, OX1 2DH","title":"Wesley Memorial Methodist Church Oxford","url":"https://www.wesleymem.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.19638,51.76787],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Barton Neighbourhood Centre, Underhill Circus, Oxford, England, OX3 9LS","title":"Barton Community Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.21118,51.76384],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Headington Baptist Church, 78 Old High Street, Oxford, England, OX3 9HW","title":"Headington Baptist Church","url":"https://hbc-oxford.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.19638,51.76787],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Barton Neighbourhood Centre, Underhill Circus, Oxford, England, OX3 9LS","title":"Barton Community Church"},"type":"Feature"}
 	]
 }

@@ -52,8 +52,6 @@
 		{"geometry":{"coordinates":[0.01853,51.40395],"type":"Point"},"properties":{"_source":"warm_spaces","address":"20A Widmore Road, Bromley, England, BR1 1RY","title":"Bromley Homeless Charity Day Room","url":"https://bromleyhomeless.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.05585,51.41046],"type":"Point"},"properties":{"_source":"warm_spaces","address":"40 Lubbock Road, Chislehurst, England, BR7 5JJ","title":"Christ Church Chislehurst","url":"https://christchurchchislehurst.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.21437,51.56321],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hornchurch Methodist Church, 19 High Street, Hornchurch, England, RM11 1TP","title":"Meet Up"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.01473,51.41985],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Brook Lane Community Church (BLCChurch), Brook Lane, Bromley, England, BR1 4PX","title":"The Brook Hub","url":"https://www.blcchurch.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.21080,51.43579],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tree Community Centre, Cedar Road, Dartford, England, DA1 2RS","title":"Healthy Living Centre Dartford","url":"https://www.hlcdartford.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.22734,51.45037],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Temple Hill Community Centre, Temple Hill Square, Dartford, England, DA1 5HY","title":"Healthy Living Centre Dartford","url":"https://www.hlcdartford.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.01473,51.41985],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Brook Lane Community Church (BLCChurch), Brook Lane, Bromley, England, BR1 4PX","title":"The Brook Hub","url":"https://www.blcchurch.org.uk"},"type":"Feature"}
 	]
 }

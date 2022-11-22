@@ -5,7 +5,6 @@
 		{"geometry":{"coordinates":[0.76423,51.43767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"163 High Street, Sheerness, Kent ME12 1UH","description":"Open from 19th October 2022.","hours":"We 09:30-14:30, Su 12:00-14:00","title":"Sheerness Salvation Army"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.75731,51.53038],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Broadway, Southend on sea, Southend on Sea Ss1 3hq","description":"","hours":"We 10:00-12:00","title":"Thorpe Bay Methodist Church "},"type":"Feature"},
 		{"geometry":{"coordinates":[0.76383,51.43792],"type":"Point"},"properties":{"_source":"warm_spaces","address":"163 High Street, Sheerness, England, ME12 1UH","title":"Sheerness Salvation Army","url":"https://www.salvationarmy.org/sheerness"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.76410,51.43766],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sheerness Salvation Army, 163 High Street, Sheerness, England, ME12 1UH","title":"Sheerness Salvation Army","url":"https://www.salvationarmy.org.uk/sheerness"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.76354,51.44151],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sheppey Healthy Living Centre, Sheerness, England, ME12 1HH","title":"Sheppey Matters","url":"http://www.sheppeymatters.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.76410,51.43766],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sheerness Salvation Army, 163 High Street, Sheerness, England, ME12 1UH","title":"Sheerness Salvation Army","url":"https://www.salvationarmy.org.uk/sheerness"},"type":"Feature"}
 	]
 }

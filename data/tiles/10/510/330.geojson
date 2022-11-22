@@ -18,7 +18,6 @@
 		{"geometry":{"coordinates":[-0.64497,53.56668],"type":"Point"},"properties":{"_source":"warm_spaces","address":"180 Ashby High Street, Scunthorpe, England, DN16 2JR","title":"St. Paul's Church Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.43817,53.72489],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tower Hill, Hessle, England, HU13","title":"Tower Hill Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.38724,53.73258],"type":"Point"},"properties":{"_source":"warm_spaces","address":"728 Hessle Road, Hull, England, HU4 6PJ","title":"Gipsyville Library Warm Space"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.63041,53.55058],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Pink Pig Farm, Holme Lane, Scunthorpe, England, DN16 3RE","title":"The Pink Pig Farm","url":"https://www.pinkpigfarm.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.38008,53.73619],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Rock City Climbing, Hawthorn Avenue, Hull, England, HU3 5GL","title":"Rock City","url":"https://www.rockcity.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.63041,53.55058],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Pink Pig Farm, Holme Lane, Scunthorpe, England, DN16 3RE","title":"The Pink Pig Farm","url":"https://www.pinkpigfarm.co.uk"},"type":"Feature"}
 	]
 }
