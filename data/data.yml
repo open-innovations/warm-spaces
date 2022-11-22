@@ -37,6 +37,9 @@ directories:
       type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
+    data:
+      url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
+      type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     data:

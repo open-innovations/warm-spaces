@@ -99,6 +99,21 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 
 				# Get the data (if we don't have a cached version)
 				$file = getDataFromURL($d);
+				
+				open(FILE,$file);
+				@lines = <FILE>;
+				close(FILE);
+				$str = join("",@lines);
+				if($str !~ /<html[^\>]*>/i){
+					# Try unzipping the file
+					print "Try unzip\n";
+					$zip = $file;
+					$zip =~ s/\.html/\.gz/;
+					`mv $file $zip`;
+					`gunzip $zip`;
+					$zip =~ s/\.gz//g;
+					`mv $zip $file`;
+				}
 
 				msg("\tParsing web page\n");
 
@@ -206,7 +221,7 @@ sub getDataFromURL {
 	}
 
 	msg("\tFile: $file\n");
-	if($age >= 86400){
+	if($age >= 86400 || -s $file == 0){
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 		msg("\tDownloaded\n");
 	}

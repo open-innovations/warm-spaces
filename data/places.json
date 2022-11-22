@@ -3266,6 +3266,56 @@
 	{ "_source": "aberdeen_city_council", "address": "Tillydrone Community Campus, Hayton Road, AB24 2UY ", "description": "Features: Accessible entrance, Accessible toilets, Advice, information guidance, Book borrowing or swap, Car parking, Family friendly, Newspapers, Period products, Quiet work or study space, Wifi, ", "hours": { "_text": " Monday and Wednesday 10am - 7pm Tuesday, Thursday and Friday 10am - 5pm Saturday 10am - 1pm", "opening": "Mo 10:00-19:00; We 10:00-19:00; Tu 10:00-17:00; Th 10:00-17:00; Fr 10:00-17:00; Sa 10:00-13:00" }, "lat": 57.171980924615, "lon": -2.115257, "title": "Tillydrone Library ", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces/tillydrone-library" },
 	{ "_source": "aberdeen_city_council", "address": "Victoria Road, Torry, AB11 9NJ", "description": "Features: Accessible entrance, Advice, information guidance, Book borrowing or swap, Car parking, Family friendly, Newspapers, Period products, Quiet work or study space, Wifi, ", "hours": { "_text": " Monday &amp; Thursday 10am - 1pm &amp; 2pm - 5pm Wednesday 1pm - 7pm", "opening": "Mo 10:00-13:00; Th 10:00-13:00; We 13:00-19:00" }, "lat": 57.136763289245, "lon": -2.0864260196686, "title": "Torry Library", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces/torry-library" },
 	{ "_source": "aberdeen_city_council", "address": "Woodside Fountain Centre Marquis Rd Woodside", "description": "Features: Accessible entrance, Accessible toilets, Advice, information guidance, Baby changing facilities, Book borrowing or swap, Car parking, Family friendly, Hot drinks, Period products, Quiet work or study space, Wifi, ", "hours": { "_text": " Monday to Friday 9.30am - 3.30pm", "opening": "Mo-Fr 09:30-15:30" }, "lat": 57.168910665451, "lon": -2.1216702461243, "title": "Woodside Fountain Centre", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces/woodside-fountain-centre" },
+	{ "_source": "bedford_council", "address": "All Nations Church,Â 79 Brickhill Drive Bedford MK41 7QF ", "contact": "01234 273773 /Â <a href=\"mailto:office@allnationsbedford.org\">office@allnationsbedford.org</a>", "hours": { "_text": "Mondays 9.30am to 4pm", "opening": "Mo 09:30-16:00" }
+	},
+	{ "_source": "bedford_council", "address": "Bedford Beacon, Bedford Wellbeing Centre, 3A Woburn Road, Bedford MK40 1EG", "contact": "<a href=\"mailto:elft.recoverycollege@nhs.net\">elft.recoverycollege@nhs.net</a>", "hours": { "_text": "Every Thursday 5.30pm to 9pm", "opening": "Th 17:30-21:00" }
+	},
+	{ "_source": "bedford_council", "address": "Bedford Central Masjid and Islamic Cultural Centre, 34 Brereton Rd, Bedford MK40 1HU", "hours": { "_text": "Monday to Friday 1pm to 5pm", "opening": "Mo-Fr 13:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "Bunyan Meeting, Mill Street, Bedford MK40 2NB", "contact": " Chris Bamforth Damp / 07702 270086 /Â <a href=\"mailto:chrisdamp@mac.com\">chrisdamp@mac.com</a><br /> Â ", "hours": { "_text": "Tuesday to Saturday 10am to 1pm", "opening": "Tu-Sa 10:00-13:00" }
+	},
+	{ "_source": "bedford_council", "address": "Christ Church Bedford, 140 Dudley Street, Bedford, MK40 3SXÂ Christ Church Office (Pauline Grimley)", "contact": "01234 327150 /Â <a href=\"mailto:office@ccbedford.org\">office@ccbedford.org</a>", "hours": { "_text": "Friday 12 to 2pm", "opening": "Fr 12:00-14:00" }
+	},
+	{ "_source": "bedford_council", "address": "Church of the Transfiguration,132 Bedford Rd, Kempston, Bedford MK42 8BQ", "contact": "Â 01234 635721", "hours": { "_text": "<p>Monday: 11am to 5pm</p><p>Tuesday: 9.30am to 5pm</p><p>Thursday: 9.30am to 5pm</p><p>Sunday: 9am to 5pm</p>", "opening": "Mo 11:00-17:00; Tu 09:30-17:00; Th 09:30-17:00; Su 09:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "Church Lane Community Centre,Â 147 Church Lane,Â Bedford MK41 0PW", "contact": "07816 044007 /Â <a href=\"mailto:info@churchlanecentre.com\">info@churchlanecentre.com</a>", "hours": { "_text": "Friday 1pm to 5:30pm", "opening": "Fr 13:00-17:30" }
+	},
+	{ "_source": "bedford_council", "address": "Great Denham Community Hall 86-88 Saxon Way,Â Great Denham, Bedfordshire, MK40 4GP", "contact": "<a href=\"mailto:bookings@greatdenhamcommunityhall.co.uk\">bookings@greatdenhamcommunityhall.co.uk</a>", "hours": { "_text": "Every Thursday 10am to 12pm", "opening": "Th 10:00-12:00" }
+	},
+	{ "_source": "bedford_council", "address": "Higgins Bedford, Castle Lane, Bedford, MK40 3XD ", "contact": "<a href=\"mailto:thehiggins@bedford.org.uk\">thehiggins@bedford.org.uk</a> /Â 01234718618", "hours": { "_text": "<p>Friday 11am to 4pm</p><p>Tuesday to Saturday 11am to 5pm</p><p>Sunday 2pm to 5pm</p>", "opening": "Tu-Sa 11:00-17:00; Fr 11:00-16:00; Su 14:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "Keeley House Bakery at The Hub New Life Methodist Church, Cause End Road, Wootton BedfordÂ MK43 9DE", "hours": { "_text": "Monday to Friday 10am to 3pm", "opening": "Mo-Fr 10:00-15:00" }
+	},
+	{ "_source": "bedford_council", "address": "Kempston East Methodist Church Hall, off Foster<br /> Road, Kempston MK42 8DA", "contact": "01234 930882<br /> Â ", "hours": { "_text": "Wednesday 10am to 2pm", "opening": "We 10:00-14:00" }
+	},
+	{ "_source": "bedford_council", "address": "Kempston Hammers Sports and social Club, 123 High Street Kempston, Bedford, MK42 7BNÂ ", "contact": "01234 853262 /Â <a href=\"mailto:khsscoffice@gmail.com\">khsscoffice@gmail.com</a>", "hours": { "_text": "Tuesday morning 9am to 12pm", "opening": null }
+	},
+	{ "_source": "bedford_council", "address": "Kempston Swimming Pool Hillgrounds Road, Kempston, MK42 8SZ", "contact": "01234 843777", "hours": { "_text": "<p>6:30am to 9pm Monday to Friday</p><p>8am to 5pm Saturday and Sunday</p>", "opening": "Mo-Fr 06:30-21:00" }
+	},
+	{ "_source": "bedford_council", "address": "Kingsbrook and Cauldwell Community Hub<br /> Jubilation Centre Moulton Avenue MK42 0HL", "contact": "Stacy Dennis / 07956 023659 /Â <a href=\"mailto:stacy@yourfundyoursay.info\">stacy@yourfundyoursay.info</a><br /> Â ", "hours": { "_text": "Mondays 9am to 5pm", "opening": "Mo 09:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "King&apos;s House, 245, Ampthill Road, Bedford MK42 9AZ", "contact": "01234 306500", "hours": { "_text": "Tuesdays and Thursdays from 3pm to 6pm", "opening": "Tu 15:00-18:00; Th 15:00-18:00" }
+	},
+	{ "_source": "bedford_council", "address": "Miracle Church of God in Christ, 36-38 Alexandra Road, Bedford MK40 1JB", "contact": "01234 215081 / <a href=\"mailto:bedford@miraclecogic.org.uk\" target=\"_blank\">bedford@miraclecogic.org.uk</a>", "hours": { "_text": "Tuesdays 11am to 2pm", "opening": "Tu 11:00-14:00" }
+	},
+	{ "_source": "bedford_council", "address": "Priory Methodist Church, 63 Newnham Ave, Bedford MK41 9QJ", "contact": "01234 353523 /Â <a href=\"mailto:leslie.noon@northbedsmethodist.org.uk\">leslie.noon@northbedsmethodist.org.uk</a>Â ", "hours": { "_text": "<p>From 27 November for 4 weeks initially:</p><p>Sunday 12pm to 4pm</p>", "opening": "Su 12:00-16:00" }
+	},
+	{ "_source": "bedford_council", "address": "Riseley Community,Â 3 Hunters Yard, Riseley MK44 1EN", "contact": "<a href=\"mailto:riseleycommunitykindness@outlook.com\">riseleycommunitykindness@outlook.com</a>", "hours": { "_text": "Wednesdays 2pm to 4pm", "opening": "We 14:00-16:00" }
+	},
+	{ "_source": "bedford_council", "address": "Riseley Community,Â All Saints Church, Church Lane, Riseley MK44 1ER", "contact": "<a href=\"mailto:riseleycommunitykindness@outlook.com\">riseleycommunitykindness@outlook.com</a>", "hours": { "_text": "Tuesdays 10am to 12pm", "opening": "Tu 10:00-12:00" }
+	},
+	{ "_source": "bedford_council", "address": "Riseley Community, The Giddy Goat Coffee Shop, High Street, Riseley MK44 1DR", "contact": "<a href=\"mailto:riseleycommunitykindness@outlook.com\">riseleycommunitykindness@outlook.com</a>", "hours": { "_text": "Mondays 10am to 12pm", "opening": "Mo 10:00-12:00" }
+	},
+	{ "_source": "bedford_council", "address": "St Andrews Church, Kimbolton Road, MK40 2PF", "contact": "01234 216881 /Â <a href=\"mailto:info@standrewsbedford.org\">info@standrewsbedford.org</a>", "hours": { "_text": "Monday to Friday, 9am to 5pm", "opening": "Mo-Fr 09:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "St Mark&apos;s Church Community Centre, Calder Rise, Brickhill, Bedford MK41 7UY", "contact": "01234 342613 /Â <a href=\"mailto:office@stmarkschurch.com\">office@stmarkschurch.com</a> / <a href=\"https://www.stmarkschurch.com/\" target=\"_blank\">www.stmarkschurch.com</a><strong>Â Â Â Â Â Â Â Â Â Â  </strong><strong>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </strong>", "hours": { "_text": "Every day 9am to 5pm", "opening": "Mo-Su 09:00-17:00" }
+	},
+	{ "_source": "bedford_council", "address": "St Marys Church, Church Lane, Goldington, MK41 0AP (for satÂ navÂ use MK41 0HN)", "contact": " 01234 351920 /Â <a href=\"mailto:office@stmarygoldington.org.uk\" target=\"_blank\">office@stmarygoldington.org.uk</a>", "hours": { "_text": "Every Monday 1pm to 4pm", "opening": "Mo 13:00-16:00" }
+	},
+	{ "_source": "bedford_council", "address": "StÂ Peterâs Church, Church Lane,Â Sharnbrook, Bedford MK44 1HR", "contact": "Roland Carpenter /Â 07801 750963 /Â <a href=\"mailto:roland.carpenter@tiscali.co.uk\">roland.carpenter@tiscali.co.uk</a>", "hours": { "_text": "Every Wednesday 9am to 6pm", "opening": "We 09:00-18:00" }
+	},
+	{ "_source": "bedford_council", "address": "Woodside Church Dover Cres, Bedford MK41 8QH", "contact": "01234 272022 /Â <a href=\"mailto:getintouch@woodsidechurch.com\">getintouch@woodsidechurch.com</a>", "hours": { "_text": "Tuesday and Wednesday 1pm to 4:30pm", "opening": "Tu 13:00-16:30; We 13:00-16:30" }
+	},
 	{ "_source": "gateshead_council", "address": "Blaydon Shopping Centre, Wesley Court, Blaydon, Gateshead, NE21 5BT, United Kingdom", "description": "Charging facilities, Hot drinks, Accessible toilets, Baby changing facilities, Parking, Free Wifi", "title": "Age UK Gateshead - Blaydon Shopping Centre" },
 	{ "_source": "gateshead_council", "address": "Heworth Hub, St Marys, Heworth, Gateshead, NE10 0UY, United Kingdom", "description": "Charging facilities, Hot drinks, Accessible toilets, Baby changing facilities, Parking, Free Wifi", "title": "Age UK Gateshead - Heworth Hub" },
 	{ "_source": "gateshead_council", "address": "House on the Hill, Sunderland Road, Felling, Gateshead, NE109LR, United Kingdom", "description": "Charging facilities, Hot drinks, Accessible toilets, Baby changing facilities, Parking, Free Wifi", "title": "Age UK Gateshead - House on the Hill" },
