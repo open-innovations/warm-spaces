@@ -29,10 +29,13 @@
 		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
 	},
 	"bradford_council": {
+		"count": 119,
+		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
+		"geocount": 119,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
-		"url": "https://costoflivingbradford.co.uk/warm-spaces-directory/"
+		"url": "https://costoflivingbradford.co.uk/warm-spaces/"
 	},
 	"brighton___hove_council": {
 		"id": "brighton___hove_council",

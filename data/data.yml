@@ -49,10 +49,13 @@ directories:
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
   - title: "Bradford Council"
-    url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
+    url: "https://costoflivingbradford.co.uk/warm-spaces/"
     map:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: googlemap
+    data:
+      url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
+      type: html
   - title: "Brighton & Hove Council"
     url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
     map:
