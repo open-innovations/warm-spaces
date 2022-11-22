@@ -149,7 +149,7 @@ sub parseOpeningHours {
 
 		# Convert "noon" values to numbers
 		$str =~ s/12 ?noon/12am/g;
-		$str =~ s/ noon/ 12:00/g;
+		$str =~ s/noon/ 12:00/g;
 
 		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
 		$str =~ s/a\.?m\.?/am/gi;
@@ -180,7 +180,7 @@ sub parseOpeningHours {
 		}
 
 		# Match day range + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,apm\s\t\-]+)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$day2 = $3;
@@ -198,7 +198,7 @@ sub parseOpeningHours {
 		}
 
 		# Match time + day range
-		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//){
 			$day1 = $4;
 			$mod1 = $5;
 			$day2 = $6;
@@ -216,7 +216,7 @@ sub parseOpeningHours {
 		}
 
 		# Match multiple days with time
-		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
+		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
 			$day1 = $1;
 			$t = getHourRange($4);
 			for($i = 0; $i < @days; $i++){
@@ -228,7 +228,7 @@ sub parseOpeningHours {
 		}
 
 		# Match single day + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
@@ -242,7 +242,7 @@ sub parseOpeningHours {
 		}
 
 		# Match time + "every" + single day
-		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $3;
 			$mod1 = $2;
 			$t = getHourRange($1);
@@ -256,7 +256,7 @@ sub parseOpeningHours {
 		}
 		
 		# Match time + "on" + single day
-		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $4;
 			$t = getHourRange($1);
 			$ok = 0;
@@ -269,7 +269,7 @@ sub parseOpeningHours {
 		}
 
 		# Match "Daily"
-		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//i){
+		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//i){
 			$day1 = "Mo-Su";
 			$mod1 = $2;
 			$t = getHourRange($3);
@@ -283,7 +283,7 @@ sub parseOpeningHours {
 		}
 
 		# Match "Daily"
-		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\s\t\,]*(Daily|7 days (a|per) week)//i){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\t\,]*(Daily|7 days (a|per) week)//i){
 			$day1 = "Mo-Su";
 			$t = getHourRange($1);
 			$ok = 0;
@@ -306,8 +306,14 @@ sub parseOpeningHours {
 
 sub getHourRange {
 	my $str = $_[0];
-	my ($t1,$t2) = split(/ ?[\-\–] ?/,$str);
-	return niceHours($t1)."-".niceHours($t2);
+	my ($t1,$t2,@times,$t,$out);
+	@times = split(/\,/,$str);
+	$out = "";
+	for($t = 0; $t < @times; $t++){
+		($t1,$t2) = split(/ ?[\-\–] ?/,$times[$t]);
+		$out .= ($out?",":"").niceHours($t1)."-".niceHours($t2);
+	}
+	return $out;
 }
 
 sub niceHours {
