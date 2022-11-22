@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.05776,53.00924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Community Cafe, 46 Market Street, Wrexham, Wales, LL14 2HY","title":"The Community Cafe","url":"https://www.rhoscommunitycafe.org"},"type":"Feature"}
-	]
-}

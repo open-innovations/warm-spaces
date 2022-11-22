@@ -12,10 +12,6 @@
 		{"geometry":{"coordinates":[1.73306,52.61986],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Salisbury Road, Great Yarmouth, Norfolk NR30 4LH","description":"","hours":"Mo 13:00-16:00","title":"St Paul’s Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.41240,52.58440],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Rectory, Rectory Lane, Rockland St. Mary, Norwich, Norfolk NR14 7EY","description":"Open from 07-11-2022.","hours":"Mo 10:00-17:00","title":"The Barn, Rockland Rectory"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.42918,52.62500],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Lane, Norwich, England, NR13 5LZ","title":"St Laurence Centre","url":"https://yarevalleychurches.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.50185,52.66563],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Fairhaven Woodland and Water Garden, School Road, Norwich, England, NR13 6DZ","title":"Fairhaven Tearoom","url":"https://www.fairhavengarden.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.41197,52.58438],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Rockland Rectory, Rectory Lane, Norwich, England, NR14 7EY","title":"The Barn"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.48361,52.54088],"type":"Point"},"properties":{"_source":"warm_spaces","address":"All Saints Church (Church of England), Hardley Road, Norwich, England, NR14 6NQ","title":"Church Centre, All Saints Church, Chedgrave"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.49078,52.61895],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Lingwood Village Hall, Station Road, Norwich, England, NR13 4AZ","title":"Hug a Mug Cafe","url":"https://www.lingwoodvh.co.uk/hug-a-mug-cafe"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.50814,52.52205],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hales Christian Assembly Hall, Briar Lane, Hales, NR14 6SX","title":"Hales Christian Assembly Hall"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.50185,52.66563],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Fairhaven Woodland and Water Garden, School Road, Norwich, England, NR13 6DZ","title":"Fairhaven Tearoom","url":"https://www.fairhavengarden.co.uk"},"type":"Feature"}
 	]
 }
