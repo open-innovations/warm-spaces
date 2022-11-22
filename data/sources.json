@@ -82,7 +82,7 @@
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
 	},
 	"huntingdonshire_council": {
-		"count": 30,
+		"count": 32,
 		"data": { "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" },
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
@@ -90,7 +90,7 @@
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
 	},
 	"leeds_city_council": {
-		"count": 99,
+		"count": 110,
 		"data": { "keys": { "accessibility": "Accessibility_Comments", "address": "Address", "description": "Description", "friday": "Friday", "lat": "Latitude", "lon": "Longitude", "monday": "Monday", "saturday": "Saturday", "sunday": "Sunday", "thursday": "Thursday", "title": "Venue", "tuesday": "Tuesday", "type": "Venue_Type", "wednesday": "Wednesday" }, "type": "geojson", "url": "https://services1.arcgis.com/brSffcdOV7o1pDVT/arcgis/rest/services/WarmSpacesNov_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects" },
 		"id": "leeds_city_council",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -152,7 +152,7 @@
 		"url": "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
 	},
 	"surrey_county_council_warm_hubs": {
-		"count": 75,
+		"count": 79,
 		"data": { "keys": { "address": "Address", "hours": "OpenHours", "title": "Hub_Name" }, "licence": "none", "type": "geojson", "url": "https://services2.arcgis.com/lLe1XejBt1om9C8p/arcgis/rest/services/WarmHomes_v1/FeatureServer/0/query?f=geojson&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333336%2C%22extent%22%3A%7B%22xmin%22%3A483642.0031000003%2C%22ymin%22%3A132818.2544999998%2C%22xmax%22%3A540462.7911999999%2C%22ymax%22%3A171644.57689999975%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" },
 		"id": "surrey_county_council_warm_hubs",
 		"map": { "type": "arcgis", "url": "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515" },
@@ -173,7 +173,7 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 24,
+		"count": 25,
 		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
@@ -182,7 +182,7 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 300,
+		"count": 340,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
@@ -191,7 +191,7 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2411,
+		"count": 2460,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
