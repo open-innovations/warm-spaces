@@ -99,7 +99,7 @@ sub makeJSON {
 # Attempt to parse free-text dates/times into the OSM format https://wiki.openstreetmap.org/wiki/Key:opening_hours
 sub parseOpeningHours {
 	my $hours = shift;
-	my (@days,$parsed,$str,$i,$j,$d,$day1,$day2,$t1,$t2,$ok,$t,$mod1,$mod2);
+	my (@days,$parsed,$str,$i,$j,$d,$day1,$day2,$t1,$t2,$ok,$t,$mod1,$mod2,$nstr,$nth);
 
 	@days = (
 		{'match'=>['Monday','Mon'],'short'=> 'Mo','key'=>'monday'},
@@ -139,30 +139,48 @@ sub parseOpeningHours {
 		$str =~ s/ to / - /g;
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
-		$str =~ s/First ([^\s]+) of the month/$1\[1\]/gi;
-		$str =~ s/Second ([^\s]+) of the month/$1\[2\]/gi;
-		$str =~ s/Third ([^\s]+) of the month/$1\[3\]/gi;
-		$str =~ s/Fourth ([^\s]+) of the month/$1\[4\]/gi;
-		$str =~ s/Weekdays/Mo-Fr/gi;
-		$str =~ s/Weekends/Sa-Su/gi;
-		$str =~ s/12 ?noon/12am/g;
-		$str =~ s/ noon/ 12:00/g;
-		$str =~ s/a\.?m\.?/am/g;
-		$str =~ s/p\.?m\.?/pm/g;
 		$str =~ s/\&apos\;//g;
 		$str =~ s/ \&amp\; /, /g;
-		$str =~ s/\([^\)]+\)//g;
+		$str =~ s/ ?\([^\)]+\)//g;
+
+		# Convert "weekdays" or "weekends" into day ranges
+		$str =~ s/Weekdays/Mo-Fr/gi;
+		$str =~ s/Weekends/Sa-Su/gi;
+
+		# Convert "noon" values to numbers
+		$str =~ s/12 ?noon/12am/g;
+		$str =~ s/ noon/ 12:00/g;
+
+		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
+		$str =~ s/a\.?m\.?/am/gi;
+		$str =~ s/p\.?m\.?/pm/gi;
 
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
 				$d = $days[$i]->{'match'}[$j];
+			
+				# Replace any string that refers to e.g. "first Sunday" with "Su[1]"
+				while($str =~ /((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of the month)?/){
+					$nth = $1;
+					$nstr = "";
+					if($nth =~ /first/i){ $nstr .= ($nstr?",":"")."1"; }
+					if($nth =~ /second/i){ $nstr .= ($nstr?",":"")."2"; }
+					if($nth =~ /third/i){ $nstr .= ($nstr?",":"")."3"; }
+					if($nth =~ /fourth/i){ $nstr .= ($nstr?",":"")."4"; }
+					if($nth =~ /last/i){ $nstr .= ($nstr?",":"")."-1"; }
+					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
+					else { $nstr = " ".$d; }
+					$str =~ s/((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of the month)?/$nstr/;
+				}				
+
+				# Replace a day match with the short version
 				$str =~ s/$d[\'s]*(\W|$)/$days[$i]->{'short'}$1/gi;
 			}
 		}
 
 		# Match day range + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$day2 = $3;
@@ -180,7 +198,7 @@ sub parseOpeningHours {
 		}
 
 		# Match time + day range
-		while($str =~ s/([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//i){
+		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?//){
 			$day1 = $4;
 			$mod1 = $5;
 			$day2 = $6;
@@ -198,7 +216,7 @@ sub parseOpeningHours {
 		}
 
 		# Match multiple days with time
-		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
+		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
 			$day1 = $1;
 			$t = getHourRange($4);
 			for($i = 0; $i < @days; $i++){
@@ -210,7 +228,7 @@ sub parseOpeningHours {
 		}
 
 		# Match single day + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)//i){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
@@ -223,8 +241,8 @@ sub parseOpeningHours {
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 
-		# Match time + single day
-		while($str =~ s/([0-9\:\.]+(a\.?m\.?|p\.?m\.?)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(a\.?m\.?|p\.?m\.?)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
+		# Match time + "every" + single day
+		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\,]? every *(\[[0-9\,]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $3;
 			$mod1 = $2;
 			$t = getHourRange($1);
@@ -237,10 +255,9 @@ sub parseOpeningHours {
 			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
 		}
 		
-		# Match time + single day
-		while($str =~ s/([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
-			$day1 = $3;
-			$mod1 = $2;
+		# Match time + "on" + single day
+		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//){
+			$day1 = $4;
 			$t = getHourRange($1);
 			$ok = 0;
 			for($i = 0; $i < @days; $i++){
@@ -248,11 +265,11 @@ sub parseOpeningHours {
 					$hours->{$days[$i]->{'key'}} = $mod1.$t;
 				}
 			}
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
 		}
 
 		# Match "Daily"
-		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)//i){
+		while($str =~ s/(Daily|7 days (a|per) week)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)//i){
 			$day1 = "Mo-Su";
 			$mod1 = $2;
 			$t = getHourRange($3);
@@ -266,7 +283,7 @@ sub parseOpeningHours {
 		}
 
 		# Match "Daily"
-		while($str =~ s/([0-9\:\.apm]+[\s\t]*[\-\–][\s\t]*[0-9\:\.apm]+)[\s\t\,]*(Daily|7 days (a|per) week)//i){
+		while($str =~ s/([0-9\:\.]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.]+(am|pm)?)[\s\t\,]*(Daily|7 days (a|per) week)//i){
 			$day1 = "Mo-Su";
 			$t = getHourRange($1);
 			$ok = 0;
