@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.69276,52.24340],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Church, Park Road,, Bury St Edmunds, Suffolk IP33 3QW","description":"Open from 03/11/2022. Everyone welcome.","hours":"Th 10:15-13:00","title":"All Saints Church"},"type":"Feature"}

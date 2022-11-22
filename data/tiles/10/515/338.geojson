@@ -8,6 +8,7 @@
 		{"geometry":{"coordinates":[1.18673,52.03107],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gainsborough Sports Centre, Ipswich, Suffolk IP3 0SP","description":"Open from Monday 17th October 2022.","hours":"Mo 08:30-18:30, Tu 08:30-18:30, We 08:30-18:30, Th 08:30-18:30, Fr 08:30-18:30, Sa 08:30-12:00, Su 08:30-17:30","title":"Ipswich Borough Council "},"type":"Feature"},
 		{"geometry":{"coordinates":[1.18466,52.03647],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Landseer Road, Ipswich, Suffolk IP3 9LX","description":"","hours":"Fr 08:45-12:00","title":"Landseer Road Methodist CHurch"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.28934,51.94530],"type":"Point"},"properties":{"_source":"warm_welcome","address":"31 Kings Quay Street, Harwich, Essex CO12 3ES","description":"","hours":"Tu 19:00-20:30, Th 10:00-14:00","title":"The Lounge"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.19244,52.03982],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Nansen Road, Ipswich, England, IP3 9HN","title":"Nansen Road Baptist Church","url":"https://www.nrbconline.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.19244,52.03982],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Nansen Road, Ipswich, England, IP3 9HN","title":"Nansen Road Baptist Church","url":"https://www.nrbconline.org"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.27055,51.93673],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Harwich Arts and Heritage Centre, Main Road, Harwich, England, CO12 4AJ","title":"Harwich Festival","url":"https://www.harwichfestival.com"},"type":"Feature"}
 	]
 }

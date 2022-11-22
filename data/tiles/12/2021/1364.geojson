@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.35825,51.38124],"type":"Point"},"properties":{"_source":"warm_welcome","address":"9 Kingston Buildings, Bath, Avon BA1 1LT","description":"Our initial focus is on catering for students and older people but we will certainly give a warm welcome to all visitors. There will be: soup and a roll and hot drinks; books, newspapers, magazines; games and puzzles; optional fun art and craft activities; optional short guided tours of Bath Abbey","hours":"Tu 12:30-14:30","title":"Bath Abbey"},"type":"Feature"}

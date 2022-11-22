@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.01139,52.50112],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Stone Street, Oldbury, West Midlands B69 4JD","description":"Open from 19-10-2022.","hours":"Mo 10:00-12:00, We 16:00-20:30","title":"Bethel Church"},"type":"Feature"}

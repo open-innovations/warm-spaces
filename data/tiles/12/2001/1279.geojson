@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.10839,55.78409],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Craigmure Road, Blantyre, South Lanarkshire G72 9Ua","description":"Open from 09/11/2022.","hours":"We 11:00-14:00","title":"Blantyre Old Parish Church "},"type":"Feature"}

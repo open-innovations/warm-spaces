@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[1.09315,51.28469],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Church, Military Road, Northgate, Canterbury CT1 1PA","description":"Adults of all ages Alternate Fridays we have a representative from CAB available","hours":"Fr 10:00-12:00","title":"All Saints Community Larder and Connecting Canterbury"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.07914,51.27963],"type":"Point"},"properties":{"_source":"warm_welcome","address":"18 High Street, Canterbury, Kent CT1 2RA","description":"","hours":"Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-18:00, Fr 10:00-17:00, Sa 10:00-16:00","title":"Canterbury Library"},"type":"Feature"}

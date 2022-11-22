@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.50908,52.18864],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bromyard Methodist Church 20 New Road, Bromyard, Herefordshire HR7 4FJ","description":"Open from 09-11-2022. All ages","hours":"We 09:30-15:00","title":"Bromyard Methodist Church"},"type":"Feature"}

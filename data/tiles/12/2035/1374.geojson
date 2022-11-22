@@ -1,8 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.05812,50.80818],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tangier Road, Copnor, Portsmouth PO3 6HU","description":"Please note that this library is closed for lunch 12:30-13:30 on Monday, Tuesday, Thursday and Friday","hours":"Mo 09:30-18:00, Tu 09:30-18:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 10:00-15:30","title":"Alderman Lacey Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.05893,50.79470],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Milton Road, Milton, Portsmouth PO4 8PR","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-18:00, Th 09:30-18:00, Fr 09:30-17:00, Sa 10:00-15:30","title":"Beddow Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.07732,50.80206],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carnegie Library, Fratton Road, Portsmouth PO1 5EZ","hours":"Mo 09:30-18:00, Tu 09:30-17:00, We 09:30-17:00, Fr 09:30-17:00, Sa 10:00-15:30","title":"Carnegie Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.06470,50.84652],"type":"Point"},"properties":{"_source":"warm_welcome","address":"48 Havant Road, Cosham, Portsmouth PO6 2QZ","description":" Open from 02-11-2022.","hours":"We 09:00-17:00","title":"Cosham Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.06736,50.84659],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cosham Library, Spur Road, Cosham, Portsmouth, Hants PO6 3EB","hours":"Mo 09:30-18:00, Tu 09:30-18:00, We 09:30-17:00, Th 09:30-18:00, Fr 09:30-17:00, Sa 10:00-15:30","title":"Cosham Library"},"type":"Feature"}

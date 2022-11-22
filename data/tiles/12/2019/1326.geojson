@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.52878,53.41531],"type":"Point"},"properties":{"_source":"warm_welcome","address":"25 Benson Road, Birchwood, England WA3 7PJ","hours":"Tu 10:00-15:00, Th 10:00-15:00, Fr 10:00-15:00","title":"Birchwood Community Church"},"type":"Feature"}

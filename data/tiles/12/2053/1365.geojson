@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.50300,51.29026],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Road, Maidstone, Kent ME16 0PR","description":" Visit our website for more information on what your local library offers, and find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","title":"Allington Library"},"type":"Feature"}

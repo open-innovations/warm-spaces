@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.06389,53.55624],"type":"Point"},"properties":{"_source":"warm_welcome","address":"68 Rosemary Lane, Liverpool, Merseyside L37 3HA","description":"For everyone","hours":"Tu 10:00-12:00, We 10:00-12:00","title":"Formby Luncheon Club"},"type":"Feature"}

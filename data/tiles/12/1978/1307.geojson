@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-6.14950,54.41379],"type":"Point"},"properties":{"_source":"warm_welcome","address":"11 bridge street, Dromore, down BT25 1AN","description":"Open from 1/12/22.","hours":"Th 12:00-14:00","title":"Dromore Elim Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-6.14977,54.41616],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Maypole Hill, Dromore, Down BT25 1BQ","description":"Open from 25-11-2022. Entrance is by the white doors to the right of the main church building, facing the street.","hours":"Fr 10:30-12:30","title":"Dromore Methodist Church"},"type":"Feature"}

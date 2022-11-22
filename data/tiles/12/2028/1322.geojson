@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.74548,53.63549],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Farfield Road, Almondbury, Huddersfield, West Yorkshire HD5 8DT","description":" All our libraries are heated, comfortable to stay in for long periods of time - they have a range of both comfy seating, and more functional furniture for study or computer use. A place to keep warm, meet friends, sit and read and take part in activities.","hours":"Mo 13:00-17:00, Tu 10:00-13:00, Th 14:00-19:00, Sa 10:00-13:00","title":"Almondbury Library"},"type":"Feature"}

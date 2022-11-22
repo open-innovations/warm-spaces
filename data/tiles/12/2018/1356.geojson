@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.61985,51.79217],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Newland Street, Coleford, Glos. GL16 8AJ","description":"Open from 11-11-2022. We have toys for the little ones, and plan to show family films on our screen ","hours":"Fr 17:00-19:00, Su 14:30-17:00","title":"Coleford Baptist church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.61176,51.83378],"type":"Point"},"properties":{"_source":"warm_welcome","address":"English Bicknor Village Hall , English Bicknor , Coleford GL16 7PB","description":"","title":"English Bicknor village hall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.59797,51.80014],"type":"Point"},"properties":{"_source":"warm_welcome","address":"43 North Road, Broadwell, Coleford GL16 7BX","description":"","hours":"Mo 10:00-14:00, Tu 10:00-14:00, We 10:00-14:00, Th 18:30-21:00, Fr 10:00-14:00","title":"Forest of Dean Salvation Army - Broadwell Hub"},"type":"Feature"}

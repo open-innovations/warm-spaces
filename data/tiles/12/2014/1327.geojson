@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.90343,53.37739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Hallows Church, Greenhill Road, Liverpool L18 6JJ","description":"","hours":"We 11:30-13:45","title":"All Hallows CHurch, Allerton, Liverpool L18 6JJ"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.98268,53.33310],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bromborough Evangelical Church, WIRRAL, Merseyside CH62 2DA","hours":"Fr 09:30-11:30","title":"Bromborough Evangelical Church "},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.90961,53.86993],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Nations Church Centre, North Street, Keighley, West Yorkshire BD21 3AF","description":"","hours":"Th 11:00-14:00","title":"All Nations Church"},"type":"Feature"}

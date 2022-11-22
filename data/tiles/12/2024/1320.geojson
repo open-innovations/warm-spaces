@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.09783,53.71367],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Todmorden Library, Todmorden, West Yorkshire OL14 7UD","description":"Jigsaws available","hours":"Mo 10:00-18:30, Tu 10:00-17:00, We 10:00-17:00, Fr 10:00-18:30, Sa 10:00-16:00","title":"Calderdale MBC"},"type":"Feature"}

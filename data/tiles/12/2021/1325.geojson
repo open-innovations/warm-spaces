@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.31312,53.44382],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barton Road, Stretford, Manchester M32 9RL","description":"Open from Wednesday 16 November 2022. Every Wednesday morning: free tea, coffee and biscuits; toys and games for adults and children. Community Afternoon first Sunday of each month: toys and games, painting etc; chess, dominoes etc for adults; free tea, coffee and biscuits, and usually cake!","hours":"We 10:30-13:00, Su 14:00-16:00","title":"All Saints Church, Stretford"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.35529,53.45792],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lostock Road, Davyhulme, Manchester M41 0TD","description":"Open from Monday 28 November.","hours":"Mo 09:00-12:00","title":"Christ Church Davyhulme"},"type":"Feature"}

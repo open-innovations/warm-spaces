@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.15261,51.44599],"type":"Point"},"properties":{"_source":"warm_welcome","address":"16 Ramsden Road, Balham, London SW12 8QY","hours":"Mo 09:00-20:00, We 09:00-20:00, Th 09:00-20:00, Fr 09:00-17:00, Sa 10:00-18:00","title":"Balham Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.11921,51.45057],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Elm Park, off Brixton Hill, London, Greater London SW2 2TX","description":"Open from 17-11-2022.","hours":"Th 12:00-14:00","title":"Brixton Hill Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.13118,51.39972],"type":"Point"},"properties":{"_source":"warm_welcome","address":"New Horizon Centre, South Lodge Avenue, Mitcham CR4 1LT","description":"Open from 28-11-2022.","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Commonside Community Development Trust"},"type":"Feature"}

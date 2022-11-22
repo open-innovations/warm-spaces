@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.12966,51.47585],"type":"Point"},"properties":{"_source":"warm_welcome","address":"115 King Harolds Way, Bexleyheath, Kent DA7 5RE","description":" We are a small community library in Bexleyheath","hours":"Mo 09:30-13:00, Tu 13:00-17:00, Th 09:30-17:00, Fr 09:30-13:00, Sa 09:30-13:00","title":"Bostall Library Community Group"},"type":"Feature"}

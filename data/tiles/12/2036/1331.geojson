@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.02715,53.13276],"type":"Point"},"properties":{"_source":"warm_welcome","address":"66 kirklington Road , Newark, Nottinghamshire NG22 8SP","description":"","hours":"We 09:00-18:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-14:00","title":"Creations"},"type":"Feature"}

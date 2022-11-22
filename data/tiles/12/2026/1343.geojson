@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.88756,52.50131],"type":"Point"},"properties":{"_source":"warm_welcome","address":"South Aston URC , Birmingham, West Midlands B6 5bn","description":"","hours":"Th 09:00-12:00","title":"Christ Church Birmingham"},"type":"Feature"}

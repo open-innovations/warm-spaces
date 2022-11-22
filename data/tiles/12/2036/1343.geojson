@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.04456,52.53515],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fleckney Baptist Church, High Street, Fleckney LE8 8AJ","description":"Open from 24-10-22. We also run a parent and toddler group on Thursday Mornings, 9am-10:30am","hours":"Fr 10:30-12:30, Su 10:30-12:00","title":"Fleckney Baptist Church"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.79531,51.21060],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Market Place, Charing, Kent TN27 0LR","description":" Please visit our website for services provided at your local library. Find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","hours":"Tu 09:00-13:00, We 09:00-13:00, Th 09:00-13:00, Fr 13:00-17:00, Sa 09:00-13:00","title":"Charing Library "},"type":"Feature"}

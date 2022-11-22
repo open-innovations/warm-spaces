@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.36418,53.19976],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cheshire West and Chester, 22 Libraries, Cheshire Cheshire West","description":"For details of individual libraries see https://www.cheshirewestandchester.gov.uk/residents/libraries/find-a-library","title":"Cheshire West and Chester Libraries"},"type":"Feature"}

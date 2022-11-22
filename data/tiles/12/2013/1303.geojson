@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.05466,54.61876],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Threlkeld Village Hall, Station Road, Threlkeld, Cumbria CA12 4RY","description":"Open from 18-11-2022.","hours":"Fr 13:00-17:30","title":"CA12 Winter Warmth Initiative"},"type":"Feature"}

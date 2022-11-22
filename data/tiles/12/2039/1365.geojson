@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.75508,51.28989],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Farnborough Library, Pinehurst, Farnborough GU14 7JZ","description":"We have a cafe in the library","hours":"Mo 09:30-17:00, Tu 09:30-13:30, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Farnborough Library- Hampshire Libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.73164,51.31105],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Balmoral Drive, Frimley, Surrey GU16 9AR","description":"we have easy access and parking Join us on Tuesdays at our Popin Cafe -14:00 -15:30 Free drinks biscuits and cakes, open to all to chat do puzzles knit read relax","hours":"Tu 14:00-15:30","title":"Frimley Baptist Church"},"type":"Feature"}

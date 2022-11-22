@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.29951,51.61663],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kings Road, Brentwood, Essex CM14 4DR","hours":"Mo 10:30-13:00","title":"Brentwood Baptist Church"},"type":"Feature"}

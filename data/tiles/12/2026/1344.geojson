@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.89256,52.47019],"type":"Point"},"properties":{"_source":"warm_welcome","address":"BIRMINGHAM VINEYARD, 174-178 BARFORD ST, BIRMINGHAM, West Midlands B5 7EP","description":"We are a Christian church, seeking to bless the community and show Jesus' heart for people. Our Sundays are open to anyone, just expect a Christian presence! On Friday mornings we run a Stay-and-Play group for families to bring their children to, and on Friday evenings we run a youth club for 11-18yr olds. More details available on our website.","hours":"Fr 10:00-11:15, Su 10:30-12:00","title":"Birmingham Vineyard Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.91690,52.43753],"type":"Point"},"properties":{"_source":"warm_welcome","address":"953 Pershore Road, Selly Park, Birmingham B29 7PS","description":"Open from 01-11-2022. We also have side rooms that can be booked for Zoom meetings.","hours":"Tu 08:30-17:30, We 11:30-14:00, Fr 10:30-12:00","title":"Christ Church Selly Park"},"type":"Feature"}

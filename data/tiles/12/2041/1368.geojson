@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.60081,51.17630],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old Rectory, Godalming, Surrey GU7 1XB","description":"Open from 19 Nov 2022.","hours":"Sa 14:00-17:00","title":"Busbridge&Hambledon Church"},"type":"Feature"}

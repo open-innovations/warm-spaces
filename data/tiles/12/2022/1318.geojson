@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.23429,53.82478],"type":"Point"},"properties":{"_source":"warm_welcome","address":"28C Colne Road, Brierfield, Nelson, Lancashire BB9 5 NS","description":"Open from 27 10 2022. Magazines, games available, knitting needles and wool available","hours":"Th 11:30-13:30","title":"Brierfield Methodist Church"},"type":"Feature"}

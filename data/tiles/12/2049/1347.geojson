@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.12815,52.28853],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cottenham Library, Margett Street, Cottenham CB24 8QY","description":"","hours":"Mo 13:00-18:00, Tu 10:00-13:00, We 10:00-13:00, Th 10:00-13:00, Sa 10:00-13:00","title":"Cottenham Library"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.79034,50.92767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fordingbridge Library, Roundhill, Fordingbridge SP6 1AQ","description":" Warm event every Tuesday 2pm-4pm. Come along to the library for a warm welcome to play games, do puzzles and enjoy a warm drink.","hours":"Tu 09:30-17:00, We 09:30-17:00, Fr 09:30-17:00, Sa 09:30-13:30","title":"Fordingbridge Library- Hampshire Libraries"},"type":"Feature"}

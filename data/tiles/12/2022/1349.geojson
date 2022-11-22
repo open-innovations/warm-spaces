@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.22247,52.19433],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bank House, 7 Shaw Street, Worcester, Worcestershire WR13QQ","description":"Open from 04/11/2022. Our focus is to cater for anyone over the age of 50.","hours":"Fr 10:00-14:00","title":"Age UK Worcester and Malvern Hills"},"type":"Feature"}

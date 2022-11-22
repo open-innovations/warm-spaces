@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.74688,53.79622],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Light Centre, Bradford, W Yorks BD1 4EJ","description":"","hours":"Mo 13:30-15:30, We 11:00-14:00","title":"Bradford Central Foodbank & Advice Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.75526,53.79316],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Centenary Square 9 Aldermanbury, Bradford, West Yorkshire BD1 1SD","description":"","hours":"Mo 09:00-19:00, Tu 09:00-19:00, We 09:00-19:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:00-17:00","title":"Bradford Libraries"},"type":"Feature"}

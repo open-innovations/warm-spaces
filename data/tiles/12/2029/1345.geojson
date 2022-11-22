@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.64637,52.39253],"type":"Point"},"properties":{"_source":"warm_welcome","address":"228 Station Road, Balsall Common, West Midlands CV77EE","description":"Open from 01-11-2022.","hours":"Mo 09:30-11:30, Fr 14:00-16:00","title":"Balsall Common Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.64620,52.38991],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Blessed Robert Grissold Catholic Church, Meeting House Lane, Coventry CV77FX","description":"Open from 01/11/2022.","hours":"Tu 10:30-12:30","title":"BRG Catholic Church"},"type":"Feature"}

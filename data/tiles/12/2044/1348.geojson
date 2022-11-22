@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.26640,52.22312],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 Berkley St, Eynesbury, St Neots PE19 2NB","description":"Open from 07122022.","hours":"Th 12:00-16:00","title":"Berkley St Methodist Church St. Neots"},"type":"Feature"}

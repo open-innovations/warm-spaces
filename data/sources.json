@@ -12,7 +12,7 @@
 	"bedford_council": {
 		"count": 25,
 		"data": { "type": "html", "url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces" },
-		"geocount": "0",
+		"geocount": 25,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -76,7 +76,7 @@
 	"gateshead_council": {
 		"count": 30,
 		"data": { "type": "html", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory" },
-		"geocount": "0",
+		"geocount": 30,
 		"id": "gateshead_council",
 		"map": { "type": "googlemap", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title": "Gateshead Council",
@@ -137,7 +137,7 @@
 	"southwalk_council": {
 		"count": 30,
 		"data": { "type": "html", "url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces" },
-		"geocount": "0",
+		"geocount": 30,
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
@@ -194,7 +194,7 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 400,
+		"count": 769,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
 		"geocount": 769,
 		"id": "warm_spaces",
@@ -230,7 +230,7 @@
 	"wolverhampton_council": {
 		"count": 23,
 		"data": { "type": "html", "url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces" },
-		"geocount": "0",
+		"geocount": 21,
 		"id": "wolverhampton_council",
 		"title": "Wolverhampton Council",
 		"url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"

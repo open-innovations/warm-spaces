@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.99696,54.07237],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4 Garrs Lane, Grassington, North Yorkshire BD23 5AT","description":"We cater for the locals from the village. Free tea/coffee","hours":"Mo 11:30-22:00, Tu 11:30-22:00, We 11:30-22:00, Th 11:30-22:00, Fr 11:30-22:00, Sa 11:30-22:00, Su 11:30-22:00","title":"Black Horse Hotel"},"type":"Feature"}

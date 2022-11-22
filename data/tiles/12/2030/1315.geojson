@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.53421,54.00237],"type":"Point"},"properties":{"_source":"warm_welcome","address":"71 Skipton Road, Harrogate, North Yorkshire HG1 4LF","description":"","title":"Full Circle Funerals Ltd"},"type":"Feature"}

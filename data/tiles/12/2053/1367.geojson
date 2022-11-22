@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.49992,51.23125],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Heath Road, Coxheath, Kent ME17 4EH","description":" Visit our website for more information on what your local library offers, and find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","title":"Coxheath Library"},"type":"Feature"}

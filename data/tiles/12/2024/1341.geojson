@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.04332,52.61538],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Milestone Way, Willenhall, UK Mainland WV12 5YA","description":"","hours":"Mo 10:00-12:30","title":"Friends of Willenhall Memorial Park"},"type":"Feature"}

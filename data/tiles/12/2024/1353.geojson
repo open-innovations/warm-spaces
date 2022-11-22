@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.05910,51.94597],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bishops Cleeve Library, Tobyfield Road, Cheltenham GL52 8NN","description":"","hours":"Mo 13:00-17:00, Tu 13:00-17:00, We 10:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-15:00","title":"Bishops Cleeve Library"},"type":"Feature"}

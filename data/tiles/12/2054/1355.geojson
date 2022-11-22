@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.54693,51.87582],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, London Road, Braintree, Essex CM7 2LD","description":"","hours":"Tu 15:30-17:30","title":"Christ Church Braintree"},"type":"Feature"}

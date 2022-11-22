@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.43626,54.34237],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Church Saints, Northallerton, North Yorkshire DL7 8LU","description":" We have a small library, magazines, jigsaws etc. We are a working church and occassionally times may change ","hours":"Tu 12:00-16:00, We 10:00-13:00","title":"All Saints Church"},"type":"Feature"}

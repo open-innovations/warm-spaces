@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.65065,53.57463],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wakefield Road, Denby Dale, Huddersfield, West Yorkshire HD8 8RX","description":" All our libraries are heated, comfortable to stay in for long periods of time - they have a range of both comfy seating, and more functional furniture for study or computer use. A place to keep warm, meet friends, sit and read and take part in activities.","hours":"Mo 13:00-18:00, Tu 10:00-13:00, We 13:00-17:00, Fr 10:00-13:00, Sa 10:00-12:00","title":"Denby Dale Library"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.06568,52.21881],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sackville House, Cambourne, Cambridgeshire CB23 6HL","description":"Open from 25.10.2022.","hours":"Mo 09:00-17:00, Tu 09:00-13:00, Th 16:00-19:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Cambourne Library"},"type":"Feature"}

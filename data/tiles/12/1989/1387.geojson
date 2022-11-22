@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.17294,50.11684],"type":"Point"},"properties":{"_source":"warm_welcome","address":"W.I. Hall, Bowling Green, Constantine, Falmlouth, Cornwall TR11 5AP","description":"Open from last Monday each month. W.I. hall offering free hot drinks, soup and pudding, friendship and warm space once a month.","hours":"Mo 10:30-15:00","title":"Constantine W.I."},"type":"Feature"}

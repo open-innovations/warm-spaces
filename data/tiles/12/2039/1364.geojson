@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.75206,51.39099],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Birch Hill Library, Bracknell, Berkshire RG12 7WW","description":"","hours":"Mo 14:00-16:45, Tu 11:00-16:45, Th 10:00-16:45, Fr 14:00-19:00, Sa 09:30-12:15","title":"Birch Hill Library"},"type":"Feature"}

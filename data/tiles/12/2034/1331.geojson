@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.19318,53.14314],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Side, Mansfield, Nottinghamshire NG18 1AP","description":" Trussell Trust satellite Foodbank site (same day, 10-12:30). We have a microwave if anyone brings a heatable meal, free hot drinks/cuppa soups, toast","hours":"We 10:00-14:00","title":"Church of St Peter and St Paul"},"type":"Feature"}

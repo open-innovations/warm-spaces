@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.41714,51.44980],"type":"Point"},"properties":{"_source":"warm_welcome","address":"166 Bedfont Lane, Feltham, London TW14 8AQ","hours":"Mo 11:00-13:00, Tu 18:00-19:00, We 10:00-12:00, Th 10:00-12:00, Su 10:30-12:00","title":"Feltham Salvation Army"},"type":"Feature"}

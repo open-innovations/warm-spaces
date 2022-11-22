@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.25415,52.85953],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High street, Eccleshall, Staffordshire ST21 6BZ","description":"Everyone welcome","title":"Eccleshall library"},"type":"Feature"}

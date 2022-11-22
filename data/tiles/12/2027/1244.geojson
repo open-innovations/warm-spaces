@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.77857,57.50556],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chapel Street, Peterhead, Aberdeenshire AB42 1ZD","description":" Community Cafe","hours":"We 12:00-13:15","title":"Apex Church"},"type":"Feature"}

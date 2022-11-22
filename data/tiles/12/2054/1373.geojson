@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.58869,50.86568],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mount Pleasant Road, Hastings, East Sussex TN34 3SB","description":"","hours":"We 10:30-13:00","title":"Calvert Memorial Methodist Church"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.35675,53.71971],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Beancroft Street, Castleford, West Yorkshire WF10 5RR","description":"Open from 11/11/22. Grab a comfy chair and a brew, read a paper/magazine, access free wi-fi, light lunch served from 12pm","hours":"Fr 10:00-14:00","title":"Five Towns Christian Fellowship"},"type":"Feature"}

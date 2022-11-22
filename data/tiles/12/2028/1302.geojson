@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.68047,54.65473],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 WESTFIELD ROAD, BISHOP AUCKLAND, COUNTY DURHAM DL14 6AE","description":"Everyone is welcome We work with our neighbours, Bishop Auckland Methodist Church, they are open as a Warm Space 10:00 to 15:00 Mondays and Fridays, so between us, we offer five days a week.","hours":"Tu 10:00-15:00, We 10:00-15:00, Th 10:00-15:00","title":"Bishop Auckland Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.67700,54.65569],"type":"Point"},"properties":{"_source":"warm_welcome","address":"21 Cockton Hill Road, Bishop Auckland, Durham DL14 6EN","description":"Open from 31-10-2022. The Baptist Church across the street is open Tue-Thurs","hours":"Mo 10:00-15:00, Fr 10:00-15:00","title":"Bishop Auckland Methodist Church"},"type":"Feature"}

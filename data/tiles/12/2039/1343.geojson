@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.70375,52.48697],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Corby Library @ Corby Cube, Corby, Northants NN17 1QG","description":"","hours":"Mo 09:00-18:00, Tu 09:00-18:00, We 09:00-18:00, Th 09:00-18:00, Fr 09:00-18:00, Sa 09:00-17:00","title":"Corby Library"},"type":"Feature"}

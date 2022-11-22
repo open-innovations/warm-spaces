@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.26178,51.12815],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Tunbridge Wells, Kent TN1 1UT","description":" Thrive community cafe provides a warm welcome, free hot drinks and delicious cake. We look forward to seeing you.","hours":"Tu 14:00-15:30, Th 10:00-12:00","title":"Christ Church"},"type":"Feature"}

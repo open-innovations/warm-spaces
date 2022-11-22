@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.22458,50.91841],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Riverside, Hemyock, Cullompton EX15 3SH","description":"Open from 01/11/2022.","hours":"Tu 10:00-15:00","title":"Blackdown Healthy Living and Activity Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.23264,50.91107],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Rooms, Hemyock, Cullompton EX15 3RQ","description":"Open from 01-11-22.","hours":"Th 10:00-15:00","title":"Blackdown Support Group"},"type":"Feature"}

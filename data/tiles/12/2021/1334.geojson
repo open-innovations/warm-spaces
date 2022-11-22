@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.34052,52.99601],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bar Hill/Vicarage Lane, Madeley, Crewe CW3 9PH","description":" Our warm space is part of the Madeley Hub, hosted by All Saints Church. It includes the local Trussell Trust foodbank, a toddler craft and play corner, and a welcoming space to come and have a chat.","hours":"We 10:30-12:00","title":"All Saints Church"},"type":"Feature"}

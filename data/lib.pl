@@ -34,7 +34,10 @@ sub warning {
 	$str =~ s/(^[\t\s]*)/$1$colours{'yellow'}WARNING:$colours{'none'} /;
 	print STDERR $str;
 }
-
+sub getURL {
+	my $url = $_[0];
+	return @lines = `wget -q -e robots=off  --no-check-certificate -O- "$url"`;
+}
 sub getJSON {
 	my (@files,$str,@lines);
 	my $file = $_[0];
@@ -308,6 +311,63 @@ sub niceHours {
 		if($hh >= 24){ $hh -= 12; }
 	}
 	return sprintf("%02d:%02d",$hh,$mm);
+}
+
+my %postcodes;
+my %postcodelookup;
+
+sub getPostcode {
+	my $postcode = $_[0];
+	my ($i,@lines,$pc);
+	
+	$postcode =~ /^([A-Z]{1,2})/;
+	$pc = $1;
+	$postcode =~ s/ //g;
+	
+	if(!$postcodes{$pc}){
+	
+		@lines = getURL("https://odileeds.github.io/Postcodes2LatLon/postcodes/".$pc.".csv");
+		msg("\tDownloaded postcodes for $pc.\n");
+		$postcodes{$pc} = 1;
+
+		if(@lines > 1){
+			for($i = 1; $i < @lines; $i++){
+				$lines[$i] =~ s/[\n\r]//g;
+				($p,$lat,$lon) = split(/,/,$lines[$i]);
+				$p =~ s/ //g;
+				$postcodelookup{$p} = {'lat'=>$lat,'lon'=>$lon};
+			}
+		}
+	}
+	return $postcodelookup{$postcode};
+}
+
+sub addLatLonFromPostcodes {
+	my @places = @_;
+	my (@features,$i,$n,$postcode,$pc);
+	$n = @places;
+	
+	for($i = 0; $i < $n; $i++){
+		if(!$places[$i]{'lat'} && $places[$i]{'address'}){
+			# Match to a UK postcode
+			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+			if($places[$i]{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
+				$postcode = $2;
+				# Now we need to find the postcode areas e.g. LS, BD, M etc and load those files if we haven't
+				$pc = getPostcode($postcode);
+				if($pc->{'lat'}){
+					$places[$i]->{'lat'} = $pc->{'lat'};
+				}
+				if($pc->{'lon'}){
+					$places[$i]->{'lon'} = $pc->{'lon'};
+				}
+			}
+			
+		}
+	}
+
+	@features = @places;
+	return @features;
 }
 
 1;

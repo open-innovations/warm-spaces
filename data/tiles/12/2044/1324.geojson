@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.31642,53.49593],"type":"Point"},"properties":{"_source":"warm_welcome","address":"28 Plough Hill, Caistor , Market Rasen LN76LZ","description":"Open to all. Caistor Community Library (Free Membership) has almost 4000 books, a puzzle library, computers, wifi and reading nooks. A cafe downstairs and art exhibitions. ","hours":"Mo 09:30-16:00, Tu 09:30-16:00, We 09:30-16:00, Th 09:30-16:00, Fr 09:30-16:00, Sa 09:30-16:00","title":"Caistor Arts & Heritage Centre"},"type":"Feature"}

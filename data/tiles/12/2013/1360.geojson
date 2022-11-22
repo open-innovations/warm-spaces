@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.04748,51.59059],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cefn Road, Rogerstone , Newport NP10 9AS","description":"Open from 11 11 2022. All are welcome we offer free hot drinks and free soup and toasted sandwich","hours":"Fr 11:30-14:30","title":"Bethesda baptist Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.04674,51.58450],"type":"Point"},"properties":{"_source":"warm_welcome","address":"3 Thornbury Park, Rogerstone, Newport NP10 9DP","description":"Open from 07 11 2022. all are welcome we offer free hot drinks we also offer free soup and toasted sandwich","hours":"Mo 11:30-14:30","title":"Cefn Wood Baptist church"},"type":"Feature"}

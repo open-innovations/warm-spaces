@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.21445,53.20413],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o Hole In The Wall, Shirebrook, Derbyshire NG208PE","description":" Community Fridge, Craft Clubs, Skills and emplyoment support","hours":"Mo 16:00-18:00, Tu 10:00-12:00, We 10:00-12:00, Th 16:00-18:00","title":"BUILDING LIVES AROUND SHIREBROOK TOWN CIC"},"type":"Feature"}

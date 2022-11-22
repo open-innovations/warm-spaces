@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.87382,52.24890],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Abington Avenue United Reformed Church Abington Avenue , Northampton , Northamptonshire NN1 4QA","description":" Open from 01-11-22. 2 course set meal is available cost £5 booking in advance through church office 01604 604623","hours":"Fr 10:00-15:00","title":"Abington Avenue United Reformed Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.86781,52.25781],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Broadmead Community Church, Northampton, Northamptonshire NN3 2QY","description":" we also have a charger station to power up your phone","hours":"Mo 18:30-20:30, Tu 10:00-12:30, Th 10:00-12:30, Su 10:00-12:00","title":"Broadmead Community Church"},"type":"Feature"}

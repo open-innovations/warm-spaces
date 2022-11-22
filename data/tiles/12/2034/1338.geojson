@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.14693,52.75103],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Beveridge Street, Barrow upon Soar, Loughborough, Leicestershire LE128QQ","description":"Fridays is for seniors only. Anyone welcome to church services on Sundays.Available to all. Cafe on Monday and Tuesday.","hours":"Mo 11:00-12:30, Tu 11:30-13:30, Fr 10:00-12:00, Su 10:00-11:30","title":"Barrow Baptist Church"},"type":"Feature"}

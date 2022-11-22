@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.93776,50.84959],"type":"Point"},"properties":{"_source":"warm_welcome","address":"North Street, Emsworth, Hampshire PO10 7BY","description":"Open from 14-11-2022. All welcome. Come and enjoy a warm welcome with tea, coffee and biscuits and areas set aside for games and puzzles, quiet reading and craft activities.","hours":"Mo 13:00-16:00, Tu 13:00-16:00, Fr 13:00-16:00","title":"Emsworth Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.93733,50.84789],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Emsworth Library, Emsworth Community Centre, North Street, Emsworth PO10 7DD","hours":"Tu 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-13:30","title":"Emsworth Library- Hampshire Libraries"},"type":"Feature"}

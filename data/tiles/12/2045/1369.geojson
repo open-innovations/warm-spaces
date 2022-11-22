@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.20538,51.09734],"type":"Point"},"properties":{"_source":"warm_welcome","address":"46 Broadfield Barton, Broadfield, Crawley, West Sussex RH11 9BA","description":" Whilst we do not have a public toilet we do have an accessible toilet in one of our bookable rooms that we do allow customers to use. There is a public car park in use for the whole Bartons. ","hours":"Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-14:00","title":"Broadfield Library "},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.19825,51.11898],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Charis Centre, West Green Drive, Crawley, West Sussex RH11 7EL","description":"","hours":"Mo 08:30-17:00, Tu 08:30-17:00, We 08:30-17:00, Th 08:30-17:00, Fr 08:30-17:00","title":"Crawley Community Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.18291,51.11407],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Southgate Avenue, Crawley, West Sussex RH10 6HG","description":" There is a cafe 'Esquire' on the premises. ","hours":"Mo 09:00-18:00, Tu 09:00-18:00, We 09:00-18:00, Th 09:00-18:00, Fr 09:00-18:00, Sa 09:00-17:00","title":"Crawley Library"},"type":"Feature"}

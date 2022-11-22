@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.20234,53.70436],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church with St John, Burnley Road, Bacup OL13 8AB","description":"Open from 09/11/2022.","hours":"We 15:30-17:30","title":"Bacup Living Room"},"type":"Feature"}

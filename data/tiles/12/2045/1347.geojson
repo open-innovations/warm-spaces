@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.24643,52.29255],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Burberry Road, Buckden, Cambridgeshire PE19 5UY","description":"Open from 18/10/22.","hours":"Tu 10:00-13:00, Th 14:00-17:00, Fr 16:00-19:00, Sa 10:00-13:00","title":"Buckden Library"},"type":"Feature"}

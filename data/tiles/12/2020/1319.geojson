@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.39057,53.75324],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ernest Street Baptist Chapel, Ernest Street, Church, Lancashire BB5 4HP","description":"","hours":"We 07:30-09:30","title":"Ernest Street Baptist Chapel"},"type":"Feature"}

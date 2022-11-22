@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.79372,51.36814],"type":"Point"},"properties":{"_source":"warm_welcome","address":"162 High street, Crowthorne, Berkshire RG45 7AT","description":"","hours":"Mo 09:30-16:45, Tu 09:30-16:45, We 09:30-16:45, Th 09:30-18:45, Fr 09:30-16:45, Sa 09:30-15:45","title":"Crowthorne Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.86004,51.38072],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Finchampstaed Library, FBC Centre, Gorse Ride North, Finchampstead RG40 4ES","description":" Free wifi and free computer access is available to library members - if ypu are over 18 you can join the library if you have ID showing your name and address (i.e. driving licence)","hours":"Mo 14:00-17:00, Tu 14:00-17:00, We 09:30-13:00, Th 14:00-17:00, Fr 09:30-13:00, Sa 09:30-12:30","title":"Finchampstead Library"},"type":"Feature"}

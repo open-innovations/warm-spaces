@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.25944,53.49813],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Naz Community Hall, Great Clowes Street, Lower Broughton, Salford M7 1ZQ","description":"Everyone is welcome. We are hoping to develop more child-friendly spaces over the coming months. Our Pop-Up Café is open to everyone! We serve free hot drinks, biscuits and a light lunch. Ask about our Food and Clothes Pantry or drop into our Wednesday Craft Group for adults, 10am-12pm.","hours":"Tu 12:00-14:30, We 10:00-15:30, Th 10:00-14:00, Su 12:30-14:15","title":"BCC-Salford (Naz Community Hall)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.23839,53.50635],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Khizra Mosque 421-425 Cheetham Hill Road, Manchester, Greater Manchester M8 0PF","description":"Monday for women and friday for men in the community hallMonday for women and friday for men in the community hall","hours":"Mo 09:30-12:30, Fr 14:00-16:00","title":"Communities for All / Khizra Mosque"},"type":"Feature"}

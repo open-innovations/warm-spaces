@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.32008,51.23357],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Frome Library, Justice Lane, Frome BA11 1BE","description":"Variety of weekly activities including Toddler Time Tuesdays 10am and Fridays 11am; Babie Boogie Tuesdays 11am, Toy Library Wednesdays 1pm (small charge), Knit and Natter Thursdays 2pm","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Frome Library"},"type":"Feature"}

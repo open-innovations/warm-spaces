@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.53693,53.35279],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ringinglow Road, Sheffield, England S11 7PP","description":"Open from 08-11-2022. We will have activities each week including jigsaws, books and crafts","hours":"Th 10:00-12:30","title":"All Saints Church, Ecclesall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.49863,53.36948],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wilson Rd, Sheffield S11 8RN","description":" We open our Warm Space most Fridays, please contact the office for opening times.","title":"City Church Sheffield"},"type":"Feature"}

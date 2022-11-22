@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.31628,54.56432],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dovecot Street, Stockton on Tees, Tees Valley TS18 1LL","description":" We have a café on the ground floor, but everyone is welcome to make use of the seating areas on the first floor and in the Gallery (second floor) of ARC, with no need to buy anything. ","hours":"Mo 12:00-16:00, Tu 10:00-18:00, We 10:00-21:00, Th 10:00-21:00, Fr 10:00-21:00, Sa 10:00-21:00","title":"ARC Stockton"},"type":"Feature"}

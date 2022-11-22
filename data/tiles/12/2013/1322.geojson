@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.03780,53.60228],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Southport, Merseyside PR8 3HW","description":"","hours":"Tu 10:30-12:00, Fr 11:00-13:00","title":"Ainsdale Village Church"},"type":"Feature"}

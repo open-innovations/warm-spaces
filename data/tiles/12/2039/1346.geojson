@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.77529,52.37486],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Broughton, Kettering NN14 1NF","description":"Open from 1st November 2022. There will be games and puzzles available","hours":"Tu 14:00-17:00","title":"Broughton Baptist Church"},"type":"Feature"}

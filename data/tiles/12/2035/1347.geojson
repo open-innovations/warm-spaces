@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.08498,52.29812],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Long Buckby, Northants NN6 7QB","description":"","hours":"Tu 10:00-16:30, We 14:00-16:00, Th 10:00-16:30, Fr 10:00-16:30, Sa 10:00-12:30","title":"Buckby Library & Hub"},"type":"Feature"}

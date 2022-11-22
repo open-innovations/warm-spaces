@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.25560,53.48586],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Charlie's cafe, Harrogate court , Denaby main , Doncaster Dn12 4hb","description":"We cater for absolutely everyone, with budget friendly options available daily. ","hours":"Mo 09:00-13:30, Tu 09:00-13:30, We 09:00-13:30, Th 09:00-13:30, Fr 09:00-13:30, Sa 09:00-13:30","title":"Charlie's cafe harrogate court "},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.23738,53.48253],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ivanhoe Centre, Doncaster, Yorkshire DN123JX","description":"Open from 30/9/2022.","hours":"Mo 09:30-15:00, Tu 09:30-15:00, We 09:30-15:00, Th 09:00-16:00, Fr 09:00-14:30","title":"Conisbrough Community Association"},"type":"Feature"}

@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.22376,51.69430],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Pant Street, Aberbargoed, Caerphilly CF81 9BB","description":"Open from The Library closes for lunch between 13:00 and 14:00 hours.","hours":"Tu 09:30-18:00, We 09:30-17:00, Th 09:30-17:00","title":"Aberbargoed Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.22874,51.69011],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bargoed Library, Hanbury Chapel, Bargoed, Caerphilly CF81 8QR","description":" Croeso i Bawb | All Welcome CADW 2* Safle Treftadaeth | CADW 2* Heritage Site","hours":"Mo 09:30-17:00, Tu 09:30-18:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-18:00, Sa 09:30-16:00","title":"Bargoed Library (Caerphilly Libraries)"},"type":"Feature"}

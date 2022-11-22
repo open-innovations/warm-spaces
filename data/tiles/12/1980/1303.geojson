@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.95031,54.57826],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Belfast South Methodist Church at Agape Centre, Belfast BT9 6FW","description":"","hours":"Th 10:00-12:00, Fr 18:00-19:00","title":"Agape Centre, and Belfast South Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.89466,54.59904],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Block C, 310 Newtownards Road, Belfast, Antrim BT4 1HE","description":"Open from 16-11-2022. Our focus is on elderly people for the Warm Welcome offering Bodega Bagels is offering 20% off to pensioners ","hours":"We 09:00-15:00","title":"Banana Block / Bodega Bagels"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.89861,54.58480],"type":"Point"},"properties":{"_source":"warm_welcome","address":"28-30 Cregagh Road, BELFAST BT6 9EQ","description":"Open from 12/11/2022.","hours":"Mo 10:30-13:00","title":"Cregagh Methodist Church"},"type":"Feature"}

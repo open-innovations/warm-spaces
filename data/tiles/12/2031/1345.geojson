@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.47470,52.39847],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Acorn Street, Coventry, West Midlands CV3 1DP","description":"Open to all. Join for free to use full facilities.Groups for children and adults - see website for more info. Free PC use 2 hours a day for library members, spaces to sit and study/read, board games on request, adult and child colouring sheets.","hours":"Mo 12:00-18:00, Tu 10:00-14:00, Th 12:00-18:00, Fr 10:00-14:00, Sa 10:00-16:00","title":"Aldermoor Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.45314,52.41440],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Axholme Road, Coventry CV2 5BD","description":"","hours":"Mo 14:00-18:00, Tu 14:00-18:00, Th 14:00-18:00, Fr 14:00-18:00, Sa 10:00-16:00","title":"Caludon Library"},"type":"Feature"}

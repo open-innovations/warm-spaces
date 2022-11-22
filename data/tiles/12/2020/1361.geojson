@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.41756,51.54126],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Yate, South Gloucestershire BS37 4FW","description":"","hours":"Mo 10:00-12:00, Th 09:00-15:00, Sa 10:00-13:00","title":"Armadillo Youth Cafe"},"type":"Feature"}

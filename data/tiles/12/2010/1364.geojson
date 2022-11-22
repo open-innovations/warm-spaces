@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.26745,51.39243],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Friars Road, Barry, Vale of Glamorgan CF62 5TR","description":"Open from 03112022.","hours":"Th 13:00-15:00","title":"Barry Island Community Centre/New Life Church Barry"},"type":"Feature"}

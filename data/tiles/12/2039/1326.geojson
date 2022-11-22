@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.77202,53.39221],"type":"Point"},"properties":{"_source":"warm_welcome","address":"x-church, Ashcroft Road, Gainsborough, Lincolnshire DN21 1BY","description":"","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Gainsborough Crisis Action Team"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.77805,53.40025],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gainsborough Library, Cobden Street, Gainsborough DN21 2NG","description":"It is free to join and use the library and everyone is welcome. Alongside free access to books, computers, casual and study seating, the Library runs a host of free activities for adults and children, including a Community Coffee Morning every Tuesday 10am-11am, there is no charge for refreshments.","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Gainsborough Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.78932,53.40816],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Roses Sports Ground, North Warren Road, Gainsborough, Lincolnshire DN21 2TU","description":"","hours":"Mo 13:00-15:00","title":"Gainsborough Trinity Foundation"},"type":"Feature"}

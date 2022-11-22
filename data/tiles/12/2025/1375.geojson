@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.95408,50.78644],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canford Magna Church Centre, Canford Magna, Dorset BH21 3AF","description":"Our focus is providing a warm spaces for families with children but all are welcome. Chilli Tuesday - warm space, hot food and time together. Free meal of either meat or vegan chilli and warm, welcoming space afterschool to play games as a family or get homework and reading done. ","hours":"Tu 16:00-18:00","title":"Canford Magna Parish Church"},"type":"Feature"}

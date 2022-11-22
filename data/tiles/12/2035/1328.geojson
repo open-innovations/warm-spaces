@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.10689,53.32057],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kilton Forest Golf Course , Blyth Road, Worksop S81 0TL","description":"Open from 1/11/22.","hours":"Mo 10:00-15:00, Tu 10:00-15:00, We 10:00-15:00, Th 10:00-15:00, Fr 10:00-15:00, Sa 10:00-15:00, Su 10:00-15:00","title":"BPL"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.11048,53.32496],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Thievesdale Close,, Worksop, Notts S81 0XS","description":"Open from 31-10-2022.","title":"Christ Church Worksop "},"type":"Feature"}

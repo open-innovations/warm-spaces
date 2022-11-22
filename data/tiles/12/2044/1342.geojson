@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.28770,52.57701],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Copeland , Bretton , Peterborough PE36YJ","description":"Open from 10 November 2022.","hours":"Tu 10:00-12:00, Th 10:00-12:00","title":"Bretton Baptist Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.28331,52.58853],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Rightwell East, Bretton,, Peterborough, Cambridgeshire PE3 8DX","description":" Baby changing, accessible toilets just outside","hours":"Th 11:00-14:00","title":"Church of the Holy Spirit"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.26550,52.53859],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Silver Hill, Hampton, Peterborough PE7 8FF","description":" Our coffee shop is also open Wed-Sat 9.30-3.30, and has a Pay It Forward system so guests are also welcome at other times of the week, outside main Hub hours, and can sit in the church as a quiet, warm space.","hours":"Tu 11:00-14:00, We 17:00-20:00","title":"CSK Church, Hampton"},"type":"Feature"}

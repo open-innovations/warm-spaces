@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.44145,51.60706],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bethabara Church, Williamstown, RCT CF40 1ND","description":"Open from 01/11/2022. Anyone welcome We have a parent/toddler group on a Tuesday between 9:30-12:30","hours":"Fr 13:00-16:00","title":"3D Church"},"type":"Feature"}

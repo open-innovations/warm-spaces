@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.52309,55.62367],"type":"Point"},"properties":{"_source":"warm_welcome","address":"24A South Back Road , Biggar , South Lanarkshire ML12 6AD","description":" Everyone Welcome. We provide a pop up cafe where you pay what you feel, if you can't afford to pay that's fine as well. Coffee, tea, hot chocolate and biscuits ","hours":"Mo 11:00-13:00, Tu 11:00-13:00, We 11:00-13:00, Th 11:00-13:00","title":"Biggar Youth Project SCIO"},"type":"Feature"}

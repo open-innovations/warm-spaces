@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.07424,51.32865],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Epsom Methodist Church, Epsom, Surrey KT19 5AQ","description":"Open from 02-11-2022.","hours":"We 09:00-18:00","title":"Epsom Methodist Church"},"type":"Feature"}

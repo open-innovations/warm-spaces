@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.21134,53.16313],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Market Square, Congleton, Cheshire East CW12 1ET","hours":"Mo 09:00-19:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Cheshire East Congleton Library"},"type":"Feature"}

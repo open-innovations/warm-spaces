@@ -117,7 +117,7 @@ a.button:hover, button:hover, button:focus, a.button:focus { background-color: #
 section { padding: 2em 0; }
 ul > li + *, ul > li > ul { margin-top: 0.5em; } 
 
-table { width: 100%; }
+table { width: 100%; color: black; }
 table th { background: #dfdfdf; font-family: Poppins; }
 table th, table td { padding: 0.5em; border: 1px solid #dfdfdf; }
 

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.92237,53.46873],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fazakerley Community Centre, Liverpool, liverpool L10 7LQ","description":"","hours":"Fr 10:00-16:00","title":"Fazakerley community library"},"type":"Feature"}

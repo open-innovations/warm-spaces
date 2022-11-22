@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.77696,53.76693],"type":"Point"},"properties":{"_source":"warm_welcome","address":"North Road, Bradford, West Yorkshire BD6 1TR","description":"","hours":"Mo 09:30-19:00, Tu 09:30-17:30, We 09:30-13:00, Th 09:30-19:00, Fr 09:30-17:30, Sa 09:30-16:00","title":"Bradford Libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.82114,53.78128],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Village hall Reva Syke Rd . Clayton, Bradford, West Yorkshire BD146QN","description":"","hours":"Fr 13:00-15:00","title":"Clayton Village Hall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.75932,53.79662],"type":"Point"},"properties":{"_source":"warm_welcome","address":"22 Shaw House, Bradford, West Yorkshire BD1 3SQ","hours":"We 10:00-02:00, Th 10:00-02:00","title":"FoodSavers"},"type":"Feature"}

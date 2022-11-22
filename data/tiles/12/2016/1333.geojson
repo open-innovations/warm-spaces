@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.76133,53.02767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Malpas Library, Bishop Heber High School, Malpas, Cheshire SY14 8JD","description":"","hours":"Tu 13:30-19:00, Th 13:30-19:00","title":"Cheshire West and Chester Libraries"},"type":"Feature"}

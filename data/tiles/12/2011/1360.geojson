@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.21981,51.57961],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Catherine's hall, Mill Road, Caerphilly, Caerphilly CF83 3NH","description":"Everyone is welcome. Join us for a free afternoon with hot drinks and biscuits","hours":"We 13:30-15:30","title":"Caerphilly & Aber Valley Ministry Area"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.21767,51.57427],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 The Twyn, Caerphilly, Caerphilly CF83 1JL","description":" Library closes daily between 1.00 - 2:00pm","hours":"Mo 09:30-17:00, Tu 09:30-17:00, We 09:30-18:00, Th 09:30-18:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Caerphilly Library"},"type":"Feature"}

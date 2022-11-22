@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.02894,50.86031],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crookhorn Lane, Widley, Waterlooville PO7 5QB","description":"Open from 01:03:2022. A warm hub accessible to all, our Bus Stop Cafe is open for tea/coffee, hot or cold breakfast and cake. Payment is by donation so pay what you can afford. We offer warmth & a friendly chat.","hours":"Mo 07:30-11:30, Tu 07:30-11:30, We 07:30-11:30, Th 07:30-11:30, Fr 07:30-11:30","title":"Church of the Good Shepherd Crookhorn"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.98662,50.86688],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Leigh Park Community Centre, Dunsbury way, Portsmouth, Hampshire po9 5bg","description":"Open from 07/11/22. We have a children's play area, hot food & beverages, books, board games, Classes and more","hours":"Mo 09:30-14:30, Tu 09:30-14:30, We 09:30-14:30, Th 09:30-14:30","title":"Communities First Wessex"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.02019,50.89554],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Durley Avenue, Cowplain, Waterlooville PO8 8XA","description":"Open from 21-11-2022. People of any age are welcome!","hours":"Mo 10:00-16:00, Fr 10:00-16:00","title":"Cowplain Evangelical Church"},"type":"Feature"}

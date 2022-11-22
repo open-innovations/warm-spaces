@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.48555,50.83344],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Arundel Road, Angmering, West Sussex BN16 4JS","description":" Toddler Time Thursdays 10.15-10.45am, Knit and Natter Wednesdays 2.30-4pm,days ","hours":"Mo 13:00-17:00, Tu 13:00-17:00, We 13:00-17:00, Th 09:00-13:00, Fr 09:00-13:00, Sa 09:00-13:00","title":"Angmering Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.48496,50.81175],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Street, East Preston, West Sussex BN16 1JJ","description":"Toddler Time Friday 11:00-11:30 Knit and Natter Thursday 10:30-12:00","hours":"Mo 13:00-17:00, Tu 13:00-17:00, We 13:00-17:00, Th 10:00-14:00, Fr 10:00-14:00, Sa 10:00-14:00","title":"East Preston Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.44755,50.81396],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ferring Library, The Street, Ferring BN12 5HL","description":"Toddler Times Tuesdays 10:30am-11:00am Board Games Mondays 10:00am -11:00am","hours":"Mo 09:00-13:00, Tu 09:00-13:00, We 13:00-17:00, Th 09:00-13:00, Fr 13:00-17:00, Sa 09:00-13:00","title":"Ferring library"},"type":"Feature"}

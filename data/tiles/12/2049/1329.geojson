@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.16747,53.25753],"type":"Point"},"properties":{"_source":"warm_welcome","address":"5 South Market Place, Alford, Lincolnshire LN13 9HY","description":" We also provide warm packs to support you in your own home. To make an appointment please call 01507 464901","hours":"Mo 09:00-12:00, Tu 09:00-12:00, We 09:00-12:00, Th 09:00-12:00, Fr 09:00-12:00","title":"Alford Hub "},"type":"Feature"}

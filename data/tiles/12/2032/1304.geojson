@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.34759,54.53107],"type":"Point"},"properties":{"_source":"warm_welcome","address":"https://allsaints-church.net/, 22 Dunottar Avenue, Preston On Tees TS16 0AB","description":"Open from 29-11-2022. Every monday we run a free cafe which is ongoing. The Tuesday sessions are within the date frame given but are likely to be extended. We are runnign in partnership with the Locomotion pub which is open Wed, Thurs, Fri with free hot drinks.","hours":"Mo 09:30-11:30, Tu 10:00-12:00","title":"All Saints Church Preston On Tees"},"type":"Feature"}

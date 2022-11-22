@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.05215,54.53578],"type":"Point"},"properties":{"_source":"warm_welcome","address":"4 - 6 Westgate , Guisbrough , Cleveland TS14 6BA","description":"","hours":"Mo 09:00-06:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00","title":"Brickyard Bakery cic"},"type":"Feature"}

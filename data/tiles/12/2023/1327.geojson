@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.18655,53.36669],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Road, Cheadle Hulme, Cheshire SK8 7JL","description":"Open from 02-11-2022. We are working with other churches across Cheadle Hulme; there will be one church space in our area open every day.","hours":"We 10:00-14:00","title":"All Saints Cheadle Hulme"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.16334,53.36306],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Robins Lane, Bramhall, Stoclport SK7 2PE","description":"Open from 7/11/2022. Child friendly, newspapers, board games","hours":"Mo 10:00-16:00","title":"Bramhall United Reformed Church"},"type":"Feature"}

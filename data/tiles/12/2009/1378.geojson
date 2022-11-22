@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.40874,50.62214],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29 North Street, Exmouth, Devon EX8 1JZ","hours":"Tu 13:00-15:00","title":"Christ Church, Exmouth 29 North Street, Exmouth EX8 1JZ"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.41310,50.61982],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7-9 Market Street , Exmouth, Devon EX8 1HP","hours":"Mo 09:30-12:30","title":"Community Church "},"type":"Feature"}

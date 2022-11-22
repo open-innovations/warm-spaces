@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.09463,53.57633],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Farrow Street East, Shaw, Oldham OL2 8QY","description":"Open from 03/10/2022.","hours":"Mo 09:00-19:00, Tu 09:00-19:00, We 09:00-19:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 09:30-13:00","title":"Crompton Library"},"type":"Feature"}

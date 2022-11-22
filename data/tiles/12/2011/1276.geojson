@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.21468,55.95336],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Queensferry Road, Edinburgh EH4 3DJ","description":"Open from 21-11-2022.","hours":"Mo 13:15-14:30, Th 13:15-14:30","title":"Bristo Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.20409,55.94379],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 West Tollcross, Edinburgh EH3 9BP","description":" We are a church cafe to which everyone is welcome. Drinks are on a free/pay what you can basis, and we also offer affordable cakes and soup.","hours":"Mo 10:00-16:00, Tu 10:00-16:00","title":"Central Church cafe Edinburgh"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.18258,55.94736],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army, 1 East Adam Street, Edinburgh EH8 9TF","description":"Open from 03-11-2022. Our 'Toasty' cafe is open from 10am-2.30pm serving simple hot food and drinks. Debt Advice Service and Digital Skills Training Service also running at the same time.","hours":"Th 10:00-14:30","title":"Edinburgh City Salvation Army"},"type":"Feature"}

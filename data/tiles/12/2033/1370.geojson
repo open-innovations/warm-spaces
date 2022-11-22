@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.29665,51.05937],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Petersfield Road, Winchester, Hampshire SO23 0JD","description":"Open from 15-11-2022. We are offering a warm co-working space, please book via https://allsaintsewb.org/whats-on/ We are offering one co-working space in All Saints Church Mancy Room between 12.00-17.00. Toilet, tea & coffee, wifi, power for laptops and phone charging available. There are 10 spaces available each day.","hours":"Tu 12:00-17:00, We 12:00-17:00","title":"All Saints Church"},"type":"Feature"}

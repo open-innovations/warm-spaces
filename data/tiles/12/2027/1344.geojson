@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.77091,52.44150],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Elmdon Park, Solihull, West Midlands B92 9EJ","description":"","hours":"Su 14:00-16:00","title":"Elmdon Church"},"type":"Feature"}

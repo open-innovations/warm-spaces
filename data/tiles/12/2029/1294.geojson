@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.59384,55.05627],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Market Street, Dudley, Tyne and Wear NE23 7HS","description":" All welcome. Services include books, magazines, games and toys, free use of PCs and wifi, high chairs and bottle warmers. Free hot drinks available Tuesday and Thursday 2pm - 5pm","hours":"Tu 09:00-13:00, Th 09:00-13:00, Sa 09:00-13:00","title":"Dudley Library"},"type":"Feature"}

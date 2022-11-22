@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.29304,56.11530],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Main Street, Buchlyvie FK8 3LX","description":"Open from 01-11-2022.","hours":"Tu 12:00-16:00, Th 12:00-16:00","title":"Buchlyvie Parish Church"},"type":"Feature"}

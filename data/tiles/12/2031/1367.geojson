@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.48812,51.21230],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Andover Baptist Church, Charlton Road, Andover, Hampshire SP10 3JH","description":"Open from 17-11-2022.","hours":"Th 15:00-17:00","title":"Andover Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.48016,51.20977],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Andover Library, Chantry Centre, Andover SP10 1LT","hours":"Mo 09:30-17:00, Tu 09:30-13:30, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Andover Library- Hampshire Libraries"},"type":"Feature"}

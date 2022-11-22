@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.02054,52.25460],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gladeside, Bar Hill, Cambridgeshire CB23 8DY","description":"Open from 23/10/2022. There is on street parking close to the library depending upon the time of your visit.","hours":"Mo 10:00-17:00, Tu 14:00-17:00, We 10:00-17:00, Fr 14:00-17:00, Sa 09:30-12:30","title":"Bar Hill Library"},"type":"Feature"}

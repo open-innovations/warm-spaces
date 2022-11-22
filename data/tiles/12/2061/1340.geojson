@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[1.22191,52.64588],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Breckland Road, Costessey, Norwich NR5 0RW","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 09:30-19:00, Tu 14:00-19:00, We 09:30-19:00, Fr 14:00-19:00, Sa 11:00-16:00","title":"Costessey Library"},"type":"Feature"}

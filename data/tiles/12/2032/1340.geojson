@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.36915,52.64757],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barlestone Baptist Church, Barlestone, Leics CV13 0EJ","hours":"We 10:00-16:00","title":"Barlestone Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.35808,52.64415],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Newbold Road, NUNEATON, Warwickshire CV13 0DZ","description":"Open from 10-10-2022. Every Friday lunch is available for £4.00 hot meal and a pudding, Booking is essential Tuesday morning we run a community cafe 10 -12 with a full menu","hours":"Mo 10:00-14:00, Tu 10:00-14:00, Th 10:00-14:00, Fr 10:00-14:00, Su 10:30-13:00","title":"Elohim Christian Church "},"type":"Feature"}

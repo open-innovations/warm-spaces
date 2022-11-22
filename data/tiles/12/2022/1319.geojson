@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.23550,53.78906],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The CVS Centre, 62/64 Yorkshire Street, Burnley, Lancashire BB11 3BT","description":" Warm drink and biscuit available.","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00","title":"Burnley, Pendle & Rossendale CVS"},"type":"Feature"}

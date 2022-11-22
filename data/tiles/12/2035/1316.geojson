@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.12882,53.95416],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Front Street, Acomb, York YO24 3BX","description":" Open Fridays (term-time only). A family-friendly community space. Free entry, with low-cost refreshments available. Toys and high chairs for small children; free WiFi and possibilities to charge devices.","hours":"Fr 10:00-13:30","title":"Acomb Methodist Church"},"type":"Feature"}

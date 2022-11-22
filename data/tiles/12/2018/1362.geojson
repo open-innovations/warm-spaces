@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.57178,51.45739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Salvation Army Hassell Drive Newtown, Newtown, Bristol BS2 0AN","description":"Open from Thursday 3rd November 2022 . we have laundry facilities ","hours":"Mo 14:00-18:00, Tu 15:00-21:00, Th 15:00-21:00","title":"Bristol Easton Salvation Army "},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.60431,51.48009],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cairns Road, Westbury Park, Bristol BS6 7TH","description":"Open from 01/11/2022.","hours":"Tu 18:00-21:00","title":"Cairns Road Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.57484,51.49409],"type":"Point"},"properties":{"_source":"warm_welcome","address":"286 Filton Avenue, Horfield, Bristol BS7 0BA","description":"Open from 01-11-2022.","hours":"Mo 09:00-11:00, We 01:30-03:30, Th 10:30-12:30, Fr 09:00-10:30","title":"Ebenezer Church"},"type":"Feature"}

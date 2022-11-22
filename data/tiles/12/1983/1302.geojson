@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.66609,54.66468],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crosby Street , Bangor, County Down BT20 5EE","description":"","hours":"Mo 10:30-12:30","title":"Bangor Salvation Army "},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.66867,54.66050],"type":"Point"},"properties":{"_source":"warm_welcome","address":"100 Main Street, Bangor, Down BT20 4AG","hours":"Mo 09:00-16:00, Tu 09:00-16:00, We 09:00-16:00, Th 09:00-16:00, Fr 09:00-16:00","title":"First Presbyterian Church Bangor"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.46994,54.84219],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old Rectory, The Broadway, Houghton-le-Spring, Tyne and Wear DH4 4BB","description":" Our warm space is a comfy and cosy atmosphere, with relaxing music, plenty of books, even toys and activities for the little ones","hours":"Mo 13:00-15:00, Tu 13:00-15:00, Fr 09:00-12:00","title":"Acumen Community Buildings"},"type":"Feature"}

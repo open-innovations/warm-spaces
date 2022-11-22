@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.36715,55.84665],"type":"Point"},"properties":{"_source":"warm_welcome","address":"49 Kelhead Path, Glasgow G52 2QD","description":"Our cafe offers free refreshments and is open to all","hours":"We 10:30-12:30","title":"CBC Community Church"},"type":"Feature"}

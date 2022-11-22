@@ -30,7 +30,7 @@ sub makeTiles {
 	my ($str,$filegeo,$coder,$tiler,$dir,$f,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop);
 
 	$dir = ("tiles");
-	@zooms = split(/[\:\;]/,$zoom||"12");
+	@zooms = split(/[\:\;]/,$zoom||"10");
 
 	if(!-d $dir){
 		`mkdir $dir`;

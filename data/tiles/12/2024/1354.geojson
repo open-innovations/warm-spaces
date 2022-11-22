@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.08125,51.89071],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Great Norwood Street, Cheltenham, Gloucestershire GL50 2AP","description":"Open from 9/11/22.","hours":"We 10:00-16:00","title":"Bethesda Church Cheltenham"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.07356,51.89932],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cambray Baptist Church, Cheltenham, Glocuestershire GL50 1JS","description":"","hours":"Fr 12:00-14:00","title":"Cambray Baptist Church"},"type":"Feature"}

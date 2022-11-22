@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.02784,53.59677],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Stainforth Family Hub, Junction Road,, Stainforth,, Doncaster, DN7 5DH","description":"Families are welcome with children of all ages from conception, through childhood to adolescence and even older if your child has a special need. Doncaster Family Hubs are the 'place to go'. We work with other providers to offer a range of activities, services and information for you and your family. ","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-16:00","title":"Doncaster Council, East Family Hubs"},"type":"Feature"}

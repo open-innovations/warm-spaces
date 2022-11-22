@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.00532,53.79996],"type":"Point"},"properties":{"_source":"warm_welcome","address":"8 Langdale Road, Blackpool, Lancashire FY4 4RT","description":"Everyone's welcome, no-one's perfect, anything's possible we have a 'payitforward' board where free food/drinks may be available. ","hours":"Mo 09:00-13:00, Tu 09:00-13:00, We 09:00-13:00, Th 09:00-13:00","title":"Freedom Church Mereside"},"type":"Feature"}

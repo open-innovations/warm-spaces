@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.77586,50.73467],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Millhams Street, Christchurch, Dorset BH23 1DN","description":"Open from 06-12-2022.","hours":"Tu 11:00-02:00","title":"Christchurch Christian Centre"},"type":"Feature"}

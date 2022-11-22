@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.14450,50.54975],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bedford Place,, Tavistock, Devon PL19 0AD","description":"","hours":"Sa 10:30-12:30","title":"Abbey Chapel, Tavistock"},"type":"Feature"}

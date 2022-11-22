@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.26736,51.46554],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sheen Lane, London, London Borough of Richmond Upon Thames SW14 8LP","description":" Computer access must be booked in advance","hours":"Mo 09:30-18:00, Tu 09:30-18:00, We 10:00-19:00, Th 09:30-18:00, Fr 09:30-18:00, Sa 09:30-16:00, Su 13:00-17:00","title":"East Sheen Library"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.62615,53.69035],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dewsbury Retail Park, Railway Street, Dewsbury, West Yorkshire WF12 8EQ","description":" All our libraries are heated, comfortable to stay in for long periods of time - they have a range of both comfy seating, and more functional furniture for study or computer use. A place to keep warm, meet friends, sit and read and take part in activities.","hours":"Mo 09:30-17:00, Tu 09:30-19:30, We 09:30-17:00, Th 09:30-19:30, Fr 09:30-17:00, Sa 09:30-17:00","title":"Dewsbury Library"},"type":"Feature"}

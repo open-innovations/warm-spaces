@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.75982,53.53837],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Birkrig Digmoor, Skelmersdale, West lancashire wn89bn","hours":"Mo 08:00-11:30, We 08:00-11:30, Fr 08:00-13:00, Su 16:30-18:00","title":"Christ the servant cofe church Digmoor Skelmersdale "},"type":"Feature"}

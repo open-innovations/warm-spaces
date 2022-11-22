@@ -1,7 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.55563,52.41303],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Whitaker Road, Coventry, West Midlands CV5 9JE","description":"","hours":"Mo 12:00-18:00, Tu 10:00-14:00, Th 12:00-18:00, Fr 10:00-14:00, Sa 10:00-16:00","title":"Allesley Park Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.56001,52.39439],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Prior Deram Walk, Coventry, West Midlands CV4 8FT","description":"","hours":"Mo 12:00-18:00, Tu 10:00-14:00, Th 12:00-18:00, Fr 10:00-14:00, Sa 10:00-16:00","title":"Canley Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.53353,52.40280],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Earlsdon Avenue North, Coventry, West Midlands CV5 6FZ","description":" Everyone is welcome, regardless of whether you're a library member or not. Free hot drinks available!","hours":"Mo 10:00-17:00, Tu 10:00-17:00, Th 10:00-17:00, Fr 13:00-17:00, Sa 10:00-13:00","title":"Earlsdon Carnegie Community Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.49521,52.42665],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Broad Street, Coventry, West Midland CV6 5BG","description":"","hours":"Mo 09:00-19:00, Tu 09:00-19:00, Th 09:00-19:00, Fr 09:00-19:00, Sa 09:00-16:00","title":"Foleshill Library"},"type":"Feature"}

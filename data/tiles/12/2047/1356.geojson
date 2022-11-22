@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.02914,51.81123],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, New Road, Ware, Hertfordshire SG12 7BS","description":" Monday's & Tuesday's -Toddler Group, Friday Coffee Morning","hours":"Mo 09:15-10:45, Tu 09:15-10:45, Fr 10:00-12:00","title":"Christ Church Ware"},"type":"Feature"}

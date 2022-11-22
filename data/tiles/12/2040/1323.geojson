@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.64308,53.56579],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Vicarage, Scunthorpe, North Lincolnshire DN16 3DL","description":"Open from 2/11/22.","hours":"We 13:30-15:30, Th 15:30-19:00","title":"Church of the Holy Spirit, Willoughby Road, Scunthorpe"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.64677,53.59191],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Connect Church, Scunthorpe, Lincolnshire DN16 1NR","description":"Open from 18 November 2022. Monday 9:00-12pm is open for 'Performing Arts Group' for over 50's, Fridays 12-3pm is a free community meal for everyone.","hours":"Mo 09:00-12:00, Fr 12:00-15:00, Su 10:00-12:30","title":"Connect Church"},"type":"Feature"}

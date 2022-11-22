@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.76175,51.24986],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aldershot Library, 109 High Street, Aldershot GU11 1DQ","hours":"Mo 09:30-13:30, Tu 09:30-17:00, We 09:30-17:00, Fr 09:30-17:00, Sa 09:30-17:00","title":"Aldershot Library- Hampshire Libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.74078,51.24614],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 North Lane, Aldershot, Hampshire GU12 4QE","description":"Open from 1 November 2022.","hours":"Tu 09:30-14:00, We 09:30-14:00","title":"Aldershot Salvation Army"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.74585,51.27709],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Farnborough Baptist Church, Queens Road, North Camp Gu14 6DX","description":"We are open to all people and are looking to adapt the space to meet the needs of those that chose to come along. This is a social space to come and enjoy a hot drink, play some board games and chat. From around 1pm a hot soup lunch is served.","hours":"Fr 11:00-14:00","title":"Farnborough Baptist"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.90007,53.37394],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mather Avenue, Liverpool L18 7AD","description":"Open from 09-12-2022. Come along and drop in for a welcoming warm space. Enjoy a hot drink, a chat and refreshments. We will be open to everyone from 9.30 to 12.30 every Friday morning","hours":"Fr 09:30-12:30","title":"Allerton United Reformed Church"},"type":"Feature"}

@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.09414,51.51997],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barbican Library Barbican Centre For Arts & Conferences, Silk Street, London EC2Y 8DS","description":" A warm welcoming space for everyone. Free WiFi, newspapers, magazines and study spaces. A public library, free to join with a great collection of books, and a huge eLibrary free to download.","hours":"Mo 09:30-17:30, Tu 09:30-19:30, We 09:30-17:30, Th 09:30-19:30, Fr 09:30-17:30, Sa 09:30-16:00","title":"Barbican Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.14417,51.52248],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Devonshire House , London , London W1W 5DR","description":"","title":"Bishop Radford Trust"},"type":"Feature"}

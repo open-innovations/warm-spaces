@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.90192,53.27673],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Civic Way, Ellesmere Port, Cheshire CH65 0BG","description":" Public computers","hours":"Mo 09:00-19:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-19:00, Fr 09:00-19:00, Sa 09:00-13:00","title":"Ellesmere Port Library"},"type":"Feature"}

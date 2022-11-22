@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.18600,53.07361],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Hub, Fegg Hayes, Stoke on Trent ST6 6QR","description":"Open from 01/11/22. From 1st November, on a Tuesday morning between 11:00 and 12.00 there is also a free community singing group.","hours":"Tu 10:00-12:00, Th 10:00-12:00","title":"Fegg Hayes Futures"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.49623,51.14312],"type":"Point"},"properties":{"_source":"warm_welcome","address":"188:High Street, Cranleigh, Surrey GU6 8RS","description":"Open from 01/11/2022. Fully accessible","hours":"Tu 10:00-16:00","title":"Cranleigh Methodist Church"},"type":"Feature"}

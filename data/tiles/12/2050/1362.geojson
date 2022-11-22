@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.25975,51.49867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aveley Christian Centre, Aveley Close , Aveley, Thurrock RM15 4AB","description":"Home cooked meals - Set Menu - visit our website for more details of the food available. However, you are welcome just to attend. ","hours":"Mo 17:00-19:00, Fr 17:00-19:00","title":"Aveley Christian Centre"},"type":"Feature"}

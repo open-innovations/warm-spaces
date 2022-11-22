@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.71355,53.72273],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cleckheaton Methodist Church Mortimer Street, Cleckheaton, West Yorkshire BD19 5AR","description":"Open from 28-10-2022.","hours":"Fr 10:00-14:00, Sa 11:00-14:00","title":"Churches together in Cleckheaton and District"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.72048,53.72653],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Whitcliffe Road, Cleckheaton, West Yorkshire BD19 3DX","description":" All our libraries are heated, comfortable to stay in for long periods of time - they have a range of both comfy seating, and more functional furniture for study or computer use. A place to keep warm, meet friends, sit and read and take part in activities.","hours":"Mo 10:00-19:00, Tu 10:00-17:00, Th 10:00-19:00, Fr 10:00-15:00, Sa 10:00-15:00","title":"Cleckheaton Library"},"type":"Feature"}

@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.32404,53.51588],"type":"Point"},"properties":{"_source":"warm_welcome","address":"willowcroft independent living scheme, bolton upon dearne, rotherham s63 8LF","description":"","hours":"Tu 10:00-14:00","title":"Berneslai homes"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.37264,53.53370],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Darfield, Barnsley S73 9LG","description":" We have regular activities every week including Story & Rhyme sessions, Lego Club, Employment Support as well as a range of children and adult activities and school holiday activities. Details on our website","hours":"Mo 10:00-13:00, Tu 10:00-13:00, Th 10:00-13:00, Fr 10:00-13:00, Sa 09:30-12:30","title":"Darfield Library - Barnsley Libraries"},"type":"Feature"}

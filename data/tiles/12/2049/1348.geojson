@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.12670,52.22648],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Arbury Road, Cambridge, Cambridgeshire CB4 2JQ","description":"We cater for all age groups Parking available nearby in Budgens car park. Shops nearby for food and drink.","hours":"Mo 15:00-18:00, Tu 09:00-17:00, Th 09:00-13:00, Fr 09:00-17:00, Sa 10:00-14:00","title":"Arbury Court library"},"type":"Feature"}

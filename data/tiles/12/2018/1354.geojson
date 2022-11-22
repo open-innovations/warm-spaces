@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.58110,51.91476],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forest & Wye Community Church, Henry Street, Ross-on-Wye HR9 7AA","description":"","hours":"Su 10:00-12:30","title":"Forest & Wye Community Church (Ross)"},"type":"Feature"}

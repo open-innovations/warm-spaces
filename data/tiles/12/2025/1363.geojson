@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.00332,51.43733],"type":"Point"},"properties":{"_source":"warm_welcome","address":"30 Church Street, Calne, Wiltshire SN11 0HU","description":"Open from 11/11/2022.","hours":"Fr 10:00-16:00","title":"Calne and Blackland Parish"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.00670,51.43767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Street, Calne, Wiltshire SN11 0DX","description":"","title":"Calne Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.00469,51.43209],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Silver Street, Calne, Wiltshire SN11 0JF","description":"Open from 02-11-2022.","hours":"We 10:00-16:00","title":"Calne Methodist Church"},"type":"Feature"}

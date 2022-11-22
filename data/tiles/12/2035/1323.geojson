@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.13967,53.55523],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Avenue, Bentley, Doncaster DN5 0NP","description":"","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-16:00","title":"Bentley Family Hub"},"type":"Feature"}

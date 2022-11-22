@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[1.54912,52.64066],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bridewell Lane, Acle, Norwich NR13 3RA","description":"","hours":"Tu 10:00-19:00, Th 10:00-19:00, Fr 14:00-19:00, Sa 13:00-16:00","title":"Acle Library"},"type":"Feature"}

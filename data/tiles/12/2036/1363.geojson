@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.98343,51.44748],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Berkeley Avenue, Reading, Berkshire RG1 6JE","description":" Open from 01-11-22","hours":"Tu 10:30-15:00","title":"All Nations Christian Centre"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.87275,51.14683],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Road, Ashford, Kent TN23 1AS","description":" Please visit our website for services provided at your local library. Find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-13:00, Th 10:00-18:00, Fr 09:00-15:00, Sa 09:00-15:00","title":"Ashford Library"},"type":"Feature"}

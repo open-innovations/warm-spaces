@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.49687,51.82260],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Wesley Forest of Dean Community & Arts Centre, Cinderford , Gloucestershire GL14 2AB","description":"Open from 11-11-22.","hours":"Fr 10:00-12:00","title":"Cinderford Methodist Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.50148,51.82538],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forest & Wye Community Church, 2 Parragate Road, Cinderford GL14 2LY","description":"","hours":"Tu 10:00-12:00, Th 14:00-16:00, Su 10:00-13:00","title":"Forest and Wye Community Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.50020,51.82139],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forest Road, Cinderford, Gloucestershire GL142NR","description":"Open from 24.11.22. IT Suite, Hot drinks available, plus help for people to learn IT.","hours":"Th 09:30-13:00","title":"Forest Road Centre (St Stephens Hall)"},"type":"Feature"}

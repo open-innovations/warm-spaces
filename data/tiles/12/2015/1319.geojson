@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.87485,53.76550],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kirkham Road, Freckleton, Preston PR4 1HS","description":"","hours":"We 12:30-15:00","title":"Freckleton Methodist Church"},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.12913,53.01316],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bentilee Library, Bentilee Neighbourhood Centre, Dawlish Drive, Stoke-on-Trent ST2 0EU","description":"","hours":"Mo 10:00-14:00, Tu 09:00-12:30, Fr 09:00-12:30, Sa 10:00-14:00","title":"Bentilee Library"},"type":"Feature"}

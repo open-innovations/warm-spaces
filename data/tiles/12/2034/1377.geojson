@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.14284,50.67951],"type":"Point"},"properties":{"_source":"warm_welcome","address":"5 New Road, Brading , Isle of Wight PO36 0DU","description":"","hours":"Tu 08:30-13:00","title":"Brading Methodist Church"},"type":"Feature"}

@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.13070,50.83375],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1-6 Park Crescent Terrace, Brighton, East Sussex BN2 3HD","description":"Open from 7.11.22. Our focus is catering for elderly people aged 50+","hours":"Mo 10:00-15:30, We 10:00-15:30, Fr 12:00-15:30","title":"Brighton Congress Hall Salvation Army"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.13141,50.84387],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Citygate @ the dip 119d Hollingdean Terrace, Brighton, EAst Sussex BN1 7HB","description":"Open from 18-11-22. A small friendly space for families and individuals to come and keep warm. Free hot drinks and wifi access, as well as charging points. There will be some games and activities for children and space to sit and relax. All Welcome.","hours":"Fr 15:30-17:30","title":"City Gate Church "},"type":"Feature"}

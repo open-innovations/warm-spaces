@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[1.27104,51.84735],"type":"Point"},"properties":{"_source":"warm_welcome","address":"New Pier Street, Walton on the Naze , Essex CO14 8EB","description":"Open from 01-12-2022.","hours":"Th 10:00-15:30","title":"Emmanuel Church "},"type":"Feature"}

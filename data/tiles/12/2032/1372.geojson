@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.35499,50.91460],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bitterne Library, Bitterne Road East, Southampton SO18 5EG","description":" We have newspapers and magazines for people to read in the library, and a jigsaw puzzle for anyone to put a piece in.","hours":"Mo 10:00-19:00, Tu 10:00-16:00, We 10:00-19:00, Th 10:00-17:00, Fr 10:00-17:00, Sa 10:00-16:00","title":"Bitterne Library"},"type":"Feature"}

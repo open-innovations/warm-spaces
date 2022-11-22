@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.94789,53.44501],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ellison Street, Glossop, Glossop SK13 8BX","description":"Open from 1st November. Everyone is welcome! We run a coffee morning from 10:30-12:00. Followed by a soup lunch. We then are open all afternoon and serve a light bite in the evening such as hot dogs. We have places you can work from, facilities for children and families.","hours":"Tu 10:30-17:30","title":"Elim Christian Centre Glossop"},"type":"Feature"}

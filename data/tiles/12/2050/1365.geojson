@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.19444,51.28994],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bat & Ball Station, Sevenoaks, Kent TN14 5AP","description":"Open from 14/11/2022. There will be free talks provided by our local community on some days","hours":"Mo 09:00-12:00","title":"Bat & Ball Station"},"type":"Feature"}

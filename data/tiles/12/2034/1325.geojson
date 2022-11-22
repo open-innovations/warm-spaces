@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.19394,53.48096],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Martinwells Centre, Thompson Avenue, Edlington, Doncaster DN12 1JD","description":"","hours":"Mo 08:40-13:00, Tu 08:40-13:00, We 08:40-13:00, Th 08:40-13:00, Fr 08:40-13:00, Sa 08:40-12:50","title":"Edlington Library"},"type":"Feature"}

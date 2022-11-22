@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.85666,52.04270],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Leamington Road, Broadway, Worcestershire WR12 7DZ","description":"","hours":"Mo 09:30-16:30, We 09:30-16:30, Sa 09:30-13:00","title":"Broadway Library"},"type":"Feature"}

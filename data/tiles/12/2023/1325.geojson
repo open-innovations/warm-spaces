@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.16425,53.47171],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Openshaw Resource Centre, 10 Catherine Street, Openshaw, Manchester M11 1WF","description":"We are focussing on people over the age of 50 Please note that we are closed on Bank Holidays","hours":"Mo 09:30-15:00, Tu 09:30-15:00, We 09:30-15:00, Th 09:30-15:00, Fr 09:30-15:00","title":"Age UK Manchester"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.12319,53.45759],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carmel Christian Centre, Seymour Street, Denton, Denton, MANCHESTER, Lancashire M34 3PF","description":" we have toilet with facilities and a shower room and access to a washing and drying machine","hours":"Tu 10:00-15:00, We 10:00-15:00, Th 10:00-15:00, Su 10:00-12:00","title":"Carmel Christian Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.14998,53.48085],"type":"Point"},"properties":{"_source":"warm_welcome","address":"28 Ashton Hill Lane, Droylsden, Manchester M43 7UU","description":"Open from 02-11-2022.","hours":"We 10:00-13:30","title":"Droylsden Independent Church"},"type":"Feature"}

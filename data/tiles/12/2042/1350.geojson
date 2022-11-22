@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.48486,52.14736],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A Different Brew, 106 Clapham Road, Bedford, bedford, Bedfordshire MK41 7PJ","description":"Open from 01-12-2022. This space will be 28th November 2022 to Friday 31st March 2023Free tea & coffee, hot food available to buy, board games, reading material available, limited facilities for babies and children, ","hours":"Mo 10:00-15:00, Th 10:00-15:00, Fr 10:00-15:00","title":"Bedfordshire Opportunities for Learning Disabilities"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.44842,52.12503],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Jubilation Centre, Bedford, Bedfordshire MK420JD","description":"We cater for everyone","hours":"Mo 09:00-17:00","title":"Big Local Community Hub"},"type":"Feature"}

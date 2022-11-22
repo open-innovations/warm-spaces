@@ -1,8 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.01712,51.44591],"type":"Point"},"properties":{"_source":"warm_welcome","address":"23-25 Brownhill Road, Catford, London SE6 2HE","description":"Open from 02-11-2022. There is lots to do:","hours":"Mo 10:00-15:00, We 10:00-15:00","title":"Catford Salvation Army"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.05083,51.41433],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Green Lane, Penge, London SE20 7JA","description":"Open from 07-11-2022.","hours":"Mo 18:00-21:00","title":"Christ Central Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.08420,51.42127],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Highland Road, London SE19 1DP","description":"","hours":"Tu 11:00-14:30, We 14:00-16:00, Su 10:30-12:00","title":"Christ Church Gipsy hill"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.00187,51.44348],"type":"Point"},"properties":{"_source":"warm_welcome","address":"103 Torridon Road, London SE6 1RQ","description":"","hours":"Mo 09:00-17:30, Tu 09:00-17:30, Th 09:00-17:30, Fr 09:00-17:30, Sa 10:00-13:00","title":"Corbett Community Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.01621,51.44951],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2A Davenport Road, London SE6 2AZ","description":"We cater for anyone in need of a hot meal and company We serve a three course nutritious vegetarian community meal every Saturday","hours":"Sa 13:00-15:30","title":"FoodCycle Lewisham"},"type":"Feature"}

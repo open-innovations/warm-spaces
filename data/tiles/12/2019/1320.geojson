@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.47825,53.74863],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army, Vicar Street / Salford, Blackburn, Lancashire BB1 5BE","description":"Open from 03-11-2022. Free Refreshments available: Hot Drinks & Toast. Activities include: \"Walk at Home\" (keep fit session for all ages), \"Curry Cooking Class with Nasreen\", Board Games, and Reflective Colouring.","hours":"Th 10:00-13:00","title":"Blackburn Salvation Army (Church & Community Centre)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.47186,53.72926],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Roman Road Library, Fishmoor Drive, Blackburn BB2 3UY","description":"","hours":"Mo 17:00-19:00, Tu 09:00-12:00, We 12:00-14:00, Th 09:00-12:00, Fr 09:00-12:00, Sa 10:00-13:00","title":"Blackburn with Darwen Borough Council Blackburn Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.48027,53.69969],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Central URC , Darwen, Lancashire BB3 1AT","description":"Asylum seekers and other vulnerable people","hours":"We 10:00-13:00","title":"Central URC DARE Group, Darwen"},"type":"Feature"}

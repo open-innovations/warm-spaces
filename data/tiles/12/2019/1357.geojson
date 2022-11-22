@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.52526,51.76065],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Bailey Hill , Yorkley, Gloucestershire GL15 4RS","description":" We hope to have equipment for pre-school age children from 11:00am ","hours":"Fr 09:00-17:00","title":"Community Centre Yorkley with All Saints CoE"},"type":"Feature"}

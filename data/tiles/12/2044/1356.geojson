@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.33995,51.82451],"type":"Point"},"properties":{"_source":"warm_welcome","address":"102 Lower Luton Rd , Harpenden , Herts AL55AH","description":"Open from 04/11/22. Toys and board games are available on request ","hours":"Fr 10:00-13:00","title":"Batford Methodist Church "},"type":"Feature"}

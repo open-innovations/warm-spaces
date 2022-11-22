@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.10417,51.45041],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7-9 Blackfen Parade , Sidcup , Kent DA15 9LU","description":"We cater for all ages. Everyone is welcome. We have a free offer in our Cafe for those in need. We offer lots of groups for all ages.","hours":"Tu 09:30-17:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-15:00, Su 09:45-12:00","title":"Blackfen Community Library "},"type":"Feature"}

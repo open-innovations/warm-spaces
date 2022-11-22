@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[0.52038,52.41457],"type":"Point"},"properties":{"_source":"warm_welcome","address":"90 High Street, Lakenheath , Brandon IP27 9DS","description":" Dog Friendly ","hours":"Mo 11:00-15:00, We 11:00-15:00, Th 11:00-15:00","title":"Lakenheath Peace Memorial Hall Community Kitchen "},"type":"Feature"},
-		{"geometry":{"coordinates":[0.52041,52.41406],"type":"Point"},"properties":{"_source":"warm_spaces","address":"90 High Street, Brandon, England, IP27 9DS","title":"Lakenheath Peace Memorial Community Kitchen","url":"http://www.lakenheathvillagehall.org/the-lakenheath-community-centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.52041,52.41406],"type":"Point"},"properties":{"_source":"warm_spaces","address":"90 High Street, Brandon, England, IP27 9DS","title":"Lakenheath Peace Memorial Community Kitchen","url":"http://www.lakenheathvillagehall.org/the-lakenheath-community-centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.52049,52.41488],"type":"Point"},"properties":{"_source":"warm_spaces","address":"65 High Street, Brandon, England, IP27 9DS","title":"Lakenheath Library"},"type":"Feature"}
 	]
 }

@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.66057,53.72808],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Bamber Bridge, Preston PR5 6ED","description":"Open from 9th November 2022. We cater for all There are toys for children to play with. We are currently sourcing computers that will be freely available ","hours":"We 09:00-12:00, Th 09:00-12:00, Su 10:00-12:00","title":"Bamber Bridge Methodist Church "},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.63821,53.71318],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Great Greens Lane, Clayton Brook, Chorley PR5 8HL","description":"Open from 07-11-2022.","hours":"Mo 09:00-17:00","title":"Clayton Brook Community Church"},"type":"Feature"}

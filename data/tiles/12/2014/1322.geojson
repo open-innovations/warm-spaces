@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.97469,53.64245],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Southport Community Centre, Southport, Merseyside PR86HQ","description":"Open from 11-11-2022.","hours":"Fr 10:00-16:00","title":"Brighter Living Partnership "},"type":"Feature"}

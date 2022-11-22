@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.16416,52.62364],"type":"Point"},"properties":{"_source":"warm_welcome","address":"130 Braunstone Avenue, Braunstone, Leicester LE3 1LE","description":"everyone welcome from families to the elderly Cafe currently closed. but looking to reopen soon","hours":"Mo 09:00-17:00, Tu 09:00-19:00, We 09:00-17:00, Th 09:00-19:00, Fr 09:00-17:00, Sa 10:00-16:00","title":"Brite Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.15101,52.63950],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mantle Road, Leicester, Leicestershire LE3 5HG","description":"","hours":"Mo 09:00-18:00, Tu 10:00-17:00, We 10:00-18:00, Th 10:00-17:00, Fr 10:00-16:00, Sa 10:00-16:00","title":"Fosse Neighbourhood Centre"},"type":"Feature"}

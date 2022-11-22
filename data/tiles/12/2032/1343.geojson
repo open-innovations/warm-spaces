@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.35035,52.52683],"type":"Point"},"properties":{"_source":"warm_welcome","address":"40 Windsor Street, Burbage, HINCKLEY, LEICS LE10 2EF","description":"Open from 16/11/2022. All-age adults and accompanying children No hazard access for the infirm. Open WED 13:30 - 17:30 and FRI 09:00 - 13:00 during termite","hours":"We 13:30-17:30, Fr 09:00-13:00","title":"Burbage Methodist Church"},"type":"Feature"}

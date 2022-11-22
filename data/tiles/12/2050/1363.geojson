@@ -1,7 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.19043,51.44410],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ashen Drive Library, Dartford, Kent DA1 3LY","description":" Please visit our website for services provided at your local library","hours":"Mo 12:00-17:00, Tu 09:00-13:00, Th 09:00-13:00, Sa 10:00-14:00","title":"Ashen Drive Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.20209,51.44568],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cross road, , Dartford, Kent DA13ET","description":"Open from 03/11/2022.","hours":"Tu 13:00-16:00, Th 16:00-19:00","title":"Christ Church, Dartford "},"type":"Feature"},
-		{"geometry":{"coordinates":[0.21915,51.44334],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dartford Library, Market Street, Dartford, Kent DA1 1EU","description":" Please visit our website for services provided at your local library.","hours":"Mo 10:00-17:00, Tu 10:00-17:00, We 10:00-17:00, Th 10:00-18:00, Fr 10:00-17:00, Sa 10:00-16:00","title":"Dartford Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.24568,51.43599],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Fleetdown Library, Swaledale Road, Dartford, Kent DA2 6JZ","description":" Please visit our website for services provided at your local library.","hours":"Tu 09:00-17:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Fleetdown Library"},"type":"Feature"}

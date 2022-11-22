@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[1.29788,52.93174],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Prince of Wales Road, Cromer, Norfolk NR27 9HS","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 10:30-19:00, Tu 10:30-19:00, Th 10:30-19:00, Fr 10:30-19:00, Sa 12:00-16:00","title":"Cromer Library"},"type":"Feature"}

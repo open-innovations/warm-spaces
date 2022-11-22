@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.24716,53.09899],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hodkinsons road, Kirkby in Ashfield, Nottingham NG17 7DJ","description":"Open from 05/12/22. we are an inclusive centre We are a welcoming centre and will be offering activities each week.","hours":"Mo 10:30-12:00","title":"Everyoneactive"},"type":"Feature"}

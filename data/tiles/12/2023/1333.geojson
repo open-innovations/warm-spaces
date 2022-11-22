@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.17677,53.02240],"type":"Point"},"properties":{"_source":"warm_welcome","address":"City Central Library, Bethesda Street, Hanley, Stoke-on-Trent ST1 3RS","description":"","hours":"Mo 09:00-14:00, Tu 13:00-17:00, We 09:00-14:00, Th 13:00-18:00, Fr 09:00-14:00, Sa 10:00-14:00","title":"City Central Library"},"type":"Feature"}

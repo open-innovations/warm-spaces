@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.36704,52.75395],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Thringstone House, Thringstone, Leicestershire LE67 8NR","description":"","hours":"Mo 10:00-13:00, We 10:00-13:00, Th 10:00-13:00","title":"Charles Booth Centre"},"type":"Feature"}

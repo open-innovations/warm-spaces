@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.37272,50.82044],"type":"Point"},"properties":{"_source":"warm_welcome","address":"elim centre, 24 Broadwater Road. Worthing, West Sussex BN14 8AE","description":"Open from 08/11/2022. Hot drinks available throughout with soup and a roll lunch.","hours":"Tu 10:00-12:30","title":"elimworthing "},"type":"Feature"}

@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.50369,51.65841],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, Rickmansworth Road, Chorleywood, Rickmansworth, Hertfordshire WD3 5SG","description":"","hours":"Mo 09:00-16:00, Tu 09:00-15:00, We 12:00-15:00, Th 09:30-14:00, Fr 09:30-14:00","title":"Christ Church Chorleywood"},"type":"Feature"}

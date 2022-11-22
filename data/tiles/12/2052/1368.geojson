@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.36712,51.15164],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Matfield Pavilion, Matfield, Tonbridge, Kent TN12 7JU","description":"Open from 30/11/2022.","hours":"We 13:30-16:00","title":"Brenchley and Matfield Warm Space"},"type":"Feature"}

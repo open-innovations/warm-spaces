@@ -40,6 +40,8 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	# Print the title of this one
 	msg("$j: <cyan>$d->{'title'}<none>\n");
 
+	@features = ();
+
 	# If there is data
 	if($d->{'data'}){
 
@@ -63,8 +65,17 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				for($f = 0; $f < $d->{'count'}; $f++){
 					$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
 					$json->{'_source'} = $d->{'id'};
-					push(@warmplaces,$json);
+					push(@features,$json);
 				}
+				
+				@features = addLatLonFromPostcodes(@features);
+				$d->{'count'} = @features;
+				$d->{'geocount'} = 0;
+				for($f = 0; $f < @features; $f++){
+					push(@warmplaces,$features[$f]);
+					if($features[$f]{'lat'}){ $d->{'geocount'}++; }
+				}
+
 				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 				$total += $d->{'count'};
 				$totalgeo += $d->{'geocount'};
@@ -83,12 +94,18 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			}else{
 
 				# For each feature 
-				$d->{'geocount'} = 0;
 				for($f = 0; $f < $d->{'count'}; $f++){
 					$rtnjson = parseStorepointFeature($json->{'results'}{'locations'}[$f],$d->{'data'}{'keys'});
 					$rtnjson->{'_source'} = $d->{'id'};
-					if($rtnjson->{'lat'}){ $d->{'geocount'}++; }
-					push(@warmplaces,$rtnjson);
+					push(@features,$rtnjson);
+				}
+
+				@features = addLatLonFromPostcodes(@features);
+				$d->{'count'} = @features;
+				$d->{'geocount'} = 0;
+				for($f = 0; $f < @features; $f++){
+					push(@warmplaces,$features[$f]);
+					if($features[$f]{'lat'}){ $d->{'geocount'}++; }
 				}
 
 				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
@@ -136,15 +153,21 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 					};
 					if($@){ warning("\tInvalid output from scraper.\n".$str); }
 
-					$d->{'count'} = @{$json};
-					$d->{'geocount'} = 0;
-					for($f = 0; $f < $d->{'count'}; $f++){
+					for($f = 0; $f < @{$json}; $f++){
 						$json->[$f]{'_source'} = $d->{'id'};
-						push(@warmplaces,$json->[$f]);
-						if($json->[$f]{'lat'}){ $d->{'geocount'}++; }
-
+						push(@features,$json->[$f]);
 					}
+
+					@features = addLatLonFromPostcodes(@features);
+					$d->{'count'} = @features;
+					$d->{'geocount'} = 0;
+					for($f = 0; $f < @features; $f++){
+						push(@warmplaces,$features[$f]);
+						if($features[$f]{'lat'}){ $d->{'geocount'}++; }
+					}
+
 					msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
+
 					$total += $d->{'count'};
 					$totalgeo += $d->{'geocount'};
 				}else{
@@ -155,6 +178,8 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 		}elsif($d->{'data'}{'type'} eq "squarespace"){
 
 			@features = getSquareSpace($d);
+			@features = addLatLonFromPostcodes(@features);
+
 			$d->{'count'} = @features;
 			$d->{'geocount'} = 0;
 			for($f = 0; $f < $d->{'count'}; $f++){
@@ -170,7 +195,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	$table .= "<tr>";
 	$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
 	$table .= "<td>".($d->{'count'} ? $d->{'count'} : "?")."</td>";
-	$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "?")."</td>";
+	$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "")."</td>";
 	$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
 	$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
 	$table .= "</tr>\n";
@@ -245,7 +270,7 @@ sub getDataFromURL {
 	return $file;
 }
 
-sub getURL {
+sub getURLToFile {
 	my $url = $_[0];
 	my $file = $_[1];
 	my ($age,$now,$epoch_timestamp);
@@ -337,7 +362,7 @@ sub getSquareSpace {
 
 	$p = 1;
 	$page = $rawdir.$d->{'id'}."-$p.json";
-	getURL($url,$page);
+	getURLToFile($url,$page);
 	$json = getJSON($page);
 	
 	@items = @{$json->{'items'}};
@@ -346,7 +371,7 @@ sub getSquareSpace {
 		$purl = $url."&offset=$json->{'pagination'}{'nextPageOffset'}";
 		$p++;
 		$page = $rawdir.$d->{'id'}."-$p.json";
-		getURL($purl,$page);
+		getURLToFile($purl,$page);
 		$json = getJSON($page);
 		@items = (@items,@{$json->{'items'}});
 		$n = @items;

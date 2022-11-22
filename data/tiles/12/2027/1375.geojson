@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.78038,50.73709],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bargates, Christchurch, Dorset BH23 1QT","hours":"Th 10:00-12:00","title":"Christchurch Baptist Church"},"type":"Feature"}

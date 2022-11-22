@@ -1,5 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.38961,53.87193],"type":"Point"},"properties":{"_source":"warm_welcome","address":"31A Lowergate , Clitheroe, Lancashire BB7 1AD","description":"Open from 7/12/22.","hours":"We 09:30-15:00","title":"Clitheroe Salvation Army"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.39248,53.87116],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Gate, Clitheroe, Lancashire BB7 1AZ","description":"Open from 01/12/2022. We are open from 01/12/2022","hours":"Th 12:00-15:00","title":"Clitheroe United Reformed Church"},"type":"Feature"}

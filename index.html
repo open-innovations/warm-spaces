@@ -31,13 +31,13 @@
 		</header>
 	</div>
 
-	<div class="b6-bg">
+	<div class="b6-bg jekyll-parse">
 		<div class="holder padded tallpadded">
-		<p>With a cost-of-living crisis and an energy-price crisis, lots of people will be cold this winter and looking for warm places to go. Several different groups have started collating directories of warm spaces. This duplicates work and means each single resource is less complete. Also, the data isn’t published openly but instead mostly displayed via map interfaces which tend to create quite large page loads - not great for anyone using limited mobile data plans.</p>
-		
-		<h2>Existing directories of warm spaces</h2>
+			<p>With a cost-of-living crisis and an energy-price crisis, lots of people will be cold this winter and looking for warm places to go. Several different groups have started collating directories of warm spaces. This duplicates work and means each single resource is less complete. Also, the data isn’t published openly but instead mostly displayed via map interfaces which tend to create quite large page loads - not great for anyone using limited mobile data plans.</p>
+			
+			<h2>Existing directories of warm spaces</h2>
 {% include_relative data/summary.html %}
-		<p>Those directories with a <span class="c13-bg">geocoded</span> value in the list above can be searched with our <a href="find">warm spaces finder tool</a>.</p>
+			<p>Those directories with a <span class="c13-bg">geocoded</span> value in the list above can be searched with our <a href="find">warm spaces finder tool</a>.</p>
 
 		</div>
 	</div>
@@ -60,6 +60,25 @@
 		</div>
 	</footer>
 
+	<script>
+	
+	function loadBlock(i,block){
+		html = block.innerHTML;
+		html = html.replace(/\{\% include_relative (.*\.[a-zA-Z]*) \%\}/g,function(m,p1){
+			file = p1;
+			return "<div id=\"jekyll-"+i+"\"></div>";
+		});
+		block.innerHTML = html;
+		fetch(file,{'i':i})
+		.then(response => { return response.text(); })
+		.then(text => {
+			document.getElementById('jekyll-'+i).outerHTML = text;
+		}).catch(error => {
+		});	
+	}
+	var blocks = document.getElementsByClassName('jekyll-parse');
+	for(var i = 0; i < blocks.length; i++) loadBlock(i,blocks[i]);
+	</script>
 	<script src="https://open-innovations.org/resources/oi.log.js"></script>
 	<script>
 	OI.log.setup({'id':'odileeds','target':['open-innovations.github.io']}).add('action=view');

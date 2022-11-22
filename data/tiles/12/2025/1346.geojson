@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.96366,52.35593],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Birmingham Road, Alvechurch, Birmingham B48 7TA","description":"","hours":"Mo 09:00-13:00, Tu 09:00-13:00, Th 14:00-17:00, Fr 09:00-13:00, Sa 10:00-13:00","title":"Alvechurch Library"},"type":"Feature"}

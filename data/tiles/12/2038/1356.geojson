@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.81142,51.81480],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Walton Street, Aylesbury, Buckinghamshire HP20 1UU","description":"","hours":"Mo 09:30-17:00, Tu 09:30-19:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Aylesbury Library"},"type":"Feature"}

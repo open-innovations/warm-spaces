@@ -1,4 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.15130,55.77637],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Maxwellton Road, East Kilbride, GLASGOW, Lanarkshire G74 3LW","description":"Open from 31-10-2022.","hours":"Mo 13:00-15:00, Tu 15:00-17:00, We 11:00-15:00, Th 15:00-17:00","title":"Calderwood Baptist Church, EK Community Food Bank"},"type":"Feature"}
