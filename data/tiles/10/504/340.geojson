@@ -30,7 +30,6 @@
 		{"geometry":{"coordinates":[-2.52590,51.60740],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Town Hall, High Street, Thornbury, Bristol BS35 2AR","description":"Open from 31/10/2022. Over 60s only. Over 60s only. To be accessed via the over 60's Tea Room only.","hours":"Mo 10:00-15:00, Tu 10:00-15:00, We 10:00-15:00, Th 10:00-15:00, Fr 10:00-15:00","title":"Thornbury Town Council"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.57341,51.50996],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Gloucester Road North, Bristol, England, BS34 7BQ","title":"St Peters, Filton","url":"https://www.stpeterschurchfilton.com"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.71109,51.42121],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church of St Michael and All Angels, Flax Bourton, Bristol, England, BS48 3QQ","title":"Cafe@Flax"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.49779,51.41738],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 The Park, Bristol, England, BS31 2BL","title":"One Community &amp; Wild About Community"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.57497,51.49412],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Ebenezer Church, 286 Filton Avenue, Bristol, England, BS7 0BA","title":"Ebenezer Church","url":"https://www.ebe.org.uk/welcomingspace"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.49779,51.41738],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 The Park, Bristol, England, BS31 2BL","title":"One Community &amp; Wild About Community"},"type":"Feature"}
 	]
 }
