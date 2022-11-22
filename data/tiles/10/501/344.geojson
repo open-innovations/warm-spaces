@@ -9,7 +9,6 @@
 		{"geometry":{"coordinates":[-3.52582,50.72291],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Barnfield Road, Exeter, England, EX1 1SN","title":"The Barnfield Theatre","url":"https://www.exeternorthcott.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.60419,50.53068],"type":"Point"},"properties":{"_source":"warm_spaces","address":"96 Queen Street, Newton Abbot, England, TQ12 2ET","title":"St Josephs Church","url":"https://www.stjosephsnewtonabbot.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.60878,50.52944],"type":"Point"},"properties":{"_source":"warm_spaces","address":"30 Union Street, Newton Abbot, England, TQ12","title":"The Salvation Army Church &amp; Community Centre","url":"https://www.salvationarmy.org.uk/newton-abbot-church-community-centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.67475,50.59351],"type":"Point"},"properties":{"_source":"warm_spaces","address":"37 Fore Street, Newton Abbot, England, TQ13 9AD","title":"Angel Home Care","url":"https://angelhomecare.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.67993,50.59287],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bovey Scout Hut, Mill Marsh Park, Newton Abbot, England, TQ13 9FF","title":"Bovey Food Hub","url":"https://www.feedingdevon.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.67475,50.59351],"type":"Point"},"properties":{"_source":"warm_spaces","address":"37 Fore Street, Newton Abbot, England, TQ13 9AD","title":"Angel Home Care","url":"https://angelhomecare.co.uk"},"type":"Feature"}
 	]
 }

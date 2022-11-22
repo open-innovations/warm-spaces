@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.07155,50.70513],"type":"Point"},"properties":{"_source":"warm_welcome","address":"23 Queen Street, Seaton, Devon EX12 2NY","description":" We have a selection of board games, Lego, table football and retro arcade machines to play with as well as free tea & coffee and thousands of fantastic books to read in some comfy seating areas.","hours":"Mo 09:00-17:00, We 09:00-18:00, Th 09:00-17:00, Fr 09:00-13:00, Sa 09:00-13:00","title":"Seaton Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.93186,50.72544],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Hub, Church Street, Lyme Regis, England, DT7 3BS","title":"Lyme Regis Development Trust"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.07155,50.70513],"type":"Point"},"properties":{"_source":"warm_welcome","address":"23 Queen Street, Seaton, Devon EX12 2NY","description":" We have a selection of board games, Lego, table football and retro arcade machines to play with as well as free tea & coffee and thousands of fantastic books to read in some comfy seating areas.","hours":"Mo 09:00-17:00, We 09:00-18:00, Th 09:00-17:00, Fr 09:00-13:00, Sa 09:00-13:00","title":"Seaton Library"},"type":"Feature"}
 	]
 }
