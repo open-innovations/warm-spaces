@@ -32,8 +32,6 @@
 		{"geometry":{"coordinates":[-1.20713,52.98369],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bells Lane Community Centre, 194 Amesbury Circus, Nottingham, England, NG8 6DD","title":"Bells Lane Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.28509,53.00863],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Hayloft, Nottingham Road, Nottingham, England, NG16 2GB","title":"The Hayloft","url":"https://www.hayloftgiltbrook.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.28509,53.00863],"type":"Point"},"properties":{"_source":"warm_spaces","address":"427 Nottingham Road, Nottingham, England, NG16 2GB","title":"The Hayloft","url":"https://Www.hayloftGiltbrook.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.26132,52.93514],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Haven Centre, Wadsworth Road, Nottingham, England, NG9 8BD","title":"The Haven","url":"https://www.havencentre.co"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.17788,52.97952],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Leodegarius, 152 Church Street, Nottingham, England, NG6 0GD","title":"Woven St Leo's","url":"https://wearewoven.church/stleos"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.15169,52.96377],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Trinity Church Nottingham, 192 Mansfield Road, Nottingham, England, NG1","hours":"We 13:00-15:00","title":"Trinity Church Nottingham","url":"https://www.trinitychurchnottingham.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.26132,52.93514],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Haven Centre, Wadsworth Road, Nottingham, England, NG9 8BD","title":"The Haven","url":"https://www.havencentre.co"},"type":"Feature"}
 	]
 }
