@@ -148,6 +148,7 @@ sub parseOpeningHours {
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
 		$str =~ s/Weekends/Sa-Su/gi;
+		$str =~ s/Every day/Mo-Su/gi;
 
 		# Convert "noon" values to numbers
 		$str =~ s/12 ?noon/12am/g;
