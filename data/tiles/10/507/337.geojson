@@ -2,7 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-1.45504,52.23663],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Wight School, High Street, Harbury, Leamington Spa, Warwickshire HV33 9HW","description":" Books, Newspapers, Jigsaws, Board Games, Children's Craft Materials - All Free. Help yourself tea coffee and biscuits are also free. From 7:30 to 8:45 on weekday mornings we're open for tea, coffee, toast and a fruit - all at no charge.","hours":"Mo 10:00-16:30, Tu 10:00-16:30, We 09:15-16:30, Th 09:15-16:30, Fr 09:15-16:30, Sa 10:00-12:00","title":"Harbury Village Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.60182,52.19302],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Loxley Cl , Wellesbourne, Warwick CV35 9RU","description":" A Time to chat, have a tea or coffee, play games, do a jigsaw or some craftwork.","hours":"Mo 14:00-15:30","title":"WarmHub-Wellesbourne"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.43430,52.21572],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Manor Road, Southam, England, CV47 2QJ","title":"St Michael’s Bishops Itchington","url":"https://www.stmichaelschurch.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.60182,52.19302],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Loxley Cl , Wellesbourne, Warwick CV35 9RU","description":" A Time to chat, have a tea or coffee, play games, do a jigsaw or some craftwork.","hours":"Mo 14:00-15:30","title":"WarmHub-Wellesbourne"},"type":"Feature"}
 	]
 }
