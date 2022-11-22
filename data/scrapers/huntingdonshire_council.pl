@@ -27,15 +27,14 @@ if(-e $file){
 
 		process 'div[class="collapsible-content-block"]', "warmspaces[]" => scraper {
 #			# And, in each DIV,
-			process 'h3', 'title' => 'TEXT';
+			process 'h3', 'address' => 'TEXT';
 			process 'li', "li[]" => "TEXT";
-			process 'tbody tr', "tr[]" => 'HTML';
+			process 'div[class="collapsible-content"]', 'content' => 'HTML';
 		};
 	};
 
 	my $res = $warmspaces->scrape( $str );
 
-#print Dumper $res;
 	@entries;
 
 	# Loop over warmspaces processing the <li> values
@@ -47,24 +46,13 @@ if(-e $file){
 		for($li = 0; $li < @{$d->{'li'}}; $li++){ $d->{'description'} .= ($d->{'description'} ? ", ":"").$d->{'li'}[$li]; }
 		$d->{'description'} = "Facilities: ".$d->{'description'};
 
-		# Remove the <li> entry
-		delete $d->{'li'};
-
-		if($d->{'tr'}){
-			$d->{'hours'} = {'_text'=>''};
-			my $rowprocess = scraper {
-				process 'td', 'td[]' => 'TEXT'
-			};
-			for($r = 0; $r < @{$d->{'tr'}}; $r++){
-				my $row = $rowprocess->scrape( $d->{'tr'}[$r] );
-				$d->{'hours'}{'_text'} .= ($d->{'hours'}{'_text'} ? ", ":"").($row->{'td'}[0].": ".$row->{'td'}[1]);
-			}
-			$d->{'hours'} = parseOpeningHours($d->{'hours'});
-			delete $d->{'tr'};
+		if($d->{'content'} =~ /<h3>Opening times<\/h3>\n*[\t\s]*<p>(.*?)<\/p>/i){
+			$d->{'hours'} = parseOpeningHours({'_text'=>$1});
 		}
 
-		# If we have opening hours, parse them
-		if($d->{'hours'}){ $d->{'hours'} = parseOpeningHours($d->{'hours'}); }
+		delete $d->{'li'};
+		delete $d->{'content'};
+		delete $d->{'tr'};
 
 		# Remove the <li> entry
 		delete $d->{'li'};

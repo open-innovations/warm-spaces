@@ -94,7 +94,7 @@
 	"huntingdonshire_council": {
 		"count": 32,
 		"data": { "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" },
-		"geocount": "0",
+		"geocount": 32,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",

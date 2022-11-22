@@ -19,10 +19,6 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-#	$str =~ s/[\n\r]/ /g;
-#	$str =~ s/[\s]{2,}/ /g;
-#	$str =~ s/\&nbsp;/ /g;
-
 	if($str =~ /var WPBDP_googlemaps_data = (.*);\n/){
 		$str = $1;
 		if(!$str){ $str = "{}"; }
