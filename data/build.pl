@@ -25,6 +25,7 @@ my $data = LoadFile('data.yml');
 my $n = @{$data->{'directories'}};
 
 my $total = 0;
+my $totalgeo = 0;
 my $table = "";
 
 # Loop over the directories
@@ -58,13 +59,15 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			}else{
 
 				# For each feature 
+				$d->{'geocount'} = $d->{'count'};
 				for($f = 0; $f < $d->{'count'}; $f++){
 					$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
 					$json->{'_source'} = $d->{'id'};
 					push(@warmplaces,$json);
 				}
-				msg("\tAdded $d->{'count'} features.\n");
+				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 				$total += $d->{'count'};
+				$totalgeo += $d->{'geocount'};
 			}
 		}elsif($d->{'data'}{'type'} eq "storepoint"){
 
@@ -80,14 +83,17 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			}else{
 
 				# For each feature 
+				$d->{'geocount'} = 0;
 				for($f = 0; $f < $d->{'count'}; $f++){
 					$rtnjson = parseStorepointFeature($json->{'results'}{'locations'}[$f],$d->{'data'}{'keys'});
 					$rtnjson->{'_source'} = $d->{'id'};
+					if($rtnjson->{'lat'}){ $d->{'geocount'}++; }
 					push(@warmplaces,$rtnjson);
 				}
 
-				msg("\tAdded $d->{'count'} features.\n");
+				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 				$total += $d->{'count'};
+				$totalgeo += $d->{'geocount'};
 			}
 
 		}elsif($d->{'data'}{'type'} eq "html"){
@@ -131,12 +137,16 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 					if($@){ warning("\tInvalid output from scraper.\n".$str); }
 
 					$d->{'count'} = @{$json};
+					$d->{'geocount'} = 0;
 					for($f = 0; $f < $d->{'count'}; $f++){
 						$json->[$f]{'_source'} = $d->{'id'};
 						push(@warmplaces,$json->[$f]);
+						if($json->[$f]{'lat'}){ $d->{'geocount'}++; }
+
 					}
-					msg("\tAdded $d->{'count'} features.\n");
+					msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 					$total += $d->{'count'};
+					$totalgeo += $d->{'geocount'};
 				}else{
 					warning("\tNo JSON returned from scraper\n");
 				}
@@ -146,17 +156,21 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 
 			@features = getSquareSpace($d);
 			$d->{'count'} = @features;
+			$d->{'geocount'} = 0;
 			for($f = 0; $f < $d->{'count'}; $f++){
-				push(@warmplaces,$features[$f])
+				push(@warmplaces,$features[$f]);
+				if($features[$f]->{'lat'}){ $d->{'geocount'}++; }
+
 			}
-			msg("\tAdded $d->{'count'} features.\n");
+			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 			$total += $d->{'count'};
-			
+			$totalgeo += $d->{'geocount'};			
 		}
 	}
 	$table .= "<tr>";
 	$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
-	$table .= "<td".($d->{'count'} ? " class=\"c13-bg\"":"").">".($d->{'count'} ? $d->{'count'} : "?")."</td>";
+	$table .= "<td>".($d->{'count'} ? $d->{'count'} : "?")."</td>";
+	$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "?")."</td>";
 	$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
 	$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
 	$table .= "</tr>\n";
@@ -164,6 +178,9 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	$sources->{$d->{'id'}} = $d;
 	if($sources->{$d->{'id'}}{'count'}){
 		$sources->{$d->{'id'}}{'count'} += 0;
+	}
+	if($sources->{$d->{'id'}}{'geocount'}){
+		$sources->{$d->{'id'}}{'geocount'} += 0;
 	}
 }
 open($fh,">:utf8",$dir."places.json");
@@ -176,7 +193,7 @@ close($fh);
 
 open($fh,">:utf8",$dir."summary.html");
 print $fh "<table>\n";
-print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Map</th><th>Register</th></thead></tr>\n";
+print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th></thead></tr>\n";
 print $fh "<tbody>\n";
 print $fh $table;
 print $fh "</tbody>\n";
@@ -186,7 +203,7 @@ close($fh);
 
 
 
-msg("Added $total features in total.\n");
+msg("Added $total features in total ($totalgeo geocoded).\n");
 
 ################
 # SUBROUTINES

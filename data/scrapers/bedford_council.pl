@@ -21,11 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		# Parse all DIVs with the class warmspace and store them into
-		# an array 'warmspaces'.  We embed other scrapers for each DIV.
-
 		process 'table tr', "warmspaces[]" => scraper {
-#			# And, in each DIV,
 			process 'td', 'td[]' => 'HTML';
 		};
 	};
@@ -59,8 +55,6 @@ if(-e $file){
 
 			# Remove the <li> entry
 			delete $d->{'td'};
-
-#print Dumper $d;
 
 			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));
