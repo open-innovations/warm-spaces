@@ -2,6 +2,8 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[1.73654,52.46316],"type":"Point"},"properties":{"_source":"warm_welcome","address":"london road baptist church, kirkley park road, lowestoft nr33 olq","description":"Open from 2/11/22. Wednesday is children and families. Thursdays are for all x Wednesday's are our Little Fishes Toddler Group am and pm","hours":"We 09:00-15:00, Th 09:30-15:30","title":"London Road Baptist"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.73617,52.46053],"type":"Point"},"properties":{"_source":"warm_spaces","address":"3 Kirkley Park Road, Lowestoft, England, NR33 0LQ","title":"Kirkley Manor"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.73617,52.46053],"type":"Point"},"properties":{"_source":"warm_spaces","address":"3 Kirkley Park Road, Lowestoft, England, NR33 0LQ","title":"Kirkley Manor"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.72045,52.41937],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kessingland Library, Marram Green, Hall Road,, Lowestoft, England, NR33 7AH","title":"Kessingland Library","url":"https://www.suffolklibraries.co.uk/visit/locations-and-times/kessingland-library"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.43989,52.45404],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bungay Community Library, Wharton Street, Bungay, England, NR35 1EL","title":"Bungay Community Library","url":"https://www.suffolklibraries.co.uk"},"type":"Feature"}
 	]
 }

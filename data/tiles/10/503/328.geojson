@@ -3,6 +3,7 @@
 	"features": [
 		{"geometry":{"coordinates":[-2.83252,54.06479],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Torrisholme Methodist Church, Norwood Drive, Morecambe LA46LT","description":"Open from September 2022 Warm Spaces . Our focus is supporting people with Neurological Conditions","hours":"Mo 10:00-02:00, Tu 10:00-02:00, Th 10:00-02:00","title":"Neuro DropIn"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.88476,54.06218],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Stanley Road, Morecambe, Lancashire LA3 1UP","description":"","hours":"Mo 09:30-12:30","title":"Stanley Road Baptist Church, Morecambe"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.86358,54.07278],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7-9 plaza shopping arcade , Morecambe , Lancashire La4 5yj","description":"We welcome everyone,all ages and abilities A safe warm and creative space","hours":"Tu 14:00-17:00, We 10:00-18:00, Fr 10:00-17:00","title":"WISE UP Workshops cic"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.86358,54.07278],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7-9 plaza shopping arcade , Morecambe , Lancashire La4 5yj","description":"We welcome everyone,all ages and abilities A safe warm and creative space","hours":"Tu 14:00-17:00, We 10:00-18:00, Fr 10:00-17:00","title":"WISE UP Workshops cic"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.86900,54.07249],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Morecambe Hire The Consult Centre , Morecambe, England, LA4 4BQ","title":"Morecambe Hire The Consult Centre","url":"https://Www.morecambehire.com"},"type":"Feature"}
 	]
 }
