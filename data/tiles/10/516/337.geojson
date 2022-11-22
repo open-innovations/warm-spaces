@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[1.55950,52.19249],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Post Office Rd, , Knodishall, , Suffolk IP17 1UG","description":"All are welcome We meet every Wednesday for games/scrabble etc and space to chat","hours":"We 14:00-16:00","title":"Knodishall Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.57575,52.20805],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Leiston Library, Old Post Office Square, Main Street, Leiston, England, IP16 4ER","title":"Leiston Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.55950,52.19249],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Post Office Rd, , Knodishall, , Suffolk IP17 1UG","description":"All are welcome We meet every Wednesday for games/scrabble etc and space to chat","hours":"We 14:00-16:00","title":"Knodishall Methodist Church"},"type":"Feature"}
 	]
 }

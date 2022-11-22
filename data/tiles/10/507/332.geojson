@@ -17,7 +17,6 @@
 		{"geometry":{"coordinates":[-1.40840,53.19061],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tupton Edge Centre, Queen Victoria Road, Chesterfield, England, S42 6BL","title":"Tupton Edge Centre","url":"https://www.facebook.com/TuptonPC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.41545,53.18473],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Old Tupton Methodist Church, 96 Nethermoor Road, Chesterfield, England, S42 6EN","title":"Old Tupton Methodist Church","url":"https://www.facebook.com/TuptonPC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.41712,53.18495],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tupton Community Hub, Nethermoor Road, Chesterfield, England, S42 6EN","title":"Tupton Community Hub","url":"https://www.facebook.com/TuptonPC"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.59072,53.16239],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Whitworth, Station Road, Darley Dale, England, DE4 2EQ","title":"Warm Wednesdays at The Whitworth","url":"https://www.thewhitworth.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.43693,53.23768],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Foljambe Road, Chesterfield, England, S40 1NJ","title":"Chesterfield Salvation Army","url":"https://www.salvationarmy.org.uk/chesterfield"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.59072,53.16239],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Whitworth, Station Road, Darley Dale, England, DE4 2EQ","title":"Warm Wednesdays at The Whitworth","url":"https://www.thewhitworth.org.uk"},"type":"Feature"}
 	]
 }
