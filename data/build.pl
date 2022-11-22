@@ -229,6 +229,12 @@ sub getURL {
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 		msg("\tDownloaded\n");
 	}
+	
+	if(-s $file == 0){
+		sleep 1;
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		msg("\tDownloaded 2nd attempt\n");
+	}
 	return $file;
 }
 

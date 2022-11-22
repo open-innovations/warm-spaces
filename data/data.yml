@@ -32,12 +32,16 @@ directories:
       type: googlemap
     register:
       url: mailto:warmspace@aberdeencity.gov.uk
+    data:
+      url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
+      type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     data:
       url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
+      robots: false
       type: portal
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
@@ -196,6 +200,7 @@ directories:
     data:
       url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
       type: html
+      robots: false
     notes: "Wakefield Council website blocks automatic access of webpages"
   - title: "West Northamptonshire"
     url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
@@ -212,11 +217,6 @@ directories:
     map:
       url: "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y"
       type: googlemap
-  - title: "Wolverhampton Council"
-    url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
-    data:
-      url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
-      type: html
   - title: "Wandsworth Council"
     url: "https://www.wandsworth.gov.uk/warm-spaces"
     register:
@@ -226,4 +226,9 @@ directories:
       type: leaflet
     data:
       url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      type: html
+  - title: "Wolverhampton Council"
+    url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
+    data:
+      url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
       type: html
