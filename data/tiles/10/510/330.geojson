@@ -15,7 +15,6 @@
 		{"geometry":{"coordinates":[-0.48713,53.74031],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Village Hall, Main Street, Swanland, East Riding of Yorkshire HU14 3QR","description":" East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":"We 09:00-12:00; Fr 14:00-18:00; Sa 09:00-12:00","title":"Swanland Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.67681,53.57123],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Lichfield Avenue, Scunthorpe, England, DN17 1QX","title":"The Arc","url":"https://www.arcwestcliff.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.66361,53.55950],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Willoughby Road, Scunthorpe, England, DN17 2NN","title":"Church of the Holy Spirit, Riddings, Scunthorpe","url":"https://churcharmy.org/mission/scunthorpe/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.64497,53.56668],"type":"Point"},"properties":{"_source":"warm_spaces","address":"180 Ashby High Street, Scunthorpe, England, DN16 2JR","title":"St. Paul's Church Hall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.43817,53.72489],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tower Hill, Hessle, England, HU13","title":"Tower Hill Methodist Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.64497,53.56668],"type":"Point"},"properties":{"_source":"warm_spaces","address":"180 Ashby High Street, Scunthorpe, England, DN16 2JR","title":"St. Paul's Church Hall"},"type":"Feature"}
 	]
 }
