@@ -39,7 +39,14 @@ sub parseText {
 	$str =~ s/<br ?\/?>/ /g;
 	$str =~ s/<[^\>]+>//g;
 	$str =~ s/(^[\s]+|[\s]+$)//g;
+	$str =~ s/\&nbsp\;/ /g;
+	$str =~ s/\&#8211;/-/g;
 	$str =~ s/Â//g;
+	return $str;
+}
+sub trimText {
+	my $str = $_[0];
+	$str =~ s/(^[\s]+|[\s]+$)//g;
 	return $str;
 }
 sub getURL {
