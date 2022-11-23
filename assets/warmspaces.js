@@ -62,6 +62,7 @@
 				}
 
 				features = geo.features;
+				var max = Math.min(30,features.length);
 
 				if(typeof attr.finder.lat==="number"){
 					lat = attr.finder.lat;
@@ -73,14 +74,16 @@
 					}
 					sorted = features.sort(function(a,b){return a.distance - b.distance;});
 				}else{
+					max = features.length;
 					sorted = [];
 					for(i = 0; i < features.length; i++){
 						if(attr.finder.region.contains(features[i].geometry.coordinates[0],features[i].geometry.coordinates[1])) sorted.push(features[i]);
 					}
+					sorted = features.sort(function(a,b){return a.properties.title > b.properties.title;});
 				}
 
 				// Build list
-				attr.finder.buildList(sorted);
+				attr.finder.buildList(sorted,max);
 			}
 		},opts.tiles||{}));
 		
@@ -116,7 +119,7 @@
 				log('error','Unable to load URL '+url,{'type':'ERROR','extra':{}});
 			});
 		};
-		this.buildList = function(geosort){
+		this.buildList = function(geosort,mx){
 
 			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy;
 			// We want to round to the accuracy of the geolocation
@@ -141,7 +144,9 @@
 			accuracy = Math.pow(10,(base))*options[imin];
 
 			html = '';
-			var max = Math.min(60,geosort.length);
+			var max = 30;
+			if(typeof mx==="number") max = mx;
+			max = Math.min(mx,geosort.length);
 			for(i = 0; i < max; i++){
 				p = geosort[i].properties;
 				if(geosort[i].distance){
