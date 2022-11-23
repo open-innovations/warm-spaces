@@ -356,7 +356,7 @@ sub getGoogleMap {
 	my $d = shift;
 	my $keys = shift;
 
-	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$k,@entries,$hrs,$parse,$re,$p2,@matches);
+	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt);
 
 	$url = $d->{'data'}{'url'};
 	$file = $rawdir.$d->{'id'}.".html";
@@ -395,12 +395,13 @@ sub getGoogleMap {
 				while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/){
 					push(@reps,$1);
 				}
-				$re = qr/^$parse$/;
+				$re = qr/^$parse$/is;
 				@matches = $entry->{'description'} =~ $re;
 				if(@matches > 0){
 					for($p2 = 0; $p2 < @reps; $p2++){
 						$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
-						$entry->{$reps[$p2]} = parseText($matches[$p2]);
+						$txt = parseText($matches[$p2]);
+						if($txt){ $entry->{$reps[$p2]} = $txt; }
 					}
 				}
 				delete $entry->{'description'};
