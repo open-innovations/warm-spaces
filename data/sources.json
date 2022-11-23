@@ -1,6 +1,8 @@
 {
 	"aberdeen_city_council": {
+		"count": 38,
 		"data": { "type": "html", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
+		"geocount": 38,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -8,7 +10,9 @@
 		"url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces"
 	},
 	"bedford_council": {
+		"count": 25,
 		"data": { "type": "html", "url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces" },
+		"geocount": 25,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -103,7 +107,9 @@
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
 	"huntingdonshire_council": {
+		"count": 32,
 		"data": { "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" },
+		"geocount": 32,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -147,7 +153,9 @@
 		"url": "https://seftoncvs.org.uk/warmspaces/"
 	},
 	"southwalk_council": {
+		"count": 30,
 		"data": { "type": "html", "url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces" },
+		"geocount": 30,
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
@@ -194,7 +202,9 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
+		"count": 25,
 		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
+		"geocount": 25,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -202,9 +212,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 769,
+		"count": 420,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 769,
+		"geocount": 420,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -236,7 +246,9 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wolverhampton_council": {
+		"count": 23,
 		"data": { "type": "html", "url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces" },
+		"geocount": 21,
 		"id": "wolverhampton_council",
 		"title": "Wolverhampton Council",
 		"url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"

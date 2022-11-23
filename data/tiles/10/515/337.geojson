@@ -9,7 +9,6 @@
 		{"geometry":{"coordinates":[1.31642,52.09235],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Quay Street, Woodbridge, Suffolk IP12 1BX","hours":"We 09:45-12:00; Su 10:00-13:00","title":"Woodbridge Quay Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.24400,52.10808],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Ipswich Road, Woodbridge, England, IP13 6TJ","title":"Grundisburgh Village Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.24553,52.11188],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Street, Woodbridge, England, IP13","title":"Grundisburgh Parish Room"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.30879,52.09476],"type":"Point"},"properties":{"_source":"warm_spaces","address":"5 Burkitt Road, Woodbridge, England, IP12 4JJ","title":"Woodbridge Lodge Residential Care Home","url":"https://kingsleyhealthcare.co.uk/pages/home/woodbridge-lodge-residential-care-home"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.15632,52.05636],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Geek Retreat Ipswich, 41A Upper Brook Street, Ipswich, England, IP4 1DU","title":"Geek Retreat Ipswich","url":"https://ipswichgeek.com"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.30879,52.09476],"type":"Point"},"properties":{"_source":"warm_spaces","address":"5 Burkitt Road, Woodbridge, England, IP12 4JJ","title":"Woodbridge Lodge Residential Care Home","url":"https://kingsleyhealthcare.co.uk/pages/home/woodbridge-lodge-residential-care-home"},"type":"Feature"}
 	]
 }

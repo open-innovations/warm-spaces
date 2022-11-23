@@ -31,7 +31,6 @@
 		{"geometry":{"coordinates":[-1.03087,50.88018],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Waterlooville Library, The Precinct, Waterlooville PO7 7DT","description":"Room hire","hours":"Mo 09:30-17:00; Tu 09:30-13:30; We 09:30-17:00; Th 09:30-17:00; Fr 09:30-17:00; Sa 09:30-17:00","title":"Waterlooville Library- Hampshire Libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.87087,50.76766],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oakfield Avenue, East Wittering, West Sussex PO20 8BT","description":"","hours":"Mo 13:00-17:00; Tu 13:00-17:00; We 13:00-17:00; Th 09:00-13:00; Fr 09:00-13:00; Sa 09:00-13:00","title":"Witterings Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.71125,50.85330],"type":"Point"},"properties":{"_source":"warm_spaces","address":"City Fields Way, Chichester, England, PO20 2FP","title":"Sage House","url":"https://www.dementiasupport.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.78066,50.83632],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Chichester Cathedral, Chichester, England, PO19 1PX","title":"Chichester Cathedral","url":"https://www.chichestercathedral.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.98162,50.85292],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Havant United Reformed Church, 37 North Street, Havant, England, PO9 1PP","title":"Snack and Chat","url":"https://www.havanturc.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.78066,50.83632],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Chichester Cathedral, Chichester, England, PO19 1PX","title":"Chichester Cathedral","url":"https://www.chichestercathedral.org.uk"},"type":"Feature"}
 	]
 }

@@ -10,7 +10,6 @@
 		{"geometry":{"coordinates":[1.14971,51.07424],"type":"Point"},"properties":{"_source":"warm_welcome","address":"James Morris Court, Folkestone, Kent CT20 3RR","description":" This is a Library for everyone","hours":"Mo 09:30-17:00; Tu 09:30-13:00; Th 09:30-17:00; Fr 09:30-13:00; Sa 09:30-13:00","title":"Sandgate Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.21652,51.10099],"type":"Point"},"properties":{"_source":"warm_welcome","address":"65 old dover road, folkestone, ua ct18 7hr","description":"Open from 01-12-2022.","title":"UKRAINIANS IN FOLKESTONE"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.14690,51.08747],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Community Network, 378 Cheriton Road,, Folkestone, Kent CT19 4DX","description":"","hours":"Mo 11:30-13:00; Tu 11:00-13:30; Th 12:00-15:00; Fr 10:30-14:00","title":"United Response, The Community Network"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.28175,51.13043],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Poulton Close, Dover, England, CT17 0HL","title":"St. Radigunds Community Centre","url":"https://www.stradigunds.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.15899,51.07707],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Brampton Lodge, 4 Dixwell Road, Folkestone, England, CT20 2LG","title":"Brampton Lodge"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.28175,51.13043],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Poulton Close, Dover, England, CT17 0HL","title":"St. Radigunds Community Centre","url":"https://www.stradigunds.org"},"type":"Feature"}
 	]
 }
