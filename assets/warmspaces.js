@@ -62,7 +62,7 @@
 				}
 
 				features = geo.features;
-				var max = Math.min(30,features.length);
+				var max = Math.min(60,features.length);
 
 				if(typeof attr.finder.lat==="number"){
 					lat = attr.finder.lat;
@@ -144,9 +144,9 @@
 			accuracy = Math.pow(10,(base))*options[imin];
 
 			html = '';
-			var max = 30;
+			var max = 60;
 			if(typeof mx==="number") max = mx;
-			max = Math.min(mx,geosort.length);
+			max = Math.min(max,geosort.length);
 			for(i = 0; i < max; i++){
 				p = geosort[i].properties;
 				if(geosort[i].distance){
@@ -157,13 +157,13 @@
 				var hours = processHours(p.hours);
 				var cls = hours.class;
 				
-				html += '<li><div>';
+				html += '<li tabindex="0"><div>';
 				html += (p.url ? '<a class="'+cls+'" href="'+p.url+'/" target="_source">' : '<div class="'+cls+'">');
 				html += '<div class="doublepadded">';
 				html += '<h3>'+p.title+'</h3>';
 				if(p.address) html += '<p class="address">'+p.address+'</p>';
 				if(d >= 0) html += '<p><span class="dist">'+d+'m</span> or so away</p>';
-				if(p.description) html += '<p><strong>Description:</strong> '+p.description+'</p>';
+				if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 				if(p.hours){
 					html += '<p class="times"><strong>Opening hours:</strong></p>'+hours.times;
 				}
@@ -283,7 +283,10 @@
 			if(source.map && source.map.url && source.map.url!=source.url){
 				html += ' / <a href="'+source.map.url+'" target="_source">Map</a>';
 			}
-			return (html ? '<div class="source b2-bg"><strong>Source:</strong> '+html+'</div>' : '');
+			if(source.register && source.register.url && source.register.url!=source.url){
+				html += ' / <a href="'+source.register.url+'" target="_source">Contribute</a>';
+			}
+			return (html ? '<div class="source b2-bg"><strong>From:</strong> '+html+'</div>' : '');
 		}
 		Date.prototype.getNthOfMonth = function(){
 			var dd = new Date(this),
