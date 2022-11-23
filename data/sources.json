@@ -30,6 +30,17 @@
 		"title": "Boston Borough Council",
 		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
 	},
+	"bournemouth__christchurch_and_poole": {
+		"id": "bournemouth__christchurch_and_poole",
+		"register": { "url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx" },
+		"title": "Bournemouth, Christchurch and Poole",
+		"url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
+	},
+	"bracknell_forest_council": {
+		"id": "bracknell_forest_council",
+		"title": "Bracknell Forest Council",
+		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
+	},
 	"bradford_council": {
 		"count": 125,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -80,6 +91,11 @@
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
+	"city_of_london": {
+		"id": "city_of_london",
+		"title": "City of London",
+		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+	},
 	"durham_county_council": {
 		"count": 100,
 		"data": { "type": "html", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
@@ -89,6 +105,12 @@
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
 		"title": "Durham County Council",
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+	},
+	"fylde_council": {
+		"id": "fylde_council",
+		"register": { "url": "mailto:edyta.paxton@fylde.gov.uk" },
+		"title": "Fylde Council",
+		"url": "https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
 		"count": 30,
@@ -116,6 +138,14 @@
 		"title": "Harrogate NetMakers",
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
+	"hounslow_council": {
+		"count": 31,
+		"data": { "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" },
+		"geocount": 30,
+		"id": "hounslow_council",
+		"title": "Hounslow Council",
+		"url": "https://www.hounslow.gov.uk/warmspaces"
+	},
 	"huntingdonshire_council": {
 		"count": 34,
 		"data": { "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" },
@@ -124,6 +154,12 @@
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
+	},
+	"lancashire_council": {
+		"id": "lancashire_council",
+		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
+		"title": "Lancashire Council",
+		"url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
 	"leeds_city_council": {
 		"count": 110,
@@ -134,6 +170,11 @@
 		"register": { "url": "https://experience.arcgis.com/experience/2264b176caef4da292a4647c057938bf/" },
 		"title": "Leeds City Council",
 		"url": "https://www.leeds.gov.uk/campaign/warm-spaces"
+	},
+	"leicester_council": {
+		"id": "leicester_council",
+		"title": "Leicester Council",
+		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
 		"id": "lewes_and_eastbourne_council",
@@ -161,6 +202,11 @@
 		"title": "Perth and Kinross Council",
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
+	"sefton_council": {
+		"id": "sefton_council",
+		"title": "Sefton Council",
+		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
+	},
 	"sefton_cvs": {
 		"count": 20,
 		"data": { "keys": { "title": "name" }, "parse": "{{ hours }}", "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1ufQzUkVn58B6Hw1pTwvmGTYWtSE2DRA&ehbc=2E312F&ll=53.55888624022068%2C-3.004861084646202&z=11" },
@@ -187,10 +233,27 @@
 		"title": "Stafford Borough Council",
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
+	"stockton-on-tees_council": {
+		"count": 61,
+		"data": { "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces" },
+		"geocount": 61,
+		"id": "stockton-on-tees_council",
+		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
+		"title": "Stockton-on-Tees Council",
+		"url": "https://www.stockton.gov.uk/warm-spaces"
+	},
+	"stroud_cscic": {
+		"count": 30,
+		"data": { "type": "html", "url": "https://cscic.org/community-hubs/warm-spaces-in-stroud/" },
+		"geocount": 28,
+		"id": "stroud_cscic",
+		"title": "Stroud CSCIC",
+		"url": "https://cscic.org/community-hubs/warm-spaces/"
+	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 189,
+		"count": 191,
 		"data": { "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" },
-		"geocount": 189,
+		"geocount": 191,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -237,9 +300,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 440,
+		"count": 500,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 440,
+		"geocount": 500,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -274,6 +337,12 @@
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y" },
 		"title": "Wigan Council",
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
+	},
+	"wokingham_council": {
+		"id": "wokingham_council",
+		"register": { "url": "https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/" },
+		"title": "Wokingham Council",
+		"url": "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
 	},
 	"wolverhampton_council": {
 		"count": 23,

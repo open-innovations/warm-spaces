@@ -52,6 +52,9 @@
 		{"geometry":{"coordinates":[-1.37265,50.82433],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Gang Warily Recreation Centre, Newlands Road, Southampton, England, SO45 1GA","title":"Gang Warily","url":"https://www.facebook.com/FawleyPC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.25603,50.85679],"type":"Point"},"properties":{"_source":"warm_spaces","address":"255 Hunts Pond Road, Fareham, England, PO14 4PG","title":"Waypoint Church","url":"https://www.waypointchurch.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.33736,50.89981],"type":"Point"},"properties":{"_source":"warm_spaces","address":"59 Montague Avenue, Southampton, England, SO19 0QB","title":"Monty's Community Hub","url":"http://www.montys.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.35744,50.89920],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Mary&#39;s Church, Saint Monica Road, Southampton, England, SO19 8ES","title":"Thursday Cuppa","url":"https://www.sholing.church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.35744,50.89920],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Mary&#39;s Church, Saint Monica Road, Southampton, England, SO19 8ES","title":"Thursday Cuppa","url":"https://www.sholing.church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.28877,50.75797],"type":"Point"},"properties":{"_source":"warm_spaces","address":"11 York Avenue, East Cowes, England, PO32 6QY","title":"Mad-Aid","url":"https://www.mad-aid.org.uk/contact/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.29850,50.76020],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Beckford Road, Cowes, England, PO31 7SG","title":"Cowes Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.14576,50.80829],"type":"Point"},"properties":{"_source":"warm_spaces","address":"136 Chantry Road, Gosport, England, PO12 4NG","title":"Elson Community Library &amp; Hub","url":"https://www.elsonlibrary.org.uk"},"type":"Feature"}
 	]
 }

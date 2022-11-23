@@ -9,6 +9,10 @@
 		{"geometry":{"coordinates":[-1.14990,50.71753],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Park Road, Ryde, Isle of Wight PO33 1BX","description":"Open from 24th November 2022.","hours":"Th 14:00-17:00","title":"St. John's church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.14800,50.72326],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Park Road, Ryde, England, PO33 1BX","title":"St. Johns Church","url":"https://en-gb.facebook.com/stjohnsryde/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.29217,50.70199],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sea Street, Newport, England, PO30 5BD","title":"Quay Arts Cafe","url":"https://www.quayarts.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.15354,50.72983],"type":"Point"},"properties":{"_source":"warm_spaces","address":"11 East Street, Ryde, England, PO33 1JP","title":"Monkton Arts","url":"https://Www.monktonarts.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.15354,50.72983],"type":"Point"},"properties":{"_source":"warm_spaces","address":"11 East Street, Ryde, England, PO33 1JP","title":"Monkton Arts","url":"https://Www.monktonarts.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.30729,50.68581],"type":"Point"},"properties":{"_source":"warm_spaces","address":"39 Whitcombe Road, Newport, England, PO30 1YS","title":"Carisbrooke Priory","url":"https://carisbrookepriory.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.20032,50.59679],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Street, Ventnor, England, PO38 1LZ","title":"Ventnor Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.15094,50.65582],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Street, Sandown, England, PO36 8AF","title":"Sandown Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.29393,50.69815],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Orchard Street, Newport, England, PO30 1LL","title":"Lord Louis Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"}
 	]
 }

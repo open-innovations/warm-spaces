@@ -11,6 +11,7 @@
 		{"geometry":{"coordinates":[-2.39264,51.39555],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Penn Hill Road, Weston, Bath BA1 4EH","hours":"Mo 12:00-02:00","title":"Weston Welcome Cafe and Food Club"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.19630,51.33977],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Staverton Club, Marsh Road, Trowbridge, England, BA14","title":"Cornerstone Coffee and Cake","url":"https://cornerstonefellowship-trowbridge.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.39805,51.38087],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Lighthouse Centre, Watery Lane, Bath, England, BA2","title":"Twerton Warm Space","url":"https://www.stmichaelstwerton.com"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.20767,51.32146],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Trowbridge, England, BA14 8RU","title":"St James Church Trowbridge","url":"https://www.stjamestrowbridge.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.20767,51.32146],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Trowbridge, England, BA14 8RU","title":"St James Church Trowbridge","url":"https://www.stjamestrowbridge.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.20827,51.31992],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Court Hall, Castle Street, Trowbridge, England, BA14 8AR","title":"ElevateOM","url":"https://www.elevateom.com"},"type":"Feature"}
 	]
 }
