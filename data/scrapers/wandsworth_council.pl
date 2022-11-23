@@ -3,6 +3,7 @@
 use lib "./";
 use utf8;
 use Web::Scraper;
+use Data::Dumper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -20,10 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		# Parse all DIVs with the class warmspace and store them into
-		# an array 'warmspaces'.  We embed other scrapers for each DIV.
 		process 'div[class="warmspace"]', "warmspaces[]" => scraper {
-			# And, in each DIV,
 			process "h3", title => 'TEXT';
 			process 'span[class="loc"]', lat => [ 'TEXT', sub { /([\-\+0-9\,\.]+), ?/; return $1+0; } ];
 			process 'span[class="loc"]', lon => [ 'TEXT', sub { /, ?([\-\+0-9\,\.]+)/; return $1+0; } ];

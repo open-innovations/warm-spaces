@@ -274,6 +274,9 @@ directories:
     map:
       url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
       type: leaflet
+    data:
+      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      type: html
   - title: "Wolverhampton Council"
     url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
     data:
