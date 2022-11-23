@@ -35,6 +35,7 @@
 		{"geometry":{"coordinates":[-2.29335,53.57713],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Saint Peter&#39;s Road, Bury, England, BL9","title":"St Peter’s Church","url":"https://www.stpetersbury.church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.13754,53.63185],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 Wesley Street, Rochdale, England, OL12 9RW","title":"Branches Christian Fellowship","url":"https://www.facebook.com/branchesfellowship/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.41221,53.59137],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tonge Moor UCAN Centre, 269 Tonge Moor Road, Bolton, England, BL2 2LE","title":"Tonge Moor UCAN Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.33042,53.61435],"type":"Point"},"properties":{"_source":"warm_spaces","address":"off Brandlesholme Road, Bury, England, BL8 4LS","title":"Art For Beginners","url":"https://theenterprisecentre.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.33042,53.61435],"type":"Point"},"properties":{"_source":"warm_spaces","address":"off Brandlesholme Road, Bury, England, BL8 4LS","title":"Art For Beginners","url":"https://theenterprisecentre.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.33042,53.61435],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Enterprise Centre, Square lodge, off Brandlesholme Road, Bury, England, BL8 4LS","title":"Crafty Companions","url":"https://theenterprisecentre.co.uk/ "},"type":"Feature"}
 	]
 }

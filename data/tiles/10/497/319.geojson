@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.08101,55.86002],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Hub at the Anchor Tavern &amp; Hub, 33 Marine Road, Isle of Bute, Scotland, PA20 0LL","title":"Winter Warmer Hub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.92593,55.94782],"type":"Point"},"properties":{"_source":"warm_spaces","address":"3 Kirk Street, Dunoon, Scotland, PA23","title":"Dunoon Foodbank"},"type":"Feature"}
+	]
+}

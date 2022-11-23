@@ -2,6 +2,8 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-0.81461,51.94947],"type":"Point"},"properties":{"_source":"warm_welcome","address":"9 The Beechams, Mursley, Buckinghamshire MK17 0RX","description":"Open from 01-11-22.","hours":"We 08:30-13:30; Th 08:30-13:30","title":"PCC Mursley Rectory Room"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.71486,52.03929],"type":"Point"},"properties":{"_source":"warm_spaces","address":"27 Atlas Way, Milton Keynes, England, MK10 9SG","title":"Toastie Tuesday","url":"https://www.broughtonandmkv-pc.gov.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.71486,52.03929],"type":"Point"},"properties":{"_source":"warm_spaces","address":"27 Atlas Way, Milton Keynes, England, MK10 9SG","title":"Toastie Tuesday","url":"https://www.broughtonandmkv-pc.gov.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.89211,52.05164],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Little London, Deanshanger MK19 6HT","contact":"Phone: 0300 126 7000","title":"Deanshanger Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.88462,52.05155],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Hayes Road, Deanshanger MK19 6HP","contact":"Phone: 07766 139771 / 01908 566373 (Parish Clerk)","title":"<br /> Deanshanger Parish Council"},"type":"Feature"}
 	]
 }

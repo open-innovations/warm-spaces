@@ -227,9 +227,6 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 26,
-		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
-		"geocount": 26,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -237,9 +234,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 280,
+		"count": 460,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 280,
+		"geocount": 460,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -257,9 +254,9 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"west_northamptonshire": {
-		"count": "0",
+		"count": 57,
 		"data": { "type": "html", "url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces" },
-		"geocount": "0",
+		"geocount": 57,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
@@ -267,6 +264,9 @@
 		"url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"wigan_council": {
+		"count": 74,
+		"data": { "keys": { "title": "name" }, "parse": "Address: {{ address }}<br>Opening Hours for Warm Hub: {{ hours }}<br>Website: {{ url }}<br>.*", "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y&ll=53.52978513678878%2C-2.5874970965000044&z=11" },
+		"geocount": 74,
 		"id": "wigan_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y" },
 		"title": "Wigan Council",
