@@ -29,9 +29,9 @@
 		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
 	},
 	"bradford_council": {
-		"count": 119,
+		"count": 120,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
-		"geocount": 119,
+		"geocount": 120,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -212,9 +212,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 420,
+		"count": 360,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 420,
+		"geocount": 360,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
