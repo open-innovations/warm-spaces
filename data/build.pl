@@ -39,7 +39,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	if(!$d->{'id'}){ $d->{'id'} = getID($d->{'title'}); }
 
 	# Print the title of this one
-	msg("$j: <cyan>$d->{'title'}<none>\n");
+	msg("$j: <cyan>$d->{'title'}<none> ($d->{'id'})\n");
 
 	@features = ();
 
@@ -98,7 +98,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				$str = join("",@lines);
 				if($str !~ /<html[^\>]*>/i){
 					# Try unzipping the file
-					print "Try unzip\n";
+					msg("\tTry unzip\n");
 					$zip = $file;
 					$zip =~ s/\.html/\.gz/;
 					`mv $file $zip`;

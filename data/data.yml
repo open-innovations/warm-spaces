@@ -214,6 +214,9 @@ directories:
     map:
       url: "https://ruralcoffeecaravan.org.uk/map/"
       type: googlemap
+    data:
+      url: "https://ruralcoffeecaravan.org.uk/map/"
+      type: html
   - title: "Sunderland Council"
     url: "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
     map:
