@@ -31,7 +31,9 @@ binmode STDOUT, 'utf8';
 	{'text'=>'Monday-Friday: 8am-noon and 1pm-5:30pm','good'=>'Mo-Fr 08:00-12:00,13:00-17:30'},
 	{'text'=>'Mo-Fr 08:00-17:30','good'=>'Mo-Fr 08:00-17:30'},
 	{'text'=>'Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00','good'=>'Mo-Fr 08:00-12:00,13:00-17:30; Sa 08:00-12:00'},
-	{'text'=>'Every day 9am to 5pm','good'=>'Mo-Su 09:00-17:00'}
+	{'text'=>'Every day 9am to 5pm','good'=>'Mo-Su 09:00-17:00'},
+	{'text'=>'Mon/Wed/Thurs/Fri:  08:20 - 08:45','good'=>'Mo 08:20-08:45; We 08:20-08:45; Th 08:20-08:45; Fr 08:20-08:45'},
+	{'text'=>'10-12 Thursdays','good'=>'Th 10:00-12:00'}
 );
 
 for($i = 0; $i < @tests; $i++){
