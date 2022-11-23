@@ -124,6 +124,7 @@ sub tidyJSON {
 	while($txt =~ s/("url": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
 	while($txt =~ s/("accessibility": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
 	while($txt =~ s/("_text": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
+	while($txt =~ s/("contact": "[^\"]*)[	]([^\"]*")/$1 $2/g){}
 	$txt =~ s/\"\*\*/\"/g;
 	$txt =~ s/  \"/\"/g;
 	$txt =~ s/	 / /g;
