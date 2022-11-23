@@ -27,6 +27,7 @@ my $n = @{$data->{'directories'}};
 my $total = 0;
 my $totalgeo = 0;
 my $table = "";
+my $key = $ARGV[0];
 
 # Loop over the directories
 for($i = 0, $j = 1; $i < $n; $i++, $j++){
@@ -43,43 +44,16 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	@features = ();
 
 	# If there is data
-	if($d->{'data'}){
+	if($d->{'data'} && (!$key || ($key && $d->{'id'} eq $key))){
 
 		# If the data type is GeoJSON
-		if($d->{'data'}{'type'} eq "geojson"){
+		if($d->{'data'}{'type'} eq "arcgis"){
 
-			# Get the data (if we don't have a cached version)
-			$file = getDataFromURL($d);
+			@features = getArcGIS($d);
+			
+		}elsif($d->{'data'}{'type'} eq "geojson"){
 
-			msg("\tProcessing GeoJSON\n");
-			$geojson = getJSON($file);
-
-			# How many features in the GeoJSON
-			$d->{'count'} = @{$geojson->{'features'}};
-			if($d->{'count'} == 0){
-				warning("\tNo features for $d->{'title'}\n");
-			}else{
-
-				# For each feature 
-				$d->{'geocount'} = $d->{'count'};
-				for($f = 0; $f < $d->{'count'}; $f++){
-					$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
-					$json->{'_source'} = $d->{'id'};
-					push(@features,$json);
-				}
-				
-				@features = addLatLonFromPostcodes(@features);
-				$d->{'count'} = @features;
-				$d->{'geocount'} = 0;
-				for($f = 0; $f < @features; $f++){
-					push(@warmplaces,$features[$f]);
-					if($features[$f]{'lat'}){ $d->{'geocount'}++; }
-				}
-
-				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
-				$total += $d->{'count'};
-				$totalgeo += $d->{'geocount'};
-			}
+			@features = getGeoJSON($d);
 
 		}elsif($d->{'data'}{'type'} eq "storepoint"){
 
@@ -102,33 +76,11 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				}
 
 				@features = addLatLonFromPostcodes(@features);
-				$d->{'count'} = @features;
-				$d->{'geocount'} = 0;
-				for($f = 0; $f < @features; $f++){
-					push(@warmplaces,$features[$f]);
-					if($features[$f]{'lat'}){ $d->{'geocount'}++; }
-				}
-
-				msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
-				$total += $d->{'count'};
-				$totalgeo += $d->{'geocount'};
 			}
 
 		}elsif($d->{'data'}{'type'} eq "googlemap"){
 			
 			@features = getGoogleMap($d);
-			
-			$d->{'count'} = @features;
-			$d->{'geocount'} = 0;
-			for($f = 0; $f < @features; $f++){
-				$features[$f]{'_source'} = $d->{'id'};
-				push(@warmplaces,$features[$f]);
-				if($features[$f]{'lat'}){ $d->{'geocount'}++; }
-			}
-
-			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
-			$total += $d->{'count'};
-			$totalgeo += $d->{'geocount'};
 			
 		}elsif($d->{'data'}{'type'} eq "html"){
 
@@ -176,17 +128,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 					}
 
 					@features = addLatLonFromPostcodes(@features);
-					$d->{'count'} = @features;
-					$d->{'geocount'} = 0;
-					for($f = 0; $f < @features; $f++){
-						push(@warmplaces,$features[$f]);
-						if($features[$f]{'lat'}){ $d->{'geocount'}++; }
-					}
 
-					msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
-
-					$total += $d->{'count'};
-					$totalgeo += $d->{'geocount'};
 				}else{
 					warning("\tNo JSON returned from scraper\n");
 				}
@@ -199,17 +141,20 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			@features = getSquareSpace($d);
 			@features = addLatLonFromPostcodes(@features);
 
-			$d->{'count'} = @features;
-			$d->{'geocount'} = 0;
-			for($f = 0; $f < $d->{'count'}; $f++){
-				push(@warmplaces,$features[$f]);
-				if($features[$f]->{'lat'}){ $d->{'geocount'}++; }
-
-			}
-			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
-			$total += $d->{'count'};
-			$totalgeo += $d->{'geocount'};			
 		}
+		
+		$d->{'count'} = @features;
+		$d->{'geocount'} = 0;
+		for($f = 0; $f < @features; $f++){
+			push(@warmplaces,$features[$f]);
+			if($features[$f]{'lat'}){ $d->{'geocount'}++; }
+		}
+
+		msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
+		$total += $d->{'count'};
+		$totalgeo += $d->{'geocount'};
+			
+
 	}
 	$table .= "<tr>";
 	$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
@@ -257,18 +202,6 @@ sub getID {
 	$str =~ s/[^a-z0-9\-\_]/\_/g;
 	return $str;
 }
-sub makeDir {
-	my $str = $_[0];
-	my @bits = split(/\//,$str);
-	my $tdir = "";
-	my $i;
-	for($i = 0; $i < @bits; $i++){
-		$tdir .= $bits[$i]."/";
-		if(!-d $tdir){
-			`mkdir $tdir`;
-		}
-	}
-}
 sub getDataFromURL {
 	my $d = shift;
 	my $url = $d->{'data'}{'url'};
@@ -285,36 +218,6 @@ sub getDataFromURL {
 	if($age >= 86400 || -s $file == 0){
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 		msg("\tDownloaded\n");
-	}
-	return $file;
-}
-
-sub getURLToFile {
-	my $url = $_[0];
-	my $file = $_[1];
-	my ($age,$now,$epoch_timestamp);
-
-	$age = 100000;
-	if(-e $file){
-		$epoch_timestamp = (stat($file))[9];
-		$now = time;
-		$age = ($now-$epoch_timestamp);
-	}
-
-	if($age >= 86400 || -s $file == 0){
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		msg("\tDownloaded\n");
-	}
-	
-	if(-s $file == 0){
-		sleep 1;
-		msg("\tDownload 2nd attempt\n");
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-	}
-	if(-s $file == 0){
-		sleep 1;
-		msg("\tDownload 3nd attempt\n");
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 	}
 	return $file;
 }
@@ -350,7 +253,7 @@ sub parseStorepointFeature {
 sub parseGeoJSONFeature {
 	my $f = shift;
 	my $keys = shift;
-	my $json = {'hours'=>{}};
+	my $json = {};
 	my @fields = ("title","address","lat","lon","description","accessibility","type");
 	my ($i);
 	for($i = 0; $i < @fields; $i++){
@@ -366,55 +269,177 @@ sub parseGeoJSONFeature {
 	}
 
 	# Deal with hours
-	if($f->{'properties'}{'hours'}){ $json->{'hours'}{'_text'} = $f->{'properties'}{'hours'}; }
-	if($keys->{'hours'} && $f->{'properties'}{$keys->{'hours'}}){ $json->{'hours'}{'_text'} = $f->{'properties'}{$keys->{'hours'}}; }
+	if($f->{'properties'}{'hours'}){ $json->{'hours'} = {'_text'=>$f->{'properties'}{'hours'} }; }
+	if($keys->{'hours'} && $f->{'properties'}{$keys->{'hours'}}){ $json->{'hours'} = {'_text'=> $f->{'properties'}{$keys->{'hours'}} }; }
 
-	$json->{'hours'} = parseOpeningHours($json->{'hours'});
+	if($json->{'hours'}){
+		$json->{'hours'} = parseOpeningHours($json->{'hours'});
+		if(!$json->{'hours'}{'opening'}){ delete $json->{'hours'}{'opening'}; } 
+	}
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
 	if(!$json->{'lat'}){ $json->{'lat'} = $f->{'geometry'}{'coordinates'}[1]; }
 	if(!$json->{'lon'}){ $json->{'lon'} = $f->{'geometry'}{'coordinates'}[0]; }
 	return $json;
 }
 
+sub getGeoJSON {
+
+	my $d = shift;
+
+	my ($file,$geojson,$f,$json,@features);
+
+	# Get the data (if we don't have a cached version)
+	$file = getDataFromURL($d);
+
+	msg("\tProcessing GeoJSON\n");
+	$geojson = getJSON($file);
+
+	# How many features in the GeoJSON
+	$d->{'count'} = @{$geojson->{'features'}};
+	if($d->{'count'} == 0){
+		warning("\tNo features for $d->{'title'}\n");
+	}else{
+
+		# For each feature 
+		$d->{'geocount'} = $d->{'count'};
+		for($f = 0; $f < $d->{'count'}; $f++){
+			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
+			$json->{'_source'} = $d->{'id'};
+			push(@features,$json);
+		}
+		
+		@features = addLatLonFromPostcodes(@features);
+	}
+	return @features;
+}
+
+sub getArcGIS {
+	my $d = shift;
+
+	my ($file,$geojson,$f,@features,$json);
+
+	# Make sure we have the correct output spatial reference
+	$d->{'data'}{'url'} =~ s/outSR=27700/outSR=4326/g;
+	$d->{'data'}{'url'} =~ s/f=pbf/f=geojson/g;
+
+	# Get the data (if we don't have a cached version)
+	$file = getDataFromURL($d);
+
+	msg("\tProcessing GeoJSON\n");
+	$geojson = getJSON($file);
+
+	# How many features in the GeoJSON
+	$d->{'count'} = @{$geojson->{'features'}};
+	if($d->{'count'} == 0){
+		warning("\tNo features for $d->{'title'}\n");
+	}else{
+
+		# For each feature 
+		$d->{'geocount'} = $d->{'count'};
+		for($f = 0; $f < $d->{'count'}; $f++){
+			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}{'keys'});
+			$json->{'_source'} = $d->{'id'};
+			push(@features,$json);
+		}
+		#@features = addLatLonFromPostcodes(@features);
+	}
+	return @features;
+}
+
+sub cleanCDATA {
+	my $str = $_[0];
+	$str =~ s/(^<!-?\[CDATA\[|\]\]>$)//g;
+	return $str;
+}
 sub getGoogleMap {
+	
 	my $d = shift;
 	my $keys = shift;
-	my ($url,$page,$fh,@lines,$str,@entries);
+
+	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$k,@entries,$hrs,$parse,$re,$p2,@matches);
 
 	$url = $d->{'data'}{'url'};
-	$page = $rawdir.$d->{'id'}.".html";
-	getURLToFile($url,$page);
-	open($fh,$page);
-	@lines = <$fh>;
-	close($fh);
-	$str = join("",@lines);
-	if($str =~ /var _pageData = "(.*)";<\/script>/){
-		$str = $1;
-		$str =~ s/\\\"/\"/g;
-		$str =~ s/[–Ââ]/-/g;
-		$str =~ s/\\\\n/ /g;
-		$str =~ s/[Â]/:/g;
-		$str =~ s/\-{2,}/-/g;
-		$str =~ s/ \-\:/\:/g;
+	$file = $rawdir.$d->{'id'}.".html";
+	$kmzfile = $rawdir.$d->{'id'}.".kmz";
 
-		if(!$str){ $str = "{}"; }
-		$pageData = JSON::XS->new->decode($str);
+	msg("\tGetting Google Maps pageData\n");
+	getURLToFile($url,$file);
+	$str = join("",getFileContents($file));
+	if($str =~ /\"(https:\/\/www.google.com\/maps\/d\/kml\?mid[^\"]+)\\"/){
+		$kmzurl = $1;
+		$kmzurl =~ s/\\\\u003d/=/g;
+		$kmzurl =~ s/\\\\u0026/\&/g;
+	}
+	msg("\tGetting Google Maps kmz\n");
+	getURLToFile($kmzurl,$kmzfile);
+	msg("\tUnzipping kmz\n");
+	$str = join("",`unzip -p $kmzfile doc.kml`);
 
-		@arr = @{$pageData->[1][6][0][12][0][13][0]};
-		for($i = 0; $i < @arr; $i++){
-			$d = {};
-			$d->{'lat'} = $arr[$i][1][0][0][0]+0;
-			$d->{'lon'} = $arr[$i][1][0][0][1]+0;
-			$d->{'title'} = $arr[$i][5][0][1][0];
-			$d->{'description'} = $arr[$i][5][1][1][0];
-			$d->{'description'} =~ s/\\\\n/ /g;
-			$d->{'description'} =~ s/[\s\t]/ /g;
-			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'description'}});
-			if(!$d->{'hours'}{'opening'}){
-				delete $d->{'hours'};
-			}
-			push(@entries,$d);
+	while($str =~ s/<Placemark>(.*?)<\/Placemark>//s){
+		$placemark = $1;
+		$entry = {};
+		if($placemark =~ /<name>(.*?)<\/name>/s){ $entry->{'name'} = cleanCDATA($1); }
+		if($placemark =~ /<coordinates>(.*?)<\/coordinates>/s){
+			$c = cleanCDATA($1);
+			$c =~ s/(^ *| *$)//g;
+			$c =~ s/[\n\r\t\s]+//g;
+			($lon,$lat,$alt) = split(/,/,$c);
+			$entry->{'lat'} = $lat+0;
+			$entry->{'lon'} = $lon+0;
 		}
+		if($placemark =~ /<description>(.*?)<\/description>/s){
+			$entry->{'description'} = cleanCDATA($1);
+			if($d->{'data'}{'parse'}){
+				$parse = $d->{'data'}{'parse'}."";
+				@reps = ();
+				while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/){
+					push(@reps,$1);
+				}
+				$re = qr/^$parse$/;
+				@matches = $entry->{'description'} =~ $re;
+				if(@matches > 0){
+					for($p2 = 0; $p2 < @reps; $p2++){
+						$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
+						$entry->{$reps[$p2]} = parseText($matches[$p2]);
+					}
+				}
+				delete $entry->{'description'};
+			}
+			if($d->{'data'}{'keys'}){
+				# Build replacements
+				foreach $k (keys(%{$d->{'data'}{'keys'}})){
+					if($entry->{$d->{'data'}{'keys'}{$k}}){
+						$entry->{$k} = "".$entry->{$d->{'data'}{'keys'}{$k}};
+						delete $entry->{$d->{'data'}{'keys'}{$k}};
+					}
+				}
+				
+#				foreach $k (keys(%{$d->{'data'}{'keys'}})){
+#					if($entry->{'description'} =~ s/$d->{'data'}{'keys'}{$k}<br>(.*?)<br>(([^\:\<]+\:)|$)/$2/){
+#						$entry->{$k} = cleanCDATA($1);
+#					}
+#					if(!$entry->{$k} && $entry->{'description'} =~ s/$d->{'data'}{'keys'}{$k}<br>(.*?)$/$2/){
+#						$entry->{$k} = cleanCDATA($1);
+#					}
+#					$entry->{$k} =~ s/<br>/ /g;
+#				}
+				if(!$entry->{'hours'} && $entry->{$d->{'data'}{'keys'}{'hours'}}){
+					$entry->{'hours'} = $entry->{$d->{'data'}{'keys'}{'hours'}};
+					$entry->{'hours'} =~ s/<br>/ /;
+					$entry->{'hours'} =~ s/[\s]/ /;
+					$entry->{'hours'} =~ s/[^0-9A-Za-z\-\,\.\:\;\s\[\]]/ /;
+					if($d->{'data'}{'keys'}{'hours'} eq "description"){ delete $entry->{'description'}; }
+				}
+				$entry->{'description'} = parseText($entry->{'description'});
+				if(!$entry->{'description'}){ delete $entry->{'description'}; }
+			}
+		}
+		if($entry->{'hours'}){
+			$entry->{'hours'} = parseOpeningHours({'_text'=>$entry->{'hours'}});
+			if(!$entry->{'hours'}{'opening'}){ delete $entry->{'hours'}{'opening'}; }
+		}
+		$entry->{'_source'} = $d->{'id'};
+		push(@entries,$entry);
 	}
 
 	return @entries;

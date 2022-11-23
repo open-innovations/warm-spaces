@@ -34,9 +34,66 @@ sub warning {
 	$str =~ s/(^[\t\s]*)/$1$colours{'yellow'}WARNING:$colours{'none'} /;
 	print STDERR $str;
 }
+sub parseText {
+	my $str = $_[0];
+	$str =~ s/<br ?\/?>/ /g;
+	$str =~ s/<[^\>]+>//g;
+	$str =~ s/(^[\s]+|[\s]+$)//g;
+	$str =~ s/Â//g;
+	return $str;
+}
 sub getURL {
 	my $url = $_[0];
 	return @lines = `wget -q -e robots=off  --no-check-certificate -O- "$url"`;
+}
+sub getURLToFile {
+	my $url = $_[0];
+	my $file = $_[1];
+	my ($age,$now,$epoch_timestamp);
+
+	$age = 100000;
+	if(-e $file){
+		$epoch_timestamp = (stat($file))[9];
+		$now = time;
+		$age = ($now-$epoch_timestamp);
+	}
+
+	if($age >= 86400 || -s $file == 0){
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		msg("\tDownloaded\n");
+	}
+	
+	if(-s $file == 0){
+		sleep 1;
+		msg("\tDownload 2nd attempt\n");
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+	}
+	if(-s $file == 0){
+		sleep 1;
+		msg("\tDownload 3nd attempt\n");
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+	}
+	return $file;
+}
+sub makeDir {
+	my $str = $_[0];
+	my @bits = split(/\//,$str);
+	my $tdir = "";
+	my $i;
+	for($i = 0; $i < @bits; $i++){
+		$tdir .= $bits[$i]."/";
+		if(!-d $tdir){
+			`mkdir $tdir`;
+		}
+	}
+}
+sub getFileContents {
+	my (@files,$str,@lines);
+	my $file = $_[0];
+	open(FILE,$file);
+	@lines = <FILE>;
+	close(FILE);
+	return @lines;
 }
 sub getJSON {
 	my (@files,$str,@lines);
