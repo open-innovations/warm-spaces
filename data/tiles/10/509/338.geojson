@@ -2,7 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-0.81461,51.94947],"type":"Point"},"properties":{"_source":"warm_welcome","address":"9 The Beechams, Mursley, Buckinghamshire MK17 0RX","description":"Open from 01-11-22.","hours":"We 08:30-13:30; Th 08:30-13:30","title":"PCC Mursley Rectory Room"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.71486,52.03929],"type":"Point"},"properties":{"_source":"warm_spaces","address":"27 Atlas Way, Milton Keynes, England, MK10 9SG","title":"Toastie Tuesday","url":"https://www.broughtonandmkv-pc.gov.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.74629,52.03627],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Trinity Centre, Fishermead Boulevard, Milton Keynes, England, MK6","title":"Trinity Centre, Fishermead"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.71486,52.03929],"type":"Point"},"properties":{"_source":"warm_spaces","address":"27 Atlas Way, Milton Keynes, England, MK10 9SG","title":"Toastie Tuesday","url":"https://www.broughtonandmkv-pc.gov.uk"},"type":"Feature"}
 	]
 }
