@@ -1,6 +1,11 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.19414,56.19137],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Caskieberran Road, Glenrothes, Fife KY6 2NR","description":"Open from 7 November 2022.","hours":"Mo 10:30-14:00; Fr 10:30-14:00","title":"Glenrothes Salvation Army"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.19414,56.19137],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Caskieberran Road, Glenrothes, Fife KY6 2NR","description":"Open from 7 November 2022.","hours":"Mo 10:30-14:00; Fr 10:30-14:00","title":"Glenrothes Salvation Army"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.42255,56.20440],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"15 SWANSACRE KINROSS KY13 8TE","description":"Warm space/ refreshments","title":"Kinross & District Men's Shed"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.42018,56.23051],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ORWELL AND PORTMOAK CHURCH, BA'HILL, MILNATHORT, PERTH PH13 9YQ","description":"Warm space","title":"Orwell and Portmoak Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.39937,56.28000],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"GLENFARG VILLAGE HALL GREENBANK ROAD GLENFARG","description":"Warm space for social groups which meet in hall","title":"Arngask Hall (Glenfarg Village Hall)"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.51361,56.21303],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"SCHOOL HOUSE, CARNBO, KINROSS KY13 0NS","description":"Warm space for activities","title":"Carnbo & District Community Halls Association"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.42558,56.21506],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"KYTHE MUIRS KINROSS KY13 8FP","description":"Warm Space/activities","title":"Kinross-shire Youth Enterprise SCIO (KYTHE)"},"type":"Feature"}
 	]
 }

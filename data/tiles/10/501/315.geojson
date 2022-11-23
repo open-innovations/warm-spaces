@@ -1,6 +1,10 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.86167,56.62532],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aberfeldy Parish Church, Aberfeldy, Perthshire PH15 2JW","description":"Open from 25-10-2022.","hours":"Tu 09:30-11:30","title":"Warm Welcome Café"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.86167,56.62532],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aberfeldy Parish Church, Aberfeldy, Perthshire PH15 2JW","description":"Open from 25-10-2022.","hours":"Tu 09:30-11:30","title":"Warm Welcome Café"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.72386,56.70005],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"HOLY TRINITY CHURCH PERTH ROAD PITLOCHRY PH16 5LY","description":"Cosy Café - Warm space / refreshments Thursdays December - January 11.00am -3.00pm","title":"Holy Trinity Scottish Episcopal Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.58736,56.56570],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"THE DUCHESS ANNE HALL THE CROSS DUNKELD PH8 0AN","description":"Warm space for social activities","title":"Dunkeld Parish Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.72933,56.70213],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ATHOLL ROAD, PITLOCHRY PH16 5BX","description":"Warm space","title":"Atholl Baptist Centre SCIO"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.73280,56.70417],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"THE TRYST, PITLOCHRY CHURCH OF SCOTLAND, CHURCH ROAD, PITLOCHRY PH16 5","description":"Warm Space for activities","title":"Pitlochry Church of Scotland"},"type":"Feature"}
 	]
 }

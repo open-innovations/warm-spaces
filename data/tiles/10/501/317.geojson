@@ -1,0 +1,14 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.83206,56.33056],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"MUTHILL VILLAGE HALL 45 WILLOUGHBY STREET MUTHILL PH5 2AB","description":"Warm space and refreshments - meet at Muthill Village Hall","title":"Muthill Baby and Toddler Group"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.70690,56.29632],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"107 HIGH STREET AUCHTERARDER PH3 1BJ","description":"Warm space/ refreshments on Mondays 10am-12noon for all members of the community/ extended hours for After School Club","hours":"Mo 10:00-12:00","title":"LOGOS Youth Project"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.58515,56.31379],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"CHURCH HALL PERTH ROAD DUNNING","description":"Warm space/ refreshments 1 x per month","title":"Aberuthven & Dunning Church of Scotland"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.83308,56.33255],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"MUTHILL VILLAGE HALL 45 WILLOUGHBY STREET MUTHILL PH5 2AB","description":"Warm space/ refreshments Mondays 1-3pm","hours":"Mo 01:00-15:00","title":"Muthill Monday Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.71605,56.29198],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"APAFC PAVILLION PUBLIC PARK WESTERN ROAD AUCHTERARDER PH3 1JH","description":"Warm Space / activities / refreshments","title":"Auchterarder Community Sports & Recreation"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.58907,56.31390],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"STATION RD DUNNING PH2 0NH","description":"Warm space / refreshments / activities. Sundays 2-4pm","hours":"Su 02:00-16:00","title":"Dunning Bowling Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.70379,56.29821],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"AUCHTERARDER BOWLING CLUB CASTLE WYND AUCHTERARDER PH3 1DA","description":"Warm space/ refreshments","title":"Auchterarder Bowling Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.65433,56.31919],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ABERUTHVEN VILLAGE HALL MAIN ROAD ABERUTHVEN","description":"Warm space","title":"Aberuthven Village Hall Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.65296,56.31907],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ABERUTHVEN CHURCH PARK TERRACE ABERUTHVEN","description":"Warm space/ refreshments 1 x per month","title":"Aberuthven & Dunning Church of Scotland"},"type":"Feature"}
+	]
+}

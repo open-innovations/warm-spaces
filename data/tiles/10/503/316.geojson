@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.06281,56.46094],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ALL SOULS CHURCH 59 MAIN ST INVERGOWRIE DD2 5BA","description":"Warm space, refreshments, chat. Every Thursday 10am-12pm","hours":"Th 10:00-12:00","title":"All Souls Church"},"type":"Feature"}
+	]
+}
