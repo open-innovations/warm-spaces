@@ -308,8 +308,13 @@ sub getURLToFile {
 	
 	if(-s $file == 0){
 		sleep 1;
+		msg("\tDownload 2nd attempt\n");
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		msg("\tDownloaded 2nd attempt\n");
+	}
+	if(-s $file == 0){
+		sleep 1;
+		msg("\tDownload 3nd attempt\n");
+		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 	}
 	return $file;
 }
