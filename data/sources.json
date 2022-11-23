@@ -29,9 +29,9 @@
 		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
 	},
 	"bradford_council": {
-		"count": 120,
+		"count": 125,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
-		"geocount": 120,
+		"geocount": 125,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -107,9 +107,9 @@
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
 	"huntingdonshire_council": {
-		"count": 32,
+		"count": 34,
 		"data": { "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" },
-		"geocount": 32,
+		"geocount": 34,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -202,9 +202,9 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 25,
+		"count": 26,
 		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
-		"geocount": 25,
+		"geocount": 26,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -212,9 +212,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 360,
+		"count": 480,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 360,
+		"geocount": 480,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -222,9 +222,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2460,
+		"count": 2487,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 2460,
+		"geocount": 2487,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

@@ -52,6 +52,8 @@
 		{"geometry":{"coordinates":[-2.70853,53.43403],"type":"Point"},"properties":{"_source":"warm_spaces","address":"40 Monastery Road, Saint Helens, England, WA9 3ZD","title":"St Anne &amp; Blessed Dominic Parish Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.65563,53.45329],"type":"Point"},"properties":{"_source":"warm_spaces","address":"111 Common Road, Newton-le-Willows, England, WA12 9JH","title":"St Patrick's Parish Centre","url":"https://www.facebook.com/stpatsnewton"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.71882,53.49118],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Birchley Road, Wigan, England","title":"St Mary's Parish Centre","url":"https://www.facebook.com/StMarys-Club-Billinge-410135142676310"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.49209,53.52184],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Mayfield Street, Manchester, England, M46 0AQ","title":"St Richard's Parish Centre","url":"https://www.facebook.com/strichardsatherton"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.49209,53.52184],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Mayfield Street, Manchester, England, M46 0AQ","title":"St Richard's Parish Centre","url":"https://www.facebook.com/strichardsatherton"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.49354,53.38305],"type":"Point"},"properties":{"_source":"warm_spaces","address":"64 Star Lane, Lymm, England, WA13 9LN","title":"The Star Inn"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.48198,53.38196],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 Brookfield Road, Lymm, England, WA13 0QL","title":"Sanctuary Cafe, Lymm","url":"https://Www.sanctuarycafe.org.uk"},"type":"Feature"}
 	]
 }

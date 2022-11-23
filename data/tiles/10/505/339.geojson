@@ -11,6 +11,7 @@
 		{"geometry":{"coordinates":[-2.15576,51.63889],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Cirencester Road, Tetbury, Gloucestershire GL8 8EY","description":"Open from 7th November 2022.","hours":"Mo 12:00-16:00; Tu 12:00-16:00","title":"The Royal Oak (Tetbury) Ltd"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.35400,51.63613],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wotton Baptist Church, Rope Walk, Wotton-under-Edge GL12 7RD","description":"Open from 14-11-2022. Supervised children welcome","hours":"Mo 09:00-16:00","title":"Wotton Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.35759,51.63903],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bradley Street, Wotton under Edge, Gloucestershire GL12 7AR","description":" Children to be accompanied, please. ","hours":"We 12:00-16:30","title":"Wotton United Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.28310,51.75062],"type":"Point"},"properties":{"_source":"warm_spaces","address":"12b Gloucester Road, Stonehouse, England, GL10 2PB","title":"Stonehouse Baptist Church","url":"https://www.stonehousebaptist.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.28310,51.75062],"type":"Point"},"properties":{"_source":"warm_spaces","address":"12b Gloucester Road, Stonehouse, England, GL10 2PB","title":"Stonehouse Baptist Church","url":"https://www.stonehousebaptist.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.45035,51.80131],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Peter’s Church, High Street, Newnham, England, GL14 1AD","title":"St Peter's Church, Newnham","url":"https://www.achurchnearyou.com/church/14104/"},"type":"Feature"}
 	]
 }
