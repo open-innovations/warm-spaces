@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.10698,52.97739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Meir Library, Meir Community Education Centre, Pickford Place, Meir, Stoke-on-Trent ST3 7DY","description":"","hours":"Mo 10:00-14:00, We 10:00-12:30, Fr 09:00-12:30, Sa 10:00-14:00","title":"Meir Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.09397,53.02265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"360 Ash Bank Road, Werrington, Staffs ST9 0JS","description":"","hours":"Mo 10:30-16:00, Su 08:15-11:30","title":"St Philip Werrington"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.10698,52.97739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Meir Library, Meir Community Education Centre, Pickford Place, Meir, Stoke-on-Trent ST3 7DY","description":"","hours":"Mo 10:00-14:00; We 10:00-12:30; Fr 09:00-12:30; Sa 10:00-14:00","title":"Meir Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.09397,53.02265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"360 Ash Bank Road, Werrington, Staffs ST9 0JS","description":"","hours":"Mo 10:30-16:00; Su 08:15-11:30","title":"St Philip Werrington"},"type":"Feature"}
 	]
 }

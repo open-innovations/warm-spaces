@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.96435,56.18881],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Cross , Dunblane , Perthshire FK15 0AQ","description":" Our cosy lounge has board games, plenty of free hot drinks and snacks, and a very warm welcome. We also have quiet workspace, with free WiFi. Hot food is available on Monday lunchtimes!","hours":"Mo 10:00-16:00, Tu 10:00-16:00, Th 10:00-16:00, Fr 10:00-16:00","title":"Dunblane Cathedral "},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.96435,56.18881],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Cross , Dunblane , Perthshire FK15 0AQ","description":" Our cosy lounge has board games, plenty of free hot drinks and snacks, and a very warm welcome. We also have quiet workspace, with free WiFi. Hot food is available on Monday lunchtimes!","hours":"Mo 10:00-16:00; Tu 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00","title":"Dunblane Cathedral "},"type":"Feature"}
 	]
 }

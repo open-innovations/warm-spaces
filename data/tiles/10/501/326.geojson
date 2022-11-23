@@ -2,7 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-3.52827,54.48327],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Meeting Place, Main Street, Egremont, Cumbria CA22 2DR","description":"Open from 18 November 2022. Board games and other activities available.","hours":"Fr 12:00-15:00","title":"Egremont Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.58607,54.54592],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Catherine Street, Whitehaven, Cumbria CA28 7PD","description":"Open from 17-10-2022.","hours":"Mo 10:00-15:00, We 10:00-13:00, Fr 10:00-13:00","title":"The Salvation Army, Whitehaven Corps"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.58607,54.54592],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Catherine Street, Whitehaven, Cumbria CA28 7PD","description":"Open from 17-10-2022.","hours":"Mo 10:00-15:00; We 10:00-13:00; Fr 10:00-13:00","title":"The Salvation Army, Whitehaven Corps"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.56919,54.53646],"type":"Point"},"properties":{"_source":"warm_spaces","address":"111 Main Street, Whitehaven, England, CA28 8QA","title":"Mainstreet Hair and Beauty","url":"https://www.instagram.com/mainstreethairandbeauty/"},"type":"Feature"}
 	]
 }

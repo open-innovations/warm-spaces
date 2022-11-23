@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.62256,57.34299],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Western Road, Insch, Aberdeenshire AB52 6JR","description":"Open from December 7th 2022 to end of March. Everyone welcome. We have games we can play with adults and children. Someone will be there they can have a friendly blether with should they wish. ","hours":"We 14:00-17:00, Th 14:00-17:00","title":"Insch-Leslie-Premnay-Oyne Parish Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.62256,57.34299],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Western Road, Insch, Aberdeenshire AB52 6JR","description":"Open from December 7th 2022 to end of March. Everyone welcome. We have games we can play with adults and children. Someone will be there they can have a friendly blether with should they wish. ","hours":"We 14:00-17:00; Th 14:00-17:00","title":"Insch-Leslie-Premnay-Oyne Parish Church"},"type":"Feature"}
 	]
 }

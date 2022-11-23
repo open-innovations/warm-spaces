@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.23036,57.47368],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bishops Road, INVERNESS IV3 5SA","description":"","hours":"Mo 10:00-22:00, Tu 10:00-22:00, We 10:00-22:00, Th 10:00-22:00, Fr 10:00-22:00, Sa 10:00-22:00, Su 10:00-22:00","title":"Eden Court Highlands"},"type":"Feature"},
-		{"geometry":{"coordinates":[-4.22938,57.47970],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7 Bank Street, Inverness IV1 1QY","description":"Open from 07-11-2022.","hours":"Mo 10:00-14:00, Fr 10:00-14:00","title":"Free North Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.23036,57.47368],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bishops Road, INVERNESS IV3 5SA","description":"","hours":"Mo 10:00-22:00; Tu 10:00-22:00; We 10:00-22:00; Th 10:00-22:00; Fr 10:00-22:00; Sa 10:00-22:00; Su 10:00-22:00","title":"Eden Court Highlands"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.22938,57.47970],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7 Bank Street, Inverness IV1 1QY","description":"Open from 07-11-2022.","hours":"Mo 10:00-14:00; Fr 10:00-14:00","title":"Free North Church"},"type":"Feature"}
 	]
 }

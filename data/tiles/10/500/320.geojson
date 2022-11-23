@@ -1,9 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.15130,55.77637],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Maxwellton Road, East Kilbride, GLASGOW, Lanarkshire G74 3LW","description":"Open from 31-10-2022.","hours":"Mo 13:00-15:00, Tu 15:00-17:00, We 11:00-15:00, Th 15:00-17:00","title":"Calderwood Baptist Church, EK Community Food Bank"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.15130,55.77637],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Maxwellton Road, East Kilbride, GLASGOW, Lanarkshire G74 3LW","description":"Open from 31-10-2022.","hours":"Mo 13:00-15:00; Tu 15:00-17:00; We 11:00-15:00; Th 15:00-17:00","title":"Calderwood Baptist Church, EK Community Food Bank"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.07687,55.77303],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hillhouse road, Hillhouse, Hamilton ML3","description":"Primarily we serve our local community but we welcome everybody who is in need We have free food surplus,clothes swapshop,cafe,freshbread free,child play corner,benefits advice,local councillor surgery","hours":"We 11:00-15:00","title":"Hillhouse tenants & residents"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.96902,55.73360],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 Machan Road, Larkhall, South Lanarkshire ML9 1HX","description":"","hours":"Tu 12:00-14:00, We 12:00-14:00","title":"Larkhall Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.96902,55.73360],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 Machan Road, Larkhall, South Lanarkshire ML9 1HX","description":"","hours":"Tu 12:00-14:00; We 12:00-14:00","title":"Larkhall Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.20699,55.74534],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Greenhills Crescent, Glasgow, Scotland, G75 8TT","title":"Greenhills Foodbank"},"type":"Feature"}
 	]
 }

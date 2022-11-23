@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.03561,53.72871],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Queen Street, Withernsea, East Riding of Yorkshire HU19 2HH","description":"Open from 01/11/2022. East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":"Mo 09:30-16:30, Tu 09:30-18:30, Th 09:30-16:30, Fr 09:30-13:00, Sa 09:30-12:30","title":"Withernsea Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.03561,53.72871],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Queen Street, Withernsea, East Riding of Yorkshire HU19 2HH","description":"Open from 01/11/2022. East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":"Mo 09:30-16:30; Tu 09:30-18:30; Th 09:30-16:30; Fr 09:30-13:00; Sa 09:30-12:30","title":"Withernsea Centre"},"type":"Feature"}
 	]
 }

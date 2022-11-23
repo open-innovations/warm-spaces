@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.25751,53.33862],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mablethorpe Library, Stanley Ave, Mablethorpe LN12 1DP","description":" Alongside free access to books, computers, casual and study seating, the Library runs a host of free activities for adults and children including Connect Over A Cuppa community coffee morning on Wednesday 10am-11.30am, there is no charge for refreshments.","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-18:00, Fr 09:00-17:00, Sa 09:00-13:00","title":"Mablethorpe Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.25751,53.33862],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mablethorpe Library, Stanley Ave, Mablethorpe LN12 1DP","description":" Alongside free access to books, computers, casual and study seating, the Library runs a host of free activities for adults and children including Connect Over A Cuppa community coffee morning on Wednesday 10am-11.30am, there is no charge for refreshments.","hours":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-18:00; Fr 09:00-17:00; Sa 09:00-13:00","title":"Mablethorpe Library"},"type":"Feature"}
 	]
 }

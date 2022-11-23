@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.36009,50.63592],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gateway 2 New Life, Gateway Centre, Madford Lane, Launceston, Cornwall PL15 9TR","description":" The largest community centre in Launceston. We offer plenty of space to come and relax in our community cafe, Cafe Avodah.","hours":"Mo 09:00-15:30, Tu 09:00-15:30, We 09:00-15:30, Th 09:00-15:30, Fr 09:00-15:30, Su 10:00-14:00","title":"Gateway Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.36009,50.63592],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gateway 2 New Life, Gateway Centre, Madford Lane, Launceston, Cornwall PL15 9TR","description":" The largest community centre in Launceston. We offer plenty of space to come and relax in our community cafe, Cafe Avodah.","hours":"Mo 09:00-15:30; Tu 09:00-15:30; We 09:00-15:30; Th 09:00-15:30; Fr 09:00-15:30; Su 10:00-14:00","title":"Gateway Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.36090,50.63799],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Launceston Central, Launceston, England, PL15 8BD","title":"Central Warm Space","url":"https://www.central-methodist.org.uk"},"type":"Feature"}
 	]
 }

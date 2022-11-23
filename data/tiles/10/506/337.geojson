@@ -1,9 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.94543,52.09349],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oat Street, Evesham, Worcestershire WR11 4PJ","description":"","hours":"Mo 09:30-17:00, Tu 09:30-19:00, We 09:30-17:00, Th 09:30-17:00, Fr 09:30-17:00, Sa 09:30-16:00","title":"Evesham Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.07617,52.10960],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Broad Street, Pershore, Worcestershire WR10 1AY","description":"Open from 05-12-2022.","hours":"Mo 10:00-16:00, Tu 10:00-16:00, We 10:00-16:00, Th 10:00-12:00, Fr 10:00-16:00","title":"Pershore Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.07647,52.11134],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Pershore, Worcestershire WR10 1DT","description":"","hours":"Mo 09:30-17:30, Tu 09:00-19:00, We 09:00-17:30, Th 09:00-17:30, Fr 09:00-17:30, Sa 09:00-17:00","title":"Pershore Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.94543,52.09349],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oat Street, Evesham, Worcestershire WR11 4PJ","description":"","hours":"Mo 09:30-17:00; Tu 09:30-19:00; We 09:30-17:00; Th 09:30-17:00; Fr 09:30-17:00; Sa 09:30-16:00","title":"Evesham Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.07617,52.10960],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Broad Street, Pershore, Worcestershire WR10 1AY","description":"Open from 05-12-2022.","hours":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-12:00; Fr 10:00-16:00","title":"Pershore Baptist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.07647,52.11134],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Pershore, Worcestershire WR10 1DT","description":"","hours":"Mo 09:30-17:30; Tu 09:00-19:00; We 09:00-17:30; Th 09:00-17:30; Fr 09:00-17:30; Sa 09:00-17:00","title":"Pershore Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.87089,52.21396],"type":"Point"},"properties":{"_source":"warm_spaces","address":"59 High Street, Alcester, England, B49 5AF","title":"Orangemabel Tearoom","url":"https://www.Orangemabel.com"},"type":"Feature"}
 	]
 }

@@ -274,7 +274,7 @@ sub parseOpeningHours {
 			$hours->{$days[$i]{'key'}} =~ s/(\-[\s\t]*\/[\s\t]*\-)//g;
 			$hours->{$days[$i]{'key'}} =~ s/(^[\s\t]+|[\s\t]+$)//g;
 			if(!($hours->{$days[$i]{'key'}} eq "-" || $hours->{$days[$i]{'key'}} eq "")){
-				$hours->{'_text'} .= ($hours->{'_text'} ? ", ":"").$days[$i]{'key'}.": ".$hours->{$days[$i]{'key'}};
+				$hours->{'_text'} .= ($hours->{'_text'} ? "; ":"").$days[$i]{'key'}.": ".$hours->{$days[$i]{'key'}};
 			}
 			delete $hours->{$days[$i]{'key'}};
 		}
@@ -282,6 +282,10 @@ sub parseOpeningHours {
 
 	$hours->{'opening'} = $hours->{'_parsed'};
 	delete $hours->{'_parsed'};
+	if($hours->{'opening'}){
+		# Correction - not sure why there are commas between date/times
+		$hours->{'opening'} =~ s/\, /\; /g;
+	}
 	return $hours;
 }
 

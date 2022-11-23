@@ -1,8 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-0.94286,53.32005],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canal Street, Retford, Nottinghamshire DN22 6EZ","description":"Our focus is to support older people","hours":"Mo 09:00-15:00, We 09:00-15:00, Fr 09:00-15:00","title":"Bassetlaw Action Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.02715,53.13276],"type":"Point"},"properties":{"_source":"warm_welcome","address":"66 kirklington Road , Newark, Nottinghamshire NG22 8SP","description":"","hours":"We 09:00-18:00, Th 09:00-17:00, Fr 09:00-17:00, Sa 09:00-14:00","title":"Creations"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.95043,53.32258],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Well, Hospital Road,, Retford, Notts DN22 7BD","description":"Open from 22-11-22. All are welcome. Quiet area. Study Space. Information/advice area. Games for Children.","hours":"Tu 15:30-20:30","title":"The Well Community Projects"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.94286,53.32005],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canal Street, Retford, Nottinghamshire DN22 6EZ","description":"Our focus is to support older people","hours":"Mo 09:00-15:00; We 09:00-15:00; Fr 09:00-15:00","title":"Bassetlaw Action Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.02715,53.13276],"type":"Point"},"properties":{"_source":"warm_welcome","address":"66 kirklington Road , Newark, Nottinghamshire NG22 8SP","description":"","hours":"We 09:00-18:00; Th 09:00-17:00; Fr 09:00-17:00; Sa 09:00-14:00","title":"Creations"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.95043,53.32258],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Well, Hospital Road,, Retford, Notts DN22 7BD","description":"Open from 22-11-22. All are welcome. Quiet area. Study Space. Information/advice area. Games for Children.","hours":"Tu 15:30-20:30","title":"The Well Community Projects"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.02709,53.13291],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Creations Hair &amp; Beauty, 66 Kirklington Road, Newark, England, NG22 8SP","hours":"We-Sa 09:00-18:00","title":"Creations","url":"https://www.facebook.com/CreationsHairBeauty"},"type":"Feature"}
 	]
 }

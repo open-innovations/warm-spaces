@@ -80,6 +80,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				$total += $d->{'count'};
 				$totalgeo += $d->{'geocount'};
 			}
+
 		}elsif($d->{'data'}{'type'} eq "storepoint"){
 
 			# Get the data (if we don't have a cached version)
@@ -113,6 +114,22 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				$totalgeo += $d->{'geocount'};
 			}
 
+		}elsif($d->{'data'}{'type'} eq "googlemap"){
+			
+			@features = getGoogleMap($d);
+			
+			$d->{'count'} = @features;
+			$d->{'geocount'} = 0;
+			for($f = 0; $f < @features; $f++){
+				$features[$f]{'_source'} = $d->{'id'};
+				push(@warmplaces,$features[$f]);
+				if($features[$f]{'lat'}){ $d->{'geocount'}++; }
+			}
+
+			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
+			$total += $d->{'count'};
+			$totalgeo += $d->{'geocount'};
+			
 		}elsif($d->{'data'}{'type'} eq "html"){
 
 			# Find the scraping file
@@ -352,6 +369,50 @@ sub parseGeoJSONFeature {
 	if(!$json->{'lat'}){ $json->{'lat'} = $f->{'geometry'}{'coordinates'}[1]; }
 	if(!$json->{'lon'}){ $json->{'lon'} = $f->{'geometry'}{'coordinates'}[0]; }
 	return $json;
+}
+
+sub getGoogleMap {
+	my $d = shift;
+	my $keys = shift;
+	my ($url,$page,$fh,@lines,$str,@entries);
+
+	$url = $d->{'data'}{'url'};
+	$page = $rawdir.$d->{'id'}.".html";
+	getURLToFile($url,$page);
+	open($fh,$page);
+	@lines = <$fh>;
+	close($fh);
+	$str = join("",@lines);
+	if($str =~ /var _pageData = "(.*)";<\/script>/){
+		$str = $1;
+		$str =~ s/\\\"/\"/g;
+		$str =~ s/[–Ââ]/-/g;
+		$str =~ s/\\\\n/ /g;
+		$str =~ s/[Â]/:/g;
+		$str =~ s/\-{2,}/-/g;
+		$str =~ s/ \-\:/\:/g;
+
+		if(!$str){ $str = "{}"; }
+		$pageData = JSON::XS->new->decode($str);
+
+		@arr = @{$pageData->[1][6][0][12][0][13][0]};
+		for($i = 0; $i < @arr; $i++){
+			$d = {};
+			$d->{'lat'} = $arr[$i][1][0][0][0]+0;
+			$d->{'lon'} = $arr[$i][1][0][0][1]+0;
+			$d->{'title'} = $arr[$i][5][0][1][0];
+			$d->{'description'} = $arr[$i][5][1][1][0];
+			$d->{'description'} =~ s/\\\\n/ /g;
+			$d->{'description'} =~ s/[\s\t]/ /g;
+			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'description'}});
+			if(!$d->{'hours'}{'opening'}){
+				delete $d->{'hours'};
+			}
+			push(@entries,$d);
+		}
+	}
+
+	return @entries;
 }
 
 sub getSquareSpace {

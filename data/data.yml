@@ -108,6 +108,17 @@ directories:
     data:
       url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
       type: html
+  - title: "Harrogate NetMakers"
+    url: "http://netmakers.org.uk/warmwelcome/"
+    gss: E07000165
+    lat: 53.99339
+    lon: -1.53742
+    map:
+      url: "https://www.google.com/maps/d/u/1/embed?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&ehbc=2E312F"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/u/1/embed?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&ehbc=2E312F"
+      type: googlemap
   - title: "Huntingdonshire Council"
     url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
     map:

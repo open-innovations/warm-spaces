@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.59880,51.20929],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old School Centre, Porlock, Somerset TA24 8NP","description":"","hours":"Mo 10:00-12:30, Tu 10:00-12:30, We 10:00-12:30, Fr 10:00-12:30, Sa 10:00-12:30","title":"Porlock Community Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.59880,51.20929],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old School Centre, Porlock, Somerset TA24 8NP","description":"","hours":"Mo 10:00-12:30; Tu 10:00-12:30; We 10:00-12:30; Fr 10:00-12:30; Sa 10:00-12:30","title":"Porlock Community Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.59963,51.20956],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Old School Building, West End, Minehead, England, TA24 8QD","title":"Porlock Visitor Centre","url":"https://www.porlock.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.59884,51.20921],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Porlock Community Library, The Old School Building, High Street, Minehead, England, TA24 8NP","title":"Porlock Community Library","url":"https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/"},"type":"Feature"}
 	]
 }

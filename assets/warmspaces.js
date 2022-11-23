@@ -45,33 +45,40 @@
 		// Create list output area
 		this.list = document.createElement('ul');
 		this.list.classList.add('list','grid');
-		
 
 		// Create a tiled data layer object
 		this.tiler = OI.TiledDataLayer(merge({
 			'url':'https://odileeds.github.io/osm-geojson/tiles/bins/{z}/{x}/{y}.geojson',
 			'zoomLevels': [12],
 			'finder': this,
-			//'map': this.map,
 			'loaded':function(tiles,attr){
+				var i,geo,lat,lon,f,features,sorted,c;
 				log('info','There are '+tiles.length+' tiles.');
-				var geo = {'type':'FeatureCollection','features':[]};
-				for(var i = 0; i < tiles.length; i++){
-					for(var f = 0; f < tiles[i].data.features.length; f++){
+				geo = {'type':'FeatureCollection','features':[]};
+				for(i = 0; i < tiles.length; i++){
+					for(f = 0; f < tiles[i].data.features.length; f++){
 						if(tiles[i].data.features[f].type==="Feature") geo.features.push(tiles[i].data.features[f]);
 					}
 				}
 
-				var lat = attr.finder.lat;
-				var lon = attr.finder.lon;
+				features = geo.features;
 
-				var features = geo.features;
-				for(var i = 0; i < features.length; i++){
-					c = features[i].geometry.coordinates;
-					features[i].distance = greatCircle([lon,lat],c);
+				if(typeof attr.finder.lat==="number"){
+					lat = attr.finder.lat;
+					lon = attr.finder.lon;
+
+					for(i = 0; i < features.length; i++){
+						c = features[i].geometry.coordinates;
+						features[i].distance = greatCircle([lon,lat],c);
+					}
+					sorted = features.sort(function(a,b){return a.distance - b.distance;});
+				}else{
+					sorted = [];
+					for(i = 0; i < features.length; i++){
+						if(attr.finder.region.contains(features[i].geometry.coordinates[0],features[i].geometry.coordinates[1])) sorted.push(features[i]);
+					}
 				}
-				var sorted = features.sort(function(a,b){return a.distance - b.distance;});
-				
+
 				// Build list
 				attr.finder.buildList(sorted);
 			}
@@ -86,19 +93,34 @@
 				opts.sources = opts.sources.replace(/\{% include_relative ([^\%]+) %\}/,function(m,p1){ return p1; });
 			}
 			fetch(opts.sources||"data/sources.json",{})
-				.then(response => { return response.json(); })
-				.then(json => {
-					this.sources = json;
-				}).catch(error => {
-					log("error",'Unable to load sources.');
-				});
+			.then(response => { return response.json(); })
+			.then(json => {
+				this.sources = json;
+				this.init();
+			}).catch(error => {
+				log("error",'Unable to load sources.');
+			});
 		}
-		
+		this.loadArea = function(url){
+			fetch(url,{})
+			.then(response => { return response.json(); })
+			.then(feature => {
+				
+				var polygon;
+				if(feature.geometry.type==="Polygon") polygon = feature.geometry.coordinates[0];
+				else if(feature.geometry.type==="MultiPolygon") polygon = feature.geometry.coordinates[0][0];
+
+				this.setArea(polygon);
+
+			}).catch(error => {
+				log('error','Unable to load URL '+url,{'type':'ERROR','extra':{}});
+			});
+		};
 		this.buildList = function(geosort){
 
 			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy;
 			// We want to round to the accuracy of the geolocation
-			acc = this.location.coords.accuracy;
+			acc = (this.location ? this.location.coords.accuracy : 50);
 			logacc = Math.log10(acc);
 			base = Math.floor(logacc);
 			frac = logacc - base;
@@ -119,9 +141,14 @@
 			accuracy = Math.pow(10,(base))*options[imin];
 
 			html = '';
-			for(i = 0; i < 30; i++){
+			var max = Math.min(60,geosort.length);
+			for(i = 0; i < max; i++){
 				p = geosort[i].properties;
-				d = Math.ceil(geosort[i].distance/accuracy)*accuracy;
+				if(geosort[i].distance){
+					d = Math.ceil(geosort[i].distance/accuracy)*accuracy;
+				}else{
+					d = -1;
+				}
 				var hours = processHours(p.hours);
 				var cls = hours.class;
 				
@@ -130,7 +157,7 @@
 				html += '<div class="doublepadded">';
 				html += '<h3>'+p.title+'</h3>';
 				if(p.address) html += '<p class="address">'+p.address+'</p>';
-				html += '<p><span class="dist">'+d+'m</span> or so away</p>';
+				if(d >= 0) html += '<p><span class="dist">'+d+'m</span> or so away</p>';
 				if(p.description) html += '<p><strong>Description:</strong> '+p.description+'</p>';
 				if(p.hours){
 					html += '<p class="times"><strong>Opening hours:</strong></p>'+hours.times;
@@ -145,88 +172,42 @@
 			this.loader.innerHTML = '<ul id="key"><li><span class="keyitem c14-bg"></span> opening soon</li><li><span class="keyitem c13-bg"></span> open</li><li><span class="keyitem c12-bg"></span> closing soon</li><li><span class="keyitem b5-bg"></span> closed</li></ul>';
 			return this;
 		};
-		function formatSource(source){
-			var html = "";
-			if(source.url) html += '<a href="'+source.url+'" target="_source">';
-			if(source.title) html += source.title;
-			if(source.url) html += '</a>';
-			if(source.map && source.map.url && source.map.url!=source.url){
-				html += ' / <a href="'+source.map.url+'" target="_source">Map</a>'
-			}
-			return (html ? '<div class="source b2-bg"><strong>Source:</strong> '+html+'</div>' : '');
-		}
-		Date.prototype.getNthOfMonth = function(){
-			var dd = new Date(this),
-				month = this.getMonth(),
-				year = this.getFullYear(),
-				day = this.getDate(),
-				today = this.getDay(),
-				n = 0;
-			var i,d;
-			for(i = 1; i <= day; i++){
-				dd.setDate(i);
-				d = dd.getDay();
-				if(d==today) n++;
-				
-			}
-			return n;
-		};
-		function processHours(times){
-			var i,d,dow,now,nth,days,day,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth;
-			cls = "b5-bg";
-			newtimes = "";
-			if(times){
-				longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat","Su":"Sun"}
-				days = {"Su":0,"Mo":1,"Tu":2,"We":3,"Th":4,"Fr":5,"Sa":6,"Su":7};
-				now = new Date();
-				nth = now.getNthOfMonth();
-				bits = times.split(/\, /);
-				okday = false;
-				for(i = 0; i < bits.length; i++){
-					(bitpart) = bits[i].split(/ /);
-					ds = bitpart[0].split(/-/);
-					dow = now.getDay();
-					hh = now.getHours() + now.getMinutes()/60;
-					today = "";
-					for(d in days){
-						if(dow==days[d]) today = d;
-					}
-					okday = false;
-					if(ds.length == 1){
-						okday = (ds[0].match(today));
-					}else{
-						s = days[ds[0]];
-						e = days[ds[1]];
-						if(dow >= s && dow <= e) okday = true;
-					}
-
-					ofmonth = "";
-					// Check week of month
-					bitpart[0] = bitpart[0].replace(/\[([^\]]+)\]/,function(m,p1){
-						if(!p1.match(nth)) okday = false;
-						ofmonth = "<sup>"+p1+"</sup>"
-						return "";
-					});
-
-					newtimes += '<li>'+longdays[bitpart[0]]+ofmonth+': '+bitpart[1]+'</li>';
-
-					if(okday){
-						ranges = bitpart[1].split(/,/);
-						//console.log(bits,bitpart,'matches this day of week');
-						for(r = 0; r < ranges.length; r++){
-							ts = ranges[r].split(/-/);
-							t1 = ts[0].split(/:/);
-							t2 = ts[1].split(/:/);
-							t1 = parseInt(t1[0]) + parseInt(t1[1])/60;
-							t2 = parseInt(t2[0]) + parseInt(t2[1])/60;
-							if(t1 <= hh && t2 > hh) cls = "c13-bg";
-							if(hh < t1 && hh > t1-0.5) cls = "c14-bg";
-							if(hh < t2 && hh > t2-0.25) cls = "c12-bg";
-						}
+		this.loadGSS = function(code){
+			var gss = {
+				'PCON':{
+					'title':'Parliamentary Constituencies (2017)',
+					'patterns':[/^E14[0-9]{6}$/,/^W07[0-9]{6}$/,/^S14[0-9]{6}$/,/^N06[0-9]{6}$/],
+					'geojson':'https://open-innovations.github.io/geography-bits/data/PCON17CD/{{gss}}.geojsonl'
+				},
+				'WD':{
+					'title': 'Wards (2021)',
+					'patterns':[/^E05[0-9]{6}$/,/^W05[0-9]{6}$/,/^S13[0-9]{6}$/,/^N08[0-9]{6}$/],
+					'geojson': 'https://open-innovations.github.io/geography-bits/data/WD21CD/{{gss}}.geojsonl'
+				},
+				'LAD':{
+					'title': 'Local Authority Districts (2021)',
+					'patterns':[/^E06[0-9]{6}$/,/^W06[0-9]{6}$/,/^S12[0-9]{6}$/,/^E07[0-9]{6}$/,/^E08[0-9]{6}$/,/^E09[0-9]{6}$/],
+					'geojson': 'https://open-innovations.github.io/geography-bits/data/LAD21CD/{{gss}}.geojsonl'
+				}
+			};
+			var g,m,url="";
+			for(g in gss){
+				gss[g].matches = {};
+				for(m = 0; m < gss[g].patterns.length; m++){
+					if(code.match(gss[g].patterns[m])){
+						url = gss[g].geojson.replace(/\{\{gss\}\}/,code);
+						continue;
 					}
 				}
 			}
-			return {'class':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
+			if(url) this.loadArea(url);
+			return this;
+		};
+		this.init = function(){
+			var m = location.search.match(/gss=([^\&]*[EWNS][0-9]{8})/);
+			if(m.length==2) this.loadGSS(m[1]);
+
+			return this;
 		};
 		this.getLocation = function(){ this.startLocation("getCurrentPosition"); };
 		this.startLocation = function(type){
@@ -250,16 +231,32 @@
 		this.stopLocation = function(){
 			navigator.geolocation.clearWatch(this.watchID);
 			return this;
-		};		
+		};
 		this.updateLocation = function(position){
-			this.lat = position.coords.latitude;
-			this.lon = position.coords.longitude;
 			this.location = position;
-			log('info','Got location',position,this.lat,this.lon);
+			this.setLocation(position.coords.latitude,position.coords.longitude);
+		};
+		this.setArea = function(poly){
+			this.region = new Region(poly);
+			this.setBounds(this.region.boundingBox());
+			return this;
+		};
+		this.setBounds = function(bounds){
+			log('info','Set bounds',bounds);
+			delete this.lat;
+			delete this.lon;
+			if(bounds) this.tiler.getTiles(bounds,opts.tiles.zoomLevels[0]);
+			return this;			
+		};
+		this.setLocation = function(lat,lon){
+			log('info','Set location',lat,lon);
+			var dlat,dlon,bounds;
+			this.lat = lat;
+			this.lon = lon;
 			
 			dlat = 0.05;
 			dlon = 0.05;
-			var bounds = {"_southWest": {
+			bounds = {"_southWest": {
 					"lat": this.lat-dlat,
 					"lng": this.lon-dlon
 				},
@@ -272,9 +269,143 @@
 			this.tiler.getTiles(bounds,opts.tiles.zoomLevels[0]);
 			return this;
 		};
+		function formatSource(source){
+			var html = "";
+			if(source=="") return '';
+			if(source.url) html += '<a href="'+source.url+'" target="_source">';
+			if(source.title) html += source.title;
+			if(source.url) html += '</a>';
+			if(source.map && source.map.url && source.map.url!=source.url){
+				html += ' / <a href="'+source.map.url+'" target="_source">Map</a>';
+			}
+			return (html ? '<div class="source b2-bg"><strong>Source:</strong> '+html+'</div>' : '');
+		}
+		Date.prototype.getNthOfMonth = function(){
+			var dd = new Date(this),
+				day = this.getDate(),
+				today = this.getDay(),
+				n = 0;
+			var i,d;
+			for(i = 1; i <= day; i++){
+				dd.setDate(i);
+				d = dd.getDay();
+				if(d==today) n++;
+				
+			}
+			return n;
+		};
+		function processHours(times){
+			var i,d,dow,now,nth,days,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth,ds,s,e;
+			cls = "b5-bg";
+			newtimes = "";
+			if(times){
+				var longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat"};
+				days = {"Su":0,"Mo":1,"Tu":2,"We":3,"Th":4,"Fr":5,"Sa":6};
+				now = new Date();
+				nth = now.getNthOfMonth();
+				bits = times.split(/\; /);
+				okday = false;
+				for(i = 0; i < bits.length; i++){
+					(bitpart) = bits[i].split(/ /);
+					ds = bitpart[0].split(/-/);
+					dow = now.getDay();
+					hh = now.getHours() + now.getMinutes()/60;
+					today = "";
+					for(d in days){
+						if(dow==days[d]) today = d;
+					}
+					okday = false;
+					if(ds.length == 1){
+						okday = (ds[0].match(today));
+					}else{
+						s = days[ds[0]];
+						e = days[ds[1]];
+						if(dow >= s && dow <= e) okday = true;
+					}
+
+					ofmonth = "";
+					// Check week of month
+					bitpart[0] = bitpart[0].replace(/\[([^\]]+)\]/,function(m,p1){
+						if(!p1.match(nth)) okday = false;
+						ofmonth = "<sup>"+p1+"</sup>";
+						return "";
+					});
+
+					newtimes += '<li>'+longdays[bitpart[0]]+ofmonth+': '+bitpart[1]+'</li>';
+
+					if(okday){
+						ranges = bitpart[1].split(/,/);
+						//console.log(bits,bitpart,'matches this day of week');
+						for(r = 0; r < ranges.length; r++){
+							ts = ranges[r].split(/-/);
+							t1 = ts[0].split(/:/);
+							t2 = ts[1].split(/:/);
+							t1 = parseInt(t1[0]) + parseInt(t1[1])/60;
+							t2 = parseInt(t2[0]) + parseInt(t2[1])/60;
+							if(t1 <= hh && t2 > hh) cls = "c13-bg";
+							if(hh < t1 && hh > t1-0.5) cls = "c14-bg";
+							if(hh < t2 && hh > t2-0.25) cls = "c12-bg";
+						}
+					}
+				}
+			}
+			return {'class':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
+		}
 		
 		return this;
 	}
+	
+	// Centroid calculation from https://stackoverflow.com/questions/16282330/find-centerpoint-of-polygon-in-javascript
+	function Region(points) {
+		this.points = points || [];
+		this.length = points.length;
+	}
+	Region.prototype.area = function () {
+		var area = 0,i,j,point1,point2;
+		for(i = 0, j = this.length - 1; i < this.length; j=i,i++){
+			point1 = this.points[i];
+			point2 = this.points[j];
+			area += point1[0] * point2[1];
+			area -= point1[1] * point2[0];
+		}
+		area /= 2;
+
+		return area;
+	};
+	Region.prototype.contains = function(x,y){
+		var i, j, c = false;
+		var nvert = this.length;
+		for(i = 0, j = nvert-1; i < nvert; j = i++){
+			vertx = this.points[i][0];
+			verty = this.points[i][1];
+			if(((this.points[i][1] > y) != (this.points[j][1] > y)) && (x < (this.points[j][0]-this.points[i][0]) * (y - this.points[i][1]) / (this.points[j][1] - this.points[i][1]) + this.points[i][0])) c = !c;
+		}
+		return c;
+	};
+	Region.prototype.centroid = function () {
+		var x = 0, y = 0, i, j, f, point1, point2;
+		for(i = 0, j = this.length - 1; i < this.length; j=i,i++){
+			point1 = this.points[i];
+			point2 = this.points[j];
+			f = point1[0] * point2[1] - point2[0] * point1[1];
+			x += (point1[0] + point2[0]) * f;
+			y += (point1[1] + point2[1]) * f;
+		}
+
+		f = this.area() * 6;
+
+		return [x / f, y / f];
+	};
+	Region.prototype.boundingBox = function(){
+		var i,N=-90,E=-180,S=90,W=180,j;
+		for(i = 0, j = this.length - 1; i < this.length; j=i,i++){
+			N = Math.max(N,this.points[i][1]);
+			S = Math.min(S,this.points[i][1]);
+			E = Math.max(E,this.points[i][0]);
+			W = Math.min(W,this.points[i][0]);
+		}
+		return {'_southWest':{'lat':S,'lng':W},'_northEast':{'lat':N,'lng':E},'N':N,'S':S,'E':E,'W':W};
+	};
 	function greatCircle(a,b){
 		// Inputs [longitude,latitude]
 		var d2r = Math.PI/180;
@@ -284,10 +415,10 @@
 		var dlat = (a[1]-b[1])*d2r;
 		var dlon = (a[0]-b[0])*d2r;
 
-		var a = Math.sin(dlat/2) * Math.sin(dlat/2) +
+		var d = Math.sin(dlat/2) * Math.sin(dlat/2) +
 				Math.cos(f1) * Math.cos(f2) *
 				Math.sin(dlon/2) * Math.sin(dlon/2);
-		var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+		var c = 2 * Math.atan2(Math.sqrt(d), Math.sqrt(1-d));
 
 		return R * c;
 	}		
@@ -346,6 +477,7 @@
 			var geojsonlayer;
 		}
 		this.addToMap = function(geojson,config){
+			var i;
 
 			if(opts.map){
 
@@ -379,8 +511,9 @@
 						showCoverageOnHover: false,
 						zoomToBoundsOnClick: true
 					});
-					markerList = [];
-					for(var i = 0; i < geojson.features.length; i++){
+					var markerList = [];
+          var ll,tempmark;
+					for(i = 0; i < geojson.features.length; i++){
 						if(geojson.features[i].geometry.type=="Point"){
 							ll = geojson.features[i].geometry.coordinates;
 							tempmark = L.marker([ll[1],ll[0]],{icon: mapIcon});
@@ -405,15 +538,15 @@
 						c3 = c.colour.replace(",1)",",0.2)");
 						fs = 0.7 + Math.sqrt(population/max)*0.3;
 						n = (""+population).length;
-						if(n==1) s = 1.8
-						else if(n==2) s = 2.2
+						if(n==1) s = 1.8;
+						else if(n==2) s = 2.2;
 						else if(n==3) s = 2.6;
 						else if(n==4) s = 3;
 						else if(n==5) s = 3;
 						return L.divIcon({ html: '<div class="marker-group" style="background:'+c.colour+';color:'+(c.contrast)+';box-shadow:0 0 0 0.2em '+c2+',0 0 0 0.4em '+c3+';font-family:Poppins;border-radius:100%;text-align:center;font-size:'+fs+'em;line-height:'+s+'em;width:'+s+'em;opacity:0.85;">'+population+'</div>', className: '' });
 					};
 					
-					for(var i = 0; i < geojson.features.length; i++){
+					for(i = 0; i < geojson.features.length; i++){
 						if(geojson.features[i].geometry.type=="Point"){
 							ll = geojson.features[i].geometry.coordinates;
 							var marker = new PruneCluster.Marker(ll[1],ll[0]);
@@ -454,14 +587,15 @@
 			return;
 		}
 		this.normaliseZoom = function(z){
+      var idx,min,i,v,zoom;
 			// Take a default zoom level
-			var zoom = (typeof opts.zoom==="number") ? opts.zoom : 10;
+			zoom = (typeof opts.zoom==="number") ? opts.zoom : 10;
 			// If a zoom is provided, set it
 			if(typeof z==="number") zoom = z;
 			// Find the nearest zoom level to the required zoom
-			var idx = -1;
-			var min = Infinity;
-			for(var i = 0; i < opts.zoomLevels.length; i++){
+			idx = -1;
+			min = Infinity;
+			for(i = 0; i < opts.zoomLevels.length; i++){
 				v = Math.abs(zoom-opts.zoomLevels[i]);
 				if(v < min){
 					idx = i;

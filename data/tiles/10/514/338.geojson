@@ -2,12 +2,14 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[1.04695,52.00300],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Street, Capel St Mary, Suffolk IP9 2EF","description":" Open from 02-11-2022.","hours":"Tu 09:00-12:30","title":"Capel St Mary Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.84238,51.88865],"type":"Point"},"properties":{"_source":"warm_welcome","address":"86 London Road, Lexden, Colchester CO3 9DW","description":"","hours":"Mo 09:00-21:00, Tu 09:00-21:00, We 09:00-21:00, Th 09:00-21:00, Fr 09:00-21:00, Sa 09:00-16:00, Su 09:00-13:30","title":"Kingsland Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.84238,51.88865],"type":"Point"},"properties":{"_source":"warm_welcome","address":"86 London Road, Lexden, Colchester CO3 9DW","description":"","hours":"Mo 09:00-21:00; Tu 09:00-21:00; We 09:00-21:00; Th 09:00-21:00; Fr 09:00-21:00; Sa 09:00-16:00; Su 09:00-13:30","title":"Kingsland Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.86752,51.87725],"type":"Point"},"properties":{"_source":"warm_welcome","address":"18 Plume Avenue, Colchester, Essex CO3 4PQ","description":"Open from 5th December 2022.","hours":"Mo 09:00-15:00","title":"Plume Avenue Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.91800,51.91858],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Jack Andrews Drive, off Gavin Way, Colchester, Essex CO4 9FF","description":"Open from 07.11.2022.","hours":"Mo 09:00-13:00","title":"The Ark (Highwoods Methodist Church), Colchester"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.79981,51.91721],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Colchester, England, CO6 3NL","title":"Fordham Community Hub","url":"https://Www.fordhamchurch.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.95884,52.04446],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hadleigh Pool &amp; Leisure, Stonehouse Road, Ipswich, England, IP7 5BH","title":"Abbeycroft Leisure","url":"https://www.acleisure.com/warm-spaces/"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.73394,52.03591],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kingfisher Leisure Centre, Station Road, Sudbury, England, CO10 2SU","title":"Abbeycroft Leisure","url":"https://www.acleisure.com/warm-spaces/"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.94076,52.04714],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hadleigh Nursing Home, Ipswich, England, IP7 6DF","title":"Hadleigh Nursing Home"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.94076,52.04714],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hadleigh Nursing Home, Ipswich, England, IP7 6DF","title":"Hadleigh Nursing Home"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.04919,52.00362],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Capel Library, The Street, Ipswich, England, IP9 2EF","title":"Capel St Mary Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.85207,51.88930],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kingsland Church, 86 London Road, Colchester, England, CO3 9DW","title":"Kingsland Church Cafe and Community Centre","url":"https://kingsland.org.uk"},"type":"Feature"}
 	]
 }

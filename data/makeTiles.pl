@@ -56,7 +56,7 @@ sub makeTiles {
 	@features = @{$json};
 
 	for($f = 0; $f < @features; $f++){
-		if($features[$f]->{'lat'} && $features[$f]->{'lon'}){
+		if($features[$f]->{'lat'} && $features[$f]->{'lon'} && $features[$f]->{'lon'} >= -180 && $features[$f]->{'lon'} <= 180){
 			$jsonbit = {'type'=>'Feature'};
 			$jsonbit->{'geometry'} = {'type'=>'Point','coordinates'=>[sprintf("%0.5f",$features[$f]->{'lon'}),sprintf("%0.5f",$features[$f]->{'lat'})]};
 			$jsonbit->{'properties'} = $features[$f];

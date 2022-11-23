@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[1.02881,51.81042],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Brightlingsea, Essex CO7 0AE","description":"Open from 2 November 2022. Opening on Wednesday 2nd November 2022.","hours":"We 09:00-16:30, Sa 09:00-12:00","title":"St James' Church Brightlingsea"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.02881,51.81042],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Brightlingsea, Essex CO7 0AE","description":"Open from 2 November 2022. Opening on Wednesday 2nd November 2022.","hours":"We 09:00-16:30; Sa 09:00-12:00","title":"St James' Church Brightlingsea"},"type":"Feature"}
 	]
 }

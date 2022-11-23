@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.56412,54.61867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Salterbeck Drive, Workington, Cumbria CA14 5HA","description":"Open from 04-11-2022. Books & boardgames, currently planning more activities ","hours":"Mo 09:00-17:00, Tu 09:00-17:00, We 09:00-17:00, Th 09:00-17:00, Fr 09:00-16:30","title":"The Oval Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.56412,54.61867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Salterbeck Drive, Workington, Cumbria CA14 5HA","description":"Open from 04-11-2022. Books & boardgames, currently planning more activities ","hours":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-17:00; Fr 09:00-16:30","title":"The Oval Centre"},"type":"Feature"}
 	]
 }
