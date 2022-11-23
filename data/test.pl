@@ -34,7 +34,9 @@ binmode STDOUT, 'utf8';
 	{'text'=>'Every day 9am to 5pm','good'=>'Mo-Su 09:00-17:00'},
 	{'text'=>'Mon/Wed/Thurs/Fri:  08:20 - 08:45','good'=>'Mo 08:20-08:45; We 08:20-08:45; Th 08:20-08:45; Fr 08:20-08:45'},
 	{'text'=>'10-12 Thursdays','good'=>'Th 10:00-12:00'},
-	{'text'=>' wednesday: 11:00 - 14:00, sunday: 10:30 - 12:00 ','good'=>'We 11:00-14:00; Su 10:30-12:00'}
+	{'text'=>' wednesday: 11:00 - 14:00, sunday: 10:30 - 12:00 ','good'=>'We 11:00-14:00; Su 10:30-12:00'},
+	{'text'=>'Warm space/ refreshments activities daily 12noon - 10pm','good'=>'Mo-Su 12:00-22:00'},
+	{'text'=>'7 days a week, 24 hours','Mo-Su 00:00-00:00'}
 );
 
 for($i = 0; $i < @tests; $i++){
