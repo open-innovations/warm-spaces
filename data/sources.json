@@ -318,9 +318,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 300,
+		"count": 320,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 300,
+		"geocount": 320,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
