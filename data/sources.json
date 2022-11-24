@@ -42,9 +42,9 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 125,
+		"count": 128,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
-		"geocount": 125,
+		"geocount": 128,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -148,9 +148,9 @@
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
 	"hounslow_council": {
-		"count": 31,
+		"count": 32,
 		"data": { "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" },
-		"geocount": 30,
+		"geocount": 31,
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
@@ -229,9 +229,9 @@
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 39,
+		"count": 43,
 		"data": { "type": "html", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
-		"geocount": 39,
+		"geocount": 43,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
@@ -286,9 +286,9 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 189,
+		"count": 191,
 		"data": { "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" },
-		"geocount": 189,
+		"geocount": 191,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -335,9 +335,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 769,
+		"count": 340,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 769,
+		"geocount": 340,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
