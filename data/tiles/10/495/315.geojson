@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.79244,56.74084],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Acharacle Community Centre, Morrison Place, Acharacle, Scotland, PH36 4JJ","title":"Acharacle Community Centre","url":"https://www.acharaclecommunitycompany.weebly.com"},"type":"Feature"}
+	]
+}

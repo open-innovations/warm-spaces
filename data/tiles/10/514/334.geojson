@@ -1,6 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.84584,52.83200],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oak Street, Fakenham, Norfolk NR21 9DY","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 10:00-19:00; Tu 10:00-19:00; Th 10:00-19:00; Fr 14:00-19:00; Sa 10:00-16:00","title":"Fakenham Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.84584,52.83200],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Oak Street, Fakenham, Norfolk NR21 9DY","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 10:00-19:00; Tu 10:00-19:00; Th 10:00-19:00; Fr 14:00-19:00; Sa 10:00-16:00","title":"Fakenham Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.87486,52.89448],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Bull Inn, 8 Common Place, Walsingham, England, NR22 6BP","title":"The Bull Walsingham","url":"https://www.thebullwalsingham.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.76703,52.88522],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 Fakenham Road, Fakenham, England, NR21 9PB","title":"The Ostrich Inn, South Creake","url":"https://theostrichinnnorfolk.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.76932,52.88216],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Creative Home and Garden, Leicester Road, Fakenham, England, NR21 9PW","title":"Creative Home and Garden","url":"https://www.creativehomeandgarden.co.uk"},"type":"Feature"}
 	]
 }

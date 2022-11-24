@@ -42,9 +42,9 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 129,
+		"count": 125,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
-		"geocount": 129,
+		"geocount": 125,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -148,9 +148,9 @@
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
 	"hounslow_council": {
-		"count": 32,
+		"count": 31,
 		"data": { "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" },
-		"geocount": 31,
+		"geocount": 30,
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
@@ -163,6 +163,14 @@
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
+	},
+	"islington_council": {
+		"count": 39,
+		"data": { "type": "html", "url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces" },
+		"geocount": 39,
+		"id": "islington_council",
+		"title": "Islington Council",
+		"url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
 	},
 	"lancashire_council": {
 		"id": "lancashire_council",
@@ -211,9 +219,9 @@
 		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
 	},
 	"north_northamptonshire_council": {
-		"count": 35,
+		"count": 33,
 		"data": { "type": "html", "url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces" },
-		"geocount": 35,
+		"geocount": 33,
 		"id": "north_northamptonshire_council",
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
@@ -268,6 +276,15 @@
 		"title": "Stafford Borough Council",
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
+	"stockport_council": {
+		"count": 67,
+		"data": { "keys": { "contact": "phone_number", "description": "facilities", "hours": "times", "title": "name", "url": "website" }, "type": "geojson", "url": "https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=neighbourhoods:warm_spaces2&outputFormat=application/json&bbox=-2.2731399536132817,53.320415173590504,-2.003288269042969,53.463729990468764,EPSG:4326&srsName=EPSG:4326" },
+		"geocount": 67,
+		"id": "stockport_council",
+		"map": { "type": "leaflet", "url": "https://www.stockport.gov.uk/warm-spaces" },
+		"title": "Stockport Council",
+		"url": "https://www.stockport.gov.uk/warm-spaces"
+	},
 	"stockton-on-tees_council": {
 		"count": 61,
 		"data": { "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces" },
@@ -286,9 +303,9 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 191,
+		"count": 189,
 		"data": { "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" },
-		"geocount": 191,
+		"geocount": 189,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -335,9 +352,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 360,
+		"count": 769,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 360,
+		"geocount": 769,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -345,9 +362,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2535,
+		"count": 2487,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 2535,
+		"geocount": 2487,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

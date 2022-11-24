@@ -161,6 +161,11 @@ directories:
     data:
       url: "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/"
       type: html
+  - title: "Islington Council"
+    url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
+    data:
+      url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
+      type: html
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:
@@ -269,6 +274,20 @@ directories:
     data:
       url: "https://www.staffordbc.gov.uk/warm-spaces"
       type: html
+  - title: "Stockport Council"
+    url: "https://www.stockport.gov.uk/warm-spaces"
+    map:
+      url: "https://www.stockport.gov.uk/warm-spaces"
+      type: leaflet
+    data:
+      url: "https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=neighbourhoods:warm_spaces2&outputFormat=application/json&bbox=-2.2731399536132817,53.320415173590504,-2.003288269042969,53.463729990468764,EPSG:4326&srsName=EPSG:4326"
+      type: geojson
+      keys:
+        title: "name"
+        description: "facilities"
+        hours: "times"
+        contact: "phone_number"
+        url: "website"
   - title: "Stockton-on-Tees Council"
     url: "https://www.stockton.gov.uk/warm-spaces"
     register:

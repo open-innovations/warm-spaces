@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.13572,55.85240],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carnethie Street, Rosewell, Midlothian EH24 9DN","description":"Open from Wednesday mornings from 10.00 a.m. to 12 noon. This will be a \"Warm Space\" for members of the community to access.","title":"Lasswade and Rosewell Parish Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.04620,55.94341],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Musselburgh, East Lothian EH21 7AG","description":" We offer a warm and welcoming space to anyone and everyone. Hot tea/coffee available and a hot cooked meal on a Wednesday from 3:30-6pm","hours":"We 09:00-15:30; Fr 09:00-15:30","title":"St Peter's Episcopal Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.13572,55.85240],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carnethie Street, Rosewell, Midlothian EH24 9DN","description":"Open from Wednesday mornings from 10.00 a.m. to 12 noon. This will be a \"Warm Space\" for members of the community to access.","title":"Lasswade and Rosewell Parish Church"},"type":"Feature"}
 	]
 }
