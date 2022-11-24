@@ -66,8 +66,10 @@
 				log('info','There are '+tiles.length+' tiles.');
 				geo = {'type':'FeatureCollection','features':[]};
 				for(i = 0; i < tiles.length; i++){
-					for(f = 0; f < tiles[i].data.features.length; f++){
-						if(tiles[i].data.features[f].type==="Feature") geo.features.push(tiles[i].data.features[f]);
+					if(tiles[i].data && tiles[i].data.features){
+						for(f = 0; f < tiles[i].data.features.length; f++){
+							if(tiles[i].data.features[f].type==="Feature") geo.features.push(tiles[i].data.features[f]);
+						}
 					}
 				}
 
