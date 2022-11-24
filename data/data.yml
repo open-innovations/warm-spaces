@@ -263,6 +263,14 @@ directories:
   - title: "Salisbury Council"
     url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
     notes: "The list is a PDF"
+  - title: "Sandwell Council"
+    url: "https://www.sandwell.gov.uk/warmspaces"
+    map:
+      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces"
+      type: googlemap
+    data:
+      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces"
+      type: html
   - title: "Sefton Council"
     url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
   - title: "Sefton CVS"
