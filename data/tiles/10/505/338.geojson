@@ -11,7 +11,6 @@
 		{"geometry":{"coordinates":[-2.16326,51.98672],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tewkesbury Leisure Centre, Tewkesbury, Gloucestershire GL205SX","description":"","hours":"Mo 06:00-21:30; Tu 06:00-21:30; We 06:00-21:30; Th 06:00-21:00; Fr 06:00-21:00; Sa 07:00-17:00; Su 07:00-17:00","title":"Tewkesbury Leisure Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.21440,51.85244],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Coney Hill Road, Gloucester, England, GL4 4LX","title":"The Living Room","url":"https://Www.stoswaldconeyhill.com"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.16873,51.87685],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Gloucester, England, GL3 2ER","title":"Churchdown Club"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.21304,51.87641],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Gloucester, England, GL2","title":"Longlevens Community Centre","url":"https://www.longlevenscommunityassociation.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.11602,51.86668],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bishop Road, Cheltenham, England, GL51 4TB","title":"Shurdington Parish Council","url":"https://shurdingtonparishcouncil.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.21304,51.87641],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Gloucester, England, GL2","title":"Longlevens Community Centre","url":"https://www.longlevenscommunityassociation.org"},"type":"Feature"}
 	]
 }
