@@ -236,17 +236,17 @@ sub parseOpeningHours {
 				$d = $days[$i]->{'match'}[$j];
 			
 				# Replace any string that refers to e.g. "first Sunday" with "Su[1]"
-				while($str =~ /((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of the month)?/){
+				while($str =~ /((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of the month)?/){
 					$nth = $1;
 					$nstr = "";
-					if($nth =~ /first/i){ $nstr .= ($nstr?",":"")."1"; }
-					if($nth =~ /second/i){ $nstr .= ($nstr?",":"")."2"; }
-					if($nth =~ /third/i){ $nstr .= ($nstr?",":"")."3"; }
-					if($nth =~ /fourth/i){ $nstr .= ($nstr?",":"")."4"; }
+					if($nth =~ /(first|1st)/i){ $nstr .= ($nstr?",":"")."1"; }
+					if($nth =~ /(second|2nd)/i){ $nstr .= ($nstr?",":"")."2"; }
+					if($nth =~ /(third|3rd)/i){ $nstr .= ($nstr?",":"")."3"; }
+					if($nth =~ /(fourth|4th)/i){ $nstr .= ($nstr?",":"")."4"; }
 					if($nth =~ /last/i){ $nstr .= ($nstr?",":"")."-1"; }
 					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
 					else { $nstr = " ".$d; }
-					$str =~ s/((first|First|second|Second|third|Third|fourth|Fourth|last|Last|and|\,|\s)+) $d( of (the|each) month)?/$nstr/;
+					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of (the|each) month)?/$nstr/;
 				}				
 
 				# Replace a day match with the short version
@@ -390,6 +390,7 @@ sub niceHours {
 		# Correction for people using 12:30pm to mean afternoon
 		if($hh >= 24){ $hh -= 12; }
 	}
+	if($hh > 24){ $hh /= 100; }
 	return sprintf("%02d:%02d",$hh,$mm);
 }
 
