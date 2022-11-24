@@ -73,7 +73,7 @@
 
 				features = geo.features;
 
-				if(typeof attr.finder.region){
+				if(attr.finder.region){
 					sorted = [];
 					log('info','Checking if in region',attr.finder.region)
 					for(i = 0; i < features.length; i++){
