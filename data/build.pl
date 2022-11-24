@@ -5,6 +5,7 @@ use utf8;
 use JSON::XS;
 use YAML::XS 'LoadFile';
 use Data::Dumper;
+use POSIX qw(strftime);
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -449,10 +450,13 @@ sub getGoogleMap {
 sub getSquareSpace {
 	my $d = shift;
 	my $keys = shift;
-	my ($url,$page,$p,@items,$purl,$i,$n,$json,$f);
+	my ($url,$page,$p,@items,$purl,$i,$n,$json,$f,$cache);
 	my @fields = ("title","address","lat","lon","description","accessibility","type");
 
-	$url = $d->{'data'}{'url'}."?format=json-pretty";
+	#e.g. https://warmspaces.org/locations?format=json&cache=2022-11-24T00-2
+	# Use cache parameter to make sure the pages don't change as we step through them
+	$cache = strftime("%FT%H-%M",gmtime);
+	$url = $d->{'data'}{'url'}."?format=json-pretty&cache=$cache";
 
 	$p = 1;
 	$page = $rawdir.$d->{'id'}."-$p.json";
