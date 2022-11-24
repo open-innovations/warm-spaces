@@ -35,6 +35,16 @@ directories:
     data:
       url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
       type: html
+  - title: "Barnet Council"
+    url: "https://www.barnet.gov.uk/directories/warm-spaces"
+    register:
+      url: "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space"
+    map:
+      url: "https://www.barnet.gov.uk/directories/warm-spaces"
+      type: leaflet
+    data:
+      url: "https://www.barnet.gov.uk/directories/warm-spaces"
+      type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
     data:
@@ -250,6 +260,9 @@ directories:
     data:
       url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
       type: html
+  - title: "Salisbury Council"
+    url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
+    notes: "The list is a PDF"
   - title: "Sefton Council"
     url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
   - title: "Sefton CVS"
