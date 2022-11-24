@@ -147,8 +147,13 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 		$d->{'count'} = @features;
 		$d->{'geocount'} = 0;
 		for($f = 0; $f < @features; $f++){
+			if($features[$f]{'lat'} && $features[$f]{'lon'}){
+				# Truncate coordinates to remove unnecessary precision (no need for better than 1m)
+				$features[$f]{'lat'} = sprintf("%0.5f",$features[$f]{'lat'})+0;
+				$features[$f]{'lon'} = sprintf("%0.5f",$features[$f]{'lon'})+0;
+				$d->{'geocount'}++;
+			}
 			push(@warmplaces,$features[$f]);
-			if($features[$f]{'lat'}){ $d->{'geocount'}++; }
 		}
 
 		msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
@@ -415,16 +420,6 @@ sub getGoogleMap {
 						delete $entry->{$d->{'data'}{'keys'}{$k}};
 					}
 				}
-				
-#				foreach $k (keys(%{$d->{'data'}{'keys'}})){
-#					if($entry->{'description'} =~ s/$d->{'data'}{'keys'}{$k}<br>(.*?)<br>(([^\:\<]+\:)|$)/$2/){
-#						$entry->{$k} = cleanCDATA($1);
-#					}
-#					if(!$entry->{$k} && $entry->{'description'} =~ s/$d->{'data'}{'keys'}{$k}<br>(.*?)$/$2/){
-#						$entry->{$k} = cleanCDATA($1);
-#					}
-#					$entry->{$k} =~ s/<br>/ /g;
-#				}
 				if(!$entry->{'hours'} && $entry->{$d->{'data'}{'keys'}{'hours'}}){
 					$entry->{'hours'} = $entry->{$d->{'data'}{'keys'}{'hours'}};
 					$entry->{'hours'} =~ s/<br>/ /;

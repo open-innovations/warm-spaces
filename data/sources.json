@@ -59,6 +59,15 @@
 		"title": "Brighton & Hove Council",
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
+	"bristol_council": {
+		"count": 67,
+		"data": { "keys": { "address": "ADDRESS", "contact": "CONTACT", "hours": "TIMETABLE", "title": "NAME", "url": "WEB" }, "type": "arcgis", "url": "https://services2.arcgis.com/a4vR8lmmksFixzmB/arcgis/rest/services/Welcoming_spaces_view/FeatureServer/0/query?f=geojson&where=WS_OPEN%20%3D%20%27Yes%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333336%2C%22extent%22%3A%7B%22xmin%22%3A351616%2C%22ymin%22%3A167463%2C%22xmax%22%3A364223.8694719222%2C%22ymax%22%3A179202%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" },
+		"geocount": 67,
+		"id": "bristol_council",
+		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
+		"title": "Bristol Council",
+		"url": "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
+	},
 	"buckinghamshire_council": {
 		"id": "buckinghamshire_council",
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -201,6 +210,14 @@
 		"title": "Middlesbrough Council",
 		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
 	},
+	"north_northamptonshire_council": {
+		"count": 33,
+		"data": { "type": "html", "url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces" },
+		"geocount": 33,
+		"id": "north_northamptonshire_council",
+		"title": "North Northamptonshire Council",
+		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
+	},
 	"perth_and_kinross_council": {
 		"count": 66,
 		"data": { "keys": { "address": "Address", "contact": "Contact_De", "description": "Descriptio", "hours": "Descriptio", "title": "Name_of_Or" }, "type": "arcgis", "url": "https://services-eu1.arcgis.com/WD0cvOmDKf7CA0Xy/arcgis/rest/services/Warm_Spaces_in_Perth_and_Kinross/FeatureServer/5/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&outFields=Address,Contact_De,Descriptio,Name_of_Or,FID&orderByFields=FID&outSR=4326&spatialRel=esriSpatialRelIntersects" },
@@ -269,9 +286,9 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 191,
+		"count": 189,
 		"data": { "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" },
-		"geocount": 191,
+		"geocount": 189,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -318,9 +335,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 320,
+		"count": 769,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 320,
+		"geocount": 769,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
