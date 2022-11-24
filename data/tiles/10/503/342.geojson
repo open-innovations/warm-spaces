@@ -16,7 +16,6 @@
 		{"geometry":{"coordinates":[-3.15926,51.15055],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Street, Nether Stowey, Bridgwater TA5 1LN","description":"","hours":"Mo 10:00-13:00; We 10:00-13:00; Fr 10:00-13:00; Sa 10:00-12:00","title":"The Thomas Poole Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.10417,51.02108],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Albemarle Centre, Albemarle Road, Taunton, England, TA1 1BA","title":"Albemarle Living Room","url":"https://www.alblifeskills.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.13376,51.01653],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bishop&#39;s Hull Hill, Taunton, England, TA1 5EB","title":"St Peter and St Paul, Bishops Hull","url":"https://www.stpeterandstpaul.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.10644,51.00924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Dunning Room, St George&#39;s Church Hall, Fons George, Taunton, England, TA1 3JT","title":"St George's Wilton","url":"https://www.stgchurch.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.09243,51.03219],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Peter&#39;s Church, Eastwick Road, Somerset, England, TA2 7HD","title":"Calm and Warm"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.10644,51.00924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Dunning Room, St George&#39;s Church Hall, Fons George, Taunton, England, TA1 3JT","title":"St George's Wilton","url":"https://www.stgchurch.co.uk"},"type":"Feature"}
 	]
 }

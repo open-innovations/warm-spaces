@@ -12,8 +12,6 @@
 		{"geometry":{"coordinates":[1.11041,52.76456],"type":"Point"},"properties":{"_source":"warm_spaces","address":"29 Station Road, Norwich, England, NR10 4LF","title":"Reepham Methodist Chapel"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.25373,52.78902],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Norwich Road, Norwich, England, NR11 6JG","title":"Community Hot-Spot at Jubilee Family Centre","url":"https://aylshamcommunitychurch.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.38999,52.82179],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hall Lane, North Walsham, England, NR28 9DT","title":"The Salvation Army, North Walsham","url":"https://www.salvationarmy.org.uk/north-walsham"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.25919,52.87265],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hanworth Memorial Hall, The Common, Norwich, England, NR11 7HP","title":"Hanworth Memorial Hall Warm Hub","url":"https://en-gb.facebook.com/HanworthMemorialHall/"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.09337,52.90310],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Old Station Way, Holt, England, NR25 6DH","title":"The Holt Youth Project","url":"https://www.holtyouthproject.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.37859,52.89879],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Cromer Road, Norwich, England, NR11 8HY","title":"Trimingham Village Hall","url":"https://TRIMINGHAM.ORG"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.25919,52.87265],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hanworth Memorial Hall, The Common, Norwich, England, NR11 7HP","title":"Hanworth Memorial Hall Warm Hub","url":"https://en-gb.facebook.com/HanworthMemorialHall/"},"type":"Feature"}
 	]
 }
