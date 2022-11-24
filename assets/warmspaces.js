@@ -303,7 +303,7 @@
 			return n;
 		};
 		function processHours(times){
-			var i,d,dow,now,nth,days,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth,ds,s,e;
+			var i,j,d,dow,now,nth,days,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth,ds,s,e,day;
 			cls = "b5-bg";
 			newtimes = "";
 			if(times){
@@ -338,8 +338,11 @@
 						ofmonth = "<sup>"+p1+"</sup>";
 						return "";
 					});
+					
+					// Format days
+					for(j in longdays) bitpart[0] = bitpart[0].replace(new RegExp(j,'g'),longdays[j]);
 
-					newtimes += '<li>'+longdays[bitpart[0]]+ofmonth+': '+bitpart[1]+'</li>';
+					newtimes += '<li data="'+times+'">'+bitpart[0]+ofmonth+': '+bitpart[1]+'</li>';
 
 					if(okday){
 						ranges = bitpart[1].split(/,/);
