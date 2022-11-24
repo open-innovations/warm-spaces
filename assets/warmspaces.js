@@ -144,6 +144,8 @@
 			// Now determine the actual spacing
 			accuracy = Math.pow(10,(base))*options[imin];
 			log('info','Location accuracy set to '+accuracy+'m');
+			// Limit uncertainty as it can cause confusion when it is very large
+			if(accuracy > 200) accuracy = 200;
 
 			html = '';
 			var max = 60;
