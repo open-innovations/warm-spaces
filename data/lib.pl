@@ -41,6 +41,7 @@ sub parseText {
 	$str =~ s/(^[\s]+|[\s]+$)//g;
 	$str =~ s/\&nbsp\;/ /g;
 	$str =~ s/\&#8211;/-/g;
+	$str =~ s/\&#039;/\'/g;
 	$str =~ s/Â//g;
 	return $str;
 }
@@ -206,21 +207,22 @@ sub parseOpeningHours {
 
 
 		$str =~ s/ at [^0-9]+ from /: /g;
-		$str =~ s/ to / - /g;
+		$str =~ s/ (to|until) / - /g;
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/\&apos\;//g;
 		$str =~ s/ \&amp\; /, /g;
 		$str =~ s/ ?\([^\)]+\)//g;
 		$str =~ s/\//, /g;
+		$str =~ s/24 hours/00:00-24:00/g;
 
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
 		$str =~ s/Weekends/Sa-Su/gi;
-		$str =~ s/Every day/Mo-Su/gi;
+		$str =~ s/(Every day|7 days a week|daily)/Mo-Su/gi;
 
 		# Convert "noon" values to numbers
-		$str =~ s/12 ?noon/12am/g;
+		$str =~ s/12 ?noon/12:00/g;
 		$str =~ s/noon/ 12:00/g;
 
 		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm

@@ -181,6 +181,14 @@ directories:
   - title: "Lewes and Eastbourne Council"
     url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
     register: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/"
+  - title: "Litchfield Council"
+    url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+    map:
+      url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+      type: googlemap
+    data:
+      url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+      type: html
   - title: "Middlesbrough Council"
     url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
     map:
@@ -210,6 +218,14 @@ directories:
         hours: "Descriptio"
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
+  - title: "Redcar and Cleveland Council"
+    url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+    map:
+      url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+      type: leaflet
+    data:
+      url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+      type: html
   - title: "Sefton Council"
     url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
   - title: "Sefton CVS"
