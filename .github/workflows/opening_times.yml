@@ -27,7 +27,6 @@ jobs:
           install: |
             JSON::XS
             YAML::XS
-            Web::Scraper
 
       # Runs script
       - name: Run tests

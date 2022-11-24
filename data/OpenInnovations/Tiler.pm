@@ -65,13 +65,13 @@ sub xyz {
 
 	my $z = $bounds{'zoom'};
 
-	print "zoom = $z\n";
-	print "NE lat = $bounds{'NE'}{'lat'}\n";
+	#print "zoom = $z\n";
+	#print "NE lat = $bounds{'NE'}{'lat'}\n";
 	my @min = $self->project($bounds{'NE'}{'lat'},$bounds{'SW'}{'lng'},$z);	# north,west
 	my @max = $self->project($bounds{'SW'}{'lat'},$bounds{'NE'}{'lng'},$z);	# south,east
 
-	print Dumper @min;
-	print Dumper @max;
+	#print Dumper @min;
+	#print Dumper @max;
 	
 	my @tiles;
 	my ($x,$y);
