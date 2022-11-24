@@ -31,7 +31,11 @@
 	<div class="b6-bg">
 		<div class="holder padded tallpadded">
 			<div id="output">
-				<button class="c13-bg" id="find">Find warm spaces near me</button>
+				<div id="place-search">
+					Find warm spaces 
+					<form><label for="typeahead">by place:</label><input id="typeahead" type="text" placeholder="e.g. Leeds" autocomplete="off"></form> or
+					<button class="c13-bg" id="find">near my location</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -41,8 +45,15 @@
 			<p>As we head into the winter of 2022, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Several different groups have started collating different <a href="index.html">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. Many of the directories are on pages that use quite a lot of data transfer which makes them less than ideal for those with limited data plans. So we have developed this lightweight tool that searches through multiple warm spaces directories from voluntary groups and local councils.</p>
 			<h3>Data</h3>
 			<p>The data comes from those directories that we were able to automatically collect and parse. If there are mistakes, please refer back to the original source(s) and ask them to update those. If you have a warm space that isn't included, please refer to the <a href="index.html">directories of warm spaces</a> and choose an appropriate source to register with.</p>
+			
 			<h3>Privacy</h3>
-			<p>When you press the button, your browser should ask to get your location. If you allow your location to be used, it is rounded to the nearest ~5km&times;2.5km grid cell and warm spaces are loaded. This rounding ensures that your exact location doesn't leave this page - we won't get to know what it is. Once the appropriate grid cell(s) is loaded, the page uses your precise location to order the results.</p>
+			<p>When you press the "near my location" button, your browser should ask to get your location. If you allow your location to be used, it is rounded to the nearest ~5km&times;2.5km grid cell and warm spaces are loaded. This rounding ensures that your exact location doesn't leave this page - we won't get to know what it is. Once the appropriate grid cell(s) is loaded, the page uses your precise location to order the results.</p>
+			
+			<h3>Credits</h3>
+			<p>This tool was created by Stuart Lowe, <a href="https://open-innovations.org/">Open Innovations</a>.</p>
+			<p>The results come from various <a href="index.html">directories of warm spaces</a>; each result links back to the specific source directory that it came from. The original data has been contributed by individuals/organisations to those directories.</p>
+			<p>The place name search uses a subset of processed data from <a href="https://www.ordnancesurvey.co.uk/business-government/products/open-map-names">Ordnance Survey's Open Names</a> released under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a> and is &copy; Crown copyright and database right 2021.</p>
+			
 			<hr class="about" />
 			<ul class="elsewhere">
 				<li class="instagram"><a href="https://www.instagram.com/openinnovates/"><svg width="48" height="48" version="1.1" viewbox="83 -108.9 64 64" aria-labelledby="icon-instagram"><title id="icon-instagram">Instagram</title><path d="m115-100.9c-6.5181 0-7.3361 0.0285-9.8961 0.145-2.555 0.117-4.299 0.5215-5.8251 1.115-1.5785 0.61301-2.9175 1.433-4.2515 2.7675-1.335 1.334-2.155 2.673-2.77 4.251-0.59501 1.5265-1 3.271-1.115 5.8251-0.1145 2.56-0.1445 3.3785-0.1445 9.8966 0 6.5181 0.029 7.3336 0.145 9.8936 0.1175 2.555 0.52201 4.299 1.115 5.8251 0.61351 1.5785 1.4335 2.9175 2.768 4.2515 1.3335 1.335 2.6725 2.157 4.25 2.77 1.527 0.5935 3.2715 0.99801 5.8261 1.115 2.56 0.1165 3.3775 0.145 9.8951 0.145 6.5186 0 7.3341-0.0285 9.8941-0.145 2.555-0.117 4.301-0.52151 5.828-1.115 1.578-0.61301 2.915-1.435 4.2486-2.77 1.335-1.334 2.155-2.673 2.77-4.251 0.59-1.5265 0.99501-3.271 1.115-5.8251 0.11494-2.56 0.145-3.376 0.145-9.8941 0-6.5181-0.03-7.3361-0.145-9.8961-0.12002-2.555-0.52501-4.299-1.115-5.8251-0.615-1.5785-1.435-2.9175-2.77-4.2515-1.335-1.335-2.67-2.155-4.25-2.7675-1.53-0.59351-3.275-0.99801-5.8301-1.115-2.56-0.1165-3.375-0.145-9.8951-0.145zm-2.153 4.325c0.63902-1e-3 1.352 0 2.153 0 6.4081 0 7.1676 0.023 9.6981 0.138 2.34 0.107 3.61 0.49801 4.456 0.82651 1.12 0.43501 1.9185 0.95501 2.758 1.795 0.84 0.84001 1.36 1.64 1.796 2.76 0.32851 0.84501 0.72 2.115 0.82651 4.455 0.11494 2.53 0.14 3.29 0.14 9.6951 0 6.4051-0.025 7.1651-0.14 9.6951-0.10701 2.34-0.498 3.61-0.82651 4.455-0.435 1.12-0.95602 1.9175-1.796 2.757-0.84001 0.84001-1.6375 1.36-2.758 1.795-0.84501 0.33-2.116 0.72001-4.456 0.82701-2.53 0.11501-3.29 0.14-9.6981 0.14-6.4086 0-7.1681-0.025-9.6981-0.14-2.34-0.108-3.61-0.499-4.4565-0.82751-1.12-0.435-1.92-0.95501-2.76-1.795-0.84001-0.84001-1.36-1.638-1.796-2.7585-0.32851-0.84501-0.72001-2.115-0.82651-4.455-0.11501-2.53-0.138-3.29-0.138-9.6991s0.023-7.1651 0.138-9.6951c0.107-2.34 0.498-3.61 0.82651-4.456 0.435-1.12 0.95601-1.92 1.796-2.76 0.84-0.84001 1.64-1.36 2.76-1.796 0.846-0.33 2.1165-0.72 4.4565-0.82751 2.214-0.1 3.072-0.13 7.5451-0.135zm14.964 3.985c-1.59 0-2.88 1.2885-2.88 2.879 0 1.59 1.29 2.88 2.88 2.88s2.88-1.29 2.88-2.88-1.29-2.88-2.88-2.88zm-12.811 3.365c-6.8066 0-12.325 5.5186-12.325 12.325 0 6.8066 5.5186 12.323 12.325 12.323 6.8066 0 12.323-5.5161 12.323-12.323 0-6.8066-5.5171-12.325-12.324-12.325zm0 4.325c4.418 0 8.0001 3.5815 8.0001 8.0001 0 4.418-3.582 8.0001-8.0001 8.0001-4.4186 0-8.0001-3.582-8.0001-8.0001 0-4.4185 3.5815-8.0001 8.0001-8.0001z" fill="#fff" stroke-width=".50001"></path></svg></a></li>
@@ -74,6 +85,117 @@
 			}
 		});
 	});
+	</script>
+	<style>
+	#place-search > * { display: inline-block; }
+	.typeahead { line-height: 2.5em; }
+	#typeahead { height: 2.5em; font-size: inherit; margin-left: 0.25em; margin-right: 0.25em; }
+	#find { line-height: 1.5em; margin-top: 0; margin-left: 0.25em; border-radius:4px; }
+	.typeahead-results { z-index: 1000; max-width: unset!important; }
+	.typeahead-results ol { list-style: none; background: #efefef; line-height: 1.25em; }
+	.typeahead-results ol > li { text-align: left; white-space: nowrap; }
+	.typeahead-results ol > li.selected { background: #444; color: white; }
+	.typeahead-results ol > li > a { display: block; padding: 0.5em 0.5em; text-decoration: none; }
+	</style>
+	<script>
+	/*!
+		Typeahead search v0.1.8
+	*/
+	!function(e){void 0===e.TypeAhead&&(e.TypeAhead=new function(){return this.version="0.1.8",this.init=function(e,t){return new function(e,t){if(t||(t={}),"string"==typeof e&&(e=document.querySelector(e)),!e)return console.warn("No valid element provided"),this;var n,o,i=this,a={},r=t.items||[],s="boolean"==typeof t.inline&&t.inline;function l(){return n?n.querySelectorAll("li"):[]}function f(o){o&&(i.input=e,"function"==typeof t.process?t.process.call(i,r[o]):console.log(r[o])),n&&(n.innerHTML=""),s&&(e.style.marginBottom="0px")}function c(){for(var e=l(),t=0;t<e.length;t++)if(e[t].classList.contains("selected"))return f(e[t].getAttribute("data-id"))}return this.update=function(){var t=document.createEvent("HTMLEvents");return t.initEvent("keyup",!1,!0),e.dispatchEvent(t),this},this.on=function(u,d,p){return e?("change"==u?(a[u]||(a[u]=[],e.addEventListener("keyup",function(d){d.preventDefault(),d.stopPropagation(),40==d.keyCode||38==d.keyCode?function(e){for(var t,n=l(),o=-1,i=0;i<n.length;i++)n[i].classList.contains("selected")&&(o=i);t=o,40==e?o++:o--,o<0&&(o=n.length-1),o>=n.length&&(o=0),t>=0&&n[t].classList.remove("selected"),n[o].classList.add("selected")}(d.keyCode):13==d.keyCode?c():(function(c,u,d){var p,h,y,v,g,m,k;if(v=c.toUpperCase(),y=[],v){for(h=0;h<r.length;h++)m={rank:0,key:h,value:r[h]},"function"==typeof t.rank?m.rank=t.rank(r[h],c):(0==r[h].toUpperCase().indexOf(v)&&(m.rank+=3),r[h].toUpperCase().indexOf(v)>0&&(m.rank+=1)),y.push(m);y=function(e,t){return e.sort(function(e,n){return e[t]<n[t]?1:-1})}(y,"rank")}if(n||(e.parentElement.style.position="relative",(n=document.createElement("div")).classList.add("typeahead-results"),n.style.top=e.offsetTop+e.offsetHeight+"px",n.style.left=e.offsetLeft+"px",n.style.maxWidth=e.parentElement.offsetWidth-e.offsetLeft-parseInt(window.getComputedStyle(e.parentElement,null).getPropertyValue("padding-right"))+"px",n.style.position="absolute",o.style.position="relative",e.insertAdjacentElement("afterend",n)),g="",y.length>0){for(p="number"==typeof t.max?Math.min(y.length,t.max):y.length,g="<ol>",h=0;h<p;h++)y[h].rank>0&&(g+='<li data-id="'+y[h].key+'" '+(0==h?' class="selected"':"")+'><a tabindex="0" href="#" class="name item">'+("function"==typeof t.render?t.render(r[y[h].key]):r[y[h].key])+"</a></li>");g+="</ol>"}n.innerHTML=g,s&&(e.style.marginBottom=n.offsetHeight+"px");var b=l();for(h=0;h<b.length;h++)b[h].addEventListener("click",function(e){e.preventDefault(),e.stopPropagation(),f(this.getAttribute("data-id"))});if(a[d])for(u._typeahead=i,h=0;h<a[d].length;h++)k=a[d][h],u.data=k.data||{},"function"==typeof k.fn&&k.fn.call(k.data.this||this,u)}(this.value,d,u),"function"==typeof t.endsearch&&t.endsearch(this.value))}),e.addEventListener("blur",function(e){"function"==typeof t.blur&&t.blur()})),a[u].push({fn:p,data:d})):"blur"==u?console.log("blur"):console.warn("No event of type "+u),this):(console.warn("Unable to attach event "+u),this)},this.off=function(e,t){if(a[e])for(var n=0;n<a[e].length;n++)a[e][n].fn==t&&a[e].splice(n,1)},e.form&&(o=e.form).addEventListener("submit",function(e){e.preventDefault(),e.stopPropagation(),c()},!1),e&&e.setAttribute("autocomplete","off"),this.addItems=function(e){r||(r=[]),r=r.concat(e)},this.clearItems=function(){r=[]},this.on("change",{},function(e){}),this}(e,t)},this})}(window||this);
+
+	var inp = document.getElementById('typeahead');
+	if(inp){
+		document.getElementById('place-search').addEventListener('submit',function(e){ e.preventDefault(); e.stopPropagation(); });
+		// Build the main search for places
+		this.typeahead = TypeAhead.init(inp,{
+			'items': [],
+			'max': 8,	// Set a maximum number to list
+			'render': function(d){
+				// Construct the label shown in the drop down list
+				return d.displayname;
+			},
+			'process': function(city){
+				finder.setLocation(city.lat,city.lon);
+			},
+			'rank': function(d,str){
+				// Calculate the weight to add to this airport
+				var r = 0;
+				var words,w;
+				if(d){
+					words = str.split(/[\s\,]/);
+					if(typeof d.displayname==="string") r += getScore(d.displayname,str);
+					if(typeof d.truename==="string") r += getScore(d.truename,str);
+					for(w = 0; w < words.length; w++){
+						if(words[w]){
+							if(typeof d.displayname==="string") r += getScore(d.displayname,words[w]);
+							if(typeof d.truename==="string") r += getScore(d.truename,words[w]);
+						}
+					}
+					if(d.type=="c") r *= 5;
+					if(d.type=="t") r *= 4;
+					if(d.type=="o") r *= 3;
+					if(d.type=="a") r *= 2;
+					if(d.type=="v") r *= 2;
+					//r *= d.population;
+				}
+				return r;
+			}
+		});
+
+		inp.addEventListener('focus',function(e){
+			e.currentTarget.value = "";
+		});
+
+		// Define a function for scoring how well a string matches
+		function getScore(str1,str2,v1,v2,v3){
+			var r = 0;
+			str1 = str1.toUpperCase();
+			str2 = str2.toUpperCase();
+			if(str1.indexOf(str2)==0) r += (v1||3);
+			if(str1.indexOf(str2)>0) r += (v2||1);
+			if(str1==str2) r += (v3||4);
+			return r;
+		}
+		var loading = {};
+		// Attach a callback to the 'change' event. This gets called each time the user enters/deletes a character.
+		this.typeahead.on('change',{'me':this.typeahead},function(e){
+			var name = e.target.value.toLowerCase();
+			var fl = name[0];
+			if(fl && fl.match(/[a-zA-Z\'\`]/i)){
+				if(!loading[fl]){
+					var file = 'data/geo/ranked-'+fl+'.tsv';
+					var _obj = e.data.me;
+
+					fetch(file,{})
+					.then(response => { return response.text(); })
+					.then(d => {
+						
+						var data,l,c,header,cols,datum;
+						d = d.replace(/\r/g,'').split(/[\n]/);
+						data = new Array(d.length);
+						header = ["truename","admin1","type","lat","lon"];
+						for(l = 0; l < d.length; l++){
+							cols = d[l].split(/\t/);
+							datum = {};
+							for(c = 0; c < cols.length; c++){
+								datum[header[c]] = cols[c].replace(/(^\"|\"$)/g,"");
+								// Convert numbers
+								if(parseFloat(datum[header[c]])+"" == datum[header[c]]) datum[header[c]] = parseFloat(datum[header[c]]);
+								datum.i = l;
+								datum.displayname = datum.truename+(datum.admin1 ? ', '+datum.admin1+'':'');
+							}
+							data[l] = datum;
+						}
+						console.log(data);
+						_obj.addItems(data);
+					}).catch(error => {
+						_obj.message('Unable to load file '+file,{'type':'ERROR','extra':{}});
+					});
+					loading[fl] = true;
+				}
+			}
+		});
+	}
 	</script>
 
 	<script src="https://open-innovations.org/resources/oi.log.js"></script>

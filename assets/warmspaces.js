@@ -35,7 +35,7 @@
 			opts.el.appendChild(this.btn);
 		}
 		var _obj = this;
-		this.btn.addEventListener('click',function(){ _obj.getLocation(); });
+		this.btn.addEventListener('click',function(e){ e.preventDefault(); e.stopPropagation(); _obj.getLocation(); });
 
 		// Create an element before the list
 		this.loader = document.createElement('div');
@@ -95,13 +95,14 @@
 				// Parse unprocessed Jekyll string
 				opts.sources = opts.sources.replace(/\{% include_relative ([^\%]+) %\}/,function(m,p1){ return p1; });
 			}
-			fetch(opts.sources||"data/sources.json",{})
+			var f = opts.sources||"data/sources.json";
+			fetch(f,{})
 			.then(response => { return response.json(); })
 			.then(json => {
 				this.sources = json;
 				this.init();
 			}).catch(error => {
-				log("error",'Unable to load sources.');
+				log("error",'Unable to load sources from '+f);
 			});
 		}
 		this.loadArea = function(url){
@@ -142,6 +143,7 @@
 			}
 			// Now determine the actual spacing
 			accuracy = Math.pow(10,(base))*options[imin];
+			log('info','Location accuracy set to '+accuracy+'m');
 
 			html = '';
 			var max = 60;
@@ -209,8 +211,10 @@
 			return this;
 		};
 		this.init = function(){
-			var m = location.search.match(/gss=([^\&]*[EWNS][0-9]{8})/);
-			if(m.length==2) this.loadGSS(m[1]);
+			if(location.search){
+				var m = location.search.match(/gss=([^\&]*[EWNS][0-9]{8})/);
+				if(m.length==2) this.loadGSS(m[1]);
+			}
 
 			return this;
 		};
@@ -226,7 +230,7 @@
 			this.watchID = navigator.geolocation[type](function(position){
 				_obj.updateLocation(position);
 			},function(){
-				log("Having trouble finding your location.");
+				log('error',"Having trouble finding your location.");
 			},{
 				enableHighAccuracy: true,
 				maximumAge				: 30000,
@@ -259,8 +263,8 @@
 			this.lat = lat;
 			this.lon = lon;
 			
-			dlat = 0.05;
-			dlon = 0.05;
+			dlat = 0.03;
+			dlon = 0.06;
 			bounds = {"_southWest": {
 					"lat": this.lat-dlat,
 					"lng": this.lon-dlon
