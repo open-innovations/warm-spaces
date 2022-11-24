@@ -2,6 +2,8 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-0.15471,52.78690],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Spalding Library, Victoria Street, Spalding PE11 1EA","description":"It is free to join and use the library and everyone is welcome. Alongside free access to books, computers, casual and study seating, the Library runs a host of free activities for adults and children including Connect Over A Cuppa community coffee morning on Wednesday 10am-11.30am, there is no charge for refreshments.","hours":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-18:00; Fr 09:00-17:00; Sa 09:00-13:00","title":"Spalding Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.14901,52.78916],"type":"Point"},"properties":{"_source":"warm_welcome","address":"6 Broadgate House, Westlode Street, Spalding, Lincolnshire PE11 2AF","description":"","hours":"Mo 10:30-02:30; Tu 16:00-17:30; We 16:00-17:30; Th 11:00-13:00; Fr 11:00-12:30","title":"Tonic Health"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.14901,52.78916],"type":"Point"},"properties":{"_source":"warm_welcome","address":"6 Broadgate House, Westlode Street, Spalding, Lincolnshire PE11 2AF","description":"","hours":"Mo 10:30-02:30; Tu 16:00-17:30; We 16:00-17:30; Th 11:00-13:00; Fr 11:00-12:30","title":"Tonic Health"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.15399,52.78816],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Swan Street, Spalding, England, PE11 1BT","title":"The Warm Spaces Well of Hope","url":"https://www.spaldingbaptist.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.15037,52.78760],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Broad Street, Spalding, England, PE11 1TB","title":"Broad Street Methodist Church","url":"https://www.broadstreetmethodistchurch.co.uk"},"type":"Feature"}
 	]
 }

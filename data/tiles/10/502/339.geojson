@@ -23,6 +23,8 @@
 		{"geometry":{"coordinates":[-3.30514,51.66487],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Matthias Church Hall, Bargoed Terrace, Treharris CF46 5RB","hours":"Tu 10:00-12:00; Th 10:00-12:00; Su 10:30-12:00","title":"Taff Bargoed Foodbank | Treharris"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.17459,51.79891],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tabor Centre, Davies Street, Ebbw Vale, Wales, NP23 4AD","title":"Valleys Family Church","url":"https://en-gb.facebook.com/valleysfamilychurch/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.17661,51.67965],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Markham Crescent, Blackwood, Wales, NP12","title":"Oakdale Baptist Chapel","url":"https://www.facebook.com/oakdalebaptistchurch100/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.39910,51.68416],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Link Building, Fernhill, Mountain Ash, Wales, CF45 3EW","title":"Cynon Valley Church","url":"https://www.instagram.com/cvcelim/?hl=en"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.39910,51.68416],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Link Building, Fernhill, Mountain Ash, Wales, CF45 3EW","title":"Cynon Valley Church","url":"https://www.instagram.com/cvcelim/?hl=en"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.45615,51.62356],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Dunraven Street, Tonypandy, Wales, CF40 1QE","title":"Hope Church Rhondda","url":"https://www.hopechurchrhondda.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.22376,51.69445],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Pant Street, Bargoed, Wales, CF81 9BB","title":"Aberbargoed Library","url":"https://www.caerphilly.gov.uk/Services/Libraries?lang=en-GB"},"type":"Feature"}
 	]
 }

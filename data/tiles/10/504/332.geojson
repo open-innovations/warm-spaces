@@ -12,6 +12,7 @@
 		{"geometry":{"coordinates":[-2.57508,53.25997],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Weaverham Library, Weaverham, Cheshire West and Chester CW8 3HY","description":"Open from 19/05/1962.","hours":"Mo 09:30-13:00; Tu 09:30-13:00; We 09:30-13:00; Th 09:30-13:00; Fr 09:30-13:00; Sa 09:30-13:00","title":"Weaverham Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.50339,53.19614],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Willow Square, Wharton, Winsford, Cheshire CW7 3HP","description":"","hours":"Mo 09:00-13:00; Tu 09:00-13:00; Th 09:00-13:00; Fr 12:00-17:00; Sa 09:00-13:00","title":"Wharton Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.52863,53.19271],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Winsford Library, High Street, Winsford CW7 2AS","description":"","hours":"Mo 09:30-19:00; Tu 09:30-17:00; We 09:30-17:00; Th 09:30-19:00; Fr 09:30-17:00; Sa 09:30-13:00","title":"Winsford Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.59284,53.23547],"type":"Point"},"properties":{"_source":"warm_spaces","address":"80 Weaverham Road, Northwich, England, CW8 2ND","title":"Redwalls Care Home"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.59284,53.23547],"type":"Point"},"properties":{"_source":"warm_spaces","address":"80 Weaverham Road, Northwich, England, CW8 2ND","title":"Redwalls Care Home"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.72362,53.32217],"type":"Point"},"properties":{"_source":"warm_spaces","address":"70 Clifton Road, Runcorn, England, WA7 4TD","title":"Hope Corner","url":"https://hopecorner.co.uk"},"type":"Feature"}
 	]
 }

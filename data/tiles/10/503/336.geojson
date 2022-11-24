@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.04595,52.34327],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Knighton and District Community Centre, Bowling Green Lane, Knighton, Powys ld7 1dr","description":" Mondays: Families only (Family Centre), also offer Library opening hours https://en.powys.gov.uk/knightonlibrary","hours":"Mo 11:00-14:00; Tu 10:00-13:00; Th 10:00-14:00","title":"Knighton and District Community Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.04595,52.34327],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Knighton and District Community Centre, Bowling Green Lane, Knighton, Powys ld7 1dr","description":" Mondays: Families only (Family Centre), also offer Library opening hours https://en.powys.gov.uk/knightonlibrary","hours":"Mo 11:00-14:00; Tu 10:00-13:00; Th 10:00-14:00","title":"Knighton and District Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.87687,52.36155],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Leintwardine Village Hall and Community Centre, High Street, Craven Arms, England, SY7 0LB","title":"Leintwardine Village Hall &amp; Community Centre","url":"https://www.leintwardinecentre.co.uk/events/warm-space/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.04486,52.34316],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Knighton and District Community Centre, Bowling Green Lane, Knighton, Wales, LD7 1DR","title":"Knighton and District Community Centre","url":"https://knightoncomm.wales"},"type":"Feature"}
 	]
 }
