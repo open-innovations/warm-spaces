@@ -9,6 +9,16 @@
 		"title": "Aberdeen City Council",
 		"url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces"
 	},
+	"barnet_council": {
+		"count": 15,
+		"data": { "type": "html", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
+		"geocount": 15,
+		"id": "barnet_council",
+		"map": { "type": "leaflet", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
+		"register": { "url": "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
+		"title": "Barnet Council",
+		"url": "https://www.barnet.gov.uk/directories/warm-spaces"
+	},
 	"bedford_council": {
 		"count": 25,
 		"data": { "type": "html", "url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces" },
@@ -42,9 +52,9 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 125,
+		"count": 131,
 		"data": { "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
-		"geocount": 125,
+		"geocount": 131,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -100,6 +110,12 @@
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
+	"cheshire_west_and_chester_council": {
+		"id": "cheshire_west_and_chester_council",
+		"notes": "Refers people to Warm Welcome",
+		"title": "Cheshire West and Chester Council",
+		"url": "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
+	},
 	"city_of_london": {
 		"id": "city_of_london",
 		"title": "City of London",
@@ -114,6 +130,17 @@
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
 		"title": "Durham County Council",
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+	},
+	"east_ayrshire_council": {
+		"id": "east_ayrshire_council",
+		"title": "East Ayrshire Council",
+		"url": "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
+	},
+	"enfield_council": {
+		"id": "enfield_council",
+		"notes": "Refers people to Warm Welcome",
+		"title": "Enfield Council",
+		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
 	},
 	"fylde_council": {
 		"id": "fylde_council",
@@ -148,9 +175,9 @@
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
 	"hounslow_council": {
-		"count": 31,
+		"count": 32,
 		"data": { "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" },
-		"geocount": 30,
+		"geocount": 31,
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
@@ -219,9 +246,9 @@
 		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
 	},
 	"north_northamptonshire_council": {
-		"count": 33,
+		"count": 35,
 		"data": { "type": "html", "url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces" },
-		"geocount": 33,
+		"geocount": 35,
 		"id": "north_northamptonshire_council",
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
@@ -236,14 +263,43 @@
 		"title": "Perth and Kinross Council",
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
+	"portsmouth_council": {
+		"count": 32,
+		"data": { "type": "html", "url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/" },
+		"geocount": 24,
+		"id": "portsmouth_council",
+		"title": "Portsmouth Council",
+		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
+	},
 	"redcar_and_cleveland_council": {
-		"count": 43,
+		"count": 44,
 		"data": { "type": "html", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
-		"geocount": 43,
+		"geocount": 44,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+	},
+	"rotherham_council": {
+		"id": "rotherham_council",
+		"notes": "Refers people to Warm Welcome",
+		"title": "Rotherham Council",
+		"url": "https://www.rotherham.gov.uk/warm-welcome"
+	},
+	"salisbury_council": {
+		"id": "salisbury_council",
+		"notes": "The list is a PDF",
+		"title": "Salisbury Council",
+		"url": "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
+	},
+	"sandwell_council": {
+		"count": 48,
+		"data": { "type": "html", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
+		"geocount": 48,
+		"id": "sandwell_council",
+		"map": { "type": "googlemap", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
+		"title": "Sandwell Council",
+		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"sefton_council": {
 		"id": "sefton_council",
@@ -303,9 +359,9 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 189,
+		"count": 193,
 		"data": { "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" },
-		"geocount": 189,
+		"geocount": 193,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -352,9 +408,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 769,
+		"count": 380,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 769,
+		"geocount": 380,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -362,9 +418,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2487,
+		"count": 2535,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 2487,
+		"geocount": 2535,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
