@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-74.00076,40.72076],"type":"Point"},"properties":{"_source":"warm_spaces","address":", ","title":"Kingfisher Club, Riverside Holiday Village"},"type":"Feature"}
+	]
+}
