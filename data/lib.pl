@@ -42,6 +42,7 @@ sub parseText {
 	$str =~ s/\&nbsp\;/ /g;
 	$str =~ s/\&#8211;/-/g;
 	$str =~ s/\&#039;/\'/g;
+	$str =~ s/\x{a0}/ /g;
 	$str =~ s/Â//g;
 	return $str;
 }

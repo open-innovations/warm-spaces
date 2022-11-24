@@ -118,6 +118,9 @@ directories:
     data:
       url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
       type: portal
+  - title: "Cheshire West and Chester Council"
+    url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
+    notes: "Refers people to Warm Welcome"
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
   - title: "Durham County Council"
@@ -130,6 +133,11 @@ directories:
     data:
       url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
       type: html
+  - title: "East Ayrshire Council"
+    url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
+  - title: "Enfield Council"
+    url: "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
+    notes: "Refers people to Warm Welcome"
   - title: "Fylde Council"
     url: "https://fylde.gov.uk/warm-spaces-in-fylde/"
     register:
@@ -252,6 +260,11 @@ directories:
         hours: "Descriptio"
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
+  - title: "Portsmouth Council"
+    url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
+    data:
+      url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
+      type: html
   - title: "Redcar and Cleveland Council"
     url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
     map:
@@ -260,6 +273,9 @@ directories:
     data:
       url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
       type: html
+  - title: "Rotherham Council"
+    url: "https://www.rotherham.gov.uk/warm-welcome"
+    notes: "Refers people to Warm Welcome"
   - title: "Salisbury Council"
     url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
     notes: "The list is a PDF"
