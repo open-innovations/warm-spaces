@@ -26,7 +26,6 @@
 		{"geometry":{"coordinates":[0.20182,51.28578],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Green, Sevenoaks, England, TN13","title":"St Bartholomews Church, Otford","url":"https://www.stbartholomews.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.19485,51.27132],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Buckhurst Lane, Sevenoaks, England, TN13 1LQ","title":"Sevenoaks Library","url":"https://www.kent.gov.uk/Librarydetails"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.16439,51.39472],"type":"Point"},"properties":{"_source":"warm_spaces","address":"36a Cherry Avenue, Swanley, England, BR8 7DX","title":"Elim Christian Centre Swanley","url":"http://www.elimswanley.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.06444,51.19753],"type":"Point"},"properties":{"_source":"warm_spaces","address":"40 High Street, Edenbridge, England, TN8 5AJ","title":"Bridges Edenbridge","url":"https://www.bridgescentre.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.00010,51.25780],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"12 Gresham Rd, Oxted RH8 0BQ","hours":"Th 09:30-17:00; Fr 09:30-17:00; Sa 09:30-17:00; Tu 09:30-17:00; We 09:30-17:00","title":"Oxted Lib "},"type":"Feature"},
 		{"geometry":{"coordinates":[0.00283,51.24336],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"Green Hurst Lane, The Green, Hurst Green, RH8 9DU","hours":"Th 13:00-15:00","title":"St Agatha's Hall"},"type":"Feature"}
 	]
