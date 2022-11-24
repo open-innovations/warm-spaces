@@ -6,7 +6,6 @@
 		{"geometry":{"coordinates":[-1.80336,51.07046],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dews Road, Salisbury, Wiltshire SP2 7SN","description":"Open from 02/11/2022.","hours":"We 11:00-15:00; Su 10:30-13:00","title":"Rediscover Life Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.79204,51.07070],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Edmund's Church Street, Salisbury, Wiltshire SP1 1EF","description":" The Listening Place - informal and confidential listening service - operates while foyer is open","hours":"We 10:00-12:00; Sa 10:00-12:00","title":"Salisbury Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.75830,50.95902],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Boniface Church, Woodgreen, Fordingbridge, Hampshire SP6 2AJ","description":"Open from 06-12-2022.","hours":"Tu 10:30-14:30","title":"St Boniface Church, Woodgreen, Fordingbridge"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.80699,51.07257],"type":"Point"},"properties":{"_source":"warm_spaces","address":"51 Wilton Road, Salisbury, England, SP2 7EF","title":"Salisbury Quakers","url":"https://salisburyquakers.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.80507,51.07180],"type":"Point"},"properties":{"_source":"warm_spaces","address":"SP2 Hope Centre, 159-161 Fisherton Street, Salisbury, England, SP2 7RP","title":"SP2 Hope Centre","url":"https://www.stpaulssalisbury.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.80699,51.07257],"type":"Point"},"properties":{"_source":"warm_spaces","address":"51 Wilton Road, Salisbury, England, SP2 7EF","title":"Salisbury Quakers","url":"https://salisburyquakers.org"},"type":"Feature"}
 	]
 }

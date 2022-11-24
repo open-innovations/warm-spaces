@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.33217,55.50295],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Old Library Room, AM Brown Institute, Institute Avenue, Mauchline, Scotland, KA5 6RT","title":"Mama’s Nest"},"type":"Feature"}
-	]
-}
