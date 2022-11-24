@@ -136,11 +136,14 @@ ul.grid > li > * { display: grid; height: 100%; grid-template-rows: 1fr auto; }
 ul.grid > li > * > * { display:block; text-decoration: none; }
 ul.grid > li > * > * > *:first-child { margin-top:0px; }
 ul.grid > li > * > * > * { margin-top: 1em; margin-bottom:0px; }
+.hide { display: none; }
 
+#key-holder { display: none; }
 #key { margin-top: 0.5em; }
 #key > li { display: inline-block; line-height: 1em; margin-right: 1em; }
 #key > li:last-child { margin-right: 0; }
-#key .keyitem { width: 1em; height: 1em; float: left; margin-right: 0.25em; }
+#key .keyitem { margin-right: 0.25em; border-radius: 2px; }
+#key .keyitem label { padding: 0.5em; display: block; }
 .source { padding: 0.5em 1em; }
 .dist { font-weight: bold; font-style: italic; }
 p.address { font-style: italic; margin-top: 0.25em!important; }

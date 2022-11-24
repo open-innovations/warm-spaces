@@ -12,7 +12,6 @@
 			else document.addEventListener('DOMContentLoaded', fn);
 		};
 	}
-
 	function WarmSpacesFinder(opts){
 		if(!opts) opts = {};
 
@@ -36,6 +35,17 @@
 		}
 		var _obj = this;
 		this.btn.addEventListener('click',function(e){ e.preventDefault(); e.stopPropagation(); _obj.getLocation(); });
+
+		// Create an element before the list
+		this.key = document.getElementById('key-holder');
+		this.toggles = {};
+		var keyitems = document.querySelectorAll('#key .keyitem input');
+		for(i = 0; i < keyitems.length; i++){
+			this.toggles[keyitems[i].getAttribute('data')] = new Toggle(keyitems[i],{
+				'this':this,
+				'callback':function(e){ this.updateList(); }
+			});
+		};
 
 		// Create an element before the list
 		this.loader = document.createElement('div');
@@ -62,9 +72,15 @@
 				}
 
 				features = geo.features;
-				var max = Math.min(60,features.length);
 
-				if(typeof attr.finder.lat==="number"){
+				if(typeof attr.finder.region){
+					sorted = [];
+					log('info','Checking if in region',attr.finder.region)
+					for(i = 0; i < features.length; i++){
+						if(attr.finder.region.contains(features[i].geometry.coordinates[0],features[i].geometry.coordinates[1])) sorted.push(features[i]);
+					}
+					sorted = sorted.sort(function(a,b){return a.properties.title > b.properties.title;});
+				}else{
 					lat = attr.finder.lat;
 					lon = attr.finder.lon;
 
@@ -73,17 +89,11 @@
 						features[i].distance = greatCircle([lon,lat],c);
 					}
 					sorted = features.sort(function(a,b){return a.distance - b.distance;});
-				}else{
-					max = features.length;
-					sorted = [];
-					for(i = 0; i < features.length; i++){
-						if(attr.finder.region.contains(features[i].geometry.coordinates[0],features[i].geometry.coordinates[1])) sorted.push(features[i]);
-					}
-					sorted = features.sort(function(a,b){return a.properties.title > b.properties.title;});
 				}
 
 				// Build list
-				attr.finder.buildList(sorted,max);
+				attr.finder.sorted = sorted;
+				attr.finder.updateList();
 			}
 		},opts.tiles||{}));
 		
@@ -120,8 +130,9 @@
 				log('error','Unable to load URL '+url,{'type':'ERROR','extra':{}});
 			});
 		};
-		this.buildList = function(geosort,mx){
+		this.updateList = function(){
 
+			var max = (this.region ? this.sorted.length : Math.min(60,this.sorted.length));
 			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy;
 			// We want to round to the accuracy of the geolocation
 			acc = (this.location ? this.location.coords.accuracy : 50);
@@ -148,37 +159,43 @@
 			if(accuracy > 200) accuracy = 200;
 
 			html = '';
-			var max = 60;
-			if(typeof mx==="number") max = mx;
-			max = Math.min(max,geosort.length);
-			for(i = 0; i < max; i++){
-				p = geosort[i].properties;
-				if(geosort[i].distance){
-					d = Math.ceil(geosort[i].distance/accuracy)*accuracy;
-				}else{
-					d = -1;
-				}
+			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
+				p = this.sorted[i].properties;
+				d = (this.sorted[i].distance) ? Math.ceil(this.sorted[i].distance/accuracy)*accuracy : -1;
 				var hours = processHours(p.hours);
-				var cls = hours.class;
-				
-				html += '<li tabindex="0"><div>';
-				html += (p.url ? '<a class="'+cls+'" href="'+p.url+'/" target="_source">' : '<div class="'+cls+'">');
-				html += '<div class="doublepadded">';
-				html += '<h3>'+p.title+'</h3>';
-				if(p.address) html += '<p class="address">'+p.address+'</p>';
-				if(d >= 0) html += '<p><span class="dist">'+d+'m</span> or so away</p>';
-				if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
-				if(p.hours){
-					html += '<p class="times"><strong>Opening hours:</strong></p>'+hours.times;
+				var typ = hours.type;
+				if(this.toggles[typ]){
+					var cls = this.toggles[typ].class;
+					if(this.toggles[typ].checked){
+					
+						html += '<li tabindex="0" class="'+cls+'"><div>';
+						html += (p.url ? '<a href="'+p.url+'/" target="_source">' : '<div>');
+						html += '<div class="doublepadded">';
+						html += '<h3>'+p.title+'</h3>';
+						if(p.address) html += '<p class="address">'+p.address+'</p>';
+						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
+						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
+						if(p.hours){
+							html += '<p class="times"><strong>Opening hours:</strong></p>'+hours.times;
+						}
+						html += '</div>';
+						html += (p.url ? '</a>':'</div>');
+						html += formatSource(this.sources[p._source]);
+						html += '</div></li>';
+
+						added++;
+					}
+				}else{
+					log('warn','No toggle of type '+typ);
 				}
-				html += '</div>';
-				html += (p.url ? '</a>':'</div>');
-				html += formatSource(this.sources[p._source]);
-				html += '</div></li>';
 			}
 			this.list.innerHTML = html;
+			
 			opts.el.appendChild(this.list);
-			this.loader.innerHTML = '<ul id="key"><li><span class="keyitem c14-bg"></span> opening soon</li><li><span class="keyitem c13-bg"></span> open</li><li><span class="keyitem c12-bg"></span> closing soon</li><li><span class="keyitem b5-bg"></span> closed</li></ul>';
+
+			this.loader.innerHTML = '';
+			this.key.style.display = "block";
+			
 			return this;
 		};
 		this.loadGSS = function(code){
@@ -245,6 +262,7 @@
 		};
 		this.updateLocation = function(position){
 			this.location = position;
+			delete this.region;
 			this.setLocation(position.coords.latitude,position.coords.longitude);
 		};
 		this.setArea = function(poly){
@@ -310,7 +328,7 @@
 		};
 		function processHours(times){
 			var i,j,d,dow,now,nth,days,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth,ds,s,e,day;
-			cls = "b5-bg";
+			cls = "closed";
 			newtimes = "";
 			if(times){
 				var longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat"};
@@ -359,19 +377,32 @@
 							t2 = ts[1].split(/:/);
 							t1 = parseInt(t1[0]) + parseInt(t1[1])/60;
 							t2 = parseInt(t2[0]) + parseInt(t2[1])/60;
-							if(t1 <= hh && t2 > hh) cls = "c13-bg";
-							if(hh < t1 && hh > t1-0.5) cls = "c14-bg";
-							if(hh < t2 && hh > t2-0.25) cls = "c12-bg";
+							if(t1 <= hh && t2 > hh) cls = "open";
+							if(hh < t1 && hh > t1-0.5) cls = "opening-soon";
+							if(hh < t2 && hh > t2-0.25) cls = "closing-soon";
 						}
 					}
 				}
 			}
-			return {'class':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
+			return {'type':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
 		}
 		
 		return this;
 	}
-	
+	function Toggle(inp,opts){
+		if(!opts) opts = {};
+		var cls = inp.closest('li').getAttribute('class').replace(/ keyitem.*$/,"");
+		this.checked = inp.checked;
+		this.type = inp.getAttribute('data');
+		this.class = cls;
+		var _obj = this;
+		inp.addEventListener('change',function(e){
+			_obj.checked = inp.checked;
+			if(typeof opts.callback==="function") opts.callback.call(opts.this||this);
+		});
+		return this;
+	}
+
 	// Centroid calculation from https://stackoverflow.com/questions/16282330/find-centerpoint-of-polygon-in-javascript
 	function Region(points) {
 		this.points = points || [];
