@@ -182,6 +182,15 @@
 		"title": "Lewes and Eastbourne Council",
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
+	"litchfield_council": {
+		"count": 15,
+		"data": { "type": "html", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
+		"geocount": 15,
+		"id": "litchfield_council",
+		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
+		"title": "Litchfield Council",
+		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+	},
 	"middlesbrough_council": {
 		"count": 17,
 		"data": { "keys": { "title": "name" }, "parse": "Address:<br>{{address}}<br>Opening times:{{hours}}", "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1UmvNYg24mUNr-rnBaiirspUi5LO8wXY&ehbc=2E312F&ll=54.55430542048388%2C-1.220620400000012&z=12" },
@@ -201,6 +210,15 @@
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
 		"title": "Perth and Kinross Council",
 		"url": "https://www.pkc.gov.uk/warmspaces"
+	},
+	"redcar_and_cleveland_council": {
+		"count": 39,
+		"data": { "type": "html", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
+		"geocount": 39,
+		"id": "redcar_and_cleveland_council",
+		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
+		"title": "Redcar and Cleveland Council",
+		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"sefton_council": {
 		"id": "sefton_council",
@@ -300,9 +318,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 500,
+		"count": 320,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 500,
+		"geocount": 320,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },

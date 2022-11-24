@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.57806,56.41603],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"METHVEN ARMS, MAIN STREET, METHVEN PH1 3PT","description":"Warm space/ refreshments activities daily 12noon - 10pm","hours":"Mo-Su ","title":"Methven & District Community Council"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.57806,56.41603],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"METHVEN ARMS, MAIN STREET, METHVEN PH1 3PT","description":"Warm space/ refreshments activities daily 12noon - 10pm","hours":"Mo-Su 12:00-22:00","title":"Methven & District Community Council"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.83841,56.37138],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"PENNY LANE SHOPPING CENTRE CHURCH STREET CRIEFF PH7 3AE","description":"Warm Space / tea and coffee","title":"Crieff Connexions"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.83990,56.37257],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"27B HIGH STREET CRIEFF PH7 3HU","description":"Extended hours for After School Club and Thursday evening drop in","title":"LOGOS Youth Project"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.84350,56.37371],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"STRATHEARN ARTS 6 COMRIE STREET CRIEFF PH7 4AX","description":"Warm space / activities","title":"Strathearn Artspace SCO 44319"},"type":"Feature"},

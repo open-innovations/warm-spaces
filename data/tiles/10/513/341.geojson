@@ -22,7 +22,6 @@
 		{"geometry":{"coordinates":[0.35988,51.33040],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Bay, Village Hall, Vigo, Meopham, Kent DA13 0TD","description":" Please visit our website for services provided at your local library","hours":"Tu 12:00-17:00; We 14:00-17:00; Fr 14:00-17:00; Sa 10:00-14:00","title":"Vigo Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.43097,51.22504],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Adin Coates House, High Street , Yalding, Kent ME18 6HU","description":" Please visit our website for services provided at your local library. Find out how else we can help with the cost-of-living support: bit.ly/CostOfLivingSupportKent.","title":"Yalding Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.48422,51.37271],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Borstal Street, Rochester, England, ME1 3JS","title":"Family Time Activities Borstal"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.52089,51.34675],"type":"Point"},"properties":{"_source":"warm_spaces","address":"70 Silverweed Road, Chatham, England, ME5 0QX","title":"The Net Community Hub","url":"https://waldersladehub.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.60913,51.36291],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Street, Gillingham, England, ME8 8AN","title":"St Margaret's Church, Rainham"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.52089,51.34675],"type":"Point"},"properties":{"_source":"warm_spaces","address":"70 Silverweed Road, Chatham, England, ME5 0QX","title":"The Net Community Hub","url":"https://waldersladehub.org"},"type":"Feature"}
 	]
 }

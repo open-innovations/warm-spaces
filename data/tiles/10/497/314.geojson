@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.10730,56.81924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Parade, Fort William, Scotland, PH33 6BA","title":"Fort William Kilmallie Church of Scotland, MacIntosh Hall","url":"https://www.thedmac.co.uk/welcome.htm"},"type":"Feature"}
-	]
-}
