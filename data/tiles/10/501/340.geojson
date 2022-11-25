@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.70433,51.52184],"type":"Point"},"properties":{"_source":"warm_spaces","address":"North Cornelly Playgroup, Integrated centre, Greenfield Terrace, Bridgend, Wales, CF33 4LW","title":"NCP Warm Space &amp; Wellbeing Wednesday"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.79614,51.59569],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bethel Community Church, Sandfields Road, Port Talbot, Wales, SA12 6LR","title":"Bethel Trust Port Talbot","url":"http://www.betheltrustpt.co.uk"},"type":"Feature"}
-	]
-}
+{}

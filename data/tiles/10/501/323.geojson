@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.57956,55.09599],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barnett Road, Heathhall, Dumfries DG1 3RU","description":"Open from 28-11-2022. We have a selection of books, jigsaws and games.","hours":"Mo 10:00-13:00","title":"Heathhall Community Centre Committee"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.96246,51.71616],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Waterloo, Cirencester, Gloucestershire GL7 2PZ","description":"","hours":"Mo 09:30-17:00; Tu 09:30-19:00; We 09:30-13:00; Th 09:30-17:00; Fr 09:30-19:00; Sa 09:30-16:00","title":"Cirencester Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.77695,51.70695],"type":"Point"},"properties":{"_source":"warm_welcome","address":"London Street, Fairford, Gloucestershire GL7 4AQ","description":"","hours":"Mo 09:30-17:00; We 09:30-17:00; Th 09:30-19:00; Sa 09:30-13:00","title":"Fairford Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.96318,51.71681],"type":"Point"},"properties":{"_source":"warm_welcome","address":"14-16 The Waterloo, Cirencester, Glos GL7 2PY","description":"Open from 16/09/2022. A variety of games and newspapers available. ","hours":"Fr 13:00-15:00","title":"The Churn Project "},"type":"Feature"}
 	]
 }

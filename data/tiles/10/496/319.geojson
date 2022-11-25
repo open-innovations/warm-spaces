@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.41723,55.86311],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tarbert Church of Scotland Hall, Campbeltown Road, Tarbert, Scotland, PA29","title":"The Pantry"},"type":"Feature"}
-	]
-}
+{}

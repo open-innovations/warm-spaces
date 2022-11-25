@@ -2,10 +2,10 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-0.27442,51.95375],"type":"Point"},"properties":{"_source":"warm_welcome","address":"16 Nightingale Road, Hitchin, Herts SG5 1QS","description":"Open from 02/12/2022.","title":"Our Lady’s Church Hitchin"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.28146,51.95029],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bedford Road, Hitchin, Hertfordshire SG51HF","description":"Open from 06/12/22. Everyone is welcome. People of all ages come along. We provide hot and cold drinks, cuppa soup, cake and biscuits","hours":"Tu 10:00-15:00","title":"Refresh@Christchurch Hitchin"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.21577,51.97518],"type":"Point"},"properties":{"_source":"warm_welcome","address":"179 Pixmore Road, Letchworth Garden City, Herts SG6 1QT","description":"Open from 23-11-22.","hours":"We 09:30-13:00","title":"St Paul's Church, Letchworth"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.22806,52.01691],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 Church Road, Stotfold, HITCHIN, Bedfordshire SG5 4LX","description":"Open from 01/12/2022.","hours":"Tu 10:00-13:00; Th 10:30-12:00","title":"The Salvation Army - Stotfold Corps"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.26869,51.95140],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Walsworth Road, Hitchin, Herts SG4 9SP","description":"","hours":"Mo 14:00-16:00; Sa 10:00-12:00","title":"Walsworth Road Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.18243,51.85234],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Village Hall, Hall Lane, Woolmer Green, Herts SG3 6XA","description":" Open from 31/10/2022.","hours":"Mo 13:00-16:00","title":"Warm Welcome: Woolmer Green Village Hall "},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.18310,51.85221],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Woolmer Green Hall, Hall Lane, Woolmer Green, England, SG3 6XA","title":"Warm Welcome Woolmer Green","url":"https://www.woolmergreenpc.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.18243,51.85234],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Village Hall, Hall Lane, Woolmer Green, Herts SG3 6XA","description":" Open from 31/10/2022.","hours":"Mo 13:00-16:00","title":"Warm Welcome: Woolmer Green Village Hall "},"type":"Feature"}
 	]
 }
