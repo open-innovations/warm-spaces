@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.86589,51.32837],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Banwell Youth & Community Centre, Banwell, North Somerset BS29 6DB","description":"","hours":"Tu 10:00-12:00; Th 10:00-12:00","title":"Banwell Public Living Room"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.86589,51.32837],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Banwell Youth & Community Centre, Banwell, North Somerset BS29 6DB","description":"","hours":"Tu 10:00-12:00; Th 10:00-16:00","title":"Banwell Public Living Room"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.00475,51.17976],"type":"Point"},"properties":{"_source":"warm_welcome","address":"18 Gaunts Road, Pawlett, Bridgwater TA6 4SF","description":"","title":"Churches Together in Pawlett, Royal British Legion, Pawlett"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.98852,51.35578],"type":"Point"},"properties":{"_source":"warm_welcome","address":"South Road, Weston-super-Mare, North Somerset BS23 2HN","description":"Open from 07/11/2022.","hours":"Mo 15:00-18:00","title":"Holy Trinity Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.96512,51.33146],"type":"Point"},"properties":{"_source":"warm_welcome","address":"68 Lonsdale Avenue, Weston-Super-Mare, Bristol BS23 3SJ","description":"Open from 14-11-2022.","hours":"Mo 09:30-17:00; Tu 09:30-17:00; We 09:30-17:00; Th 09:30-17:00; Fr 09:30-17:00","title":"North Somerset Libraries"},"type":"Feature"},

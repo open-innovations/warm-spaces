@@ -38,6 +38,7 @@
 		{"geometry":{"coordinates":[-1.11008,52.63638],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wesley Hall Community Centre, 76 Hartington Road , Leicester LE2 0GN","description":"","title":"Wesley Hall Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.12559,52.62456],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Attenborough Arts Centre, Lancaster Road, Leicester, England, LE1 7HA","title":"Attenborough Arts Centre (University of Leicester)","url":"https://www.attenborougharts.com"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.39685,52.68803],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Palace Community Centre Ltd, High Street, Ibstock, England, LE67 6LG","title":"The Palace Ibstock","url":"https://www.thepalaceibstock.co.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.28107,52.53447],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Leicester, England, LE9 4FG","title":"Sapcote Warm Spaces - All Saints Church","url":"https://www.achurchnearyou.com/church/5474/"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.28107,52.53447],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Leicester, England, LE9 4FG","title":"Sapcote Warm Spaces - All Saints Church","url":"https://www.achurchnearyou.com/church/5474/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.21798,52.62190],"type":"Point"},"properties":{"_source":"warm_spaces","address":"76 Stafford Leys, Leicester, England, LE3 3PD","title":"Leicester Forest East Community Library","url":"https://lfelibrary.org"},"type":"Feature"}
 	]
 }
