@@ -74,17 +74,17 @@ sub getURLToFile {
 	
 	if(-s $file == 0){
 		sleep 5;
-		msg("\tDownload 2nd attempt\n");
+		msg("\tDownload 2nd attempt from $url\n");
 		`wget -q --no-check-certificate -O $file "$url"`;
 	}
 	if(-s $file == 0){
 		sleep 10;
-		msg("\tDownload 3rd attempt\n");
+		msg("\tDownload 3rd attempt from $url\n");
 		`wget -q  --no-check-certificate -O $file "$url"`;
 	}
 	if(-s $file == 0){
 		sleep 30;
-		msg("\tDownload 4th attempt\n");
+		msg("\tDownload 4th attempt from $url\n");
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 	}
 	return $file;
