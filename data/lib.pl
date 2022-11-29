@@ -71,26 +71,26 @@ sub getURLToFile {
 	if($age >= 86400 || -s $file == 0){
 		if($delay){ sleep $delay; }
 		msg("\tDownloading $url\n");
-		`wget -q  --no-check-certificate -O $file "$url"`;
+		`wget -q --no-check-certificate -O $file "$url"`;
 	}
 	
 	if(-s $file == 0){
-		$delay = 5;
+		$delay = 10;
 		if($delay){ sleep $delay; }
 		msg("\tDownload 2nd attempt from $url\n");
 		`wget -q --no-check-certificate -O $file "$url"`;
 	}
 	if(-s $file == 0){
-		$delay = 10;
-		if($delay){ sleep $delay; }
-		msg("\tDownload 3rd attempt from $url\n");
-		`wget -q  --no-check-certificate -O $file "$url"`;
-	}
-	if(-s $file == 0){
 		$delay = 30;
 		if($delay){ sleep $delay; }
+		msg("\tDownload 3rd attempt from $url\n");
+		`wget -q --no-check-certificate -O $file "$url"`;
+	}
+	if(-s $file == 0){
+		$delay = 60;
+		if($delay){ sleep $delay; }
 		msg("\tDownload 4th attempt from $url\n");
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		`wget -q --no-check-certificate -O $file "$url"`;
 	}
 	return $delay;
 }

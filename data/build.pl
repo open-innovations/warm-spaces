@@ -451,13 +451,13 @@ sub getSquareSpace {
 	#e.g. https://warmspaces.org/locations?format=json&cache=2022-11-24T00-2
 	# Use cache parameter to make sure the pages don't change as we step through them
 	$cache = strftime("%FT%H-%M",gmtime);
-	$url = $d->{'data'}{'url'}."?format=json-pretty&cache=$cache";
+	$url = $d->{'data'}{'url'}."?format=json&cache=$cache";
 
 	$p = 1;
 	$page = $rawdir.$d->{'id'}."-$p.json";
 	getURLToFile($url,$page);
 	$json = getJSON($page);
-	$delay = 2;
+	$delay = 1;
 	
 	@items = @{$json->{'items'}};
 	
