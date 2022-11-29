@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.47190,56.41175],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Argyll Square, Oban, Scotland, PA34 4BD","title":"We Are With You","url":"https://www.wearewithyou.org.uk/services/argyll-and-bute-oban/"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.47190,56.41175],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Argyll Square, Oban, Scotland, PA34 4BD","title":"We Are With You","url":"https://www.wearewithyou.org.uk/services/argyll-and-bute-oban/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-5.47167,56.41296],"type":"Point"},"properties":{"_source":"warm_spaces","address":"24 Stevenson Street, Oban, Scotland, PA34 5RX","title":"Oban Hospice Dove Centre","url":"https://obanhospice.org.uk"},"type":"Feature"}
 	]
 }

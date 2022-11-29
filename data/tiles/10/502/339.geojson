@@ -24,6 +24,7 @@
 		{"geometry":{"coordinates":[-3.18591,51.65643],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tram Road, Blackwood, Wales, NP12 2JF","title":"River Church","url":"http://riverchurch.wales"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.17459,51.79891],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tabor Centre, Davies Street, Ebbw Vale, Wales, NP23 4AD","title":"Valleys Family Church","url":"https://en-gb.facebook.com/valleysfamilychurch/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.17661,51.67965],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Markham Crescent, Blackwood, Wales, NP12","title":"Oakdale Baptist Chapel","url":"https://www.facebook.com/oakdalebaptistchurch100/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.39910,51.68416],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Link Building, Fernhill, Mountain Ash, Wales, CF45 3EW","title":"Cynon Valley Church","url":"https://www.instagram.com/cvcelim/?hl=en"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.39910,51.68416],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Link Building, Fernhill, Mountain Ash, Wales, CF45 3EW","title":"Cynon Valley Church","url":"https://www.instagram.com/cvcelim/?hl=en"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.45615,51.62356],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Dunraven Street, Tonypandy, Wales, CF40 1QE","title":"Hope Church Rhondda","url":"https://www.hopechurchrhondda.org.uk"},"type":"Feature"}
 	]
 }

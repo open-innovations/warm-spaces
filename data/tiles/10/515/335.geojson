@@ -46,6 +46,7 @@
 		{"geometry":{"coordinates":[1.27242,52.61846],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Avenue, Norwich, England, NR2 2AQ","title":"Christ Church Eaton","url":"https://christchurch-eaton.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.05672,52.53960],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Golf Links Road, Wymondham, England, NR18 9SU","title":"Morley Village &amp; Sports Hall","url":"https://www.morleyvillageandsportshall.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.24755,52.63369],"type":"Point"},"properties":{"_source":"warm_spaces","address":"75 Cadge Road, Norwich, England, NR5 8DG","title":"St Elizabeth's","url":"https://www.earlham.church"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.29926,52.65238],"type":"Point"},"properties":{"_source":"warm_spaces","address":"170 Saint Clements Hill, Norwich, England, NR3 4DG","title":"St Clements Nursing Home","url":"https://kingsleyhealthcare.co.uk/pages/home/st-clements-nursing-home"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.29926,52.65238],"type":"Point"},"properties":{"_source":"warm_spaces","address":"170 Saint Clements Hill, Norwich, England, NR3 4DG","title":"St Clements Nursing Home","url":"https://kingsleyhealthcare.co.uk/pages/home/st-clements-nursing-home"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.32017,52.65657],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sprowston Methodist Church, Cozens-Hardy Road, Norwich, England, NR7 8AD","title":"Renew Wellbeing Sprowston"},"type":"Feature"}
 	]
 }
