@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.07047,56.62265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"An Tobar Arts Centre, Argyll Terrace, Tobermory, Isle of Mull PA75 6PB","description":"","hours":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00; Sa 10:00-16:00; Su 10:00-16:00","title":"An Tobar and Mull Theatre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.07047,56.62265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"An Tobar Arts Centre, Argyll Terrace, Tobermory, Isle of Mull PA75 6PB","description":"","hours":{"_text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00, Saturday: 10:00 - 16:00, Sunday: 10:00 - 16:00","opening":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00; Sa 10:00-16:00; Su 10:00-16:00"},"title":"An Tobar and Mull Theatre"},"type":"Feature"}
 	]
 }

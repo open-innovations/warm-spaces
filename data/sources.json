@@ -85,7 +85,7 @@
 		"url": "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"cambridge_council": {
-		"count": 19,
+		"count": 18,
 		"data": { "type": "html", "url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces" },
 		"geocount": 11,
 		"id": "cambridge_council",
@@ -93,9 +93,9 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"camden_council": {
-		"count": 16,
+		"count": 15,
 		"data": { "type": "html", "url": "https://www.camden.gov.uk/warm-spaces-in-camden" },
-		"geocount": 15,
+		"geocount": 14,
 		"id": "camden_council",
 		"map": { "type": "arcgis", "url": "https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -331,9 +331,9 @@
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
 	"stockport_council": {
-		"count": 89,
+		"count": 67,
 		"data": { "keys": { "contact": "phone_number", "description": "facilities", "hours": "times", "title": "name", "url": "website" }, "type": "geojson", "url": "https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=neighbourhoods:warm_spaces2&outputFormat=application/json&bbox=-2.2731399536132817,53.320415173590504,-2.003288269042969,53.463729990468764,EPSG:4326&srsName=EPSG:4326" },
-		"geocount": 89,
+		"geocount": 67,
 		"id": "stockport_council",
 		"map": { "type": "leaflet", "url": "https://www.stockport.gov.uk/warm-spaces" },
 		"title": "Stockport Council",
@@ -416,9 +416,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2631,
+		"count": 2593,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 2631,
+		"geocount": 2593,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -426,9 +426,9 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"west_northamptonshire": {
-		"count": 64,
+		"count": 57,
 		"data": { "type": "html", "url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces" },
-		"geocount": 62,
+		"geocount": 57,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },

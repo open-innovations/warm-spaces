@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.17740,53.39248],"type":"Point"},"properties":{"_source":"warm_welcome","address":"19 Market Street, Hoylake, Wirral CH47 2BF","description":" Open from 17-10-2022","hours":"Mo 09:00-12:00; Tu 09:00-12:00; We 09:00-12:00; Th 09:00-12:00; Fr 09:00-14:00; Sa 09:00-12:00; Su 09:00-12:00","title":"St. Luke's Methodist Church, Hoylake"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.17740,53.39248],"type":"Point"},"properties":{"_source":"warm_welcome","address":"19 Market Street, Hoylake, Wirral CH47 2BF","description":" Open from 17-10-2022","hours":{"_text":"Monday: 09:00 - 12:00 / -, Tuesday: 09:00 - 12:00 / -, Wednesday: 09:00 - 12:00 / -, Thursday: 09:00 - 12:00 / -, Friday: 09:00 - 14:00 / -, Saturday: 09:00 - 12:00 / -, Sunday: 09:00 - 12:00 / -","opening":"Mo 09:00-12:00; Tu 09:00-12:00; We 09:00-12:00; Th 09:00-12:00; Fr 09:00-14:00; Sa 09:00-12:00; Su 09:00-12:00"},"title":"St. Luke's Methodist Church, Hoylake"},"type":"Feature"}
 	]
 }

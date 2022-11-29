@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.51555,50.46306],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Babbacombe Road, Torquay, Devon TQ1 1HW","description":"Open from Wednesday, 16 November 2022.","hours":"We 12:00-17:00","title":"St. Matthias Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.51555,50.46306],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Babbacombe Road, Torquay, Devon TQ1 1HW","description":"Open from Wednesday, 16 November 2022.","hours":{"_text":"Wednesday: 12:00 - 17:00","opening":"We 12:00-17:00"},"title":"St. Matthias Church"},"type":"Feature"}
 	]
 }

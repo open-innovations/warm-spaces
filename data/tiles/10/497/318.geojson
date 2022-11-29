@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.18430,56.15247],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Furnace Village Hall, Inveraray, Scotland, PA32 8XN","title":"Furnace Heat and Greet","url":"https://www.furnace-argyll.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.18430,56.15247],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Furnace Village Hall, Inveraray, Scotland, PA32 8XN","hours":{"_text":""},"title":"Furnace Heat and Greet","url":"https://www.furnace-argyll.org"},"type":"Feature"}
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-0.88157,52.76465],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sage Cross Methodist Church, Chapel Street, Melton Mowbray, Leicestershire LE13 1RB","description":"","hours":"Tu 10:00-13:00; Th 11:00-13:00; Su 10:00-12:00","title":"Lunch is on us at Sage Cross"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.88157,52.76465],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sage Cross Methodist Church, Chapel Street, Melton Mowbray, Leicestershire LE13 1RB","description":"","hours":{"_text":"Tuesday: 10:00 - 13:00, Thursday: 11:00 - 13:00, Sunday: 10:00 - 12:00 / - Fortnightly","opening":"Tu 10:00-13:00; Th 11:00-13:00; Su 10:00-12:00"},"title":"Lunch is on us at Sage Cross"},"type":"Feature"}
 	]
 }

@@ -149,6 +149,7 @@ ul.grid > li > * > * > * { margin-top: 1em; margin-bottom:0px; }
 p.address { font-style: italic; margin-top: 0.25em!important; }
 a,a:visited { color: inherit; }
 sup { font-size:0.7em; vertical-align: baseline; position: relative; top: -0.4em; }
+p.times { margin-top: 1em; }
 ul.times { margin-top: 0!important; }
 ul.times > li { margin-top: 0; line-height: 1.5em; }
 ul.list, .loader svg { margin-top:1em; }

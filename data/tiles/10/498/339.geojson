@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.72213,51.73148],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Mary’s Church, Begelly, Pembrokeshire SA68","description":"","hours":"Mo 13:00-15:00","title":"Anglican churches of Saundersfoot, Begelly, Amroth, and Ludchurch"},"type":"Feature"},
-		{"geometry":{"coordinates":[-4.74220,51.80808],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Unit 1 B, Redstone Road, Narberth, Wales, SA67 7ES","title":"Quayside Care","url":"https://www.quaysidecareltd.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.72213,51.73148],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Mary’s Church, Begelly, Pembrokeshire SA68","description":"","hours":{"_text":"Monday: 13:00 - 15:00","opening":"Mo 13:00-15:00"},"title":"Anglican churches of Saundersfoot, Begelly, Amroth, and Ludchurch"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.74220,51.80808],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Unit 1 B, Redstone Road, Narberth, Wales, SA67 7ES","hours":{"_text":""},"title":"Quayside Care","url":"https://www.quaysidecareltd.co.uk"},"type":"Feature"}
 	]
 }

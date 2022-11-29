@@ -62,8 +62,8 @@ sub makeTiles {
 			$jsonbit = {'type'=>'Feature'};
 			$jsonbit->{'geometry'} = {'type'=>'Point','coordinates'=>[sprintf("%0.5f",$features[$f]->{'lon'}),sprintf("%0.5f",$features[$f]->{'lat'})]};
 			$jsonbit->{'properties'} = $features[$f];
-			$jsonbit->{'properties'}{'hours'} = $features[$f]->{'hours'}{'opening'};
-			if(!$jsonbit->{'properties'}{'hours'}){ delete $jsonbit->{'properties'}{'hours'}; }
+			#$jsonbit->{'properties'}{'hours'} = $features[$f]->{'hours'}{'opening'};
+			if(!$jsonbit->{'properties'}{'hours'}{'opening'}){ delete $jsonbit->{'properties'}{'hours'}{'opening'}; }
 			delete $jsonbit->{'properties'}{'lat'};
 			delete $jsonbit->{'properties'}{'lon'};
 

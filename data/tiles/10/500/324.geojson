@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.18893,54.88157],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dromore Road, Gatehouse of Fleet, Castle Douglas DG7 2JX","description":"Open from 01/11/2022. Sessions are three hours Tuesday mornings and Thursday afternoons","hours":"Tu 13:00-16:00; Th 09:30-12:30","title":"Gatehouse of Fleet Community Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.18893,54.88157],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dromore Road, Gatehouse of Fleet, Castle Douglas DG7 2JX","description":"Open from 01/11/2022. Sessions are three hours Tuesday mornings and Thursday afternoons","hours":{"_text":"Tuesday: 13:00 - 16:00, Thursday: 09:30 - 12:30","opening":"Tu 13:00-16:00; Th 09:30-12:30"},"title":"Gatehouse of Fleet Community Centre"},"type":"Feature"}
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.08324,52.41723],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Queen's Rd, Aberystwyth, Ceredigion sy23 2nn","description":"","hours":"Tu 11:00-14:00; Th 11:00-14:00; Fr 19:00-21:00","title":"St Paul's Methodist Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.08324,52.41723],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Queen's Rd, Aberystwyth, Ceredigion sy23 2nn","description":"","hours":{"_text":"Tuesday: 11:00 - 14:00, Thursday: 11:00 - 14:00, Friday: 19:00 - 21:00","opening":"Tu 11:00-14:00; Th 11:00-14:00; Fr 19:00-21:00"},"title":"St Paul's Methodist Centre"},"type":"Feature"}
 	]
 }

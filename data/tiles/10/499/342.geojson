@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.23611,51.04019],"type":"Point"},"properties":{"_source":"warm_welcome","address":"42 Nelson Drive, Westward Ho!, Bideford, North Devon EX39 1LQ","description":"Our Saturday session is for all ages and takes the form of a wellbeing cafe with opportunities for prayer. Our Wednesday session is aimed more at families - a space to do homework, watch TV.","hours":"We 15:00-18:00; Sa 10:30-01:30","title":"Westward Ho! Baptist Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.23611,51.04019],"type":"Point"},"properties":{"_source":"warm_welcome","address":"42 Nelson Drive, Westward Ho!, Bideford, North Devon EX39 1LQ","description":"Our Saturday session is for all ages and takes the form of a wellbeing cafe with opportunities for prayer. Our Wednesday session is aimed more at families - a space to do homework, watch TV.","hours":{"_text":"Wednesday: 15:00 - 18:00, Saturday: 10:30 - 1:30","opening":"We 15:00-18:00; Sa 10:30-01:30"},"title":"Westward Ho! Baptist Church"},"type":"Feature"}
 	]
 }

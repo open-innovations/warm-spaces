@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.16960,50.86111],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Blandford Leisure Centre, Milldown Road, Blandford Forum, England, DT11 7DB","title":"Everyone Active","url":"https://www.everyoneactive.com"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.16960,50.86111],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Blandford Leisure Centre, Milldown Road, Blandford Forum, England, DT11 7DB","hours":{"_text":""},"title":"Everyone Active","url":"https://www.everyoneactive.com"},"type":"Feature"}
 	]
 }

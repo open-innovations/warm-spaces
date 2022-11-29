@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.41486,54.73483],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The New Town Hall, 53 Saint John Street, Newton Stewart, Scotland, DG8 8PD","title":"New Town Hall Whithorn"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.41486,54.73483],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The New Town Hall, 53 Saint John Street, Newton Stewart, Scotland, DG8 8PD","hours":{"_text":""},"title":"New Town Hall Whithorn"},"type":"Feature"}
 	]
 }

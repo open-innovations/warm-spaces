@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-8.73934,52.73003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hayling Island Library, Elm Grove, Hayling Island P011 9EE","description":"","hours":"Mo 09:30-17:00; We 09:30-17:00; Fr 09:30-17:00; Sa 09:30-13:30","title":"Hayling Island Library- Hampshire Libraries"},"type":"Feature"}
+		{"geometry":{"coordinates":[-8.73934,52.73003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hayling Island Library, Elm Grove, Hayling Island P011 9EE","description":"","hours":{"_text":"Monday: 09:30 - 17:00, Wednesday: 09:30 - 17:00, Friday: 09:30 - 17:00, Saturday: 09:30 - 13:30","opening":"Mo 09:30-17:00; We 09:30-17:00; Fr 09:30-17:00; Sa 09:30-13:30"},"title":"Hayling Island Library- Hampshire Libraries"},"type":"Feature"}
 	]
 }

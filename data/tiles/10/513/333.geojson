@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.49242,52.93909],"type":"Point"},"properties":{"_source":"warm_welcome","address":"12 - 14 Valentine Road, Hunstanton, Norfolk PE36 5EF","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Tu 09:00-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 09:00-16:00","title":"Hunstanton Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.49294,52.93934],"type":"Point"},"properties":{"_source":"warm_spaces","address":"14 Valentine Road, Hunstanton, England, PE36 5EF","title":"Hunstanton Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.48818,52.93975],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Helping Hands Hub, Town Hall, The Green, Hunstanton, England, PE36 6BQ","title":"Hunstanton Town Council","url":"https://www.hunstantontowncouncil.gov.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.49242,52.93909],"type":"Point"},"properties":{"_source":"warm_welcome","address":"12 - 14 Valentine Road, Hunstanton, Norfolk PE36 5EF","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":{"_text":"Tuesday: 9:00 - 19:00, Wednesday: 9:00 - 19:00, Friday: 9:00 - 19:00, Saturday: 9:00 - 16:00","opening":"Tu 09:00-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 09:00-16:00"},"title":"Hunstanton Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.49294,52.93934],"type":"Point"},"properties":{"_source":"warm_spaces","address":"14 Valentine Road, Hunstanton, England, PE36 5EF","hours":{"_text":""},"title":"Hunstanton Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.48818,52.93975],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Helping Hands Hub, Town Hall, The Green, Hunstanton, England, PE36 6BQ","hours":{"_text":""},"title":"Hunstanton Town Council","url":"https://www.hunstantontowncouncil.gov.uk"},"type":"Feature"}
 	]
 }

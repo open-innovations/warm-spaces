@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.02696,57.87871],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Dornoch, Scotland, IV25","title":"The Living Room - Dornoch Free Church","url":"https://www.dornochfreechurch.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.02696,57.87871],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Dornoch, Scotland, IV25","hours":{"_text":""},"title":"The Living Room - Dornoch Free Church","url":"https://www.dornochfreechurch.co.uk"},"type":"Feature"}
 	]
 }

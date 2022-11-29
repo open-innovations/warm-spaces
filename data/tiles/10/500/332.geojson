@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.92782,53.26773],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bangor Road, Penmaenmawr, Wales, LL34 6LE","title":"St Paul's Church Penmaenmawr"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.92782,53.26773],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bangor Road, Penmaenmawr, Wales, LL34 6LE","hours":{"_text":""},"title":"St Paul's Church Penmaenmawr"},"type":"Feature"}
 	]
 }

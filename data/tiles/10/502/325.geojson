@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.33421,54.76376],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Youth Club, Aspatria, Cumbria CA7 3EZ","description":"Open from 7/11/2022. We will be meeting in the Community Center (opposite St Kentigern's Church on Queen Street.","hours":"Tu 11:00-13:00; We 11:00-13:00; Th 11:00-13:00; Fr 11:00-13:00","title":"Aspatria Dreamscheme"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.36115,54.66413],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Market Street, Cockermouth, Cumbria CA13 9NJ","description":"","hours":"Tu 10:00-13:30; We 11:30-13:30; Fr 10:00-13:30; Su 12:30-15:00","title":"Kings Church Cockermouth"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.33421,54.76376],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Youth Club, Aspatria, Cumbria CA7 3EZ","description":"Open from 7/11/2022. We will be meeting in the Community Center (opposite St Kentigern's Church on Queen Street.","hours":{"_text":"Tuesday: 11:00 - 13:00, Wednesday: 11:00 - 13:00, Thursday: 11:00 - 13:00, Friday: 11:00 - 13:00","opening":"Tu 11:00-13:00; We 11:00-13:00; Th 11:00-13:00; Fr 11:00-13:00"},"title":"Aspatria Dreamscheme"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.36115,54.66413],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Market Street, Cockermouth, Cumbria CA13 9NJ","description":"","hours":{"_text":"Tuesday: 10:00 - 13:30, Wednesday: 11:30 - 13:30, Friday: 10:00 - 13:30, Sunday: 12:30 - 15:00 / - Monthly","opening":"Tu 10:00-13:30; We 11:30-13:30; Fr 10:00-13:30; Su 12:30-15:00"},"title":"Kings Church Cockermouth"},"type":"Feature"}
 	]
 }

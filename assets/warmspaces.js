@@ -164,7 +164,8 @@
 			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
 				p = this.sorted[i].properties;
 				d = (this.sorted[i].distance) ? Math.ceil(this.sorted[i].distance/accuracy)*accuracy : -1;
-				var hours = processHours(p.hours);
+				var hours = {};
+				if(p.hours && p.hours.opening) hours = processHours(p.hours.opening);
 				var typ = hours.type;
 				if(this.toggles[typ]){
 					var cls = this.toggles[typ].class;
@@ -178,7 +179,7 @@
 						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours){
-							html += '<p class="times"><strong>Opening hours:</strong></p>'+hours.times;
+							html += '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
 						html += '</div>';
 						html += (p.url ? '</a>':'</div>');

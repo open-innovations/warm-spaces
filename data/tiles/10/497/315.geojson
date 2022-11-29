@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.10105,56.68263],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Marys Episcopal Church, Glencoe, Argyll PH49 4HS","description":"","hours":"Th 11:00-14:00","title":"West Highland Region Scottish Episcopal Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.10105,56.68263],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Marys Episcopal Church, Glencoe, Argyll PH49 4HS","description":"","hours":{"_text":"Thursday: 11:00 - 14:00","opening":"Th 11:00-14:00"},"title":"West Highland Region Scottish Episcopal Church"},"type":"Feature"}
 	]
 }

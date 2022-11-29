@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.71650,54.80878],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Wood Road , Tobermore , Tobermore BT45 5QP","description":"","hours":"Tu 19:45-21:00; We 19:30-21:00; Th 10:30-13:00; Su 12:00-13:30","title":"Kilcronaghan Parish Church "},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.71650,54.80878],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Wood Road , Tobermore , Tobermore BT45 5QP","description":"","hours":{"_text":"Tuesday: 19:45 - 21:00, Wednesday: 19:30 - 21:00, Thursday: 10:30 - 13:00 / 20:00 - 21:30, Sunday: 12:00 - 13:30","opening":"Tu 19:45-21:00; We 19:30-21:00; Th 10:30-13:00,20:00-21:30; Su 12:00-13:30"},"title":"Kilcronaghan Parish Church "},"type":"Feature"}
 	]
 }

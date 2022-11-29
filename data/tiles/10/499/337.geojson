@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.54197,52.13314],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canolfan Dyffryn Aberporth , Cardigan , Ceredigion Sa432eu","description":" We offer free weekly coffee mornings & afternoon craf clubs. Weekly lunch club. Free wifi. Community fridge - clothing rail - free book/dvd exchange - knitting club. ","hours":"Mo 10:00-12:00; Tu 10:00-16:00; We 10:00-14:30; Fr 10:00-12:00; Sa 10:00-12:00","title":"Aberporth Village Hall "},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.54197,52.13314],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Canolfan Dyffryn Aberporth , Cardigan , Ceredigion Sa432eu","description":" We offer free weekly coffee mornings & afternoon craf clubs. Weekly lunch club. Free wifi. Community fridge - clothing rail - free book/dvd exchange - knitting club. ","hours":{"_text":"Monday: 10:00 - 12:00, Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 14:30, Friday: 10:00 - 12:00, Saturday: 10:00 - 12:00","opening":"Mo 10:00-12:00; Tu 10:00-16:00; We 10:00-14:30; Fr 10:00-12:00; Sa 10:00-12:00"},"title":"Aberporth Village Hall "},"type":"Feature"}
 	]
 }
