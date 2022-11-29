@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.26178,51.12815],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Tunbridge Wells, Kent TN1 1UT","description":" Thrive community cafe provides a warm welcome, free hot drinks and delicious cake. We look forward to seeing you.","hours":"Tu 14:00-15:30; Th 10:00-12:00","title":"Christ Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.26178,51.12815],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Tunbridge Wells, Kent TN1 1UT","description":" Thrive Community Cafe provides a warm welcome, free hot drinks and delicious cake. We look forward to seeing you.","hours":"Tu 14:00-16:00; Th 10:00-12:00","title":"Christ Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.25728,50.96651],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Richard's Church HALL, Upper Station Road, Heathfield, East Sussex TN21 8DS","description":"","hours":"Fr 10:00-16:00","title":"Heathfield Benefice"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.25952,51.12635],"type":"Point"},"properties":{"_source":"warm_welcome","address":"3 Warwick Park, Tunbridge Wells, Kent TN2 5TA","description":"Open from 04/11/2022. We aim to cater for all","hours":"Fr 13:30-17:00","title":"King Charles the Martyr Church Hall Tunbridge Wells"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.26002,51.15617],"type":"Point"},"properties":{"_source":"warm_welcome","address":"137 London Road, Tunbridge Wells, Kent TN4 0NA","description":" board games, kids games","hours":"Mo 09:00-18:00","title":"Southborough Town Council"},"type":"Feature"},
