@@ -8,7 +8,6 @@
 		{"geometry":{"coordinates":[0.98110,52.58037],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Fairland, Norwich, England, NR9 4HW","title":"Hingham Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.94120,52.67895],"type":"Point"},"properties":{"_source":"warm_spaces","address":"59 High Street, Dereham, England, NR19 1DZ","title":"Dereham Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.01917,52.51853],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Attleborough, England, NR17 2AH","title":"Attleborough Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.86349,52.55566],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Thetford, England, IP25 6QA","title":"Thorp House Nursing Home","url":"https://kingsleyhealthcare.co.uk/pages/home/thorp-house-nursing-home"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.85880,52.56999],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Buckingham Close, Norwich Road, Thetford, England, IP25 6WL","title":"Buckingham Lodge","url":"https://www.facebook.com/buckinghamlodgecarehome/"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.86349,52.55566],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Road, Thetford, England, IP25 6QA","title":"Thorp House Nursing Home","url":"https://kingsleyhealthcare.co.uk/pages/home/thorp-house-nursing-home"},"type":"Feature"}
 	]
 }
