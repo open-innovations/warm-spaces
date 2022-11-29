@@ -68,18 +68,23 @@ sub getURLToFile {
 	}
 
 	if($age >= 86400 || -s $file == 0){
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		`wget -q  --no-check-certificate -O $file "$url"`;
 		msg("\tDownloaded\n");
 	}
 	
 	if(-s $file == 0){
-		sleep 1;
+		sleep 5;
 		msg("\tDownload 2nd attempt\n");
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		`wget -q --no-check-certificate -O $file "$url"`;
 	}
 	if(-s $file == 0){
-		sleep 1;
-		msg("\tDownload 3nd attempt\n");
+		sleep 10;
+		msg("\tDownload 3rd attempt\n");
+		`wget -q  --no-check-certificate -O $file "$url"`;
+	}
+	if(-s $file == 0){
+		sleep 30;
+		msg("\tDownload 4th attempt\n");
 		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 	}
 	return $file;
