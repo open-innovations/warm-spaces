@@ -30,7 +30,6 @@
 		{"geometry":{"coordinates":[-0.95323,52.42732],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"High Street, Clipston, LE16 9RU","contact":"Phone: 01858 525275","title":"Clipston Village Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.90880,52.32778],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Spratton Road, Brixworth NN6 9DS","contact":"Phone: 0300 126 7000","title":"Brixworth Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.84134,52.29050],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Moulton Community Centre, Reedings, Northampton NN3 7AX","contact":"Phone: 01604 642202","title":"Moulton Library and Wellbeing Hub"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.80873,52.26876],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Olden Road, Northampton NN3 5DD","contact":"Phone: 07763 361588","title":"Rectory Farm Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.97474,52.28405],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Furnace Lane, Nether Heyford, NN7 4JS","contact":"Phone: 07935 931787","title":"Nether Heyford Parish Council"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.73314,52.30157],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Regent Park, 37 Booth Drive, Wellingborough NN8 6GR","contact":"Phone: 07888 011891","title":"CommMiniBus"},"type":"Feature"}
 	]
