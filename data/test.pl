@@ -41,8 +41,10 @@ binmode STDOUT, 'utf8';
 	{'text'=>'Opening times:  1st Saturday of the month 9.30am-12.30pm','good'=>'Sa[1] 09:30-12:30'},
 	{'text'=>'Thursday 10:00-1300','good'=>'Th 10:00-13:00'},
 	{'text'=>'monday: Closed; tuesday: Closed; wednesday: 10am to 5pm; thursday: Closed; friday: Closed; saturday: Closed; sunday: Closed','good'=>'We 10:00-17:00'},
-	{'text'=>'wednesday: 10:00 - 13:00 & 14:00 - 17:00','good'=>'We 10:00-13:00,14:00-17:00'},
-	{'text'=>'We 10:00-13:00,14:00-17:00','good'=>'We 10:00-13:00,14:00-17:00'}
+	{'text'=>'Monday: 10:00 - 13:00 & 14:00 - 17:00, Wednesday: 10:00 - 13:00 & 14:00 - 17:00, Friday: 10:00 - 13:00, Saturday: 10:00 - 13:00','good'=>'Mo 10:00-13:00,14:00-17:00; We 10:00-13:00,14:00-17:00; Fr 10:00-13:00; Sa 10:00-13:00'},
+	{'text'=>'We 10:00-13:00,14:00-17:00','good'=>'We 10:00-13:00,14:00-17:00'},
+	{'text'=>'Thursday: 11:30am : 2:30pm, Saturday: 1pm : 3pm','good'=>'Th 11:30-14:30; Sa 13:00-15:00'},
+	{'text'=>'Sunday: 1-4pm','good'=>'Su 13:00-16:00'}
 );
 
 for($i = 0; $i < @tests; $i++){
