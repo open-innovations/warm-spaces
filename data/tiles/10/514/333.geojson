@@ -1,6 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.85303,52.95436],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Wells-next-the-Sea, Norfolk NR23 1EA","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 11:30-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 10:00-16:00","title":"Wells Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.85303,52.95436],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Wells-next-the-Sea, Norfolk NR23 1EA","description":" You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library here www.norfolk.gov.uk/openlibrary ","hours":"Mo 11:30-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 10:00-16:00","title":"Wells Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[1.04709,52.94601],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Newgate Green, Holt, England, NR25 7TT","title":"The Three Swallows","url":"https://www.thethreeswallows.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.85023,52.95614],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Theatre Road, Wells-next-the-Sea, England, NR23 1DS","title":"Wells War Memorial Institute Club","url":"https://www.facebook.com/wellswarmemorial"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.83710,52.95459],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Wells Community Hospital, Mill Road, Wells-next-the-Sea, England, NR23 1RF","title":"Coastal Health and Wellbeing at the Old Cottage Hospital","url":"https://www.wellshospital.org.uk"},"type":"Feature"}
 	]
 }

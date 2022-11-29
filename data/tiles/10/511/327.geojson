@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-0.29117,54.21089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road, Filey , North Yorkshire YO14 9AE","description":"","hours":"Mo 10:00-19:00; We 10:00-17:00; Th 13:00-17:00; Fr 10:00-17:00; Sa 10:00-13:00","title":"Filey Library "},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.28946,54.21201],"type":"Point"},"properties":{"_source":"warm_welcome","address":"15 Church Street, Filey, North Yorkshire YO14 9ED","description":"","hours":"Mo 12:00-20:00; Tu 12:00-20:00; We 12:00-20:00; Th 12:00-20:00; Fr 12:00-20:00; Sa 12:00-20:00; Su 12:00-20:00","title":"The Station Hotel"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.28946,54.21201],"type":"Point"},"properties":{"_source":"warm_welcome","address":"15 Church Street, Filey, North Yorkshire YO14 9ED","description":"","hours":"Mo 12:00-20:00; Tu 12:00-20:00; We 12:00-20:00; Th 12:00-20:00; Fr 12:00-20:00; Sa 12:00-20:00; Su 12:00-20:00","title":"The Station Hotel"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.28785,54.20699],"type":"Point"},"properties":{"_source":"warm_spaces","address":"St Mary&#39;s Church Hall, 23 Brooklands, Filey, England, YO14 9BA","title":"St Mary's RC Church Hall"},"type":"Feature"}
 	]
 }

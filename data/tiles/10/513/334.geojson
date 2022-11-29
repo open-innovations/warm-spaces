@@ -7,6 +7,8 @@
 		{"geometry":{"coordinates":[0.40182,52.75475],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wellesley Street,, Kings Lynn, Norfolk PE30 1QD","description":"Open from 29-11-2022.","hours":"Tu 12:30-14:30","title":"Kings Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.40042,52.75047],"type":"Point"},"properties":{"_source":"warm_spaces","address":"London Road, King&#39;s Lynn, England, PE30 5EZ","title":"King's Lynn Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.42039,52.75882],"type":"Point"},"properties":{"_source":"warm_spaces","address":"River Lane, King&#39;s Lynn, England, PE30 4HD","title":"Gaywood Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.50527,52.84787],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Chapel Road, King&#39;s Lynn, England, PE31 6PN","title":"Dersingham Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.50527,52.84787],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Chapel Road, King&#39;s Lynn, England, PE31 6PN","title":"Dersingham Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.41699,52.76942],"type":"Point"},"properties":{"_source":"warm_spaces","address":"27 Bryggen Road, King&#39;s Lynn, England, PE30 2HZ","title":"The Kings Glory Church","url":"https://www.thekingsglory.org.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.39830,52.75291],"type":"Point"},"properties":{"_source":"warm_spaces","address":"52a South Clough Lane, King&#39;s Lynn, England, PE30","hours":"Mo-Fr 10:00-16:00; Mo-Fr 00:00-00:00; Sa 10:00-14:00","title":"Bridge for Heroes","url":"https://www.thebridgeforheroes.org"},"type":"Feature"}
 	]
 }

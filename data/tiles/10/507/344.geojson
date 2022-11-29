@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.52070,50.68267],"type":"Point"},"properties":{"_source":"warm_spaces","address":"School Green Road, Freshwater, England, PO40","title":"Freshwater Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"}
+	]
+}
