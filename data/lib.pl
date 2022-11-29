@@ -205,25 +205,22 @@ sub parseOpeningHours {
 	$parsed = "";
 	for($i = 0; $i < @days; $i++){
 		if($hours->{$days[$i]->{'key'}}){
-			if($hours->{$days[$i]->{'key'}} =~ /[0-9]/){
-				$parsed .= ($parsed ? ", ":"").$days[$i]->{'short'}." ".getHourRange($hours->{$days[$i]->{'key'}});
-			}
 			$hours->{$days[$i]->{'key'}} =~ s/^[\s\t]+\-[\s\t]+\/[\s\t]+\-[\s\t]+$//g;
 			$hours->{$days[$i]->{'key'}} =~ s/[\s\t]+\/[\s\t]+\-[\s\t]+$//g;
 			$hours->{$days[$i]->{'key'}} =~ s/^[\s\t]+\-[\s\t]+\/[\s\t]+//g;
-			if($hours->{$days[$i]->{'key'}} eq ""){ delete $hours->{$days[$i]->{'key'}}; }
-
+			if($hours->{$days[$i]->{'key'}} =~ /[0-9]/){
+				$parsed .= ($parsed ? ", ":"").ucfirst($days[$i]->{'key'}).": ".$hours->{$days[$i]->{'key'}};
+			}
+			delete $hours->{$days[$i]->{'key'}};
 		}
 	}
-	if($parsed){
-		$hours->{'_parsed'} = $parsed;
+	if($parsed && !$hours->{'_text'}){
+		$hours->{'_text'} = $parsed;
 	}
 
-	$str = "".$hours->{'_text'};
-	
+	$str = "".($hours->{'_text'}||"");
 	
 	if($str && !$hours->{'_parsed'}){
-
 
 		$str =~ s/ at [^0-9]+ from /: /g;
 		$str =~ s/ (to|until) / - /g;

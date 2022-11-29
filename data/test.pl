@@ -39,7 +39,8 @@ binmode STDOUT, 'utf8';
 	{'text'=>'7 days a week, 24 hours','good'=>'Mo-Su 00:00-24:00'},
 	{'text'=>'Friday - 10am until 2pm','good'=>'Fr 10:00-14:00'},
 	{'text'=>'Opening times:  1st Saturday of the month 9.30am-12.30pm','good'=>'Sa[1] 09:30-12:30'},
-	{'text'=>'Thursday 10:00-1300','good'=>'Th 10:00-13:00'}
+	{'text'=>'Thursday 10:00-1300','good'=>'Th 10:00-13:00'},
+	{'text'=>'monday: Closed; tuesday: Closed; wednesday: 10am to 5pm; thursday: Closed; friday: Closed; saturday: Closed; sunday: Closed','good'=>'We 10:00-17:00'}
 );
 
 for($i = 0; $i < @tests; $i++){
