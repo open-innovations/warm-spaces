@@ -168,6 +168,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 	$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "")."</td>";
 	$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
 	$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
+	$table .= "<td>".($d->{'notes'} ? $d->{'notes'}:"")."</td>";
 	$table .= "</tr>\n";
 
 	$sources->{$d->{'id'}} = $d;
@@ -188,7 +189,7 @@ close($fh);
 
 open($fh,">:utf8",$dir."summary.html");
 print $fh "<table>\n";
-print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th></thead></tr>\n";
+print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th><th>Notes</th></thead></tr>\n";
 print $fh "<tbody>\n";
 print $fh $table;
 print $fh "</tbody>\n";
