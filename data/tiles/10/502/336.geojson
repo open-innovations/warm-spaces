@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.51358,52.29949],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old Drill Hall, Bridge Street, Rhayader, Powys LD6 5AG","description":"Everyone is welcome, including dogs. Our café is open during the listed opening hours but there is no obligation for those needing a warm space to purchase anything. We have books to borrow, board games, jigsaws, art on exhibition, a kids corner and a piano.","hours":"Mo 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00; Sa 09:00-16:00; Su 09:00-12:30","title":"The Lost ARC"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.51132,52.30007],"type":"Point"},"properties":{"_source":"warm_spaces","address":"West Street, Rhayader, Wales, LD6 5AB","title":"The Arches Community Hub","url":"https://www.thearchesrhayader.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.51358,52.29949],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Old Drill Hall, Bridge Street, Rhayader, Powys LD6 5AG","description":"Everyone is welcome, including dogs. Our café is open during the listed opening hours but there is no obligation for those needing a warm space to purchase anything. We have books to borrow, board games, jigsaws, art on exhibition, a kids corner and a piano.","hours":"Mo 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00; Sa 09:00-16:00; Su 09:00-12:30","title":"The Lost ARC"},"type":"Feature"}
 	]
 }

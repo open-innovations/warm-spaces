@@ -2,7 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-1.13954,52.03162],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Peter's Church, Church Street, BRACKLEY NN13 7BB","description":"Open from 21-11-2022.","hours":"Mo 14:00-16:00","title":"St Peter's Church, Brackley"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.13946,52.03814],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Wellington Road, Brackley, England, NN13 6QZ","title":"Brackley Care Home","url":"https://kingsleyhealthcare.co.uk/pages/home/brackley-luxury-care-home"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.15149,52.02799],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Manor Road, Brackley, NN13 6AJ","contact":"Phone: 0300 126 7000","title":"Brackley Library"},"type":"Feature"}
 	]
 }

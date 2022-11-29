@@ -14,8 +14,6 @@
 		{"geometry":{"coordinates":[1.09169,52.90621],"type":"Point"},"properties":{"_source":"warm_spaces","address":"9 Church Street, Holt, England, NR25 6BB","title":"Holt Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.25090,52.79467],"type":"Point"},"properties":{"_source":"warm_spaces","address":"7 Hungate Street, Norwich, England, NR11 6AA","title":"Aylsham Library","url":"https://www.norfolk.gov.uk/libraries"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.11041,52.76456],"type":"Point"},"properties":{"_source":"warm_spaces","address":"29 Station Road, Norwich, England, NR10 4LF","title":"Reepham Methodist Chapel"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.25373,52.78902],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Norwich Road, Norwich, England, NR11 6JG","title":"Community Hot-Spot at Jubilee Family Centre","url":"https://aylshamcommunitychurch.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.38999,52.82179],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hall Lane, North Walsham, England, NR28 9DT","title":"The Salvation Army, North Walsham","url":"https://www.salvationarmy.org.uk/north-walsham"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.25919,52.87265],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hanworth Memorial Hall, The Common, Norwich, England, NR11 7HP","title":"Hanworth Memorial Hall Warm Hub","url":"https://en-gb.facebook.com/HanworthMemorialHall/"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.25373,52.78902],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Norwich Road, Norwich, England, NR11 6JG","title":"Community Hot-Spot at Jubilee Family Centre","url":"https://aylshamcommunitychurch.org"},"type":"Feature"}
 	]
 }

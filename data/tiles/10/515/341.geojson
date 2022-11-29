@@ -28,7 +28,6 @@
 		{"geometry":{"coordinates":[1.39117,51.22504],"type":"Point"},"properties":{"_source":"warm_spaces","address":"64 Southwall Road, Deal, England, CT14 9QA","title":"Leaps &amp; Bounds","url":"https://www.deal.gov.uk/dww"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.40265,51.22543],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Street, Deal, England, CT14","title":"St George’s Church","url":"https://www.deal.gov.uk/dww"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.40083,51.22639],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Union Road, Deal, England, CT14 6EA","title":"Trinity Church, Deal","url":"https://www.deal.gov.uk/dww"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.40032,51.22443],"type":"Point"},"properties":{"_source":"warm_spaces","address":"West Street, Deal, England, CT14 6AZ","title":"Deal Salvation Army","url":"https://www.deal.gov.uk/dww"},"type":"Feature"},
-		{"geometry":{"coordinates":[1.20236,51.22381],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1 Milner Crescent, Canterbury, England, CT3 3BH","title":"Roses Tearoom &amp; Thriftshop"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.40032,51.22443],"type":"Point"},"properties":{"_source":"warm_spaces","address":"West Street, Deal, England, CT14 6AZ","title":"Deal Salvation Army","url":"https://www.deal.gov.uk/dww"},"type":"Feature"}
 	]
 }

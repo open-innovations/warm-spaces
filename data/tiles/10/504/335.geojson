@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.75744,52.67576],"type":"Point"},"properties":{"_source":"warm_welcome","address":"We meet at Harlescott Grange Community Hub kynaston Road , Shrewsbury , Shropshire Sy3 0an","description":"Open from 13 October 2022. all ages The drop in is for all Thursdays @ the hub","hours":"Th 10:30-12:30; Su 10:30-12:30","title":"Grace Church / HarlescottGrange community hub "},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.46725,52.63801],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Park Lane, Telford, England, TF7 5QZ","title":"Park Lane Centre Warm Space"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.75744,52.67576],"type":"Point"},"properties":{"_source":"warm_welcome","address":"We meet at Harlescott Grange Community Hub kynaston Road , Shrewsbury , Shropshire Sy3 0an","description":"Open from 13 October 2022. all ages The drop in is for all Thursdays @ the hub","hours":"Th 10:30-12:30; Su 10:30-12:30","title":"Grace Church / HarlescottGrange community hub "},"type":"Feature"}
 	]
 }
