@@ -227,7 +227,7 @@ sub parseOpeningHours {
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/\&apos\;//g;
-		$str =~ s/ \&amp\; /, /g;
+		$str =~ s/([^0-9]) \&amp\; ([^0-9])/$1, $2/g;
 		$str =~ s/ ?\([^\)]+\)//g;
 		$str =~ s/\//, /g;
 		$str =~ s/24 hours/00:00-24:00/g;
@@ -290,7 +290,7 @@ sub parseOpeningHours {
 		}
 
 		# Match multiple days with time
-		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
+		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.\,amp\s\t\-]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,amp\s\t\-]+(am|pm)?)//){
 			$day1 = $1;
 			$t = getHourRange($4);
 			for($i = 0; $i < @days; $i++){
@@ -301,7 +301,7 @@ sub parseOpeningHours {
 		}
 
 		# Match single day + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]+\])?[\s\t]*[\;\:\,\-]?[\s\t]*([0-9\:\.\,amp\s\t\-]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
