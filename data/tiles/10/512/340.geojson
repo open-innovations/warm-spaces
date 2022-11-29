@@ -52,7 +52,6 @@
 		{"geometry":{"coordinates":[0.17089,51.40109],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Hilda May Avenue, Swanley, England, BR8 7BT","title":"Birchwood Heights Care Home","url":"https://oaklandcare.com "},"type":"Feature"},
 		{"geometry":{"coordinates":[0.21995,51.44628],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Home Gardens, Dartford, England, DA1 1DZ","title":"Community Warm Hubs Dartford","url":"https://Www.safercpmmunituesalliance.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.10439,51.40217],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Rushet Road, Orpington, England, BR5 2PU","title":"St Barnabas Church, Orpington","url":"https://en-gb.facebook.com/StBarnabasChurchStPaulsCray/"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.28059,51.44876],"type":"Point"},"properties":{"_source":"warm_spaces","address":"131 Mounts Road, Greenhithe, England, DA9 9ND","title":"St Mary Greenhithe Church Hall","url":"https://www.stmarygreenhithe.com"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.01853,51.40395],"type":"Point"},"properties":{"_source":"warm_spaces","address":"20A Widmore Road, Bromley, England, BR1 1RY","title":"Bromley Homeless Charity Day Room","url":"https://bromleyhomeless.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.28059,51.44876],"type":"Point"},"properties":{"_source":"warm_spaces","address":"131 Mounts Road, Greenhithe, England, DA9 9ND","title":"St Mary Greenhithe Church Hall","url":"https://www.stmarygreenhithe.com"},"type":"Feature"}
 	]
 }

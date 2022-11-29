@@ -21,7 +21,6 @@
 		{"geometry":{"coordinates":[0.58567,51.52959],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hilton Road, Canvey Island, Essex SS8 9QA","description":"Open from 7th November. closed on Bank Holidays","hours":"Mo 13:00-17:00","title":"Winter Gardens Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.46579,51.52671],"type":"Point"},"properties":{"_source":"warm_spaces","address":"45 Fobbing Road, Stanford-le-Hope, England, SS17","title":"Corringham Evangelical Church","url":"https://www.corringhamevangelical.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.37152,51.48804],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Community Church Chadwell, Defoe Parade, Grays, England, RM16 4QR","title":"Chadwell Warm Hub","url":"https://www.facebook.com/180Project/"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.51785,51.61243],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Downtowner Youth Centre, The Downtowner/Irvon Hill Rd, Wickford, England, SS12 0AQ","title":"Poppies Cafe","url":"https://castledon.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[0.37907,51.43527],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Old Gravesendians RFC, 8 Bronte View, Gravesend, England, DA12 1PX","title":"North Kent Caribbean Network","url":"https://www.blackhistorykent.com"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.51785,51.61243],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Downtowner Youth Centre, The Downtowner/Irvon Hill Rd, Wickford, England, SS12 0AQ","title":"Poppies Cafe","url":"https://castledon.org"},"type":"Feature"}
 	]
 }
