@@ -445,7 +445,7 @@ sub getGoogleMap {
 sub getSquareSpace {
 	my $d = shift;
 	my $keys = shift;
-	my ($url,$page,$p,@items,$purl,$i,$n,$json,$f,$cache,$delay);
+	my ($url,$page,$p,@items,$purl,$i,$n,$json,$f,$cache,$attempts);
 	my @fields = ("title","address","lat","lon","description","accessibility","type");
 
 	#e.g. https://warmspaces.org/locations?format=json&cache=2022-11-24T00-2
@@ -457,7 +457,7 @@ sub getSquareSpace {
 	$page = $rawdir.$d->{'id'}."-$p.json";
 	getURLToFile($url,$page);
 	$json = getJSON($page);
-	$delay = 1;
+	$attempts = 1;
 	
 	@items = @{$json->{'items'}};
 	
@@ -466,7 +466,7 @@ sub getSquareSpace {
 		$p++;
 		$page = $rawdir.$d->{'id'}."-$p.json";
 		# Get the file but pass in any delay value we already have
-		$delay = getURLToFile($purl,$page,$delay);
+		$attempts = getURLToFile($purl,$page,$attempts);
 		$json = getJSON($page);
 		@items = (@items,@{$json->{'items'}});
 		$n = @items;

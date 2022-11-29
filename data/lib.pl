@@ -58,8 +58,8 @@ sub getURL {
 sub getURLToFile {
 	my $url = $_[0];
 	my $file = $_[1];
-	my $delay = $_[2]||0;
-	my ($age,$now,$epoch_timestamp);
+	my $attempt = $_[2]||1;
+	my ($age,$now,$epoch_timestamp,$delay,$n);
 
 	$age = 100000;
 	if(-e $file){
@@ -67,32 +67,40 @@ sub getURLToFile {
 		$now = time;
 		$age = ($now-$epoch_timestamp);
 	}
+	# If the previous download involved more than one attempt we will add a delay here
+	if($attempt > 1){
+		msg("\tAdding a wait of 30 seconds\n");
+		sleep 30;
+	}
 
 	if($age >= 86400 || -s $file == 0){
-		if($delay){ sleep $delay; }
+		$n = 1;
 		msg("\tDownloading $url\n");
 		`wget -q --no-check-certificate -O $file "$url"`;
+
+		if(-s $file == 0){
+			$n = 2;
+			sleep 10;
+			msg("\tDownload 2nd attempt from $url\n");
+			`wget -q --no-check-certificate -O $file "$url"`;
+
+			if(-s $file == 0){
+				$n = 3;
+				sleep 30;
+				msg("\tDownload 3rd attempt from $url\n");
+				`wget -q --no-check-certificate -O $file "$url"`;
+
+				if(-s $file == 0){
+					$n = 4;
+					sleep 60;
+					msg("\tDownload 4th attempt from $url\n");
+					`wget -q --no-check-certificate -O $file "$url"`;
+				}
+			}
+		}
 	}
 	
-	if(-s $file == 0){
-		$delay = 10;
-		if($delay){ sleep $delay; }
-		msg("\tDownload 2nd attempt from $url\n");
-		`wget -q --no-check-certificate -O $file "$url"`;
-	}
-	if(-s $file == 0){
-		$delay = 30;
-		if($delay){ sleep $delay; }
-		msg("\tDownload 3rd attempt from $url\n");
-		`wget -q --no-check-certificate -O $file "$url"`;
-	}
-	if(-s $file == 0){
-		$delay = 60;
-		if($delay){ sleep $delay; }
-		msg("\tDownload 4th attempt from $url\n");
-		`wget -q --no-check-certificate -O $file "$url"`;
-	}
-	return $delay;
+	return $n;
 }
 sub makeDir {
 	my $str = $_[0];
