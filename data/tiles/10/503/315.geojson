@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.00507,56.67395],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Saint Malcolm&#39;s Wynd, Kirriemuir, Scotland, DD8 4GW","hours":{"_text":""},"title":"Sustainable Kirriemuir Hub","url":"https://www.sustainablekirriemuir.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.00507,56.67395],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Saint Malcolm&#39;s Wynd, Kirriemuir, Scotland, DD8 4GW","hours":{"_text":"Mondays 11am-1pm (January 2023) ","opening":"Mo 11:00-13:00"},"title":"Sustainable Kirriemuir Hub","url":"https://www.sustainablekirriemuir.co.uk"},"type":"Feature"}
 	]
 }

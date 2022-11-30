@@ -2,6 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-5.43000,56.03676],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Multiple Sclerosis Centre, Mid Argyll, Lochgilphead, Argyll PA31 8JU","description":"Open from 07/11/22. We support people affected by long term conditions, older people and anyone affected by social isolation and loneliness. We are a busy community hub open 9 to 5 for various activities. On Mondays for 2 hours we will be running the Warm Space session offering soup, hot drinks and friendship. ","hours":{"_text":"Monday: 12:00 - 14:00","opening":"Mo 12:00-14:00"},"title":"Multiple Sclerosis Centre. Mid Argyll"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.48473,56.13312],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kilmartin Church, Kilmartin, Lochgilphead, Scotland, PA31 8RN","hours":{"_text":""},"title":"Dunadd Bookswap","url":"http://www.dunadd.scot/bookswap/"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.48473,56.13312],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kilmartin Church, Kilmartin, Lochgilphead, Scotland, PA31 8RN","hours":{"_text":"First Wednesday of the month 12.30pm-4pm","opening":"We[1] 12:30-16:00"},"title":"Dunadd Bookswap","url":"http://www.dunadd.scot/bookswap/"},"type":"Feature"}
 	]
 }

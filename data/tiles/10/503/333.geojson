@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.99357,53.04563],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1-2 Hope Street, Wrexham, Wales, LL11 1BG","hours":{"_text":""},"title":"Hope Street Church","url":"https://www.hopestreet.church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99357,53.04563],"type":"Point"},"properties":{"_source":"warm_spaces","address":"1-2 Hope Street, Wrexham, Wales, LL11 1BG","hours":{"_text":"Monday 10am-2pm","opening":"Mo 10:00-14:00"},"title":"Hope Street Church","url":"https://www.hopestreet.church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.05776,53.00924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Community Cafe, 46 Market Street, Wrexham, Wales, LL14 2HY","hours":{"_text":""},"title":"The Community Cafe","url":"https://www.rhoscommunitycafe.org"},"type":"Feature"}
 	]
 }

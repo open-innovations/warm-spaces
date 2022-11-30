@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.70585,56.47007],"type":"Point"},"properties":{"_source":"warm_spaces","address":"An Roth Community Enterprise Centre, A849, Isle of Mull, Scotland, PA65 6AY","hours":{"_text":""},"title":"Mull Safe and Sound","url":"https://www.facebook.com/mullsafeandsound/"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.70585,56.47007],"type":"Point"},"properties":{"_source":"warm_spaces","address":"An Roth Community Enterprise Centre, A849, Isle of Mull, Scotland, PA65 6AY","hours":{"_text":"Every 2nd Thursday, 2pm-4pm","opening":"Th[2] 14:00-16:00"},"title":"Mull Safe and Sound","url":"https://www.facebook.com/mullsafeandsound/"},"type":"Feature"}
 	]
 }

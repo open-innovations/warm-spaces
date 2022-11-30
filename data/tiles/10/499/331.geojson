@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.34735,53.40950],"type":"Point"},"properties":{"_source":"warm_spaces","address":"17 Mona Street, Amlwch, Wales, LL68 9AN","hours":{"_text":""},"title":"Ffiws Amlwch","url":"https://www.facebook.com/ffiwsamlwch"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.34735,53.40950],"type":"Point"},"properties":{"_source":"warm_spaces","address":"17 Mona Street, Amlwch, Wales, LL68 9AN","hours":{"_text":"Monday-Friday, 9am-5pm ","opening":"Mo-Fr 09:00-17:00"},"title":"Ffiws Amlwch","url":"https://www.facebook.com/ffiwsamlwch"},"type":"Feature"}
 	]
 }

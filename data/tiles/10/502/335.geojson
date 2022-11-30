@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.32540,52.64913],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bridge Street, Welshpool, Wales, SY21 0RY","hours":{"_text":""},"title":"Llanfair Caereinion Community Library","url":"https://www.facebook.com/groups/214623463785092"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.32540,52.64913],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bridge Street, Welshpool, Wales, SY21 0RY","hours":{"_text":"Tuesday 10am-1pm, Thursday 3pm-6pm, Friday 2pm-5pm, Saturday 10am-1pm","opening":"Tu 10:00-13:00; Th 15:00-18:00; Fr 14:00-17:00; Sa 10:00-13:00"},"title":"Llanfair Caereinion Community Library","url":"https://www.facebook.com/groups/214623463785092"},"type":"Feature"}
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.02337,54.46044],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Grasmere Village Hall, Broadgate, Ambleside, England, LA22 9TA","hours":{"_text":""},"title":"Grasmere Village Hall","url":"https://www.facebook.com/GrasmereVillageHall"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.02337,54.46044],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Grasmere Village Hall, Broadgate, Ambleside, England, LA22 9TA","hours":{"_text":"10am-12.30pm"},"title":"Grasmere Village Hall","url":"https://www.facebook.com/GrasmereVillageHall"},"type":"Feature"}
 	]
 }

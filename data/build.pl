@@ -554,7 +554,7 @@ sub getSquareSpace {
 		$json->{'lon'} = $items[$i]{'location'}{'mapLng'}+0;
 		$json->{'address'} = $items[$i]{'location'}{'addressLine1'}.", ".$items[$i]{'location'}{'addressLine2'};
 		if($items[$i]{'excerpt'} =~ /<a href="([^\"]+)">Find out more<\/a>/){ $json->{'url'} = $1; }
-		if($items[$i]{'excerpt'} =~ /<strong>Opening Hours:<\/strong> (.*?)<br>/){ $json->{'hours'} = {'_text'=>$1}; }
+		if($items[$i]{'excerpt'} =~ /<strong>(<br>)?Opening Hours: *<\/strong> ?(.*?)</){ $json->{'hours'} = {'_text'=>$2}; }
 		$json->{'hours'} = parseOpeningHours($json->{'hours'});
 
 		$json->{'_source'} = $d->{'id'};

@@ -167,6 +167,7 @@
 				var hours = {};
 				if(p.hours && p.hours.opening) hours = processHours(p.hours.opening);
 				var typ = hours.type;
+				if(!typ) typ = "unknown";
 				if(this.toggles[typ]){
 					var cls = this.toggles[typ].class;
 					if(this.toggles[typ].checked){
@@ -178,7 +179,7 @@
 						if(p.address) html += '<p class="address">'+p.address+'</p>';
 						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
-						if(p.hours){
+						if(p.hours && p.hours._text){
 							html += '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
 						html += '</div>';
@@ -189,7 +190,7 @@
 						added++;
 					}
 				}else{
-					log('warn','No toggle of type '+typ);
+					log('warn','No toggle of type '+typ,p);
 				}
 			}
 			this.list.innerHTML = html;

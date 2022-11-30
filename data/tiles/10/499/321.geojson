@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.33217,55.50295],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Old Library Room, AM Brown Institute, Institute Avenue, Mauchline, Scotland, KA5 6RT","hours":{"_text":""},"title":"Mama’s Nest"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.33217,55.50295],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Old Library Room, AM Brown Institute, Institute Avenue, Mauchline, Scotland, KA5 6RT","hours":{"_text":"Mon &amp; Fri, 4.30pm-7pm (from November 2022 )","opening":"Mo 16:30-19:00; Fr 16:30-19:00"},"title":"Mama’s Nest"},"type":"Feature"}
 	]
 }

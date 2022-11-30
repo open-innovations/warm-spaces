@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.71097,55.29820],"type":"Point"},"properties":{"_source":"warm_spaces","address":"45 Main Street, Morpeth, England, NE65 9PP","hours":{"_text":""},"title":"Gallery Forty5","url":"https://www.feltongallery45.co.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.71097,55.29820],"type":"Point"},"properties":{"_source":"warm_spaces","address":"45 Main Street, Morpeth, England, NE65 9PP","hours":{"_text":"Mon-Sat, 10:30am-4:30pm","opening":"Mo-Sa 10:30-16:30"},"title":"Gallery Forty5","url":"https://www.feltongallery45.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51717,55.18629],"type":"Point"},"properties":{"address":"Newbiggin Sports And Community Centre, Woodhorn Road, Newbiggin-By-The-Sea, Northumberland, NE64 6HG","hours":{},"title":"Newbiggin Leisure Centre and Community Hub","url":"https://central.northumberlandfrontline.org.uk/Library/ServiceDetail/624d6c658a38a23df1caef81"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.71062,55.29773],"type":"Point"},"properties":{"address":"45 Main Street, Felton, Morpeth, Northumberland, NE65 9PP","hours":{},"title":"Toasty Tuesdays"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.56879,55.18549],"type":"Point"},"properties":{"address":"Ashington Leisure Centre, Lintonville Terrace, Portland Park, Ashington, Northumberland, NE63 9JY","hours":{},"title":"Ashington Library","url":"https://central.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"},

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.52937,56.62402],"type":"Point"},"properties":{"_source":"warm_spaces","address":"5 Main Street, Isle of Coll, Scotland, PA78 6SY","hours":{"_text":""},"title":"An Cridhe","url":"https://ancridhe.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.52937,56.62402],"type":"Point"},"properties":{"_source":"warm_spaces","address":"5 Main Street, Isle of Coll, Scotland, PA78 6SY","hours":{"_text":"9am-9pm "},"title":"An Cridhe","url":"https://ancridhe.co.uk"},"type":"Feature"}
 	]
 }
