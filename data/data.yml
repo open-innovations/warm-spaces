@@ -246,6 +246,22 @@ directories:
     data:
       url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
       type: html
+  - title: "Northumberland County Council"
+    url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
+    register:
+      url: "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q"
+    map:
+      url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
+      type: tableau
+    data:
+      url: "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Support/Warm%20Spaces/Warm-Spaces.xlsx"
+      type: xls
+      sheet: "sheet1"
+      startrow: 2
+      keys:
+        title: "A"
+        address: "B"
+        url: "C"
   - title: "Perth and Kinross Council"
     url: "https://www.pkc.gov.uk/warmspaces"
     map:

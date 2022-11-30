@@ -56,6 +56,10 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 
 			@features = getGeoJSON($d);
 
+		}elsif($d->{'data'}{'type'} eq "xls"){
+
+			@features = getXLSX($d);
+
 		}elsif($d->{'data'}{'type'} eq "storepoint"){
 
 			# Get the data (if we don't have a cached version)
@@ -287,6 +291,70 @@ sub parseGeoJSONFeature {
 	if(!$json->{'lat'}){ $json->{'lat'} = $f->{'geometry'}{'coordinates'}[1]; }
 	if(!$json->{'lon'}){ $json->{'lon'} = $f->{'geometry'}{'coordinates'}[0]; }
 	return $json;
+}
+
+sub getXLSX {
+
+	my $d = shift;
+
+	my ($file,$str,$t,@strings,$sheet,$props,$row,$col,$attr,$cols,@rows,$rowdata,@geo,@features,$c,$r,$n,$datum);
+
+	# Get the data (if we don't have a cached version)
+	$file = getDataFromURL($d);
+	
+	msg("\tUnzipping xlsx to extract data from $d->{'data'}{'sheet'}\n");
+
+	# First we need to get the sharedStrings.xml
+	$str = join("",`unzip -p $file xl/sharedStrings.xml`);
+	while($str =~ s/<si>(.*?)<\/si>//){
+		$t = $1;
+		$t =~ s/<[^\>]+>//g;
+		push(@strings,$t);
+	}	
+
+	$str = join("",`unzip -p $file xl/worksheets/$d->{'data'}{'sheet'}.xml`);
+
+	if($str =~ /<sheetData>(.*?)<\/sheetData>/){
+		$sheet = $1;
+		while($sheet =~ s/<row([^\>]*?)>(.*?)<\/row>//){
+			$props = $1;
+			$row = $2;
+			$attr = {};
+			while($props =~ s/([^\s]+)="([^\"]+)"//){ $attr->{$1} = $2; }
+			$rowdata = {'content'=>$row,'attr'=>$attr,'cols'=>()};
+			while($row =~ s/<c([^\>]*?)>(.*?)<\/c>//){
+				$props = $1;
+				$col = $2;
+				$col =~ s/<[^\>]+>//g;
+				$attr = {};
+				while($props =~ s/([^\s]+)="([^\"]+)"//){ $attr->{$1} = $2; }
+				if($attr->{'r'} =~ /^([A-Z]+)([0-9]+)/){
+					$c = $1;
+					$n = $2;
+#					if(!$cols->{$c}){ $cols->{$c} = (); }
+#					$cols->{$c}[$n-1] = $strings[$col];
+					$rowdata->{'cols'}{$c} = $strings[$col];
+				}
+			}
+			push(@rows,$rowdata);
+		}
+	}
+
+	for($r = 0; $r < @rows; $r++){
+		if($rows[$r]->{'attr'}{'r'} >= $d->{'data'}{'startrow'}){
+			$datum = {};
+			foreach $key (keys(%{$d->{'data'}{'keys'}})){
+				if($rows[$r]->{'cols'}{$d->{'data'}{'keys'}{$key}}){
+					$datum->{$key} = $rows[$r]->{'cols'}{$d->{'data'}{'keys'}{$key}};
+				}
+				
+			}
+			push(@features,$datum);
+		}
+	}
+
+	# Add lat,lon from postcodes
+	return addLatLonFromPostcodes(@features);
 }
 
 sub getGeoJSON {
