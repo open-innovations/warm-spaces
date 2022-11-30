@@ -1,1 +1,9 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.25560,55.14322],"type":"Point"},"properties":{"address":"Bellingham Library, Bellingham Town Hall, Manchester Square, Bellingham, Hexham, Northumberland, NE48 2AS","hours":{},"title":"Bellingham Library","url":"https://west.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.25650,55.14376],"type":"Point"},"properties":{"address":"The Reed Hall, Bellingham, Northumberland, NE48 2JP","hours":{},"title":"Reed Hall"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.19846,55.00556],"type":"Point"},"properties":{"address":"Town Hall, Newbrough, Hexham, Northumberland, NE47 5AR","hours":{},"title":"Newbrough town hall"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.14158,55.15905],"type":"Point"},"properties":{"address":"The Gun Inn, Ridsdale, Hexham, Northumberland, NE48 2TF","hours":{},"title":"The Gun at Ridsdale"},"type":"Feature"}
+	]
+}

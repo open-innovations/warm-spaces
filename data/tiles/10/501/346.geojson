@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.77606,50.28330],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Promenade, Kingsbridge, England, TQ7 1JD","hours":{"_text":""},"title":"Harbour House","url":"https://www.harbourhouse.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.65789,50.27402],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tap House at Stokeley Farm Shop, Stokeley Barton Farms, Stokenham, Devon, England, TQ7 2SE","hours":{"_text":""},"title":"South Hams Brewery Ltd","url":"https://stokeleyfarmshop.co.uk"},"type":"Feature"}
 	]
 }

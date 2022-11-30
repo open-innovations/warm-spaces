@@ -11,6 +11,7 @@
 		{"geometry":{"coordinates":[-1.18155,52.22700],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"The Green, Badby, Daventry, NN11 3AF","contact":"Phone: 01327 439651","hours":{},"title":"Badby Village Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.16000,52.25900],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"The Abbey Market Square, Daventry, NN11 4XG","contact":"Phone: 0300 126 7000","hours":{},"title":"Daventry Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.20297,52.17151],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"The Nest Scrivens Hill Woodford Halse, NN11 6SU","contact":"Phone: N/A","hours":{},"title":"Woodford Halse Community Larder"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.16124,52.25994],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Golding Close, Daventry, NN11 4FB","contact":"Phone: N/A","hours":{},"title":"Daventry Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.27229,52.07125],"type":"Point"},"properties":{"_source":"west_northamptonshire","address":"Main Road, Middleton Cheney OX17 2PD","contact":"Phone: 01604 368277","hours":{},"title":"Middleton Cheney Community Library"},"type":"Feature"}
 	]
 }

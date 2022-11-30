@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.38859,51.94407],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Theatr Brycheiniog, Canal Wharf, Brecon, Brecon, Wales, LD3 7EW","hours":{"_text":""},"title":"Theatr Brycheiniog Open Space","url":"https://www.brycheiniog.co.uk"},"type":"Feature"}
+	]
+}
