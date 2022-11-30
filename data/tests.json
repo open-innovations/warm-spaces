@@ -239,27 +239,6 @@
 		{"text":"Thursday 10:30am to 12:30pm","good":"Th 10:30-12:30"},
 		{"text":"Monday, Wednesday and Friday 8:30am to 5pm, Tuesday and Thursday 8:30am to 7pm, Saturday 9:30am to 4pm.","good":"Mo 08:30-17:00; We 08:30-17:00; Fr 08:30-17:00; Tu 08:30-19:00; Th 08:30-19:00; Sa 09:30-16:00"},
 		{"text":"Monday, Tuesday and Thursday 9am to 5pm, Wednesday 9am to 6pm, Friday 9am to 4:30pm.","good":"Mo 09:00-17:00; Tu 09:00-17:00; Th 09:00-17:00; We 09:00-18:00; Fr 09:00-16:30"},
-		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 17:00, Thursday: 09:00 - 12:00, Friday: 09:00 - 17:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-12:00; Fr 09:00-17:00"}
-	],
-	"ambiguous": [
-		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00"},
-		{"text":"Monday: 10:00 - 14:00 / - Monthly","good":"Mo 10:00-14:00"},
-		{"text":"Monday: 11:00 - 13:00, Tuesday: 10:00 - 13:00, Wednesday: 10:00 - 12:00 / - Fortnightly, Thursday: 10:30 - 13:00, Friday: 10:00 - 12:30, Saturday: 10:30 - 12:30, Sunday: 10:00 - 11:30","good":"Mo 11:00-13:00; Tu 10:00-13:00; We 10:00-12:00; Th 10:30-13:00; Fr 10:00-12:30; Sa 10:30-12:30; Su 10:00-11:30"},
-		{"text":"Wednesday: 10:30 - 13:00, Sunday: 14:00 - 16:00 / - Monthly","good":"We 10:30-13:00; Su 14:00-16:00"},
-		{"text":"Thursday, 09:30 - Little Fishes Parent & Toddler Group<br>Friday, 1:00 - 15:00 (term time) - Wellbeing Cafe","good":"Fr 01:00-15:00"},
-		{"text":"Opening times: Tuesday and Thursday 9am-12pm","good":"Tu 09:00-12:00; Th 09:00-12:00"},
-		{"text":"Fridays - (Except 23rd & 30th December) 13.30 - 16.15","good":"Fr 13:30-16:15"},
-		{"text":"Wednesdays (from 30th November) 10.00 - 15.00","good":"We 10:00-15:00"},
-		{"text":"Fornightly on Fridays (next dates: Dec 2nd & 16th, Jan 6th & 20th) 12.00 - 16.00","good":"Fr 12:00-16:00"},
-		{"text":"Tuesdays - 29th November, 6th & 13th December. In 2023 every Tuesday until 28th March. 10.00 - 12.00","good":"Tu 00:00-00:00; Tu 00:00-00:00"},
-		{"text":"Tuesdays - 2022: 6th & 20th December 10.00 -12.30 2023: January: 3rd, 10th, 24th & 31st. February: 7th, 21st & 28th. March Dates: 7th. 10.00 - 12.30","good":"Tu 00:00-20:00"},
-		{"text":"Wednesdays 12.30 - 15.30 Sundays 10.00 - 12.00 (except 11th & 25th Dec and 1st Jan)","good":"We 12:30-15:30; Su 10:00-12:00"},
-		{"text":"First Friday of the month (apart from April 2023 = second Friday of month) 10.00 - 12.00","good":"Fr[1] 10:00-12:00"},
-		{"text":"Wednesdays (from 9th November 2022 - 31st March 2023) 10.00 - 11.30 ","good":"We 10:00-11:30"},
-		{"text":"Tuesday: 13:00 - 15:00 / - Fortnightly, Thursday: 09:30 - 15:30, Friday: 09:30 - 12:00, Sunday: 10:00 - 12:30","good":"Tu 13:00-15:00; Th 09:30-15:30; Fr 09:30-12:00; Su 10:00-12:30"}
-	],
-	"tocheck": [
-
 		{"text":"Monday: 09:30 - 13:30, Tuesday: 09:30 - 17:00, Thursday: 09:30 - 17:00, Friday: 09:30 - 17:00, Saturday: 09:30 - 17:00","good":"Mo 09:30-13:30; Tu 09:30-17:00; Th 09:30-17:00; Fr 09:30-17:00; Sa 09:30-17:00"},
 		{"text":"Wednesday: 10:00 - 12:00","good":"We 10:00-12:00"},
 		{"text":"Monday: 13:00 - 17:00, Tuesday: 9:30 - 17:00, Thursday: 9:30 - 19:00, Friday: 9:30 - 17:00, Saturday: 9:30 - 13:00","good":"Mo 13:00-17:00; Tu 09:30-17:00; Th 09:30-19:00; Fr 09:30-17:00; Sa 09:30-13:00"},
@@ -285,6 +264,26 @@
 		{"text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Friday: 10:00 - 16:00, Saturday: 10:00 - 12:00","good":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Fr 10:00-16:00; Sa 10:00-12:00"},
 		{"text":"Monday: 09:00 - 12:00 / 18:00 - 21:00, Tuesday: 18:00 - 21:00, Saturday: 09:00 - 12:00","good":"Mo 09:00-12:00,18:00-21:00; Tu 18:00-21:00; Sa 09:00-12:00"},
 		{"text":"Wednesday: 10:30 - 15:00","good":"We 10:30-15:00"},
+		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 17:00, Thursday: 09:00 - 12:00, Friday: 09:00 - 17:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-12:00; Fr 09:00-17:00"}
+	],
+	"ambiguous": [
+		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},
+		{"text":"Monday: 10:00 - 14:00 / - Monthly","good":"Mo 10:00-14:00","note":"Which Monday of the month?"},
+		{"text":"Monday: 11:00 - 13:00, Tuesday: 10:00 - 13:00, Wednesday: 10:00 - 12:00 / - Fortnightly, Thursday: 10:30 - 13:00, Friday: 10:00 - 12:30, Saturday: 10:30 - 12:30, Sunday: 10:00 - 11:30","good":"Mo 11:00-13:00; Tu 10:00-13:00; We 10:00-12:00; Th 10:30-13:00; Fr 10:00-12:30; Sa 10:30-12:30; Su 10:00-11:30","note":"When is the fortnightly?"},
+		{"text":"Wednesday: 10:30 - 13:00, Sunday: 14:00 - 16:00 / - Monthly","good":"We 10:30-13:00; Su 14:00-16:00","note":"Which Sunday of the month?"},
+		{"text":"Thursday, 09:30 - Little Fishes Parent & Toddler Group<br>Friday, 1:00 - 15:00 (term time) - Wellbeing Cafe","good":"Fr 01:00-15:00","note":"How would we know when term time is and what would the end time by on Thursdays."},
+		{"text":"Opening times: Tuesday and Thursday 9am-12pm","good":"Tu 09:00-12:00; Th 09:00-12:00","note":"12pm probably means noon but it could be risky to assume"},
+		{"text":"Fridays - (Except 23rd & 30th December) 13.30 - 16.15","good":"Fr 13:30-16:15","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Wednesdays (from 30th November) 10.00 - 15.00","good":"We 10:00-15:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Fornightly on Fridays (next dates: Dec 2nd & 16th, Jan 6th & 20th) 12.00 - 16.00","good":"Fr 12:00-16:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Tuesdays - 29th November, 6th & 13th December. In 2023 every Tuesday until 28th March. 10.00 - 12.00","good":"Tu 00:00-00:00; Tu 00:00-00:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Tuesdays - 2022: 6th & 20th December 10.00 -12.30 2023: January: 3rd, 10th, 24th & 31st. February: 7th, 21st & 28th. March Dates: 7th. 10.00 - 12.30","good":"Tu 00:00-20:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Wednesdays 12.30 - 15.30 Sundays 10.00 - 12.00 (except 11th & 25th Dec and 1st Jan)","good":"We 12:30-15:30; Su 10:00-12:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"First Friday of the month (apart from April 2023 = second Friday of month) 10.00 - 12.00","good":"Fr[1] 10:00-12:00","note":"No easy way to detect or encode the explicit exception"},
+		{"text":"Wednesdays (from 9th November 2022 - 31st March 2023) 10.00 - 11.30 ","good":"We 10:00-11:30","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Tuesday: 13:00 - 15:00 / - Fortnightly, Thursday: 09:30 - 15:30, Friday: 09:30 - 12:00, Sunday: 10:00 - 12:30","good":"Tu 13:00-15:00; Th 09:30-15:30; Fr 09:30-12:00; Su 10:00-12:30","note":"Which fortnightly?"}
+	],
+	"tocheck": [
 		{"text":"Monday: 08:00 - 19:00, Tuesday: 08:00 - 17:30, Wednesday: 08:00 - 17:30, Thursday: 08:00 - 17:30, Friday: 08:00 - 17:30","good":"Mo 08:00-19:00; Tu 08:00-17:30; We 08:00-17:30; Th 08:00-17:30; Fr 08:00-17:30"},
 		{"text":"Friday: 09:45 - 11:30 / - Fortnightly","good":"Fr 09:45-11:30"},
 		{"text":"Monday: 11:30 - 13:00 / 14:00 - 17:00, Tuesday: 9:30 - 13:00, Wednesday: 9:30 - 14:00, Friday: 11:30 - 17:00, Saturday: 9:00 - 14:00","good":"Mo 11:30-13:00,14:00-17:00; Tu 09:30-13:00; We 09:30-14:00; Fr 11:30-17:00; Sa 09:00-14:00"},

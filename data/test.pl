@@ -45,3 +45,7 @@ for($i = 0; $i < $n; $i++){
 print "\n";
 if($ngood > 0){ msg("<green>[PASS]:<none> $ngood test".($ngood != 1 ? "s":"")."\n"); }
 if($nbad > 0){ msg("<red>[FAIL]:<none> $nbad test".($nbad != 1 ? "s":"")."\n"); }
+
+
+# We could go through each minute of the week and work out if it should be open/closed and compare it
+
