@@ -192,6 +192,7 @@ print $fh tidyJSON($sources,2);
 close($fh);
 
 open($fh,">:utf8",$dir."summary.html");
+print $fh "<p>As of <time datetime=\"".strftime("%FT%X%z", localtime)."\">".strftime("%e %B %Y (%R)", localtime)."</time>.</p>\n";
 print $fh "<table>\n";
 print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th><th>Notes</th></thead></tr>\n";
 print $fh "<tbody>\n";
