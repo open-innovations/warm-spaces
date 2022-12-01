@@ -93,7 +93,7 @@ for($i = 0; $i < @result; $i++){
 
 foreach $letter (sort(keys(%letters))){
 	print "$letter\n";
-	open(FILE,">:utf8","../../_site/data/geo/ranked-$letter.tsv");
+	open(FILE,">:utf8","../../docs/data/geo/ranked-$letter.tsv");
 	for($i = 0; $i < @{$letters{$letter}}; $i++){
 		print FILE $letters{$letter}[$i]."\n";
 	}
