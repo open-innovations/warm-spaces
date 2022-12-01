@@ -17,7 +17,7 @@ require "lib.pl";
 
 
 
-my $json = getJSON("places.json");
+my $json = getJSON("../_site/data/places.json");
 
 makeTiles($json,$ARGV[0]);
 
@@ -31,7 +31,7 @@ sub makeTiles {
 
 	my ($str,$filegeo,$coder,$tiler,$dir,$f,$i,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop,@todo);
 
-	$dir = ("tiles");
+	$dir = ("../_site/data/tiles");
 	@zooms = split(/[\:\;]/,$zoom||"10");
 
 	if(!-d $dir){
@@ -122,7 +122,7 @@ sub makeTiles {
 }
 sub getBBoxTiles {
 	my $z = $_[0];
-	open(FILE,"../find.html");
+	open(FILE,"../_site/find.html");
 	my @lines = <FILE>;
 	close(FILE);
 	my %bounds;

@@ -9,7 +9,7 @@ use POSIX qw(strftime);
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
-$dir = "./";
+$dir = "../_site/data/";
 $rawdir = "raw/";
 #makeDir($dir);
 makeDir($rawdir);
