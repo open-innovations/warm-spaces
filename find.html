@@ -33,8 +33,8 @@
 			<div id="output">
 				<div id="place-search">
 					Find warm spaces 
-					<form><label for="typeahead">by place:</label><input id="typeahead" type="text" placeholder="e.g. Leeds" autocomplete="off"></form> or
-					<button class="c13-bg" id="find">near my location</button>
+					<form><label for="typeahead">by place:</label><input id="typeahead" type="text" placeholder="e.g. Leeds" autocomplete="off"></form>
+					<div> or <button class="c13-bg" id="find">near my location</button></div>
 				</div>
 				<div id="key-holder">
 					<ul id="key"><li class="c14-bg keyitem"><label for="key-opening-soon"><input type="checkbox" id="key-opening-soon" checked="checked" data="opening-soon" /> opening soon</label></li><li class="c13-bg keyitem"><label for="key-open"><input type="checkbox" id="key-open" checked="checked" data="open" /> open</label></li><li class="c12-bg keyitem"><label for="key-closing-soon"><input type="checkbox" id="key-closing-soon" checked="checked" data="closing-soon" /> closing soon</label></li><li class="b4-bg keyitem"><label for="key-closed"><input type="checkbox" id="key-closed" checked="checked" data="closed" /> closed</label></li><li class="b5-bg keyitem"><label for="key-unknown"><input type="checkbox" id="key-unknown" checked="checked" data="unknown" /> unknown</label></li></ul>
@@ -96,10 +96,10 @@
 	});
 	</script>
 	<style>
-	#place-search > * { display: inline-block; }
+	#place-search > * { display: inline-block; line-height: 3em; }
 	.typeahead { line-height: 2.5em; }
 	#typeahead { height: 2.5em; font-size: inherit; margin-left: 0.25em; margin-right: 0.25em; }
-	#find { line-height: 1.5em; margin-top: 0; margin-left: 0.25em; border-radius:4px; }
+	#find { line-height: 1.5em; margin-left: 0.25em; border-radius:4px; }
 	.typeahead-results { z-index: 1000; max-width: unset!important; }
 	.typeahead-results ol { list-style: none; background: #efefef; line-height: 1.25em; }
 	.typeahead-results ol > li { text-align: left; white-space: nowrap; }
