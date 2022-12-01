@@ -230,6 +230,7 @@ sub parseOpeningHours {
 		$str =~ s/([^0-9]) \&amp\; ([^0-9])/$1, $2/g;
 		$str =~ s/ ?\([^\)]+\)//g;
 		$str =~ s/\//, /g;
+		$str =~ s/[—]/-/g;
 		$str =~ s/24 hours/00:00-24:00/g;
 
 		# Convert "weekdays" or "weekends" into day ranges
