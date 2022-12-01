@@ -182,6 +182,7 @@
 						if(p.hours && p.hours._text){
 							html += '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
+						html += '<p><strong>Map:</strong> <a href="https://www.openstreetmap.org/#map=18/'+this.sorted[i].geometry.coordinates[1]+'/'+this.sorted[i].geometry.coordinates[0]+'" target="_map">view this on Open Street Map</a></p>';
 						html += '</div>';
 						html += (p.url ? '</a>':'</div>');
 						html += formatSource(this.sources[p._source]);
