@@ -265,6 +265,13 @@
 		{"text":"Monday: 09:00 - 12:00 / 18:00 - 21:00, Tuesday: 18:00 - 21:00, Saturday: 09:00 - 12:00","good":"Mo 09:00-12:00,18:00-21:00; Tu 18:00-21:00; Sa 09:00-12:00"},
 		{"text":"Wednesday: 10:30 - 15:00","good":"We 10:30-15:00"},
 		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 17:00, Thursday: 09:00 - 12:00, Friday: 09:00 - 17:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-12:00; Fr 09:00-17:00"},
+		{"text":"Monday: 08:00 - 19:00, Tuesday: 08:00 - 17:30, Wednesday: 08:00 - 17:30, Thursday: 08:00 - 17:30, Friday: 08:00 - 17:30","good":"Mo 08:00-19:00; Tu 08:00-17:30; We 08:00-17:30; Th 08:00-17:30; Fr 08:00-17:30"},
+		{"text":"Monday: 11:30 - 13:00 / 14:00 - 17:00, Tuesday: 9:30 - 13:00, Wednesday: 9:30 - 14:00, Friday: 11:30 - 17:00, Saturday: 9:00 - 14:00","good":"Mo 11:30-13:00,14:00-17:00; Tu 09:30-13:00; We 09:30-14:00; Fr 11:30-17:00; Sa 09:00-14:00"},
+		{"text":"Monday: 12:00 - 17:00, Tuesday: 09:00 - 13:00 / 14:00 - 17:00, Thursday: 09:00 - 13:00 / 14:00 - 17:00, Saturday: 10:00 - 14:00","good":"Mo 12:00-17:00; Tu 09:00-13:00,14:00-17:00; Th 09:00-13:00,14:00-17:00; Sa 10:00-14:00"},
+		{"text":"Tuesday: 11:00 - 13:00, Wednesday: 11:00 - 13:00, Thursday: 11:00 - 13:00, Friday: 11:00 - 13:00","good":"Tu 11:00-13:00; We 11:00-13:00; Th 11:00-13:00; Fr 11:00-13:00"},
+		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 13:00, Thursday: 10:00 - 18:00, Friday: 09:00 - 15:00, Saturday: 09:00 - 15:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-13:00; Th 10:00-18:00; Fr 09:00-15:00; Sa 09:00-15:00"},
+		{"text":"Monday: 8:30 - 17:00, Tuesday: 8:30 - 17:00, Wednesday: 8:30 - 17:00, Thursday: 8:30 - 17:00, Friday: 8:30 - 16:30","good":"Mo 08:30-17:00; Tu 08:30-17:00; We 08:30-17:00; Th 08:30-17:00; Fr 08:30-16:30"},
+		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 19:00, Thursday: 09:00 - 17:00, Friday: 09:00 - 17:00, Saturday: 09:00 - 13:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-19:00; Th 09:00-17:00; Fr 09:00-17:00; Sa 09:00-13:00"},
 		{"text":"Mon-Fri 2pm-4pm","good":"Mo-Fr 14:00-16:00"}
 	],
 	"ambiguous": [
@@ -282,17 +289,10 @@
 		{"text":"Wednesdays 12.30 - 15.30 Sundays 10.00 - 12.00 (except 11th & 25th Dec and 1st Jan)","good":"We 12:30-15:30; Su 10:00-12:00","note":"No easy way to encode date exceptions in OSM opening hours format"},
 		{"text":"First Friday of the month (apart from April 2023 = second Friday of month) 10.00 - 12.00","good":"Fr[1] 10:00-12:00","note":"No easy way to detect or encode the explicit exception"},
 		{"text":"Wednesdays (from 9th November 2022 - 31st March 2023) 10.00 - 11.30 ","good":"We 10:00-11:30","note":"No easy way to encode date exceptions in OSM opening hours format"},
+		{"text":"Friday: 09:45 - 11:30 / - Fortnightly","good":"Fr 09:45-11:30","note":"Which fortnightly?"},
 		{"text":"Tuesday: 13:00 - 15:00 / - Fortnightly, Thursday: 09:30 - 15:30, Friday: 09:30 - 12:00, Sunday: 10:00 - 12:30","good":"Tu 13:00-15:00; Th 09:30-15:30; Fr 09:30-12:00; Su 10:00-12:30","note":"Which fortnightly?"}
 	],
 	"tocheck": [
-		{"text":"Monday: 08:00 - 19:00, Tuesday: 08:00 - 17:30, Wednesday: 08:00 - 17:30, Thursday: 08:00 - 17:30, Friday: 08:00 - 17:30","good":"Mo 08:00-19:00; Tu 08:00-17:30; We 08:00-17:30; Th 08:00-17:30; Fr 08:00-17:30"},
-		{"text":"Friday: 09:45 - 11:30 / - Fortnightly","good":"Fr 09:45-11:30"},
-		{"text":"Monday: 11:30 - 13:00 / 14:00 - 17:00, Tuesday: 9:30 - 13:00, Wednesday: 9:30 - 14:00, Friday: 11:30 - 17:00, Saturday: 9:00 - 14:00","good":"Mo 11:30-13:00,14:00-17:00; Tu 09:30-13:00; We 09:30-14:00; Fr 11:30-17:00; Sa 09:00-14:00"},
-		{"text":"Monday: 12:00 - 17:00, Tuesday: 09:00 - 13:00 / 14:00 - 17:00, Thursday: 09:00 - 13:00 / 14:00 - 17:00, Saturday: 10:00 - 14:00","good":"Mo 12:00-17:00; Tu 09:00-13:00,14:00-17:00; Th 09:00-13:00,14:00-17:00; Sa 10:00-14:00"},
-		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 13:00, Thursday: 10:00 - 18:00, Friday: 09:00 - 15:00, Saturday: 09:00 - 15:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-13:00; Th 10:00-18:00; Fr 09:00-15:00; Sa 09:00-15:00"},
-		{"text":"Tuesday: 11:00 - 13:00, Wednesday: 11:00 - 13:00, Thursday: 11:00 - 13:00, Friday: 11:00 - 13:00","good":"Tu 11:00-13:00; We 11:00-13:00; Th 11:00-13:00; Fr 11:00-13:00"},
-		{"text":"Monday: 8:30 - 17:00, Tuesday: 8:30 - 17:00, Wednesday: 8:30 - 17:00, Thursday: 8:30 - 17:00, Friday: 8:30 - 16:30","good":"Mo 08:30-17:00; Tu 08:30-17:00; We 08:30-17:00; Th 08:30-17:00; Fr 08:30-16:30"},
-		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 19:00, Thursday: 09:00 - 17:00, Friday: 09:00 - 17:00, Saturday: 09:00 - 13:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-19:00; Th 09:00-17:00; Fr 09:00-17:00; Sa 09:00-13:00"},
 		{"text":"Monday: 15:30 - 19:00","good":"Mo 15:30-19:00"},
 		{"text":"Monday: 10:00 - 19:00, Wednesday: 10:00 - 19:00, Thursday: 10:00 - 19:00, Friday: 10:00 - 19:00, Saturday: 10:00 - 16:00","good":"Mo 10:00-19:00; We 10:00-19:00; Th 10:00-19:00; Fr 10:00-19:00; Sa 10:00-16:00"},
 		{"text":"Thursday: 14:00 - 17:00","good":"Th 14:00-17:00"},
