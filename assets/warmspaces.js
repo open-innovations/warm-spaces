@@ -1,6 +1,6 @@
 /**
 	Open Innovations Warm Places Finder
-	Version 0.1
+	Version 0.2
  */
 (function(root){
 
@@ -16,7 +16,7 @@
 		if(!opts) opts = {};
 
 		this.name = "Open Innovations Warm Spaces Finder";
-		this.version = "0.1";
+		this.version = "0.2";
 		var logger = new Log({"title":this.name,"version":this.version});
 		var log = logger.message;
 
@@ -173,9 +173,9 @@
 					if(this.toggles[typ].checked){
 					
 						html += '<li tabindex="0" class="'+cls+'"><div>';
-						html += (p.url ? '<a href="'+p.url+'/" target="_source">' : '<div>');
+						html += '<div>';
 						html += '<div class="doublepadded">';
-						html += '<h3>'+p.title+'</h3>';
+						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
 						if(p.address) html += '<p class="address">'+p.address+'</p>';
 						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
@@ -186,7 +186,7 @@
 						lon = this.sorted[i].geometry.coordinates[0];
 						html += '<p><strong>Map:</strong> <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
 						html += '</div>';
-						html += (p.url ? '</a>':'</div>');
+						html += '</div>';
 						html += formatSource(this.sources[p._source]);
 						html += '</div></li>';
 
