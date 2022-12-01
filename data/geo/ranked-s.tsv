@@ -1180,6 +1180,355 @@ Sandwick	Shetland Islands	a	59.9969	-1.2239
 Stonybrake	Shetland Islands	a	59.9674	-1.2762
 Southpunds	Shetland Islands	a	59.9604	-1.2681
 Stove	Shetland Islands	a	60.2306	-1.565
+SS22	Southend-on-Sea		51.557	0.7069
+SS99	Southend-on-Sea		51.5312	0.7295
+SS4	Rochford		51.6205	0.729
+SS2	Southend-on-Sea		51.557	0.7153
+SS5	Rochford		51.629	0.6159
+SS1	Southend-on-Sea		51.5368	0.7509
+SS9	Southend-on-Sea		51.5647	0.6375
+SS0	Southend-on-Sea		51.5436	0.696
+SS3	Southend-on-Sea		51.5419	0.7885
+SS12	Basildon		51.6016	0.5224
+SS6	Rochford		51.5957	0.589
+SS15	Basildon		51.5785	0.4032
+SS7	Castle Point		51.5745	0.5554
+SS14	Basildon		51.5758	0.4594
+SS11	Basildon		51.6023	0.5463
+SS13	Basildon		51.5742	0.5043
+SS16	Basildon		51.5672	0.4155
+SS8	Castle Point		51.5254	0.5728
+SS17	Thurrock		51.4883	0.4053
+SE7	Greenwich		51.4877	0.0472
+SE28	Greenwich		51.4977	0.0812
+SE2	Bexley		51.4821	0.1225
+SE18	Greenwich		51.4847	0.0664
+SE9	Greenwich		51.4466	0.0364
+SW1Y	Wandsworth		51.4811	-0.1339
+SW95	Wandsworth		51.4806	-0.1365
+SW1A	City of Westminster		51.5023	-0.1243
+SE14	Southwark		51.4777	-0.0529
+SE24	Lambeth		51.443	-0.1066
+SW1H	City of Westminster		51.4991	-0.1368
+SW20	Merton		51.411	-0.2337
+SE4	Lewisham		51.4643	-0.0429
+SE10	Greenwich		51.4788	-0.0146
+SW1E	City of Westminster		51.4987	-0.1366
+SM5	Sutton		51.3646	-0.1721
+SE22	Southwark		51.4563	-0.082
+SW15	Wandsworth		51.4568	-0.2571
+SE3	Lewisham		51.4668	0.0101
+SE26	Lewisham		51.4342	-0.0574
+SE13	Lewisham		51.4592	0.0007
+SW7	Kensington and Chelsea		51.4935	-0.1824
+SE1P	Southwark		51.4928	-0.0801
+SM3	Sutton		51.3713	-0.223
+SE19	Croydon		51.4103	-0.0792
+SE12	Lewisham		51.4528	0.0115
+SE21	Southwark		51.4356	-0.0862
+SW13	Richmond upon Thames		51.4868	-0.2339
+SW1X	City of Westminster		51.4982	-0.1515
+SW9	Lambeth		51.4637	-0.1094
+SE6	Lewisham		51.4388	-0.0297
+SW6	Hammersmith and Fulham		51.4674	-0.2078
+SW19	Merton		51.4212	-0.2111
+SE25	Croydon		51.3997	-0.0754
+SW17	Wandsworth		51.4281	-0.1721
+SW12	Wandsworth		51.4488	-0.1616
+SW4	Lambeth		51.4608	-0.1315
+SE16	Southwark		51.4953	-0.0652
+SW10	Kensington and Chelsea		51.4863	-0.1876
+SE17	Southwark		51.4819	-0.1009
+SW18	Wandsworth		51.4547	-0.1999
+SM4	Merton		51.4024	-0.1926
+SM6	Sutton		51.3631	-0.1523
+SE11	Lambeth		51.4932	-0.1058
+SW5	Kensington and Chelsea		51.4847	-0.1836
+SW1V	City of Westminster		51.4912	-0.1465
+SW1P	City of Westminster		51.4956	-0.1312
+SW3	Kensington and Chelsea		51.4885	-0.1624
+SE8	Lewisham		51.4894	-0.0388
+SW8	Lambeth		51.4687	-0.1442
+SW1W	City of Westminster		51.495	-0.1485
+SM2	Sutton		51.3565	-0.203
+SW16	Lambeth		51.4278	-0.1346
+SE1	Southwark		51.492	-0.0646
+SE23	Lewisham		51.4371	-0.0533
+SM1	Sutton		51.3638	-0.1962
+SE27	Lambeth		51.4314	-0.104
+SW2	Lambeth		51.451	-0.121
+SE20	Bromley		51.4149	-0.0713
+SE15	Southwark		51.4632	-0.06
+SE5	Southwark		51.4774	-0.0997
+SW11	Wandsworth		51.4644	-0.1643
+SM7	Reigate and Banstead		51.3146	-0.2103
+SW14	Richmond upon Thames		51.4601	-0.2779
+SG7	North Hertfordshire		51.9894	-0.1968
+SG2	Stevenage		51.8911	-0.177
+SG8	North Hertfordshire		52.0008	0.0149
+SG6	North Hertfordshire		51.9713	-0.2124
+SG1	Stevenage		51.9144	-0.2157
+SG10	East Hertfordshire		51.8058	-0.0228
+SG11	East Hertfordshire		51.8477	-0.0181
+SG9	East Hertfordshire		51.8058	-0.0228
+SG3	Welwyn Hatfield		51.8515	-0.1793
+SG14	East Hertfordshire		51.8047	-0.1032
+SG12	East Hertfordshire		51.8117	-0.0397
+SG13	East Hertfordshire		51.7805	-0.0408
+SG19	Central Bedfordshire		52.1286	-0.2885
+SG18	Central Bedfordshire		52.0447	-0.2679
+SG15	Central Bedfordshire		52.0191	-0.2646
+SG5	North Hertfordshire		51.9449	-0.287
+SG16	Central Bedfordshire		52.0008	-0.3053
+SG17	Central Bedfordshire		52.0216	-0.3648
+SG4	North Hertfordshire		51.8526	-0.3005
+SL60	Windsor and Maidenhead		51.5185	-0.7148
+SL8	Buckinghamshire		51.5753	-0.7089
+SL9	Buckinghamshire		51.5786	-0.5729
+SL95	Slough		51.5083	-0.5846
+SL0	Slough		51.5083	-0.5846
+SL2	Slough		51.5083	-0.5846
+SL5	Windsor and Maidenhead		51.4018	-0.6534
+SL1	Slough		51.5083	-0.5846
+SL3	Windsor and Maidenhead		51.4805	-0.5656
+SL6	Windsor and Maidenhead		51.5103	-0.7408
+SL4	Windsor and Maidenhead		51.4751	-0.658
+SL7	Buckinghamshire		51.5544	-0.8497
+SO25	Winchester		51.0676	-1.2973
+SO23	Winchester		51.0784	-1.3072
+SO21	Winchester		50.9922	-1.3207
+SO24	Winchester		51.0805	-1.1649
+SO22	Winchester		51.0742	-1.3469
+SO97	Eastleigh		50.9485	-1.362
+SO53	Eastleigh		50.9762	-1.3847
+SO17	City of Southampton		50.9244	-1.3807
+SO18	City of Southampton		50.9274	-1.3563
+SO30	Eastleigh		50.9151	-1.3019
+SO32	Winchester		50.941	-1.1737
+SO50	Eastleigh		50.977	-1.3513
+SO31	Fareham		50.8655	-1.2638
+SO19	City of Southampton		50.9034	-1.377
+SO14	City of Southampton		50.9073	-1.3959
+SP9	Test Valley		51.2094	-1.6691
+SP10	Test Valley		51.2228	-1.5023
+SP11	Test Valley		51.1526	-1.4614
+SO20	Test Valley		51.0954	-1.5655
+SO41	New Forest		50.8014	-1.5301
+SO45	New Forest		50.8781	-1.4387
+SO52	Test Valley		50.9721	-1.4455
+SO43	New Forest		50.8919	-1.6111
+SO42	New Forest		50.8546	-1.5034
+SO51	Test Valley		50.9608	-1.5162
+SO15	City of Southampton		50.9206	-1.4335
+SO40	New Forest		50.9106	-1.4914
+SO16	City of Southampton		50.9288	-1.4542
+SN99	Swindon		51.552	-1.7225
+SN38	Swindon		51.5512	-1.7258
+SN6	Wiltshire		51.6466	-1.9339
+SN25	Swindon		51.5911	-1.8277
+SN26	Swindon		51.6129	-1.7839
+SN5	Swindon		51.5629	-1.822
+SN1	Swindon		51.5577	-1.792
+SN3	Swindon		51.5635	-1.744
+SN2	Swindon		51.5748	-1.7771
+SN4	Swindon		51.5177	-1.765
+SN8	Wiltshire		51.2911	-1.7292
+SN9	Wiltshire		51.2963	-1.7758
+SP1	Wiltshire		51.079	-1.7818
+SP4	Wiltshire		51.1198	-1.7314
+SP2	Wiltshire		51.082	-1.8316
+SP6	New Forest		50.9273	-1.8073
+SN16	Wiltshire		51.6345	-2.0708
+SN13	Wiltshire		51.433	-2.1847
+SN15	Wiltshire		51.4564	-2.1142
+SN11	Wiltshire		51.4394	-2.0059
+SN12	Wiltshire		51.3387	-2.1121
+SN10	Wiltshire		51.283	-2.0134
+SP3	Wiltshire		51.0972	-2.107
+SP7	Dorset		50.9529	-2.1934
+SP5	Dorset		50.9556	-2.0385
+SN14	South Gloucestershire		51.4552	-2.3617
+SP8	Dorset		51.0362	-2.2901
+SA80	Abertawe - Swansea		51.648	-3.9241
+SA13	Castell-nedd Port Talbot - Neath Port Talbot		51.592	-3.7721
+SA99	Abertawe - Swansea		51.67	-3.9455
+SA12	Castell-nedd Port Talbot - Neath Port Talbot		51.6028	-3.8231
+SA1	Abertawe - Swansea		51.6333	-3.9429
+SA2	Abertawe - Swansea		51.6178	-4.0273
+SA3	Abertawe - Swansea		51.6079	-4.1505
+SN7	Vale of White Horse		51.7011	-1.5173
+SY8	Shropshire		52.3782	-2.626
+SY9	Shropshire		52.4681	-3.0525
+SY7	Powys - Powys		52.4645	-3.2366
+SY17	Powys - Powys		52.5055	-3.5987
+SY18	Powys - Powys		52.4063	-3.606
+SY24	Sir Ceredigion - Ceredigion		52.4503	-4.0236
+SA20	Sir Gaerfyrddin - Carmarthenshire		52.0419	-3.8198
+SA11	Castell-nedd Port Talbot - Neath Port Talbot		51.6888	-3.7389
+SA7	Abertawe - Swansea		51.6876	-3.8799
+SA5	Abertawe - Swansea		51.693	-3.9717
+SA9	Castell-nedd Port Talbot - Neath Port Talbot		51.7605	-3.7874
+SA6	Abertawe - Swansea		51.7271	-3.8954
+SA10	Castell-nedd Port Talbot - Neath Port Talbot		51.6955	-3.7643
+SA8	Castell-nedd Port Talbot - Neath Port Talbot		51.7136	-3.8486
+SY23	Sir Ceredigion - Ceredigion		52.332	-4.1083
+SY25	Sir Ceredigion - Ceredigion		52.1858	-4.0598
+SA46	Sir Ceredigion - Ceredigion		52.2113	-4.2819
+SA47	Sir Ceredigion - Ceredigion		52.1939	-4.3121
+SA40	Sir Gaerfyrddin - Carmarthenshire		52.0721	-4.1573
+SA48	Sir Ceredigion - Ceredigion		52.2072	-4.085
+SA39	Sir Gaerfyrddin - Carmarthenshire		52.0214	-4.2721
+SA19	Sir Gaerfyrddin - Carmarthenshire		51.9045	-4.048
+SA18	Sir Gaerfyrddin - Carmarthenshire		51.8042	-4.0351
+SA15	Sir Gaerfyrddin - Carmarthenshire		51.691	-4.1655
+SA32	Sir Gaerfyrddin - Carmarthenshire		51.8199	-4.1376
+SA16	Sir Gaerfyrddin - Carmarthenshire		51.7101	-4.3043
+SA4	Abertawe - Swansea		51.7246	-4.0352
+SA14	Sir Gaerfyrddin - Carmarthenshire		51.6939	-4.1273
+SA45	Sir Ceredigion - Ceredigion		52.2126	-4.3594
+SA35	Sir Benfro - Pembrokeshire		51.9778	-4.5448
+SA38	Sir Gaerfyrddin - Carmarthenshire		51.9793	-4.4618
+SA44	Sir Gaerfyrddin - Carmarthenshire		52.0188	-4.3729
+SA33	Sir Gaerfyrddin - Carmarthenshire		51.8278	-4.492
+SA31	Sir Gaerfyrddin - Carmarthenshire		51.8444	-4.3255
+SA17	Sir Gaerfyrddin - Carmarthenshire		51.7613	-4.3536
+SA43	Sir Benfro - Pembrokeshire		52.0271	-4.6358
+SA36	Sir Benfro - Pembrokeshire		51.952	-4.6271
+SA41	Sir Benfro - Pembrokeshire		51.9958	-4.7584
+SA37	Sir Benfro - Pembrokeshire		51.9892	-4.6392
+SA63	Sir Benfro - Pembrokeshire		51.842	-4.8755
+SA66	Sir Benfro - Pembrokeshire		51.8456	-4.7682
+SA69	Sir Benfro - Pembrokeshire		51.7223	-4.7238
+SA67	Sir Benfro - Pembrokeshire		51.755	-4.7306
+SA34	Sir Gaerfyrddin - Carmarthenshire		51.8201	-4.6171
+SA68	Sir Benfro - Pembrokeshire		51.7139	-4.7394
+SA70	Sir Benfro - Pembrokeshire		51.671	-4.6989
+SA42	Sir Benfro - Pembrokeshire		52.0027	-4.9168
+SA65	Sir Benfro - Pembrokeshire		51.9956	-4.975
+SA64	Sir Benfro - Pembrokeshire		52.0037	-4.9997
+SA71	Sir Benfro - Pembrokeshire		51.6748	-4.9289
+SA61	Sir Benfro - Pembrokeshire		51.8012	-4.9618
+SA72	Sir Benfro - Pembrokeshire		51.6829	-4.9504
+SA73	Sir Benfro - Pembrokeshire		51.7131	-5.0268
+SA62	Sir Benfro - Pembrokeshire		51.7513	-5.1947
+S25	Rotherham		53.3779	-1.2313
+S20	Sheffield		53.3487	-1.3426
+S60	Rotherham		53.4291	-1.3496
+S65	Rotherham		53.44	-1.3381
+S66	Rotherham		53.4258	-1.2269
+S26	Rotherham		53.3097	-1.2339
+S81	Bassetlaw		53.3118	-1.1115
+S44	Bolsover		53.1922	-1.3143
+S80	Bassetlaw		53.3039	-1.1292
+S95	Sheffield		53.4043	-1.431
+S96	Sheffield		53.4017	-1.4239
+S62	Rotherham		53.4801	-1.4238
+S99	Sheffield		53.4043	-1.431
+S13	Sheffield		53.3656	-1.4034
+S98	Sheffield		53.4043	-1.4308
+S4	Sheffield		53.401	-1.4581
+S1	Sheffield		53.382	-1.4793
+S12	Sheffield		53.3453	-1.4176
+S5	Sheffield		53.4332	-1.477
+S9	Sheffield		53.3876	-1.4144
+S3	Sheffield		53.3899	-1.4685
+S61	Rotherham		53.45	-1.4
+S14	Sheffield		53.3437	-1.4393
+S7	Sheffield		53.3454	-1.5061
+S10	Sheffield		53.3785	-1.5197
+S2	Sheffield		53.3632	-1.4231
+S6	Sheffield		53.4293	-1.5042
+S8	Sheffield		53.3313	-1.4756
+S11	Derbyshire Dales		53.3153	-1.6047
+S21	North East Derbyshire		53.3113	-1.4124
+S49	Chesterfield		53.2331	-1.4383
+S17	Sheffield		53.3153	-1.5407
+S43	Chesterfield		53.2746	-1.4053
+S18	North East Derbyshire		53.3024	-1.4795
+S40	Chesterfield		53.2367	-1.4323
+S41	Chesterfield		53.2565	-1.443
+S42	North East Derbyshire		53.1959	-1.4151
+S45	North East Derbyshire		53.1342	-1.4711
+S33	Derbyshire Dales		53.3167	-1.7437
+S32	Derbyshire Dales		53.2875	-1.715
+ST14	East Staffordshire		52.9051	-1.8871
+SK22	Stockport		53.3763	-2.0339
+SK16	Tameside		53.4702	-2.0604
+SK4	Stockport		53.4326	-2.1664
+SK6	Stockport		53.4147	-2.0961
+SK1	Stockport		53.4168	-2.143
+SK5	Stockport		53.4426	-2.1492
+SK2	Stockport		53.3973	-2.153
+SK3	Stockport		53.4076	-2.1616
+SK12	Cheshire East		53.3579	-2.0128
+SK8	Stockport		53.3716	-2.2034
+SK7	Stockport		53.3641	-2.1673
+SK14	Tameside		53.451	-2.0193
+SK17	Staffordshire Moorlands		53.192	-2.0023
+SK23	Cheshire East		53.3143	-2.019
+SK9	Cheshire East		53.3064	-2.2322
+SK10	Cheshire East		53.2688	-2.1131
+ST55	Newcastle-under-Lyme		53.0166	-2.2542
+ST13	Staffordshire Moorlands		53.0664	-2.0323
+ST8	Staffordshire Moorlands		53.1046	-2.1868
+ST9	Staffordshire Moorlands		53.0263	-2.0847
+ST6	City of Stoke-on-Trent		53.0588	-2.2075
+ST1	City of Stoke-on-Trent		53.0484	-2.1615
+ST2	City of Stoke-on-Trent		53.0166	-2.1459
+ST10	East Staffordshire		52.913	-2.0133
+ST3	Stafford		52.9557	-2.1077
+ST4	Stafford		52.951	-2.1981
+ST11	Stafford		52.9405	-2.0723
+ST12	Stafford		52.9417	-2.1921
+ST15	Stafford		52.8932	-2.1252
+ST16	Stafford		52.806	-2.1054
+ST18	Stafford		52.7594	-2.1788
+ST17	South Staffordshire		52.7598	-2.0959
+ST19	South Staffordshire		52.7155	-2.1867
+SK11	Cheshire East		53.2353	-2.3073
+ST7	Cheshire East		53.0961	-2.319
+ST5	Newcastle-under-Lyme		52.9411	-2.3099
+ST20	Stafford		52.797	-2.3176
+ST21	Stafford		52.8641	-2.3101
+SY14	Cheshire West and Chester		53.0177	-2.7698
+SY13	Shropshire		52.8976	-2.6669
+SY6	Shropshire		52.6039	-2.8036
+SY99	Shropshire		52.7132	-2.7491
+SY2	Shropshire		52.6988	-2.7271
+SY1	Shropshire		52.7213	-2.7385
+SY3	Shropshire		52.6965	-2.745
+SY12	Shropshire		52.9194	-2.9234
+SY11	Shropshire		52.8621	-3.0406
+SY15	Shropshire		52.5974	-3.0641
+SY4	Shropshire		52.7534	-2.9361
+SY5	Powys - Powys		52.7236	-3.0141
+SY16	Powys - Powys		52.5989	-3.387
+SY22	Powys - Powys		52.7059	-3.3207
+SY10	Powys - Powys		52.8074	-3.5397
+SY21	Powys - Powys		52.6841	-3.4927
+SY19	Powys - Powys		52.6084	-3.6298
+SY20	Powys - Powys		52.5899	-3.8531
+S64	Doncaster		53.5	-1.2744
+S97	Rotherham		53.5086	-1.3329
+S63	Barnsley		53.5438	-1.3007
+S35	Barnsley		53.5072	-1.5723
+S73	Barnsley		53.528	-1.4167
+S72	Barnsley		53.579	-1.4167
+S74	Barnsley		53.4991	-1.4677
+S71	Barnsley		53.5714	-1.4314
+S75	Barnsley		53.5823	-1.5515
+S70	Barnsley		53.5448	-1.4436
+SK13	High Peak		53.4991	-1.8552
+S36	Barnsley		53.5173	-1.7628
+SK15	Tameside		53.5064	-2.0201
+SR8	County Durham		54.7717	-1.3845
+SR1	Sunderland		54.9042	-1.3956
+SR6	Sunderland		54.9276	-1.3777
+SR2	Sunderland		54.9006	-1.3967
+SR7	County Durham		54.8208	-1.3954
+SR4	Sunderland		54.9066	-1.4198
+SR5	Sunderland		54.9186	-1.4396
+SR3	Sunderland		54.8863	-1.3992
 Stodmarsh	Canterbury	v	51.3007	1.1826
 St Nicholas at Wade	Thanet	v	51.3532	1.2542
 Sarre	Thanet	v	51.3384	1.2393

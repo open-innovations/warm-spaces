@@ -26,7 +26,7 @@ $types = {
 	'Other Settlement'=>{'key'=>'o','size'=>2},
 	'Suburban Area'=>{'key'=>'a','size'=>7}
 };
-
+%postcodes;
 
 opendir(my $dh, $dir);
 @filenames = sort readdir( $dh );
@@ -48,14 +48,28 @@ for($f = 0; $f < @filenames; $f++){
 			}else{
 				(@cols) = split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/,$line);
 			}
+			$pcd = 0;
+			if($cols[7] eq "Postcode" && $cols[2] =~ /^([^\s]+)/){
+				$pcd = $1;
+				if($pcd && $postcodes{$pcd}){
+					# Don't bother keeping it if we already have it
+					$pcd = "";
+				}
+			}
 			# Get coordinates
-			if($cols[6] eq "populatedPlace" && $types->{$cols[7]}){
+			if(($cols[6] eq "populatedPlace" && $types->{$cols[7]}) || $pcd){
 				($lat,$lon) = grid_to_ll($cols[8],$cols[9]);
 				$lat += 0;
 				$lon += 0;
 				if($lat >= $bounds[0][0] && $lat <= $bounds[1][0] && $lon >= $bounds[0][1] && $lon <= $bounds[1][1]){
 					$key = $cols[2].",".$cols[24].",".$cols[21].",".$cols[16];
-					push(@places,{'latitude'=>sprintf("%0.4f",$lat)+0,'longitude'=>sprintf("%0.4f",$lon)+0,'ref'=>$file,'name'=>$cols[2],'admin name'=>($cols[21]||$cols[24]),'type'=>$types->{$cols[7]}{'key'},'size'=>$types->{$cols[7]}{'size'}});
+					if($pcd && !$postcodes{$pcd}){
+						print "Adding postcode district $pcd at $lat,$lon\n";
+						$postcodes{$pcd} = {'latitude'=>sprintf("%0.4f",$lat)+0,'longitude'=>sprintf("%0.4f",$lon)+0,'ref'=>$file,'name'=>$pcd,'admin name'=>($cols[21]||$cols[24]),'type'=>$types->{$cols[7]}{'key'},'size'=>5};
+						push(@places,$postcodes{$pcd});
+					}else{
+						push(@places,{'latitude'=>sprintf("%0.4f",$lat)+0,'longitude'=>sprintf("%0.4f",$lon)+0,'ref'=>$file,'name'=>$cols[2],'admin name'=>($cols[21]||$cols[24]),'type'=>$types->{$cols[7]}{'key'},'size'=>$types->{$cols[7]}{'size'}});
+					}
 					$n = @places;
 					if($n%1000==0){
 						print "\t\t$n places\n";
