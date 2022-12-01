@@ -135,7 +135,7 @@
 		this.updateList = function(){
 
 			var max = (this.region ? this.sorted.length : Math.min(60,this.sorted.length));
-			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy;
+			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy,lat,lon;
 			// We want to round to the accuracy of the geolocation
 			acc = (this.location ? this.location.coords.accuracy : 50);
 			logacc = Math.log10(acc);
@@ -182,7 +182,9 @@
 						if(p.hours && p.hours._text){
 							html += '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
-						html += '<p><strong>Map:</strong> <a href="https://www.openstreetmap.org/#map=18/'+this.sorted[i].geometry.coordinates[1]+'/'+this.sorted[i].geometry.coordinates[0]+'" target="_map">view this on Open Street Map</a></p>';
+						lat = this.sorted[i].geometry.coordinates[1];
+						lon = this.sorted[i].geometry.coordinates[0];
+						html += '<p><strong>Map:</strong> <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
 						html += '</div>';
 						html += (p.url ? '</a>':'</div>');
 						html += formatSource(this.sources[p._source]);
