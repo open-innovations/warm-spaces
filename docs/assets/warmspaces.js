@@ -180,7 +180,7 @@
 						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
-							html += '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
+							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
 						lat = this.sorted[i].geometry.coordinates[1];
 						lon = this.sorted[i].geometry.coordinates[0];
