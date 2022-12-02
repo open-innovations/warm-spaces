@@ -47,11 +47,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add index.html
-          git add data/summary.html
-          git add data/places.json
-          git add data/sources.json
-          git add data/tiles/10/
+          git add docs/index.html
+          git add docs/data/summary.html
+          git add docs/data/places.json
+          git add docs/data/sources.json
+          git add docs/data/tiles/10/
           git commit -m "Update data" || exit 0
 
       - name: Push changes
