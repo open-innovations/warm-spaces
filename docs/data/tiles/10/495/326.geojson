@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-5.89883,54.40369],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lisburn Road, Ballynahinch, Down BT24 8BD","description":" This is a warm and friendly atmosphere where people can join in the crafts and conversation or simply sit and do a crossword. ALL ARE WELCOME. Enter through the side doors at the car park. ","hours":{"_text":"Thursday: 14:00 - 17:00","opening":"Th 14:00-17:00"},"title":"Ballynahinch Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.94708,54.53639],"type":"Point"},"properties":{"_source":"warm_welcome","address":"107 Ballylesson Road, Ballylesson , Belfast BT8 8JT","description":"","hours":{"_text":"Monday: 10:30 - 11:30, Tuesday: 11:00 - 12:00, Sunday: 11:00 - 12:00","opening":"Mo 10:30-11:30; Tu 11:00-12:00; Su 11:00-12:00"},"title":"Holy Trinity Ballylesson, Church of Ireland"},"type":"Feature"}
 	]
 }

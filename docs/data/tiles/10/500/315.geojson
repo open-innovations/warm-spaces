@@ -1,9 +1,9 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.08227,56.57724],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"MCLEAN HALL FEARNAN Aberfeldy PH15 2PF","description":"Warm space for social groups which meet in hall","hours":{"_text":"Warm space for social groups which meet in hall"},"title":"McLean Hall, Fearnan"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.86834,56.61959],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":" ABERFELDY PARISH CHURCH HALL TAYBRIDGE ROAD ABERFELDY PH15 2BH","description":" Warm space /refreshments3 x after school drop ins p/w 11-19 yrs.","hours":{"_text":" Warm space /refreshments3 x after school drop ins p/w 11-19 yrs."},"title":"The Breathe Project (Aberfeldy Parish Church)"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.92424,56.61928],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"CAMSERNEY HALL CAMSERNEY","description":"Warm space for groups which use hall","hours":{"_text":"Warm space for groups which use hall"},"title":"Camserney Hall Committee"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.18583,56.70251],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"GEORGETOWN HALL, BRIDGE OF GAUR, LOCH RANNOCH PH17 2QE","description":"Warm space/ social activities/ refreshments","hours":{"_text":"Warm space/ social activities/ refreshments"},"title":"Rannoch Community Trust"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.86834,56.61959],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":" ABERFELDY PARISH CHURCH HALL TAYBRIDGE ROAD ABERFELDY PH15 2BH","description":"3 x after school drop ins p/w 11-19 yrs. warm space /refreshments","hours":{"_text":"3 x after school drop ins p/w 11-19 yrs. warm space /refreshments"},"title":"The Breathe Project (Aberfeldy Parish Church)"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.08227,56.57724],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"MCLEAN HALL FEARNAN Aberfeldy PH15 2PF","description":"Warm space for social groups which meet in hall","hours":{"_text":"Warm space for social groups which meet in hall"},"title":"McLean Hall, Fearnan"},"type":"Feature"}
 	]
 }

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.37834,52.24045],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crescent Chambers, Llandrindod Wells, Powys LD1 5DH","description":"16 years and over","hours":{"_text":"Monday: 13:00 - 16:00, Thursday: 10:00 - 13:00","opening":"Mo 13:00-16:00; Th 10:00-13:00"},"title":"Mid and North Powys Mind"},"type":"Feature"}
+	]
+}

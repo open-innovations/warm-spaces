@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.58654,55.06359],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Gillbra Road, Dumfries, Dumfries and Galloway DG14EJ","description":"Open from 261-11-2022. Our focus is on the senior members of our community Changing Places Toilet","hours":{"_text":"Saturday: 10:00 - 14:00","opening":"Sa 10:00-14:00"},"title":"Dumfries Baptist Church Saturday Warm Space"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.57956,55.09599],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Barnett Road, Heathhall, Dumfries DG1 3RU","description":"Open from 28-11-2022. We have a selection of books, jigsaws and games.","hours":{"_text":"Monday: 10:00 - 13:00","opening":"Mo 10:00-13:00"},"title":"Heathhall Community Centre Committee"},"type":"Feature"}
 	]
 }

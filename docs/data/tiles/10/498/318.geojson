@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.73419,56.00392],"type":"Point"},"properties":{"_source":"warm_welcome","address":"35 West Princes Street, Helensburgh, Argyll & Bute G84 8TF","description":"Open from 27th Nov 2022, 4th Dec 2022, 11th Dec 2022, 18th Dec 2022. While we cater primarily for the elderly all are welcome","hours":{"_text":"Sunday: 14:00 - 16:00","opening":"Su 14:00-16:00"},"title":"Helensburgh United Reformed Church"},"type":"Feature"}
+	]
+}

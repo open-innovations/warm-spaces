@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.78570,51.21089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cold Nose , Bagley Nr Wedmore, Somerset BS28 4TG","description":"All welcome Free tea/coffee & homemade cakes","hours":{"_text":"Wednesday: 10:30 - 12:00","opening":"We 10:30-12:00"},"title":"Bagley Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.65263,51.20863],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Connect Centre, Portway, Wells BA5 2BE","description":"Providing a warm space and meal for those who need it","hours":{"_text":"Wednesday: 13:00 - 14:00, Sunday: 13:00 - 15:00","opening":"We 13:00-14:00; Su 13:00-15:00"},"title":"Connect Community Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.65239,51.20855],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Connect Centre, Portway, Wells, England, BA5 2BE","hours":{"_text":"Sunday's 1pm-2pm, Wednesday's 12pm-2pm","opening":"Su 13:00-14:00; We 12:00-14:00"},"title":"The Connect Centre","url":"https://www.connect-centre.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.64867,51.20952],"type":"Point"},"properties":{"_source":"warm_spaces","address":"23 Union Street, Wells, England, BA5 2PU","hours":{"_text":"Thursday 10am-12noon","opening":"Th 10:00-12:00"},"title":"Wells United Church","url":"https://www.facebook.com/unionstreetwells/"},"type":"Feature"},

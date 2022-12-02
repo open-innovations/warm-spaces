@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.19133,57.46866],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sir Walter Scott Drive, Inverness, Highland IV2 3TW","description":"Open from 09-12-2022.","hours":{"_text":"Friday: 10:00 - 13:00","opening":"Fr 10:00-13:00"},"title":"Inshes Church of Scotland"},"type":"Feature"}
+	]
+}

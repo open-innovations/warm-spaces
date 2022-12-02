@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-5.10576,56.68307],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Marys Rectory, Lorn Drive, Glencoe PH49 4HP","description":"Everybody welcome with particular focus on welcoming school pupils. Open School Term Time only. 1pm Cafe Kinloch will provide free hot lunch for high school pupils. 3-4pm Little Bears activity and after school snack for Primary Pupils. Open to everybody 12-4.","hours":{"_text":"Tuesday: 12:00 - 16:00","opening":"Tu 12:00-16:00"},"title":"West Highland Region Episcopal Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.10105,56.68263],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Marys Episcopal Church, Glencoe, Argyll PH49 4HS","description":"","hours":{"_text":"Thursday: 11:00 - 14:00","opening":"Th 11:00-14:00"},"title":"West Highland Region Scottish Episcopal Church"},"type":"Feature"}
 	]
 }
