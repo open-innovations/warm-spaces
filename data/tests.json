@@ -273,7 +273,8 @@
 		{"text":"Monday: 8:30 - 17:00, Tuesday: 8:30 - 17:00, Wednesday: 8:30 - 17:00, Thursday: 8:30 - 17:00, Friday: 8:30 - 16:30","good":"Mo 08:30-17:00; Tu 08:30-17:00; We 08:30-17:00; Th 08:30-17:00; Fr 08:30-16:30"},
 		{"text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 19:00, Thursday: 09:00 - 17:00, Friday: 09:00 - 17:00, Saturday: 09:00 - 13:00","good":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-19:00; Th 09:00-17:00; Fr 09:00-17:00; Sa 09:00-13:00"},
 		{"text":"Mon-Fri 2pm-4pm","good":"Mo-Fr 14:00-16:00"},
-		{"text":"Wednesday: 10.30am — 12.30pm, Saturday: 10am — 12pm","good":"We 10:30-12:30; Sa 10:00-12:00"}
+		{"text":"Wednesday: 10.30am — 12.30pm, Saturday: 10am — 12pm","good":"We 10:30-12:30; Sa 10:00-12:00"},
+		{"text":"Tuesday, 11am til 12.30pm","good":"Tu 11:00-12:30"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},

@@ -87,6 +87,10 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 			
 			@features = getGoogleMap($d);
 			
+		}elsif($d->{'data'}{'type'} eq "csv"){
+			
+			@features = getCSV($d);
+			
 		}elsif($d->{'data'}{'type'} eq "html"){
 
 			# Find the scraping file
@@ -563,4 +567,63 @@ sub getSquareSpace {
 		push(@features,$json);
 	}
 	return @features;
+}
+
+sub getCSV {
+	my $d = shift;
+
+	my ($file,@lines,$str,@rows,@cols,@header,$r,$c,@features,$data,$key,$k,$f);
+	my @fields = ("title","address","lat","lon","description","accessibility","type","hours");
+
+	# Get the data (if we don't have a cached version)
+	$file = getDataFromURL($d);
+
+
+	msg("\tProcessing CSV\n");
+	open(FILE,"<:utf8",$file);
+	@lines = <FILE>;
+	close(FILE);
+	$str = join("",@lines);
+	@rows = split(/\r\n/,$str);
+	for($r = 0; $r < @rows; $r++){
+		@cols = split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/,$rows[$r]);
+		if($r < $d->{'data'}{'startrow'}-1){
+			# Header
+			if(!@header){
+				@header = @cols;
+			}else{
+				for($c = 0; $c < @cols; $c++){
+					$header[$c] .= "\n".$cols[$c];
+				}
+			}
+		}else{
+			if($r == $d->{'data'}{'startrow'}-1){
+				# Process header line - rename columns based on the defined keys
+				for($c = 0; $c < @cols; $c++){
+					$key = $header[$c];
+					foreach $k (keys(%{$d->{'data'}{'keys'}})){
+						if($d->{'data'}{'keys'}{$k} eq $key){
+							$header[$c] = $k;
+							last;
+						}
+					}
+				}
+			}
+			$data = {'_source'=>$d->{'id'}};
+			for($c = 0; $c < @cols; $c++){
+				$cols[$c] =~ s/(^\"|\"$)//g;
+				$needed = 0;
+				for($f = 0; $f < @fields; $f++){
+					if($header[$c] eq $fields[$f]){ $needed = 1; }
+				}
+				if($needed){ $data->{$header[$c]} = $cols[$c]; }
+				if($header[$c] eq "hours"){ $data->{'hours'} = parseOpeningHours({'_text'=>$cols[$c]}); }
+			}
+			push(@features,$data);
+		}
+	}
+
+
+	# Add lat,lon from postcodes if we don't have them
+	return addLatLonFromPostcodes(@features);
 }

@@ -326,6 +326,15 @@
 		"title": "Sefton CVS",
 		"url": "https://seftoncvs.org.uk/warmspaces/"
 	},
+	"sheffield_vas": {
+		"count": 104,
+		"data": { "keys": { "address": "address", "contact": "phonenumber", "description": "information", "hours": "openingtimes", "lat": "lat", "lon": "lng", "title": "name", "url": "website" }, "startrow": "2", "type": "csv", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRbIq7B3EB_tSnW2Uoi4q1Sfrey5lxscOANLYHWYc5ZXDn5gD-5wXD3RCLSWJ2UehImGwEQn-rPss3/pub?output=csv" },
+		"geocount": 104,
+		"id": "sheffield_vas",
+		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
+		"title": "Sheffield VAS",
+		"url": "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
+	},
 	"southwalk_council": {
 		"count": 30,
 		"data": { "type": "html", "url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces" },

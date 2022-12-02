@@ -223,7 +223,7 @@ sub parseOpeningHours {
 	if($str && !$hours->{'_parsed'}){
 
 		$str =~ s/ at [^0-9]+ from /: /g;
-		$str =~ s/ (to|until) / - /g;
+		$str =~ s/ (to|until|til) / - /g;
 		$str =~ s/ from /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/\&apos\;//g;
@@ -236,7 +236,7 @@ sub parseOpeningHours {
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
 		$str =~ s/Weekends/Sa-Su/gi;
-		$str =~ s/(Every day|7 days a week|daily)/Mo-Su/gi;
+		$str =~ s/(Every day|7 days a week|7 days|daily)/Mo-Su/gi;
 
 		# Convert "noon" values to numbers
 		$str =~ s/12 ?noon/12:00/g;

@@ -317,6 +317,24 @@ directories:
       parse: "{{ hours }}"
       keys:
         title: "name"
+  - title: "Sheffield VAS"
+    url: "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
+    map:
+      url: "https://foxdash.co.uk/vas/index.htm"
+      type: leaflet
+    data:
+      url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRbIq7B3EB_tSnW2Uoi4q1Sfrey5lxscOANLYHWYc5ZXDn5gD-5wXD3RCLSWJ2UehImGwEQn-rPss3/pub?output=csv"
+      type: csv
+      startrow: 2
+      keys:
+        url: "website"
+        title: "name"
+        contact: "phonenumber"
+        address: "address"
+        lat: "lat"
+        lon: "lng"
+        description: "information"
+        hours: "openingtimes"
   - title: "Southwalk Council"
     url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
     data:
