@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.82181,50.34099],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Trinity Methodist Church, Westbridge Road,, Trewoon, St. Austell,, Cornwall, PL255TE","description":"","hours":{"_text":"Thursday: 10:00 - 12:00","opening":"Th 10:00-12:00"},"title":"St. Johns with Trinity Methodist Church, St. Austell."},"type":"Feature"}
+	]
+}
