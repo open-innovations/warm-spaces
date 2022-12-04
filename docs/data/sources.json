@@ -124,7 +124,7 @@
 	"durham_county_council": {
 		"count": 100,
 		"data": { "type": "html", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
-		"geocount": 99,
+		"geocount": 100,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -428,9 +428,9 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1003,
+		"count": 1005,
 		"data": { "type": "squarespace", "url": "https://warmspaces.org/locations/" },
-		"geocount": 1003,
+		"geocount": 1005,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -438,9 +438,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3047,
+		"count": 3061,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 3047,
+		"geocount": 3061,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

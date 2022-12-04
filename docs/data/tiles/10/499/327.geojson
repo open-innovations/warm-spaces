@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.48323,54.17336],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Josephs, Fenella Ave, , Douglas, isle of man IM2 6PD","description":" Every Thursday 12-2 we run a warm space with our community fridge, where each week anyone can drop in and have a meal and take home a bag of groceries. Then 2-3 each week looks different throughout the month, with well being, guest speakers & craft.","hours":{"_text":"Thursday: 12:00 - 15:30, Sunday: 16:00 - 18:30","opening":"Th 12:00-15:30; Su 16:00-18:30"},"title":"Living Hope Church"},"type":"Feature"}
+	]
+}
