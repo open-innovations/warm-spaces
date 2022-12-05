@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-74.00076,40.72076],"type":"Point"},"properties":{"_source":"warm_spaces","address":", ","hours":{"_text":""},"title":"Stotfold Library"},"type":"Feature"}
-	]
-}
