@@ -50,6 +50,13 @@ directories:
     data:
       url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
       type: html
+  - title: "Bexley Council"
+    url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+    register:
+      url: "https://forms.office.com/r/x39WnQanNv"
+    data:
+      url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+      type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     data:
@@ -72,6 +79,9 @@ directories:
     data:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: html
+  - title: "Brent"
+    url: "https://www.brent.gov.uk/cost-of-living-help-and-advice"
+    notes: "Refers people to Warm Welcome"
   - title: "Brighton & Hove Council"
     url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
     map:
@@ -94,6 +104,22 @@ directories:
         url: "WEB"
         contact: "CONTACT"
         address: "ADDRESS"
+  - title: "Bromley Well"
+    url: "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11"
+      type: googlemap
+      keys:
+        title: "name"
+        description: "Notes"
+        hours: "Notes"
+        address: "street"
+        contact: "Tel: {{ Phone }}; Email: {{ Email }}"
+        address: "{{ street }}, {{ Postcode }}"
+        url: "Web"
   - title: "Buckinghamshire Council"
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:
@@ -134,6 +160,12 @@ directories:
         hours: "description"
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+    notes: "Refers to Warm Welcome UK" 
+  - title: "Croydon Simply Connect"
+    url: "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
+    data: 
+      url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
+      type: html
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
@@ -144,6 +176,8 @@ directories:
     data:
       url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
       type: html
+  - title: "Ealing Council"
+    url: "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
   - title: "East Ayrshire Council"
     url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
   - title: "Enfield Council"
@@ -165,6 +199,14 @@ directories:
     url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
     data:
       url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
+      type: html
+  - title: "Greenwich Council"
+    url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
+    map:
+      url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
+      type: googlemap
+    data:
+      url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
       type: html
   - title: "Harrogate NetMakers"
     url: "http://netmakers.org.uk/warmwelcome/"

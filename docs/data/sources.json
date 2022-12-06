@@ -27,6 +27,15 @@
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
+	"bexley_council": {
+		"count": 5,
+		"data": { "type": "html", "url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley" },
+		"geocount": 5,
+		"id": "bexley_council",
+		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
+		"title": "Bexley Council",
+		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+	},
 	"birmingham_council": {
 		"count": "0",
 		"data": { "robots": "", "type": "portal", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" },
@@ -60,6 +69,12 @@
 		"title": "Bradford Council",
 		"url": "https://costoflivingbradford.co.uk/warm-spaces/"
 	},
+	"brent": {
+		"id": "brent",
+		"notes": "Refers people to Warm Welcome",
+		"title": "Brent",
+		"url": "https://www.brent.gov.uk/cost-of-living-help-and-advice"
+	},
 	"brighton___hove_council": {
 		"count": 39,
 		"data": { "type": "html", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
@@ -77,6 +92,15 @@
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
 		"url": "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
+	},
+	"bromley_well": {
+		"count": 50,
+		"data": { "keys": { "address": "{{ street }}, {{ Postcode }}", "contact": "Tel: {{ Phone }}; Email: {{ Email }}", "description": "Notes", "hours": "Notes", "title": "name", "url": "Web" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
+		"geocount": 50,
+		"id": "bromley_well",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
+		"title": "Bromley Well",
+		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
 		"id": "buckinghamshire_council",
@@ -127,8 +151,17 @@
 	},
 	"city_of_london": {
 		"id": "city_of_london",
+		"notes": "Refers to Warm Welcome UK",
 		"title": "City of London",
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+	},
+	"croydon_simply_connect": {
+		"count": 15,
+		"data": { "type": "html", "url": "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort=" },
+		"geocount": 15,
+		"id": "croydon_simply_connect",
+		"title": "Croydon Simply Connect",
+		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
 	},
 	"durham_county_council": {
 		"count": 100,
@@ -139,6 +172,11 @@
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
 		"title": "Durham County Council",
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+	},
+	"ealing_council": {
+		"id": "ealing_council",
+		"title": "Ealing Council",
+		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
 		"id": "east_ayrshire_council",
@@ -173,6 +211,15 @@
 		"id": "gedling_council",
 		"title": "Gedling Council",
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
+	},
+	"greenwich_council": {
+		"count": 26,
+		"data": { "type": "html", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" },
+		"geocount": 26,
+		"id": "greenwich_council",
+		"map": { "type": "googlemap", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" },
+		"title": "Greenwich Council",
+		"url": "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
 	},
 	"harrogate_netmakers": {
 		"count": 15,
@@ -273,9 +320,9 @@
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
 	},
 	"northumberland_county_council": {
-		"count": 109,
+		"count": 114,
 		"data": { "keys": { "address": "B", "title": "A", "url": "C" }, "sheet": "sheet1", "startrow": "2", "type": "xls", "url": "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Support/Warm%20Spaces/Warm-Spaces.xlsx" },
-		"geocount": 109,
+		"geocount": 114,
 		"id": "northumberland_county_council",
 		"map": { "type": "tableau", "url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q" },

@@ -102,19 +102,24 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				# Get the data (if we don't have a cached version)
 				$file = getDataFromURL($d);
 				
-				open(FILE,"<:utf8",$file);
-				@lines = <FILE>;
-				close(FILE);
+				open(my $fh,"<:utf8",$file);
+				@lines = <$fh>;
+				close($fh);
 				$str = join("",@lines);
+
 				if($str !~ /<html[^\>]*>/i){
 					# Try unzipping the file
-					msg("\tTry unzip\n");
+					msg("\tTry unzip $file\n");
 					$zip = $file;
-					$zip =~ s/\.html/\.gz/;
-					`mv $file $zip`;
-					`gunzip $zip`;
-					$zip =~ s/\.gz//g;
-					`mv $zip $file`;
+					$zip =~ s/\.html//;
+					`mv $file $zip.gz`;
+					@lines = `gunzip $zip.gz`;
+					if(-e $zip){
+						`mv $zip $file`;
+					}else{
+						# If the zip file still exists it wasn't zipped
+						`mv $zip.gz $file`;
+					}
 				}
 
 				msg("\tParsing web page\n");
@@ -442,7 +447,7 @@ sub getGoogleMap {
 	my $d = shift;
 	my $keys = shift;
 
-	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$remove,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt);
+	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$props,$remove,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt,$key,$v,$tempv);
 
 	$url = $d->{'data'}{'url'};
 	$file = $rawdir.$d->{'id'}.".html";
@@ -456,7 +461,7 @@ sub getGoogleMap {
 		$kmzurl =~ s/\\\\u003d/=/g;
 		$kmzurl =~ s/\\\\u0026/\&/g;
 	}
-	msg("\tGetting Google Maps kmz\n");
+	msg("\tGetting Google Maps kmz from $kmzurl\n");
 	getURLToFile($kmzurl,$kmzfile);
 	msg("\tUnzipping kmz\n");
 	$str = decode_utf8(join("",`unzip -p $kmzfile doc.kml`));
@@ -464,6 +469,7 @@ sub getGoogleMap {
 	while($str =~ s/<Placemark>(.*?)<\/Placemark>//s){
 		$placemark = $1;
 		$entry = {};
+		$props = {};
 		if($placemark =~ /<name>(.*?)<\/name>/s){ $entry->{'name'} = cleanCDATA($1); }
 		if($placemark =~ /<coordinates>(.*?)<\/coordinates>/s){
 			$c = cleanCDATA($1);
@@ -473,50 +479,75 @@ sub getGoogleMap {
 			$entry->{'lat'} = $lat+0;
 			$entry->{'lon'} = $lon+0;
 		}
-		if($placemark =~ /<description>(.*?)<\/description>/s){
-			$entry->{'description'} = cleanCDATA($1);
-			$remove = {};
-			if($d->{'data'}{'parse'}){
-				$parse = $d->{'data'}{'parse'}."";
-				@reps = ();
-				while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/){
-					push(@reps,$1);
+		if($placemark =~ /<ExtendedData>(.*?)<\/ExtendedData>/s){
+			$parse = $1;
+			while($parse =~ s/<Data name="([^\"]+)">(.*?)<\/Data>//s){
+				$k = $1;
+				$v = $2;
+				if($v =~ s/^.*<value>(.*?)<\/value>.*$/$1/gs){
+					$props->{$k} = $v;
 				}
-				$re = qr/^$parse$/is;
-				@matches = $entry->{'description'} =~ $re;
-				if(@matches > 0){
-					for($p2 = 0; $p2 < @reps; $p2++){
-						$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
-						$txt = parseText($matches[$p2]);
-						if($txt){ $entry->{$reps[$p2]} = $txt; }
+			}
+		}else{
+			if($placemark =~ /<description>(.*?)<\/description>/s){
+				$entry->{'description'} = cleanCDATA($1);
+				$remove = {};
+				if($d->{'data'}{'parse'}){
+					$parse = $d->{'data'}{'parse'}."";
+					@reps = ();
+					while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/){
+						push(@reps,$1);
 					}
-				}
-				$remove{'description'} = 1;
-			}
-			if($d->{'data'}{'keys'}){
-				# Build replacements
-				foreach $k (keys(%{$d->{'data'}{'keys'}})){
-					if($entry->{$d->{'data'}{'keys'}{$k}}){
-						$entry->{$k} = "".$entry->{$d->{'data'}{'keys'}{$k}};
-						$remove->{$d->{'data'}{'keys'}{$k}} = 1;
+					$re = qr/^$parse$/is;
+					@matches = $entry->{'description'} =~ $re;
+					if(@matches > 0){
+						for($p2 = 0; $p2 < @reps; $p2++){
+							$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
+							$txt = parseText($matches[$p2]);
+							if($txt){ $props->{$reps[$p2]} = $txt; }
+						}
 					}
-				}
-				if(!$entry->{'hours'} && $entry->{$d->{'data'}{'keys'}{'hours'}}){
-					$entry->{'hours'} = $entry->{$d->{'data'}{'keys'}{'hours'}};
-					$entry->{'hours'} =~ s/<br>/ /;
-					$entry->{'hours'} =~ s/[\s]/ /;
-					$entry->{'hours'} =~ s/[^0-9A-Za-z\-\,\.\:\;\s\[\]]/ /;
-					if($d->{'data'}{'keys'}{'hours'} eq "description"){ $remove{'description'} = 1; }
-				}
-				$entry->{'description'} = parseText($entry->{'description'});
-				if(!$entry->{'description'}){ $remove{'description'}; }
-				if($d->{'data'}{'keys'}{'description'}){
-					delete $remove->{'description'};
+					$remove{'description'} = 1;
 				}
 			}
-			foreach $k (keys(%{$remove})){
-				delete $entry->{$k};
+		}
+
+		if($d->{'data'}{'keys'}){
+
+			# Replace any replacements in the $props structure and add them to the $entry structure
+			foreach $key (keys(%{$d->{'data'}{'keys'}})){
+				$v = $d->{'data'}{'keys'}{$key};
+				if($props->{$v} && !$entry->{$key}){
+					$entry->{$key} = $props->{$v};
+				}elsif($v =~ /\{\{ ?(.*?) ?\}\}/){
+					$v =~ s/\{\{ ?(.*?) ?\}\}/$props->{$1}/sg;
+					$v =~ s/[\n]//g;
+					$entry->{$key} = $v;
+				}
 			}
+
+			# Build replacements
+			foreach $k (keys(%{$d->{'data'}{'keys'}})){
+				if($entry->{$d->{'data'}{'keys'}{$k}}){
+					$entry->{$k} = "".$entry->{$d->{'data'}{'keys'}{$k}};
+					$remove->{$d->{'data'}{'keys'}{$k}} = 1;
+				}
+			}
+			if(!$entry->{'hours'} && $entry->{$d->{'data'}{'keys'}{'hours'}}){
+				$entry->{'hours'} = $entry->{$d->{'data'}{'keys'}{'hours'}};
+				$entry->{'hours'} =~ s/<br>/ /;
+				$entry->{'hours'} =~ s/[\s]/ /;
+				$entry->{'hours'} =~ s/[^0-9A-Za-z\-\,\.\:\;\s\[\]]/ /;
+				if($d->{'data'}{'keys'}{'hours'} eq "description"){ $remove{'description'} = 1; }
+			}
+			$entry->{'description'} = parseText($entry->{'description'});
+			if(!$entry->{'description'}){ $remove{'description'}; }
+			if($d->{'data'}{'keys'}{'description'}){
+				delete $remove->{'description'};
+			}
+		}
+		foreach $k (keys(%{$remove})){
+			delete $entry->{$k};
 		}
 		if($entry->{'hours'}){
 			$entry->{'hours'} = parseOpeningHours({'_text'=>$entry->{'hours'}});
@@ -525,6 +556,8 @@ sub getGoogleMap {
 		$entry->{'_source'} = $d->{'id'};
 		push(@entries,$entry);
 	}
+	
+	@entries = addLatLonFromPostcodes(@entries);
 
 	return @entries;
 }
