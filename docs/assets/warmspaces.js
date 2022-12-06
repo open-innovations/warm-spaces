@@ -163,7 +163,7 @@
 			html = '';
 			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
 				p = this.sorted[i].properties;
-				d = (this.sorted[i].distance) ? Math.ceil(this.sorted[i].distance/accuracy)*accuracy : -1;
+				d = formatDistance(this.sorted[i].distance,accuracy);
 				var hours = {};
 				if(p.hours && p.hours.opening) hours = processHours(p.hours.opening);
 				var typ = hours.type;
@@ -177,7 +177,7 @@
 						html += '<div class="doublepadded">';
 						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
 						if(p.address) html += '<p class="address">'+p.address+'</p>';
-						html += (d >= 0 ? '<p><span class="dist">'+d+'m</span> or so away</p>' : '');
+						html += (d ? '<p><span class="dist">'+d+'</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
@@ -567,7 +567,7 @@
 						zoomToBoundsOnClick: true
 					});
 					var markerList = [];
-          var ll,tempmark;
+					var ll,tempmark;
 					for(i = 0; i < geojson.features.length; i++){
 						if(geojson.features[i].geometry.type=="Point"){
 							ll = geojson.features[i].geometry.coordinates;
@@ -642,7 +642,7 @@
 			return;
 		}
 		this.normaliseZoom = function(z){
-      var idx,min,i,v,zoom;
+			var idx,min,i,v,zoom;
 			// Take a default zoom level
 			zoom = (typeof opts.zoom==="number") ? opts.zoom : 10;
 			// If a zoom is provided, set it
@@ -729,6 +729,13 @@
 		}
 		
 		return this;
+	}
+	function formatDistance(d,accuracy){
+		if(typeof d==="number") d = Math.ceil(d/accuracy)*accuracy
+		else d = "";
+		if(d > 1000) d = parseFloat((d/1000).toFixed(1))+'km';
+		else d = d+'m';
+		return d;
 	}
 	function Log(opt){
 		// Console logging version 2.0
