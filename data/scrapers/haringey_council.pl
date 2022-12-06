@@ -52,7 +52,7 @@ if(-e $file){
 				$key = $title."=".$li[0];
 
 
-				if(!$places{$key}){ $places{$key} = {'title'=>$key,'hours'=>{'_text'=>''},'address'=>$li[0]}; }
+				if(!$places{$key}){ $places{$key} = {'title'=>$title,'hours'=>{'_text'=>''},'address'=>$li[0]}; }
 				$places{$key}{'hours'}{'_text'} .= ($places{$key}{'hours'}{'_text'} ? "; ":"")."$day: $1";
 				$places{$key}{'description'} .= ($places{$key}{'description'} ? ", ":"")."$day: ".$li[1];
 				
