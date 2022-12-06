@@ -208,6 +208,11 @@ directories:
     data:
       url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
       type: html
+  - title: "Haringey Council"
+    url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
+    data:
+      url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
+      type: html
   - title: "Harrogate NetMakers"
     url: "http://netmakers.org.uk/warmwelcome/"
     map:

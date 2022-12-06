@@ -221,6 +221,14 @@
 		"title": "Greenwich Council",
 		"url": "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
 	},
+	"haringey_council": {
+		"count": 17,
+		"data": { "type": "html", "url": "https://www.haringey.gov.uk/community/haringey-warm-welcome" },
+		"geocount": 17,
+		"id": "haringey_council",
+		"title": "Haringey Council",
+		"url": "https://www.haringey.gov.uk/community/haringey-warm-welcome"
+	},
 	"harrogate_netmakers": {
 		"count": 15,
 		"data": { "keys": { "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/u/1/embed?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&ehbc=2E312F" },
