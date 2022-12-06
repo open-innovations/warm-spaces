@@ -121,6 +121,17 @@ directories:
   - title: "Cheshire West and Chester Council"
     url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
     notes: "Refers people to Warm Welcome"
+  - title: "Chesterfield Council"
+    url: "https://www.chesterfield.gov.uk/home/latest-news/find-a-warm-space-to-visit-in-chesterfield.aspx"
+    map:
+      url: "https://www.google.com/maps/d/u/0/viewer?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/u/0/embed?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13"
+      type: googlemap
+      keys:
+        title: "name"
+        hours: "description"
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
   - title: "Durham County Council"
@@ -184,6 +195,20 @@ directories:
     data:
       url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
       type: html
+  - title: "Kensington and Chelsea"
+    url: "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
+    map:
+      url: "https://lbhf.maps.arcgis.com/apps/instant/nearby/index.html?appid=e7e3050fbb8e49b79b5743bf17b9c720&sliderDistance=400&findSource=1&find=-23824.558013193524%252C6713243.6715945285"
+      type: arcgis
+    data:
+      url: "https://utility.arcgis.com/usrsvcs/servers/599218e67dc34f369b8d941491bb565a/rest/services/RBKC/GeneralServices/MapServer/82/query?f=json&cacheHint=true&resultOffset=0&resultRecordCount=1000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=102100&spatialRel=esriSpatialRelIntersects"
+      type: arcgis
+      keys:
+        title: "Venue"
+        address: "Address"
+        contact: "Contact_Information"
+        hours: "Timings_and_Offers"
+        url: "Weblink"
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:

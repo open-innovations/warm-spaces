@@ -6,6 +6,7 @@ use JSON::XS;
 use YAML::XS 'LoadFile';
 use Data::Dumper;
 use POSIX qw(strftime);
+use Encode;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -101,7 +102,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				# Get the data (if we don't have a cached version)
 				$file = getDataFromURL($d);
 				
-				open(FILE,$file);
+				open(FILE,"<:utf8",$file);
 				@lines = <FILE>;
 				close(FILE);
 				$str = join("",@lines);
@@ -121,7 +122,7 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				$str = `perl $scraper $file`;
 
 				if(-e $str){
-					open(FILE,$str);
+					open(FILE,"<:utf8",$str);
 					@lines = <FILE>;
 					close(FILE);
 					$str = join("",@lines);
@@ -271,30 +272,34 @@ sub parseGeoJSONFeature {
 	my $keys = shift;
 	my $json = {};
 	my @fields = ("title","address","lat","lon","description","accessibility","type");
+	my $props = "properties";
+	if(!$f->{$props} && $f->{'attributes'}){
+		$props = "attributes";
+	}
 	my ($i);
 	for($i = 0; $i < @fields; $i++){
-		if($f->{'properties'}{$fields[$i]}){ $json->{$fields[$i]} = $f->{'properties'}{$fields[$i]}; }
-		if($keys->{$fields[$i]} && $f->{'properties'}{$keys->{$fields[$i]}}){ $json->{$fields[$i]} = $f->{'properties'}{$keys->{$fields[$i]}}; }
+		if($f->{$props}{$fields[$i]}){ $json->{$fields[$i]} = $f->{$props}{$fields[$i]}; }
+		if($keys->{$fields[$i]} && $f->{$props}{$keys->{$fields[$i]}}){ $json->{$fields[$i]} = $f->{$props}{$keys->{$fields[$i]}}; }
 	}
 
 	# Explicit days
 	my @days = ("monday","tuesday","wednesday","thursday","friday","saturday","sunday");
 	for($i = 0; $i < @days; $i++){
-		if($f->{'properties'}{$days[$i]}){ $json->{'hours'}{$days[$i]} = $f->{'properties'}{$days[$i]}; }
-		if($keys->{$days[$i]} && $f->{'properties'}{$keys->{$days[$i]}}){ $json->{'hours'}{$days[$i]} = $f->{'properties'}{$keys->{$days[$i]}}; }
+		if($f->{$props}{$days[$i]}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$days[$i]}; }
+		if($keys->{$days[$i]} && $f->{$props}{$keys->{$days[$i]}}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$keys->{$days[$i]}}; }
 	}
 
 	# Deal with hours
-	if($f->{'properties'}{'hours'}){ $json->{'hours'} = {'_text'=>$f->{'properties'}{'hours'} }; }
-	if($keys->{'hours'} && $f->{'properties'}{$keys->{'hours'}}){ $json->{'hours'} = {'_text'=> $f->{'properties'}{$keys->{'hours'}} }; }
+	if($f->{$props}{'hours'}){ $json->{'hours'} = {'_text'=>$f->{$props}{'hours'} }; }
+	if($keys->{'hours'} && $f->{$props}{$keys->{'hours'}}){ $json->{'hours'} = {'_text'=> $f->{$props}{$keys->{'hours'}} }; }
 
 	if($json->{'hours'}){
 		$json->{'hours'} = parseOpeningHours($json->{'hours'});
 		if(!$json->{'hours'}{'opening'}){ delete $json->{'hours'}{'opening'}; } 
 	}
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
-	if(!$json->{'lat'}){ $json->{'lat'} = $f->{'geometry'}{'coordinates'}[1]; }
-	if(!$json->{'lon'}){ $json->{'lon'} = $f->{'geometry'}{'coordinates'}[0]; }
+	if(!$json->{'lat'}){ $json->{'lat'} = ($f->{'geometry'}{'y'}||$f->{'geometry'}{'coordinates'}[1]); }
+	if(!$json->{'lon'}){ $json->{'lon'} = ($f->{'geometry'}{'x'}||$f->{'geometry'}{'coordinates'}[0]); }
 	return $json;
 }
 
@@ -310,14 +315,14 @@ sub getXLSX {
 	msg("\tUnzipping xlsx to extract data from $d->{'data'}{'sheet'}\n");
 
 	# First we need to get the sharedStrings.xml
-	$str = join("",`unzip -p $file xl/sharedStrings.xml`);
+	$str = decode_utf8(join("",`unzip -p $file xl/sharedStrings.xml`));
 	while($str =~ s/<si>(.*?)<\/si>//){
 		$t = $1;
 		$t =~ s/<[^\>]+>//g;
 		push(@strings,$t);
 	}	
 
-	$str = join("",`unzip -p $file xl/worksheets/$d->{'data'}{'sheet'}.xml`);
+	$str = decode_utf8(join("",`unzip -p $file xl/worksheets/$d->{'data'}{'sheet'}.xml`));
 
 	if($str =~ /<sheetData>(.*?)<\/sheetData>/){
 		$sheet = $1;
@@ -431,6 +436,7 @@ sub cleanCDATA {
 	$str =~ s/(^<!-?\[CDATA\[|\]\]>$)//g;
 	return $str;
 }
+
 sub getGoogleMap {
 	
 	my $d = shift;
@@ -453,7 +459,7 @@ sub getGoogleMap {
 	msg("\tGetting Google Maps kmz\n");
 	getURLToFile($kmzurl,$kmzfile);
 	msg("\tUnzipping kmz\n");
-	$str = join("",`unzip -p $kmzfile doc.kml`);
+	$str = decode_utf8(join("",`unzip -p $kmzfile doc.kml`));
 
 	while($str =~ s/<Placemark>(.*?)<\/Placemark>//s){
 		$placemark = $1;

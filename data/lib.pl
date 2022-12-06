@@ -115,9 +115,9 @@ sub makeDir {
 	}
 }
 sub getFileContents {
-	my (@files,$str,@lines);
+	my (@files,$str,@lines,$i);
 	my $file = $_[0];
-	open(FILE,$file);
+	open(FILE,"<:utf8",$file);
 	@lines = <FILE>;
 	close(FILE);
 	return @lines;
