@@ -101,26 +101,6 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 
 				# Get the data (if we don't have a cached version)
 				$file = getDataFromURL($d);
-				
-				open(my $fh,"<:utf8",$file);
-				@lines = <$fh>;
-				close($fh);
-				$str = join("",@lines);
-
-				if($str !~ /<html[^\>]*>/i){
-					# Try unzipping the file
-					msg("\tTry unzip $file\n");
-					$zip = $file;
-					$zip =~ s/\.html//;
-					`mv $file $zip.gz`;
-					@lines = `gunzip $zip.gz`;
-					if(-e $zip){
-						`mv $zip $file`;
-					}else{
-						# If the zip file still exists it wasn't zipped
-						`mv $zip.gz $file`;
-					}
-				}
 
 				msg("\tParsing web page\n");
 
@@ -238,7 +218,8 @@ sub getDataFromURL {
 
 	msg("\tFile: $file\n");
 	if($age >= 86400 || -s $file == 0){
-		`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		`curl -s -L --compressed -o $file "$url"`;
 		msg("\tDownloaded\n");
 	}
 	return $file;

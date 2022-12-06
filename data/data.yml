@@ -224,6 +224,11 @@ directories:
       keys:
         title: "name"
         hours: "description"
+  - title: "Havering Council"
+    url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+    data:
+      url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+      type: html
   - title: "Hounslow Council"
     url: "https://www.hounslow.gov.uk/warmspaces"
     data:

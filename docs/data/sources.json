@@ -238,6 +238,14 @@
 		"title": "Harrogate NetMakers",
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
+	"havering_council": {
+		"count": 19,
+		"data": { "type": "html", "url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces" },
+		"geocount": 15,
+		"id": "havering_council",
+		"title": "Havering Council",
+		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+	},
 	"hounslow_council": {
 		"count": 35,
 		"data": { "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" },
