@@ -286,6 +286,20 @@ directories:
         title: "A"
         address: "B"
         url: "C"
+  - title: "Oxford Council"
+    url: "https://www.oxford.gov.uk/warmspaces"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12"
+      type: googlemap
+    register:
+      url: "mailto:lcooper@oxford.gov.uk"
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12"
+      type: googlemap
+      keys:
+        title: "name"
+        description: "description"
+        hours: "description"
   - title: "Perth and Kinross Council"
     url: "https://www.pkc.gov.uk/warmspaces"
     map:
@@ -314,6 +328,14 @@ directories:
       type: leaflet
     data:
       url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+      type: html
+  - title: "Richmond upon Thames Council"
+    url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
+    map:
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory"
+      type: leaflet
+    data:
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory"
       type: html
   - title: "Rotherham Council"
     url: "https://www.rotherham.gov.uk/warm-welcome"

@@ -442,7 +442,7 @@ sub getGoogleMap {
 	my $d = shift;
 	my $keys = shift;
 
-	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt);
+	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$remove,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt);
 
 	$url = $d->{'data'}{'url'};
 	$file = $rawdir.$d->{'id'}.".html";
@@ -475,6 +475,7 @@ sub getGoogleMap {
 		}
 		if($placemark =~ /<description>(.*?)<\/description>/s){
 			$entry->{'description'} = cleanCDATA($1);
+			$remove = {};
 			if($d->{'data'}{'parse'}){
 				$parse = $d->{'data'}{'parse'}."";
 				@reps = ();
@@ -490,14 +491,14 @@ sub getGoogleMap {
 						if($txt){ $entry->{$reps[$p2]} = $txt; }
 					}
 				}
-				delete $entry->{'description'};
+				$remove{'description'} = 1;
 			}
 			if($d->{'data'}{'keys'}){
 				# Build replacements
 				foreach $k (keys(%{$d->{'data'}{'keys'}})){
 					if($entry->{$d->{'data'}{'keys'}{$k}}){
 						$entry->{$k} = "".$entry->{$d->{'data'}{'keys'}{$k}};
-						delete $entry->{$d->{'data'}{'keys'}{$k}};
+						$remove->{$d->{'data'}{'keys'}{$k}} = 1;
 					}
 				}
 				if(!$entry->{'hours'} && $entry->{$d->{'data'}{'keys'}{'hours'}}){
@@ -505,10 +506,16 @@ sub getGoogleMap {
 					$entry->{'hours'} =~ s/<br>/ /;
 					$entry->{'hours'} =~ s/[\s]/ /;
 					$entry->{'hours'} =~ s/[^0-9A-Za-z\-\,\.\:\;\s\[\]]/ /;
-					if($d->{'data'}{'keys'}{'hours'} eq "description"){ delete $entry->{'description'}; }
+					if($d->{'data'}{'keys'}{'hours'} eq "description"){ $remove{'description'} = 1; }
 				}
 				$entry->{'description'} = parseText($entry->{'description'});
-				if(!$entry->{'description'}){ delete $entry->{'description'}; }
+				if(!$entry->{'description'}){ $remove{'description'}; }
+				if($d->{'data'}{'keys'}{'description'}){
+					delete $remove->{'description'};
+				}
+			}
+			foreach $k (keys(%{$remove})){
+				delete $entry->{$k};
 			}
 		}
 		if($entry->{'hours'}){
