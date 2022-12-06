@@ -28,9 +28,9 @@
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
 	"bexley_council": {
-		"count": 5,
+		"count": "0",
 		"data": { "type": "html", "url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley" },
-		"geocount": 5,
+		"geocount": "0",
 		"id": "bexley_council",
 		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
 		"title": "Bexley Council",
@@ -166,7 +166,7 @@
 	"durham_county_council": {
 		"count": 100,
 		"data": { "type": "html", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
-		"geocount": 99,
+		"geocount": 98,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -375,9 +375,9 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 28,
+		"count": 29,
 		"data": { "type": "html", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
-		"geocount": 28,
+		"geocount": 29,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -396,9 +396,9 @@
 		"url": "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 48,
+		"count": 50,
 		"data": { "type": "html", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
-		"geocount": 48,
+		"geocount": 50,
 		"id": "sandwell_council",
 		"map": { "type": "googlemap", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
 		"title": "Sandwell Council",
@@ -510,9 +510,9 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 33,
+		"count": 36,
 		"data": { "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
-		"geocount": 33,
+		"geocount": 36,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -530,9 +530,9 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3108,
+		"count": 3148,
 		"data": { "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" },
-		"geocount": 3108,
+		"geocount": 3148,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
