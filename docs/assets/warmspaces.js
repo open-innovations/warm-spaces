@@ -171,20 +171,20 @@
 				if(this.toggles[typ]){
 					var cls = this.toggles[typ].class;
 					if(this.toggles[typ].checked){
+
+						lat = this.sorted[i].geometry.coordinates[1];
+						lon = this.sorted[i].geometry.coordinates[0];
 					
 						html += '<li tabindex="0" class="'+cls+'"><div>';
 						html += '<div>';
 						html += '<div class="doublepadded">';
 						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
-						if(p.address) html += '<p class="address">'+p.address+'</p>';
+						if(p.address) html += '<p class="address">'+p.address+' (<a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google Maps</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing Maps</a>)</p>';
 						html += (d ? '<p><span class="dist">'+d+'</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 						}
-						lat = this.sorted[i].geometry.coordinates[1];
-						lon = this.sorted[i].geometry.coordinates[0];
-						html += '<p><strong>Map:</strong> <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
 						html += '</div>';
 						html += '</div>';
 						html += formatSource(this.sources[p._source]);
