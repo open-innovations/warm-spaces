@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.80450,51.66198],"type":"Point"},"properties":{"_source":"warm_spaces","address":"18 Queen Street, Neath, Wales, SA11 1DL","hours":{"_text":"As needed 7 days/wk","opening":"Mo-Su 00:00-00:00"},"title":"The Gathering Place","url":"https://www.thegatheringplaceuk.org"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.80450,51.66198],"type":"Point"},"properties":{"_source":"warm_spaces","address":"18 Queen Street, Neath, Wales, SA11 1DL","hours":{"_text":"As needed 7 days/wk"},"title":"The Gathering Place","url":"https://www.thegatheringplaceuk.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.85009,51.71985],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Pontardawe Arts Centre, Herbert Street, Swansea, Wales, SA8 4ED","hours":{"_text":"Varies. Mondays &amp; Tuesdays 10am-2pm","opening":"Mo 10:00-14:00; Tu 10:00-14:00"},"title":"Pontardawe Arts Centre","url":"https://pontardaweartscentre.com"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.80737,51.62040],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Centre Baglan Community Church, Lodge Drive, Port Talbot, Wales, SA12 8UB","hours":{"_text":"Sundays 10:30am-12pm, ","opening":"Su 10:30-12:00"},"title":"Baglan Community Church","url":"https://www.baglanchurch.com"},"type":"Feature"}
 	]
