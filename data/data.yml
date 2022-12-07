@@ -61,10 +61,11 @@ directories:
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     register:
       url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2"
+    note: "Birmingham's webserver blocks automated access"
     data:
       url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
       robots: false
-      type: portal
+      type: jadu
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
   - title: "Bournemouth, Christchurch and Poole"

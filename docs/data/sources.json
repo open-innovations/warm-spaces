@@ -47,10 +47,11 @@
 	"birmingham_council": {
 		"count": "0",
 		"data": [
-			{ "robots": "", "type": "portal", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" }
+			{ "robots": "", "type": "jadu", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" }
 		],
 		"geocount": "0",
 		"id": "birmingham_council",
+		"note": "Birmingham's webserver blocks automated access",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
