@@ -246,6 +246,7 @@ sub parseOpeningHours {
 	
 	if($str && !$hours->{'_parsed'}){
 
+		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
 		$str =~ s/ at [^0-9]+ from /: /g;
 		$str =~ s/ (to|until|til) / - /g;
 		$str =~ s/ from /: /g;
