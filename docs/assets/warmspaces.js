@@ -180,7 +180,7 @@
 						html += '<div class="doublepadded">';
 						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
 						if(p.address) html += '<p class="address">'+p.address+' (<a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google Maps</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing Maps</a>)</p>';
-						html += (d ? '<p><span class="dist">'+d+'</span> or so away</p>' : '');
+						html += (d && d!="m" ? '<p><span class="dist">'+d+'</span> or so away</p>' : '');
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
