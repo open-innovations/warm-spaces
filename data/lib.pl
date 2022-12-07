@@ -429,7 +429,7 @@ sub getHourRange {
 		if($t1 !~ /[0-9]/ && $t2 !~ /[0-9]/){
 			# No valid looking times so don't add anything
 		}else{
-			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $t1 < 12 && $t1 < $t2){ $t1 += 12; }
+			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $t1 < 12 && $t2 < 12 && $t1 < $t2){ $t1 += 12; }
 			$out .= ($out?",":"").niceHours($t1)."-".niceHours($t2);
 		}
 	}

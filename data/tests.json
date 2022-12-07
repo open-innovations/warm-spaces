@@ -312,7 +312,8 @@
 		{"text":"Friday: 10:00 - 13:00","good":"Fr 10:00-13:00"},
 		{"text":"Tuesday: 12:30 - 14:30","good":"Tu 12:30-14:30"},
 		{"text":"Tuesday, 11am til 12.30pm","good":"Tu 11:00-12:30"},
-		{"text":"Wednesday: 2 - 3pm","good":"We 14:00-15:00"}
+		{"text":"Wednesday: 2 - 3pm","good":"We 14:00-15:00"},
+		{"text":"Monday: 10:00-16.00pm, Tuesday: 10:00-16.00pm, Wednesday: 10:00-16.00pm, Thursday: 10:00-16.00pm","good":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},
