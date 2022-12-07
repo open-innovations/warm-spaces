@@ -290,8 +290,8 @@
 			this.lat = lat;
 			this.lon = lon;
 			
-			dlat = 0.1;
-			dlon = 0.2;
+			dlat = (10/111);	// 5km horizontally or vertically 
+			dlon = 2*dlat;
 			bounds = {"_southWest": {
 					"lat": this.lat-dlat,
 					"lng": this.lon-dlon
