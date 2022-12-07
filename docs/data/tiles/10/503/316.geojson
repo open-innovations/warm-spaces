@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.88005,56.44635],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tayport Parish Church, 6 Queen Street, Tayport DD6 9AS","hours":{"_text":"Friday: 12:00 - 14:00","opening":"Fr 12:00-14:00"},"title":"Tayport Parish Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.96830,56.46117],"type":"Point"},"properties":{"_source":"warm_spaces","address":"High Street, Dundee, Scotland, DD1 1TD","hours":{"_text":"Friday 10am-12pm ","opening":"Fr 10:00-12:00"},"title":"St Paul's Cathedral, Dundee","url":"https://www.saintpaulscathedral.net"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.06281,56.46094],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"ALL SOULS CHURCH 59 MAIN ST INVERGOWRIE DD2 5BA","contact":"mailto:allsouls@brechin.anglican.org","description":"Warm space, refreshments, chat","hours":{"_text":"Warm space, refreshments, chat"},"title":"All Souls Church"},"type":"Feature"}
 	]

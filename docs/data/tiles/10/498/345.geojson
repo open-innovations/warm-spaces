@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.70045,50.35351],"type":"Point"},"properties":{"_source":"warm_welcome","address":"31 Eastcliffe Road, Par, Cornwall PL24 2AQ","description":"Everyone welcome Free advice about finance and energy bills (private consultations also available). Everyone welcome. Free access to games, books and activities. Free stretch relax sessions.","hours":{"_text":"Monday: 10:00 - 14:00, Wednesday: 10:00 - 14:00, Friday: 10:00 - 14:00","opening":"Mo 10:00-14:00; We 10:00-14:00; Fr 10:00-14:00"},"title":"Cornubia Community Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.82181,50.34099],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Trinity Methodist Church, Westbridge Road,, Trewoon, St. Austell,, Cornwall, PL255TE","hours":{"_text":"Thursday: 10:00 - 12:00","opening":"Th 10:00-12:00"},"title":"St. Johns with Trinity Methodist Church, St. Austell."},"type":"Feature"}
 	]
 }

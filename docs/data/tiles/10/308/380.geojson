@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-71.57995,41.99749],"type":"Point"},"properties":{"_source":"warm_spaces","address":"63 Church Street, North Smithfield, RI, 02876","hours":{"_text":"Tuesday 1pm-5pm, Wednesday 10am-1pm, Saturday 1pm-5pm","opening":"Tu 13:00-17:00; We 10:00-13:00; Sa 13:00-17:00"},"title":"St John’s Church Sidcup","url":"https://Stjohnsidcup.co.uk"},"type":"Feature"}
+	]
+}
