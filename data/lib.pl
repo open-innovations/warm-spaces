@@ -261,7 +261,7 @@ sub parseOpeningHours {
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
 		$str =~ s/Weekends/Sa-Su/gi;
-		$str =~ s/(Every day|7 days a week|7 days|daily)/Mo-Su/gi;
+		$str =~ s/(everyday|Every day|7 days a week|7 days|daily)/Mo-Su/gi;
 
 		# Convert "noon" values to numbers
 		$str =~ s/12 ?noon/12:00/g;
@@ -302,7 +302,9 @@ sub parseOpeningHours {
 			$day2 = $3;
 			$mod2 = $4;
 			$t = getHourRange($5);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
+			}
 		}
 
 		# Match time + day range
@@ -312,16 +314,20 @@ sub parseOpeningHours {
 			$day2 = $6;
 			$mod2 = $7;
 			$t = getHourRange($1);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1-$day2$mod2 $t";
+			}
 		}
 
 		# Match multiple days with time
 		while($str =~ s/(((Mo|Tu|We|Th|Fr|Sa|Su)\,? ?){2,})[\s\t]*[\-\:]*[\s\t]*([0-9\:\.\,amp\s\t\-]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,amp\s\t\-]+(am|pm)?)//){
 			$day1 = $1;
 			$t = getHourRange($4);
-			for($i = 0; $i < @days; $i++){
-				if($day1 =~ $days[$i]->{'short'}){
-					$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$days[$i]->{'short'} $t";
+			if($t){
+				for($i = 0; $i < @days; $i++){
+					if($day1 =~ $days[$i]->{'short'}){
+						$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$days[$i]->{'short'} $t";
+					}
 				}
 			}
 		}
@@ -331,7 +337,9 @@ sub parseOpeningHours {
 			$day1 = $1;
 			$mod1 = $2;
 			$t = getHourRange($3);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			}
 		}
 
 		# Match time + "every" + single day
@@ -339,21 +347,27 @@ sub parseOpeningHours {
 			$day1 = $3;
 			$mod1 = $2;
 			$t = getHourRange($1);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			}
 		}
 		
 		# Match time + "on" + single day
 		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? on *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $4;
 			$t = getHourRange($1);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
+			}
 		}
 		
 		# Match time + single day
 		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?) *(Mo|Tu|We|Th|Fr|Sa|Su)//){
 			$day1 = $4;
 			$t = getHourRange($1);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
+			}
 		}
 
 		# Match "Daily"
@@ -361,14 +375,18 @@ sub parseOpeningHours {
 			$day1 = "Mo-Su";
 			$mod1 = $2;
 			$t = getHourRange($3);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			}
 		}
 
 		# Match "Daily"
 		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\t\,]*(Daily|7 days (a|per) week)//i){
 			$day1 = "Mo-Su";
 			$t = getHourRange($1);
-			$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
+			}
 		}
 
 		if(!$hours->{'_parsed'}){
@@ -405,7 +423,12 @@ sub getHourRange {
 	$out = "";
 	for($t = 0; $t < @times; $t++){
 		($t1,$t2) = split(/ ?[\-\–] ?/,$times[$t]);
-		$out .= ($out?",":"").niceHours($t1)."-".niceHours($t2);
+		if($t1 !~ /[0-9]/ && $t2 !~ /[0-9]/){
+			# No valid looking times so don't add anything
+		}else{
+			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $t1 < 12 && $t1 < $t2){ $t1 += 12; }
+			$out .= ($out?",":"").niceHours($t1)."-".niceHours($t2);
+		}
 	}
 	return $out;
 }
