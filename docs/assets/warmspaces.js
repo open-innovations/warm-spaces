@@ -174,7 +174,7 @@
 
 						lat = this.sorted[i].geometry.coordinates[1];
 						lon = this.sorted[i].geometry.coordinates[0];
-					
+
 						html += '<li tabindex="0" class="'+cls+'"><div>';
 						html += '<div>';
 						html += '<div class="doublepadded">';
@@ -290,8 +290,8 @@
 			this.lat = lat;
 			this.lon = lon;
 			
-			dlat = 0.03;
-			dlon = 0.06;
+			dlat = 0.1;
+			dlon = 0.2;
 			bounds = {"_southWest": {
 					"lat": this.lat-dlat,
 					"lng": this.lon-dlon
@@ -516,7 +516,7 @@
 				n = Math.min(n,opts.limits.N);
 				s = Math.max(s,opts.limits.S);
 				e = Math.min(e,opts.limits.E);
-				w = Math.min(e,opts.limits.W);
+				w = Math.max(w,opts.limits.W);
 			}
 
 			min = project(n, w, z);
