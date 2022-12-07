@@ -60,13 +60,16 @@ sub getURL {
 
 sub getDataFromURL {
 	my $d = shift;
-	my $url = $d->{'data'}{'url'};
+	my $n = shift;
+	my ($url,$file,$age,$now,$epoch_timestamp);
 
-	my $file = $rawdir.$d->{'id'}.".".$d->{'data'}{'type'};
-	my $age = 100000;
+	$url = $d->{'data'}[$n]{'url'};
+
+	$file = $rawdir.$d->{'id'}.($n ? "-$n":"").".".$d->{'data'}[$n]{'type'};
+	$age = 100000;
 	if(-e $file){
-		my $epoch_timestamp = (stat($file))[9];
-		my $now = time;
+		$epoch_timestamp = (stat($file))[9];
+		$now = time;
 		$age = ($now-$epoch_timestamp);
 	}
 
