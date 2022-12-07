@@ -59,6 +59,8 @@ directories:
       type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
+    register:
+      url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2"
     data:
       url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
       robots: false
@@ -261,6 +263,30 @@ directories:
         contact: "Contact_Information"
         hours: "Timings_and_Offers"
         url: "Weblink"
+  - title: "Kingston Council"
+    url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/10"
+    map:
+      url: "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc"
+      type: googlemap
+    register:
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSd3W0eRlVADHwMI5Wf1eA94IsEcysZVZlbAOfCbDJNgK3FZzg/viewform?usp=sf_link"
+    data:
+      url: "https://www.google.com/maps/d/u/0/embed?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc"
+      type: googlemap
+      keys:
+        title: "name"
+        description: "description"
+        hours: "description"
+  - title: "Lambeth Council"
+    url: "https://beta.lambeth.gov.uk/warm-spaces"
+    register:
+      url: "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch"
+    map:
+      url: "https://beta.lambeth.gov.uk/warm-spaces"
+      type: leaflet
+    data:
+      url: "https://beta.lambeth.gov.uk/warm-spaces"
+      type: html
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:
@@ -296,6 +322,12 @@ directories:
   - title: "Lewes and Eastbourne Council"
     url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
     register: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/"
+  - title: "Lewisham Local"
+    url: "https://www.lewishamlocal.com/lewisham-warm-spaces/"
+    map:
+      url: "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/"
+      type: googlemap
+    notes: "Unable to extract enough data"
   - title: "Litchfield Council"
     url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
     map:
@@ -304,6 +336,9 @@ directories:
     data:
       url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
       type: html
+  - title: "Merton Council"
+    url: "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
+    notes: "A list of libraries"
   - title: "Middlesbrough Council"
     url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
     map:
@@ -317,6 +352,20 @@ directories:
         title: "name"
     register:
       url: mailto:livewellcentre@middlesbrough.gov.uk
+  - title: "Newham Council"
+    url: "https://www.newham.gov.uk/warmhavens"
+    map:
+      url: "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d"
+      type: arcgis
+    data:
+      url: "https://services1.arcgis.com/trOdpHvvP7HrTfdb/arcgis/rest/services/WarmHaven_2/FeatureServer/0/query?f=geojson&where=Operationa%20%3D%20%27Y%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=4326&resultOffset=0&resultRecordCount=8000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333416%2C%22extent%22%3A%7B%22xmin%22%3A-492.28689999878407%2C%22ymin%22%3A6710410.039899997%2C%22xmax%22%3A7525.914900001139%2C%22ymax%22%3A6719613.525700003%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D%7D"
+      type: arcgis
+      keys:
+        title: "Name"
+        address: "{{ Address }}"
+        url: "Website"
+        hours: "Opening_ti"
+        description: "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}"        
   - title: "North Northamptonshire Council"
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     data:
@@ -497,6 +546,9 @@ directories:
         title: Hub_Name
         address: Address
         hours: OpenHours
+  - title: "Sutton Council"
+    url: "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
+    notes: "Refers to Warm Welcome UK"
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     register:
@@ -508,16 +560,6 @@ directories:
       type: html
       robots: false
     notes: "Wakefield Council website blocks automatic access of webpages"
-  - title: "West Northamptonshire"
-    url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
-    map:
-      url: "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10"
-      type: googlemap
-    register:
-      url: "https://forms.office.com/r/EHJpfj9uCF"
-    data:
-      url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
-      type: html
   - title: "Wandsworth Council"
     url: "https://www.wandsworth.gov.uk/warm-spaces"
     register:
@@ -528,6 +570,21 @@ directories:
     data:
       url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
       type: html
+  - title: "West Northamptonshire"
+    url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+    map:
+      url: "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10"
+      type: googlemap
+    register:
+      url: "https://forms.office.com/r/EHJpfj9uCF"
+    data:
+      url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+      type: html
+  - title: "Westminster Council"
+    url: "https://www.westminster.gov.uk/winter-in-the-city"
+    map:
+      url: "https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379"
+      type: arcgis
   - title: "Wigan Council"
     url: "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
     map:
