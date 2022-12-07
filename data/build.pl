@@ -91,47 +91,11 @@ sub processDirectories {
 					
 				}elsif($d->{'data'}[$k]{'type'} eq "html"){
 
-					# Find the scraping file
-					$scraper = "scrapers/$d->{'id'}.pl";
-
-					if(-e $scraper){
-
-						# Get the data (if we don't have a cached version)
-						$file = getDataFromURL($d,$k);
-
-						msg("\tParsing web page\n");
-
-						$str = `perl $scraper $file`;
-
-						if(-e $str){
-							open(FILE,"<:utf8",$str);
-							@lines = <FILE>;
-							close(FILE);
-							$str = join("",@lines);
-
-							eval {
-								$json = JSON::XS->new->decode($str);
-							};
-							if($@){ warning("\tInvalid output from scraper.\n".$str); }
-
-							for($f = 0; $f < @{$json}; $f++){
-								$json->[$f]{'_source'} = $d->{'id'};
-								push(@nfeatures,$json->[$f]);
-							}
-
-							@nfeatures = addLatLonFromPostcodes(@nfeatures);
-
-						}else{
-							warning("\tNo JSON returned from scraper\n");
-						}
-					}else{
-						warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
-					}
+					@nfeatures = getHTML($d,$k);
 
 				}elsif($d->{'data'}[$k]{'type'} eq "squarespace"){
 
 					@nfeatures = getSquareSpace($d,$k);
-					@nfeatures = addLatLonFromPostcodes(@nfeatures);
 
 				}
 				push(@features,@nfeatures);
@@ -291,6 +255,8 @@ sub parseGeoJSONFeature {
 			}
 			$json->{$key} = $tempk;
 		}
+		# Clean up "<Null>" values
+		if($json->{$key} eq "<Null>"){ delete $json->{$key}; }
 	}
 
 
@@ -442,7 +408,7 @@ sub getArcGIS {
 	my ($file,$geojson,$f,@features,$json);
 
 	# Make sure we have the correct output spatial reference
-	$d->{'data'}[$i]{'url'} =~ s/outSR=27700/outSR=4326/g;
+	$d->{'data'}[$i]{'url'} =~ s/outSR=[0-9]+/outSR=4326/g;
 	$d->{'data'}[$i]{'url'} =~ s/f=pbf/f=geojson/g;
 	
 	# Get the data (if we don't have a cached version)
@@ -461,6 +427,10 @@ sub getArcGIS {
 		$d->{'geocount'} = $d->{'count'};
 		for($f = 0; $f < $d->{'count'}; $f++){
 			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
+			if($geojson->{'transform'}){
+				$json->{'lat'} = $json->{'lat'}*$geojson->{'transform'}{'scale'}[1] + $geojson->{'transform'}{'translate'}[1];
+				$json->{'lon'} = $json->{'lon'}*$geojson->{'transform'}{'scale'}[0] + $geojson->{'transform'}{'translate'}[0];
+			}
 			$json->{'_source'} = $d->{'id'};
 			push(@features,$json);
 		}
@@ -645,6 +615,7 @@ sub getSquareSpace {
 		
 		push(@features,$json);
 	}
+	@features = addLatLonFromPostcodes(@features);
 	return @features;
 }
 
@@ -705,4 +676,50 @@ sub getCSV {
 
 	# Add lat,lon from postcodes if we don't have them
 	return addLatLonFromPostcodes(@features);
+}
+
+sub getHTML {
+
+	my $d = shift;
+	my $i = shift;
+
+	my ($scraper,$str,$file,@lines,$json,$f,@features);
+	# Find the scraping file
+	$scraper = "scrapers/$d->{'id'}.pl";
+
+	if(-e $scraper){
+
+		# Get the data (if we don't have a cached version)
+		$file = getDataFromURL($d,$i);
+
+		msg("\tParsing web page\n");
+
+		$str = `perl $scraper $file`;
+
+
+		if(-e $str){
+			open(FILE,"<:utf8",$str);
+			@lines = <FILE>;
+			close(FILE);
+			$str = join("",@lines);
+
+			eval {
+				$json = JSON::XS->new->decode($str);
+			};
+			if($@){ warning("\tInvalid output from scraper.\n".$str); }
+
+			for($f = 0; $f < @{$json}; $f++){
+				$json->[$f]{'_source'} = $d->{'id'};
+				push(@features,$json->[$f]);
+			}
+
+			@features = addLatLonFromPostcodes(@features);
+
+		}else{
+			warning("\tNo JSON returned from scraper\n");
+		}
+	}else{
+		warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
+	}
+	return @features;
 }

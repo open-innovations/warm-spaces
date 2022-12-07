@@ -518,4 +518,12 @@ sub addLatLonFromPostcodes {
 	return @features;
 }
 
+# https://code.activestate.com/recipes/577450-perl-url-encode-and-decode/
+sub urldecode {
+    my $s = shift;
+    $s =~ s/\%([A-Fa-f0-9]{2})/pack('C', hex($1))/seg;
+    $s =~ s/\+/ /g;
+    return $s;
+}
+
 1;
