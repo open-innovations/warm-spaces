@@ -52,7 +52,7 @@ sub makeTiles {
 		}
 	}
 
-	$coder = JSON::XS->new->utf8->canonical(1)->allow_nonref(1);
+	$coder = JSON::XS->new->canonical(1)->allow_nonref(1);
 
 	$tiler = OpenInnovations::Tiler->new();
 	@features = @{$json};
@@ -126,7 +126,7 @@ sub makeTiles {
 }
 sub getBBoxTiles {
 	my $z = $_[0];
-	open(FILE,"../docs/find.html");
+	open(FILE,"<:utf8","../docs/find.html");
 	my @lines = <FILE>;
 	close(FILE);
 	my %bounds;
