@@ -41,6 +41,7 @@
 		"data": { "robots": "", "type": "portal", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" },
 		"geocount": "0",
 		"id": "birmingham_council",
+		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
@@ -280,6 +281,26 @@
 		"title": "Kensington and Chelsea",
 		"url": "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
 	},
+	"kingston_council": {
+		"count": 31,
+		"data": { "keys": { "description": "description", "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/embed?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" },
+		"geocount": 31,
+		"id": "kingston_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" },
+		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3W0eRlVADHwMI5Wf1eA94IsEcysZVZlbAOfCbDJNgK3FZzg/viewform?usp=sf_link" },
+		"title": "Kingston Council",
+		"url": "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/10"
+	},
+	"lambeth_council": {
+		"count": 20,
+		"data": { "type": "html", "url": "https://beta.lambeth.gov.uk/warm-spaces" },
+		"geocount": 20,
+		"id": "lambeth_council",
+		"map": { "type": "leaflet", "url": "https://beta.lambeth.gov.uk/warm-spaces" },
+		"register": { "url": "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch" },
+		"title": "Lambeth Council",
+		"url": "https://beta.lambeth.gov.uk/warm-spaces"
+	},
 	"lancashire_council": {
 		"id": "lancashire_council",
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -308,6 +329,13 @@
 		"title": "Lewes and Eastbourne Council",
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
+	"lewisham_local": {
+		"id": "lewisham_local",
+		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
+		"notes": "Unable to extract enough data",
+		"title": "Lewisham Local",
+		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
+	},
 	"litchfield_council": {
 		"count": 15,
 		"data": { "type": "html", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
@@ -316,6 +344,12 @@
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title": "Litchfield Council",
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+	},
+	"merton_council": {
+		"id": "merton_council",
+		"notes": "A list of libraries",
+		"title": "Merton Council",
+		"url": "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
 	},
 	"middlesbrough_council": {
 		"count": 17,
@@ -326,6 +360,15 @@
 		"register": { "url": "mailto:livewellcentre@middlesbrough.gov.uk" },
 		"title": "Middlesbrough Council",
 		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
+	},
+	"newham_council": {
+		"count": 16,
+		"data": { "keys": { "address": "{{ Address }}", "description": "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}", "hours": "Opening_ti", "title": "Name", "url": "Website" }, "type": "arcgis", "url": "https://services1.arcgis.com/trOdpHvvP7HrTfdb/arcgis/rest/services/WarmHaven_2/FeatureServer/0/query?f=geojson&where=Operationa%20%3D%20%27Y%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=4326&resultOffset=0&resultRecordCount=8000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333416%2C%22extent%22%3A%7B%22xmin%22%3A-492.28689999878407%2C%22ymin%22%3A6710410.039899997%2C%22xmax%22%3A7525.914900001139%2C%22ymax%22%3A6719613.525700003%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D%7D" },
+		"geocount": 16,
+		"id": "newham_council",
+		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
+		"title": "Newham Council",
+		"url": "https://www.newham.gov.uk/warmhavens"
 	},
 	"north_northamptonshire_council": {
 		"count": 35,
@@ -502,6 +545,12 @@
 		"title": "Surrey County Council warm hubs",
 		"url": "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs"
 	},
+	"sutton_council": {
+		"id": "sutton_council",
+		"notes": "Refers to Warm Welcome UK",
+		"title": "Sutton Council",
+		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
+	},
 	"tewkesbury_council": {
 		"id": "tewkesbury_council",
 		"register": { "url": "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration" },
@@ -556,6 +605,12 @@
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
 		"title": "West Northamptonshire",
 		"url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
+	},
+	"westminster_council": {
+		"id": "westminster_council",
+		"map": { "type": "arcgis", "url": "https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
+		"title": "Westminster Council",
+		"url": "https://www.westminster.gov.uk/winter-in-the-city"
 	},
 	"wigan_council": {
 		"count": 74,

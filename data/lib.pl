@@ -3,6 +3,8 @@
 use utf8;
 use JSON::XS;
 use Encode;
+binmode STDOUT, 'utf8';
+binmode STDERR, 'utf8';
 
 my %colours = (
 	'black'=>"\033[0;30m",
@@ -55,6 +57,28 @@ sub getURL {
 	my $url = $_[0];
 	return @lines = `wget -q -e robots=off  --no-check-certificate -O- "$url"`;
 }
+
+sub getDataFromURL {
+	my $d = shift;
+	my $url = $d->{'data'}{'url'};
+
+	my $file = $rawdir.$d->{'id'}.".".$d->{'data'}{'type'};
+	my $age = 100000;
+	if(-e $file){
+		my $epoch_timestamp = (stat($file))[9];
+		my $now = time;
+		$age = ($now-$epoch_timestamp);
+	}
+
+	msg("\tFile: $file\n");
+	if($age >= 86400 || -s $file == 0){
+		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
+		`curl -s -L --compressed -o $file "$url"`;
+		msg("\tDownloaded\n");
+	}
+	return $file;
+}
+
 sub getURLToFile {
 	my $url = $_[0];
 	my $file = $_[1];
@@ -125,10 +149,10 @@ sub getFileContents {
 sub getJSON {
 	my (@files,$str,@lines);
 	my $file = $_[0];
-	open(FILE,$file);
+	open(FILE,"<:utf8",$file);
 	@lines = <FILE>;
 	close(FILE);
-	$str = decode_utf8(join("",@lines));
+	$str = (join("",@lines));
 	if(!$str){ $str = "{}"; }
 	return JSON::XS->new->decode($str);	
 }
@@ -137,7 +161,7 @@ sub tidyJSON {
 	my $json = shift;
 	my $depth = shift;
 	my $d = $depth+1;
-	
+
 	$txt = JSON::XS->new->canonical(1)->pretty->space_before(0)->encode($json);
 	$txt =~ s/   /\t/g;
 	$txt =~ s/([\{\,\"])\n\t{$d,}([\"\}])/$1 $2/g;

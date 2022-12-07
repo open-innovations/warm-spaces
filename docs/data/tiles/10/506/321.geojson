@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.01407,55.54494],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wooler URC, Wooler, Northumberland NE71 6LP","description":"","hours":{"_text":"Monday: 11:00 - 14:00, Wednesday: 11:00 - 14:00, Friday: 11:00 - 14:00","opening":"Mo 11:00-14:00; We 11:00-14:00; Fr 11:00-14:00"},"title":"Wooler URC"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.01407,55.54494],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wooler URC, Wooler, Northumberland NE71 6LP","hours":{"_text":"Monday: 11:00 - 14:00, Wednesday: 11:00 - 14:00, Friday: 11:00 - 14:00","opening":"Mo 11:00-14:00; We 11:00-14:00; Fr 11:00-14:00"},"title":"Wooler URC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.01842,55.54652],"type":"Point"},"properties":{"address":"The Cheviot Centre, 12 Padgepool Place, Wooler, Northumberland, NE71 6BL","hours":{},"title":"Warm Space at the Cheviot Centre","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/627a4b90001107c589333779"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.01363,55.54472],"type":"Point"},"properties":{"address":"Wooler United Reformed Church, Cheviot Street, Wooler, Northumberland, NE71 6LP","hours":{},"title":"Warm Welcome at Wooler Warm Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.01842,55.54652],"type":"Point"},"properties":{"address":"The Cheviot Centre, 12 Padgepool Place, Wooler, Northumberland, NE71 6BL","hours":{},"title":"Wooler Library","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"}

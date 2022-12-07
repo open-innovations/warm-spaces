@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.16940,57.68908],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Road, Invergordon, Ross IV18 0AZ","description":"","hours":{"_text":"Monday: 14:00 - 16:00, Wednesday: 10:00 - 12:00, Sunday: 10:00 - 20:00","opening":"Mo 14:00-16:00; We 10:00-12:00; Su 10:00-20:00"},"title":"Invergordon Church of Scotland"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.16940,57.68908],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Road, Invergordon, Ross IV18 0AZ","hours":{"_text":"Monday: 14:00 - 16:00, Wednesday: 10:00 - 12:00, Sunday: 10:00 - 20:00","opening":"Mo 14:00-16:00; We 10:00-12:00; Su 10:00-20:00"},"title":"Invergordon Church of Scotland"},"type":"Feature"}
 	]
 }

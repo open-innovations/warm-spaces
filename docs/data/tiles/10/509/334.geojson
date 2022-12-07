@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-0.88157,52.76465],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sage Cross Methodist Church, Chapel Street, Melton Mowbray, Leicestershire LE13 1RB","description":"","hours":{"_text":"Tuesday: 10:00 - 13:00, Thursday: 11:00 - 13:00, Sunday: 10:00 - 12:00 / - Fortnightly","opening":"Tu 10:00-13:00; Th 11:00-13:00; Su 10:00-12:00"},"title":"Lunch is on us at Sage Cross"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.88157,52.76465],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sage Cross Methodist Church, Chapel Street, Melton Mowbray, Leicestershire LE13 1RB","hours":{"_text":"Tuesday: 10:00 - 13:00, Thursday: 11:00 - 13:00, Sunday: 10:00 - 12:00 / - Fortnightly","opening":"Tu 10:00-13:00; Th 11:00-13:00; Su 10:00-12:00"},"title":"Lunch is on us at Sage Cross"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.88584,52.76513],"type":"Point"},"properties":{"_source":"warm_welcome","address":"53 King Street, Melton Mowbray, Leicestershire LE13 1XB","description":"We are open to anyone aged 18 years and over. Our well-being hub offers the opportunity to re-connect with the community, break the cycle of isolation and to look after your mental health. Take a look at our website for details about our drop-in sessions and activity groups.","hours":{"_text":"Monday: 13:00 - 15:00, Wednesday: 14:00 - 17:00, Thursday: 10:30 - 12:30","opening":"Mo 13:00-15:00; We 14:00-17:00; Th 10:30-12:30"},"title":"Pepper's - A Safe Place"},"type":"Feature"}
 	]
 }

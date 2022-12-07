@@ -6,6 +6,7 @@ BEGIN {
 	if(!$basedir){ $basedir = "./"; }
 	$lib = $basedir."";
 }
+use utf8;
 use lib $lib;
 use strict;
 use warnings;
@@ -30,6 +31,7 @@ sub makeTiles {
 	my $zoom = shift;
 
 	my ($str,$filegeo,$coder,$tiler,$dir,$f,$i,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop,@todo);
+	my ($line,$jsonbit,$t,$file,$feature,$dp,$maxsize,$size);
 
 	$dir = ("../docs/data/tiles");
 	@zooms = split(/[\:\;]/,$zoom||"10");
@@ -49,8 +51,6 @@ sub makeTiles {
 			`mkdir $zdir`;
 		}
 	}
-
-	my ($line,$jsonbit,$t,$file,$feature,$dp,$maxsize,$size);
 
 	$coder = JSON::XS->new->utf8->canonical(1)->allow_nonref(1);
 
@@ -80,10 +80,10 @@ sub makeTiles {
 				$file = "$dir/$zoom/$x/$y.geojson";
 				$tiles{$file} = 1;
 				if(!-e $file || -s $file == 0){
-					open($fh,">",$file)||error('No file '.$file);
+					open($fh,">:utf8",$file)||error('No file '.$file);
 					print $fh "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n";
 				}else{
-					open($fh,">>",$file)||error('No file '.$file);
+					open($fh,">>:utf8",$file)||error('No file '.$file);
 					print $fh ",\n";
 				}
 				print $fh "\t\t".$feature;
@@ -99,19 +99,23 @@ sub makeTiles {
 		$zdir = "$dir/$zoom/";
 		@todo = getBBoxTiles($zoom);
 		for($i = 0; $i < @todo; $i++){
+			if(!-d "$zdir$todo[$i]->{'x'}"){
+				`mkdir $zdir$todo[$i]->{'x'}/`;
+			}
+
 			$file = "$zdir$todo[$i]->{'x'}/$todo[$i]->{'y'}.geojson";
 			if(!-e $file || -s $file == 0){
-				open(FILE,">",$file);
-				print FILE "{}";
-				close(FILE);
+				open($fh,">:utf8",$file);
+				print $fh "{}";
+				close($fh);
 			}
 		}
 	}
 
 	foreach $file (sort(keys(%tiles))){
-		open(FILE,">>",$file);
-		print FILE "\n\t\]\n\}\n";
-		close(FILE);
+		open($fh,">>:utf8",$file);
+		print $fh "\n\t\]\n\}\n";
+		close($fh);
 		$size = -s $file;
 		if($size > $maxsize){
 			print "Largest file $file: $size\n";

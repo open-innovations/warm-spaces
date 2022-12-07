@@ -31,6 +31,8 @@ my $totalgeo = 0;
 my $table = "";
 my $key = $ARGV[0];
 
+my ($i,$d,@features,$file,$json,$f,$rtnjson,$scraper,$json,$feat);
+
 # Loop over the directories
 for($i = 0, $j = 1; $i < $n; $i++, $j++){
 
@@ -147,6 +149,17 @@ for($i = 0, $j = 1; $i < $n; $i++, $j++){
 				$features[$f]{'lon'} = sprintf("%0.5f",$features[$f]{'lon'})+0;
 				$d->{'geocount'}++;
 			}
+
+			# Fix issue with tabs inside properties
+			foreach $feat (sort(keys(%{$features[$f]}))){
+				if($features[$f]{$feat} =~ /[\t]/){
+					$features[$f]{$feat} =~ s/[\t]$//g;
+					$features[$f]{$feat} =~ s/[\t]/ /g;
+				}
+				$features[$f]{$feat} =~ s/[\s\t]{2,}/ /g;
+				$features[$f]{$feat} =~ s/(^\s|\s$)//g;
+				if(!$features[$f]{$feat}){ delete $features[$f]{$feat}; }
+			}
 			push(@warmplaces,$features[$f]);
 		}
 
@@ -204,26 +217,6 @@ sub getID {
 	$str =~ s/[^a-z0-9\-\_]/\_/g;
 	return $str;
 }
-sub getDataFromURL {
-	my $d = shift;
-	my $url = $d->{'data'}{'url'};
-
-	my $file = $rawdir.$d->{'id'}.".".$d->{'data'}{'type'};
-	my $age = 100000;
-	if(-e $file){
-		my $epoch_timestamp = (stat($file))[9];
-		my $now = time;
-		$age = ($now-$epoch_timestamp);
-	}
-
-	msg("\tFile: $file\n");
-	if($age >= 86400 || -s $file == 0){
-		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		`curl -s -L --compressed -o $file "$url"`;
-		msg("\tDownloaded\n");
-	}
-	return $file;
-}
 
 sub parseStorepointFeature {
 	my $f = shift;
@@ -262,27 +255,55 @@ sub parseGeoJSONFeature {
 	if(!$f->{$props} && $f->{'attributes'}){
 		$props = "attributes";
 	}
-	my ($i);
+	my ($i,@days,$key,$tempk,$v);
 	for($i = 0; $i < @fields; $i++){
 		if($f->{$props}{$fields[$i]}){ $json->{$fields[$i]} = $f->{$props}{$fields[$i]}; }
 		if($keys->{$fields[$i]} && $f->{$props}{$keys->{$fields[$i]}}){ $json->{$fields[$i]} = $f->{$props}{$keys->{$fields[$i]}}; }
 	}
 
 	# Explicit days
-	my @days = ("monday","tuesday","wednesday","thursday","friday","saturday","sunday");
+	@days = ("monday","tuesday","wednesday","thursday","friday","saturday","sunday");
 	for($i = 0; $i < @days; $i++){
 		if($f->{$props}{$days[$i]}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$days[$i]}; }
 		if($keys->{$days[$i]} && $f->{$props}{$keys->{$days[$i]}}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$keys->{$days[$i]}}; }
 	}
+
+	# Replacement values
+	foreach $key (keys(%{$keys})){
+		# Do we have the lookup key
+		if($f->{$props}{$keys->{$key}}){
+			# Save to the replacement key
+			$v = $f->{$props}{$keys->{$key}};
+			$v =~ s/(^\s|\s$)//;
+			if($v){
+				$json->{$key} = $v;
+			}
+		}
+	}
+	foreach $key (keys(%{$keys})){
+		if($keys->{$key} =~ /\{\{ ?(.*?) ?\}\}/){
+			$tempk = $keys->{$key};
+			while($tempk =~ /\{\{ ?(.*?) ?\}\}/){
+				$v = $f->{$props}{$1};
+				$v =~ s/(^\s|\s$)//;
+				$tempk =~ s/\{\{ ?(.*?) ?\}\}/$v/sg;
+				$tempk =~ s/[\n]/ /g;
+			}
+			$json->{$key} = $tempk;
+		}
+	}
+
 
 	# Deal with hours
 	if($f->{$props}{'hours'}){ $json->{'hours'} = {'_text'=>$f->{$props}{'hours'} }; }
 	if($keys->{'hours'} && $f->{$props}{$keys->{'hours'}}){ $json->{'hours'} = {'_text'=> $f->{$props}{$keys->{'hours'}} }; }
 
 	if($json->{'hours'}){
+		if(ref $json->{'hours'} eq ref ""){ $json->{'hours'} = {'_text'=>$json->{'hours'} }; }
 		$json->{'hours'} = parseOpeningHours($json->{'hours'});
 		if(!$json->{'hours'}{'opening'}){ delete $json->{'hours'}{'opening'}; } 
 	}
+
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
 	if(!$json->{'lat'}){ $json->{'lat'} = ($f->{'geometry'}{'y'}||$f->{'geometry'}{'coordinates'}[1]); }
 	if(!$json->{'lon'}){ $json->{'lon'} = ($f->{'geometry'}{'x'}||$f->{'geometry'}{'coordinates'}[0]); }

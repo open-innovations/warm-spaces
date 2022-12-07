@@ -2,6 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-3.49425,53.31403],"type":"Point"},"properties":{"_source":"warm_welcome","address":"75, RHYL, denbighshire ll182ab","description":" Open from 18-10-2022.","hours":{"_text":"Tuesday: 11:00 - 13:00 / -, Wednesday: 11:00 - 13:00 / -","opening":"Tu 11:00-13:00; We 11:00-13:00"},"title":"good news in the community"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.21628,53.27264],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Peter’s Church, Rose Hill, Holywell, Flintshire CH8 7TL","description":"","hours":{"_text":"Monday: 11:00 - 14:00","opening":"Mo 11:00-14:00"},"title":"Holywell and Greenfield Churches"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.21628,53.27264],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Peterâs Church, Rose Hill, Holywell, Flintshire CH8 7TL","hours":{"_text":"Monday: 11:00 - 14:00","opening":"Mo 11:00-14:00"},"title":"Holywell and Greenfield Churches"},"type":"Feature"}
 	]
 }

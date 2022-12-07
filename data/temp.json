@@ -1,0 +1,849 @@
+{
+	"path": {
+		"baseUrl": "\/",
+		"scriptPath": null,
+		"pathPrefix": "",
+		"currentPath": "node\/11231",
+		"currentPathIsAdmin": false,
+		"isFront": false,
+		"currentLanguage": "en",
+		"currentQuery": {
+			"page": "0,1",
+			"search_api_fulltext": ""
+		}
+	},
+	"pluralDelimiter": "\u0003",
+	"suppressDeprecationErrors": true,
+	"sitemorse_lite": {
+		"modulePath": "modules\/contrib\/sitemorse_lite",
+		"moduleConfigPath": "\/admin\/config\/content\/sitemorse",
+		"callback": "\/sitemorse\/check-url",
+		"moduleConfigAccess": false
+	},
+	"leaflet": {
+		"leaflet-map-view-localgov-directory-channel-embed-map": {
+			"mapid": "leaflet-map-view-localgov-directory-channel-embed-map",
+			"map": {
+				"label": "Mapbox",
+				"description": "Leaflet map using Mapbox for Lambeth.",
+				"settings": {
+					"layerControl": true,
+					"layerControlOptions": {
+						"position": "topright"
+					},
+					"map_position_force": false,
+					"zoom": 14,
+					"zoomFiner": 0,
+					"minZoom": 1,
+					"maxZoom": 18,
+					"center": {
+						"lat": 0,
+						"lon": 0
+					},
+					"scrollWheelZoom": false,
+					"path": "{\u0022color\u0022:\u0022#3388ff\u0022,\u0022opacity\u0022:\u00221.0\u0022,\u0022stroke\u0022:true,\u0022weight\u0022:3,\u0022fill\u0022:\u0022depends\u0022,\u0022fillColor\u0022:\u0022*\u0022,\u0022fillOpacity\u0022:\u00220.2\u0022}",
+					"leaflet_markercluster": {
+						"control": false,
+						"options": "{\u0022spiderfyOnMaxZoom\u0022:true,\u0022showCoverageOnHover\u0022:true,\u0022removeOutsideVisibleBounds\u0022: false}",
+						"include_path": false
+					},
+					"fullscreen": {
+						"control": true,
+						"options": "{\u0022position\u0022:\u0022topleft\u0022,\u0022pseudoFullscreen\u0022:false}"
+					},
+					"gestureHandling": false,
+					"reset_map": {
+						"control": false,
+						"position": "topright"
+					},
+					"geocoder": {
+						"control": false,
+						"settings": {
+							"position": "topright",
+							"input_size": 25,
+							"providers": {
+								"lambeth_mapbox": {
+									"weight": "0",
+									"checked": 0
+								},
+								"localgov_default_osm": {
+									"weight": "0",
+									"checked": 0
+								}
+							},
+							"min_terms": 4,
+							"delay": 800,
+							"zoom": 16,
+							"popup": false,
+							"options": ""
+						}
+					}
+				},
+				"layers": {
+					"streets": {
+						"urlTemplate": "\/\/api.mapbox.com\/styles\/v1\/{id}\/tiles\/{z}\/{x}\/{y}{r}?access_token={accessToken}",
+						"options": {
+							"attribution": "\u0026copy; \u003Ca href=\u0022https:\/\/www.mapbox.com\/about\/maps\/\u0022 target=\u0022_blank\u0022\u003EMapbox\u003C\/a\u003E OpenStreetMap contributors \u003Ca href=\u0022https:\/\/www.mapbox.com\/map-feedback\/\u0022 target=\u0022_blank\u0022\u003EImprove this map\u003C\/a\u003E",
+							"id": "mapbox\/streets-v11",
+							"tileSize": 512,
+							"accessToken": "pk.eyJ1IjoibGFtYmV0aC13ZWJ0ZWFtIiwiYSI6InFtWGkwME0ifQ.x6MncyH1eKboRxaLAS6ajw",
+							"maxZoom": 18,
+							"zoomOffset": -1
+						}
+					}
+				},
+				"plugins": [],
+				"id": "leaflet-map-view-localgov-directory-channel-embed-map",
+				"geofield_cardinality": -1
+			},
+			"features": [{
+				"type": "point",
+				"lat": 51.482696,
+				"lon": -0.112535,
+				"entity_id": "11391",
+				"weight": 0,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/warm-winter-welcome-provided-kennington-park-community-centre\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Warm_Winter_Welcome_Kennington_Park_Warm_Space.png?itok=l4mGzjB0 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/Warm_Winter_Welcome_Kennington_Park_Warm_Space.png?itok=s31NEmkm 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/Warm_Winter_Welcome_Kennington_Park_Warm_Space.png?itok=tVDL3ILx 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/png\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Warm_Winter_Welcome_Kennington_Park_Warm_Space.png?itok=l4mGzjB0\u0022 alt=\u0022A Warm Winter Welcome provided by Kennington Park Community Centre\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/warm-winter-welcome-provided-kennington-park-community-centre\u0022\u003EA Warm Winter Welcome provided by Kennington Park Community Centre\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open on Monday\u2019s between 21st November and 12th December. Reopening on Monday 9th January onwards.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "A Warm Winter Welcome provided by Kennington Park Community Centre",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.429799,
+				"lon": -0.130688,
+				"entity_id": "11386",
+				"weight": 1,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/aspire-care-services\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/aspire_care_services.jpg?itok=zKIR_bKT 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/aspire_care_services.jpg?itok=IbtxtE2j 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/aspire_care_services.jpg?itok=o7eA2rA5 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/aspire_care_services.jpg?itok=zKIR_bKT\u0022 alt=\u0022Aspire Care Services Warm Space\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/aspire-care-services\u0022\u003EAspire Care Services\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis warm space provides tea and coffee, Free WiFi and access to computers, and Free Workshops on C.V. Writing and Basic IT Skills.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Aspire Care Services",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.451352,
+				"lon": -0.120533,
+				"entity_id": "11389",
+				"weight": 2,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/brixton-hill-methodist-church\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/brixton_hill_methodaist_church.jpg?itok=UJ5CB3mS 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/brixton_hill_methodaist_church.jpg?itok=h-Ih01Pd 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/brixton_hill_methodaist_church.jpg?itok=mks5Aru7 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/brixton_hill_methodaist_church.jpg?itok=UJ5CB3mS\u0022 alt=\u0022Brixton Hill Methodist Church\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/brixton-hill-methodist-church\u0022\u003EBrixton Hill Methodist Church \u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis warm space provides refreshments, internet access and advice from Lambeth Foodbanks\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Brixton Hill Methodist Church ",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.460954,
+				"lon": -0.114855,
+				"entity_id": "2120",
+				"weight": 3,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/brixton-tate-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Brixton%20Tate%20Library.jpg?itok=m-3dPMzy 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2021-05\/Brixton%20Tate%20Library.jpg?itok=4ioB3wdG 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2021-05\/Brixton%20Tate%20Library.jpg?itok=rYbYFJQS 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Brixton%20Tate%20Library.jpg?itok=m-3dPMzy\u0022 alt=\u0022A picture of Brixton Tate Library \u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/brixton-tate-library\u0022\u003EBrixton Tate Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003EBrixton Library in the heart of Brixton, on Windrush Square is a beautiful Grade II listed building, open 7 days a week. On the ground floor there is the children\u2019s library, adult fiction and a gallery room that can be hired for events. On the first floor there is a large non-fiction library, quiet study space and a reference library. The library is open 7 days a week.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Brixton Tate Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.46079,
+				"lon": -0.09645,
+				"entity_id": "2528",
+				"weight": 4,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/carnegie-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Carnegie%20library.jpg?itok=nbe6I3Q_ 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2021-05\/Carnegie%20library.jpg?itok=cgdobH9J 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2021-05\/Carnegie%20library.jpg?itok=9U0B43JO 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Carnegie%20library.jpg?itok=nbe6I3Q_\u0022 alt=\u0022A picture of Carnegie Library\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/carnegie-library\u0022\u003ECarnegie Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003ECarnegie Library is a picturesque Grade II listed building on Herne Hill Road on the edge of Ruskin Park. At the back of the library there is a lovely garden where you can sit and read in the summer.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Carnegie Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.46326,
+				"lon": -0.1334,
+				"entity_id": "2526",
+				"weight": 5,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/clapham-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2020-12\/clapham-library2_0.jpg?itok=jpu9FpY3 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2020-12\/clapham-library2_0.jpg?itok=KUJRcibf 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2020-12\/clapham-library2_0.jpg?itok=FTWYF6zx 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2020-12\/clapham-library2_0.jpg?itok=jpu9FpY3\u0022 alt=\u0022Clapham library\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/clapham-library\u0022\u003EClapham Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003ESituated in the Mary Seacole Centre on Clapham High Street, this stunning, modern, award-winning building is the largest library in Lambeth. There is a central performance space and meeting rooms which can be hired. The library is open 7 days a week.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Clapham Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.450911,
+				"lon": -0.130346,
+				"entity_id": "11233",
+				"weight": 6,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/clapham-park-cube-provided-metropolitan-thames-valley-housing-mtvh\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Header-image-Love-Clapham-Park-2019-collage-1.jpg?itok=sQNFZJdG 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/Header-image-Love-Clapham-Park-2019-collage-1.jpg?itok=EnSpMEy9 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/Header-image-Love-Clapham-Park-2019-collage-1.jpg?itok=4PGqVkAf 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Header-image-Love-Clapham-Park-2019-collage-1.jpg?itok=sQNFZJdG\u0022 alt=\u0022Clapham Park Cube\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/clapham-park-cube-provided-metropolitan-thames-valley-housing-mtvh\u0022\u003EClapham Park Cube provided by Metropolitan Thames Valley Housing (MTVH)\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open Thursdays between 11am and 3pm.\u003C\/p\u003E\n\n\u003Cp\u003EA lunch club is held each Thursday.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Clapham Park Cube provided by Metropolitan Thames Valley Housing (MTVH)",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.48901,
+				"lon": -0.11035,
+				"entity_id": "2422",
+				"weight": 7,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/durning-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Durning%20Library.jpg?itok=J7l_DHCT 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2021-05\/Durning%20Library.jpg?itok=OuvOreQX 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2021-05\/Durning%20Library.jpg?itok=Tjfugiu_ 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Durning%20Library.jpg?itok=J7l_DHCT\u0022 alt=\u0022A picture of Durning Library \u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/durning-library\u0022\u003EDurning Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003EDurning Library is located in Kennington, close to the tube station. It provides books, Wi-Fi, computers, printing, study space and more.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Durning Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.431870214246,
+				"lon": -0.090471093371124,
+				"entity_id": "11282",
+				"weight": 8,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/emmanuel-church-provided-norwood-brixton-foodbank\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/emmaunel_church_warm_space.jpg?itok=cSj-5jc_ 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/emmaunel_church_warm_space.jpg?itok=EQ0XaL0j 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/emmaunel_church_warm_space.jpg?itok=C0XmeG4s 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/emmaunel_church_warm_space.jpg?itok=cSj-5jc_\u0022 alt=\u0022Emmanuel Church Warm Space\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/emmanuel-church-provided-norwood-brixton-foodbank\u0022\u003EEmmanuel Church provided by Norwood and Brixton Foodbank\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open Thursdays between 11am and 2pm.\u003C\/p\u003E\n\n\u003Cp\u003ETea, coffee, refreshments and a free hot meal is available\u003C\/p\u003E\n\n\u003Cp\u003EOuterwear is available on a first-come-first-serve basis\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Emmanuel Church provided by Norwood and Brixton Foodbank",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.420724116171,
+				"lon": -0.12867503785355,
+				"entity_id": "11285",
+				"weight": 9,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/immanuel-st-andrew-church-common-room\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/immanuelstreatham.jpg?itok=wTrN9lfS 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/immanuelstreatham.jpg?itok=BbhUrHp6 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/immanuelstreatham.jpg?itok=dkIctA7H 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/immanuelstreatham.jpg?itok=wTrN9lfS\u0022 alt=\u0022Immanuel Streatham\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/immanuel-st-andrew-church-common-room\u0022\u003EImmanuel and St Andrew Church (Common Room)\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EStarting on the 17th November, this Warm Space is open on Thursdays between 10am and 12 noon.\u003C\/p\u003E\n\n\u003Cp\u003EHot drinks are available.\u003C\/p\u003E\n\n\u003Cp\u003ESome toys are available for young children.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Immanuel and St Andrew Church (Common Room)",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.47145,
+				"lon": -0.1052,
+				"entity_id": "2476",
+				"weight": 10,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/minet-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2020-12\/Screen%20Shot%202013-08-08%20at%2010.24.41.png?itok=zihe-5Dv 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2020-12\/Screen%20Shot%202013-08-08%20at%2010.24.41.png?itok=2M5lhMfo 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2020-12\/Screen%20Shot%202013-08-08%20at%2010.24.41.png?itok=7psc0fQl 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/png\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2020-12\/Screen%20Shot%202013-08-08%20at%2010.24.41.png?itok=zihe-5Dv\u0022 alt=\u0022Exterior photo of Minet library\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/minet-library\u0022\u003EMinet Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003EMinet Library is on Knatchbull Road in Myatts Fields and close to Loughborough Junction. Lambeth Archives is in the same building.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Minet Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.461052,
+				"lon": -0.107226,
+				"entity_id": "11276",
+				"weight": 11,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/moorlands-community-centre-provided-metropolitan-thames-valley-housing-mtvh\u0022\u003EMoorlands Community Centre provided by Metropolitan Thames Valley Housing (MTVH)\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open Thursdays between 11am and 3pm.\u003C\/p\u003E\n\n\u003Cp\u003EVisitors can get tea and coffees and can stay and buy lunch for \u00a31.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Moorlands Community Centre provided by Metropolitan Thames Valley Housing (MTVH)",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.474306,
+				"lon": -0.109386,
+				"entity_id": "11388",
+				"weight": 12,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/myatts-field-north-community-centre-provided-pinnacle-group\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Myatts_Field_North_Warm_Space.jpg?itok=m46euc_n 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/Myatts_Field_North_Warm_Space.jpg?itok=XFGWH87v 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/Myatts_Field_North_Warm_Space.jpg?itok=uggvAgY3 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/Myatts_Field_North_Warm_Space.jpg?itok=m46euc_n\u0022 alt=\u0022Myatt\u2019s Field North Community Centre\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/myatts-field-north-community-centre-provided-pinnacle-group\u0022\u003EMyatts Field North Community Centre provided by the Pinnacle Group\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis warm space provides Internet ready PCs for you to use.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Myatts Field North Community Centre provided by the Pinnacle Group",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.498267,
+				"lon": -0.111757,
+				"entity_id": "11407",
+				"weight": 13,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/oasis-living-room-provided-oasis-hub-waterloo\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-12\/oasis_warm_space.png?itok=1dMqH7YX 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-12\/oasis_warm_space.png?itok=YaVhWpJT 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/png\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-12\/oasis_warm_space.png?itok=61XzrXD5 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/png\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-12\/oasis_warm_space.png?itok=1dMqH7YX\u0022 alt=\u0022Oasis Living Room provided by Oasis  Hub Waterloo\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/oasis-living-room-provided-oasis-hub-waterloo\u0022\u003EOasis Living Room provided by Oasis  Hub Waterloo\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space has an on-site Community Fridge, give-and-take clothes rail, and refill station to visit.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Oasis Living Room provided by Oasis  Hub Waterloo",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.505966431356,
+				"lon": -0.11661806381763,
+				"entity_id": "11283",
+				"weight": 14,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/royal-festival-hall-provided-southbank-centre\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/royalfestivalhall_0.jpg?itok=3hSvBLhx 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/royalfestivalhall_0.jpg?itok=oNPdQFfc 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/royalfestivalhall_0.jpg?itok=v4s7o7BN 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/royalfestivalhall_0.jpg?itok=3hSvBLhx\u0022 alt=\u0022Royal Festival Hall\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/royal-festival-hall-provided-southbank-centre\u0022\u003ERoyal Festival Hall provided by Southbank Centre\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EFree performances and workshops available throughout the season, check the Southbank Centre website for more information.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Royal Festival Hall provided by Southbank Centre",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.492295,
+				"lon": -0.110208,
+				"entity_id": "11232",
+				"weight": 15,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-lukes-community-hub-provided-wlm\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/WLM_photo.jpg?itok=29QA9wNu 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/WLM_photo.jpg?itok=29HJevzx 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/WLM_photo.jpg?itok=4n05Mzmp 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/WLM_photo.jpg?itok=29QA9wNu\u0022 alt=\u0022WLM St Lukes\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-lukes-community-hub-provided-wlm\u0022\u003ESt Luke\u0026#039;s Community Hub provided by WLM\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open on Tuesdays and Thursdays between 9:30am and 4pm. This Warm Space is also open on Wednesdays between 2pm and 4pm.\u00a0\u003C\/p\u003E\n\n\u003Cp\u003EToilets are available\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "St Luke\u0027s Community Hub provided by WLM",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.486950495134,
+				"lon": -0.11869880990019,
+				"entity_id": "11286",
+				"weight": 16,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-peters-vauxhall\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/breakfastStPeters.jpg?itok=0qX86ePF 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/breakfastStPeters.jpg?itok=NL9f3Bx6 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/breakfastStPeters.jpg?itok=upwjG4RQ 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/breakfastStPeters.jpg?itok=0qX86ePF\u0022 alt=\u0022Breakfast at St Peter\u0026#039;s\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-peters-vauxhall\u0022\u003ESt Peter\u0026#039;s Vauxhall\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open Thursdays between 9:30am and 11am.\u003C\/p\u003E\n\n\u003Cp\u003EA free breakfast club operates at this Warm Space.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "St Peter\u0027s Vauxhall",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.48151180225,
+				"lon": -0.11193671148014,
+				"entity_id": "11287",
+				"weight": 17,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-marks-church-kennington\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/StMarksKennington.jpg?itok=DDKePJrY 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2022-11\/StMarksKennington.jpg?itok=uss8n2f6 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2022-11\/StMarksKennington.jpg?itok=_2Hj2f0k 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2022-11\/StMarksKennington.jpg?itok=DDKePJrY\u0022 alt=\u0022St Marks Kennington\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/warm-spaces\/st-marks-church-kennington\u0022\u003ESt. Mark\u2019s Church Kennington\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003E\u003Cp\u003EThis Warm Space is open Fridays between 2pm and 5pm.\u003C\/p\u003E\n\n\u003Cp\u003EFree tea, coffee and light refreshments are available.\u003C\/p\u003E\n\n\u003Cp\u003EHealth and wellbeing advice is available.\u003C\/p\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "St. Mark\u2019s Church Kennington",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.43168,
+				"lon": -0.12905,
+				"entity_id": "10285",
+				"weight": 18,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/streatham-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Streatham%20library.jpg?itok=1DYedZvk 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2021-05\/Streatham%20library.jpg?itok=SeHmJsjk 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2021-05\/Streatham%20library.jpg?itok=AhtoGso9 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Streatham%20library.jpg?itok=1DYedZvk\u0022 alt=\u0022A picture of Streatham library\u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/streatham-library\u0022\u003EStreatham Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003EStreatham Library, at 63 High Road, Streatham, is a Grade II listed building. The library\u2019s Mark Bennett hall is available for hire.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Streatham Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}, {
+				"type": "point",
+				"lat": 51.4792,
+				"lon": -0.1238,
+				"entity_id": "2475",
+				"weight": 19,
+				"popup": "\u003Cdiv class=\u0022flex flex-wrap border-t-4 venue-card listing-card listing-card--directory listing-card-venue bg-lightgrey md:border-t-0 md:border-l-4 border-blue\u0022\u003E\n      \u003Cdiv class=\u0022w-full listing-card__image event-image__image md:order-3 md:w-1\/4 md:pl-4\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/tate-south-lambeth-library\u0022\u003E\u003Carticle class=\u0022media media--type-image media--view-mode-localgov-event-thumbnail\u0022\u003E\n  \n      \n\n              \u003Cpicture\u003E\n                  \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Tate%20South%20Lambeth%20.jpg?itok=GdpWTwaN 1x\u0022 media=\u0022(min-width: 768px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_21_9\/public\/2021-05\/Tate%20South%20Lambeth%20.jpg?itok=qP3BPPoh 1x\u0022 media=\u0022(min-width: 576px)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n              \u003Csource srcset=\u0022\/sites\/default\/files\/styles\/medium_3_2_600x400\/public\/2021-05\/Tate%20South%20Lambeth%20.jpg?itok=coyf2-fK 1x\u0022 media=\u0022(min-width: 0)\u0022 type=\u0022image\/jpeg\u0022\/\u003E\n                  \u003Cimg src=\u0022\/sites\/default\/files\/styles\/square_large\/public\/2021-05\/Tate%20South%20Lambeth%20.jpg?itok=GdpWTwaN\u0022 alt=\u0022A picture of Tate South Lambeth Library \u0022 class=\u0022\u0022 \/\u003E\n\n  \u003C\/picture\u003E\n\n\n     \n\n  \u003C\/article\u003E\n\u003C\/a\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class=\u0022listing-card__wrapper w-full px-4 py-4 md:order-2 md:w-3\/4 md:px-4\u0022\u003E\n    \u003Ch3 class=\u0022order-1 w-full title listing-card__title\u0022\u003E\n      \u003Ca href=\u0022\/libraries-0\/tate-south-lambeth-library\u0022\u003ETate South Lambeth Library\u003C\/a\u003E\n    \u003C\/h3\u003E\n    \u003Cdiv class=\u0022order-3 w-full text listing-card__text\u0022\u003E\n        \u003Cdiv class=\u0022measure typography\u0022\u003ETate South Lambeth Library is located in South Lambeth in the heart of Lambeth\u2019s Portuguese community, a short distance from Stockwell, Vauxhall and Nine Elms.\u003C\/div\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n",
+				"label": "Tate South Lambeth Library",
+				"icon": {
+					"iconType": "marker",
+					"iconUrl": "",
+					"shadowUrl": "",
+					"className": "",
+					"iconSize": {
+						"x": "",
+						"y": ""
+					},
+					"iconAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"shadowSize": {
+						"x": "",
+						"y": ""
+					},
+					"shadowAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"popupAnchor": {
+						"x": "",
+						"y": ""
+					},
+					"html": "\u003Cdiv\u003E\u003C\/div\u003E",
+					"html_class": "leaflet-map-divicon",
+					"circle_marker_options": "{\u0022radius\u0022:100,\u0022color\u0022:\u0022red\u0022,\u0022fillColor\u0022:\u0022#f03\u0022,\u0022fillOpacity\u0022:0.5}"
+				}
+			}]
+		}
+	},
+	"ajaxTrustedUrl": {
+		"\/warm-spaces": true
+	},
+	"user": {
+		"uid": 0,
+		"permissionsHash": "8594970517c4801f06c7dccec27eaeb26fbfefeeff69882eb5be7abb07c3ee58"
+	}
+}

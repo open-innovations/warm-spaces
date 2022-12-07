@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.01220,57.68918],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Queens Road , Fraserburgh , Aberdeenshire AB43 9PQ","description":"","hours":{"_text":"Tuesday: 12:00 - 14:00","opening":"Tu 12:00-14:00"},"title":"AOG Central "},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.01220,57.68918],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Queens Road , Fraserburgh , Aberdeenshire AB43 9PQ","hours":{"_text":"Tuesday: 12:00 - 14:00","opening":"Tu 12:00-14:00"},"title":"AOG Central"},"type":"Feature"}
 	]
 }

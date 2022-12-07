@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.10698,52.97739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Meir Library, Meir Community Education Centre, Pickford Place, Meir, Stoke-on-Trent ST3 7DY","description":"","hours":{"_text":"Monday: 10:00 - 14:00, Wednesday: 10:00 - 12:30 / 13:30 - 17:00, Friday: 09:00 - 12:30 / 13:30 - 17:00, Saturday: 10:00 - 14:00 / - Monthly","opening":"Mo 10:00-14:00; We 10:00-12:30,13:30-17:00; Fr 09:00-12:30,13:30-17:00; Sa 10:00-14:00"},"title":"Meir Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.09397,53.02265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"360 Ash Bank Road, Werrington, Staffs ST9 0JS","description":"","hours":{"_text":"Monday: 10:30 - 16:00, Sunday: 08:15 - 11:30","opening":"Mo 10:30-16:00; Su 08:15-11:30"},"title":"St Philip Werrington"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.10698,52.97739],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Meir Library, Meir Community Education Centre, Pickford Place, Meir, Stoke-on-Trent ST3 7DY","hours":{"_text":"Monday: 10:00 - 14:00, Wednesday: 10:00 - 12:30 / 13:30 - 17:00, Friday: 09:00 - 12:30 / 13:30 - 17:00, Saturday: 10:00 - 14:00 / - Monthly","opening":"Mo 10:00-14:00; We 10:00-12:30,13:30-17:00; Fr 09:00-12:30,13:30-17:00; Sa 10:00-14:00"},"title":"Meir Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.09397,53.02265],"type":"Point"},"properties":{"_source":"warm_welcome","address":"360 Ash Bank Road, Werrington, Staffs ST9 0JS","hours":{"_text":"Monday: 10:30 - 16:00, Sunday: 08:15 - 11:30","opening":"Mo 10:30-16:00; Su 08:15-11:30"},"title":"St Philip Werrington"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.02650,53.10660],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Leek, England, ST13 6AB","hours":{"_text":"Wednesday 9am-5pm","opening":"We 09:00-17:00"},"title":"Saint Edward's Church, Leek","url":"https://leekparish.org.uk/churches/st-edwards-church/"},"type":"Feature"}
 	]
 }
