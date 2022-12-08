@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.63544,55.49673],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Embleton, Alnwick, England, NE66 3UN","hours":{"_text":"8am-5pm"},"title":"The Dunstanburgh Castle Hotel","url":"https://dunstanburghcastlehotel.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.70490,55.41341],"type":"Point"},"properties":{"address":"8 Bondgate Within, Alnwick, Northumberland, NE66 1TD","hours":{},"title":"Alnwick Arts and Crafts Centre Ltd","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/633bfb1c3d4e860c0a4bd2b3"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.70284,55.41247],"type":"Point"},"properties":{"address":"Alnwick Playhouse And Arts Centre, Bondgate Without, Alnwick, Northumberland, NE66 1PQ","hours":{},"title":"Alnwick Library","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.59375,55.47187],"type":"Point"},"properties":{"address":"Craster Memorial Hall, Whin Hill, Craster, Northumberland, NE66 3TP","hours":{},"title":"Craster Memorial Hall"},"type":"Feature"},

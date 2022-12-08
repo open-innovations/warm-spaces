@@ -35,6 +35,19 @@ directories:
     data:
       url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
       type: html
+  - title: "Angus Council"
+    url: "https://www.angus.gov.uk/community_spaces"
+    note: "locationCentre is not queryable"
+    map:
+      url: "https://www.angus.gov.uk/community_spaces?page_id=1626#item-details"
+      type: locationCentre
+  - title: "Ards and North Down Council"
+    url: "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
+    note: "Provided as a PDF"
+    register:
+      url: "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/"
+  - title: "Argyll and Bute Third Sector Interface"
+    url: "https://www.argylltsi.org/warmspaces.html"
   - title: "Barnet Council"
     url: "https://www.barnet.gov.uk/directories/warm-spaces"
     register:
@@ -45,11 +58,30 @@ directories:
     data:
       url: "https://www.barnet.gov.uk/directories/warm-spaces"
       type: html
+  - title: "Armagh City, Bandridge and Craigavon Council"
+    url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
+  - title: "Barnsley Council"
+    url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
+    note: "Refers people to Warm Welcome UK"
+  - title: "Basildon Council"
+    url: "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
+    note: "Not enough structure to parse"
+  - title: "Bath and North East Somerset Council"
+    url: "https://livewell.bathnes.gov.uk/warm-places-list"
+    map:
+      url: "https://livewell.bathnes.gov.uk/warm-places-map"
+      type: leaflet
+    data:
+      url: "https://livewell.bathnes.gov.uk/warm-places-map"
+      type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
     data:
       url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
       type: html
+  - title: "Belfast Council"
+    url: "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
+    note: "Not enough location information to parse"
   - title: "Bexley Council"
     url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
     register:
@@ -161,6 +193,9 @@ directories:
       keys:
         title: "name"
         hours: "description"
+  - title: "Chichester Deanery"
+    url: "https://www.chichesterdeanery.org/warmspaces.htm"
+    note: "Not enough location information"
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
     notes: "Refers to Warm Welcome UK" 
@@ -177,6 +212,12 @@ directories:
     data: 
       url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
+  - title: "Derbyshire Council"
+    url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
+    note: "Too unstructured to parse"
+  - title: "Derbyshire Dales Council"
+    url: "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
+    note: "Too unstructured to parse"
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
@@ -281,6 +322,11 @@ directories:
     url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
     data:
       url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+      type: html
+  - title: "High Peak Council"
+    url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
+    data:
+      url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
       type: html
   - title: "Hounslow Council"
     url: "https://www.hounslow.gov.uk/warmspaces"
@@ -390,6 +436,12 @@ directories:
   - title: "Merton Council"
     url: "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
     notes: "A list of libraries"
+  - title: "Mid and East Antrim Council"
+    url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
+    note: "Some spaces are without addresses"
+    data:
+      url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
+      type: html
   - title: "Middlesbrough Council"
     url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
     map:

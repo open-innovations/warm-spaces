@@ -152,6 +152,7 @@ p.times { margin-top: 1em; }
 ul.times { margin-top: 0!important; }
 ul.times > li { margin-top: 0; line-height: 1.5em; }
 ul.list, .loader svg { margin-top:1em; }
+ul.list > li.c13-bg:first-child { outline: 2px solid black; }
 
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.98992,54.99271],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"Town Hall, Carnlough, Antrim, BT44 0EU;","contact":"T: 028 2888 5552; E: Carnlough.library@librariesni.org.uk;","description":"Tea and newspapers - Every Thursday from 10am to 1pm","hours":{"_text":"Tuesday:, 1pm - 8pm","opening":"Tu 13:00-20:00"},"title":"Carnlough Library"},"type":"Feature"}
+	]
+}

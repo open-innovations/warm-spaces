@@ -11,6 +11,30 @@
 		"title": "Aberdeen City Council",
 		"url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces"
 	},
+	"angus_council": {
+		"id": "angus_council",
+		"map": { "type": "locationCentre", "url": "https://www.angus.gov.uk/community_spaces?page_id=1626#item-details" },
+		"note": "locationCentre is not queryable",
+		"title": "Angus Council",
+		"url": "https://www.angus.gov.uk/community_spaces"
+	},
+	"ards_and_north_down_council": {
+		"id": "ards_and_north_down_council",
+		"note": "Provided as a PDF",
+		"register": { "url": "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/" },
+		"title": "Ards and North Down Council",
+		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
+	},
+	"argyll_and_bute_third_sector_interface": {
+		"id": "argyll_and_bute_third_sector_interface",
+		"title": "Argyll and Bute Third Sector Interface",
+		"url": "https://www.argylltsi.org/warmspaces.html"
+	},
+	"armagh_city__bandridge_and_craigavon_council": {
+		"id": "armagh_city__bandridge_and_craigavon_council",
+		"title": "Armagh City, Bandridge and Craigavon Council",
+		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
+	},
 	"barnet_council": {
 		"count": 18,
 		"data": [
@@ -23,6 +47,29 @@
 		"title": "Barnet Council",
 		"url": "https://www.barnet.gov.uk/directories/warm-spaces"
 	},
+	"barnsley_council": {
+		"id": "barnsley_council",
+		"note": "Refers people to Warm Welcome UK",
+		"title": "Barnsley Council",
+		"url": "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
+	},
+	"basildon_council": {
+		"id": "basildon_council",
+		"note": "Not enough structure to parse",
+		"title": "Basildon Council",
+		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
+	},
+	"bath_and_north_east_somerset_council": {
+		"count": 49,
+		"data": [
+			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
+		],
+		"geocount": 49,
+		"id": "bath_and_north_east_somerset_council",
+		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
+		"title": "Bath and North East Somerset Council",
+		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
+	},
 	"bedford_council": {
 		"count": 30,
 		"data": [
@@ -32,6 +79,12 @@
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
+	},
+	"belfast_council": {
+		"id": "belfast_council",
+		"note": "Not enough location information to parse",
+		"title": "Belfast Council",
+		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
 	},
 	"bexley_council": {
 		"count": "0",
@@ -177,6 +230,12 @@
 		"title": "Chesterfield Council",
 		"url": "https://www.chesterfield.gov.uk/home/latest-news/find-a-warm-space-to-visit-in-chesterfield.aspx"
 	},
+	"chichester_deanery": {
+		"id": "chichester_deanery",
+		"note": "Not enough location information",
+		"title": "Chichester Deanery",
+		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
+	},
 	"city_of_london": {
 		"id": "city_of_london",
 		"notes": "Refers to Warm Welcome UK",
@@ -203,6 +262,18 @@
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
+	},
+	"derbyshire_council": {
+		"id": "derbyshire_council",
+		"note": "Too unstructured to parse",
+		"title": "Derbyshire Council",
+		"url": "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
+	},
+	"derbyshire_dales_council": {
+		"id": "derbyshire_dales_council",
+		"note": "Too unstructured to parse",
+		"title": "Derbyshire Dales Council",
+		"url": "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
 	},
 	"durham_county_council": {
 		"count": 100,
@@ -314,6 +385,16 @@
 		"id": "havering_council",
 		"title": "Havering Council",
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+	},
+	"high_peak_council": {
+		"count": 22,
+		"data": [
+			{ "type": "html", "url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces" }
+		],
+		"geocount": 17,
+		"id": "high_peak_council",
+		"title": "High Peak Council",
+		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hounslow_council": {
 		"count": 35,
@@ -434,6 +515,17 @@
 		"notes": "A list of libraries",
 		"title": "Merton Council",
 		"url": "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
+	},
+	"mid_and_east_antrim_council": {
+		"count": 10,
+		"data": [
+			{ "type": "html", "url": "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/" }
+		],
+		"geocount": 6,
+		"id": "mid_and_east_antrim_council",
+		"note": "Some spaces are without addresses",
+		"title": "Mid and East Antrim Council",
+		"url": "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
 	},
 	"middlesbrough_council": {
 		"count": 17,
@@ -703,11 +795,11 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1039,
+		"count": 1130,
 		"data": [
 			{ "type": "squarespace", "url": "https://warmspaces.org/locations/" }
 		],
-		"geocount": 1039,
+		"geocount": 1130,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
