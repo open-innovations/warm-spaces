@@ -1,3 +1,6 @@
+---
+# front matter tells Jekyll to process Liquid
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +14,7 @@
 	<meta name="twitter:url" property="og:url" content="https://open-innovations.github.io/warm-spaces/">
 	<meta name="twitter:title" property="og:title" content="Warm spaces finder">
 	<meta name="twitter:description" property="og:description" content="Get a simple list of warm spaces near you.">
-	<meta name="description" content="Get a simple list of warm spaces near you.">
+	<meta name="description" content="Search {% include_relative data/nspaces.txt %} warm spaces {% include_relative data/ndirs.txt %}.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/resources/images/logos/oi-square-13.png">
 </head>
 <body class="b1-bg">
@@ -48,7 +51,7 @@
 			<p>As we head into the winter of 2022, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Several different groups have started collating different <a href="index.html">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. Many of the directories are on pages that use quite a lot of data transfer which makes them less than ideal for those with limited data plans. So we have developed this lightweight tool that searches through multiple warm spaces directories from voluntary groups and local councils.</p>
 
 			<h3>Data</h3>
-			<p>The data comes from those directories that we were able to automatically collect and automatically parse. If there are mistakes, please refer back to the original source(s) and ask them to update those. If you have a warm space that isn't included, please refer to the <a href="index.html">directories of warm spaces</a> and choose an appropriate source to register with.</p>
+			<p>This search includes <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces from <span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories that we were able to automatically collect and automatically parse. If there are mistakes, please refer back to the original source(s) and ask them to update those. If you have a warm space that isn't included, please refer to the <a href="index.html">directories of warm spaces</a> and choose an appropriate source to register with. As organisations can submit their warm space to multiple directories, there may be duplicates.</p>
 			
 			<h3>Opening times</h3>
 			<p>Please note that <em>our display of opening times may not always be correct</em>. This is because the original data sources have allowed people to provide opening hours as unstructured free-text. There are hundreds of ways that organisations have chosen to write their opening hours and some choices of formatting make it very <a href="https://github.com/open-innovations/warm-spaces/actions/runs/3637587054/jobs/6138765472#step:4:6">hard for our code to work it out correctly</a>. The indications of opening given in this tool are therefore our automated best attempt to work them out. We're doing pretty well at it but have also provided a view of the original text for each. You can also check against the original sources. We suggest that people/organisations/directories use <a href="https://wiki.openstreetmap.org/wiki/Key:opening_hours">an existing standard format for opening times</a> such as the one developed by Open Street Map when adding data to the various directories. That way it will be easier to check for certain kinds of data entry mistake.</p>
@@ -204,6 +207,24 @@
 			}
 		});
 	}
+
+
+	function loadBlock(i,block){
+		let html = block.innerHTML;
+		html = html.replace(/\{\% include_relative (.*\.[a-zA-Z]*) \%\}/g,function(m,p1){
+			file = p1;
+			return "<div id=\"jekyll-"+i+"\"></div>";
+		});
+		block.innerHTML = html;
+		fetch(file,{'i':i})
+		.then(response => { return response.text(); })
+		.then(text => {
+			document.getElementById('jekyll-'+i).outerHTML = text;
+		}).catch(error => {
+		});	
+	}
+	var blocks = document.getElementsByClassName('jekyll-parse');
+	for(var i = 0; i < blocks.length; i++) loadBlock(i,blocks[i]);
 	</script>
 
 	<script src="https://open-innovations.org/resources/oi.log.js"></script>

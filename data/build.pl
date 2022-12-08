@@ -33,6 +33,7 @@ sub processDirectories {
 
 	my $total = 0;
 	my $totalgeo = 0;
+	my $totaldir = 0;
 	my $table = "";
 	my $key = $ARGV[0];
 
@@ -126,6 +127,7 @@ sub processDirectories {
 			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 			$total += $d->{'count'};
 			$totalgeo += $d->{'geocount'};
+			if($d->{'count'} > 0){ $totaldir++; }
 			
 			$counter = @warmplaces;
 			msg("\tTotal = $counter\n");
@@ -166,7 +168,13 @@ sub processDirectories {
 	print $fh "</table>\n";
 	close($fh);
 
-	msg("Added $total features in total ($totalgeo geocoded).\n");
+	msg("Added $total features in total ($totalgeo geocoded from $totaldir directories).\n");
+	open($fh,">:utf8",$dir."ndirs.txt");
+	print $fh "$totaldir";
+	close($fh);
+	open($fh,">:utf8",$dir."nspaces.txt");
+	print $fh "$totalgeo";
+	close($fh);
 }
 
 
@@ -441,6 +449,7 @@ sub getArcGIS {
 sub cleanCDATA {
 	my $str = $_[0];
 	$str =~ s/(^<!-?\[CDATA\[|\]\]>$)//g;
+	$str =~ s/<!-?\[CDATA\[(.*?)\]\]>/$1/g;
 	return $str;
 }
 
@@ -482,7 +491,7 @@ sub getGoogleMap {
 			$entry->{'lon'} = $lon+0;
 		}
 		if($placemark =~ /<ExtendedData>(.*?)<\/ExtendedData>/s){
-			$parse = $1;
+			$parse = cleanCDATA($1);
 			while($parse =~ s/<Data name="([^\"]+)">(.*?)<\/Data>//s){
 				$k = $1;
 				$v = $2;
@@ -506,7 +515,7 @@ sub getGoogleMap {
 						for($p2 = 0; $p2 < @reps; $p2++){
 							$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
 							$txt = parseText($matches[$p2]);
-							if($txt){ $props->{$reps[$p2]} = $txt; }
+							if($txt){ $props->{$reps[$p2]} = cleanCDATA($txt); }
 						}
 					}
 					$remove{'description'} = 1;
@@ -524,7 +533,7 @@ sub getGoogleMap {
 				}elsif($v =~ /\{\{ ?(.*?) ?\}\}/){
 					$v =~ s/\{\{ ?(.*?) ?\}\}/$props->{$1}/sg;
 					$v =~ s/[\n]//g;
-					$entry->{$key} = $v;
+					$entry->{$key} = cleanCDATA($v);
 				}
 			}
 

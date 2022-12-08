@@ -469,6 +469,17 @@ directories:
         url: "Website"
         hours: "Opening_ti"
         description: "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}"        
+  - title: "Norfolk Community Foundation"
+    url: "https://www.norfolkfoundation.com/hot-spots/"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8"
+      type: googlemap
+      keys:
+        title: "name"
+        address: "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}"
   - title: "North Northamptonshire Council"
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     data:

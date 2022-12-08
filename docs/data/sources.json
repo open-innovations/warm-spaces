@@ -550,6 +550,17 @@
 		"title": "Newham Council",
 		"url": "https://www.newham.gov.uk/warmhavens"
 	},
+	"norfolk_community_foundation": {
+		"count": 134,
+		"data": [
+			{ "keys": { "address": "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8" }
+		],
+		"geocount": 130,
+		"id": "norfolk_community_foundation",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8" },
+		"title": "Norfolk Community Foundation",
+		"url": "https://www.norfolkfoundation.com/hot-spots/"
+	},
 	"north_northamptonshire_council": {
 		"count": 35,
 		"data": [
