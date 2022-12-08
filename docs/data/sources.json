@@ -60,11 +60,11 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 49,
+		"count": "0",
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": 49,
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -409,7 +409,7 @@
 	"hull_council": {
 		"count": 28,
 		"data": [
-			{ "keys": { "address": "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}", "contact": "fields->sheet1__f9", "description": "fields->activities", "title": "fields->sheet1__f4", "url": "links->sheet1__f4" }, "type": "geojson", "url": "https://maps.hull.gov.uk/GetOWS.ashx?VERSION=1.0.0&SERVICE=WFS&REQUEST=GetFeature&TYPENAME=Warm_Spaces&MAPSOURCE=mapsources/AllMaps&OUTPUTFORMAT=GeoJSON_BBOX&FILTER=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:Intersects%3E%3Cogc:PropertyName%3Ewkb_geometry%3C/ogc:PropertyName%3E%3Cgml:Polygon%20xmlns:gml=%22http://www.opengis.net/gml%22%3E%3Cgml:exterior%3E%3Cgml:LinearRing%3E%3Cgml:posList%3E517495%20423581%20517495%20437666%20497887%20437666%20497887%20423581%20517495%20423581%3C/gml:posList%3E%3C/gml:LinearRing%3E%3C/gml:exterior%3E%3C/gml:Polygon%3E%3C/ogc:Intersects%3E%3C/ogc:Filter%3E&VIEWPARAMS=bbox(%22%22,%22497887,423581,517495,437666%22)" }
+			{ "keys": { "address": "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}", "contact": "fields->sheet1__f9", "description": "fields->activities", "title": "fields->sheet1__f4", "url": "links->sheet1__f4" }, "type": "geojson", "url": "https://maps.hull.gov.uk/GetOWS.ashx?VERSION=1.0.0&SERVICE=WFS&REQUEST=GetFeature&TYPENAME=Warm_Spaces&MAPSOURCE=mapsources/AllMaps&OUTPUTFORMAT=GeoJSON_BBOX&FILTER=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:Intersects%3E%3Cogc:PropertyName%3Ewkb_geometry%3C/ogc:PropertyName%3E%3Cgml:Polygon%20xmlns:gml=%22http://www.opengis.net/gml%22%3E%3Cgml:exterior%3E%3Cgml:LinearRing%3E%3Cgml:posList%3E519000%20423000%20519000%20438000%20497000%20438000%20497000%20423000%20519000%20423000%3C/gml:posList%3E%3C/gml:LinearRing%3E%3C/gml:exterior%3E%3C/gml:Polygon%3E%3C/ogc:Intersects%3E%3C/ogc:Filter%3E&VIEWPARAMS=bbox(%22%22,%22497887,423581,517495,437666%22)" }
 		],
 		"geocount": 28,
 		"id": "hull_council",
