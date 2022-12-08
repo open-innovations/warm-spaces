@@ -30,6 +30,7 @@ jobs:
             JSON::XS
             YAML::XS
             Web::Scraper
+            Geo::Coordinates::OSGB
 
       # Runs script
       - name: Run build script
