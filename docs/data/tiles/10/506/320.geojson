@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.83268,55.59775],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bell View Resource Centre, 33 West Street, Belford, Northumberland NE70 7QB","hours":{"_text":"Monday: 09:15 - 16:30, Tuesday: 09:15 - 16:30, Wednesday: 09:15 - 16:30, Thursday: 09:15 - 16:30, Friday: 09:15 - 16:30","opening":"Mo 09:15-16:30; Tu 09:15-16:30; We 09:15-16:30; Th 09:15-16:30; Fr 09:15-16:30"},"title":"Bell View"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.83215,55.59787],"type":"Point"},"properties":{"address":"33 West Street, Belford, Northumberland, NE70 7QB","hours":{},"title":"Bell View Cafe"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.00571,55.76994],"type":"Point"},"properties":{"address":"Church Hall, Berwick Baptist Church, Golden Square, Berwick-Upon-Tweed, Northumberland, TD15 1BG","hours":{},"title":"Berwick Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.00518,55.77081],"type":"Point"},"properties":{"address":"Berwick Library, Walkergate, Berwick-Upon-Tweed, Northumberland, TD15 1DB","hours":{},"title":"Berwick Library","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"},

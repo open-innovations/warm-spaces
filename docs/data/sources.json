@@ -298,14 +298,14 @@
 		"url": "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
 	},
 	"edinburgh_council": {
-		"count": 51,
+		"count": 57,
 		"data": [
 			{ "keys": { "address": "Address", "contact": "Tel: {{ phone }}; Email: {{ mail }}", "description": "Facilities", "hours": "opening_ho", "title": "{{ Library }}{{ Organisati }}", "url": "Web_URL" }, "type": "arcgis", "url": "https://services-eu1.arcgis.com/FgpikkYuSUOuITxp/arcgis/rest/services/CEC_Resilience_Centres/FeatureServer/3/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=Address%2CEvents%2CFacilities%2CImage_URL%2CLibrary%2CWeb_URL%2CWebsite%2Cmail%2Copening_ho%2Cphone%2Cpostcode%2CFID&outSR=4326&spatialRel=esriSpatialRelIntersects" },
 			{ "keys": { "address": "Address", "contact": "Tel: {{ phone }}; Email: {{ mail }}", "description": "Facilities", "hours": "opening_ho", "title": "{{ Library }}{{ Organisati }}", "url": "Web_URL" }, "type": "arcgis", "url": "https://services-eu1.arcgis.com/FgpikkYuSUOuITxp/arcgis/rest/services/CEC_Resilience_Centres/FeatureServer/2/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=Address%2CEvents%2CFacilities%2COrganisati%2CWebsite%2Cmail%2Copening_ho%2Cphone%2Cpostcode%2CFID&outSR=4326&spatialRel=esriSpatialRelIntersects" },
 			{ "keys": { "address": "Address", "contact": "Tel: {{ phone }}; Email: {{ mail }}", "description": "Facilities", "hours": "opening_ho", "title": "{{ Library }}{{ Organisati }}", "url": "Web_URL" }, "type": "arcgis", "url": "https://services-eu1.arcgis.com/FgpikkYuSUOuITxp/arcgis/rest/services/CEC_Resilience_Centres/FeatureServer/1/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=FID%2COrganisati&outSR=4326&spatialRel=esriSpatialRelIntersects" },
 			{ "keys": { "address": "Address", "contact": "Tel: {{ phone }}; Email: {{ mail }}", "description": "Facilities", "hours": "opening_ho", "title": "{{ Library }}{{ Organisati }}", "url": "Web_URL" }, "type": "arcgis", "url": "https://services-eu1.arcgis.com/FgpikkYuSUOuITxp/arcgis/rest/services/CEC_Resilience_Centres/FeatureServer/0/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=Address%2CEvents%2CFacilities%2COrganisati%2CWebsite%2Cmail%2Copening_ho%2Cphone%2Cpostcode%2CFID&outSR=4326&spatialRel=esriSpatialRelIntersects" }
 		],
-		"geocount": 51,
+		"geocount": 57,
 		"id": "edinburgh_council",
 		"map": { "type": "arcgis", "url": "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37" },
 		"title": "Edinburgh Council",
@@ -387,11 +387,11 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"high_peak_council": {
-		"count": 22,
+		"count": 27,
 		"data": [
 			{ "type": "html", "url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces" }
 		],
-		"geocount": 17,
+		"geocount": 22,
 		"id": "high_peak_council",
 		"title": "High Peak Council",
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
@@ -405,6 +405,17 @@
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
+	},
+	"hull_council": {
+		"count": 28,
+		"data": [
+			{ "keys": { "address": "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}", "contact": "fields->sheet1__f9", "description": "fields->activities", "title": "fields->sheet1__f4", "url": "links->sheet1__f4" }, "type": "geojson", "url": "https://maps.hull.gov.uk/GetOWS.ashx?VERSION=1.0.0&SERVICE=WFS&REQUEST=GetFeature&TYPENAME=Warm_Spaces&MAPSOURCE=mapsources/AllMaps&OUTPUTFORMAT=GeoJSON_BBOX&FILTER=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:Intersects%3E%3Cogc:PropertyName%3Ewkb_geometry%3C/ogc:PropertyName%3E%3Cgml:Polygon%20xmlns:gml=%22http://www.opengis.net/gml%22%3E%3Cgml:exterior%3E%3Cgml:LinearRing%3E%3Cgml:posList%3E517495%20423581%20517495%20437666%20497887%20437666%20497887%20423581%20517495%20423581%3C/gml:posList%3E%3C/gml:LinearRing%3E%3C/gml:exterior%3E%3C/gml:Polygon%3E%3C/ogc:Intersects%3E%3C/ogc:Filter%3E&VIEWPARAMS=bbox(%22%22,%22497887,423581,517495,437666%22)" }
+		],
+		"geocount": 28,
+		"id": "hull_council",
+		"map": { "type": "iShare", "url": "https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
+		"title": "Hull Council",
+		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
 		"count": 40,
@@ -469,11 +480,11 @@
 		"url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
 	"leeds_city_council": {
-		"count": 132,
+		"count": 133,
 		"data": [
 			{ "keys": { "accessibility": "Accessibility_Comments", "address": "Address", "description": "Description", "friday": "Friday", "lat": "Latitude", "lon": "Longitude", "monday": "Monday", "saturday": "Saturday", "sunday": "Sunday", "thursday": "Thursday", "title": "Venue", "tuesday": "Tuesday", "type": "Venue_Type", "wednesday": "Wednesday" }, "type": "arcgis", "url": "https://services1.arcgis.com/brSffcdOV7o1pDVT/arcgis/rest/services/WarmSpacesNov_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects" }
 		],
-		"geocount": 132,
+		"geocount": 133,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -540,11 +551,11 @@
 		"url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
 	},
 	"newham_council": {
-		"count": 16,
+		"count": 23,
 		"data": [
 			{ "keys": { "address": "{{ Address }}", "description": "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}", "hours": "Opening_ti", "title": "Name", "url": "Website" }, "type": "arcgis", "url": "https://services1.arcgis.com/trOdpHvvP7HrTfdb/arcgis/rest/services/WarmHaven_2/FeatureServer/0/query?f=geojson&where=Operationa%20%3D%20%27Y%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=4326&resultOffset=0&resultRecordCount=8000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333416%2C%22extent%22%3A%7B%22xmin%22%3A-492.28689999878407%2C%22ymin%22%3A6710410.039899997%2C%22xmax%22%3A7525.914900001139%2C%22ymax%22%3A6719613.525700003%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D%7D" }
 		],
-		"geocount": 16,
+		"geocount": 23,
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"title": "Newham Council",
@@ -584,11 +595,11 @@
 		"url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
 	},
 	"oxford_council": {
-		"count": 35,
+		"count": 36,
 		"data": [
 			{ "keys": { "description": "description", "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12" }
 		],
-		"geocount": 35,
+		"geocount": 36,
 		"id": "oxford_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12" },
 		"register": { "url": "mailto:lcooper@oxford.gov.uk" },
@@ -652,11 +663,11 @@
 		"url": "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 50,
+		"count": 49,
 		"data": [
 			{ "type": "html", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" }
 		],
-		"geocount": 50,
+		"geocount": 49,
 		"id": "sandwell_council",
 		"map": { "type": "googlemap", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
 		"title": "Sandwell Council",
@@ -733,11 +744,11 @@
 		"url": "https://www.stockton.gov.uk/warm-spaces"
 	},
 	"stroud_cscic": {
-		"count": 35,
+		"count": 40,
 		"data": [
 			{ "type": "html", "url": "https://cscic.org/community-hubs/warm-spaces-in-stroud/" }
 		],
-		"geocount": 34,
+		"geocount": 38,
 		"id": "stroud_cscic",
 		"title": "Stroud CSCIC",
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
@@ -777,7 +788,7 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 37,
+		"count": 41,
 		"data": [
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacescentral" },
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceseast" },
@@ -787,7 +798,7 @@
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesgower" },
 			{ "type": "googlemap2", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" }
 		],
-		"geocount": 35,
+		"geocount": 39,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -835,11 +846,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3183,
+		"count": 3225,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" }
 		],
-		"geocount": 3183,
+		"geocount": 3225,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

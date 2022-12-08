@@ -518,6 +518,58 @@ sub addLatLonFromPostcodes {
 	return @features;
 }
 
+sub getCentre {
+	my $c = shift;
+	if($c->{'type'} eq "Point"){
+		return $c->{'coordinates'};
+	}elsif($c->{'type'} eq "Polygon"){
+		# Calculate the centre of a polygon https://en.wikipedia.org/wiki/Centroid#Of_a_polygon
+		my $a = 0;
+		my $b = 0;
+		my $cx = 0;
+		my $cy = 0;
+		my $n = @{$c->{'coordinates'}}-1;	# Last coordinate should be a duplicate of the first
+		for($i = 0; $i < $n-1; $i++){
+			$b = (($c->{'coordinates'}[$i][0] * $c->{'coordinates'}[$i+1][1]) - ($c->{'coordinates'}[$i+1][0] * $c->{'coordinates'}[$i][1]));
+			$a += $b;
+			$cx += ($c->{'coordinates'}[$i][0] + $c->{'coordinates'}[$i+1][0])*$b;
+			$cy += ($c->{'coordinates'}[$i][1] + $c->{'coordinates'}[$i+1][1])*$b;
+		}
+
+		if($a == 0){
+			# The area is zero which may indicate this polygon intersects with itself so just return the first coordinates
+			$cx = $c->{'coordinates'}[0][0];
+			$cy = $c->{'coordinates'}[0][1];
+		}else{
+			$a *= 0.5;
+			$cx *= 1/(6*$a);
+			$cy *= 1/(6*$a);
+		}
+
+		# Check if coordinates look more like OS National Grid References
+		if($cx > 180 && $cy > 90){
+			($cx,$cy) = grid_to_ll($cx,$cy);
+		}
+
+		return ($cx,$cy);
+	}
+	return ();
+}
+
+sub getProperty {
+	my $p = shift;
+	my $d = shift;
+	my @bits = split(/\-\>/,$p);
+	my $n = @bits;
+	my $out;
+	if($n > 1){
+		$key = shift(@bits);
+		return getProperty(join("->",@bits),$d->{$key});
+	}else{
+		return $d->{$p};
+	}
+}
+
 # https://code.activestate.com/recipes/577450-perl-url-encode-and-decode/
 sub urldecode {
     my $s = shift;

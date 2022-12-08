@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.08636,52.41226],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Elim Chrisitian Fellowship, South Road, Aberystwyth , Ceredigion SY23 1JF","description":"Open from 09-11-2022.","hours":{"_text":"Wednesday: 11:00 - 14:00","opening":"We 11:00-14:00"},"title":"Elim Aberyswyth"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.08324,52.41723],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Queen's Rd, Aberystwyth, Ceredigion sy23 2nn","hours":{"_text":"Tuesday: 11:00 - 14:00, Thursday: 11:00 - 14:00, Friday: 19:00 - 21:00","opening":"Tu 11:00-14:00; Th 11:00-14:00; Fr 19:00-21:00"},"title":"St Paul's Methodist Centre"},"type":"Feature"}
 	]
 }

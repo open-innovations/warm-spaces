@@ -333,6 +333,20 @@ directories:
     data:
       url: "https://www.hounslow.gov.uk/warmspaces"
       type: html    
+  - title: "Hull Council"
+    url: "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
+    map:
+      url: "https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces"
+      type: iShare
+    data:
+      url: "https://maps.hull.gov.uk/GetOWS.ashx?VERSION=1.0.0&SERVICE=WFS&REQUEST=GetFeature&TYPENAME=Warm_Spaces&MAPSOURCE=mapsources/AllMaps&OUTPUTFORMAT=GeoJSON_BBOX&FILTER=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:Intersects%3E%3Cogc:PropertyName%3Ewkb_geometry%3C/ogc:PropertyName%3E%3Cgml:Polygon%20xmlns:gml=%22http://www.opengis.net/gml%22%3E%3Cgml:exterior%3E%3Cgml:LinearRing%3E%3Cgml:posList%3E517495%20423581%20517495%20437666%20497887%20437666%20497887%20423581%20517495%20423581%3C/gml:posList%3E%3C/gml:LinearRing%3E%3C/gml:exterior%3E%3C/gml:Polygon%3E%3C/ogc:Intersects%3E%3C/ogc:Filter%3E&VIEWPARAMS=bbox(%22%22,%22497887,423581,517495,437666%22)"
+      type: geojson
+      keys:
+        title: "fields->sheet1__f4"
+        url: "links->sheet1__f4"
+        address: "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}"
+        contact: "fields->sheet1__f9"
+        description: "fields->activities"
   - title: "Huntingdonshire Council"
     url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
     map:

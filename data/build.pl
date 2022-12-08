@@ -7,6 +7,7 @@ use YAML::XS 'LoadFile';
 use Data::Dumper;
 use POSIX qw(strftime);
 use Encode;
+use Geo::Coordinates::OSGB qw(ll_to_grid grid_to_ll);
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -221,15 +222,20 @@ sub parseGeoJSONFeature {
 	my $f = shift;
 	my $keys = shift;
 	my $json = {};
-	my @fields = ("title","address","lat","lon","description","accessibility","type");
+	my @fields = ("title","address","lat","lon","description","accessibility","type","contact","hours");
 	my $props = "properties";
 	if(!$f->{$props} && $f->{'attributes'}){
 		$props = "attributes";
 	}
 	my ($i,@days,$key,$tempk,$v,$k);
 	for($i = 0; $i < @fields; $i++){
-		if($f->{$props}{$fields[$i]}){ $json->{$fields[$i]} = $f->{$props}{$fields[$i]}; }
-		if($keys->{$fields[$i]} && $f->{$props}{$keys->{$fields[$i]}}){ $json->{$fields[$i]} = $f->{$props}{$keys->{$fields[$i]}}; }
+		if($f->{$props}{$fields[$i]}){
+			$json->{$fields[$i]} = getProperty($fields[$i],$f->{$props});
+		}
+		if($keys->{$fields[$i]}){
+			$v = getProperty($keys->{$fields[$i]},$f->{$props});
+			if($v){ $json->{$fields[$i]} = $v; }
+		}
 	}
 
 	# Explicit days
@@ -244,11 +250,9 @@ sub parseGeoJSONFeature {
 		# Do we have the lookup key
 		if($f->{$props}{$keys->{$key}}){
 			# Save to the replacement key
-			$v = $f->{$props}{$keys->{$key}};
+			$v = getProperty($keys->{$key},$f->{$props});
 			$v =~ s/(^\s|\s$)//;
-			if($v){
-				$json->{$key} = $v;
-			}
+			if($v){ $json->{$key} = $v; }
 		}
 	}
 	foreach $key (keys(%{$keys})){
@@ -256,7 +260,7 @@ sub parseGeoJSONFeature {
 			$tempk = $keys->{$key};
 			while($tempk =~ /\{\{ ?(.*?) ?\}\}/){
 				$k = $1;
-				$v = $f->{$props}{$k};
+				$v = getProperty($k,$f->{$props});
 				$v =~ s/(^\s|\s$)//;
 				$tempk =~ s/\{\{ ?$k ?\}\}/$v/s;
 				$tempk =~ s/[\n]/ /g;
@@ -266,7 +270,6 @@ sub parseGeoJSONFeature {
 		# Clean up "<Null>" values
 		if($json->{$key} eq "<Null>"){ delete $json->{$key}; }
 	}
-
 
 	# Deal with hours
 	if($f->{$props}{'hours'}){ $json->{'hours'} = {'_text'=>$f->{$props}{'hours'} }; }
@@ -281,6 +284,13 @@ sub parseGeoJSONFeature {
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
 	if(!$json->{'lat'}){ $json->{'lat'} = ($f->{'geometry'}{'y'}||$f->{'geometry'}{'coordinates'}[1]); }
 	if(!$json->{'lon'}){ $json->{'lon'} = ($f->{'geometry'}{'x'}||$f->{'geometry'}{'coordinates'}[0]); }
+	if(ref $json->{'lat'} eq "ARRAY" || ref $json->{'lon'} eq "ARRAY"){
+		warning("\tCoordinates seem to be an array so calculating centre.\n");
+		my (@ll) = getCentre($f->{'geometry'});
+		$json->{'lat'} = $ll[1];
+		$json->{'lon'} = $ll[0];
+	}
+
 	return $json;
 }
 
@@ -390,6 +400,11 @@ sub getGeoJSON {
 
 	msg("\tProcessing GeoJSON\n");
 	$geojson = getJSON($file);
+	
+	if(ref $geojson eq "ARRAY"){
+		msg("\tGeoJSON looks like an array\n");
+		$geojson = $geojson->[0];
+	}
 
 	# How many features in the GeoJSON
 	$d->{'count'} = @{$geojson->{'features'}};
