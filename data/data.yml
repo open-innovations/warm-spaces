@@ -37,13 +37,13 @@ directories:
       type: html
   - title: "Angus Council"
     url: "https://www.angus.gov.uk/community_spaces"
-    note: "locationCentre is not queryable"
+    notes: "locationCentre is not queryable"
     map:
       url: "https://www.angus.gov.uk/community_spaces?page_id=1626#item-details"
       type: locationCentre
   - title: "Ards and North Down Council"
     url: "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
-    note: "Provided as a PDF"
+    notes: "Provided as a PDF"
     register:
       url: "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/"
   - title: "Argyll and Bute Third Sector Interface"
@@ -62,10 +62,10 @@ directories:
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
   - title: "Barnsley Council"
     url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
-    note: "Refers people to Warm Welcome UK"
+    notes: "Refers people to Warm Welcome UK"
   - title: "Basildon Council"
     url: "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
-    note: "Not enough structure to parse"
+    notes: "Not enough structure to parse"
   - title: "Bath and North East Somerset Council"
     url: "https://livewell.bathnes.gov.uk/warm-places-list"
     map:
@@ -81,7 +81,7 @@ directories:
       type: html
   - title: "Belfast Council"
     url: "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
-    note: "Not enough location information to parse"
+    notes: "Not enough location information to parse"
   - title: "Bexley Council"
     url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
     register:
@@ -93,7 +93,7 @@ directories:
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     register:
       url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2"
-    note: "Birmingham's webserver blocks automated access"
+    notes: "Birmingham's webserver blocks automated access"
     data:
       url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
       robots: false
@@ -195,7 +195,7 @@ directories:
         hours: "description"
   - title: "Chichester Deanery"
     url: "https://www.chichesterdeanery.org/warmspaces.htm"
-    note: "Not enough location information"
+    notes: "Not enough location information"
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
     notes: "Refers to Warm Welcome UK" 
@@ -214,10 +214,10 @@ directories:
       type: html
   - title: "Derbyshire Council"
     url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
-    note: "Too unstructured to parse"
+    notes: "Too unstructured to parse"
   - title: "Derbyshire Dales Council"
     url: "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
-    note: "Too unstructured to parse"
+    notes: "Too unstructured to parse"
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
@@ -438,7 +438,7 @@ directories:
     notes: "A list of libraries"
   - title: "Mid and East Antrim Council"
     url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
-    note: "Some spaces are without addresses"
+    notes: "Some spaces are without addresses"
     data:
       url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
       type: html
@@ -652,6 +652,26 @@ directories:
   - title: "Sutton Council"
     url: "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
     notes: "Refers to Warm Welcome UK"
+  - title: "Swansea Council"
+    url: "https://www.swansea.gov.uk/swanseaspaces"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11"
+      type: googlemap
+    data:
+      - url: "https://www.swansea.gov.uk/swanseaspacescentral"
+        type: html
+      - url: "https://www.swansea.gov.uk/swanseaspaceseast"
+        type: html
+      - url: "https://www.swansea.gov.uk/swanseaspacesnorth"
+        type: html
+      - url: "https://www.swansea.gov.uk/swanseaspacesnorthwest"
+        type: html
+      - url: "https://www.swansea.gov.uk/swanseaspaceswest"
+        type: html
+      - url: "https://www.swansea.gov.uk/swanseaspacesgower"
+        type: html
+      - url: "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11"
+        type: googlemap2
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     register:

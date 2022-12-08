@@ -14,13 +14,13 @@
 	"angus_council": {
 		"id": "angus_council",
 		"map": { "type": "locationCentre", "url": "https://www.angus.gov.uk/community_spaces?page_id=1626#item-details" },
-		"note": "locationCentre is not queryable",
+		"notes": "locationCentre is not queryable",
 		"title": "Angus Council",
 		"url": "https://www.angus.gov.uk/community_spaces"
 	},
 	"ards_and_north_down_council": {
 		"id": "ards_and_north_down_council",
-		"note": "Provided as a PDF",
+		"notes": "Provided as a PDF",
 		"register": { "url": "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/" },
 		"title": "Ards and North Down Council",
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
@@ -49,13 +49,13 @@
 	},
 	"barnsley_council": {
 		"id": "barnsley_council",
-		"note": "Refers people to Warm Welcome UK",
+		"notes": "Refers people to Warm Welcome UK",
 		"title": "Barnsley Council",
 		"url": "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
 	},
 	"basildon_council": {
 		"id": "basildon_council",
-		"note": "Not enough structure to parse",
+		"notes": "Not enough structure to parse",
 		"title": "Basildon Council",
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
@@ -82,7 +82,7 @@
 	},
 	"belfast_council": {
 		"id": "belfast_council",
-		"note": "Not enough location information to parse",
+		"notes": "Not enough location information to parse",
 		"title": "Belfast Council",
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
 	},
@@ -104,7 +104,7 @@
 		],
 		"geocount": "0",
 		"id": "birmingham_council",
-		"note": "Birmingham's webserver blocks automated access",
+		"notes": "Birmingham's webserver blocks automated access",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
@@ -232,7 +232,7 @@
 	},
 	"chichester_deanery": {
 		"id": "chichester_deanery",
-		"note": "Not enough location information",
+		"notes": "Not enough location information",
 		"title": "Chichester Deanery",
 		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
 	},
@@ -265,13 +265,13 @@
 	},
 	"derbyshire_council": {
 		"id": "derbyshire_council",
-		"note": "Too unstructured to parse",
+		"notes": "Too unstructured to parse",
 		"title": "Derbyshire Council",
 		"url": "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
 	},
 	"derbyshire_dales_council": {
 		"id": "derbyshire_dales_council",
-		"note": "Too unstructured to parse",
+		"notes": "Too unstructured to parse",
 		"title": "Derbyshire Dales Council",
 		"url": "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
 	},
@@ -523,7 +523,7 @@
 		],
 		"geocount": 6,
 		"id": "mid_and_east_antrim_council",
-		"note": "Some spaces are without addresses",
+		"notes": "Some spaces are without addresses",
 		"title": "Mid and East Antrim Council",
 		"url": "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
 	},
@@ -764,6 +764,23 @@
 		"notes": "Refers to Warm Welcome UK",
 		"title": "Sutton Council",
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
+	},
+	"swansea_council": {
+		"count": 37,
+		"data": [
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacescentral" },
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceseast" },
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesnorth" },
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesnorthwest" },
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceswest" },
+			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesgower" },
+			{ "type": "googlemap2", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" }
+		],
+		"geocount": 35,
+		"id": "swansea_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
+		"title": "Swansea Council",
+		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"tewkesbury_council": {
 		"id": "tewkesbury_council",
