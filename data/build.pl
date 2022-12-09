@@ -35,6 +35,7 @@ sub processDirectories {
 	my $total = 0;
 	my $totalgeo = 0;
 	my $totaldir = 0;
+	my $totalgeocoded = 0;
 	my $table = "";
 	my $key = $ARGV[0];
 
@@ -122,6 +123,7 @@ sub processDirectories {
 					$features[$f]{$feat} =~ s/(^\s|\s$)//g;
 					if(!$features[$f]{$feat}){ delete $features[$f]{$feat}; }
 				}
+				if($features[$f]{'loc_pcd'}){ $totalgeocoded++; }
 				push(@warmplaces,$features[$f]);
 			}
 
@@ -175,6 +177,9 @@ sub processDirectories {
 	close($fh);
 	open($fh,">:utf8",$dir."nspaces.txt");
 	print $fh "$totalgeo";
+	close($fh);
+	open($fh,">:utf8",$dir."ngeocoded.txt");
+	print $fh "$totalgeocoded";
 	close($fh);
 }
 
