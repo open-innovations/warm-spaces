@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.66631,50.15062],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Church Road, Pendeen TR19 7SE","description":"Hot drinks and snacks, activities","hours":{"_text":"TBC"},"loc_pcd":true,"title":"Centre of Pendeen"},"type":"Feature"},
+		{"geometry":{"coordinates":[-5.67776,50.12119],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Fore Street, St Just, Penzance TR19 7QX","description":"Hot meals and drinks, information, advice and guidance and signposting","hours":{"_text":"Wednesdays 11am - 4pm","opening":"We 11:00-16:00"},"loc_pcd":true,"title":"Age Concern"},"type":"Feature"}
+	]
+}

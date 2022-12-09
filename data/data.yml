@@ -174,6 +174,19 @@ directories:
       type: html
     register:
       url: "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u"
+  - title: "Carefree Cornwall"
+    url: "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F"
+      type: googlemap
+      keys:
+        title: "name"
+        address: "Address"
+        hours: "Days / times available"
+        description: "Whats on offer"
   - title: "Central Bedfordshire Council"
     url: "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
     data:

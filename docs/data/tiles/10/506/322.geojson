@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.10299,55.23310],"type":"Point"},"properties":{"address":"Bird In Bush Inn, Elsdon, Newcastle Upon Tyne, Northumberland, NE19 1AA","hours":{},"title":"Bird In Bush Elsdon"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.80158,55.30083],"type":"Point"},"properties":{"address":"Longframlington Memorial Hall, Rothbury Road, Longframlington, Morpeth, Northumberland, NE65 8AH","hours":{},"title":"Longframlington Memorial Hall","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/63402cdec55584363737dea2"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.91494,55.30888],"type":"Point"},"properties":{"address":"Rothbury Library, Front Street, Rothbury, Morpeth, Northumberland, NE65 7TZ","hours":{},"title":"Rothbury Library","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.10299,55.23310],"type":"Point"},"properties":{"address":"Bird In Bush Inn, Elsdon, Newcastle Upon Tyne, Northumberland, NE19 1AA","hours":{},"loc_pcd":true,"title":"Bird In Bush Elsdon"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.80158,55.30083],"type":"Point"},"properties":{"address":"Longframlington Memorial Hall, Rothbury Road, Longframlington, Morpeth, Northumberland, NE65 8AH","hours":{},"loc_pcd":true,"title":"Longframlington Memorial Hall","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/63402cdec55584363737dea2"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.91494,55.30888],"type":"Point"},"properties":{"address":"Rothbury Library, Front Street, Rothbury, Morpeth, Northumberland, NE65 7TZ","hours":{},"loc_pcd":true,"title":"Rothbury Library","url":"https://north.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"}
 	]
 }

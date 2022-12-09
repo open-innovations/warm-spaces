@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.91160,50.26816],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"9 Fore St, Tregony, Truro TR2 5RN","description":"A warm friendly space with free refreshments","hours":{"_text":"Sunday 9.30am - 10.15am. 11.45am - 2pm, Mondays 10.30am - 12noon, Wednesdays 6.30pm - 7.20pm, Saturday 14 Jan, 18 Feb & 10 March 2023, Veteran's breakfast 10.30-12noon. Open to everyone","opening":"Su 09:30-10:15; Mo 10:30-12:00; We 18:30-19:20"},"loc_pcd":true,"title":"Tregony Bible Christian Church"},"type":"Feature"}
+	]
+}

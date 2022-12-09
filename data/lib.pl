@@ -501,13 +501,16 @@ sub addLatLonFromPostcodes {
 			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
 			if($places[$i]{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
 				$postcode = $2;
+				warning("\tFinding coordinates for $postcode\n");
 				# Now we need to find the postcode areas e.g. LS, BD, M etc and load those files if we haven't
 				$pc = getPostcode($postcode);
 				if($pc->{'lat'}){
 					$places[$i]->{'lat'} = $pc->{'lat'};
+					$places[$i]->{'loc_pcd'} = JSON::XS::true;
 				}
 				if($pc->{'lon'}){
 					$places[$i]->{'lon'} = $pc->{'lon'};
+					$places[$i]->{'loc_pcd'} = JSON::XS::true;
 				}
 			}
 			
