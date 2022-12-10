@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-75.03838,40.20868],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Hampton Park Way, Southampton SO17 3AT","hours":{"_text":"Tuesday: 16:00 - 18:00","opening":"Tu 16:00-18:00"},"title":"Swaythling Neighbourhood Centre"},"type":"Feature"}
-	]
-}
