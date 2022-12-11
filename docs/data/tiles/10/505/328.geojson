@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.27665,54.06482],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Limestone View, Settle, N Yorks BD24 9FH","hours":{"_text":"Monday: 9:00 - 16:00, Tuesday: 9:00 - 16:00, Wednesday: 9:00 - 16:00, Thursday: 9:00 - 16:00, Friday: 9:00 - 16:00, Sunday: 10:00 - 14:00","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00; Su 10:00-14:00"},"title":"Housing 21"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.27665,54.06482],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Limestone View, Settle, N Yorks BD24 9FH","hours":{"_text":"Monday: 9:00 - 16:00, Tuesday: 9:00 - 16:00, Wednesday: 9:00 - 16:00, Thursday: 9:00 - 16:00, Friday: 9:00 - 16:00, Sunday: 10:00 - 14:00","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00; Su 10:00-14:00"},"title":"Housing 21"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.27850,54.07054],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Settle, N. Yorkshire BD24 9JH","description":"Open from 23/11/2022. Come on a Wednesday morning for a brew and a chat in our warm space. Same on Thursday afternoon, but we show a family film at 2.30, so bring your friends.","hours":{"_text":"Wednesday: 10:30 - 12:00, Thursday: 14:00 - 16:30","opening":"We 10:30-12:00; Th 14:00-16:30"},"title":"St.John’s Methodist Church"},"type":"Feature"}
 	]
 }
