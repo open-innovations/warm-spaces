@@ -98,6 +98,11 @@ directories:
       url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
       robots: false
       type: jadu
+  - title: "Bolton at Home"
+    url: "https://www.boltonathome.org.uk/warm-spaces/"
+    data:
+      url: "https://www.boltonathome.org.uk/warm-spaces/"
+      type: html
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
   - title: "Bournemouth, Christchurch and Poole"
@@ -401,6 +406,9 @@ directories:
         title: "name"
         description: "description"
         hours: "description"
+  - title: "Kirklees Council"
+    url: "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
+    notes: "Mentions libraries and refers to Warm Welcome UK"
   - title: "Lambeth Council"
     url: "https://beta.lambeth.gov.uk/warm-spaces"
     register:
