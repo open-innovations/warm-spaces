@@ -774,3 +774,5 @@ directories:
     data:
       url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
       type: html
+  - title: "Live Well York"
+    url: "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
