@@ -842,6 +842,17 @@
 		"title": "Tewkesbury Council",
 		"url": "https://www.tewkesbury.gov.uk/warm-spaces"
 	},
+	"torbay_council": {
+		"count": 37,
+		"data": [
+			{ "type": "html", "url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/" }
+		],
+		"geocount": 37,
+		"id": "torbay_council",
+		"map": { "type": "googlemap", "url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/" },
+		"title": "Torbay Council",
+		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
+	},
 	"wakefield_council": {
 		"count": "0",
 		"data": [

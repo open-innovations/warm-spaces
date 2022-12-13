@@ -722,6 +722,14 @@ directories:
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     register:
       url: "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration"
+  - title: "Torbay Council"
+    url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
+    map:
+      url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/"
+      type: googlemap
+    data:
+      url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/"
+      type: html     
   - title: "Wakefield Council"
     url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
     data:
