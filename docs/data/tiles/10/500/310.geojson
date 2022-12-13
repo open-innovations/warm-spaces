@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.03061,57.68003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o St Regulus Church, Cromarty, RossShire IV11 8XA","description":"Cater for all. Sessions are run in the Fishertown Inn on Fridays, otherwise in the library. Both are just a few steps from the church on Church Street.","hours":{},"title":"Cosy Cromarty"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.03061,57.68003],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o St Regulus Church, Cromarty, RossShire IV11 8XA","description":"Cater for all. Sessions are run in the Fishertown Inn on Fridays, otherwise in the library. Both are just a few steps from the church on Church Street.","hours":{"_text":"Monday: 10:00 - 12:00, Tuesday: 14:00 - 16:00, Thursday: 14:00 - 16:00, Friday: 14:00 - 16:00","opening":"Mo 10:00-12:00; Tu 14:00-16:00; Th 14:00-16:00; Fr 14:00-16:00"},"title":"Cosy Cromarty"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.16940,57.68908],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Road, Invergordon, Ross IV18 0AZ","hours":{"_text":"Monday: 14:00 - 16:00, Wednesday: 10:00 - 12:00, Sunday: 10:00 - 20:00","opening":"Mo 14:00-16:00; We 10:00-12:00; Su 10:00-20:00"},"title":"Invergordon Church of Scotland"},"type":"Feature"}
 	]
 }
