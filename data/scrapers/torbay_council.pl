@@ -36,11 +36,12 @@ if(-e $file){
 			if($json->[$i][2] =~ /<h4[^\>]*>(.*?)<\/h4>/){
 				$d->{'title'} = $1;
 			}
-			if($json->[$i][2] =~ /<p[^\>]*>(.*?)<\/p>/){
-				$d->{'description'} = $1;
-			}
 			if($json->[$i][2] =~ /<a href=['"]([^\"\']+)['"]>/){
 				$d->{'url'} = $1;
+			}
+			if($json->[$i][2] =~ /<p[^\>]*>(.*?)<\/p>/){
+				$d->{'description'} = $1;
+				$d->{'description'} =~ s/(Find out more)/<a href="$d->{'url'}">$1<\/a>/;
 			}
 			push(@entries,makeJSON($d,1));
 		}
