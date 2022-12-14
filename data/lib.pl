@@ -61,9 +61,11 @@ sub getURL {
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
-	my ($url,$file,$age,$now,$epoch_timestamp,$header,$h);
+	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h);
 
 	$url = $d->{'data'}[$n]{'url'};
+
+	msg("\tURL: $url\n");
 
 	$file = $rawdir.$d->{'id'}.($n ? "-$n":"").".".$d->{'data'}[$n]{'type'};
 	$age = 100000;
@@ -76,14 +78,20 @@ sub getDataFromURL {
 	msg("\tFile: $file\n");
 	if($age >= 86400 || -s $file == 0){
 		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		$header = "";
+		$args = "";
 		if($d->{'data'}[$n]{'headers'}){
 			foreach $h (keys(%{$d->{'data'}[$n]{'headers'}})){
-				$header .= ($header ? " " : "")."-H \"$h: $d->{'data'}[$n]{'headers'}{$h}\"";
+				$args .= ($args ? " " : "")."-H \"$h: $d->{'data'}[$n]{'headers'}{$h}\"";
 			}
-		}		
-		`curl -s -L $header --compressed -o $file "$url"`;
-		msg("\tDownloaded\n");
+		}
+		if($d->{'data'}[$n]{'method'}){
+			$args .= " -X $d->{'data'}[$n]{'method'}"
+		}
+		if($d->{'data'}[$n]{'form'}){
+			$args .= " --data-raw \"$d->{'data'}[$n]{'form'}\"";
+		}
+		`curl -s --insecure -L $args --compressed -o $file "$url"`;
+		msg("\tDownloaded to $file\n");
 	}
 	return $file;
 }

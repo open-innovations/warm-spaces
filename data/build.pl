@@ -422,6 +422,10 @@ sub getGeoJSON {
 		for($f = 0; $f < $d->{'count'}; $f++){
 			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
 			$json->{'_source'} = $d->{'id'};
+			
+			if($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG::27700/){
+				($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lat'},$json->{'lon'});
+			}
 			push(@features,$json);
 		}
 		
