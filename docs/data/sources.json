@@ -248,6 +248,17 @@
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
+	"ceredigion_council": {
+		"count": 35,
+		"data": [
+			{ "keys": { "address": "Address", "contact": "{{ Lead Contact }}: {{ Contact Details }}", "description": "Activity Offered", "hours": "Opening Times", "lat": "latitude", "lon": "longitude", "title": "Warm Welcome Space" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9" }
+		],
+		"geocount": 35,
+		"id": "ceredigion_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9" },
+		"title": "Ceredigion Council",
+		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
+	},
 	"cheshire_west_and_chester_council": {
 		"id": "cheshire_west_and_chester_council",
 		"notes": "Refers people to Warm Welcome",

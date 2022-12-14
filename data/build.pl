@@ -520,7 +520,7 @@ sub getGoogleMap {
 				$k = $1;
 				$v = $2;
 				if($v =~ s/^.*<value>(.*?)<\/value>.*$/$1/gs){
-					$props->{$k} = $v;
+					$props->{$k} = cleanCDATA($v);
 				}
 			}
 		}else{

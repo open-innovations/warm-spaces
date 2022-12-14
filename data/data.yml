@@ -210,6 +210,22 @@ directories:
     data:
       url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
       type: portal
+  - title: "Ceredigion Council"
+    url: "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9"
+      type: googlemap
+      keys:
+        title: "Warm Welcome Space"
+        description: "Activity Offered"
+        lat: "latitude"
+        lon: "longitude"
+        address: "Address"
+        hours: "Opening Times"
+        contact: "{{ Lead Contact }}: {{ Contact Details }}"
   - title: "Cheshire West and Chester Council"
     url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
     notes: "Refers people to Warm Welcome"
