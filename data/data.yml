@@ -673,6 +673,18 @@ directories:
         lon: "lng"
         description: "information"
         hours: "openingtimes"
+  - title: "Spark Somerset"
+    url: "https://sparksomerset.org.uk/warm-welcome"
+    register:
+      url: "https://www.surveymonkey.co.uk/r/warmwelcomesomerset"
+    map:
+      url: "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185"
+      type: xmap
+    data:
+      url: "https://shared.xmap.cloud/data/southsomerset/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=application/json;type=utfgrid&TRANSPARENT=true&LAYERS=warm_welcome&CRS=EPSG%3A27700&STYLES=&WIDTH=1278&HEIGHT=646&BBOX=265971.46439628483%2C99824%2C392030.53560371517%2C163544"
+      headers:
+        Cookie: "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk"
+      type: html
   - title: "Southwalk Council"
     url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
     data:

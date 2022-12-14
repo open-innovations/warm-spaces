@@ -61,7 +61,7 @@ sub getURL {
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
-	my ($url,$file,$age,$now,$epoch_timestamp);
+	my ($url,$file,$age,$now,$epoch_timestamp,$header,$h);
 
 	$url = $d->{'data'}[$n]{'url'};
 
@@ -76,7 +76,13 @@ sub getDataFromURL {
 	msg("\tFile: $file\n");
 	if($age >= 86400 || -s $file == 0){
 		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
-		`curl -s -L --compressed -o $file "$url"`;
+		$header = "";
+		if($d->{'data'}[$n]{'headers'}){
+			foreach $h (keys(%{$d->{'data'}[$n]{'headers'}})){
+				$header .= ($header ? " " : "")."-H \"$h: $d->{'data'}[$n]{'headers'}{$h}\"";
+			}
+		}		
+		`curl -s -L $header --compressed -o $file "$url"`;
 		msg("\tDownloaded\n");
 	}
 	return $file;
