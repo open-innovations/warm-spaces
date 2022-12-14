@@ -166,7 +166,7 @@
 	"bristol_council": {
 		"count": 80,
 		"data": [
-			{ "keys": { "address": "ADDRESS", "contact": "CONTACT", "hours": "TIMETABLE", "title": "NAME", "url": "WEB" }, "type": "arcgis", "url": "https://services2.arcgis.com/a4vR8lmmksFixzmB/arcgis/rest/services/Welcoming_spaces_view/FeatureServer/0/query?f=geojson&where=WS_OPEN%20%3D%20%27Yes%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333336%2C%22extent%22%3A%7B%22xmin%22%3A351616%2C%22ymin%22%3A167463%2C%22xmax%22%3A364223.8694719222%2C%22ymax%22%3A179202%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" }
+			{ "keys": { "address": "ADDRESS", "contact": "CONTACT", "hours": "TIMETABLE", "title": "NAME", "url": "WEB" }, "type": "arcgis", "url": "https://services2.arcgis.com/a4vR8lmmksFixzmB/arcgis/rest/services/Welcoming_spaces_view/FeatureServer/0/query?f=geojson&where=WS_OPEN%20%3D%20%27Yes%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.058333333333332%2C%22extent%22%3A%7B%22xmin%22%3A351616%2C%22ymin%22%3A167463%2C%22xmax%22%3A364225.4993447601%2C%22ymax%22%3A179202%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" }
 		],
 		"geocount": 80,
 		"id": "bristol_council",
@@ -536,8 +536,13 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
+		"count": 33,
+		"data": [
+			{ "type": "html", "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces-directory/" }
+		],
+		"geocount": 32,
 		"id": "lewes_and_eastbourne_council",
-		"register": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/",
+		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
@@ -703,6 +708,17 @@
 		"title": "Richmond upon Thames Council",
 		"url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
 	},
+	"rochdale_council": {
+		"count": 16,
+		"data": [
+			{ "keys": { "contact": "Email", "description": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&ll=53.59395131187502%2C-2.1698963500000046&z=12" }
+		],
+		"geocount": 16,
+		"id": "rochdale_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&ll=53.59395131187499%2C-2.1698963500000046&z=12" },
+		"title": "Rochdale Council",
+		"url": "https://www.rochdale.gov.uk/warmspaces"
+	},
 	"rotherham_council": {
 		"id": "rotherham_council",
 		"notes": "Refers people to Warm Welcome",
@@ -741,6 +757,12 @@
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
 		"url": "https://seftoncvs.org.uk/warmspaces/"
+	},
+	"sevenoaks_council": {
+		"id": "sevenoaks_council",
+		"register": { "url": "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
+		"title": "Sevenoaks Council",
+		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
 		"count": 86,
@@ -856,6 +878,11 @@
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
+	},
+	"swindon_council": {
+		"id": "swindon_council",
+		"title": "Swindon Council",
+		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tewkesbury_council": {
 		"id": "tewkesbury_council",
