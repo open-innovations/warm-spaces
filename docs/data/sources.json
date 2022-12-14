@@ -175,11 +175,11 @@
 		"url": "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
 	},
 	"bromley_well": {
-		"count": 50,
+		"count": 52,
 		"data": [
 			{ "keys": { "address": "{{ street }}, {{ Postcode }}", "contact": "Tel: {{ Phone }}; Email: {{ Email }}", "description": "Notes", "hours": "Notes", "title": "name", "url": "Web" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" }
 		],
-		"geocount": 50,
+		"geocount": 52,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -307,6 +307,16 @@
 		"title": "Derbyshire Dales Council",
 		"url": "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
 	},
+	"devizes_council": {
+		"count": 9,
+		"data": [
+			{ "type": "html", "url": "https://www.devizes-tc.gov.uk/warmspaces/" }
+		],
+		"geocount": 8,
+		"id": "devizes_council",
+		"title": "Devizes Council",
+		"url": "https://www.devizes-tc.gov.uk/warmspaces/"
+	},
 	"durham_county_council": {
 		"count": 100,
 		"data": [
@@ -388,11 +398,11 @@
 		"url": "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
 	},
 	"haringey_council": {
-		"count": 17,
+		"count": 20,
 		"data": [
 			{ "type": "html", "url": "https://www.haringey.gov.uk/community/haringey-warm-welcome" }
 		],
-		"geocount": 17,
+		"geocount": 20,
 		"id": "haringey_council",
 		"title": "Haringey Council",
 		"url": "https://www.haringey.gov.uk/community/haringey-warm-welcome"
@@ -482,11 +492,11 @@
 		"url": "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
 	},
 	"kingston_council": {
-		"count": 31,
+		"count": 32,
 		"data": [
 			{ "keys": { "description": "description", "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/embed?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" }
 		],
-		"geocount": 31,
+		"geocount": 32,
 		"id": "kingston_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3W0eRlVADHwMI5Wf1eA94IsEcysZVZlbAOfCbDJNgK3FZzg/viewform?usp=sf_link" },
@@ -686,6 +696,12 @@
 		"title": "Portsmouth Council",
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
+	"reading_council": {
+		"id": "reading_council",
+		"notes": "Not enough structure to be able to parse",
+		"title": "Reading Council",
+		"url": "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
+	},
 	"redcar_and_cleveland_council": {
 		"count": 48,
 		"data": [
@@ -765,11 +781,11 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 86,
+		"count": 110,
 		"data": [
 			{ "keys": { "address": "address", "contact": "phonenumber", "description": "information", "hours": "openingtimes", "lat": "lat", "lon": "lng", "title": "name", "url": "website" }, "startrow": "2", "type": "csv", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRbIq7B3EB_tSnW2Uoi4q1Sfrey5lxscOANLYHWYc5ZXDn5gD-5wXD3RCLSWJ2UehImGwEQn-rPss3/pub?output=csv" }
 		],
-		"geocount": 86,
+		"geocount": 110,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -863,7 +879,7 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 48,
+		"count": 56,
 		"data": [
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacescentral" },
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceseast" },
@@ -873,7 +889,7 @@
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesgower" },
 			{ "type": "googlemap2", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" }
 		],
-		"geocount": 32,
+		"geocount": 39,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",

@@ -244,6 +244,11 @@ directories:
   - title: "Derbyshire Dales Council"
     url: "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
     notes: "Too unstructured to parse"
+  - title: "Devizes Council"
+    url: "https://www.devizes-tc.gov.uk/warmspaces/"
+    data:
+      url: "https://www.devizes-tc.gov.uk/warmspaces/"
+      type: html
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
