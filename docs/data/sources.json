@@ -753,6 +753,16 @@
 		"title": "Portsmouth Council",
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
+	"powys_council": {
+		"count": 38,
+		"data": [
+			{ "type": "html", "url": "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory" }
+		],
+		"geocount": 38,
+		"id": "powys_council",
+		"title": "Powys Council",
+		"url": "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+	},
 	"reading_council": {
 		"id": "reading_council",
 		"notes": "Not enough structure to be able to parse",

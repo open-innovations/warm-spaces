@@ -657,6 +657,11 @@ directories:
     data:
       url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
       type: html
+  - title: "Powys Council"
+    url: "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+    data:
+      url: "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+      type: html
   - title: "Reading Council"
     url: "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
     notes: "Not enough structure to be able to parse"
