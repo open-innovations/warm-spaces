@@ -164,6 +164,19 @@ directories:
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:
       url: "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/"
+  - title: "Bury Directory"
+    url: "https://theburydirectory.co.uk/warm-spaces-bury"
+    data:
+      - url: "https://theburydirectory.co.uk/bury-east-warm-spaces"
+        type: html
+      - url: "https://theburydirectory.co.uk/bury-north-warm-spaces"
+        type: html
+      - url: "https://theburydirectory.co.uk/radcliffe-warm-spaces"
+        type: html
+      - url: "https://theburydirectory.co.uk/whitefield-warm-spaces"
+        type: html
+      - url: "https://theburydirectory.co.uk/prestwich-warm-spaces"
+        type: html
   - title: "Cambridge Council"
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
     data:
@@ -354,6 +367,34 @@ directories:
     data:
       url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
       type: html
+  - title: "Hertfordshire Council"
+    url: "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
+    register:
+      url: "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx"
+    map:
+      url: "https://directory.hertfordshire.gov.uk/Search?categoryId=165"
+      type: googlemap
+    data:
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=3"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=4"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=5"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=6"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=7"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=8"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9"
+        type: html
+      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10"
+        type: html
   - title: "High Peak Council"
     url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
     data:
@@ -696,6 +737,8 @@ directories:
     data:
       url: "https://www.staffordbc.gov.uk/warm-spaces"
       type: html
+  - title: "Stevenage Council"
+    url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
   - title: "Stockport Council"
     url: "https://www.stockport.gov.uk/warm-spaces"
     map:
