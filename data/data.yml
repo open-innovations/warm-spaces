@@ -588,6 +588,9 @@ directories:
     data:
       url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
       type: html
+  - title: "Reading Council"
+    url: "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
+    notes: "Not enough structure to be able to parse"
   - title: "Redcar and Cleveland Council"
     url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
     map:
