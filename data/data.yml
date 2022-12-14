@@ -518,7 +518,7 @@ directories:
       url: "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/"
       type: googlemap
     notes: "Unable to extract enough data"
-  - title: "Litchfield Council"
+  - title: "Lichfield Council"
     url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
     map:
       url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"

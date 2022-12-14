@@ -598,15 +598,15 @@
 		"title": "Lewisham Local",
 		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
 	},
-	"litchfield_council": {
+	"lichfield_council": {
 		"count": 15,
 		"data": [
 			{ "type": "html", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" }
 		],
 		"geocount": 15,
-		"id": "litchfield_council",
+		"id": "lichfield_council",
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
-		"title": "Litchfield Council",
+		"title": "Lichfield Council",
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
