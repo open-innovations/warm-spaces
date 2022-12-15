@@ -1,6 +1,6 @@
 /**
 	Open Innovations Warm Places Finder
-	Version 0.2
+	Version 0.2.1
  */
 (function(root){
 
@@ -16,7 +16,7 @@
 		if(!opts) opts = {};
 
 		this.name = "Open Innovations Warm Spaces Finder";
-		this.version = "0.2";
+		this.version = "0.2.1";
 		var logger = new Log({"title":this.name,"version":this.version});
 		var log = logger.message;
 
@@ -123,9 +123,20 @@
 			.then(feature => {
 				
 				var polygon;
+				console.log(feature);
 				if(feature.geometry.type==="Polygon") polygon = feature.geometry.coordinates[0];
-				else if(feature.geometry.type==="MultiPolygon") polygon = feature.geometry.coordinates[0][0];
-
+				else if(feature.geometry.type==="MultiPolygon"){
+					// Find biggest polygon
+					var max = 0;
+					var f,idx = 0;
+					for(f = 0; f < feature.geometry.coordinates.length; f++){
+						if(feature.geometry.coordinates[f][0].length > max){
+							max = feature.geometry.coordinates[f][0].length;
+							idx = f;
+						}
+					}
+					polygon = feature.geometry.coordinates[idx][0];
+				}
 				this.setArea(polygon);
 
 			}).catch(error => {
