@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.97036,55.00616],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 01228 791876; Email: helen.fisher@longtowncc.co.uk","description":"This is a community centre with teas and coffees available throughout this session and some refreshments. There will be board games / jigsaws, access to TV facilities. A great opportunity to socialise with others. Open to all ages.We will provide teas and coffees. In addition there will be refreshments each week. This will vary week to week and will be advertised within the centre and on social media.","hours":{},"title":"Longtown Memorial Hall Community Centre","url":"https://new.cumbria.gov.uk/node/9851"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.86359,55.08739],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 01228577381; Email: anna.robinson95@yahoo.com","description":"Wi fi and company. Hot drinks .Bar open Thursday and Friday Food can be purchased on Friday 6.30 until 9pm","hours":{},"title":"Nicholforest Village Hall","url":"https://new.cumbria.gov.uk/node/9112"},"type":"Feature"}
+	]
+}

@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.73681,54.94362],"type":"Point"},"properties":{"_source":"cumbria_council","description":"Community Centre with activities taking place (paid). Those visiting the Warm Spot will be able to sit somewhere warm and access tea/coffee.","hours":{},"title":"Brampton Community Centre, Brampton","url":"https://new.cumbria.gov.uk/node/9926"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.73422,54.94215],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 0169773382; Email: bramptonpc@gmail.com","description":"The Moot Hall will solely be used for the warm hub. Free drinks, use of microwave and toaster. Papers, magazines, books, jigsaws, board games will be available and free wi-fi.","hours":{},"title":"Brampton Parish Council","url":"https://new.cumbria.gov.uk/node/3775"},"type":"Feature"}
+	]
+}

@@ -271,6 +271,66 @@ directories:
     data: 
       url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
+  - title: "Cumbria Council"
+    url: "https://new.cumbria.gov.uk/warm-spots"
+    register:
+      url: "https://www.surveymonkey.co.uk/r/warmspots"
+    map:
+      url: "https://new.cumbria.gov.uk/warm-spots"
+      type: leaflet
+    data:
+      - url: "https://new.cumbria.gov.uk/warm-spots"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=1"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=2"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=3"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=4"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=5"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=6"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=7"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=8"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=9"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=10"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=11"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=12"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=13"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=14"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=15"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=16"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=17"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=18"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=19"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=20"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=21"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=22"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=23"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=24"
+        type: html
+      - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=25"
+        type: html
   - title: "Derbyshire Council"
     url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
     notes: "Too unstructured to parse"

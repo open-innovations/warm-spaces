@@ -1,1 +1,10 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.18767,54.94865],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 01697351332","description":"Quiet space, open every day during daylight hours, help yourself kitchen, no staff, with Thursday lunchtimes addition of heating & staff.","hours":{},"title":"Port Carlisle Community Chapel","url":"https://new.cumbria.gov.uk/node/3899"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.38310,54.87146],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: +447775686857; Email: townclerk@silloth-on-solway.co.uk","description":"Community building used by local groups throughout the week. You will be able to find out what other activities are available when you visit the Community Hall.","hours":{},"title":"Silloth Community Hall","url":"https://new.cumbria.gov.uk/node/10114"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.38477,54.87201],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 01900 706170; Email: workington.library@cumbria.gov.uk","description":"All public libraries with access to the space, free membership of the library, pc access, borrowing resources, printing, regular groups and events","hours":{},"title":"Silloth Library","url":"https://new.cumbria.gov.uk/node/3861"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.28317,54.84525],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: frannymac55@gmail.com","description":"church opening specifically for this event, adding on to our weekly coffee morning","hours":{},"title":"St Marys, Holmcultram Abbey, Abbeytown","url":"https://new.cumbria.gov.uk/node/24263"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.42535,54.80773],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 07842062118; Email: vickyhope1969@gmail.com","description":"A warm fire and a warm welcome from the team at the lowther arms which is a community owned pub.","hours":{},"title":"The Lowther Arms Community Pub, Mawbray","url":"https://new.cumbria.gov.uk/node/10076"},"type":"Feature"}
+	]
+}
