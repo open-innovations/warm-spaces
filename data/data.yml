@@ -104,7 +104,8 @@ directories:
       url: "https://www.boltonathome.org.uk/warm-spaces/"
       type: html
   - title: "Boston Borough Council"
-    url: "https://www.boston.gov.uk/article/22192/Warm-Spaces"
+    url: "https://www.boston.gov.uk/warmspaces"
+    notes: "Not enough information to parse"
   - title: "Bournemouth, Christchurch and Poole"
     url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
     register:
@@ -119,6 +120,9 @@ directories:
     data:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: html
+  - title: "Bradford on Avon Council"
+    url: "https://bradfordonavontowncouncil.gov.uk/warm-spaces/"
+    notes: "Not enough structure to parse"
   - title: "Brent"
     url: "https://www.brent.gov.uk/cost-of-living-help-and-advice"
     notes: "Refers people to Warm Welcome"
@@ -305,6 +309,9 @@ directories:
     url: "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
   - title: "East Ayrshire Council"
     url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
+  - title: "East Lindsey"
+    url: "https://www.e-lindsey.gov.uk/warmspaces"
+    notes: "Too hard to extract enough information"
   - title: "Edinburgh Council"
     url: "https://www.edinburgh.gov.uk/warm-welcoming-spaces"
     map:
@@ -384,6 +391,13 @@ directories:
       type: arcgis-story
     data:
       url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+      type: html
+  - title: "Gloucester Council"
+    url: "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
+    register:
+      url: "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/"
+    data:
+      url: "https://www.gloucester.gov.uk/community-living/warm-spaces/"
       type: html
   - title: "Greenwich Council"
     url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
@@ -964,6 +978,15 @@ directories:
     map:
       url: "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b"
       type: powerbi
+    data:
+      - url: "https://adults.wiltshire.gov.uk/Search?CategoryId=837&SM=ServiceSearch&UDG=True&SME=True"
+        type: html
+      - url: "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=2"
+        type: html
+      - url: "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=3"
+        type: html
+      - url: "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=4"
+        type: html
     notes: "All the data is stored in a PowerBi visualisation and is inaccessible to this tool."
   - title: "Wokingham Council"
     url: "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"

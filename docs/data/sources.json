@@ -121,8 +121,9 @@
 	},
 	"boston_borough_council": {
 		"id": "boston_borough_council",
+		"notes": "Not enough information to parse",
 		"title": "Boston Borough Council",
-		"url": "https://www.boston.gov.uk/article/22192/Warm-Spaces"
+		"url": "https://www.boston.gov.uk/warmspaces"
 	},
 	"bournemouth__christchurch_and_poole": {
 		"id": "bournemouth__christchurch_and_poole",
@@ -145,6 +146,12 @@
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
 		"url": "https://costoflivingbradford.co.uk/warm-spaces/"
+	},
+	"bradford_on_avon_council": {
+		"id": "bradford_on_avon_council",
+		"notes": "Not enough structure to parse",
+		"title": "Bradford on Avon Council",
+		"url": "https://bradfordonavontowncouncil.gov.uk/warm-spaces/"
 	},
 	"brent": {
 		"id": "brent",
@@ -375,6 +382,12 @@
 		"title": "East Ayrshire Council",
 		"url": "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
 	},
+	"east_lindsey": {
+		"id": "east_lindsey",
+		"notes": "Too hard to extract enough information",
+		"title": "East Lindsey",
+		"url": "https://www.e-lindsey.gov.uk/warmspaces"
+	},
 	"edinburgh_council": {
 		"count": 59,
 		"data": [
@@ -443,6 +456,17 @@
 		"map": { "type": "arcgis-story", "url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0" },
 		"title": "Glasgow Council",
 		"url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+	},
+	"gloucester_council": {
+		"count": 32,
+		"data": [
+			{ "type": "html", "url": "https://www.gloucester.gov.uk/community-living/warm-spaces/" }
+		],
+		"geocount": 30,
+		"id": "gloucester_council",
+		"register": { "url": "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/" },
+		"title": "Gloucester Council",
+		"url": "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
 	},
 	"greenwich_council": {
 		"count": 33,
@@ -1126,6 +1150,14 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
+		"count": 39,
+		"data": [
+			{ "type": "html", "url": "https://adults.wiltshire.gov.uk/Search?CategoryId=837&SM=ServiceSearch&UDG=True&SME=True" },
+			{ "type": "html", "url": "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=2" },
+			{ "type": "html", "url": "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=3" },
+			{ "type": "html", "url": "https://adults.wiltshire.gov.uk/Search?CategoryId=837&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=4" }
+		],
+		"geocount": 28,
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
