@@ -1081,6 +1081,18 @@
 		"title": "Warm Welcome",
 		"url": "https://www.warmwelcome.uk/"
 	},
+	"west_berkshire_council": {
+		"count": 15,
+		"data": [
+			{ "keys": { "description": "project_mission", "title": "project_name", "url": "project_url" }, "type": "geojson", "url": "https://adoddle.org/app/api/embedable/map/get-projects?type=map&ne_bounds=51.590722643120166,%20-0.9379577636718751&sw_bounds=51.334043778789415,%20-1.693267822265625&partner=991&categories=40&view=embedable" }
+		],
+		"geocount": 15,
+		"id": "west_berkshire_council",
+		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
+		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },
+		"title": "West Berkshire Council",
+		"url": "https://www.westberks.gov.uk/warm-spaces"
+	},
 	"west_northamptonshire": {
 		"count": 64,
 		"data": [
@@ -1112,6 +1124,13 @@
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y" },
 		"title": "Wigan Council",
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
+	},
+	"wiltshire_council": {
+		"id": "wiltshire_council",
+		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
+		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
+		"title": "Wiltshire Council",
+		"url": "https://www.wiltshire.gov.uk/article/6829/Wiltshire-Council-warm-spaces"
 	},
 	"wokingham_council": {
 		"id": "wokingham_council",
