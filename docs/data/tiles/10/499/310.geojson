@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.43203,57.56508],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ferintosh Church of Scotland, Conon Bridge, Ross shire IV7 8BE","hours":{"_text":"Wednesday: 10:00 - 13:00","opening":"We 10:00-13:00"},"title":"Ferintosh Parish Church Conon Bridge Ross shire Inverness"},"type":"Feature"}
+	]
+}

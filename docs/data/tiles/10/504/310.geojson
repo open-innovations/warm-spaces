@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.52306,57.66420],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lower Hall, St. Andrew's Episcopal Church,High Street, Banff, Aberdeenshire AB45 1AE","hours":{"_text":"Wednesday: 09:00 - 12:00","opening":"We 09:00-12:00"},"title":"Beulah , support on the Coast in Aberdeenshire and Morayshire ."},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.68863,57.68149],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Seafield Road, Portsoy, Aberdeenshire AB45 2QT","description":"Open from 07-11.2022.","hours":{"_text":"Monday: 10:00 - 15:00, Tuesday: 10:00 - 15:00, Wednesday: 10:00 - 15:00, Thursday: 10:00 - 15:00, Friday: 10:00 - 15:00","opening":"Mo 10:00-15:00; Tu 10:00-15:00; We 10:00-15:00; Th 10:00-15:00; Fr 10:00-15:00"},"title":"Portsoy Church of Scotland"},"type":"Feature"}
 	]
 }

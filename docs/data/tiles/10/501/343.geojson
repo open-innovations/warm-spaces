@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.65535,50.78996],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Crediton Methodist Church, Union Road, Crediton, Devon EX17 3AW","hours":{"_text":"Friday: 10:00 - 12:00, Saturday: 10:00 - 11:30","opening":"Fr 10:00-12:00; Sa 10:00-11:30"},"title":"Crediton Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.68210,50.73666],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tedburn St Mary Village Hall, Tedburn st Mary, Exeter EX6 6WS","description":"Open from 7/11/2022. We cater for all ages. We have books and games available, we may extend to offering a soup and roll lunch too, if there is demand in future.","hours":{"_text":"Monday: 9:30 - 11:30, Friday: 9:30 - 11:30","opening":"Mo 09:30-11:30; Fr 09:30-11:30"},"title":"Tedburn st Mary community"},"type":"Feature"}
 	]
 }
