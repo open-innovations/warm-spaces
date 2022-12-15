@@ -377,6 +377,14 @@ directories:
     data:
       url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
       type: html
+  - title: "Glasgow Council"
+    url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+    map:
+      url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+      type: arcgis-story
+    data:
+      url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+      type: html
   - title: "Greenwich Council"
     url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
     map:

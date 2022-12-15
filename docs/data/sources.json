@@ -433,6 +433,17 @@
 		"title": "Gedling Council",
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
 	},
+	"glasgow_council": {
+		"count": 23,
+		"data": [
+			{ "type": "html", "url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0" }
+		],
+		"geocount": 23,
+		"id": "glasgow_council",
+		"map": { "type": "arcgis-story", "url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0" },
+		"title": "Glasgow Council",
+		"url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
+	},
 	"greenwich_council": {
 		"count": 33,
 		"data": [
