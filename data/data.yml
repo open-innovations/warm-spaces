@@ -126,6 +126,11 @@ directories:
   - title: "Brent"
     url: "https://www.brent.gov.uk/cost-of-living-help-and-advice"
     notes: "Refers people to Warm Welcome"
+  - title: "Bridgend Council"
+    url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
+    data:
+      url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
+      type: html
   - title: "Brighton & Hove Council"
     url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
     map:

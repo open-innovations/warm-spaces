@@ -159,6 +159,16 @@
 		"title": "Brent",
 		"url": "https://www.brent.gov.uk/cost-of-living-help-and-advice"
 	},
+	"bridgend_council": {
+		"count": 116,
+		"data": [
+			{ "type": "html", "url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/" }
+		],
+		"geocount": 102,
+		"id": "bridgend_council",
+		"title": "Bridgend Council",
+		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
+	},
 	"brighton___hove_council": {
 		"count": 39,
 		"data": [
