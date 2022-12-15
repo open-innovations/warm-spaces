@@ -620,6 +620,17 @@
 		"title": "Huntingdonshire Council",
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
 	},
+	"isle_of_wight_council": {
+		"count": 43,
+		"data": [
+			{ "type": "html", "url": "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/" }
+		],
+		"geocount": 41,
+		"id": "isle_of_wight_council",
+		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
+		"title": "Isle of Wight Council",
+		"url": "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+	},
 	"islington_council": {
 		"count": 38,
 		"data": [

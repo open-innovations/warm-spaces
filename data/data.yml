@@ -553,6 +553,13 @@ directories:
     data:
       url: "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/"
       type: html
+  - title: "Isle of Wight Council"
+    url: "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+    register:
+      url: "https://forms.office.com/r/pKAutwRiyz"
+    data:
+      url: "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+      type: html
   - title: "Islington Council"
     url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
     data:

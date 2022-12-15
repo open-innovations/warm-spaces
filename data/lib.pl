@@ -502,6 +502,9 @@ sub getPostcode {
 			}
 		}
 	}
+	if(!$postcodelookup{$postcode}){
+		warning("\t... no coordinates found for $postcode\n");
+	}
 	return $postcodelookup{$postcode};
 }
 
