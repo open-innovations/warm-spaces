@@ -60,11 +60,11 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
+		"count": 49,
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": "0",
+		"geocount": 49,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -456,11 +456,11 @@
 		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
 	},
 	"essex_map": {
-		"count": 80,
+		"count": 81,
 		"data": [
 			{ "form": "lang=&search_keywords=warm+space&search_location=&search_categories%5B%5D=&filter_job_type%5B%5D=organisation&filter_job_type%5B%5D=service&filter_job_type%5B%5D=&per_page=200&orderby=featured&order=DESC&page=1&show_pagination=false&form_data=display_mode%3Dgrid%26filter_order%3Ddefault%26search_keywords%3Dwarm%2520space%26filter_order%3Drandom%26search_categories%255B%255D%3D%26filter_job_type%255B%255D%3Dorganisation%26filter_job_type%255B%255D%3Dservice%26filter_job_type%255B%255D%3D", "method": "POST", "type": "html", "url": "https://www.essexmap.co.uk/jm-ajax/get_listings/" }
 		],
-		"geocount": 80,
+		"geocount": 81,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1012,11 +1012,20 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": "0",
+		"count": 63,
 		"data": [
-			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces" }
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=2&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=3&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=4&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=5&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=6&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=7&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=8&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=9&s=name#eventsearch" },
+			{ "type": "html", "url": "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=10&s=name#eventsearch" }
 		],
-		"geocount": "0",
+		"geocount": 62,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",

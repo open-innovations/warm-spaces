@@ -100,6 +100,7 @@ sub getURLToFile {
 	my $url = $_[0];
 	my $file = $_[1];
 	my $attempt = $_[2]||1;
+	my $rest = $_[3]||0;
 	my ($age,$now,$epoch_timestamp,$delay,$n);
 
 	$age = 100000;
@@ -139,8 +140,9 @@ sub getURLToFile {
 				}
 			}
 		}
+		# If we've downloaded the file, we now rest as long as we are told to
+		if($rest){ sleep $rest; }
 	}
-	
 	return $n;
 }
 sub makeDir {

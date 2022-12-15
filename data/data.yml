@@ -896,8 +896,26 @@ directories:
     register:
       url: "https://www.stockton.gov.uk/warm-spaces-application"
     data:
-      url: "https://www.stockton.gov.uk/warm-spaces"
-      type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=2&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=3&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=4&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=5&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=6&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=7&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=8&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=9&s=name#eventsearch"
+        type: html
+      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=10&s=name#eventsearch"
+        type: html
   - title: "Stroud CSCIC"
     url: "https://cscic.org/community-hubs/warm-spaces/"
     data:

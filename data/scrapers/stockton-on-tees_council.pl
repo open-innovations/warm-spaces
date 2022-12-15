@@ -20,17 +20,27 @@ if(-e $file){
 	$str = join("",@lines);
 
 	@entries;
+	
+	
+	# Build a web scraper
+	my $warmspaces = scraper {
+		process 'div[class="event-search"] div[class="service-results__item"]', "warmspaces[]" => scraper {
+			process 'div[class="service-results__title"] > a', 'url' => '@HREF';
+			process 'div[class="service-results__title"] > a', 'title' => 'TEXT';
+			process 'div[class="service-results__summary"]', 'description' => 'TEXT';
+			process 'li[class="nvp nvp--service nvp--service-location"] span[class="nvp__value"]', 'address' => 'TEXT';
+			process 'li[class="nvp nvp--service nvp--service-contact"] span[class="nvp__value"]', 'contact' => 'TEXT';
+		};
+	};
+	my $res = $warmspaces->scrape( $str );
 
-	while($str =~ s/<h3 class="disclosurestart">(.*?)<\/h3>(.*?)<p class="disclosureend">&nbsp;<\/p>//){
-		$d = {'title'=>$1};
-		$entry = $2;
-		while($entry =~ s/<p>(.*?)<\/p>//){
-			$p = parseText($1);
-			if($p =~ /Address: (.*)/){ $d->{'address'} = $1; }
-			if($p =~ /Telephone: (.*)/){ $d->{'contact'} = $1; }
-			if($p =~ /Facilities: (.*)/){ $d->{'description'} = $1; }
-			if($p =~ /Opening days and times: (.*)/){ $d->{'hours'} = parseOpeningHours({'_text'=>$1}); }
-		}
+	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+
+		$d = $res->{'warmspaces'}[$i];
+		$d->{'address'} = trimHTML($d->{'address'});
+		$d->{'description'} = trimHTML($d->{'description'});
+
+
 		# Store the entry as JSON
 		push(@entries,makeJSON($d,1));
 	}
@@ -47,3 +57,13 @@ if(-e $file){
 
 }
 
+
+
+sub trimHTML {
+	my $str = $_[0];
+	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/<[^\>]*>/ /g;
+	$str =~ s/\s{2,}/ /g;
+	$str =~ s/(^\s|\s$)//g;
+	return $str;
+}

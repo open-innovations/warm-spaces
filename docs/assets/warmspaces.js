@@ -123,7 +123,6 @@
 			.then(feature => {
 				
 				var polygon;
-				console.log(feature);
 				if(feature.geometry.type==="Polygon") polygon = feature.geometry.coordinates[0];
 				else if(feature.geometry.type==="MultiPolygon"){
 					// Find biggest polygon

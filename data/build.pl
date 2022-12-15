@@ -622,7 +622,7 @@ sub getSquareSpace {
 		$p++;
 		$page = $rawdir.$d->{'id'}."-".($i||"0")."-$p.json";
 		# Get the file but pass in any delay value we already have
-		$attempts = getURLToFile($purl,$page,$attempts);
+		$attempts = getURLToFile($purl,$page,$attempts,2);
 		$json = getJSON($page);
 		@items = (@items,@{$json->{'items'}});
 		$n = @items;
