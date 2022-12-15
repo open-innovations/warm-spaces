@@ -49,9 +49,12 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add docs/index.html
-          git add docs/data/summary.html
+          git add docs/data/ndirs.txt
+          git add docs/data/ngeocoded.txt
+          git add docs/data/nspaces.txt
           git add docs/data/places.json
           git add docs/data/sources.json
+          git add docs/data/summary.html
           git add docs/data/tiles/10/
           git commit -m "Update data" || exit 0
 
