@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.12054,57.14063],"type":"Point"},"properties":{"_source":"warm_welcome","address":"168-174 Union Grove, Aberdeen, Aberdeen City AB10 6SR","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"Aberdeen Christian Fellowship"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.44025,57.23705],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Centre Church Lane, Kemnay, Inverurie, Aberdeenshire AB51 5NH","description":"Open from October to March. Toys and games available","hours":{"_text":"Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Friday: 10:00 - 14:00","opening":"Tu 10:00-16:00; We 10:00-16:00; Fr 10:00-14:00"},"title":"Kemnay Parish Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.34427,57.23705],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kintore Church Hall, Castle Hill, Kintore, Inverurie AB51 0TZ","description":"Tables to work at. Games, jigsaws, chat (if desired)","hours":{"_text":"Monday: 09:30 - 16:00, Thursday: 09:30 - 16:00","opening":"Mo 09:30-16:00; Th 09:30-16:00"},"title":"Kintore Warm Space"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.31232,57.15673],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Old Skene Rd, Westhill AB32 6AQ, Westhill, Aberdeenshire AB32 6AQ","hours":{"_text":"Monday: 13:00 - 15:00","opening":"Mo 13:00-15:00"},"title":"Oasis Creative Wellbeing Cafe"},"type":"Feature"},
