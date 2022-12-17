@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.52305,58.59276],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sinclair Street, Thurso, Scotland, KW14","hours":{"_text":"Monday 11am-2pm","opening":"Mo 11:00-14:00"},"title":"Thurso West Church","url":"https://thursowestchurch.org.uk"},"type":"Feature"}
+	]
+}
