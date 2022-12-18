@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.27538,50.77641],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Lane End, Blandford Forum, England, DT11","hours":{"_text":"Most Days"},"title":"The Pavilion Milbonre St Andrew Sports Club"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.16960,50.86111],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Blandford Leisure Centre, Milldown Road, Blandford Forum, England, DT11 7DB","hours":{"_text":"7am-10pm"},"title":"Everyone Active","url":"https://www.everyoneactive.com"},"type":"Feature"}
 	]
 }
