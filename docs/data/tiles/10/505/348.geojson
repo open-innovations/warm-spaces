@@ -1,6 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.20717,49.71163],"type":"Point"},"properties":{"_source":"warm_spaces","address":"15 Little Street, Guernsey, Alderney, GY9 3TT","hours":{"_text":"9am-9pm"},"title":"Little Street Drop In"},"type":"Feature"}
-	]
-}
