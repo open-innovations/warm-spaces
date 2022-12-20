@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.74796,55.94379],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Carnock Street, Greenock, Scotland, PA15","hours":{"_text":"Friday 11am-1pm","opening":"Fr 11:00-13:00"},"title":"Greenock Baptist Church","url":"https://www.greenockbaptist.org"},"type":"Feature"}
+	]
+}

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.56772,56.69961],"type":"Point"},"properties":{"_source":"warm_spaces","address":"School Road, Acharacle, Scotland, PH36 4JA","hours":{"_text":"2pm-9pm"},"title":"The Sunart Centre"},"type":"Feature"}
+	]
+}

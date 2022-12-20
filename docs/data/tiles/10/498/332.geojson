@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.64381,53.31083],"type":"Point"},"properties":{"_source":"warm_spaces","address":"South Stack Road, Holyhead, Wales, LL65 1NT","hours":{"_text":"Monday, Wednesday &amp; Friday 10am-2pm ","opening":"Mo 10:00-14:00; We 10:00-14:00; Fr 10:00-14:00"},"title":"Llaingoch Community Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.62393,53.31005],"type":"Point"},"properties":{"_source":"warm_spaces","address":"16 Ffordd Tudur, Holyhead, Wales, LL65 2DH","hours":{"_text":"Monday 1:30pm-4:30pm, Tuesday 1pm-5pm, Wednesday 12.15pm-5pm, Friday 12.30pm-5pm","opening":"Mo 13:30-16:30; Tu 13:00-17:00; We 12:15-17:00; Fr 12:30-17:00"},"title":"Gwelfor","url":"https://m.facebook.com/people/Ynys-Cybi-Valley-Good-Turn-Scheme/100077925330915/"},"type":"Feature"}
 	]
 }

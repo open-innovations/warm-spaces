@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.62631,55.46418],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 John Street, Ayr, South Ayrshire KA8 0BS","hours":{"_text":"Tuesday: 11:00 - 14:00, Thursday: 11:00 - 14:00, Saturday: 11:00 - 14:00","opening":"Tu 11:00-14:00; Th 11:00-14:00; Sa 11:00-14:00"},"title":"St. Margaret's Cathedral, Ayr"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.62631,55.46418],"type":"Point"},"properties":{"_source":"warm_welcome","address":"27 John Street, Ayr, South Ayrshire KA8 0BS","hours":{"_text":"Tuesday: 11:00 - 14:00, Thursday: 11:00 - 14:00, Saturday: 11:00 - 14:00","opening":"Tu 11:00-14:00; Th 11:00-14:00; Sa 11:00-14:00"},"title":"St. Margaret's Cathedral, Ayr"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.61329,55.49617],"type":"Point"},"properties":{"_source":"warm_spaces","address":"172a Main Street, Prestwick, Scotland, KA9 1PG","hours":{"_text":"Mon-Sat 10am-5pm, Sun 11am-3pm ","opening":"Mo-Sa 10:00-17:00; Su 11:00-15:00"},"title":"Inspired Vision Bathrooms and Wetrooms","url":"https://www.facebook.com/inspiredvisionbathrooms"},"type":"Feature"}
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.72209,55.60670],"type":"Point"},"properties":{"address":"Grace Darling Museum, Radcliffe Road, Bamburgh, Northumberland, NE69 7AE","hours":{},"loc_pcd":true,"title":"RNLI Grace Darling Museum"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.72209,55.60670],"type":"Point"},"properties":{"address":"Grace Darling Museum, Radcliffe Road, Bamburgh, Northumberland, NE69 7AE","hours":{},"loc_pcd":true,"title":"RNLI Grace Darling Museum","url":"Bamburgh"},"type":"Feature"}
 	]
 }
