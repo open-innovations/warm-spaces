@@ -192,11 +192,11 @@
 		"url": "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
 	},
 	"bromley_well": {
-		"count": 55,
+		"count": 56,
 		"data": [
 			{ "keys": { "address": "{{ street }}, {{ Postcode }}", "contact": "Tel: {{ Phone }}; Email: {{ Email }}", "description": "Notes", "hours": "Notes", "title": "name", "url": "Web" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" }
 		],
-		"geocount": 55,
+		"geocount": 56,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -456,11 +456,11 @@
 		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
 	},
 	"essex_map": {
-		"count": 81,
+		"count": 82,
 		"data": [
 			{ "form": "lang=&search_keywords=warm+space&search_location=&search_categories%5B%5D=&filter_job_type%5B%5D=organisation&filter_job_type%5B%5D=service&filter_job_type%5B%5D=&per_page=200&orderby=featured&order=DESC&page=1&show_pagination=false&form_data=display_mode%3Dgrid%26filter_order%3Ddefault%26search_keywords%3Dwarm%2520space%26filter_order%3Drandom%26search_categories%255B%255D%3D%26filter_job_type%255B%255D%3Dorganisation%26filter_job_type%255B%255D%3Dservice%26filter_job_type%255B%255D%3D", "method": "POST", "type": "html", "url": "https://www.essexmap.co.uk/jm-ajax/get_listings/" }
 		],
-		"geocount": 81,
+		"geocount": 82,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -558,7 +558,7 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"hertfordshire_council": {
-		"count": 85,
+		"count": 84,
 		"data": [
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2" },
@@ -571,7 +571,7 @@
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10" }
 		],
-		"geocount": 84,
+		"geocount": 83,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -621,11 +621,11 @@
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
 	},
 	"isle_of_wight_council": {
-		"count": 43,
+		"count": 44,
 		"data": [
 			{ "type": "html", "url": "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/" }
 		],
-		"geocount": 41,
+		"geocount": 42,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
 		"title": "Isle of Wight Council",
@@ -707,11 +707,11 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 33,
+		"count": 35,
 		"data": [
 			{ "type": "html", "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces-directory/" }
 		],
-		"geocount": 32,
+		"geocount": 34,
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
@@ -802,11 +802,11 @@
 		"url": "https://www.norfolkfoundation.com/hot-spots/"
 	},
 	"north_northamptonshire_council": {
-		"count": 38,
+		"count": 42,
 		"data": [
 			{ "type": "html", "url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces" }
 		],
-		"geocount": 38,
+		"geocount": 42,
 		"id": "north_northamptonshire_council",
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
@@ -973,11 +973,11 @@
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
 	"spark_somerset": {
-		"count": 83,
+		"count": 85,
 		"data": [
 			{ "headers": { "Cookie": "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk" }, "type": "html", "url": "https://shared.xmap.cloud/data/southsomerset/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=application/json;type=utfgrid&TRANSPARENT=true&LAYERS=warm_welcome&CRS=EPSG%3A27700&STYLES=&WIDTH=1278&HEIGHT=646&BBOX=265971.46439628483%2C99824%2C392030.53560371517%2C163544" }
 		],
-		"geocount": 81,
+		"geocount": 83,
 		"id": "spark_somerset",
 		"map": { "type": "xmap", "url": "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
@@ -1042,11 +1042,11 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 232,
+		"count": 240,
 		"data": [
 			{ "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" }
 		],
-		"geocount": 232,
+		"geocount": 240,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1076,7 +1076,7 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 57,
+		"count": 58,
 		"data": [
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacescentral" },
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceseast" },
@@ -1086,7 +1086,7 @@
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesgower" },
 			{ "type": "googlemap2", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" }
 		],
-		"geocount": 29,
+		"geocount": 30,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1149,11 +1149,11 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1509,
+		"count": 1581,
 		"data": [
 			{ "type": "squarespace", "url": "https://warmspaces.org/locations/" }
 		],
-		"geocount": 1509,
+		"geocount": 1581,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1161,11 +1161,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3629,
+		"count": 3673,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" }
 		],
-		"geocount": 3629,
+		"geocount": 3673,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1173,11 +1173,11 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"west_berkshire_council": {
-		"count": 15,
+		"count": 16,
 		"data": [
 			{ "keys": { "description": "project_mission", "title": "project_name", "url": "project_url" }, "type": "geojson", "url": "https://adoddle.org/app/api/embedable/map/get-projects?type=map&ne_bounds=51.590722643120166,%20-0.9379577636718751&sw_bounds=51.334043778789415,%20-1.693267822265625&partner=991&categories=40&view=embedable" }
 		],
-		"geocount": 15,
+		"geocount": 16,
 		"id": "west_berkshire_council",
 		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },

@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.41271,54.73320],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Castlehill, Newton Stewart, Scotland, DG8 8PN","hours":{"_text":"Friday 12pm-2pm","opening":"Fr 12:00-14:00"},"title":"South Machars Community Centre","url":"https://www.smccwhithorn.org"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.41486,54.73483],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The New Town Hall, 53 Saint John Street, Newton Stewart, Scotland, DG8 8PD","hours":{"_text":"9am-5pm"},"title":"New Town Hall Whithorn"},"type":"Feature"}
 	]
 }
