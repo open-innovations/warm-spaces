@@ -2,6 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-6.95116,55.04473],"type":"Point"},"properties":{"_source":"warm_welcome","address":"110 Roemill Road, Limavady, County Londonderry BT49 9BE","description":"Open from 01-11-22.","hours":{"_text":"Tuesday: 18:00 - 21:00, Thursday: 18:00 - 21:00","opening":"Tu 18:00-21:00; Th 18:00-21:00"},"title":"Be Safe Be Well"},"type":"Feature"},
-		{"geometry":{"coordinates":[-6.89639,55.03233],"type":"Point"},"properties":{"_source":"warm_welcome","address":"142 Drumsurn Road, Limavady , Londonderry BT49 0PD","description":"Open from 08-11-22. Our space is ideal to work in, or enjoy some quiet space. We will not be running any programmes during warm welcome hours. However, if you need someone to chat to, our Chaplain will be on site, and you can request time with him.","hours":{"_text":"Tuesday: 09:30 - 12:30","opening":"Tu 09:30-12:30"},"title":"The Big House Ireland"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.95116,55.04473],"type":"Point"},"properties":{"_source":"warm_welcome","address":"110 Roemill Road, Limavady, County Londonderry BT49 9BE","description":"Open from 01-11-22.","hours":{"_text":"Tuesday: 18:00 - 21:00, Thursday: 18:00 - 21:00","opening":"Tu 18:00-21:00; Th 18:00-21:00"},"title":"Be Safe Be Well"},"type":"Feature"}
 	]
 }

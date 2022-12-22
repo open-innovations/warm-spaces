@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.18918,55.65167],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chamber Institute, High Street, Peebles EH45 8AG","description":"People are welcome to bring their own hot drinks in.","hours":{"_text":"Monday: 10:00 - 15:00, Tuesday: 10:00 - 15:00, Thursday: 10:00 - 17:00, Friday: 10:00 - 15:00, Saturday: 10:00 - 15:00","opening":"Mo 10:00-15:00; Tu 10:00-15:00; Th 10:00-17:00; Fr 10:00-15:00; Sa 10:00-15:00"},"title":"Peebles Library Museum and Gallery"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.18918,55.65167],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Chamber Institute, High Street, Peebles EH45 8AG","description":"People are welcome to bring their own hot drinks in.","hours":{"_text":"Monday: 10:00 - 15:00, Tuesday: 10:00 - 15:00, Thursday: 10:00 - 17:00, Friday: 10:00 - 15:00, Saturday: 10:00 - 15:00","opening":"Mo 10:00-15:00; Tu 10:00-15:00; Th 10:00-17:00; Fr 10:00-15:00; Sa 10:00-15:00"},"title":"Peebles Library Museum and Gallery"},"type":"Feature"}
 	]
 }

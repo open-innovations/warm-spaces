@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-4.73419,56.00392],"type":"Point"},"properties":{"_source":"warm_welcome","address":"35 West Princes Street, Helensburgh, Argyll & Bute G84 8TF","description":"While we cater primarily for the elderly all are welcome We have been open for visitors during Advent. We will update when we know when we will be able to open in the New Year.","hours":{},"title":"Helensburgh United Reformed Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-4.73419,56.00392],"type":"Point"},"properties":{"_source":"warm_welcome","address":"35 West Princes Street, Helensburgh, Argyll & Bute G84 8TF","description":"While we cater primarily for the elderly all are welcome We have been open for visitors during Advent. We will update when we know when we will be able to open in the New Year.","hours":{},"title":"Helensburgh United Reformed Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.73448,56.00448],"type":"Point"},"properties":{"_source":"warm_spaces","address":"30 Colquhoun Square, Helensburgh, Scotland, G84 8AQ","hours":{"_text":"Tuesday 10am-2pm","opening":"Tu 10:00-14:00"},"title":"Bethesda Centre","url":"https://bethesdachristianfellowship.org.uk"},"type":"Feature"}
 	]
 }

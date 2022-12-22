@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-3.51555,50.46306],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Babbacombe Road, Torquay, Devon TQ1 1HW","description":"Open from Wednesday, 16 November 2022.","hours":{"_text":"Wednesday: 12:00 - 17:00","opening":"We 12:00-17:00"},"title":"St. Matthias Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.51555,50.46306],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Babbacombe Road, Torquay, Devon TQ1 1HW","description":"Open from Wednesday, 16 November 2022.","hours":{"_text":"Wednesday: 12:00 - 17:00","opening":"We 12:00-17:00"},"title":"St. Matthias Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.51498,50.39257],"type":"Point"},"properties":{"_source":"torbay_council","hours":{},"title":"YES Brixham","url":"https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/yes-brixham-ws/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.50648,50.46748],"type":"Point"},"properties":{"_source":"torbay_council","description":"<a href=\"https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/st-matthias-ws/\">Find out more</a> about what&#39;s on offer as part of the Warm Spaces initiative.","hours":{},"title":"St Matthias Church","url":"https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/st-matthias-ws/"},"type":"Feature"}
 	]

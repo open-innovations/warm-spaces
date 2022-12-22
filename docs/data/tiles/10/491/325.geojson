@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-7.30167,54.60017],"type":"Point"},"properties":{"_source":"warm_welcome","address":"42a High Street, Omagh, Co. Tyrone BT78 1BP","hours":{"_text":"Monday: 10:00 - 14:00, Wednesday: 10:00 - 14:00 / 19:30 - 22:00, Thursday: 10:00 - 14:00 / 19:30 - 22:00, Friday: 10:00 - 14:00 / 19:30 - 22:00, Saturday: 10:00 - 14:00","opening":"Mo 10:00-14:00; We 10:00-14:00,19:30-22:00; Th 10:00-14:00,19:30-22:00; Fr 10:00-14:00,19:30-22:00; Sa 10:00-14:00"},"title":"Oasis Of Hope"},"type":"Feature"},
 		{"geometry":{"coordinates":[-7.30167,54.60017],"type":"Point"},"properties":{"_source":"warm_welcome","address":"42a High Street, Omagh, Co. Tyrone BT78 1BP","hours":{"_text":"Monday: 10:00 - 14:00, Wednesday: 10:00 - 14:00 / 19:30 - 22:00, Thursday: 10:00 - 14:00 / 19:30 - 22:00, Friday: 10:00 - 14:00 / 19:30 - 22:00, Saturday: 10:00 - 14:00","opening":"Mo 10:00-14:00; We 10:00-14:00,19:30-22:00; Th 10:00-14:00,19:30-22:00; Fr 10:00-14:00,19:30-22:00; Sa 10:00-14:00"},"title":"Oasis Of Hope"},"type":"Feature"}
 	]
 }

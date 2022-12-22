@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.84476,55.55789],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Brides Community Centre, Braehead, Douglas, South Lanarkshire ML11 0PT","hours":{"_text":"Wednesday: 10:30 - 12:30","opening":"We 10:30-12:30"},"title":"Healthy Valleys-St Brides Community Centre"},"type":"Feature"}
+	]
+}

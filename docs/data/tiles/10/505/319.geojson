@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.34797,55.77766],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Duns Library Contact Centre, 49 Newtown Street, Duns TD11 3AU","description":"People are welcome to bring their own hot drinks in","hours":{"_text":"Monday: 12:30 - 17:00, Tuesday: 12:30 - 18:00, Thursday: 09:30 - 12:30, Friday: 10:00 - 15:00, Saturday: 00:00 - 00:00 / - Fortnightly","opening":"Mo 12:30-17:00; Tu 12:30-18:00; Th 09:30-12:30; Fr 10:00-15:00; Sa 00:00-00:00"},"title":"Duns Library Contact Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.34797,55.77766],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Duns Library Contact Centre, 49 Newtown Street, Duns TD11 3AU","description":"People are welcome to bring their own hot drinks in","hours":{"_text":"Monday: 12:30 - 17:00, Tuesday: 12:30 - 18:00, Thursday: 09:30 - 12:30, Friday: 10:00 - 15:00, Saturday: 00:00 - 00:00 / - Fortnightly","opening":"Mo 12:30-17:00; Tu 12:30-18:00; Th 09:30-12:30; Fr 10:00-15:00; Sa 00:00-00:00"},"title":"Duns Library Contact Centre"},"type":"Feature"}
 	]
 }

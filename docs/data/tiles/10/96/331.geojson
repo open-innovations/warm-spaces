@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-146.00000,53.35895],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"304 Gleadless Rd, Heeley, Sheffield S2 3AJ","hours":{"_text":""},"title":"Heeley Community Tara"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.16121,56.10913],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Whyte's Causeway, Kirkcaldy, Fife KY1 1XF","description":"Open from 17th January 2023 until further notice. Bring along your own interest (reading, craft, knitting, board game)","hours":{"_text":"Tuesday: 13:00 - 15:00","opening":"Tu 13:00-15:00"},"title":"Whyte's Causeway Baptist Church"},"type":"Feature"}
-	]
-}
+{}

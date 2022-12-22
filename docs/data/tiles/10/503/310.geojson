@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-2.96214,57.67719],"type":"Point"},"properties":{"_source":"warm_welcome","address":"17 East Church Street, Buckie, Moray AB56 1EX","hours":{"_text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00 / 16:00 - 20:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00","opening":"Mo 10:00-16:00; Tu 10:00-16:00,16:00-20:00; Th 10:00-16:00; Fr 10:00-16:00"},"title":"Buckie Area Forum"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.96214,57.67719],"type":"Point"},"properties":{"_source":"warm_welcome","address":"17 East Church Street, Buckie, Moray AB56 1EX","hours":{"_text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00 / 16:00 - 20:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00","opening":"Mo 10:00-16:00; Tu 10:00-16:00,16:00-20:00; Th 10:00-16:00; Fr 10:00-16:00"},"title":"Buckie Area Forum"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.96363,57.67697],"type":"Point"},"properties":{"_source":"warm_spaces","address":"17 East Church Street, Buckie, Scotland, AB56 1EX","hours":{"_text":""},"title":"The Hub","url":"https://www.buckie.co"},"type":"Feature"}
 	]
 }

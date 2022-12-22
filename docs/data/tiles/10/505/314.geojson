@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.28549,56.82816],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Harbour Bar, Gourdon, Aberdeenshire DD10 0LW","description":"Catering for all ages, genders, everyone. A family run local pub, supporting the community of Gourdon and the surrounding area.","hours":{"_text":"Monday: 11:00 - 23:00, Tuesday: 11:00 - 23:00, Wednesday: 11:00 - 23:00, Thursday: 11:00 - 23:00, Friday: 11:00 - 00:01, Saturday: 11:00 - 00:01, Sunday: 12:00 - 23:00","opening":"Mo 11:00-23:00; Tu 11:00-23:00; We 11:00-23:00; Th 11:00-23:00; Fr 11:00-00:01; Sa 11:00-00:01; Su 12:00-23:00"},"title":"Harbour Bar"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.28549,56.82816],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Harbour Bar, Gourdon, Aberdeenshire DD10 0LW","description":"Catering for all ages, genders, everyone. A family run local pub, supporting the community of Gourdon and the surrounding area.","hours":{"_text":"Monday: 11:00 - 23:00, Tuesday: 11:00 - 23:00, Wednesday: 11:00 - 23:00, Thursday: 11:00 - 23:00, Friday: 11:00 - 00:01, Saturday: 11:00 - 00:01, Sunday: 12:00 - 23:00","opening":"Mo 11:00-23:00; Tu 11:00-23:00; We 11:00-23:00; Th 11:00-23:00; Fr 11:00-00:01; Sa 11:00-00:01; Su 12:00-23:00"},"title":"Harbour Bar"},"type":"Feature"}
 	]
 }
