@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.70823,56.50133],"type":"Point"},"properties":{"_source":"warm_spaces","address":"21 High Street, Carnoustie, Scotland, DD7 6AN","hours":{"_text":"Wed 11am-4:30pm, Thu 2pm-6pm, Fri 11am-4:30pm, Sat 10am-1pm. ","opening":"We 11:00-16:30; Th 14:00-18:00; Fr 11:00-16:30; Sa 10:00-13:00"},"title":"Carnoustie Library","url":"https://www.angusalive.scot/libraries/ https://en-gb.facebook.com/ANGUSaliveLibraries/"},"type":"Feature"}
+	]
+}

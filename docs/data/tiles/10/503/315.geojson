@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.00308,56.67415],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Reform Street, Kirriemuir, Scotland, DD8 4BS","hours":{"_text":"Tue 2pm-6pm, Wed &amp; Thu 11am-4:30pm, Sat 10am-1pm. ","opening":"We 11:00-16:30; Th 11:00-16:30; Tu 14:00-18:00; Sa 10:00-13:00"},"title":"Kirriemuir Library","url":"https://www.angusalive.scot/libraries/ https://en-gb.facebook.com/ANGUSaliveLibraries/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.89028,56.64368],"type":"Point"},"properties":{"_source":"warm_spaces","address":"50-56 West High Street, Forfar, Scotland, DD8 1BA","hours":{"_text":", Wed 11pm-4:30pm, Thur 2pm-6pm, Fri 11am-4:30pm, Sat 10am-1pm.","opening":"We 23:00-16:30; Th 14:00-18:00; Fr 11:00-16:30; Sa 10:00-13:00"},"title":"Forfar Library","url":"https://www.angusalive.scot/libraries/visit-a-library/ https://en-gb.facebook.com/ANGUSaliveLibraries/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.00507,56.67395],"type":"Point"},"properties":{"_source":"warm_spaces","address":"2 Saint Malcolm&#39;s Wynd, Kirriemuir, Scotland, DD8 4GW","hours":{"_text":"Mondays 11am-1pm (January 2023) ","opening":"Mo 11:00-13:00"},"title":"Sustainable Kirriemuir Hub","url":"https://www.sustainablekirriemuir.co.uk"},"type":"Feature"}
 	]
 }
