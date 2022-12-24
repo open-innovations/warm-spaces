@@ -15,6 +15,7 @@ directories:
         address: streetaddress
         lat: loc_lat
         lon: loc_long
+        url: website
   - title: "Warm spaces"
     url: "https://warmspaces.org/"
     map:
@@ -235,6 +236,9 @@ directories:
         address: "Address"
         hours: "Opening Times"
         contact: "{{ Lead Contact }}: {{ Contact Details }}"
+  - title: "Chelmsford Connects"
+    url: "https://chelmsfordconnects.org.uk/search?category=1555"
+    notes: "Not enough address/location data"
   - title: "Cheshire West and Chester Council"
     url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
     notes: "Refers people to Warm Welcome"
@@ -262,6 +266,11 @@ directories:
       type: googlemap
     data:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
+      type: html
+  - title: "Communities 1st"
+    url: "https://www.communities1st.org.uk/warm-hubs"
+    data:
+      url: "https://www.communities1st.org.uk/warm-hubs"
       type: html
   - title: "Croydon Council"
     url: "https://www.croydon.gov.uk/warm-spaces-directory"
@@ -762,6 +771,23 @@ directories:
         hours: "Descriptio"
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
+  - title: "Plymouth Council"
+    url: "https://www.plymouth.gov.uk/warm-welcoming-spaces"
+    register:
+      url: "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13"
+      type: googlemap
+      keys:
+        url: "Website"
+        contact: "Phone number"
+        address: "Address and postcode"
+        title: "name"
+        hours: "Opening times"
+        description: "Facilities"
   - title: "Portsmouth Council"
     url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
     data:

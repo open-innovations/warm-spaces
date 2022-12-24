@@ -60,11 +60,11 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
+		"count": 54,
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": "0",
+		"geocount": 54,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -276,6 +276,12 @@
 		"title": "Ceredigion Council",
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
+	"chelmsford_connects": {
+		"id": "chelmsford_connects",
+		"notes": "Not enough address/location data",
+		"title": "Chelmsford Connects",
+		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
+	},
 	"cheshire_west_and_chester_council": {
 		"id": "cheshire_west_and_chester_council",
 		"notes": "Refers people to Warm Welcome",
@@ -304,6 +310,16 @@
 		"notes": "Refers to Warm Welcome UK",
 		"title": "City of London",
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+	},
+	"communities_1st": {
+		"count": 30,
+		"data": [
+			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
+		],
+		"geocount": 29,
+		"id": "communities_1st",
+		"title": "Communities 1st",
+		"url": "https://www.communities1st.org.uk/warm-hubs"
 	},
 	"coventry_council": {
 		"count": 50,
@@ -847,6 +863,18 @@
 		"title": "Perth and Kinross Council",
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
+	"plymouth_council": {
+		"count": 59,
+		"data": [
+			{ "keys": { "address": "Address and postcode", "contact": "Phone number", "description": "Facilities", "hours": "Opening times", "title": "name", "url": "Website" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" }
+		],
+		"geocount": 58,
+		"id": "plymouth_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
+		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
+		"title": "Plymouth Council",
+		"url": "https://www.plymouth.gov.uk/warm-welcoming-spaces"
+	},
 	"portsmouth_council": {
 		"count": 35,
 		"data": [
@@ -1163,7 +1191,7 @@
 	"warm_welcome": {
 		"count": 5000,
 		"data": [
-			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" }
+			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" }
 		],
 		"geocount": 5000,
 		"id": "warm_welcome",
