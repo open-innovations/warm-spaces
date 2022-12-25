@@ -60,11 +60,11 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 54,
+		"count": "0",
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": 54,
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -316,7 +316,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
 		],
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
