@@ -316,7 +316,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
 		],
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -1177,11 +1177,11 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1615,
+		"count": 1620,
 		"data": [
 			{ "type": "squarespace", "url": "https://warmspaces.org/locations/" }
 		],
-		"geocount": 1615,
+		"geocount": 1620,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
