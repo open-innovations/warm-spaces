@@ -217,6 +217,7 @@
 		{"geometry":{"coordinates":[-0.07906,51.31115],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"157a Godstone Road, Whyteleafe","hours":{"_text":"Sat: 2pm to 5pm","opening":"Sa 14:00-17:00"},"title":"Whyteleafe Free Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.20313,51.24323],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"St Mark’s Church Centre, Alma Road, Reigate RH2 0DA","hours":{"_text":"Fri: 10am to 12pm","opening":"Fr 10:00-12:00"},"title":"St Mark’s Reigate"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.19714,51.32364],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"150 High Street, Banstead SM7 2NZ","hours":{"_text":"Thu: 11am to 1.15pm","opening":"Th 11:00-13:15"},"title":"Christ Church Banstead"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.20845,51.22685],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"Church Road, RH2 8HY","hours":{"_text":"Weds: 11.30am to 2pm","opening":"We 11:30-14:00"},"title":"St Luke’s"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.20845,51.22685],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"Church Road, RH2 8HY","hours":{"_text":"Weds: 11.30am to 2pm","opening":"We 11:30-14:00"},"title":"St Luke’s"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.33131,51.22725],"type":"Point"},"properties":{"_source":"surrey_county_council_warm_hubs","address":"St Paul’s Road West, Dorking, RH4 2HT","hours":{"_text":"Mon, Wed, Fri 2pm to 4pm (over 60s only)","opening":"Mo 14:00-16:00; We 14:00-16:00; Fr 14:00-16:00"},"title":"St Paul’s Dorking"},"type":"Feature"}
 	]
 }
