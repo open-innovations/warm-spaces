@@ -878,6 +878,11 @@ directories:
         lon: "lng"
         description: "information"
         hours: "openingtimes"
+  - title: "South Cambs Council"
+    url: "https://www.scambs.gov.uk/warm-hubs/"
+    data:
+      url: "https://www.scambs.gov.uk/warm-hubs/"
+      type: html
   - title: "Spark Somerset"
     url: "https://sparksomerset.org.uk/warm-welcome"
     register:
@@ -998,6 +1003,11 @@ directories:
         type: googlemap2
   - title: "Swindon Council"
     url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
+  - title: "Tameside Council"
+    url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
+    data:
+      url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
+      type: html
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     register:
@@ -1041,6 +1051,9 @@ directories:
     data:
       url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
       type: html
+  - title: "Warwickshire Rural Council"
+    url: "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
+    notes: "Not enough details to include"
   - title: "West Berkshire Council"
     url: "https://www.westberks.gov.uk/warm-spaces"
     register:
@@ -1055,6 +1068,11 @@ directories:
         title: "project_name"
         url: "project_url"
         description: "project_mission"
+  - title: "West Dunbartonshire Council"
+    url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
+    data:
+      url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
+      type: html
   - title: "West Northamptonshire"
     url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
     map:
