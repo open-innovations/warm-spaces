@@ -863,6 +863,16 @@
 		"title": "Perth and Kinross Council",
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
+	"peterborough_council": {
+		"count": 20,
+		"data": [
+			{ "type": "html", "url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs" }
+		],
+		"geocount": 17,
+		"id": "peterborough_council",
+		"title": "Peterborough Council",
+		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
+	},
 	"plymouth_council": {
 		"count": 59,
 		"data": [

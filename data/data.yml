@@ -771,6 +771,11 @@ directories:
         hours: "Descriptio"
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
+  - title: "Peterborough Council"
+    url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
+    data:
+      url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
+      type: html
   - title: "Plymouth Council"
     url: "https://www.plymouth.gov.uk/warm-welcoming-spaces"
     register:
