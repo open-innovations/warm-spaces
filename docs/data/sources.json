@@ -574,7 +574,7 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"hertfordshire_council": {
-		"count": 85,
+		"count": 84,
 		"data": [
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2" },
@@ -587,7 +587,7 @@
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10" }
 		],
-		"geocount": 84,
+		"geocount": 83,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
