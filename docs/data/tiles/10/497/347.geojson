@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.08673,50.05037],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Church Hall, Lemon Street, St Keverne TR12 6NE","description":"offering warm space, information, advice and guidance hot drinks and lunch","hours":{"_text":"Saturdays 9am – 1 pm - starts in January 2023","opening":"Sa 09:00-13:00"},"loc_pcd":true,"title":"St Keverne Warm Hub"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.08906,50.05049],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Methodist Hall, Commercial Road, St Keverne TR12 6LY","description":"offering warm space, information, advice and guidance hot drinks and lunch","hours":{"_text":"Tuesdays 10am – 2pm - starts in January 2023","opening":"Tu 10:00-14:00"},"loc_pcd":true,"title":"St Keverne Warm Hub"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.08673,50.05037],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Church Hall, Lemon Street, St Keverne TR12 6NE","contact":"Josh Clarke joshc@volunteercornwall.org.uk 07595 465429","description":"offering warm space, information, advice and guidance hot drinks and lunch","hours":{"_text":"Saturdays 9am – 1 pm - starts in January 2023","opening":"Sa 09:00-13:00"},"loc_pcd":true,"title":"St Keverne Warm Hub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-5.08906,50.05049],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Methodist Hall, Commercial Road, St Keverne TR12 6LY","contact":"Josh Clarke joshc@volunteercornwall.org.uk 07595 465429","description":"offering warm space, information, advice and guidance hot drinks and lunch","hours":{"_text":"Tuesdays 10am – 2pm - starts in January 2023","opening":"Tu 10:00-14:00"},"loc_pcd":true,"title":"St Keverne Warm Hub"},"type":"Feature"}
 	]
 }

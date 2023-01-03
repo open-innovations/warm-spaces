@@ -326,7 +326,8 @@
 		{"text":"Every Tuesday between 10am and 2.30pm","good":"Tu 10:00-14:30"},
 		{"text":"Open Tuesday and Wednesday in the community room from 6pm-9pm.","good":"Tu 18:00-21:00; We 18:00-21:00"},
 		{"text":"every Monday from 7th November 12pm to 2pm","good":"Mo 12:00-14:00"},
-		{"text":"on a Tuesday afternoon from 1.30-4pm, all welcome.","good":"Tu 13:30-16:00"}
+		{"text":"on a Tuesday afternoon from 1.30-4pm, all welcome.","good":"Tu 13:30-16:00"},
+		{"text":"9 a.m. to 5 p.m. Monday to Friday; 10 a.m. to 1 p.m. on Saturdays.","good":"Mo-Fr 09:00-17:00; Sa 10:00-13:00"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},

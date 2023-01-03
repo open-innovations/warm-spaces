@@ -172,6 +172,8 @@ sub getJSON {
 	@lines = <FILE>;
 	close(FILE);
 	$str = (join("",@lines));
+	# Error check for JS variable e.g. South Tyneside https://maps.southtyneside.gov.uk/warm_spaces/assets/data/wsst_council_spaces.geojson.js
+	$str =~ s/[^\{]*var [^\{]+ = //g;
 	if(!$str){ $str = "{}"; }
 	return JSON::XS->new->decode($str);	
 }
@@ -279,7 +281,12 @@ sub parseOpeningHours {
 		$str =~ s/\//, /g;
 		$str =~ s/[—–]/-/g;
 		$str =~ s/24 hours/00:00-24:00/g;
-		$str =~ s/ (am|pm) /$1/g;	# trim spaces before am/pm
+
+		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
+		$str =~ s/a\.?m\.?/am/gi;
+		$str =~ s/p\.?m\.?/pm/gi;
+
+		$str =~ s/ (am|pm) /$1 /g;	# trim spaces before am/pm
 		$str =~ s/([0-9]{1,2})\.([0-9]{2})/$1:$2/g;	# Convert times of the form "1.30" to "1:30"
 
 		# Convert "weekdays" or "weekends" into day ranges
@@ -291,9 +298,6 @@ sub parseOpeningHours {
 		$str =~ s/12 ?noon/12:00/gi;
 		$str =~ s/noon/ 12:00/gi;
 
-		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
-		$str =~ s/a\.?m\.?/am/gi;
-		$str =~ s/p\.?m\.?/pm/gi;
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
@@ -319,7 +323,7 @@ sub parseOpeningHours {
 		}
 
 		# Match day range + time
-		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\;\:\,]?[\s\t]*([0-9\:\.\,apm\s\t\-]+)//){
+		while($str =~ s/(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,]\])?[\:\,]?[\s\t]*([0-9\:\.\,apm\s\t\-]+)//){
 			$day1 = $1;
 			$mod1 = $2;
 			$day2 = $3;
@@ -331,7 +335,7 @@ sub parseOpeningHours {
 		}
 
 		# Match time + day range
-		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?//){
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\s\:\,]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?[\s\t]*[\-\–][\s\t]*(Mo|Tu|We|Th|Fr|Sa|Su)(\[[0-9\,\-]\])?//s){
 			$day1 = $4;
 			$mod1 = $5;
 			$day2 = $6;

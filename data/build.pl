@@ -253,7 +253,7 @@ sub parseGeoJSONFeature {
 		if($f->{$props}{$days[$i]}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$days[$i]}; }
 		if($keys->{$days[$i]} && $f->{$props}{$keys->{$days[$i]}}){ $json->{'hours'}{$days[$i]} = $f->{$props}{$keys->{$days[$i]}}; }
 	}
-
+	
 	# Replacement values
 	foreach $key (keys(%{$keys})){
 		# Do we have the lookup key
@@ -512,6 +512,7 @@ sub getGoogleMap {
 		$entry = {};
 		$props = {};
 		if($placemark =~ /<name>(.*?)<\/name>/s){ $entry->{'name'} = cleanCDATA($1); }
+		#if($placemark =~ /<description>(.*?)<\/description>/s){ $entry->{'description'} = parseText(cleanCDATA($1)); }
 		if($placemark =~ /<coordinates>(.*?)<\/coordinates>/s){
 			$c = cleanCDATA($1);
 			$c =~ s/(^ *| *$)//g;
@@ -529,27 +530,37 @@ sub getGoogleMap {
 					$props->{$k} = cleanCDATA($v);
 				}
 			}
-		}else{
-			if($placemark =~ /<description>(.*?)<\/description>/s){
-				$entry->{'description'} = cleanCDATA($1);
-				$remove = {};
-				if($d->{'data'}[$i]{'parse'}){
-					$parse = $d->{'data'}[$i]{'parse'}."";
-					@reps = ();
-					while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/){
-						push(@reps,$1);
-					}
-					$re = qr/^$parse$/is;
-					@matches = $entry->{'description'} =~ $re;
-					if(@matches > 0){
-						for($p2 = 0; $p2 < @reps; $p2++){
-							$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
-							$txt = parseText($matches[$p2]);
-							if($txt){ $props->{$reps[$p2]} = cleanCDATA($txt); }
+		}
+		
+		if($placemark =~ /<description>(.*?)<\/description>/s){
+			$entry->{'description'} = cleanCDATA($1);
+			$remove = {};
+
+			if($placemark !~ /<ExtendedData>(.*?)<\/ExtendedData>/s){
+				# Parse properties from description
+				while($entry->{'description'} =~ s/([^\>]*?) ?: ?([^\<]*?)(\<|$)/$3/s){
+					$props->{$1} = $2;
+				}
+			}
+
+			if($d->{'data'}[$i]{'parse'}){
+				$parse = $d->{'data'}[$i]{'parse'}."";
+				@reps = ();
+				while($parse =~ s/\{\{ ?([^\}]+) ?\}\}/\(.*?\)/s){
+					push(@reps,$1);
+				}
+				$re = qr/^$parse$/is;
+				@matches = $entry->{'description'} =~ $re;
+				if(@matches > 0){
+					for($p2 = 0; $p2 < @reps; $p2++){
+						$reps[$p2] =~ s/(^[\s]+|[\s]+$)//g;
+						$txt = parseText($matches[$p2]);
+						if($txt && !$props->{$reps[$p2]}){
+							$props->{$reps[$p2]} = cleanCDATA($txt);
 						}
 					}
-					$remove{'description'} = 1;
 				}
+				$remove{'description'} = 1;
 			}
 		}
 
@@ -558,7 +569,7 @@ sub getGoogleMap {
 			# Replace any replacements in the $props structure and add them to the $entry structure
 			foreach $key (keys(%{$d->{'data'}[$i]{'keys'}})){
 				$v = $d->{'data'}[$i]{'keys'}{$key};
-				if($props->{$v} && !$entry->{$key}){
+				if($props->{$v}){
 					$entry->{$key} = $props->{$v};
 				}elsif($v =~ /\{\{ ?(.*?) ?\}\}/){
 					$v =~ s/\{\{ ?(.*?) ?\}\}/$props->{$1}/sg;
@@ -591,7 +602,7 @@ sub getGoogleMap {
 			delete $entry->{$k};
 		}
 		if($entry->{'hours'}){
-			$entry->{'hours'} = parseOpeningHours({'_text'=>$entry->{'hours'}});
+			$entry->{'hours'} = parseOpeningHours({'_text'=>parseText($entry->{'hours'})});
 			if(!$entry->{'hours'}{'opening'}){ delete $entry->{'hours'}{'opening'}; }
 		}
 		$entry->{'_source'} = $d->{'id'};

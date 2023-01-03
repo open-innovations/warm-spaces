@@ -89,7 +89,13 @@
 		{"geometry":{"coordinates":[-2.97781,53.49299],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 11.30am - 3pm","hours":{},"title":"L30 Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.99095,53.44365],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays & Wednesdays 10am - 2pm","hours":{},"title":"Community by Nature"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.02443,53.47193],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Fridays 11am - 2pm","hours":{},"title":"Crosby Housing Association & Waterloo Community Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday: 9am-2.30pm Wednesday: 9am-2.30pm Thursday: 9am-2:30pm","hours":{},"title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97006,53.48607],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 3pm- 5pm Wednesdays 12noon - 2pm Thursday 9am - 11am","hours":{},"title":"St Oswalds Church Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","hours":{},"title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97006,53.48607],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 3pm- 5pm Wednesdays 12noon - 2pm Thursday 9am - 11am","hours":{},"title":"St Oswalds Church Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.94464,53.50736],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 1pm - 4pm","hours":{},"title":"Friends of Maghull & District"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99118,53.45586],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday - Friday 9.30am-1.30pm","hours":{},"title":"Sefton OPERA"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99791,53.44905],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays and Sundays 1pm-4pm","hours":{},"title":"Lock & Quay Community Pub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99752,53.46348],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 12am-4pm","hours":{},"title":"Linacre Methodist Mission"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-3pm","hours":{},"title":"The Orrell Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.02395,53.49103],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Sundays 2pm-4pm","hours":{},"title":"St Luke’s Church Crosby"},"type":"Feature"}
 	]
 }
