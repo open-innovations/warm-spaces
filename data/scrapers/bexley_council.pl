@@ -21,7 +21,7 @@ if(-e $file){
 	if($str =~ /<h2 class="page-title">.*<article[^\>]*>(.*)<\/article>/s){
 		$str = $1;
 
-		while($str =~ s/<h4>(.*?)<\/h4>(.*?)<h4>/<h4>/s){
+		while($str =~ s/<h3>(.*?)<\/h3>(.*?)<h3>/<h3>/s){
 			$title = $1;
 			$content = $2;
 			$d = {};

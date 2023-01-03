@@ -265,10 +265,12 @@ sub parseOpeningHours {
 	
 	if($str && !$hours->{'_parsed'}){
 
+		$str =~ s/ from [0-9]{1,2}(st|nd|rd|th)? (January|February|March|April|May|June|July|August|September|October|November|December) ?/ /gi; # Remove start dates
 		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
-		$str =~ s/ at [^0-9]+ from /: /g;
+		$str =~ s/ (at|in) [^0-9]+ from /: /g;
+		$str =~ s/ (between) ([0-9\:amp]+) and / $2 - /g;
 		$str =~ s/ (to|until|til) / - /g;
-		$str =~ s/ from /: /g;
+		$str =~ s/ (at|from) /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/\&apos\;//g;
 		$str =~ s/([^0-9]) \&amp\; ([^0-9])/$1, $2/g;
@@ -278,6 +280,7 @@ sub parseOpeningHours {
 		$str =~ s/[—–]/-/g;
 		$str =~ s/24 hours/00:00-24:00/g;
 		$str =~ s/ (am|pm) /$1/g;	# trim spaces before am/pm
+		$str =~ s/([0-9]{1,2})\.([0-9]{2})/$1:$2/g;	# Convert times of the form "1.30" to "1:30"
 
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
@@ -297,7 +300,7 @@ sub parseOpeningHours {
 				$d = $days[$i]->{'match'}[$j];
 			
 				# Replace any string that refers to e.g. "first Sunday" with "Su[1]"
-				while($str =~ /((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of (the|each|every) month)?\,?/){
+				while($str =~ /((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of ?(the|each|every)? ?month)?\,?/){
 					$nth = $1;
 					$nstr = "";
 					if($nth =~ /(first|1st)/i){ $nstr .= ($nstr?",":"")."1"; }
@@ -307,7 +310,7 @@ sub parseOpeningHours {
 					if($nth =~ /last/i){ $nstr .= ($nstr?",":"")."-1"; }
 					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
 					else { $nstr = " ".$d; }
-					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of (the|each|every) month)?\,?/$nstr/;
+					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( of ?(the|each|every)? ?month)?\,?/$nstr/;
 				}				
 
 				# Replace a day match with the short version
@@ -438,7 +441,7 @@ sub parseOpeningHours {
 
 sub getHourRange {
 	my $str = $_[0];
-	my ($t1,$t2,@times,$t,$out);
+	my ($t1,$t2,@times,$t,$out,$h1,$h2,$m1,$m2);
 	@times = split(/\,/,$str);
 	$out = "";
 	for($t = 0; $t < @times; $t++){
@@ -446,8 +449,15 @@ sub getHourRange {
 		if($t1 !~ /[0-9]/ && $t2 !~ /[0-9]/){
 			# No valid looking times so don't add anything
 		}else{
-			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $t1 < 12 && $t2 < 12 && $t1 < $t2){ $t1 += 12; }
-			$out .= ($out?",":"").niceHours($t1)."-".niceHours($t2);
+			if($t1 =~ /:/){ ($h1,$m1) = split(/[\:\.]/,$t1); }
+			else{ $h1 = $t1; $m1 = ""; }
+			if($t2 =~ /:/){ ($h2,$m2) = split(/[\:\.]/,$t2); }
+			else{ $h2 = $t2; $m2 = ""; }
+			# e.g. "1-4pm" 
+			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $h1 < 12 && $h2 < 12 && $h1 < $h2){ $h1 += 12; }
+			# e.g. "10am-2"
+			if($t1 =~ /am/ && $t2 !~ /pm/ && $h2 < $h1){ $h2 += 12; }
+			$out .= ($out?",":"").niceHours($h1.($m1 ? ":":"").$m1)."-".niceHours($h2.($m2 ? ":":"").$m2);
 		}
 	}
 	return $out;

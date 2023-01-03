@@ -49,6 +49,15 @@ directories:
       url: "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/"
   - title: "Argyll and Bute Third Sector Interface"
     url: "https://www.argylltsi.org/warmspaces.html"
+    data:
+      - url: "https://www.argylltsi.org/cowal--bute.html"
+        type: html
+      - url: "https://www.argylltsi.org/helensburgh--lomond.html"
+        type: html
+      - url: "https://www.argylltsi.org/oban-lorn--the-isles.html"
+        type: html
+      - url: "https://www.argylltsi.org/maki.html"
+        type: html
   - title: "Barnet Council"
     url: "https://www.barnet.gov.uk/directories/warm-spaces"
     register:
@@ -61,6 +70,7 @@ directories:
       type: html
   - title: "Armagh City, Bandridge and Craigavon Council"
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
+    notes: "Not enough location information"
   - title: "Barnsley Council"
     url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
     notes: "Refers people to Warm Welcome UK"
@@ -109,10 +119,15 @@ directories:
     notes: "Not enough information to parse"
   - title: "Bournemouth, Christchurch and Poole"
     url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
+    notes: "Not enough structure to parse"
     register:
       url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx"
   - title: "Bracknell Forest Council"
     url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
+    notes: "Locations for libraries on separate pages"
+    data:
+      url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
+      type: html
   - title: "Bradford Council"
     url: "https://costoflivingbradford.co.uk/warm-spaces/"
     map:
@@ -174,6 +189,11 @@ directories:
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:
       url: "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/"
+    map:
+      url: "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1"
+    data:
+      url: "https://api.familyinfo.buckinghamshire.gov.uk/api/v1/services?page=1&per_page=100&targetDirectories=bod&taxonomies=advice-and-support&taxonomies=welcoming-spaces"
+      type: html
   - title: "Bury Directory"
     url: "https://theburydirectory.co.uk/warm-spaces-bury"
     data:
@@ -381,8 +401,25 @@ directories:
       type: html
   - title: "Ealing Council"
     url: "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
+    map:
+      url: "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces"
+      type: googlemap
+    data:
+      url: "https://www.dosomethinggood.org.uk/wp-admin/admin-ajax.php?action=generate_map_markers&cat=warm-community-spaces"
+      type: html
   - title: "East Ayrshire Council"
     url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9"
+      type: googlemap
+      keys:
+        title: "name"
+        address: "Address"
+        hours: "Opening times"
+        description: "Support available"
   - title: "East Lindsey"
     url: "https://www.e-lindsey.gov.uk/warmspaces"
     notes: "Too hard to extract enough information"
@@ -619,6 +656,24 @@ directories:
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:
       url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/"
+    map:
+      url: "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68"
+    data:
+      - url: "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Warm_Places_-_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=OrgApproved%20%3D%20%27Yes%27&orderByFields=OrgName%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects"
+        type: arcgis
+        keys:
+          title: "OrgName"
+          url: "OrgWebsite"
+          address: "OrgAddress"
+          contact: "Tel: {{ OrgTelephone }}, Email: {{ OrgEmail }}"
+          hours: "OrgOpenTimes"
+          description: "OrgNature"
+      - url: "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Libraries/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=1%3D1&orderByFields=NAME%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects"
+        type: arcgis
+        keys:
+          title: "NAME"
+          url: "URL"
+          address: "{{ ADDRESS1 }}, {{ ADDRESS2 }}, {{ TOWN }}, {{ POSTCODE }}"
   - title: "Leeds City Council"
     url: https://www.leeds.gov.uk/campaign/warm-spaces
     map:
@@ -647,6 +702,7 @@ directories:
         sunday: Sunday
   - title: "Leicester Council"
     url: "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
+    notes: "Refers to Warm Welcome"
   - title: "Lewes and Eastbourne Council"
     url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
     register:
@@ -659,7 +715,13 @@ directories:
     map:
       url: "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/"
       type: googlemap
-    notes: "Unable to extract enough data"
+    data:
+      url: "https://www.lewishamlocal.com/wp-json/geodir/v2/markers/?post_type=gd_place&term[]=2542"
+      type: wpgeodir
+      keys:
+        address: "Address"
+        contact: "Tel: {{ Phone }}"
+        hours: "Time"
   - title: "Litchfield Council"
     url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
     map:
@@ -863,6 +925,7 @@ directories:
         title: "name"
   - title: "Sevenoaks Council"
     url: "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
+    notes: "Not enough location information"
     register:
       url: "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces"
   - title: "Sheffield VAS"
@@ -913,6 +976,9 @@ directories:
       type: html
   - title: "Stevenage Council"
     url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
+    data:
+      url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
+      type: html
   - title: "Stockport Council"
     url: "https://www.stockport.gov.uk/warm-spaces"
     map:
@@ -970,6 +1036,19 @@ directories:
     map:
       url: "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg"
       type: image
+    data:
+      - url: "https://sunderland.gov.uk/article/25211/Coalfield-Area"
+        type: html
+      - url: "https://sunderland.gov.uk/article/25212/East-Area"
+        type: html
+      - url: "https://sunderland.gov.uk/article/25213/North-Area"
+        type: html
+      - url: "https://sunderland.gov.uk/article/25214/Washington-Area"
+        type: html
+      - url: "https://sunderland.gov.uk/article/25215/West-Area"
+        type: html
+      - url: "https://sunderland.gov.uk/article/26268/City-wide"
+        type: html
   - title: "Surrey County Council warm hubs"
     url: "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs"
     map:

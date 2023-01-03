@@ -26,12 +26,21 @@
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
+		"count": 29,
+		"data": [
+			{ "type": "html", "url": "https://www.argylltsi.org/cowal--bute.html" },
+			{ "type": "html", "url": "https://www.argylltsi.org/helensburgh--lomond.html" },
+			{ "type": "html", "url": "https://www.argylltsi.org/oban-lorn--the-isles.html" },
+			{ "type": "html", "url": "https://www.argylltsi.org/maki.html" }
+		],
+		"geocount": 11,
 		"id": "argyll_and_bute_third_sector_interface",
 		"title": "Argyll and Bute Third Sector Interface",
 		"url": "https://www.argylltsi.org/warmspaces.html"
 	},
 	"armagh_city__bandridge_and_craigavon_council": {
 		"id": "armagh_city__bandridge_and_craigavon_council",
+		"notes": "Not enough location information",
 		"title": "Armagh City, Bandridge and Craigavon Council",
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
@@ -87,11 +96,11 @@
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
 	},
 	"bexley_council": {
-		"count": "0",
+		"count": 6,
 		"data": [
 			{ "type": "html", "url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley" }
 		],
-		"geocount": "0",
+		"geocount": 6,
 		"id": "bexley_council",
 		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
 		"title": "Bexley Council",
@@ -127,12 +136,19 @@
 	},
 	"bournemouth__christchurch_and_poole": {
 		"id": "bournemouth__christchurch_and_poole",
+		"notes": "Not enough structure to parse",
 		"register": { "url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx" },
 		"title": "Bournemouth, Christchurch and Poole",
 		"url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
 	},
 	"bracknell_forest_council": {
+		"count": 16,
+		"data": [
+			{ "type": "html", "url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs" }
+		],
+		"geocount": 6,
 		"id": "bracknell_forest_council",
+		"notes": "Locations for libraries on separate pages",
 		"title": "Bracknell Forest Council",
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
@@ -203,7 +219,13 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
+		"count": 39,
+		"data": [
+			{ "type": "html", "url": "https://api.familyinfo.buckinghamshire.gov.uk/api/v1/services?page=1&per_page=100&targetDirectories=bod&taxonomies=advice-and-support&taxonomies=welcoming-spaces" }
+		],
+		"geocount": 39,
 		"id": "buckinghamshire_council",
+		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
 		"title": "Buckinghamshire Council",
 		"url": "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
@@ -436,12 +458,24 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
+		"count": 22,
+		"data": [
+			{ "type": "html", "url": "https://www.dosomethinggood.org.uk/wp-admin/admin-ajax.php?action=generate_map_markers&cat=warm-community-spaces" }
+		],
+		"geocount": 22,
 		"id": "ealing_council",
+		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
+		"count": 58,
+		"data": [
+			{ "keys": { "address": "Address", "description": "Support available", "hours": "Opening times", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" }
+		],
+		"geocount": 57,
 		"id": "east_ayrshire_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
 		"url": "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
 	},
@@ -609,7 +643,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.hounslow.gov.uk/warmspaces" }
 		],
-		"geocount": "0",
+		"geocount": 34,
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
@@ -699,7 +733,14 @@
 		"url": "https://beta.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
+		"count": 164,
+		"data": [
+			{ "keys": { "address": "OrgAddress", "contact": "Tel: {{ OrgTelephone }}, Email: {{ OrgEmail }}", "description": "OrgNature", "hours": "OrgOpenTimes", "title": "OrgName", "url": "OrgWebsite" }, "type": "arcgis", "url": "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Warm_Places_-_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=OrgApproved%20%3D%20%27Yes%27&orderByFields=OrgName%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects" },
+			{ "keys": { "address": "{{ ADDRESS1 }}, {{ ADDRESS2 }}, {{ TOWN }}, {{ POSTCODE }}", "title": "NAME", "url": "URL" }, "type": "arcgis", "url": "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Libraries/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=1%3D1&orderByFields=NAME%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects" }
+		],
+		"geocount": 164,
 		"id": "lancashire_council",
+		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
 		"title": "Lancashire Council",
 		"url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
@@ -719,6 +760,7 @@
 	},
 	"leicester_council": {
 		"id": "leicester_council",
+		"notes": "Refers to Warm Welcome",
 		"title": "Leicester Council",
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
@@ -734,9 +776,13 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
+		"count": 33,
+		"data": [
+			{ "keys": { "address": "Address", "contact": "Tel: {{ Phone }}", "hours": "Time" }, "type": "wpgeodir", "url": "https://www.lewishamlocal.com/wp-json/geodir/v2/markers/?post_type=gd_place&term[]=2542" }
+		],
+		"geocount": 33,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
-		"notes": "Unable to extract enough data",
 		"title": "Lewisham Local",
 		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
 	},
@@ -985,6 +1031,7 @@
 	},
 	"sevenoaks_council": {
 		"id": "sevenoaks_council",
+		"notes": "Not enough location information",
 		"register": { "url": "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
 		"title": "Sevenoaks Council",
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
@@ -1037,13 +1084,18 @@
 		"data": [
 			{ "type": "html", "url": "https://www.staffordbc.gov.uk/warm-spaces" }
 		],
-		"geocount": "0",
+		"geocount": 23,
 		"id": "stafford_borough_council",
 		"register": "mailto:warmspaces@staffordbc.gov.uk",
 		"title": "Stafford Borough Council",
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
 	"stevenage_council": {
+		"count": 16,
+		"data": [
+			{ "type": "html", "url": "https://www.stevenage.gov.uk/stevenage-warm-spaces-network" }
+		],
+		"geocount": 16,
 		"id": "stevenage_council",
 		"title": "Stevenage Council",
 		"url": "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
@@ -1101,6 +1153,16 @@
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
+		"count": 58,
+		"data": [
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/25211/Coalfield-Area" },
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/25212/East-Area" },
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/25213/North-Area" },
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/25214/Washington-Area" },
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/25215/West-Area" },
+			{ "type": "html", "url": "https://sunderland.gov.uk/article/26268/City-wide" }
+		],
+		"geocount": 58,
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"title": "Sunderland Council",
@@ -1226,7 +1288,6 @@
 		"geocount": 3754,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
-		"notes": "Their site returns 5000 results although their site says 3723 results.",
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
 		"title": "Warm Welcome",
 		"url": "https://www.warmwelcome.uk/"

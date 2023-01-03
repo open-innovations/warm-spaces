@@ -35,7 +35,7 @@ if(-e $file){
 			if($entry =~ /<a href="([^\"]+)">/s){ $url = $1; }
 			if($entry =~ /<h3>/s){
 				while($entry =~ s/<h3>([^\<]+)<\/h3>[\n\r\t\s]*<p><strong>Open:<\/strong>(.*?)<\/p>[\n\r\t\s]*<p><strong>Times:<\/strong>(.*?)<\/p>//s){
-					$d = {'title'=>$title.": ".$1,'hours'=>{'_text'=>$2."".$3}};
+					$d = {'title'=>$title,'address'=>$1,'hours'=>{'_text'=>$2."".$3}};
 					$d->{'hours'} = parseOpeningHours($d->{'hours'});
 					if($url){ $d->{'url'} = $url; }
 					push(@entries,makeJSON($d,1))

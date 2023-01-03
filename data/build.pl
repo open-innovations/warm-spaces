@@ -96,6 +96,10 @@ sub processDirectories {
 
 					@nfeatures = getHTML($d,$k);
 
+				}elsif($d->{'data'}[$k]{'type'} eq "wpgeodir"){
+					
+					@nfeatures = getWPGeoDir($d,$k);
+					
 				}elsif($d->{'data'}[$k]{'type'} eq "squarespace"){
 
 					@nfeatures = getSquareSpace($d,$k);
@@ -272,6 +276,7 @@ sub parseGeoJSONFeature {
 			}
 			$json->{$key} = $tempk;
 		}
+		$json->{$key} =~ s/\, \,/\,/g;
 		# Clean up "<Null>" values
 		if($json->{$key} eq "<Null>"){ delete $json->{$key}; }
 	}
@@ -463,6 +468,7 @@ sub getArcGIS {
 				$json->{'lat'} = $json->{'lat'}*$geojson->{'transform'}{'scale'}[1] + $geojson->{'transform'}{'translate'}[1];
 				$json->{'lon'} = $json->{'lon'}*$geojson->{'transform'}{'scale'}[0] + $geojson->{'transform'}{'translate'}[0];
 			}
+			if($json->{'url'} =~ /^www/){ $json->{'url'} = "http://".$json->{'url'}; }
 			$json->{'_source'} = $d->{'id'};
 			push(@features,$json);
 		}
@@ -709,6 +715,95 @@ sub getCSV {
 
 	# Add lat,lon from postcodes if we don't have them
 	return addLatLonFromPostcodes(@features);
+}
+
+sub getWPGeoDir {
+
+	my $d = shift;
+	my $i = shift;
+	
+	my ($file,@lines,$str,@features,$f,$url,$json,$jsonmarker,$key,$k,$props,$v,$entry,$remove);
+
+	# Get the data (if we don't have a cached version)
+	$file = getDataFromURL($d,$i);
+
+	print "Here: $file\n";
+
+	if(-e $file){
+		open(FILE,"<:utf8",$file);
+		@lines = <FILE>;
+		close(FILE);
+		$str = join("",@lines);
+		eval {
+			$json = JSON::XS->new->decode($str);
+		};
+		if($@){ warning("\tInvalid output from WordPress GeoDirectory.\n".$str); }
+		
+		print Dumper $json->{'items'};
+		for($f = 0; $f < @{$json->{'items'}}; $f++){
+			print "$f - $json->{'items'}[$f]{'m'}\n";
+			$entry = {};
+			$props = {};
+			$remove = {};
+			$entry->{'title'} = $json->{'items'}[$f]{'t'};
+			$entry->{'lat'} = $json->{'items'}[$f]{'lt'};
+			$entry->{'lon'} = $json->{'items'}[$f]{'ln'};
+			$url = $d->{'data'}[$i]{'url'};
+			$url =~ s/\?.*//g;
+			$url .= $json->{'items'}[$f]{'m'};
+			$file = $rawdir.$d->{'id'}."-marker-$json->{'items'}[$f]{'m'}.json";
+			getURLToFile($url,$file);
+			$jsonmarker = getJSON($file);
+			
+			# Get any properties of the form "Property: blah</div>"
+			while($jsonmarker->{'html'} =~ />([^\:\>\<]+)\:(.*?)<\/div>/){
+				$props->{$1} = parseText($2);
+				$jsonmarker->{'html'} =~ s/>([^\:]+)\:(.*?)<\/div>//;
+			}
+
+			if($d->{'data'}[$i]{'keys'}){
+
+				# Replace any replacements in the $props structure and add them to the $entry structure
+				foreach $key (keys(%{$d->{'data'}[$i]{'keys'}})){
+					$v = $d->{'data'}[$i]{'keys'}{$key};
+					if($props->{$v} && !$entry->{$key}){
+						$entry->{$key} = $props->{$v};
+					}elsif($v =~ /\{\{ ?(.*?) ?\}\}/){
+						$v =~ s/\{\{ ?(.*?) ?\}\}/$props->{$1}/sg;
+						$v =~ s/[\n]//g;
+						$entry->{$key} = cleanCDATA($v);
+					}
+				}
+
+				# Build replacements
+				foreach $k (keys(%{$d->{'data'}[$i]{'keys'}})){
+					if($entry->{$d->{'data'}[$i]{'keys'}{$k}}){
+						$entry->{$k} = "".$entry->{$d->{'data'}[$i]{'keys'}{$k}};
+						$remove->{$d->{'data'}[$i]{'keys'}{$k}} = 1;
+					}
+				}
+				if(!$entry->{'hours'} && $entry->{$d->{'data'}[$i]{'keys'}{'hours'}}){
+					$entry->{'hours'} = $entry->{$d->{'data'}[$i]{'keys'}{'hours'}};
+					$entry->{'hours'} =~ s/<br>/ /;
+					$entry->{'hours'} =~ s/[\s]/ /;
+					$entry->{'hours'} =~ s/[^0-9A-Za-z\-\,\.\:\;\s\[\]]/ /;
+					if($d->{'data'}[$i]{'keys'}{'hours'} eq "description"){ $remove{'description'} = 1; }
+				}
+				$entry->{'description'} = parseText($entry->{'description'});
+				if(!$entry->{'description'}){ $remove{'description'}; }
+				if($d->{'data'}[$i]{'keys'}{'description'}){
+					delete $remove->{'description'};
+				}
+			}
+			if($entry->{'hours'}){
+				$entry->{'hours'} = parseOpeningHours({'_text'=>$entry->{'hours'}});
+			}
+			
+			push(@features,$entry);
+		}
+	}
+
+	return @features;
 }
 
 sub getHTML {
