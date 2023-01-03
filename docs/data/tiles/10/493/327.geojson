@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.67899,54.22474],"type":"Point"},"properties":{"_source":"warm_welcome","address":"95 Darkley Road, Co Armagh, Armagh BT60 3AY","description":"Open from everyday. We welcome everyone at our base and have a green flag award garden for people to enjoy. The kettle is always on and we look forward to helping everyone within our reach. We also have a charity shop. forard","hours":{"_text":"Monday: 00:00 - 23:59, Tuesday: 00:00 - 23:59, Wednesday: 00:00 - 23:59, Thursday: 00:00 - 23:59, Friday: 00:00 - 23:59, Saturday: 00:00 - 23:59, Sunday: 00:00 - 23:59","opening":"Mo 00:00-23:59; Tu 00:00-23:59; We 00:00-23:59; Th 00:00-23:59; Fr 00:00-23:59; Sa 00:00-23:59; Su 00:00-23:59"},"title":"Crossfire Trust"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.67899,54.22474],"type":"Point"},"properties":{"_source":"warm_welcome","address":"95 Darkley Road, Co Armagh, Armagh BT60 3AY","description":"Open from everyday. We welcome everyone at our base and have a green flag award garden for people to enjoy. The kettle is always on and we look forward to helping everyone within our reach. We also have a charity shop. forard","hours":{"_text":"Monday: 00:00 - 23:59, Tuesday: 00:00 - 23:59, Wednesday: 00:00 - 23:59, Thursday: 00:00 - 23:59, Friday: 00:00 - 23:59, Saturday: 00:00 - 23:59, Sunday: 00:00 - 23:59","opening":"Mo 00:00-23:59; Tu 00:00-23:59; We 00:00-23:59; Th 00:00-23:59; Fr 00:00-23:59; Sa 00:00-23:59; Su 00:00-23:59"},"title":"Crossfire Trust"},"type":"Feature"}
 	]
 }

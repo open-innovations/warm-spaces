@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.11701,56.39237],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A85, Lochside, St Fillans, Crieff, Perth and Kinross PH6 2NF","description":"Open from 24 November 2022. With views across Loch Earn, we offer relaxed lounges & a bar to get away from it all. Guests can use our library & you will find a real fire burning in the bar. We are child & pet friendly with board games a plenty. There is a limited food offering.","hours":{"_text":"Monday: 10:00 - 18:00, Tuesday: 10:00 - 18:00, Wednesday: 10:00 - 18:00, Thursday: 10:00 - 18:00, Friday: 10:00 - 18:00, Saturday: 10:00 - 18:00, Sunday: 10:00 - 18:00","opening":"Mo 10:00-18:00; Tu 10:00-18:00; We 10:00-18:00; Th 10:00-18:00; Fr 10:00-18:00; Sa 10:00-18:00; Su 10:00-18:00"},"title":"The Four Seasons Hotel"},"type":"Feature"}
+	]
+}

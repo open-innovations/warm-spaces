@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.19827,54.30417],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Upper Wensleydale Community Office, The Neuking, Hawes DL8 3RA","hours":{"_text":"Monday: 10:00 - 14:00 / - Monthly","opening":"Mo 10:00-14:00"},"title":"A Good Life Project - Upper Dales Community Partnership"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.19827,54.30417],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Upper Wensleydale Community Office, The Neuking, Hawes DL8 3RA","hours":{"_text":"Monday: 10:00 - 14:00 / - Monthly","opening":"Mo 10:00-14:00"},"title":"A Good Life Project - Upper Dales Community Partnership"},"type":"Feature"}
 	]
 }

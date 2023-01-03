@@ -2,8 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-2.58110,51.91476],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forest & Wye Community Church, Henry Street, Ross-on-Wye HR9 7AA","hours":{"_text":"Sunday: 10:00 - 12:30","opening":"Su 10:00-12:30"},"title":"Forest & Wye Community Church (Ross)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.58110,51.91476],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forest & Wye Community Church, Henry Street, Ross-on-Wye HR9 7AA","hours":{"_text":"Sunday: 10:00 - 12:30","opening":"Su 10:00-12:30"},"title":"Forest & Wye Community Church (Ross)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.48925,51.86511],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Mitcheldean, Gloucestershire GL17 0HN","hours":{"_text":"Monday: 13:00 - 15:00, Wednesday: 10:00 - 13:00, Thursday: 10:00 - 15:00, Saturday: 10:00 - 13:00","opening":"Mo 13:00-15:00; We 10:00-13:00; Th 10:00-15:00; Sa 10:00-13:00"},"title":"Mitcheldean Community Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.48925,51.86511],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Mitcheldean, Gloucestershire GL17 0HN","hours":{"_text":"Monday: 13:00 - 15:00, Wednesday: 10:00 - 13:00, Thursday: 10:00 - 15:00, Saturday: 10:00 - 13:00","opening":"Mo 13:00-15:00; We 10:00-13:00; Th 10:00-15:00; Sa 10:00-13:00"},"title":"Mitcheldean Community Library"},"type":"Feature"}
 	]
 }

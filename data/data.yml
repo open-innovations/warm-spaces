@@ -7,7 +7,7 @@ directories:
     register:
       url: "https://www.warmwelcome.uk/get-started/signup"
     data:
-      url: "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq"
+      url: "https://api.storepoint.co/v1/16320a694c8cc5/locations"
       type: storepoint
       licence: none
       keys:

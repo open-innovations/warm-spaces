@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.09152,58.43855],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wick Baptist Church, Dumpster St, Wick KW1 5QB","hours":{"_text":"Friday: 12:00 - 14:00, Sunday: 10:30 - 12:30","opening":"Fr 12:00-14:00; Su 10:30-12:30"},"title":"Wick Baptist Church"},"type":"Feature"}
+	]
+}

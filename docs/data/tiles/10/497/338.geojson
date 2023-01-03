@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.26711,51.88130],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Close, St Davids, Haverfordwest SA62 6RD","hours":{"_text":"Monday: 10:00 - 15:30, Tuesday: 10:00 - 17:30, Wednesday: 10:00 - 15:30, Thursday: 10:00 - 17:30, Friday: 10:00 - 17:30, Saturday: 10:00 - 15:30, Sunday: 13:00 - 15:30","opening":"Mo 10:00-15:30; Tu 10:00-17:30; We 10:00-15:30; Th 10:00-17:30; Fr 10:00-17:30; Sa 10:00-15:30; Su 13:00-15:30"},"title":"St Davids Cathedral"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.26711,51.88130],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Close, St Davids, Haverfordwest SA62 6RD","hours":{"_text":"Monday: 10:00 - 15:30, Tuesday: 10:00 - 17:30, Wednesday: 10:00 - 15:30, Thursday: 10:00 - 17:30, Friday: 10:00 - 17:30, Saturday: 10:00 - 15:30, Sunday: 13:00 - 15:30","opening":"Mo 10:00-15:30; Tu 10:00-17:30; We 10:00-15:30; Th 10:00-17:30; Fr 10:00-17:30; Sa 10:00-15:30; Su 13:00-15:30"},"title":"St Davids Cathedral"},"type":"Feature"}
 	]
 }

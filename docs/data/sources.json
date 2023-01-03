@@ -60,11 +60,11 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
+		"count": 54,
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": "0",
+		"geocount": 54,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -137,11 +137,11 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 167,
+		"count": 176,
 		"data": [
 			{ "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" }
 		],
-		"geocount": 167,
+		"geocount": 176,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -316,7 +316,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
 		],
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -574,7 +574,7 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"hertfordshire_council": {
-		"count": 84,
+		"count": 86,
 		"data": [
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2" },
@@ -587,7 +587,7 @@
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10" }
 		],
-		"geocount": 83,
+		"geocount": 84,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -723,11 +723,11 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 35,
+		"count": 38,
 		"data": [
 			{ "type": "html", "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces-directory/" }
 		],
-		"geocount": 34,
+		"geocount": 36,
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
@@ -1219,13 +1219,14 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 5000,
+		"count": 3754,
 		"data": [
-			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations?rq" }
+			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 5000,
+		"geocount": 3754,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
+		"notes": "Their site returns 5000 results although their site says 3723 results.",
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
 		"title": "Warm Welcome",
 		"url": "https://www.warmwelcome.uk/"
