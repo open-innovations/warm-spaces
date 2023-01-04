@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.19974,54.72128],"type":"Point"},"properties":{"_source":"warm_welcome","address":"40a Parkhall Rd, Antrim , N Ireland Bt41 1BU","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Antrim Elim"},"type":"Feature"}
+	]
+}

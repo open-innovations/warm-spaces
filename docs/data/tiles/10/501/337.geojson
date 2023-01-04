@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.66911,52.13872],"type":"Point"},"properties":{"_source":"powys_council","address":"NANT Y WALCH BARN, CWMIRFON FARM, LLANWRTYD WELLS, LD5 4TN","description":"Accessible entrance; Free wi-fi; Charging facilities for phones and other devices; Hot drinks cordial and biscuits; Dairy alternative - oat milk / almond milk; TV; Toilets; Disabled toilets; Outdoor space/activities; Other","hours":{},"loc_pcd":true,"title":"Nant y Walch Barn","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=6537-1859-0334-2809"},"type":"Feature"}
-	]
-}
+{}
