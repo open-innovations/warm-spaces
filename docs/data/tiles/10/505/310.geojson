@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.12356,57.52105],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Bank Rd, Maud, Peterhead AB42 5LA Fortnightly on Mondays from 14/11/22 Hot drinks, Soup & Sweet.","hours":{"_text":"Bank Rd, Maud, Peterhead AB42 5LA Fortnightly on Mondays from 14/11/22 Hot drinks, Soup & Sweet."},"title":"Maud and Savoch Church"},"type":"Feature"}
+	]
+}

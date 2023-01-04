@@ -87,9 +87,10 @@ sub getDataFromURL {
 			$args .= " -X $d->{'data'}[$n]{'method'}"
 		}
 		if($d->{'data'}[$n]{'form'}){
-			$args .= " --data-raw \"$d->{'data'}[$n]{'form'}\"";
+			$args .= " --data-raw \'$d->{'data'}[$n]{'form'}\'";
 		}
 		if($args){ $args = "-L $args"; }
+		msg("curl -s --insecure $args --compressed -o $file \"$url\"");
 		`curl -s --insecure $args --compressed -o $file "$url"`;
 		msg("\tDownloaded to $file\n");
 	}

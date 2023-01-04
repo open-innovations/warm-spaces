@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.03996,57.05005],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Station Square The Victoria & Albert Halls, Ballater AB35 5QB Craigie Beaton Room Wed 11am - 2pm Recovery café, Warm Space12-4pm Food Pantry, hot drinks, lunch, free wifi.","hours":{"_text":"Station Square The Victoria & Albert Halls, Ballater AB35 5QB Craigie Beaton Room Wed 11am - 2pm Recovery café, Warm Space12-4pm Food Pantry, hot drinks, lunch, free wifi.","opening":"We 11:00-14:00"},"title":"Ballater Community Hub"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.85634,57.12954],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Located in the Day Room at Cromar Court on Mondays and Thursdays between 10am and midday, there will be hot drinks & snacks, games, books, and papers. This warm space will open on 9th January","hours":{"_text":"Located in the Day Room at Cromar Court on Mondays and Thursdays between 10am and midday, there will be hot drinks & snacks, games, books, and papers. This warm space will open on 9th January","opening":"Mo 10:00-12:00; Th 10:00-12:00"},"title":"Tarland Warm Space, Young at Heart Deeside"},"type":"Feature"}
+	]
+}

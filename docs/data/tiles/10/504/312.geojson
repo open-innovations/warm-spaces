@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.70329,57.23315],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"St Andrews Episopal Church. Main St, Alford, AB33 8PX Wednesdays 11am - 2pm Hot drinks, board games, Soup 12-1pm","hours":{"_text":"St Andrews Episopal Church. Main St, Alford, AB33 8PX Wednesdays 11am - 2pm Hot drinks, board games, Soup 12-1pm","opening":"We 11:00-14:00"},"title":"St Andrews Episopal Church"},"type":"Feature"}
+	]
+}
