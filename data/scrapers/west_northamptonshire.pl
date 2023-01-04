@@ -35,9 +35,13 @@ if(-e $file){
 
 		$d = $res->{'warmspaces'}[$i];
 
-		$d->{'title'} = $d->{'td'}[0];
-		$d->{'address'} = $d->{'td'}[1];
-		$d->{'contact'} = "Phone: ".parseText($d->{'td'}[2]);
+		@p = split(/<\/p>/,$d->{'td'}[0]);
+		$d->{'title'} = parseText($p[0]);
+		$d->{'address'} = parseText($p[1]);
+		$d->{'hours'} = parseOpeningHours({'_text'=>parseText($p[2])});
+		if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+		$d->{'contact'} = "Tel: ".parseText($d->{'td'}[1]);
+		$d->{'contact'} .= ($d->{'contact'} ? "; Email: ".parseText($d->{'td'}[2]):"");
 
 		# Remove the <li> entry
 		delete $d->{'td'};
