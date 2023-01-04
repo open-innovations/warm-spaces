@@ -326,6 +326,16 @@
 		"title": "Cambridge Council",
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
+	"cambridgeshire_acre": {
+		"count": 35,
+		"data": [
+			{ "type": "html", "url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/" }
+		],
+		"geocount": 35,
+		"id": "cambridgeshire_acre",
+		"title": "Cambridgeshire ACRE",
+		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
+	},
 	"camden_council": {
 		"count": 1,
 		"data": [
@@ -337,6 +347,12 @@
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
 		"title": "Camden Council",
 		"url": "https://www.camden.gov.uk/warm-spaces-in-camden"
+	},
+	"cannock_chase_council": {
+		"id": "cannock_chase_council",
+		"notes": "Not enough structure to parse",
+		"title": "Cannock Chase Council",
+		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
 		"count": 54,
@@ -375,6 +391,29 @@
 		"notes": "Not enough address/location data",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
+	},
+	"cheltenham_council": {
+		"id": "cheltenham_council",
+		"notes": "Not enough structure to parse",
+		"title": "Cheltenham Council",
+		"url": "https://www.cheltenham.gov.uk/info/60/community_advice_and_engagement/1757/cost_of_living_support/3"
+	},
+	"cherwell_council": {
+		"id": "cherwell_council",
+		"notes": "No warm spaces listed",
+		"title": "Cherwell Council",
+		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
+	},
+	"cheshire_east_council": {
+		"count": 51,
+		"data": [
+			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360" },
+			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=False&ServicePageIndex=2" }
+		],
+		"geocount": 50,
+		"id": "cheshire_east_council",
+		"title": "Cheshire East Council",
+		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
 	},
 	"cheshire_west_and_chester_council": {
 		"id": "cheshire_west_and_chester_council",
@@ -742,6 +781,12 @@
 		"title": "Harrogate NetMakers",
 		"url": "http://netmakers.org.uk/warmwelcome/"
 	},
+	"havant_council": {
+		"id": "havant_council",
+		"notes": "Not enough structure to parse",
+		"title": "Havant Council",
+		"url": "https://www.havant.gov.uk/cost-living-support"
+	},
 	"havering_council": {
 		"count": 24,
 		"data": [
@@ -814,6 +859,12 @@
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
 		"url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/"
+	},
+	"ipswich_council": {
+		"id": "ipswich_council",
+		"notes": "Only over Christmas/new year",
+		"title": "Ipswich Council",
+		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
 		"count": 44,
@@ -890,6 +941,16 @@
 		"title": "Lancashire Council",
 		"url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
+	"lancaster_council": {
+		"count": 31,
+		"data": [
+			{ "type": "html", "url": "https://www.lancaster.gov.uk/sites/cost-of-living/energy-bills-staying-warm" }
+		],
+		"geocount": 31,
+		"id": "lancaster_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1bP5gmUB9jRQXMWen1XGLGvp6kl6XgYo&ll=54.079464630036675%2C-2.8243405999999993&z=12" },
+		"title": "Lancaster Council"
+	},
 	"leeds_city_council": {
 		"count": 154,
 		"data": [
@@ -956,6 +1017,24 @@
 		"id": "luton_council",
 		"title": "Luton Council",
 		"url": "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
+	},
+	"malvern_hills_council": {
+		"id": "malvern_hills_council",
+		"notes": "Refers people to Warm Welcome and libraries",
+		"title": "Malvern Hills Council",
+		"url": "https://www.malvernhills.gov.uk/community/general-information-support"
+	},
+	"manchester_council": {
+		"id": "manchester_council",
+		"notes": "Links to libraries",
+		"title": "Manchester Council",
+		"url": "https://www.manchester.gov.uk/info/10050/help_with_the_cost_of_living_crisis/8498/warm_spaces_in_libraries_across_manchester"
+	},
+	"mansfield_council": {
+		"id": "mansfield_council",
+		"notes": "Not enough structure to parse",
+		"title": "Mansfield Council",
+		"url": "https://www.mansfield.gov.uk/finance/financial-support-1/7"
 	},
 	"merton_council": {
 		"id": "merton_council",
@@ -1055,6 +1134,13 @@
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
 	},
+	"north_somerset_council": {
+		"id": "north_somerset_council",
+		"map": { "type": "os", "url": "https://map.n-somerset.gov.uk/map/Aurora.svc/run?embedded=true&noCache=0.8196866537601234&script=%5cAurora%5cCommunityLivingRooms.AuroraScript%24&#" },
+		"notes": "Static image map is not parseable",
+		"title": "North Somerset Council",
+		"url": "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
+	},
 	"northumberland_county_council": {
 		"count": 127,
 		"data": [
@@ -1133,6 +1219,12 @@
 		"title": "Powys Council",
 		"url": "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
 	},
+	"preston_council": {
+		"id": "preston_council",
+		"notes": "PDF without enough location information",
+		"title": "Preston Council",
+		"url": "https://council.lancashire.gov.uk/documents/s200514/Appendix%20A.pdf"
+	},
 	"reading_council": {
 		"id": "reading_council",
 		"notes": "Not enough structure to be able to parse",
@@ -1177,6 +1269,12 @@
 		"notes": "Refers people to Warm Welcome",
 		"title": "Rotherham Council",
 		"url": "https://www.rotherham.gov.uk/warm-welcome"
+	},
+	"ryedale_council": {
+		"id": "ryedale_council",
+		"notes": "A Google Doc that only covers November",
+		"title": "Ryedale Council",
+		"url": "https://docs.google.com/document/d/1yXJo4aSFxJanNCN_eoxt5sr1es1zBFzM/edit"
 	},
 	"salisbury_council": {
 		"id": "salisbury_council",
