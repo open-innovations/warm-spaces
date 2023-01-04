@@ -593,6 +593,17 @@
 		"title": "Exeter Council",
 		"url": "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
 	},
+	"fife_council": {
+		"count": 117,
+		"data": [
+			{ "keys": { "address": "Venue address", "contact": "Tel: {{ Phone number }}; Email: {{ Email address }}", "description": "Additional info", "hours": "Monday {{ Monday }}; Tuesday {{ Tuesday }}; Wednesday {{ Wednesday }}; Thursday {{ Thursday }}; Friday {{ Friday }}; Saturday {{ Saturday }}; Sunday {{ Sunday }}", "title": "Venue name", "url": "Website" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998" }
+		],
+		"geocount": 116,
+		"id": "fife_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998" },
+		"title": "Fife Council",
+		"url": "https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
+	},
 	"fylde_council": {
 		"id": "fylde_council",
 		"register": { "url": "mailto:edyta.paxton@fylde.gov.uk" },
@@ -951,6 +962,16 @@
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8" },
 		"title": "Norfolk Community Foundation",
 		"url": "https://www.norfolkfoundation.com/hot-spots/"
+	},
+	"north_devon_council": {
+		"count": 25,
+		"data": [
+			{ "type": "html", "url": "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/" }
+		],
+		"geocount": 23,
+		"id": "north_devon_council",
+		"title": "North Devon Council",
+		"url": "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
 	},
 	"north_northamptonshire_council": {
 		"count": 42,

@@ -553,6 +553,21 @@ directories:
   - title: "Exeter Council"
     url: "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
     notes: "Not enough location information"
+  - title: "Fife Council"
+    url: "https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998"
+      type: googlemap
+      keys:
+        title: "Venue name"
+        address: "Venue address"
+        hours: "Monday {{ Monday }}; Tuesday {{ Tuesday }}; Wednesday {{ Wednesday }}; Thursday {{ Thursday }}; Friday {{ Friday }}; Saturday {{ Saturday }}; Sunday {{ Sunday }}"
+        description: "Additional info"
+        url: "Website"
+        contact: "Tel: {{ Phone number }}; Email: {{ Email address }}"
   - title: "Fylde Council"
     url: "https://fylde.gov.uk/warm-spaces-in-fylde/"
     register:
@@ -593,6 +608,9 @@ directories:
     data:
       url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
       type: html
+  - title: "Hackney Council"
+    url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
+    notes: "Refers people to Warm Welcome and warmspaces.org"
   - title: "Haringey Council"
     url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
     data:
@@ -863,6 +881,11 @@ directories:
       keys:
         title: "name"
         address: "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}"
+  - title: "North Devon Council"
+    url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
+    data:
+      url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
+      type: html
   - title: "North Northamptonshire Council"
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     data:
