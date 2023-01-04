@@ -180,6 +180,17 @@
 		"title": "Bradford on Avon Council",
 		"url": "https://bradfordonavontowncouncil.gov.uk/warm-spaces/"
 	},
+	"braintree_council": {
+		"count": 45,
+		"data": [
+			{ "coordinate-order": "lon-lat", "keys": { "address": "{{ ADDRESS }} {{ POSTCODE }}", "description": "CHARGE", "hours": "{{ DAY_ }} {{ TIME_ }}", "title": "NAME", "url": "WEBSITE" }, "spatial-reference": "27700", "transform": "ignore", "type": "arcgis", "url": "https://mapping.braintree.gov.uk/arcgis/rest/services/Internal_Maps/Warm_Rooms/FeatureServer/0/query?f=geojson&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A566704.127706149%2C%22ymin%22%3A214482.30136814862%2C%22xmax%22%3A587800.747512852%2C%22ymax%22%3A235578.92117485177%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D&geometryType=esriGeometryEnvelope&inSR=27700&outFields=*&returnCentroid=false&returnExceededLimitFeatures=false&outSR=27700&resultType=tile&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A38.21851414257816%2C%22extent%22%3A%7B%22xmin%22%3A567468.4979890005%2C%22ymin%22%3A215246.6716510002%2C%22xmax%22%3A587036.3772300006%2C%22ymax%22%3A234814.5508920002%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" }
+		],
+		"geocount": 45,
+		"id": "braintree_council",
+		"map": { "type": "arcgis", "url": "https://braintree.maps.arcgis.com/apps/webappviewer/index.html?id=0392490654824486aebf5b5eb134b483" },
+		"title": "Braintree Council",
+		"url": "https://www.braintree.gov.uk/community/debt-management-cost-living/8"
+	},
 	"brent": {
 		"id": "brent",
 		"notes": "Refers people to Warm Welcome",
@@ -386,6 +397,12 @@
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
+	},
+	"community_action_derby": {
+		"id": "community_action_derby",
+		"notes": "Too unstructured to parse",
+		"title": "Community Action Derby",
+		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-places"
 	},
 	"coventry_council": {
 		"count": 50,

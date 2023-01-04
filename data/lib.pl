@@ -77,7 +77,6 @@ sub getDataFromURL {
 
 	msg("\tFile: $file\n");
 	if($age >= 86400 || -s $file == 0){
-		#`wget -q -e robots=off  --no-check-certificate -O $file "$url"`;
 		$args = "";
 		if($d->{'data'}[$n]{'headers'}){
 			foreach $h (keys(%{$d->{'data'}[$n]{'headers'}})){
@@ -90,7 +89,8 @@ sub getDataFromURL {
 		if($d->{'data'}[$n]{'form'}){
 			$args .= " --data-raw \"$d->{'data'}[$n]{'form'}\"";
 		}
-		`curl -s --insecure -L $args --compressed -o $file "$url"`;
+		if($args){ $args = "-L $args"; }
+		`curl -s --insecure $args --compressed -o $file "$url"`;
 		msg("\tDownloaded to $file\n");
 	}
 	return $file;

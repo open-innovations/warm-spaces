@@ -230,6 +230,7 @@ sub parseStorepointFeature {
 sub parseGeoJSONFeature {
 	my $f = shift;
 	my $keys = shift;
+	my $sr = shift;
 	my $json = {};
 	my @fields = ("title","address","lat","lon","description","accessibility","type","contact","hours");
 	my $props = "properties";
@@ -294,6 +295,7 @@ sub parseGeoJSONFeature {
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
 	if(!$json->{'lat'}){ $json->{'lat'} = ($f->{'geometry'}{'y'}||$f->{'geometry'}{'coordinates'}[1]); }
 	if(!$json->{'lon'}){ $json->{'lon'} = ($f->{'geometry'}{'x'}||$f->{'geometry'}{'coordinates'}[0]); }
+
 	if(ref $json->{'lat'} eq "ARRAY" || ref $json->{'lon'} eq "ARRAY"){
 		warning("\tCoordinates seem to be an array so calculating centre.\n");
 		my (@ll) = getCentre($f->{'geometry'});
@@ -442,10 +444,12 @@ sub getGeoJSON {
 sub getArcGIS {
 	my $d = shift;
 	my $i = shift;
-	my ($file,$geojson,$f,@features,$json);
+	my ($file,$geojson,$f,@features,$json,$sr);
 
 	# Make sure we have the correct output spatial reference
-	$d->{'data'}[$i]{'url'} =~ s/outSR=[0-9]+/outSR=4326/g;
+	$sr = "4326";
+	if($d->{'data'}[$i]{'spatial-reference'}){ $sr = $d->{'data'}[$i]{'spatial-reference'}; }
+	$d->{'data'}[$i]{'url'} =~ s/outSR=[0-9]+/outSR=$sr/g;
 	$d->{'data'}[$i]{'url'} =~ s/f=pbf/f=geojson/g;
 	
 	# Get the data (if we don't have a cached version)
@@ -464,12 +468,20 @@ sub getArcGIS {
 		$d->{'geocount'} = $d->{'count'};
 		for($f = 0; $f < $d->{'count'}; $f++){
 			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
-			if($geojson->{'transform'}){
+			if($geojson->{'transform'} && $d->{'data'}[$i]{'transform'} ne "ignore"){
 				$json->{'lat'} = $json->{'lat'}*$geojson->{'transform'}{'scale'}[1] + $geojson->{'transform'}{'translate'}[1];
 				$json->{'lon'} = $json->{'lon'}*$geojson->{'transform'}{'scale'}[0] + $geojson->{'transform'}{'translate'}[0];
 			}
 			if($json->{'url'} =~ /^www/){ $json->{'url'} = "http://".$json->{'url'}; }
 			$json->{'_source'} = $d->{'id'};
+			if($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG:+27700/){
+				if($d->{'data'}[$i]{'coordinate-order'} eq "lon-lat"){
+					($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lon'},$json->{'lat'});					
+				}else{
+					($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lat'},$json->{'lon'});
+				}
+			}
+
 			push(@features,$json);
 		}
 	}
