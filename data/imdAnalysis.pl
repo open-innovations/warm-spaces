@@ -73,10 +73,11 @@ $width = $pad + $sides + $n * $colwidth + ($n-1) * $gap + $sides + $pad;
 $height = $pad + $head + $subhead + $pad + ($decade+1) * $rowheight + (($decade) * $gap) + $foot + $pad;
 $svg = "<svg version=\"1.1\" viewBox=\"0 0 $width $height\" width=\"$width\" height=\"$height\" xmlns=\"http://www.w3.org/2000/svg\">\n";
 # Add title
-$svg .= "<text x=\"".($width/2)."\" y=\"".($pad + $head/2)."\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-weight=\"bold\" font-size=\"".($fs*1.2)."\">Number of warm spaces vs IMD 2020</text>";
-$svg .= "<text x=\"".($width/2)."\" y=\"".($pad + $head + $subhead/2)."\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs)."\">From most deprived (1) to least deprived (10)</text>";
-$svg .= "<text x=\"".($pad + $sides)."\" y=\"".($height - $pad - $foot/2)."\" text-anchor=\"start\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs*0.75)."\">Data from $ndir warm spaces directories; IMD scores from MySociety; Constituency boundaries from ONS</text>";
-$svg .= "<text x=\"".($width - $pad - $sides)."\" y=\"".($height - $pad - $foot/2)."\" text-anchor=\"end\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs*0.75)."\">© Open Innovations (CC-BY)</text>";
+$svg .= "<rect x=\"0\" y=\"0\" width=\"$width\" height=\"$height\" fill=\"white\"></rect>\n";
+$svg .= "<text x=\"".($width/2)."\" y=\"".($pad + $head/2)."\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-weight=\"bold\" font-size=\"".($fs*1.2)."\">Number of warm spaces vs IMD 2020</text>\n";
+$svg .= "<text x=\"".($width/2)."\" y=\"".($pad + $head + $subhead/2)."\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs)."\">From most deprived (1) to least deprived (10)</text>\n";
+$svg .= "<text x=\"".($pad + $sides)."\" y=\"".($height - $pad - $foot/2)."\" text-anchor=\"start\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs*0.75)."\">Data from $ndir warm spaces directories; IMD scores from MySociety; Constituency boundaries from ONS</text>\n";
+$svg .= "<text x=\"".($width - $pad - $sides)."\" y=\"".($height - $pad - $foot/2)."\" text-anchor=\"end\" dominant-baseline=\"middle\" font-family=\"Poppins, Arial Black\" font-size=\"".($fs*0.75)."\">© Open Innovations (CC-BY)</text>\n";
 for($i = 1; $i <= $n; $i++){
 	$x = $pad + $sides + ($i-0.5)*$colwidth + ($i-1)*$gap;
 	$y = $pad + $head + $subhead + $pad + $rowheight/2;
