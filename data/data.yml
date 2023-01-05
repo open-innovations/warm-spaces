@@ -212,7 +212,7 @@ directories:
       url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
       type: leaflet
     data:
-      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-directory-indoor-activities-and-warm-places-go-winter"
       type: html
   - title: "Bristol Council"
     url: "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
@@ -805,14 +805,14 @@ directories:
     url: "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
     notes: "Mentions libraries and refers to Warm Welcome UK"
   - title: "Lambeth Council"
-    url: "https://beta.lambeth.gov.uk/warm-spaces"
+    url: "https://www.lambeth.gov.uk/warm-spaces"
     register:
       url: "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch"
     map:
-      url: "https://beta.lambeth.gov.uk/warm-spaces"
+      url: "https://www.lambeth.gov.uk/warm-spaces"
       type: leaflet
     data:
-      url: "https://beta.lambeth.gov.uk/warm-spaces"
+      url: "https://www.lambeth.gov.uk/warm-spaces"
       type: html
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
@@ -1071,10 +1071,12 @@ directories:
       url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
       type: html
   - title: "Powys Council"
-    url: "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+    url: "https://en.powys.gov.uk/powyswarmspaces"
     data:
-      url: "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+      url: "https://en.powys.gov.uk/powyswarmspaces"
       type: html
+      headers:
+        Accept-Encoding: "gzip, deflate, br"
   - title: "Preston Council"
     url: "https://council.lancashire.gov.uk/documents/s200514/Appendix%20A.pdf"
     notes: "PDF without enough location information"

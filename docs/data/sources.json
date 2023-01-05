@@ -102,11 +102,11 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
+		"count": 54,
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": "0",
+		"geocount": 54,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -236,11 +236,11 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": "0",
+		"count": 39,
 		"data": [
-			{ "type": "html", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" }
+			{ "type": "html", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-directory-indoor-activities-and-warm-places-go-winter" }
 		],
-		"geocount": "0",
+		"geocount": 39,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -917,16 +917,16 @@
 		"url": "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
 	},
 	"lambeth_council": {
-		"count": "0",
+		"count": 20,
 		"data": [
-			{ "type": "html", "url": "https://beta.lambeth.gov.uk/warm-spaces" }
+			{ "type": "html", "url": "https://www.lambeth.gov.uk/warm-spaces" }
 		],
-		"geocount": "0",
+		"geocount": 20,
 		"id": "lambeth_council",
-		"map": { "type": "leaflet", "url": "https://beta.lambeth.gov.uk/warm-spaces" },
+		"map": { "type": "leaflet", "url": "https://www.lambeth.gov.uk/warm-spaces" },
 		"register": { "url": "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch" },
 		"title": "Lambeth Council",
-		"url": "https://beta.lambeth.gov.uk/warm-spaces"
+		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
 		"count": 164,
@@ -1210,14 +1210,14 @@
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
 	"powys_council": {
-		"count": "0",
+		"count": 41,
 		"data": [
-			{ "type": "html", "url": "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory" }
+			{ "headers": { "Accept-Encoding": "gzip, deflate, br" }, "type": "html", "url": "https://en.powys.gov.uk/powyswarmspaces" }
 		],
-		"geocount": "0",
+		"geocount": 41,
 		"id": "powys_council",
 		"title": "Powys Council",
-		"url": "https://en.powys.gov.uk/article/13550/Warm-Spaces-Directory"
+		"url": "https://en.powys.gov.uk/powyswarmspaces"
 	},
 	"preston_council": {
 		"id": "preston_council",
@@ -1327,11 +1327,11 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": "0",
+		"count": 165,
 		"data": [
 			{ "keys": { "address": "address", "contact": "phonenumber", "description": "information", "hours": "openingtimes", "lat": "lat", "lon": "lng", "title": "name", "url": "website" }, "startrow": "2", "type": "csv", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRbIq7B3EB_tSnW2Uoi4q1Sfrey5lxscOANLYHWYc5ZXDn5gD-5wXD3RCLSWJ2UehImGwEQn-rPss3/pub?output=csv" }
 		],
-		"geocount": "0",
+		"geocount": 165,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1451,11 +1451,11 @@
 		"url": "https://www.stockton.gov.uk/warm-spaces"
 	},
 	"stroud_cscic": {
-		"count": "0",
+		"count": 44,
 		"data": [
 			{ "type": "html", "url": "https://cscic.org/community-hubs/warm-spaces-in-stroud/" }
 		],
-		"geocount": "0",
+		"geocount": 41,
 		"id": "stroud_cscic",
 		"title": "Stroud CSCIC",
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
@@ -1472,7 +1472,7 @@
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
-		"count": "0",
+		"count": 58,
 		"data": [
 			{ "type": "html", "url": "https://sunderland.gov.uk/article/25211/Coalfield-Area" },
 			{ "type": "html", "url": "https://sunderland.gov.uk/article/25212/East-Area" },
@@ -1481,7 +1481,7 @@
 			{ "type": "html", "url": "https://sunderland.gov.uk/article/25215/West-Area" },
 			{ "type": "html", "url": "https://sunderland.gov.uk/article/26268/City-wide" }
 		],
-		"geocount": "0",
+		"geocount": 58,
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"title": "Sunderland Council",
@@ -1606,11 +1606,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3854,
+		"count": 3856,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 3854,
+		"geocount": 3856,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1709,11 +1709,11 @@
 		"url": "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
 	},
 	"wolverhampton_council": {
-		"count": "0",
+		"count": 24,
 		"data": [
 			{ "type": "html", "url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces" }
 		],
-		"geocount": "0",
+		"geocount": 21,
 		"id": "wolverhampton_council",
 		"title": "Wolverhampton Council",
 		"url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
