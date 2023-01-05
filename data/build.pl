@@ -1,6 +1,13 @@
 #!/usr/bin/perl
 
-use lib "./";
+my $basedir;
+BEGIN {
+	$basedir = $0;
+	$basedir =~ s/[^\/]*$//g;
+	if(!$basedir){ $basedir = "./"; }
+	$lib = $basedir."";
+}
+use lib $lib;
 use utf8;
 use JSON::XS;
 use YAML::XS 'LoadFile';

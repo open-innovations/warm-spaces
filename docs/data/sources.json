@@ -123,8 +123,12 @@
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
 	"belfast_council": {
+		"count": 26,
+		"data": [
+			{ "type": "html", "url": "https://www.belfastcity.gov.uk/warmspaces" }
+		],
+		"geocount": 25,
 		"id": "belfast_council",
-		"notes": "Not enough location information to parse",
 		"title": "Belfast Council",
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
 	},
@@ -140,13 +144,12 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": "0",
+		"count": 128,
 		"data": [
-			{ "robots": "", "type": "jadu", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham" }
+			{ "headers": { "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Encoding": "gzip, deflate, br", "Accept-Language": "en-GB,en;q=0.5", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0" }, "robots": "", "type": "html", "url": "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham/category/1867" }
 		],
-		"geocount": "0",
+		"geocount": 128,
 		"id": "birmingham_council",
-		"notes": "Birmingham's webserver blocks automated access",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"

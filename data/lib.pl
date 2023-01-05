@@ -58,6 +58,15 @@ sub getURL {
 	return @lines = `wget -q -e robots=off  --no-check-certificate -O- "$url"`;
 }
 
+sub getFileAge {
+	my $file = shift;
+	my $age = 100000;
+	if(-e $file){
+		$age = (time - (stat($file))[9]);
+	}
+	return $age;
+}
+
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
@@ -296,7 +305,7 @@ sub parseOpeningHours {
 
 		# Convert "noon" values to numbers
 		$str =~ s/12 ?noon/12:00/gi;
-		$str =~ s/noon/ 12:00/gi;
+		$str =~ s/(noon|midday)/ 12:00/gi;
 
 
 		for($i = 0; $i < @days; $i++){

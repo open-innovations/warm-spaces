@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+
 my $basedir;
 BEGIN {
 	$basedir = $0;
@@ -6,8 +7,8 @@ BEGIN {
 	if(!$basedir){ $basedir = "./"; }
 	$lib = $basedir."";
 }
-use utf8;
 use lib $lib;
+use utf8;
 use strict;
 use warnings;
 use Data::Dumper;
@@ -18,7 +19,7 @@ require "lib.pl";
 
 
 
-my $json = getJSON("../docs/data/places.json");
+my $json = getJSON($basedir."../docs/data/places.json");
 
 makeTiles($json,$ARGV[0]);
 
@@ -33,7 +34,7 @@ sub makeTiles {
 	my ($str,$filegeo,$coder,$tiler,$dir,$f,$i,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop,@todo);
 	my ($line,$jsonbit,$t,$file,$feature,$dp,$maxsize,$size);
 
-	$dir = ("../docs/data/tiles");
+	$dir = ($basedir."../docs/data/tiles");
 	@zooms = split(/[\:\;]/,$zoom||"10");
 
 	if(!-d $dir){

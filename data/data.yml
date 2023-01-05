@@ -131,7 +131,9 @@ directories:
       type: html
   - title: "Belfast Council"
     url: "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
-    notes: "Not enough location information to parse"
+    data:
+      url: "https://www.belfastcity.gov.uk/warmspaces"
+      type: html
   - title: "Bexley Council"
     url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
     register:
@@ -143,11 +145,16 @@ directories:
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     register:
       url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2"
-    notes: "Birmingham's webserver blocks automated access"
     data:
-      url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham"
+      url: "https://www.birmingham.gov.uk/directory/73/warm_welcome_spaces_in_birmingham/category/1867"
       robots: false
-      type: jadu
+      type: html
+      headers:
+        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+        Accept-Language: "en-GB,en;q=0.5"
+        Accept-Encoding: "gzip, deflate, br"
+        Upgrade-Insecure-Requests: "1"
   - title: "Bolton at Home"
     url: "https://www.boltonathome.org.uk/warm-spaces/"
     data:

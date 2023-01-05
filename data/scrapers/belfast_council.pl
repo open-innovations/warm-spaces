@@ -21,24 +21,39 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'ul[class="content-items wysiwyg"] tr', "warmspaces[]" => scraper {
-			process 'td', 'td[]' => 'HTML';
-		}
+		process 'ul[class="content-items wysiwyg"] tr', "warmspaces[]" => 'HTML';
 	};
 	my $res = $warmspaces->scrape( $str );
 
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		
-		$area = $res->{'warmspaces'}[$i];
-		if(@{$area->{'td'}} == 4){
+		$row = $res->{'warmspaces'}[$i];
+		$row =~ s/<td>//g;
+		@td = split(/<\/td>/,$row);
+
+		if(@td == 4){
 			$d = {};
-			$d->{'title'} = trimHTML($area->{'td'}[0]);
-			if($area->{'td'}[0] =~ /<a href="([^\"]+)"/){ $d->{'url'} = $1; if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://www.belfastcity.gov.uk".$d->{'url'}; } }
-			$d->{'hours'} = parseOpeningHours({'_text'=>$area->{'td'}[1].' '.$area->{'td'}[2]});
-			if($area->{'td'}[3]){ $d->{'contact'} = "Tel: ".$area->{'td'}[3]; }
-			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
-			push(@entries,makeJSON($d,1));
+			$d->{'title'} = trimHTML($td[0]);
+			if($td[0] =~ /<a href="([^\"]+)"/){ $d->{'url'} = $1; if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://www.belfastcity.gov.uk".$d->{'url'}; } }
+			$d->{'hours'} = parseText($td[1].' '.$td[2]);
+			if($td[3]){ $d->{'contact'} = "Tel: ".parseText($td[3]); }
+			push(@entries,$d);
+		}elsif(@td == 2){
+			$entries[@entries-1]->{'hours'} .= "; ".parseText($td[0].' '.$td[1]);
 		}
+	}
+	
+	for($i = 0; $i < @entries; $i++){
+		
+		# For each entry we now need to get the sub page to find the location information
+		$html = `wget -q --no-check-certificate -O- "$entries[$i]->{'url'}"`;
+		if($html =~ /initMapSingle\('sideMap', ([^\,]+), ([^\,]+), [0-9]+, 'marker'\);/){
+			$entries[$i]->{'lat'} = $1;
+			$entries[$i]->{'lon'} = $2;
+		}
+		$entries[$i]->{'hours'} = parseOpeningHours({'_text'=>$entries[$i]->{'hours'}});
+		if(!$entries[$i]->{'hours'}{'opening'}){ delete $entries[$i]->{'hours'}{'opening'}; }
+		$entries[$i] = makeJSON($entries[$i],1);
 	}
 
 	open(FILE,">:utf8","$file.json");
