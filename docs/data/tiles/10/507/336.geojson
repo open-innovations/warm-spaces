@@ -70,7 +70,6 @@
 		{"geometry":{"coordinates":[-1.47505,52.39757],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"St Catherine's Church","url":"https://www.coventry.gov.uk/directory-record/59004/st-catherine-s-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50797,52.44970],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Holbrooks Community Centre","url":"https://www.coventry.gov.uk/directory-record/59007/holbrooks-community-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.49480,52.42022],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Coventry Muslim Resource Centre","url":"https://www.coventry.gov.uk/directory-record/59008/coventry-muslim-resource-centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.51687,52.40405],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Queens Road Baptist Church","url":"https://www.coventry.gov.uk/directory-record/59010/queens-road-baptist-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51283,52.40591],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"The Job Shop","url":"https://www.coventry.gov.uk/directory-record/59011/the-job-shop"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.48266,52.41754],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"St Alban's Church","url":"https://www.coventry.gov.uk/directory-record/59012/st-alban-s-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50749,52.40902],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Bardsley House","url":"https://www.coventry.gov.uk/directory-record/59013/bardsley-house"},"type":"Feature"},
@@ -105,6 +104,7 @@
 		{"geometry":{"coordinates":[-1.57989,52.40719],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Tile Hill Library","url":"https://www.coventry.gov.uk/directory-record/58823/tile-hill-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.48730,52.40964],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Stoke Library","url":"https://www.coventry.gov.uk/directory-record/58822/stoke-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.49622,52.42694],"type":"Point"},"properties":{"_source":"coventry_council","hours":{},"title":"Foleshill Library","url":"https://www.coventry.gov.uk/directory-record/58818/foleshill-library"},"type":"Feature"}
 	]
 }
