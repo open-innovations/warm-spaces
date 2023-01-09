@@ -12,22 +12,22 @@
 		"url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces"
 	},
 	"aberdeenshire_council": {
-		"count": 38,
+		"count": 42,
 		"data": [
 			{ "keys": { "description": "description", "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8" }
 		],
-		"geocount": 38,
+		"geocount": 42,
 		"id": "aberdeenshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8" },
 		"title": "Aberdeenshire Council",
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 37,
+		"count": 38,
 		"data": [
 			{ "keys": { "description": "description", "hours": "description", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" }
 		],
-		"geocount": 37,
+		"geocount": 38,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -189,11 +189,11 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 176,
+		"count": "0",
 		"data": [
 			{ "type": "html", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" }
 		],
-		"geocount": 176,
+		"geocount": "0",
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -272,11 +272,11 @@
 		"url": "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 58,
+		"count": 60,
 		"data": [
 			{ "keys": { "address": "{{ street }}, {{ Postcode }}", "contact": "Tel: {{ Phone }}; Email: {{ Email }}", "description": "Notes", "hours": "Notes", "title": "name", "url": "Web" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" }
 		],
-		"geocount": 58,
+		"geocount": 60,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -358,11 +358,11 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 54,
+		"count": 55,
 		"data": [
 			{ "keys": { "address": "Address", "contact": "Community Maker / Contact", "description": "Whats on offer", "hours": "Days / times available", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" }
 		],
-		"geocount": 49,
+		"geocount": 50,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -408,12 +408,12 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 51,
+		"count": 52,
 		"data": [
 			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360" },
 			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=False&ServicePageIndex=2" }
 		],
-		"geocount": 50,
+		"geocount": 51,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -458,11 +458,11 @@
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
 	},
 	"colchester_council": {
-		"count": 22,
+		"count": 23,
 		"data": [
 			{ "keys": { "address": "Address", "contact": "Tel: {{ Contact Number }}; Email: {{ Email }}", "hours": "Opening Times", "title": "name" }, "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11" }
 		],
-		"geocount": 22,
+		"geocount": 23,
 		"id": "colchester_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11" },
 		"title": "Colchester Council",
@@ -507,11 +507,11 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 40,
+		"count": 42,
 		"data": [
 			{ "type": "html", "url": "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort=" }
 		],
-		"geocount": 40,
+		"geocount": 42,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -599,11 +599,11 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 22,
+		"count": 24,
 		"data": [
 			{ "type": "html", "url": "https://www.dosomethinggood.org.uk/wp-admin/admin-ajax.php?action=generate_map_markers&cat=warm-community-spaces" }
 		],
-		"geocount": 22,
+		"geocount": 24,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -741,11 +741,11 @@
 		"url": "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
 	},
 	"greenwich_council": {
-		"count": 39,
+		"count": 42,
 		"data": [
 			{ "type": "html", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" }
 		],
-		"geocount": 39,
+		"geocount": 42,
 		"id": "greenwich_council",
 		"map": { "type": "googlemap", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" },
 		"title": "Greenwich Council",
@@ -801,7 +801,7 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"hertfordshire_council": {
-		"count": 90,
+		"count": 92,
 		"data": [
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2" },
@@ -814,7 +814,7 @@
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10" }
 		],
-		"geocount": 87,
+		"geocount": 89,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -870,11 +870,11 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 47,
+		"count": 48,
 		"data": [
 			{ "type": "html", "url": "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/" }
 		],
-		"geocount": 44,
+		"geocount": 45,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
 		"title": "Isle of Wight Council",
@@ -932,12 +932,12 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 164,
+		"count": 167,
 		"data": [
 			{ "keys": { "address": "OrgAddress", "contact": "Tel: {{ OrgTelephone }}, Email: {{ OrgEmail }}", "description": "OrgNature", "hours": "OrgOpenTimes", "title": "OrgName", "url": "OrgWebsite" }, "type": "arcgis", "url": "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Warm_Places_-_Public_View/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=OrgApproved%20%3D%20%27Yes%27&orderByFields=OrgName%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects" },
 			{ "keys": { "address": "{{ ADDRESS1 }}, {{ ADDRESS2 }}, {{ TOWN }}, {{ POSTCODE }}", "title": "NAME", "url": "URL" }, "type": "arcgis", "url": "https://services1.arcgis.com/FokWSHWwnuH5Pr3U/arcgis/rest/services/Libraries/FeatureServer/0/query?f=geojson&cacheHint=true&resultOffset=0&resultRecordCount=100&where=1%3D1&orderByFields=NAME%20ASC&outFields=*&resultType=standard&returnGeometry=true&spatialRel=esriSpatialRelIntersects" }
 		],
-		"geocount": 164,
+		"geocount": 167,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -1246,11 +1246,11 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 42,
+		"count": 43,
 		"data": [
 			{ "type": "html", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" }
 		],
-		"geocount": 42,
+		"geocount": 43,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1330,11 +1330,11 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 167,
+		"count": 168,
 		"data": [
 			{ "keys": { "address": "address", "contact": "phonenumber", "description": "information", "hours": "openingtimes", "lat": "lat", "lon": "lng", "title": "name", "url": "website" }, "startrow": "2", "type": "csv", "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRbIq7B3EB_tSnW2Uoi4q1Sfrey5lxscOANLYHWYc5ZXDn5gD-5wXD3RCLSWJ2UehImGwEQn-rPss3/pub?output=csv" }
 		],
-		"geocount": 167,
+		"geocount": 168,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1375,11 +1375,11 @@
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
 	"spark_somerset": {
-		"count": 85,
+		"count": 91,
 		"data": [
 			{ "headers": { "Cookie": "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk" }, "type": "html", "url": "https://shared.xmap.cloud/data/southsomerset/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=application/json;type=utfgrid&TRANSPARENT=true&LAYERS=warm_welcome&CRS=EPSG%3A27700&STYLES=&WIDTH=1278&HEIGHT=646&BBOX=265971.46439628483%2C99824%2C392030.53560371517%2C163544" }
 		],
-		"geocount": 83,
+		"geocount": 89,
 		"id": "spark_somerset",
 		"map": { "type": "xmap", "url": "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
@@ -1454,21 +1454,21 @@
 		"url": "https://www.stockton.gov.uk/warm-spaces"
 	},
 	"stroud_cscic": {
-		"count": 44,
+		"count": 46,
 		"data": [
 			{ "type": "html", "url": "https://cscic.org/community-hubs/warm-spaces-in-stroud/" }
 		],
-		"geocount": 41,
+		"geocount": 43,
 		"id": "stroud_cscic",
 		"title": "Stroud CSCIC",
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 258,
+		"count": 260,
 		"data": [
 			{ "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" }
 		],
-		"geocount": 258,
+		"geocount": 260,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1563,11 +1563,11 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 32,
+		"count": 33,
 		"data": [
 			{ "keys": { "contact": "contact_details", "description": "activities", "hours": "opening_times", "title": "location", "url": "website" }, "type": "geojson", "url": "https://www.valeofglamorgan.gov.uk/SharedContent/json/warm-spaces.json" }
 		],
-		"geocount": 32,
+		"geocount": 33,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1585,11 +1585,11 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 38,
+		"count": 40,
 		"data": [
 			{ "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" }
 		],
-		"geocount": 38,
+		"geocount": 40,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1597,11 +1597,11 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1635,
+		"count": 1649,
 		"data": [
 			{ "type": "squarespace", "url": "https://warmspaces.org/locations/" }
 		],
-		"geocount": 1635,
+		"geocount": 1649,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1609,11 +1609,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3915,
+		"count": 3931,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 3915,
+		"geocount": 3931,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1639,17 +1639,17 @@
 		"url": "https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 25,
+		"count": 30,
 		"data": [
 			{ "type": "html", "url": "https://westdevon.gov.uk/article/9368/Warm-Spaces" }
 		],
-		"geocount": 23,
+		"geocount": 28,
 		"id": "west_devon_council",
 		"title": "West Devon Council",
 		"url": "https://westdevon.gov.uk/article/9368/Warm-Spaces"
 	},
 	"west_dunbartonshire_council": {
-		"count": 17,
+		"count": 18,
 		"data": [
 			{ "type": "html", "url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/" }
 		],

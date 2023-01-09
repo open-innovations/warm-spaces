@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.46529,56.83528],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Thursday, 9am-5pm. Refreshments served all day and soup/lunch served 12-1.30 Transport available from MCHLN on 01561 378130","hours":{"_text":"Thursday, 9am-5pm. Refreshments served all day and soup/lunch served 12-1.30 Transport available from MCHLN on 01561 378130","opening":"Th 09:00-17:00"},"title":"The Dickson Hall"},"type":"Feature"}
+	]
+}
