@@ -26,10 +26,12 @@ if(-e $file){
 
 		for($i = 0; $i < @{$json->{'map_0'}{'locations'}}; $i++){
 			$d = $json->{'map_0'}{'locations'}[$i];
-			$d->{'lat'} = $d->{'geolocation'}{'lat'};
-			$d->{'lon'} = $d->{'geolocation'}{'lng'};
-			delete $d->{'content'};
+			if($d->{'geolocation'}){
+				$d->{'lat'} = $d->{'geolocation'}{'lat'};
+				$d->{'lon'} = $d->{'geolocation'}{'lng'};
+			}
 			delete $d->{'geolocation'};
+			delete $d->{'content'};
 			push(@entries,makeJSON($d,1));
 		}
 	}
