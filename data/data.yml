@@ -294,6 +294,18 @@ directories:
         type: html
       - url: "https://theburydirectory.co.uk/prestwich-warm-spaces"
         type: html
+  - title: "Calderdale Council"
+    url: "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
+    data:
+      url: "https://dataworks.calderdale.gov.uk/download/e6x89/8cn/Warm%20and%20Welcoming%20Spaces%20December%202022.xlsx"
+      type: xls
+      sheet: "sheet1"
+      startrow: 2
+      keys:
+        title: "A"
+        address: "B"
+        hours: "C"
+        description: "D"        
   - title: "Cambridge Council"
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
     data:

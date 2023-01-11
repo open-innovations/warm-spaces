@@ -367,9 +367,15 @@ sub getXLSX {
 			foreach $key (keys(%{$d->{'data'}[$i]{'keys'}})){
 				if($rows[$r]->{'cols'}{$d->{'data'}[$i]{'keys'}{$key}}){
 					$datum->{$key} = $rows[$r]->{'cols'}{$d->{'data'}[$i]{'keys'}{$key}};
-				}
-				
+				}	
 			}
+			# Update opening hours
+			if(ref($datum->{'hours'}) ne "HASH"){
+				$datum->{'hours'} = parseOpeningHours({'_text'=>$datum->{'hours'}});
+			}
+			
+			#if(ref($datum->{'hours'}) BLAH){
+			$datum->{'_source'} = $d->{'id'};
 			push(@features,$datum);
 		}
 	}
