@@ -250,11 +250,11 @@
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
 	"bristol_council": {
-		"count": 83,
+		"count": 86,
 		"data": [
 			{ "keys": { "address": "ADDRESS", "contact": "CONTACT", "hours": "TIMETABLE", "title": "NAME", "url": "WEB" }, "type": "arcgis", "url": "https://services2.arcgis.com/a4vR8lmmksFixzmB/arcgis/rest/services/Welcoming_spaces_view/FeatureServer/0/query?f=geojson&where=WS_OPEN%20%3D%20%27Yes%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.058333333333332%2C%22extent%22%3A%7B%22xmin%22%3A351616%2C%22ymin%22%3A167463%2C%22xmax%22%3A364225.4993447601%2C%22ymax%22%3A179202%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D" }
 		],
-		"geocount": 83,
+		"geocount": 86,
 		"id": "bristol_council",
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
@@ -483,7 +483,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
 		],
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -601,7 +601,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" }
 		],
-		"geocount": 99,
+		"geocount": 100,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -801,17 +801,17 @@
 		"url": "https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count": 24,
+		"count": 27,
 		"data": [
 			{ "type": "html", "url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces" }
 		],
-		"geocount": 20,
+		"geocount": 22,
 		"id": "havering_council",
 		"title": "Havering Council",
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"hertfordshire_council": {
-		"count": 93,
+		"count": 94,
 		"data": [
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2" },
@@ -824,7 +824,7 @@
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9" },
 			{ "type": "html", "url": "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10" }
 		],
-		"geocount": 90,
+		"geocount": 91,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -852,22 +852,22 @@
 		"url": "https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 32,
+		"count": 34,
 		"data": [
 			{ "keys": { "address": "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}", "contact": "fields->sheet1__f9", "description": "fields->activities", "title": "fields->sheet1__f4", "url": "links->sheet1__f4" }, "type": "geojson", "url": "https://maps.hull.gov.uk/GetOWS.ashx?VERSION=1.0.0&SERVICE=WFS&REQUEST=GetFeature&TYPENAME=Warm_Spaces&MAPSOURCE=mapsources/AllMaps&OUTPUTFORMAT=GeoJSON_BBOX&FILTER=%3Cogc:Filter%20xmlns:ogc=%22http://www.opengis.net/ogc%22%3E%3Cogc:Intersects%3E%3Cogc:PropertyName%3Ewkb_geometry%3C/ogc:PropertyName%3E%3Cgml:Polygon%20xmlns:gml=%22http://www.opengis.net/gml%22%3E%3Cgml:exterior%3E%3Cgml:LinearRing%3E%3Cgml:posList%3E519000%20423000%20519000%20438000%20497000%20438000%20497000%20423000%20519000%20423000%3C/gml:posList%3E%3C/gml:LinearRing%3E%3C/gml:exterior%3E%3C/gml:Polygon%3E%3C/ogc:Intersects%3E%3C/ogc:Filter%3E&VIEWPARAMS=bbox(%22%22,%22497887,423581,517495,437666%22)" }
 		],
-		"geocount": 32,
+		"geocount": 34,
 		"id": "hull_council",
 		"map": { "type": "iShare", "url": "https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title": "Hull Council",
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 43,
+		"count": 44,
 		"data": [
 			{ "type": "html", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/" }
 		],
-		"geocount": 43,
+		"geocount": 44,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -995,11 +995,11 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": 41,
+		"count": 43,
 		"data": [
 			{ "keys": { "address": "Address", "contact": "Tel: {{ Phone }}", "hours": "Time" }, "type": "wpgeodir", "url": "https://www.lewishamlocal.com/wp-json/geodir/v2/markers/?post_type=gd_place&term[]=2542" }
 		],
-		"geocount": 41,
+		"geocount": 43,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -1067,11 +1067,11 @@
 		"url": "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
 	},
 	"middlesbrough_council": {
-		"count": 17,
+		"count": 23,
 		"data": [
 			{ "keys": { "title": "name" }, "parse": "Address:<br>{{address}}<br>Opening times:{{hours}}", "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1UmvNYg24mUNr-rnBaiirspUi5LO8wXY&ehbc=2E312F&ll=54.55430542048388%2C-1.220620400000012&z=12" }
 		],
-		"geocount": 17,
+		"geocount": 23,
 		"id": "middlesbrough_council",
 		"map": { "type": "googlemap", "url": "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces" },
 		"register": { "url": "mailto:livewellcentre@middlesbrough.gov.uk" },
@@ -1100,11 +1100,11 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newham_council": {
-		"count": 32,
+		"count": 28,
 		"data": [
 			{ "keys": { "address": "{{ Address }}", "description": "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}", "hours": "Opening_ti", "title": "Name", "url": "Website" }, "type": "arcgis", "url": "https://services1.arcgis.com/trOdpHvvP7HrTfdb/arcgis/rest/services/WarmHaven_2/FeatureServer/0/query?f=geojson&where=Operationa%20%3D%20%27Y%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=4326&resultOffset=0&resultRecordCount=8000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333416%2C%22extent%22%3A%7B%22xmin%22%3A-492.28689999878407%2C%22ymin%22%3A6710410.039899997%2C%22xmax%22%3A7525.914900001139%2C%22ymax%22%3A6719613.525700003%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D%7D" }
 		],
-		"geocount": 32,
+		"geocount": 28,
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"title": "Newham Council",
@@ -1307,11 +1307,11 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 52,
+		"count": 55,
 		"data": [
 			{ "form": "{\"page_size\":100,\"airtable_response_formatting\":{\"format\":\"string\"},\"sort_resources\":[{\"field\":\"Name\",\"direction\":\"asc\"}],\"view\":\"Grid view\",\"filter_by_formula\":\"AND(AND((LOWER(\\\"Approved\\\") = LOWER(ARRAYJOIN({Approved}))),(LOWER(\\\"Planned\\\") = LOWER(ARRAYJOIN({Status})))))\"}", "headers": { "Accept": "application/json, text/plain, */*", "Content-Type": "application/json", "softr-page-id": "f1621728-1e38-4b0e-ac4e-a01420cc4945" }, "method": "POST", "type": "html", "url": "https://www.warmwelcome.info/v1/integrations/airtable/9f56f204-9490-4f1c-993c-c4b92576efe0/app92DO1AFEiaVhoQ/Events/records?block_id=5052426f-32d6-4ca8-82c2-5dc1d1e934e7" }
 		],
-		"geocount": 30,
+		"geocount": 32,
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
 		"url": "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1375,11 +1375,11 @@
 		"url": "https://www.southtyneside.gov.uk/article/14924/Warm-spaces-South-Tyneside"
 	},
 	"southwalk_council": {
-		"count": 35,
+		"count": 36,
 		"data": [
 			{ "type": "html", "url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces" }
 		],
-		"geocount": 34,
+		"geocount": 35,
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
@@ -1474,11 +1474,11 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 262,
+		"count": 261,
 		"data": [
 			{ "type": "html", "url": "https://ruralcoffeecaravan.org.uk/map/" }
 		],
-		"geocount": 262,
+		"geocount": 261,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1518,7 +1518,7 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 67,
+		"count": 71,
 		"data": [
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacescentral" },
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspaceseast" },
@@ -1528,7 +1528,7 @@
 			{ "type": "html", "url": "https://www.swansea.gov.uk/swanseaspacesgower" },
 			{ "type": "googlemap2", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" }
 		],
-		"geocount": 62,
+		"geocount": 65,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1595,11 +1595,11 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 40,
+		"count": 42,
 		"data": [
 			{ "type": "html", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" }
 		],
-		"geocount": 40,
+		"geocount": 42,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1619,11 +1619,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4015,
+		"count": 4028,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 4015,
+		"geocount": 4028,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

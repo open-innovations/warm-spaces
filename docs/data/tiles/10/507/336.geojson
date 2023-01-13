@@ -60,7 +60,6 @@
 		{"geometry":{"coordinates":[-1.57317,52.34854],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Copperhouse Club, 142 Albion Street, Kenilworth, England, CV8 2HJ","hours":{"_text":"Sat, 12pm-2m","opening":"Sa 12:00-02:00"},"title":"Copperhouse Club","url":"https://copperhouseclub.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.57958,52.40663],"type":"Point"},"properties":{"_source":"coventry_council","title":"St Oswald's Church","url":"https://www.coventry.gov.uk/directory-record/58985/st-oswald-s-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.46203,52.42295],"type":"Point"},"properties":{"_source":"coventry_council","title":"Church of the Risen Christ","url":"https://www.coventry.gov.uk/directory-record/59021/church-of-the-risen-christ"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.46078,52.43736],"type":"Point"},"properties":{"_source":"coventry_council","title":"St Patrick's Church","url":"https://www.coventry.gov.uk/directory-record/59029/st-patrick-s-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.57118,52.39101],"type":"Point"},"properties":{"_source":"coventry_council","title":"Xcel Leisure Centre","url":"https://www.coventry.gov.uk/directory-record/59027/xcel-leisure-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50349,52.39106],"type":"Point"},"properties":{"_source":"coventry_council","title":"Quinton Park Baptist Church","url":"https://www.coventry.gov.uk/directory-record/59031/quinton-park-baptist-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.60203,52.42030],"type":"Point"},"properties":{"_source":"coventry_council","title":"St Andrew's Church","url":"https://www.coventry.gov.uk/directory-record/59032/st-andrew-s-church"},"type":"Feature"},
@@ -107,6 +106,7 @@
 		{"geometry":{"coordinates":[-1.57989,52.40719],"type":"Point"},"properties":{"_source":"coventry_council","title":"Tile Hill Library","url":"https://www.coventry.gov.uk/directory-record/58823/tile-hill-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.48730,52.40964],"type":"Point"},"properties":{"_source":"coventry_council","title":"Stoke Library","url":"https://www.coventry.gov.uk/directory-record/58822/stoke-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.49622,52.42694],"type":"Point"},"properties":{"_source":"coventry_council","title":"Foleshill Library","url":"https://www.coventry.gov.uk/directory-record/58818/foleshill-library"},"type":"Feature"}
 	]
 }
