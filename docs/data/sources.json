@@ -418,12 +418,12 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": "0",
+		"count": 52,
 		"data": [
 			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360" },
 			{ "type": "html", "url": "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=False&ServicePageIndex=2" }
 		],
-		"geocount": "0",
+		"geocount": 51,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -483,7 +483,7 @@
 		"data": [
 			{ "type": "html", "url": "https://www.communities1st.org.uk/warm-hubs" }
 		],
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -673,11 +673,11 @@
 		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
 	},
 	"essex_map": {
-		"count": 97,
+		"count": 98,
 		"data": [
 			{ "form": "lang=&search_keywords=warm+space&search_location=&search_categories%5B%5D=&filter_job_type%5B%5D=organisation&filter_job_type%5B%5D=service&filter_job_type%5B%5D=&per_page=200&orderby=featured&order=DESC&page=1&show_pagination=false&form_data=display_mode%3Dgrid%26filter_order%3Ddefault%26search_keywords%3Dwarm%2520space%26filter_order%3Drandom%26search_categories%255B%255D%3D%26filter_job_type%255B%255D%3Dorganisation%26filter_job_type%255B%255D%3Dservice%26filter_job_type%255B%255D%3D", "method": "POST", "type": "html", "url": "https://www.essexmap.co.uk/jm-ajax/get_listings/" }
 		],
-		"geocount": 96,
+		"geocount": 97,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1619,11 +1619,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4033,
+		"count": 4037,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 4033,
+		"geocount": 4037,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
