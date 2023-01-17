@@ -62,6 +62,7 @@
 		{"geometry":{"coordinates":[-1.46524,53.32846],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"Bochum Pkwy, Jordanthorpe, Sheffield S8 8JR","hours":{"_text":""},"title":"Graves Health and Sports Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.53804,53.32661],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"High Street, Dore, S17 3GU","hours":{"_text":""},"title":"Dore Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50205,53.31878],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"Bradway Community Hall, 59 Bradway Rd, S17 4QR","hours":{"_text":""},"title":"Community Wellness Service"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.48613,53.32074],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"Gresley Road Meeting Room, Lowedges Social Centre, Gresley Road S8 7HH","hours":{"_text":""},"title":"Greenhill Bradway Tara"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.48613,53.32074],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"Gresley Road Meeting Room, Lowedges Social Centre, Gresley Road S8 7HH","hours":{"_text":""},"title":"Greenhill Bradway Tara"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.53973,53.32566],"type":"Point"},"properties":{"_source":"sheffield_vas","address":"Church Lane, Dore, Sheffield, S17 3GB","hours":{"_text":"Open every day from 9am to 4pm","opening":"Mo-Su 09:00-16:00"},"title":"Christ Church Dore"},"type":"Feature"}
 	]
 }
