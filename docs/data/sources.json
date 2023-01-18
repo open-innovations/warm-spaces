@@ -102,11 +102,11 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 53,
+		"count": "0",
 		"data": [
 			{ "type": "html", "url": "https://livewell.bathnes.gov.uk/warm-places-map" }
 		],
-		"geocount": 53,
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -673,11 +673,11 @@
 		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
 	},
 	"essex_map": {
-		"count": 101,
+		"count": 100,
 		"data": [
 			{ "form": "lang=&search_keywords=warm+space&search_location=&search_categories%5B%5D=&filter_job_type%5B%5D=organisation&filter_job_type%5B%5D=service&filter_job_type%5B%5D=&per_page=200&orderby=featured&order=DESC&page=1&show_pagination=false&form_data=display_mode%3Dgrid%26filter_order%3Ddefault%26search_keywords%3Dwarm%2520space%26filter_order%3Drandom%26search_categories%255B%255D%3D%26filter_job_type%255B%255D%3Dorganisation%26filter_job_type%255B%255D%3Dservice%26filter_job_type%255B%255D%3D", "method": "POST", "type": "html", "url": "https://www.essexmap.co.uk/jm-ajax/get_listings/" }
 		],
-		"geocount": 100,
+		"geocount": 99,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -995,11 +995,11 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": 48,
+		"count": 49,
 		"data": [
 			{ "keys": { "address": "Address", "contact": "Tel: {{ Phone }}", "hours": "Time" }, "type": "wpgeodir", "url": "https://www.lewishamlocal.com/wp-json/geodir/v2/markers/?post_type=gd_place&term[]=2542" }
 		],
-		"geocount": 48,
+		"geocount": 49,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -1619,11 +1619,11 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4094,
+		"count": 4097,
 		"data": [
 			{ "keys": { "address": "streetaddress", "lat": "loc_lat", "lon": "loc_long", "title": "name", "url": "website" }, "licence": "none", "type": "storepoint", "url": "https://api.storepoint.co/v1/16320a694c8cc5/locations" }
 		],
-		"geocount": 4094,
+		"geocount": 4097,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
