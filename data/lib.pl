@@ -545,6 +545,8 @@ sub addLatLonFromPostcodes {
 	
 	for($i = 0; $i < $n; $i++){
 		if(!$places[$i]{'lat'} && $places[$i]{'address'}){
+			# Fix common issue with Portsmouth postcode e.g. P011 9EE should be PO11 9EE
+			$places[$i]{'address'} =~ s/P0([0-9]+ ?[0-9][A-Z]{2})/PO$1/g;
 			# Match to a UK postcode
 			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
 			if($places[$i]{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
