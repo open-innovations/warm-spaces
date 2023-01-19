@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.35991,52.48037],"type":"Point"},"properties":{"_source":"vale_of_glamorgan_council","address":"Wick Sports Pavilion, Crwrt y Felon, Wick, Cowbridge, CF71 7QT","contact":"\"Facebook: Wick Youth Club Vale of Glamorgan.\n07710209437\nWickyouthclub@live.co.uk\n\"","description":"Offering a warm place for young people aged 7 to 21 to attend youth club activities every Wednesday.\nAt the same time parents who wish to stay for a warm cup of tea/coffee or hot chocolate are welcome to do so.","hours":{"_text":"Wednesday 16:00 - 19:00\n","opening":"We 16:00-19:00"},"title":"Wick Youth Club"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.31925,52.45604],"type":"Point"},"properties":{"_source":"vale_of_glamorgan_council","address":"St Brides Major Church Hall\nSt Brides Major\nSoutherndown Road\nCF32 0SD","contact":"St Bride's Major Labour (Facebook)","description":"Coffee morning.\nLibrary Service.","hours":{"_text":"Saturday 10:30 - 12:00\n","opening":"Sa 10:30-12:00"},"title":"St Brides Major Church Hall"},"type":"Feature"}
-	]
-}
+{}

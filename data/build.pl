@@ -167,6 +167,28 @@ sub processDirectories {
 	open($fh,">:utf8",$dir."places.json");
 	print $fh tidyJSON(\@warmplaces,1);
 	close($fh);
+	
+	open($fh,">:utf8",$dir."places.geojson");
+	print $fh "{\n\t\"type\": \"FeatureCollection\"\,\n\t\"features\":[\n";
+	$n = 0;
+	for($f = 0; $f < @warmplaces; $f++){
+		if(defined $warmplaces[$f]->{'lat'} && defined $warmplaces[$f]->{'lon'}){
+			if($n > 0){
+				print $fh "\,\n";
+			}
+			print $fh "\t\t{";
+			print $fh "\"type\":\"Feature\",\"geometry\":{\"coordinates\":[$warmplaces[$f]->{'lon'},$warmplaces[$f]->{'lat'}],\"type\":\"Point\"},\"properties\":";
+			delete $warmplaces[$f]->{'lon'};
+			delete $warmplaces[$f]->{'lat'};
+			print $fh tidyJSON($warmplaces[$f],0,1);
+			print $fh "}";
+			$n++;
+		}
+	}
+	print $fh "\n\t]\n}\n";
+	close($fh);
+	
+	
 
 	open($fh,">:utf8",$dir."sources.json");
 	print $fh tidyJSON($sources,2);
@@ -211,7 +233,7 @@ sub parseStorepointFeature {
 	my $keys = shift;
 	my $json = {'hours'=>{}};
 	my @fields = ("title","address","lat","lon","description","accessibility","type");
-	my($i,@days);
+	my($i,@days,$postcode,$pc);
 
 	for($i = 0; $i < @fields; $i++){
 		if($f->{$fields[$i]}){ $json->{$fields[$i]} = $f->{$fields[$i]}; }
@@ -229,6 +251,24 @@ sub parseStorepointFeature {
 	$json->{'hours'} = parseOpeningHours($json->{'hours'});
 	if(!$json->{'hours'}{'_text'} && !$json->{'hours'}{'opening'}){
 		delete $json->{'hours'};
+	}
+	
+	if($json->{'lon'} < -20){
+		if($json->{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
+			$postcode = $2;
+			# An unlikely coordinate so try geocoding
+			warning("\tUnlikely coordinates ($json->{'lat'}, $json->{'lon'}) so geocoding based on $postcode\n");
+			# Now we need to find the postcode areas e.g. LS, BD, M etc and load those files if we haven't
+			$pc = getPostcode($postcode);
+			if($pc->{'lat'}){
+				$json->{'lat'} = $pc->{'lat'};
+				$json->{'loc_pcd'} = JSON::XS::true;
+			}
+			if($pc->{'lon'}){
+				$json->{'lon'} = $pc->{'lon'};
+				$json->{'loc_pcd'} = JSON::XS::true;
+			}
+		}
 	}
 
 	return $json;
@@ -418,7 +458,7 @@ sub getGeoJSON {
 	my $d = shift;
 	my $i = shift;
 
-	my ($file,$geojson,$f,$json,@features);
+	my ($file,$geojson,$f,$json,@features,$temp);
 
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
@@ -442,6 +482,12 @@ sub getGeoJSON {
 		for($f = 0; $f < $d->{'count'}; $f++){
 			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
 			$json->{'_source'} = $d->{'id'};
+
+			if($d->{'data'}[$i]{'coords'} eq "switch"){
+				$temp = $json->{'lon'};
+				$json->{'lon'} = $json->{'lat'};
+				$json->{'lat'} = $temp;
+			}
 			
 			if($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG::27700/){
 				($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lat'},$json->{'lon'});

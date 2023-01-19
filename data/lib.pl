@@ -190,6 +190,7 @@ sub getJSON {
 sub tidyJSON {
 	my $json = shift;
 	my $depth = shift;
+	my $oneline = shift;
 	my $d = $depth+1;
 
 	$txt = JSON::XS->new->canonical(1)->pretty->space_before(0)->encode($json);
@@ -197,6 +198,10 @@ sub tidyJSON {
 	$txt =~ s/([\{\,\"])\n\t{$d,}([\"\}])/$1 $2/g;
 	$txt =~ s/"\n\t{$depth,}\}/\" \}/g;
 	$txt =~ s/null\n\t{$depth,}\}/null \}/g;
+
+	if($oneline){
+		$txt =~ s/\n[\t\s]*//g;
+	}
 
 	# Kludge to fix validation white space issues with warm_spaces entries
 	while($txt =~ s/("description": "[^\"]*)[	]([^\"]*")/$1 $2/g){}

@@ -23,8 +23,8 @@ if(-e $file){
 	my $warmspaces = scraper {
 		process 'div[class="warmspace"]', "warmspaces[]" => scraper {
 			process "h3", title => 'TEXT';
-			process 'span[class="loc"]', lat => [ 'TEXT', sub { /([\-\+0-9\,\.]+), ?/; return $1+0; } ];
-			process 'span[class="loc"]', lon => [ 'TEXT', sub { /, ?([\-\+0-9\,\.]+)/; return $1+0; } ];
+			process 'span[class="loc"]', lat => [ 'TEXT', sub { /([\-\+0-9\.]+), ?/; return $1+0; } ];
+			process 'span[class="loc"]', lon => [ 'TEXT', sub { /, ?([\-\+0-9\.]+)/; return $1+0; } ];
 			process 'p', description => 'TEXT';
 			process "li", "li[]" => 'HTML';
 		};
