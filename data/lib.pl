@@ -509,14 +509,51 @@ sub niceHours {
 my %postcodes;
 my %postcodelookup;
 
+# Function to load our local cache of postcode lat,lon
+sub loadPostcodes {
+	my $file = $_[0];
+	my ($fh,@lines,$line,$pc,$lat,$lon);
+	
+	# Open our cache of postcodes
+	open($fh,"<:utf8",$file);
+	@lines = <$fh>;
+	close($fh);
+	foreach $line (@lines){
+		$line =~ s/[\n\r]//g;
+		($postcode,$lat,$lon) = split(/\t/,$line);
+		$postcode =~ /^([A-Z]{1,2})/;
+		$postcode =~ s/ //g;
+		$postcodelookup{$postcode} = {'lat'=>$lat,'lon'=>$lon};
+	}
+}
+
+# Save a local cache of postcode lat,lon (just ones that match a warmspace, not every postcode that exists)
+sub savePostcodes {
+	my ($file) = $_[0];
+	my ($fh,@lines,$line);
+
+	# Save our cache of postcodes
+	open($fh,">:utf8",$file);
+	foreach $pc (sort(keys(%postcodelookup))){
+		if($postcodelookup{$pc}{'warmspace'}){
+			print $fh "$pc\t$postcodelookup{$pc}{'lat'}\t$postcodelookup{$pc}{'lon'}\n";
+		}
+	}
+	close($fh);
+}
+
 sub getPostcode {
 	my $postcode = $_[0];
-	my ($i,@lines,$pc);
-	
+	my ($i,@lines,$pc,$fh,@lines,);
+
 	$postcode =~ /^([A-Z]{1,2})/;
 	$pc = $1;
 	$postcode =~ s/ //g;
 	
+	if($postcodelookup{$postcode}){
+		$postcodelookup{$postcode}{'warmspace'} = 1;
+		return $postcodelookup{$postcode};
+	}
 	if(!$postcodes{$pc}){
 	
 		@lines = getURL("https://odileeds.github.io/Postcodes2LatLon/postcodes/".$pc.".csv");
@@ -534,6 +571,8 @@ sub getPostcode {
 	}
 	if(!$postcodelookup{$postcode}){
 		warning("\t... no coordinates found for $postcode\n");
+	}else{
+		$postcodelookup{$postcode}{'warmspace'} = 1;
 	}
 	return $postcodelookup{$postcode};
 }

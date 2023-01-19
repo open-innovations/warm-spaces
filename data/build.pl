@@ -21,13 +21,17 @@ binmode STDOUT, 'utf8';
 $dir = "../docs/data/";
 $rawdir = "raw/";
 makeDir($rawdir);
+$pcfile = $basedir."postcodes.tsv";
 
 
-
+loadPostcodes($pcfile);
 processDirectories();
+savePostcodes($pcfile);
 
 
 
+
+#################################
 
 sub processDirectories {
 
@@ -155,6 +159,9 @@ sub processDirectories {
 		$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
 		$table .= "<td>".($d->{'notes'} ? $d->{'notes'}:"")."</td>";
 		$table .= "</tr>\n";
+
+		# Remove the data structure as we don't want to store that in the JSON
+		delete $d->{'data'};
 
 		$sources->{$d->{'id'}} = $d;
 		if($sources->{$d->{'id'}}{'count'}){

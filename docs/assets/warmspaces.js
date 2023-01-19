@@ -490,7 +490,7 @@
 	function TiledDataLayer(opts){
 		if(!opts) opts = {};
 		this.title = "TiledDataLayer";
-		this.version = "0.1";
+		this.version = "0.1a";
 
 		var logger = new Log({"title":this.title,"version":this.version});
 		var log = logger.message;
@@ -541,101 +541,6 @@
 			var layerGroup = new L.LayerGroup();
 			var geojsonlayer;
 		}
-		this.addToMap = function(geojson,config){
-			var i;
-
-			if(opts.map){
-
-				layerGroup.addTo(opts.map);
-				
-				var colour = config.colour||"#e6007c";
-
-				function createIcon(data, category){
-					return L.divIcon({
-						'className': 'oi-map-marker',
-						'html': '<svg overflow="visible" width="24" height="40" class="oi-map-marker" style="transform:translate3d(0,0,0)"><path d="M 0,0 L -10.84,-22.86 A 12 12 1 1 1 10.84,-22.86 L 0,0 z" fill="{fill}" fill-opacity="1"></path><ellipse cx="0" cy="-27.5" rx="4" ry="4" fill="white"></ellipse></svg>'.replace(/\{fill\}/,colour),
-						iconSize: [0, 0],
-						iconAnchor: [0, 0]
-					});
-				}
-
-				var mapIcon = createIcon();
-
-				if(geojsonlayer) layerGroup.removeLayer(geojsonlayer);
-				
-				if(typeof L.markerClusterGroup==="function"){
-
-					geojsonlayer = L.markerClusterGroup({
-						chunkedLoading: true,
-						maxClusterRadius: 60,
-						iconCreateFunction: function (cluster){
-							return L.divIcon({ html: '<div class="marker-group" style="background:'+colour+';color:white;border-radius:100%;text-align:center;font-size:0.8em;line-height:2.5em;width:2.5em;opacity:0.85;">'+cluster.getChildCount()+'</div>', className: '' });
-						},
-						disableClusteringAtZoom: 17,
-						spiderfyOnMaxZoom: true,
-						showCoverageOnHover: false,
-						zoomToBoundsOnClick: true
-					});
-					var markerList = [];
-					var ll,tempmark;
-					for(i = 0; i < geojson.features.length; i++){
-						if(geojson.features[i].geometry.type=="Point"){
-							ll = geojson.features[i].geometry.coordinates;
-							tempmark = L.marker([ll[1],ll[0]],{icon: mapIcon});
-							markerList.push(tempmark);
-						}
-					}
-					geojsonlayer.addLayers(markerList);
-
-				}else if(typeof PruneClusterForLeaflet==="function"){
-
-					// https://github.com/SINTEF-9012/PruneCluster
-					geojsonlayer = new PruneClusterForLeaflet();
-					
-					geojsonlayer.BuildLeafletClusterIcon = function(cluster) {
-						var max,i,c,fs,c2,c3,n,s;
-						var population = cluster.population; // the number of markers inside the cluster
-						max = 0;
-						for(i = 0; i < this.Cluster._clusters.length; i++) max = Math.max(max,this.Cluster._clusters[i].population);
-						//c = OI.ColourScale.getColour(1-population/max);
-						c = OI.ColourScale.getColour(1);
-						c2 = c.colour.replace(",1)",",0.5)");
-						c3 = c.colour.replace(",1)",",0.2)");
-						fs = 0.7 + Math.sqrt(population/max)*0.3;
-						n = (""+population).length;
-						if(n==1) s = 1.8;
-						else if(n==2) s = 2.2;
-						else if(n==3) s = 2.6;
-						else if(n==4) s = 3;
-						else if(n==5) s = 3;
-						return L.divIcon({ html: '<div class="marker-group" style="background:'+c.colour+';color:'+(c.contrast)+';box-shadow:0 0 0 0.2em '+c2+',0 0 0 0.4em '+c3+';font-family:Poppins;border-radius:100%;text-align:center;font-size:'+fs+'em;line-height:'+s+'em;width:'+s+'em;opacity:0.85;">'+population+'</div>', className: '' });
-					};
-					
-					for(i = 0; i < geojson.features.length; i++){
-						if(geojson.features[i].geometry.type=="Point"){
-							ll = geojson.features[i].geometry.coordinates;
-							var marker = new PruneCluster.Marker(ll[1],ll[0]);
-							marker.data.icon = createIcon;
-							marker.category = 0;
-							geojsonlayer.RegisterMarker(marker);
-						}
-					}
-					
-				}else{
-
-					geojsonlayer = L.geoJson(geojson,{
-						pointToLayer(feature, latlng) {
-							return L.marker(latlng, {icon: mapIcon });
-						}
-					});					
-
-				}
-
-				layerGroup.addLayer(geojsonlayer);
-
-			}
-			return this;
-		};
 		function newFetch(url, o, cb){
 			fetch(url,{})
 			.then(response => { return response.json(); })
