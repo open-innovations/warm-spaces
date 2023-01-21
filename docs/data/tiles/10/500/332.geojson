@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.12451,53.22754],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High St, , Bangor, Gwynedd LL571NR","description":"We cater for all ages We offer games and activities for children plus activities for adults if desired","title":"St John’s Methodist Church, Bangor"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.92663,53.26790],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bangor Road, Penmaenmawr, Conwy ll34 6LF","description":"Our focus is on adults","hours":{"_text":"Friday: 10:00 - 13:00","opening":"Fr 10:00-13:00"},"title":"ST Paul's Church Penmaenmawr"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.92782,53.26773],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bangor Road, Penmaenmawr, Wales, LL34 6LE","hours":{"_text":"Friday 10am-1pm","opening":"Fr 10:00-13:00"},"title":"St Paul's Church Penmaenmawr"},"type":"Feature"}
 	]
