@@ -39,5 +39,5 @@ jobs:
       - name: Run build script
         working-directory: data/
         run: |
-          curl -o "raw/bath_and_north_east_somerset_council.html" "https://livewell.bathnes.gov.uk/warm-places-map"
+          curl -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: document' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: none' -H 'Sec-Fetch-User: ?1' -o "raw/bath_and_north_east_somerset_council.html" "https://livewell.bathnes.gov.uk/warm-places-map"
           perl scrapers/bath_and_north_east_somerset_council.pl raw/bath_and_north_east_somerset_council.html
