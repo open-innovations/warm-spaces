@@ -343,7 +343,8 @@ sub parseGeoJSONFeature {
 	if($json->{'hours'}){
 		if(ref $json->{'hours'} eq ref ""){ $json->{'hours'} = {'_text'=>$json->{'hours'} }; }
 		$json->{'hours'} = parseOpeningHours($json->{'hours'});
-		if(!$json->{'hours'}{'opening'}){ delete $json->{'hours'}{'opening'}; } 
+		if(!$json->{'hours'}{'opening'}){ delete $json->{'hours'}{'opening'}; }
+		if(!$json->{'hours'}{'_text'} || $json->{'hours'}{'_text'} eq " "){ delete $json->{'hours'}; }
 	}
 
 	# If we haven't explicitly been sent lat/lon in the properties we get it from the coordinates
