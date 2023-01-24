@@ -31,9 +31,20 @@ jobs:
             Web::Scraper
 
       # Runs script
-      - name: Run build script
+      - name: Make raw directory
         working-directory: data/
         run: |
           mkdir raw/
+
+      # Runs script
+      - name: Download file
+        working-directory: data/
+        run: |
+          curl -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
+
+      # Runs script
+      - name: Run build script
+        working-directory: data/
+        run: |
           curl -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
           perl scrapers/bath_and_north_east_somerset_council.pl raw/bath_and_north_east_somerset_council.html
