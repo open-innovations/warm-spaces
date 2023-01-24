@@ -34,5 +34,6 @@ jobs:
       - name: Run build script
         working-directory: data/
         run: |
+          mkdir raw/
           curl -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
           perl scrapers/bath_and_north_east_somerset_council.pl raw/bath_and_north_east_somerset_council.html
