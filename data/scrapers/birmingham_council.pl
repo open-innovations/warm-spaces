@@ -79,7 +79,6 @@ if(-e $file){
 	print FILE "[\n".join(",\n",@entries)."\n]";
 	close(FILE);
 
-	warning("\t".join(",\n",@entries)."\n");
 	print $file.".json";
 
 }else{
