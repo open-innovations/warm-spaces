@@ -29,10 +29,9 @@ jobs:
           mkdir raw/
 
       - name: curl
-        working-directory: data/
         uses: enflo/curl-action@master
         with:
-          curl: -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
+          curl: -o data/raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
 
       - name: install cpanm and multiple modules
         uses: perl-actions/install-with-cpanm@v1
