@@ -28,12 +28,11 @@ jobs:
         with:
           install: |
             JSON::XS
-            YAML::XS
             Web::Scraper
-            Geo::Coordinates::OSGB
 
       # Runs script
       - name: Run build script
         working-directory: data/
         run: |
-          perl build.pl "bath_and_north_east_somerset_council"
+          curl -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
+          perl scrapers/bath_and_north_east_somerset_council.pl raw/bath_and_north_east_somerset_council.html
