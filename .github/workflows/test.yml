@@ -28,10 +28,10 @@ jobs:
         run: |
           mkdir raw/
 
-      - name: curl
-        uses: wei/curl@master
-        with:
-          args: -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
+      - name: curl version
+        working-directory: data/
+        run: |
+          rpm -qa | grep curl
 
 
       - name: install cpanm and multiple modules
