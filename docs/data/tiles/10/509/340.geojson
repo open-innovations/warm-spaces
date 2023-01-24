@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-0.96753,51.45543],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Abbey Square, Reading, Berkshire RG1 3BE","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Abbey Baptist Church, Reading"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.98343,51.44748],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Berkeley Avenue, Reading, Berkshire RG1 6JE","description":" Open from 01-11-22","hours":{"_text":"Tuesday: 10:30 - 15:00 / -","opening":"Tu 10:30-15:00"},"title":"All Nations Christian Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.79391,51.42872],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Benetfeld Road, Binfield, Bracknell RG42 4JZ","hours":{"_text":"Monday: 2:00 - 7:00, Tuesday: 2:00 - 5:00, Thursday: 9:00 - 5:00, Friday: 2:00 - 5:00, Saturday: 9:30 - 4:00","opening":"Mo 02:00-07:00; Tu 02:00-05:00; Th 09:00-05:00; Fr 02:00-05:00; Sa 09:30-04:00"},"title":"Binfield Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.71120,51.57891],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wakeman Road, Bourne End, Buckinghamshire SL8 5SX","description":"Open from 12-12-2022. The Community Centre provides a warm space on Mondays only; on other days Bourne End Library, next door, is open as a warm space.","hours":{"_text":"Monday: 09:30 - 17:00","opening":"Mo 09:30-17:00"},"title":"Bourne End Community Centre"},"type":"Feature"},
