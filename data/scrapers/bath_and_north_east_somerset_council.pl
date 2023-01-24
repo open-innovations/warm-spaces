@@ -19,22 +19,26 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
+	$str =~ s/<meta [^\>]*>//g;
 
-	while($str =~ s/<div[^\>]*class="geolocation-location js-hide"[^\>]*data-lat="([^\"]*)"[^\>]*data-lng="([^\"]*)"[^\>]*data-label="([^\"]*)"[^\>]*>(.*?)<\/div><\/div>//s){
-		$d = {'lat'=>$1+0,'lon'=>$2+0,'title'=>$3};
-		$content = $4;
-		
-		if($content =~ /<p class="address[^\>]*>(.*?)<\/p>/s){
-			$d->{'address'} = $1;
-			$d->{'address'} =~ s/(^\s|\s$)//g;
-			$d->{'address'} =~ s/<[^\>]*>//g;
+	# Build a web scraper
+	my $warmspaces = scraper {
+		process '.geolocation-location', "warmspaces[]" => scraper {
+			process '*', 'content' => 'HTML';
+			process '*', 'lat' => '@data-lat';
+			process '*', 'lon' => '@data-lng';
+			process '*', 'title' => '@data-label';
+			process 'a', 'url' => '@HREF';
+			process '.address', 'address' => 'TEXT';
 		}
-		if($content =~ /<a[^\>]*href="([^\"]+)"/){
-			$d->{'url'} = $1;
-			if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://livewell.bathnes.gov.uk".$d->{'url'}; }
-			
-		}
-		
+	};
+	my $res = $warmspaces->scrape( $str );
+
+	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+		$d = $res->{'warmspaces'}[$i];
+		$d->{'address'} = trim($d->{'address'});
+		if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://livewell.bathnes.gov.uk".$d->{'url'}; }
+
 		# Store the entry as JSON
 		push(@entries,makeJSON($d,1));
 	}
@@ -51,3 +55,14 @@ if(-e $file){
 
 }
 
+
+sub trim {
+	my $str = $_[0];
+	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/<[^\>]+>//g;
+	$str =~ s/(^[\s\t\n\r]+|[\s\t\n\r]+$)//g;
+	$str =~ s/[\n\r]{2,}/\n/g;
+	$str =~ s/[\s\t]{2,}/ /g;
+	$str =~ s/ , /, /g;
+	return $str;
+}

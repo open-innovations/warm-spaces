@@ -36,4 +36,4 @@ jobs:
       - name: Run build script
         working-directory: data/
         run: |
-          perl build.pl "central_bedfordshire_council"
+          perl build.pl "bath_and_north_east_somerset_council"
