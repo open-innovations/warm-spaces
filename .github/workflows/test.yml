@@ -31,7 +31,7 @@ jobs:
       - name: curl version
         working-directory: data/
         run: |
-          rpm -qa | grep curl
+          curl --version
 
 
       - name: install cpanm and multiple modules
