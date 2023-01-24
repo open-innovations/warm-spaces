@@ -28,11 +28,11 @@ jobs:
         run: |
           mkdir raw/
 
-      - name: curl version
+      - name: curl
         working-directory: data/
-        run: |
-          curl --version
-
+        uses: enflo/curl-action@master
+        with:
+          curl: -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
 
       - name: install cpanm and multiple modules
         uses: perl-actions/install-with-cpanm@v1
@@ -45,5 +45,4 @@ jobs:
       - name: Run build script
         working-directory: data/
         run: |
-          curl -s --insecure -L --compressed -o raw/bath_and_north_east_somerset_council.html "https://livewell.bathnes.gov.uk/warm-places-map"
           perl scrapers/bath_and_north_east_somerset_council.pl raw/bath_and_north_east_somerset_council.html
