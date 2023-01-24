@@ -19,6 +19,8 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
+	warning("\tTesting Bath...\n");
+
 	$str =~ s/<meta [^\>]*>//gi;
 
 	# Build a web scraper
