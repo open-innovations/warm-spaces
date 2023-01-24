@@ -377,7 +377,7 @@
 	},
 	"community_action_derby": {
 		"id": "community_action_derby",
-		"notes": "Too unstructured to parse",
+		"notes": "In PDFs so too unstructured to parse",
 		"title": "Community Action Derby",
 		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-places"
 	},
@@ -423,7 +423,7 @@
 		"id": "derbyshire_dales_council",
 		"notes": "Too unstructured to parse",
 		"title": "Derbyshire Dales Council",
-		"url": "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
+		"url": "https://www.derbyshiredales.gov.uk/community/warm-spaces"
 	},
 	"devizes_council": {
 		"count": 9,
@@ -472,8 +472,10 @@
 		"url": "https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
+		"count": 33,
+		"geocount": 19,
 		"id": "east_staffordshire_council",
-		"notes": "Not enough structure to parse correctly",
+		"notes": "Not enough address information for half the entries",
 		"title": "East Staffordshire Council",
 		"url": "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
 	},
@@ -497,6 +499,14 @@
 		"notes": "Refers people to Warm Welcome",
 		"title": "Enfield Council",
 		"url": "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
+	},
+	"enfield_food_alliance": {
+		"count": 19,
+		"geocount": 19,
+		"id": "enfield_food_alliance",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/5/viewer?mid=1fdCZEnF1DBpmHmh2geCCGWUFm2--kLc&ll=51.642885200133605%2C-0.08113014999998835&z=13" },
+		"title": "Enfield Food Alliance",
+		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
 		"count": 105,

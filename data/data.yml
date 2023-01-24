@@ -433,7 +433,7 @@ directories:
       type: html
   - title: "Community Action Derby"
     url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-places"
-    notes: "Too unstructured to parse"
+    notes: "In PDFs so too unstructured to parse"
   - title: "Croydon Council"
     url: "https://www.croydon.gov.uk/warm-spaces-directory"
     map:
@@ -511,7 +511,7 @@ directories:
     url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
     notes: "Too unstructured to parse"
   - title: "Derbyshire Dales Council"
-    url: "https://www.derbyshiredales.gov.uk/housing-a-council-tax/benefits/warms-spaces"
+    url: "https://www.derbyshiredales.gov.uk/community/warm-spaces"
     notes: "Too unstructured to parse"
   - title: "Devizes Council"
     url: "https://www.devizes-tc.gov.uk/warmspaces/"
@@ -567,7 +567,10 @@ directories:
     notes: "Too hard to extract enough information"
   - title: "East Staffordshire Council"
     url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
-    notes: "Not enough structure to parse correctly"
+    notes: "Not enough address information for half the entries"
+    data:
+      url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
+      type: html
   - title: "Eastleigh Council"
     url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
     data:
@@ -618,6 +621,19 @@ directories:
   - title: "Enfield Council"
     url: "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
     notes: "Refers people to Warm Welcome"
+  - title: "Enfield Food Alliance"
+    url: "https://www.enfieldfoodalliance.co.uk/warm-hubs"
+    map:
+      url: "https://www.google.com/maps/d/u/5/viewer?mid=1fdCZEnF1DBpmHmh2geCCGWUFm2--kLc&ll=51.642885200133605%2C-0.08113014999998835&z=13"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1fdCZEnF1DBpmHmh2geCCGWUFm2--kLc&ll=51.642885200133605%2C-0.08113014999998835&z=13"
+      type: googlemap
+      keys:
+        title: "name"
+        description: "Description"
+        address: "{{ Address }} {{ Postcode }}"
+        hours: "When"
   - title: "Essex Map"
     url: "https://www.essexmap.co.uk/warm-spaces/"
     map:
