@@ -328,7 +328,7 @@ directories:
       url: "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u"
   - title: "Cannock Chase Council"
     url: "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
-    notes: "Not enough structure to parse"
+    notes: "Warm spaces provided in a PDF so not enough structure to parse"
   - title: "Carefree Cornwall"
     url: "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
     map:

@@ -26,25 +26,17 @@ if(-e $file){
 
 	if($str =~ /<h2><a id="Warm_welcome_community_spaces" .*?<\/h2>(.*?)<h2>/){
 		$str = $1;
-		while($str =~ s/<p>(.*?)<\/p><p>(.*?)<\/p><ul>(.*?)<\/ul>//){
-			$a = $1;
-			$b = $2;
-			$c = $3;
 
+		while($str =~ s/<li>(.*?)<\/li>//){
+			$li = $1;
 			$d = {};
-			if($a =~ /<a href="([^\"]*)">([^\<]+)<\/a>/){
+			if($li =~ /<a href="([^\"]*)">([^\<]+)<\/a>/){
 				$d->{'title'} = $2;
 				$d->{'url'} = $1;
 			}
-			$d->{'description'} = $b;
-			if($c =~ /<li><strong>Address: ?<\/strong>([^\<]*?) ?\</){ $d->{'address'} = $1; }
-			if($c =~ /<li><strong>Opening hours: ?<\/strong>([^\<]*?) ?\</){
-				$d->{'hours'} = {'_text'=>$1};
-				$d->{'hours'} = parseOpeningHours($d->{'hours'});
-				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+			if($li =~ /<br \/>[\n\t\s]*(.*?)[\n\t\s]*<br \/>/){
+				$d->{'address'} = $1;
 			}
-			if($c =~ /<li><strong>Contact number: ?<\/strong>([^\<]*?) ?\</){ $d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Phone: ".$1; }
-			if($c =~ /<li><strong>Email: ?<\/strong>([^\<]*?) ?\</){ $d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".$1; }
 
 			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));
