@@ -2,8 +2,8 @@
 
 use lib "./";
 use utf8;
-use Web::Scraper;
 use Data::Dumper;
+use Web::Scraper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -19,7 +19,7 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-	$str =~ s/<meta [^\>]*>//g;
+	$str =~ s/<meta [^\>]*>//gi;
 
 	# Build a web scraper
 	my $warmspaces = scraper {
@@ -33,6 +33,8 @@ if(-e $file){
 		}
 	};
 	my $res = $warmspaces->scrape( $str );
+	$n = @{$res->{'warmspaces'}};
+	warning("\tMatched $n warmspaces on page.\n");
 
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		$d = $res->{'warmspaces'}[$i];
