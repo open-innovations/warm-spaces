@@ -347,7 +347,7 @@ directories:
     url: "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
     data:
       url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
-      type: portal
+      type: html
   - title: "Ceredigion Council"
     url: "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
     map:

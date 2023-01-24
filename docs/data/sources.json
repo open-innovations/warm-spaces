@@ -275,7 +275,7 @@
 	},
 	"cannock_chase_council": {
 		"id": "cannock_chase_council",
-		"notes": "Not enough structure to parse",
+		"notes": "Warm spaces provided in a PDF so not enough structure to parse",
 		"title": "Cannock Chase Council",
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
@@ -288,8 +288,8 @@
 		"url": "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
 	},
 	"central_bedfordshire_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 61,
+		"geocount": 57,
 		"id": "central_bedfordshire_council",
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
