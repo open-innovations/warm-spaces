@@ -28,12 +28,14 @@ sub msg {
 sub error {
 	my $str = $_[0];
 	$str =~ s/(^[\t\s]*)/$1<red>ERROR:<none> /;
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
 	msg($str,STDERR);
 }
 
 sub warning {
 	my $str = $_[0];
 	$str =~ s/(^[\t\s]*)/$1$colours{'yellow'}WARNING:$colours{'none'} /;
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
 	print STDERR $str;
 }
 sub parseText {
