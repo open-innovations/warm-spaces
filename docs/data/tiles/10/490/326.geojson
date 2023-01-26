@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-7.72152,54.52148],"type":"Point"},"properties":{"_source":"warm_welcome","address":"45 High Street , KESH, Co. Fermanagh Bt93 1Tf","description":"Open from 08/01/2023. All ages welcome. Disability access. Friendly space for people of all ages. Newspapers, games, books etc available or just a chat.","hours":{"_text":"Monday: 10:00 - 16:00","opening":"Mo 10:00-16:00"},"title":"The Courthouse"},"type":"Feature"}
+	]
+}

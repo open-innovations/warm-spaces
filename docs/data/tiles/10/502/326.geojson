@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.43422,54.37895],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: pc4driggcarleton@gmail.com","description":"Warm drink, snack, social interaction","title":"Drigg Parish Council","url":"https://new.cumbria.gov.uk/node/23352"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.49511,54.53880],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: revnickipennington@gmail.com","description":"A social craft gathering. Reaching people who would like to tend their well being. Social club","title":"Crosslacon Parish, Frizington","url":"https://new.cumbria.gov.uk/node/22317"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.43422,54.37895],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: pc4driggcarleton@gmail.com","description":"Warm drink, snack, social interaction","title":"Drigg Parish Council","url":"https://new.cumbria.gov.uk/node/23352"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.49042,54.54443],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: whitehaven.library@cumbria.gov.uk","description":"Library environment with comfy seating, access to reading material for all ages, free membership allows access to PCs - occasional activities","title":"Frizington Library","url":"https://new.cumbria.gov.uk/node/3885"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.49319,54.54255],"type":"Point"},"properties":{"_source":"cumbria_council","description":"Come in for a warm welcome. Free warm drinks available. Activities, jigsaws, books, and a chance for a chat.","title":"Frizington Methodist Church","url":"https://new.cumbria.gov.uk/node/23156"},"type":"Feature"},

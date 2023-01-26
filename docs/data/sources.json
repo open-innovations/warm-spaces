@@ -73,8 +73,8 @@
 		"url": "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
 	},
 	"bassetlaw_cvs": {
-		"count": 28,
-		"geocount": 28,
+		"count": 41,
+		"geocount": 41,
 		"id": "bassetlaw_cvs",
 		"map": { "type": "arcgis", "url": "https://bassetlaw.maps.arcgis.com/apps/webappviewer/index.html?id=cc9edef318684393b1acd4ae10346044" },
 		"title": "Bassetlaw CVS",
@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 165,
-		"geocount": 165,
+		"count": 167,
+		"geocount": 167,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 182,
-		"geocount": 182,
+		"count": 185,
+		"geocount": 185,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -181,7 +181,7 @@
 		"url": "https://www.brent.gov.uk/cost-of-living-help-and-advice"
 	},
 	"bridgend_council": {
-		"count": 122,
+		"count": 123,
 		"geocount": 108,
 		"id": "bridgend_council",
 		"title": "Bridgend Council",
@@ -212,8 +212,8 @@
 		"url": "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 60,
-		"geocount": 60,
+		"count": 59,
+		"geocount": 59,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -321,8 +321,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 58,
-		"geocount": 57,
+		"count": 59,
+		"geocount": 58,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -370,7 +370,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -390,8 +390,8 @@
 		"url": "https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 39,
-		"geocount": 39,
+		"count": 41,
+		"geocount": 41,
 		"id": "croydon_council",
 		"map": { "type": "leaflet", "url": "https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title": "Croydon Council",
@@ -487,8 +487,8 @@
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
 	},
 	"edinburgh_council": {
-		"count": 69,
-		"geocount": 69,
+		"count": 70,
+		"geocount": 70,
 		"id": "edinburgh_council",
 		"map": { "type": "arcgis", "url": "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37" },
 		"title": "Edinburgh Council",
@@ -569,8 +569,8 @@
 		"url": "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
 	},
 	"greenwich_council": {
-		"count": 62,
-		"geocount": 62,
+		"count": 64,
+		"geocount": 64,
 		"id": "greenwich_council",
 		"map": { "type": "googlemap", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" },
 		"title": "Greenwich Council",
@@ -725,8 +725,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 162,
-		"geocount": 162,
+		"count": 167,
+		"geocount": 167,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -1021,8 +1021,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 171,
-		"geocount": 171,
+		"count": 177,
+		"geocount": 177,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1122,8 +1122,8 @@
 		"url": "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
 	},
 	"surrey_county_council_warm_hubs": {
-		"count": 138,
-		"geocount": 138,
+		"count": 139,
+		"geocount": 139,
 		"id": "surrey_county_council_warm_hubs",
 		"map": { "type": "arcgis", "url": "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515" },
 		"title": "Surrey County Council warm hubs",
@@ -1201,8 +1201,8 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1727,
-		"geocount": 1727,
+		"count": 1746,
+		"geocount": 1746,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1210,8 +1210,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4181,
-		"geocount": 4181,
+		"count": 4200,
+		"geocount": 4200,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

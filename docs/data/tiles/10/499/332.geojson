@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.56039,53.29316],"type":"Point"},"properties":{"_source":"warm_spaces","address":", Holyhead, Wales, LL65 3BS","hours":{"_text":"Fri 12pm-2pm","opening":"Fr 12:00-14:00"},"title":"Tabor Hall"},"type":"Feature"}
+	]
+}
