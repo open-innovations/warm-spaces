@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": 56,
+		"geocount": 56,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -188,16 +188,16 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 45,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
 	"bristol_council": {
-		"count": 88,
-		"geocount": 88,
+		"count": 89,
+		"geocount": 89,
 		"id": "bristol_council",
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
@@ -220,8 +220,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 56,
+		"geocount": 56,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -509,8 +509,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 110,
-		"geocount": 109,
+		"count": 113,
+		"geocount": 112,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -725,8 +725,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 167,
-		"geocount": 167,
+		"count": 170,
+		"geocount": 170,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -884,8 +884,8 @@
 		"url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
 	},
 	"oxford_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": 44,
+		"geocount": 44,
 		"id": "oxford_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12" },
 		"register": { "url": "mailto:lcooper@oxford.gov.uk" },
@@ -1029,8 +1029,8 @@
 		"url": "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
 	},
 	"south_cambs_council": {
-		"count": 28,
-		"geocount": 27,
+		"count": 29,
+		"geocount": 28,
 		"id": "south_cambs_council",
 		"title": "South Cambs Council",
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
@@ -1192,8 +1192,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 48,
+		"geocount": 48,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1210,8 +1210,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4200,
-		"geocount": 4200,
+		"count": 4214,
+		"geocount": 4214,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
