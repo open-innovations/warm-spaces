@@ -119,8 +119,8 @@
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": 30,
-		"geocount": 27,
+		"count": "0",
+		"geocount": "0",
 		"id": "bolton_at_home",
 		"title": "Bolton at Home",
 		"url": "https://www.boltonathome.org.uk/warm-spaces/"
@@ -994,8 +994,8 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 51,
-		"geocount": 31,
+		"count": 49,
+		"geocount": 30,
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
 		"url": "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1201,8 +1201,8 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1746,
-		"geocount": 1746,
+		"count": 1767,
+		"geocount": 1767,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1210,8 +1210,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4214,
-		"geocount": 4214,
+		"count": 4221,
+		"geocount": 4221,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
