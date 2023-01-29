@@ -119,8 +119,8 @@
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": "0",
-		"geocount": "0",
+		"count": 30,
+		"geocount": 27,
 		"id": "bolton_at_home",
 		"title": "Bolton at Home",
 		"url": "https://www.boltonathome.org.uk/warm-spaces/"
@@ -1210,8 +1210,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4221,
-		"geocount": 4221,
+		"count": 4226,
+		"geocount": 4226,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

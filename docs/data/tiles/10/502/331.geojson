@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.18094,53.37028],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Westbourne Hall, 59 Westbourne Rd, West Kirby, Wirral CH48 4DQ","description":"A friendly & welcoming space","hours":{"_text":"Tuesday: 9:00 - 12:00","opening":"Tu 09:00-12:00"},"title":"Beacon Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.18366,53.39099],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Hildeburghs Church Stanley Road , Hoylake , Wirral. Merseyside CH47 1HL","description":"Open from 21.10.2022.","hours":{"_text":"Tuesday: 10:00 - 12:00, Friday: 10:00 - 14:00","opening":"Tu 10:00-12:00; Fr 10:00-14:00"},"title":"St. Hildeburghs Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.17740,53.39248],"type":"Point"},"properties":{"_source":"warm_welcome","address":"19 Market Street, Hoylake, Wirral CH47 2BF","description":" Open from 17-10-2022","hours":{"_text":"Monday: 09:00 - 12:00 / -, Tuesday: 09:00 - 12:00 / -, Wednesday: 09:00 - 12:00 / -, Thursday: 09:00 - 12:00 / -, Friday: 09:00 - 14:00 / -, Saturday: 09:00 - 12:00 / -, Sunday: 09:00 - 12:00 / -","opening":"Mo 09:00-12:00; Tu 09:00-12:00; We 09:00-12:00; Th 09:00-12:00; Fr 09:00-14:00; Sa 09:00-12:00; Su 09:00-12:00"},"title":"St. Luke's Methodist Church, Hoylake"},"type":"Feature"}
 	]
