@@ -1393,6 +1393,9 @@ directories:
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     register:
       url: "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration"
+    data:
+      url: "https://www.tewkesbury.gov.uk/warm-spaces-directory"
+      type: html
   - title: "Tonbridge and Malling Council"
     url: "https://www.tmbc.gov.uk/community-services/warm-spaces"
     notes: "Results split over too many pages"
