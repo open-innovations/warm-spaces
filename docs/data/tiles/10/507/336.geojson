@@ -78,6 +78,7 @@
 		{"geometry":{"coordinates":[-1.50749,52.40902],"type":"Point"},"properties":{"_source":"coventry_council","title":"Bardsley House","url":"https://www.coventry.gov.uk/directory-record/59013/bardsley-house"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.47613,52.43660],"type":"Point"},"properties":{"_source":"coventry_council","title":"Bell Green Community Centre","url":"https://www.coventry.gov.uk/directory-record/59014/bell-green-community-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50103,52.41249],"type":"Point"},"properties":{"_source":"coventry_council","title":"St Peter's Hillfields","url":"https://www.coventry.gov.uk/directory-record/59002/st-peter-s-hillfields"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.46295,52.38868],"type":"Point"},"properties":{"_source":"coventry_council","title":"Hagard Community Centre","url":"https://www.coventry.gov.uk/directory-record/59162/hagard-community-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.53483,52.42194],"type":"Point"},"properties":{"_source":"coventry_council","title":"Christ the King Catholic Church","url":"https://www.coventry.gov.uk/directory-record/59123/christ-the-king-catholic-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.50925,52.41001],"type":"Point"},"properties":{"_source":"coventry_council","title":"Voluntary Action Coventry","url":"https://www.coventry.gov.uk/directory-record/59118/voluntary-action-coventry"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.47774,52.42360],"type":"Point"},"properties":{"_source":"coventry_council","title":"Stoke Heath Community Centre","url":"https://www.coventry.gov.uk/directory-record/59103/stoke-heath-community-centre"},"type":"Feature"},
@@ -108,7 +109,6 @@
 		{"geometry":{"coordinates":[-1.46321,52.38856],"type":"Point"},"properties":{"_source":"coventry_council","title":"Willenhall Library","url":"https://www.coventry.gov.uk/directory-record/58824/willenhall-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.57989,52.40719],"type":"Point"},"properties":{"_source":"coventry_council","title":"Tile Hill Library","url":"https://www.coventry.gov.uk/directory-record/58823/tile-hill-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.48730,52.40964],"type":"Point"},"properties":{"_source":"coventry_council","title":"Stoke Library","url":"https://www.coventry.gov.uk/directory-record/58822/stoke-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"}
 	]
 }

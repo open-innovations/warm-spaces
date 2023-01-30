@@ -27,6 +27,7 @@
 		{"geometry":{"coordinates":[-1.46532,54.00707],"type":"Point"},"properties":{"_source":"harrogate_netmakers","title":"Resurrected Bites @ Knaresborough Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.46601,54.00559],"type":"Point"},"properties":{"_source":"harrogate_netmakers","title":"Holy Trinity Church, Knaresborough"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.52530,53.99411],"type":"Point"},"properties":{"_source":"harrogate_netmakers","hours":{"_text":"Monday, 11.30am - 1.00pm Tuesday, 9.30am - 12.00noon Friday, 11.00am - 12.30pm","opening":"Mo 11:30-13:00; Tu 09:30-12:00; Fr 11:00-12:30"},"title":"Christ Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.53573,53.98251],"type":"Point"},"properties":{"_source":"harrogate_netmakers","hours":{"_text":"10-12 Thursdays","opening":"Th 10:00-12:00"},"title":"St Mark's"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.53573,53.98251],"type":"Point"},"properties":{"_source":"harrogate_netmakers","hours":{"_text":"10-12 Thursdays","opening":"Th 10:00-12:00"},"title":"St Mark's"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.54207,53.99397],"type":"Point"},"properties":{"_source":"harrogate_netmakers","hours":{"_text":"Wesley Chapel, Oxford St, HG1 1PP"},"title":"Wesley Chapel"},"type":"Feature"}
 	]
 }
