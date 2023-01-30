@@ -541,6 +541,18 @@ sub getArcGIS {
 			}
 			if($json->{'url'} =~ /^www/){ $json->{'url'} = "http://".$json->{'url'}; }
 			$json->{'_source'} = $d->{'id'};
+			
+			# If our latitude value is implausible but we have EASTING and NORTHING we will try calculating lat,lon from those
+			if($json->{'lat'} > 90 && defined $geojson->{'features'}[$f]{'attributes'}{'EASTING'} && defined $geojson->{'features'}[$f]{'attributes'}{'NORTHING'}){
+				if($d->{'data'}[$i]{'coordinate-order'} eq "lon-lat"){
+					$json->{'lat'} = $geojson->{'features'}[$f]{'attributes'}{'NORTHING'};
+					$json->{'lon'} = $geojson->{'features'}[$f]{'attributes'}{'EASTING'};
+				}else{
+					$json->{'lon'} = $geojson->{'features'}[$f]{'attributes'}{'NORTHING'};
+					$json->{'lat'} = $geojson->{'features'}[$f]{'attributes'}{'EASTING'};					
+				}
+				$geojson->{'crs'} = {'properties'=>{'name'=>'EPSG:27700'}};
+			}
 			if($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG:+27700/){
 				if($d->{'data'}[$i]{'coordinate-order'} eq "lon-lat"){
 					($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lon'},$json->{'lat'});					
