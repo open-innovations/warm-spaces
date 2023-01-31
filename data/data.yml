@@ -1283,6 +1283,11 @@ directories:
     data:
       url: "https://www.staffordbc.gov.uk/warm-spaces"
       type: html
+  - title: "Staffordshire Fire and Rescue"
+    url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
+    data:
+      url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
+      type: html
   - title: "Stevenage Council"
     url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
     data:
