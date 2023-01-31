@@ -1209,8 +1209,9 @@
 		"url": "https://www.tewkesbury.gov.uk/warm-spaces"
 	},
 	"tonbridge_and_malling_council": {
+		"count": 20,
+		"geocount": 19,
 		"id": "tonbridge_and_malling_council",
-		"notes": "Results split over too many pages",
 		"title": "Tonbridge and Malling Council",
 		"url": "https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},

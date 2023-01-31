@@ -1460,7 +1460,9 @@ directories:
       type: html
   - title: "Tonbridge and Malling Council"
     url: "https://www.tmbc.gov.uk/community-services/warm-spaces"
-    notes: "Results split over too many pages"
+    data:
+      url: "https://www.tmbc.gov.uk/directory/7/a-to-z/A"
+      type: html
   - title: "Torbay Council"
     url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
     map:
