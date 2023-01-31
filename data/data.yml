@@ -774,6 +774,11 @@ directories:
     data:
       url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
       type: html
+  - title: "Hinckley and Bosworth Council"
+    url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
+    data:
+      url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
+      type: html
   - title: "Hounslow Council"
     url: "https://www.hounslow.gov.uk/warmspaces"
     data:
