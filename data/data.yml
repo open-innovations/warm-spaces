@@ -1194,6 +1194,9 @@ directories:
         softr-page-id: "f1621728-1e38-4b0e-ac4e-a01420cc4945"
   - title: "Sefton Council"
     url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
+    data:
+      url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
+      type: html
   - title: "Sefton CVS"
     url: "https://seftoncvs.org.uk/warmspaces/"
     map:
