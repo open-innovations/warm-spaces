@@ -361,7 +361,7 @@
 
 			if(times){
 
-				longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat","Ph":"Public holiday"};
+				longdays = {"Su":"Sunday","Mo":"Monday","Tu":"Tuesday","We":"Wednesday","Th":"Thursday","Fr":"Friday","Sa":"Saturday","Ph":"Public holiday"};
 				//days = {"Su":0,"Mo":1,"Tu":2,"We":3,"Th":4,"Fr":5,"Sa":6};
 				days = ['mo','tu','we','th','fr','sa','su','ph'];
 				now = new Date();
