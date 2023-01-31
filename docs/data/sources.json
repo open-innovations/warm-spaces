@@ -287,6 +287,15 @@
 		"title": "Carefree Cornwall",
 		"url": "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
 	},
+	"causeway_coast_and_glens_council": {
+		"count": 38,
+		"geocount": 38,
+		"id": "causeway_coast_and_glens_council",
+		"map": { "type": "arcgis", "url": "https://cbcni.maps.arcgis.com/apps/webappviewer/index.html?id=038a7d2070094e58ba4377c9b9fe4d2d" },
+		"register": { "url": "https://arcg.is/zfHr9" },
+		"title": "Causeway Coast and Glens Council",
+		"url": "https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
+	},
 	"central_bedfordshire_council": {
 		"count": 61,
 		"geocount": 57,
@@ -419,6 +428,15 @@
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmspots" },
 		"title": "Cumbria Council",
 		"url": "https://new.cumbria.gov.uk/warm-spots"
+	},
+	"cyngor_gwynedd": {
+		"count": 215,
+		"geocount": 211,
+		"id": "cyngor_gwynedd",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
+		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
+		"title": "Cyngor Gwynedd",
+		"url": "https://www.gwynedd.llyw.cymru/en/Residents/Warm-Spaces-Croeso-Cynnes.aspx"
 	},
 	"derbyshire_council": {
 		"id": "derbyshire_council",

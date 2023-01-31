@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-6.06514,55.07978],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"Mill Street, Cushendall, BT44 0RR","description":"Tea & Newspapers - Tuesdays, Thursdays and Saturdays at 10.30am, Lego Club - Tuesdays 6.15pm and Saturdays 11am","hours":{"_text":"Tuesdays 2-8, Thursdays 10-1 and 2-5, Saturdays 10-1 and 2-5","opening":"Tu 02:00-08:00; Th 10:00-01:00,02:00-05:00; Sa 10:00-01:00,02:00-05:00"},"title":"Cushendall Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.98992,54.99271],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"Town Hall, Carnlough, Antrim, BT44 0EU;","contact":"T: 028 2888 5552; E: Carnlough.library@librariesni.org.uk;","description":"Tea and newspapers - Every Thursday from 10am to 1pm","hours":{"_text":"Tuesday:, 1pm - 8pm","opening":"Tu 13:00-20:00"},"loc_pcd":true,"title":"Carnlough Library"},"type":"Feature"}
 	]
 }

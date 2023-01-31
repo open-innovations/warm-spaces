@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-7.04296,55.04419],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"3 Shackleton Drive, Ballykelly, BT49 9PR","contact":"07709257251 or ballykellymensshed@gmail.com","description":"Tea/Coffee, Newspapers, Jigsaws and Games. Polytunnel for veg and flowers and we make birdboxes and planters.","hours":{"_text":"Tuesday 9.30-4pm and Thursday 9.30-4pm","opening":"Tu 09:30-16:00; Th 09:30-16:00"},"title":"Ballykelly Mens Shed"},"type":"Feature"}
+	]
+}

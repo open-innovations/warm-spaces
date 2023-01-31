@@ -1,1 +1,8 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.65855,55.20747],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"7 Harbour Road, Portrush, BT56 8DF","description":"Tea, coffee and soup available. Minibus available for transport if needed.","hours":{"_text":"Thursdays 10am-2pm","opening":"Th 10:00-14:00"},"title":"Portrush Yacht Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-6.65138,55.20497],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"The Old Post Office, 12 Causeway Street, Portrush, BT56 8AB","contact":"02870823718 or portrush.library@librariesni.org.uk","description":"Knit & Knatter - Tuesdays 6pm, Tea & Newspapers - Wednesdays 11am, Sewing Club - Fridays 3pm,","hours":{"_text":"Mondays 10-1 and 2-5, Tuesdays 1.30-7.30, Wednesdays 10-1 and 2-5, Fridays 10-1 and 2-5, Saturdays 10-2","opening":"Mo 10:00-01:00,02:00-05:00; Tu 01:30-07:30; We 10:00-01:00,02:00-05:00; Fr 10:00-01:00,02:00-05:00; Sa 10:00-02:00"},"title":"Portrush Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-6.65102,55.20510],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"11 Causeway Street, Portrush, BT56 8AB","contact":"07766527599 or rmdoherty67@gmail.com","description":"Tea/Coffee, Newspapers and Magazines, Games and Puzzles, Knitting, Craft Activities and Bingo","hours":{"_text":"Mondays 12.30-3pm","opening":"Mo 12:30-15:00"},"title":"Charles Callaghan Centre"},"type":"Feature"}
+	]
+}
