@@ -675,8 +675,14 @@ directories:
       url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*"
       type: googlemap
     data:
-      url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
-      type: html
+      - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
+        type: html
+      - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=list&p=2&q=*"
+        type: html
+      - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=list&p=3&q=*"
+        type: html
+      - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=list&p=4&q=*"
+        type: html
   - title: "Gedling Council"
     url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
     data:
