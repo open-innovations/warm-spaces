@@ -1011,6 +1011,11 @@ directories:
         type: html
       - url: "https://www.npt.gov.uk/34536?c=5"
         type: html
+  - title: "Newcastle under Lyme Council"
+    url: "https://www.newcastle-staffs.gov.uk/warmspaces"
+    data:
+      url: "https://www.newcastle-staffs.gov.uk/directory/8/a-to-z/A"
+      type: html
   - title: "Newham Council"
     url: "https://www.newham.gov.uk/warmhavens"
     map:
