@@ -539,8 +539,10 @@ directories:
       url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
       type: googlemap
     data:
-      url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
-      type: html
+      - url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+        type: html
+      - url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=2"
+        type: html
   - title: "Ealing Council"
     url: "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
     map:
