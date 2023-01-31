@@ -364,6 +364,11 @@ directories:
         hours: "Opening Times"
         contact: "{{ Lead Contact }}: {{ Contact Details }}"
         description: "Activity Offered"
+  - title: "Charnwood Council"
+    url: "https://www.charnwood.gov.uk/pages/warmspaces"
+    data:
+      url: "https://www.charnwood.gov.uk/pages/warmspaces"
+      type: html
   - title: "Chelmsford Connects"
     url: "https://chelmsfordconnects.org.uk/search?category=1555"
     notes: "Not enough address/location data"
