@@ -2,95 +2,95 @@
 <rect x="0" y="0" width="1010" height="1306" fill="white"></rect>
 <text x="505" y="32" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="19.2">Number of warm spaces vs IMD 2020</text>
 <text x="505" y="60" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-size="16">From most deprived (1) to least deprived (10)</text>
-<text x="16" y="1282" text-anchor="start" dominant-baseline="middle" font-family="Poppins, Arial Black" font-size="12">Data from 121 warm spaces directories; IMD scores from MySociety; Constituency boundaries from ONS</text>
+<text x="16" y="1282" text-anchor="start" dominant-baseline="middle" font-family="Poppins, Arial Black" font-size="12">Data from 131 warm spaces directories; IMD scores from MySociety; Constituency boundaries from ONS</text>
 <text x="994" y="1282" text-anchor="end" dominant-baseline="middle" font-family="Poppins, Arial Black" font-size="12">© Open Innovations (CC-BY)</text>
 <text x="64" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">1</text><text x="162" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">2</text><text x="260" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">3</text><text x="358" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">4</text><text x="456" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">5</text><text x="554" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">6</text><text x="652" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">7</text><text x="750" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">8</text><text x="848" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">9</text><text x="946" y="96" text-anchor="middle" dominant-baseline="middle" font-family="Poppins, Arial Black" font-weight="bold" font-size="16">10</text><rect x="14" y="104" width="96" height="16" fill="rgb(70,24,106)"><title>Belfast West: 6</title></rect>
-<rect x="14" y="122" width="96" height="16" fill="rgb(70,39,118)"><title>Belfast North: 10</title></rect>
+<rect x="14" y="122" width="96" height="16" fill="rgb(68,47,123)"><title>Belfast North: 12</title></rect>
 <rect x="14" y="140" width="96" height="16" fill="rgb(68,1,84)"><title>Foyle: 0</title></rect>
 <rect x="14" y="158" width="96" height="16" fill="rgb(68,47,123)"><title>Liverpool, Walton: 12</title></rect>
 <rect x="14" y="176" width="96" height="16" fill="rgb(68,4,87)"><title>West Tyrone: 1</title></rect>
 <rect x="14" y="194" width="96" height="16" fill="rgb(68,4,87)"><title>Newry and Armagh: 1</title></rect>
-<rect x="14" y="212" width="96" height="16" fill="rgb(57,81,138)"><title>Birmingham, Hodge Hill: 22</title></rect>
+<rect x="14" y="212" width="96" height="16" fill="rgb(54,87,139)"><title>Birmingham, Hodge Hill: 24</title></rect>
 <rect x="14" y="230" width="96" height="16" fill="rgb(71,28,109)"><title>Blackpool South: 7</title></rect>
 <rect x="14" y="248" width="96" height="16" fill="rgb(69,12,95)"><title>East Londonderry: 3</title></rect>
-<rect x="14" y="266" width="96" height="16" fill="rgb(60,75,136)"><title>Birmingham, Erdington: 20</title></rect>
+<rect x="14" y="266" width="96" height="16" fill="rgb(59,78,137)"><title>Birmingham, Erdington: 21</title></rect>
 <rect x="14" y="284" width="96" height="16" fill="rgb(70,20,102)"><title>Blackley and Broughton: 5</title></rect>
-<rect x="14" y="302" width="96" height="16" fill="rgb(70,24,106)"><title>Knowsley: 6</title></rect>
+<rect x="14" y="302" width="96" height="16" fill="rgb(71,28,109)"><title>Knowsley: 7</title></rect>
 <rect x="14" y="320" width="96" height="16" fill="rgb(71,28,109)"><title>Liverpool, West Derby: 7</title></rect>
 <rect x="14" y="338" width="96" height="16" fill="rgb(48,102,141)"><title>Middlesbrough: 29</title></rect>
-<rect x="14" y="356" width="96" height="16" fill="rgb(40,120,141)"><title>Birmingham, Ladywood: 35</title></rect>
-<rect x="14" y="374" width="96" height="16" fill="rgb(69,16,98)"><title>Fermanagh and South Tyrone: 4</title></rect>
+<rect x="14" y="356" width="96" height="16" fill="rgb(36,131,141)"><title>Birmingham, Ladywood: 39</title></rect>
+<rect x="14" y="374" width="96" height="16" fill="rgb(70,20,102)"><title>Fermanagh and South Tyrone: 5</title></rect>
 <rect x="14" y="392" width="96" height="16" fill="rgb(68,1,84)"><title>South Down: 0</title></rect>
-<rect x="14" y="410" width="96" height="16" fill="rgb(32,144,139)"><title>Bradford East: 44</title></rect>
+<rect x="14" y="410" width="96" height="16" fill="rgb(32,149,137)"><title>Bradford East: 46</title></rect>
 <rect x="14" y="428" width="96" height="16" fill="rgb(71,32,113)"><title>Nottingham North: 8</title></rect>
-<rect x="14" y="446" width="96" height="16" fill="rgb(32,144,139)"><title>Sheffield, Brightside and Hillsborough: 44</title></rect>
-<rect x="14" y="464" width="96" height="16" fill="rgb(69,16,98)"><title>Birkenhead: 4</title></rect>
-<rect x="14" y="482" width="96" height="16" fill="rgb(53,90,140)"><title>Leeds East: 25</title></rect>
+<rect x="14" y="446" width="96" height="16" fill="rgb(35,133,140)"><title>Sheffield, Brightside and Hillsborough: 40</title></rect>
+<rect x="14" y="464" width="96" height="16" fill="rgb(70,20,102)"><title>Birkenhead: 5</title></rect>
+<rect x="14" y="482" width="96" height="16" fill="rgb(49,99,141)"><title>Leeds East: 28</title></rect>
 <rect x="14" y="500" width="96" height="16" fill="rgb(68,8,91)"><title>Upper Bann: 2</title></rect>
 <rect x="14" y="518" width="96" height="16" fill="rgb(68,4,87)"><title>Mid Ulster: 1</title></rect>
-<rect x="14" y="536" width="96" height="16" fill="rgb(52,93,140)"><title>Bootle: 26</title></rect>
-<rect x="14" y="554" width="96" height="16" fill="rgb(32,149,137)"><title>Bradford West: 46</title></rect>
+<rect x="14" y="536" width="96" height="16" fill="rgb(32,141,140)"><title>Bootle: 43</title></rect>
+<rect x="14" y="554" width="96" height="16" fill="rgb(32,152,136)"><title>Bradford West: 47</title></rect>
 <rect x="14" y="572" width="96" height="16" fill="rgb(70,20,102)"><title>Glasgow North East: 5</title></rect>
-<rect x="14" y="590" width="96" height="16" fill="rgb(40,171,128)"><title>Leeds Central: 54</title></rect>
+<rect x="14" y="590" width="96" height="16" fill="rgb(47,177,123)"><title>Leeds Central: 56</title></rect>
 <rect x="14" y="608" width="96" height="16" fill="rgb(70,39,118)"><title>Manchester Central: 10</title></rect>
-<rect x="14" y="626" width="96" height="16" fill="rgb(68,47,123)"><title>Birmingham, Yardley: 12</title></rect>
+<rect x="14" y="626" width="96" height="16" fill="rgb(67,54,127)"><title>Birmingham, Yardley: 14</title></rect>
 <rect x="14" y="644" width="96" height="16" fill="rgb(63,68,135)"><title>Kingston upon Hull West and Hessle: 18</title></rect>
 <rect x="14" y="662" width="96" height="16" fill="rgb(71,32,113)"><title>North Antrim: 8</title></rect>
 <rect x="14" y="680" width="96" height="16" fill="rgb(71,28,109)"><title>Glasgow East: 7</title></rect>
 <rect x="14" y="698" width="96" height="16" fill="rgb(71,28,109)"><title>Walsall North: 7</title></rect>
-<rect x="14" y="716" width="96" height="16" fill="rgb(69,43,121)"><title>Manchester, Gorton: 11</title></rect>
-<rect x="14" y="734" width="96" height="16" fill="rgb(70,39,118)"><title>Blackburn: 10</title></rect>
+<rect x="14" y="716" width="96" height="16" fill="rgb(68,47,123)"><title>Manchester, Gorton: 12</title></rect>
+<rect x="14" y="734" width="96" height="16" fill="rgb(69,43,121)"><title>Blackburn: 11</title></rect>
 <rect x="14" y="752" width="96" height="16" fill="rgb(52,93,140)"><title>Birmingham, Northfield: 26</title></rect>
 <rect x="14" y="770" width="96" height="16" fill="rgb(68,50,125)"><title>Rotherham: 13</title></rect>
-<rect x="14" y="788" width="96" height="16" fill="rgb(71,36,116)"><title>Liverpool, Wavertree: 9</title></rect>
-<rect x="14" y="806" width="96" height="16" fill="rgb(56,84,138)"><title>Birmingham, Hall Green: 23</title></rect>
+<rect x="14" y="788" width="96" height="16" fill="rgb(70,39,118)"><title>Liverpool, Wavertree: 10</title></rect>
+<rect x="14" y="806" width="96" height="16" fill="rgb(53,90,140)"><title>Birmingham, Hall Green: 25</title></rect>
 <rect x="14" y="824" width="96" height="16" fill="rgb(66,58,129)"><title>Belfast East: 15</title></rect>
 <rect x="14" y="842" width="96" height="16" fill="rgb(70,24,106)"><title>Strangford: 6</title></rect>
-<rect x="14" y="860" width="96" height="16" fill="rgb(65,61,131)"><title>Kingston upon Hull North: 16</title></rect>
-<rect x="14" y="878" width="96" height="16" fill="rgb(40,171,128)"><title>Burnley: 54</title></rect>
+<rect x="14" y="860" width="96" height="16" fill="rgb(66,58,129)"><title>Kingston upon Hull North: 15</title></rect>
+<rect x="14" y="878" width="96" height="16" fill="rgb(36,169,130)"><title>Burnley: 53</title></rect>
 <rect x="14" y="896" width="96" height="16" fill="rgb(68,50,125)"><title>Rochdale: 13</title></rect>
-<rect x="14" y="914" width="96" height="16" fill="rgb(39,123,141)"><title>Bradford South: 36</title></rect>
+<rect x="14" y="914" width="96" height="16" fill="rgb(38,125,141)"><title>Bradford South: 37</title></rect>
 <rect x="14" y="932" width="96" height="16" fill="rgb(66,58,129)"><title>Kingston upon Hull East: 15</title></rect>
 <rect x="14" y="950" width="96" height="16" fill="rgb(47,105,141)"><title>Preston: 30</title></rect>
 <rect x="14" y="968" width="96" height="16" fill="rgb(68,8,91)"><title>Great Grimsby: 2</title></rect>
 <rect x="14" y="986" width="96" height="16" fill="rgb(67,54,127)"><title>Leeds West: 14</title></rect>
 <rect x="14" y="1004" width="96" height="16" fill="rgb(66,58,129)"><title>Birmingham, Perry Barr: 15</title></rect>
 <rect x="14" y="1022" width="96" height="16" fill="rgb(71,32,113)"><title>Liverpool, Riverside: 8</title></rect>
-<rect x="14" y="1040" width="96" height="16" fill="rgb(50,96,141)"><title>Bolton South East: 27</title></rect>
-<rect x="14" y="1058" width="96" height="16" fill="rgb(66,58,129)"><title>Wolverhampton South East: 15</title></rect>
+<rect x="14" y="1040" width="96" height="16" fill="rgb(49,99,141)"><title>Bolton South East: 28</title></rect>
+<rect x="14" y="1058" width="96" height="16" fill="rgb(64,65,134)"><title>Wolverhampton South East: 17</title></rect>
 <rect x="14" y="1076" width="96" height="16" fill="rgb(70,20,102)"><title>East Antrim: 5</title></rect>
 <rect x="14" y="1094" width="96" height="16" fill="rgb(50,96,141)"><title>West Bromwich West: 27</title></rect>
 <rect x="14" y="1112" width="96" height="16" fill="rgb(68,47,123)"><title>Oldham West and Royton: 12</title></rect>
 <rect x="14" y="1130" width="96" height="16" fill="rgb(70,24,106)"><title>Stoke-on-Trent Central: 6</title></rect>
 <rect x="14" y="1148" width="96" height="16" fill="rgb(71,32,113)"><title>Leicester West: 8</title></rect>
 <rect x="14" y="1166" width="96" height="16" fill="rgb(69,16,98)"><title>Nottingham East: 4</title></rect>
-<rect x="14" y="1184" width="96" height="16" fill="rgb(63,68,135)"><title>Easington: 18</title></rect>
+<rect x="14" y="1184" width="96" height="16" fill="rgb(54,87,139)"><title>Easington: 24</title></rect>
 <rect x="14" y="1202" width="96" height="16" fill="rgb(71,28,109)"><title>Clacton: 7</title></rect>
 <rect x="14" y="1220" width="96" height="16" fill="rgb(69,16,98)"><title>Glasgow South West: 4</title></rect>
 <rect x="14" y="1238" width="96" height="16" fill="rgb(71,32,113)"><title>Garston and Halewood: 8</title></rect>
-<rect x="14" y="1256" width="96" height="16" fill="rgb(63,68,135)"><title>Gateshead: 18</title></rect>
-<rect x="112" y="104" width="96" height="16" fill="rgb(65,61,131)"><title>Newcastle upon Tyne Central: 16</title></rect>
-<rect x="112" y="122" width="96" height="16" fill="rgb(70,20,102)"><title>Wallasey: 5</title></rect>
-<rect x="112" y="140" width="96" height="16" fill="rgb(63,68,135)"><title>Derby South: 18</title></rect>
-<rect x="112" y="158" width="96" height="16" fill="rgb(69,16,98)"><title>Blackpool North and Cleveleys: 4</title></rect>
+<rect x="14" y="1256" width="96" height="16" fill="rgb(32,149,137)"><title>Gateshead: 46</title></rect>
+<rect x="112" y="104" width="96" height="16" fill="rgb(64,65,134)"><title>Newcastle upon Tyne Central: 17</title></rect>
+<rect x="112" y="122" width="96" height="16" fill="rgb(71,28,109)"><title>Wallasey: 7</title></rect>
+<rect x="112" y="140" width="96" height="16" fill="rgb(61,71,136)"><title>Derby South: 19</title></rect>
+<rect x="112" y="158" width="96" height="16" fill="rgb(70,20,102)"><title>Blackpool North and Cleveleys: 5</title></rect>
 <rect x="112" y="176" width="96" height="16" fill="rgb(69,12,95)"><title>Hartlepool: 3</title></rect>
-<rect x="112" y="194" width="96" height="16" fill="rgb(65,61,131)"><title>West Bromwich East: 16</title></rect>
-<rect x="112" y="212" width="96" height="16" fill="rgb(38,125,141)"><title>Bolton North East: 37</title></rect>
+<rect x="112" y="194" width="96" height="16" fill="rgb(64,65,134)"><title>West Bromwich East: 17</title></rect>
+<rect x="112" y="212" width="96" height="16" fill="rgb(37,128,141)"><title>Bolton North East: 38</title></rect>
 <rect x="112" y="230" width="96" height="16" fill="rgb(71,32,113)"><title>Wythenshawe and Sale East: 8</title></rect>
 <rect x="112" y="248" width="96" height="16" fill="rgb(39,123,141)"><title>Warley: 36</title></rect>
 <rect x="112" y="266" width="96" height="16" fill="rgb(71,32,113)"><title>Walsall South: 8</title></rect>
 <rect x="112" y="284" width="96" height="16" fill="rgb(66,58,129)"><title>Tottenham: 15</title></rect>
 <rect x="112" y="302" width="96" height="16" fill="rgb(54,87,139)"><title>Ashton-under-Lyne: 24</title></rect>
-<rect x="112" y="320" width="96" height="16" fill="rgb(32,152,136)"><title>Stockton North: 47</title></rect>
+<rect x="112" y="320" width="96" height="16" fill="rgb(33,155,135)"><title>Stockton North: 48</title></rect>
 <rect x="112" y="338" width="96" height="16" fill="rgb(70,39,118)"><title>Wolverhampton North East: 10</title></rect>
 <rect x="112" y="356" width="96" height="16" fill="rgb(61,71,136)"><title>Hackney South and Shoreditch: 19</title></rect>
-<rect x="112" y="374" width="96" height="16" fill="rgb(70,24,106)"><title>Stoke-on-Trent North: 6</title></rect>
-<rect x="112" y="392" width="96" height="16" fill="rgb(71,28,109)"><title>Rhondda: 7</title></rect>
-<rect x="112" y="410" width="96" height="16" fill="rgb(35,133,140)"><title>South Shields: 40</title></rect>
+<rect x="112" y="374" width="96" height="16" fill="rgb(69,43,121)"><title>Stoke-on-Trent North: 11</title></rect>
+<rect x="112" y="392" width="96" height="16" fill="rgb(71,32,113)"><title>Rhondda: 8</title></rect>
+<rect x="112" y="410" width="96" height="16" fill="rgb(34,136,140)"><title>South Shields: 41</title></rect>
 <rect x="112" y="428" width="96" height="16" fill="rgb(57,81,138)"><title>St Helens South and Whiston: 22</title></rect>
-<rect x="112" y="446" width="96" height="16" fill="rgb(70,39,118)"><title>Belfast South: 10</title></rect>
+<rect x="112" y="446" width="96" height="16" fill="rgb(69,43,121)"><title>Belfast South: 11</title></rect>
 <rect x="112" y="464" width="96" height="16" fill="rgb(63,68,135)"><title>Doncaster North: 18</title></rect>
-<rect x="112" y="482" width="96" height="16" fill="rgb(50,96,141)"><title>Hyndburn: 27</title></rect>
+<rect x="112" y="482" width="96" height="16" fill="rgb(49,99,141)"><title>Hyndburn: 28</title></rect>
 <rect x="112" y="500" width="96" height="16" fill="rgb(70,20,102)"><title>Barking: 5</title></rect>
 <rect x="112" y="518" width="96" height="16" fill="rgb(64,65,134)"><title>Salford and Eccles: 17</title></rect>
 <rect x="112" y="536" width="96" height="16" fill="rgb(68,4,87)"><title>South Antrim: 1</title></rect>
@@ -105,20 +105,20 @@
 <rect x="112" y="698" width="96" height="16" fill="rgb(37,128,141)"><title>Halifax: 38</title></rect>
 <rect x="112" y="716" width="96" height="16" fill="rgb(70,39,118)"><title>Merthyr Tydfil and Rhymney: 10</title></rect>
 <rect x="112" y="734" width="96" height="16" fill="rgb(45,108,141)"><title>Coventry North East: 31</title></rect>
-<rect x="112" y="752" width="96" height="16" fill="rgb(49,99,141)"><title>Sheffield, Heeley: 28</title></rect>
-<rect x="112" y="770" width="96" height="16" fill="rgb(47,105,141)"><title>Blaenau Gwent: 30</title></rect>
-<rect x="112" y="788" width="96" height="16" fill="rgb(70,24,106)"><title>Halton: 6</title></rect>
+<rect x="112" y="752" width="96" height="16" fill="rgb(48,102,141)"><title>Sheffield, Heeley: 29</title></rect>
+<rect x="112" y="770" width="96" height="16" fill="rgb(42,117,141)"><title>Blaenau Gwent: 34</title></rect>
+<rect x="112" y="788" width="96" height="16" fill="rgb(71,28,109)"><title>Halton: 7</title></rect>
 <rect x="112" y="806" width="96" height="16" fill="rgb(71,28,109)"><title>Oldham East and Saddleworth: 7</title></rect>
-<rect x="112" y="824" width="96" height="16" fill="rgb(69,43,121)"><title>Wentworth and Dearne: 11</title></rect>
+<rect x="112" y="824" width="96" height="16" fill="rgb(68,47,123)"><title>Wentworth and Dearne: 12</title></rect>
 <rect x="112" y="842" width="96" height="16" fill="rgb(51,179,121)"><title>Stockport: 57</title></rect>
 <rect x="112" y="860" width="96" height="16" fill="rgb(71,28,109)"><title>Peterborough: 7</title></rect>
 <rect x="112" y="878" width="96" height="16" fill="rgb(57,81,138)"><title>Aberavon: 22</title></rect>
 <rect x="112" y="896" width="96" height="16" fill="rgb(69,16,98)"><title>Cynon Valley: 4</title></rect>
 <rect x="112" y="914" width="96" height="16" fill="rgb(71,32,113)"><title>Lagan Valley: 8</title></rect>
-<rect x="112" y="932" width="96" height="16" fill="rgb(68,50,125)"><title>Birmingham, Edgbaston: 13</title></rect>
-<rect x="112" y="950" width="96" height="16" fill="rgb(51,179,121)"><title>Plymouth, Sutton and Devonport: 57</title></rect>
-<rect x="112" y="968" width="96" height="16" fill="rgb(70,20,102)"><title>Stoke-on-Trent South: 5</title></rect>
-<rect x="112" y="986" width="96" height="16" fill="rgb(53,90,140)"><title>Pendle: 25</title></rect>
+<rect x="112" y="932" width="96" height="16" fill="rgb(68,47,123)"><title>Birmingham, Edgbaston: 12</title></rect>
+<rect x="112" y="950" width="96" height="16" fill="rgb(55,182,119)"><title>Plymouth, Sutton and Devonport: 58</title></rect>
+<rect x="112" y="968" width="96" height="16" fill="rgb(70,24,106)"><title>Stoke-on-Trent South: 6</title></rect>
+<rect x="112" y="986" width="96" height="16" fill="rgb(50,96,141)"><title>Pendle: 27</title></rect>
 <rect x="112" y="1004" width="96" height="16" fill="rgb(61,71,136)"><title>Doncaster Central: 19</title></rect>
 <rect x="112" y="1022" width="96" height="16" fill="rgb(65,61,131)"><title>Hackney North and Stoke Newington: 16</title></rect>
 <rect x="112" y="1040" width="96" height="16" fill="rgb(57,81,138)"><title>St Helens North: 22</title></rect>
@@ -126,16 +126,16 @@
 <rect x="112" y="1076" width="96" height="16" fill="rgb(40,120,141)"><title>Sunderland Central: 35</title></rect>
 <rect x="112" y="1094" width="96" height="16" fill="rgb(71,32,113)"><title>Heywood and Middleton: 8</title></rect>
 <rect x="112" y="1112" width="96" height="16" fill="rgb(66,58,129)"><title>Barnsley Central: 15</title></rect>
-<rect x="112" y="1130" width="96" height="16" fill="rgb(53,90,140)"><title>Birmingham, Selly Oak: 25</title></rect>
+<rect x="112" y="1130" width="96" height="16" fill="rgb(52,93,140)"><title>Birmingham, Selly Oak: 26</title></rect>
 <rect x="112" y="1148" width="96" height="16" fill="rgb(71,28,109)"><title>Brent Central: 7</title></rect>
 <rect x="112" y="1166" width="96" height="16" fill="rgb(49,99,141)"><title>Stalybridge and Hyde: 28</title></rect>
 <rect x="112" y="1184" width="96" height="16" fill="rgb(54,87,139)"><title>West Ham: 24</title></rect>
 <rect x="112" y="1202" width="96" height="16" fill="rgb(69,16,98)"><title>Normanton, Pontefract and Castleford: 4</title></rect>
 <rect x="112" y="1220" width="96" height="16" fill="rgb(53,90,140)"><title>Houghton and Sunderland South: 25</title></rect>
-<rect x="112" y="1238" width="96" height="16" fill="rgb(66,58,129)"><title>Huddersfield: 15</title></rect>
+<rect x="112" y="1238" width="96" height="16" fill="rgb(65,61,131)"><title>Huddersfield: 16</title></rect>
 <rect x="112" y="1256" width="96" height="16" fill="rgb(69,12,95)"><title>Dudley North: 3</title></rect>
-<rect x="210" y="104" width="96" height="16" fill="rgb(65,61,131)"><title>Swansea East: 16</title></rect>
-<rect x="210" y="122" width="96" height="16" fill="rgb(44,111,141)"><title>Plymouth, Moor View: 32</title></rect>
+<rect x="210" y="104" width="96" height="16" fill="rgb(63,68,135)"><title>Swansea East: 18</title></rect>
+<rect x="210" y="122" width="96" height="16" fill="rgb(42,117,141)"><title>Plymouth, Moor View: 34</title></rect>
 <rect x="210" y="140" width="96" height="16" fill="rgb(71,28,109)"><title>Glasgow North West: 7</title></rect>
 <rect x="210" y="158" width="96" height="16" fill="rgb(69,12,95)"><title>Bethnal Green and Bow: 3</title></rect>
 <rect x="210" y="176" width="96" height="16" fill="rgb(70,24,106)"><title>Telford: 6</title></rect>
@@ -144,13 +144,13 @@
 <rect x="210" y="230" width="96" height="16" fill="rgb(68,47,123)"><title>Glasgow Central: 12</title></rect>
 <rect x="210" y="248" width="96" height="16" fill="rgb(48,102,141)"><title>Portsmouth South: 29</title></rect>
 <rect x="210" y="266" width="96" height="16" fill="rgb(70,24,106)"><title>Hemsworth: 6</title></rect>
-<rect x="210" y="284" width="96" height="16" fill="rgb(47,105,141)"><title>Bishop Auckland: 30</title></rect>
-<rect x="210" y="302" width="96" height="16" fill="rgb(68,47,123)"><title>Sittingbourne and Sheppey: 12</title></rect>
+<rect x="210" y="284" width="96" height="16" fill="rgb(37,128,141)"><title>Bishop Auckland: 38</title></rect>
+<rect x="210" y="302" width="96" height="16" fill="rgb(68,50,125)"><title>Sittingbourne and Sheppey: 13</title></rect>
 <rect x="210" y="320" width="96" height="16" fill="rgb(54,87,139)"><title>West Dunbartonshire: 24</title></rect>
 <rect x="210" y="338" width="96" height="16" fill="rgb(66,58,129)"><title>Leicester South: 15</title></rect>
 <rect x="210" y="356" width="96" height="16" fill="rgb(71,32,113)"><title>Newcastle upon Tyne East: 8</title></rect>
 <rect x="210" y="374" width="96" height="16" fill="rgb(68,1,84)"><title>Motherwell and Wishaw: 0</title></rect>
-<rect x="210" y="392" width="96" height="16" fill="rgb(68,47,123)"><title>Boston and Skegness: 12</title></rect>
+<rect x="210" y="392" width="96" height="16" fill="rgb(67,54,127)"><title>Boston and Skegness: 14</title></rect>
 <rect x="210" y="410" width="96" height="16" fill="rgb(50,96,141)"><title>Sheffield South East: 27</title></rect>
 <rect x="210" y="428" width="96" height="16" fill="rgb(52,93,140)"><title>South Thanet: 26</title></rect>
 <rect x="210" y="446" width="96" height="16" fill="rgb(64,65,134)"><title>Camberwell and Peckham: 17</title></rect>
@@ -158,27 +158,27 @@
 <rect x="210" y="482" width="96" height="16" fill="rgb(61,71,136)"><title>East Ham: 19</title></rect>
 <rect x="210" y="500" width="96" height="16" fill="rgb(43,114,141)"><title>Islington North: 33</title></rect>
 <rect x="210" y="518" width="96" height="16" fill="rgb(33,158,134)"><title>Morecambe and Lunesdale: 49</title></rect>
-<rect x="210" y="536" width="96" height="16" fill="rgb(44,111,141)"><title>Jarrow: 32</title></rect>
+<rect x="210" y="536" width="96" height="16" fill="rgb(36,131,141)"><title>Jarrow: 39</title></rect>
 <rect x="210" y="554" width="96" height="16" fill="rgb(69,16,98)"><title>Airdrie and Shotts: 4</title></rect>
 <rect x="210" y="572" width="96" height="16" fill="rgb(68,47,123)"><title>Southampton, Test: 12</title></rect>
 <rect x="210" y="590" width="96" height="16" fill="rgb(70,24,106)"><title>Rochford and Southend East: 6</title></rect>
 <rect x="210" y="608" width="96" height="16" fill="rgb(45,108,141)"><title>Wigan: 31</title></rect>
 <rect x="210" y="626" width="96" height="16" fill="rgb(68,8,91)"><title>Dundee West: 2</title></rect>
-<rect x="210" y="644" width="96" height="16" fill="rgb(66,58,129)"><title>Darlington: 15</title></rect>
-<rect x="210" y="662" width="96" height="16" fill="rgb(68,50,125)"><title>Cardiff West: 13</title></rect>
+<rect x="210" y="644" width="96" height="16" fill="rgb(63,68,135)"><title>Darlington: 18</title></rect>
+<rect x="210" y="662" width="96" height="16" fill="rgb(67,54,127)"><title>Cardiff West: 14</title></rect>
 <rect x="210" y="680" width="96" height="16" fill="rgb(47,105,141)"><title>Luton South: 30</title></rect>
 <rect x="210" y="698" width="96" height="16" fill="rgb(71,36,116)"><title>Leicester East: 9</title></rect>
-<rect x="210" y="716" width="96" height="16" fill="rgb(47,105,141)"><title>Croydon North: 30</title></rect>
+<rect x="210" y="716" width="96" height="16" fill="rgb(45,108,141)"><title>Croydon North: 31</title></rect>
 <rect x="210" y="734" width="96" height="16" fill="rgb(61,71,136)"><title>Blyth Valley: 19</title></rect>
 <rect x="210" y="752" width="96" height="16" fill="rgb(60,75,136)"><title>Denton and Reddish: 20</title></rect>
-<rect x="210" y="770" width="96" height="16" fill="rgb(37,128,141)"><title>Wansbeck: 38</title></rect>
-<rect x="210" y="788" width="96" height="16" fill="rgb(48,102,141)"><title>Southampton, Itchen: 29</title></rect>
-<rect x="210" y="806" width="96" height="16" fill="rgb(50,96,141)"><title>Brighton, Kemptown: 27</title></rect>
-<rect x="210" y="824" width="96" height="16" fill="rgb(60,75,136)"><title>Northampton South: 20</title></rect>
-<rect x="210" y="842" width="96" height="16" fill="rgb(68,4,87)"><title>Walthamstow: 1</title></rect>
+<rect x="210" y="770" width="96" height="16" fill="rgb(36,131,141)"><title>Wansbeck: 39</title></rect>
+<rect x="210" y="788" width="96" height="16" fill="rgb(47,105,141)"><title>Southampton, Itchen: 30</title></rect>
+<rect x="210" y="806" width="96" height="16" fill="rgb(49,99,141)"><title>Brighton, Kemptown: 28</title></rect>
+<rect x="210" y="824" width="96" height="16" fill="rgb(59,78,137)"><title>Northampton South: 21</title></rect>
+<rect x="210" y="842" width="96" height="16" fill="rgb(68,8,91)"><title>Walthamstow: 2</title></rect>
 <rect x="210" y="860" width="96" height="16" fill="rgb(44,174,125)"><title>Barrow and Furness: 55</title></rect>
 <rect x="210" y="878" width="96" height="16" fill="rgb(70,24,106)"><title>Enfield North: 6</title></rect>
-<rect x="210" y="896" width="96" height="16" fill="rgb(53,90,140)"><title>Middlesbrough South and East Cleveland: 25</title></rect>
+<rect x="210" y="896" width="96" height="16" fill="rgb(52,93,140)"><title>Middlesbrough South and East Cleveland: 26</title></rect>
 <rect x="210" y="914" width="96" height="16" fill="rgb(42,117,141)"><title>Waveney: 34</title></rect>
 <rect x="210" y="932" width="96" height="16" fill="rgb(70,39,118)"><title>Ashfield: 10</title></rect>
 <rect x="210" y="950" width="96" height="16" fill="rgb(68,47,123)"><title>Scunthorpe: 12</title></rect>
@@ -187,21 +187,21 @@
 <rect x="210" y="1004" width="96" height="16" fill="rgb(68,47,123)"><title>North Thanet: 12</title></rect>
 <rect x="210" y="1022" width="96" height="16" fill="rgb(57,81,138)"><title>Lewisham, Deptford: 22</title></rect>
 <rect x="210" y="1040" width="96" height="16" fill="rgb(61,71,136)"><title>Don Valley: 19</title></rect>
-<rect x="210" y="1058" width="96" height="16" fill="rgb(71,36,116)"><title>Batley and Spen: 9</title></rect>
-<rect x="210" y="1076" width="96" height="16" fill="rgb(67,54,127)"><title>Vauxhall: 14</title></rect>
+<rect x="210" y="1058" width="96" height="16" fill="rgb(69,43,121)"><title>Batley and Spen: 11</title></rect>
+<rect x="210" y="1076" width="96" height="16" fill="rgb(54,87,139)"><title>Vauxhall: 24</title></rect>
 <rect x="210" y="1094" width="96" height="16" fill="rgb(68,8,91)"><title>Vale of Clwyd: 2</title></rect>
-<rect x="210" y="1112" width="96" height="16" fill="rgb(33,160,134)"><title>Scarborough and Whitby: 50</title></rect>
+<rect x="210" y="1112" width="96" height="16" fill="rgb(33,158,134)"><title>Scarborough and Whitby: 49</title></rect>
 <rect x="210" y="1130" width="96" height="16" fill="rgb(49,99,141)"><title>Glenrothes: 28</title></rect>
 <rect x="210" y="1148" width="96" height="16" fill="rgb(69,43,121)"><title>Manchester, Withington: 11</title></rect>
-<rect x="210" y="1166" width="96" height="16" fill="rgb(57,81,138)"><title>Islington South and Finsbury: 22</title></rect>
+<rect x="210" y="1166" width="96" height="16" fill="rgb(56,84,138)"><title>Islington South and Finsbury: 23</title></rect>
 <rect x="210" y="1184" width="96" height="16" fill="rgb(56,84,138)"><title>Lewisham East: 23</title></rect>
-<rect x="210" y="1202" width="96" height="16" fill="rgb(59,78,137)"><title>Sedgefield: 21</title></rect>
+<rect x="210" y="1202" width="96" height="16" fill="rgb(50,96,141)"><title>Sedgefield: 27</title></rect>
 <rect x="210" y="1220" width="96" height="16" fill="rgb(64,65,134)"><title>Camborne and Redruth: 17</title></rect>
-<rect x="210" y="1238" width="96" height="16" fill="rgb(33,163,133)"><title>Ipswich: 51</title></rect>
-<rect x="210" y="1256" width="96" height="16" fill="rgb(71,28,109)"><title>Wakefield: 7</title></rect>
+<rect x="210" y="1238" width="96" height="16" fill="rgb(36,169,130)"><title>Ipswich: 53</title></rect>
+<rect x="210" y="1256" width="96" height="16" fill="rgb(71,32,113)"><title>Wakefield: 8</title></rect>
 <rect x="308" y="104" width="96" height="16" fill="rgb(68,50,125)"><title>North Tyneside: 13</title></rect>
 <rect x="308" y="122" width="96" height="16" fill="rgb(69,43,121)"><title>Louth and Horncastle: 11</title></rect>
-<rect x="308" y="140" width="96" height="16" fill="rgb(56,84,138)"><title>North Durham: 23</title></rect>
+<rect x="308" y="140" width="96" height="16" fill="rgb(42,117,141)"><title>North Durham: 34</title></rect>
 <rect x="308" y="158" width="96" height="16" fill="rgb(69,16,98)"><title>Coatbridge, Chryston and Bellshill: 4</title></rect>
 <rect x="308" y="176" width="96" height="16" fill="rgb(64,65,134)"><title>Bristol East: 17</title></rect>
 <rect x="308" y="194" width="96" height="16" fill="rgb(68,8,91)"><title>Newport East: 2</title></rect>
@@ -209,20 +209,20 @@
 <rect x="308" y="230" width="96" height="16" fill="rgb(70,39,118)"><title>Wolverhampton South West: 10</title></rect>
 <rect x="308" y="248" width="96" height="16" fill="rgb(47,105,141)"><title>Leigh: 30</title></rect>
 <rect x="308" y="266" width="96" height="16" fill="rgb(32,141,140)"><title>Keighley: 43</title></rect>
-<rect x="308" y="284" width="96" height="16" fill="rgb(70,24,106)"><title>Torfaen: 6</title></rect>
+<rect x="308" y="284" width="96" height="16" fill="rgb(71,28,109)"><title>Torfaen: 7</title></rect>
 <rect x="308" y="302" width="96" height="16" fill="rgb(57,81,138)"><title>Bermondsey and Old Southwark: 22</title></rect>
-<rect x="308" y="320" width="96" height="16" fill="rgb(65,61,131)"><title>Ayr, Carrick and Cumnock: 16</title></rect>
+<rect x="308" y="320" width="96" height="16" fill="rgb(64,65,134)"><title>Ayr, Carrick and Cumnock: 17</title></rect>
 <rect x="308" y="338" width="96" height="16" fill="rgb(69,16,98)"><title>Newport West: 4</title></rect>
 <rect x="308" y="356" width="96" height="16" fill="rgb(47,177,123)"><title>Ogmore: 56</title></rect>
 <rect x="308" y="374" width="96" height="16" fill="rgb(69,43,121)"><title>Dewsbury: 11</title></rect>
 <rect x="308" y="392" width="96" height="16" fill="rgb(70,24,106)"><title>Poplar and Limehouse: 6</title></rect>
 <rect x="308" y="410" width="96" height="16" fill="rgb(69,16,98)"><title>Nottingham South: 4</title></rect>
 <rect x="308" y="428" width="96" height="16" fill="rgb(66,58,129)"><title>Ealing, Southall: 15</title></rect>
-<rect x="308" y="446" width="96" height="16" fill="rgb(68,8,91)"><title>Paisley and Renfrewshire South: 2</title></rect>
-<rect x="308" y="464" width="96" height="16" fill="rgb(70,20,102)"><title>Rutherglen and Hamilton West: 5</title></rect>
+<rect x="308" y="446" width="96" height="16" fill="rgb(69,12,95)"><title>Paisley and Renfrewshire South: 3</title></rect>
+<rect x="308" y="464" width="96" height="16" fill="rgb(70,24,106)"><title>Rutherglen and Hamilton West: 6</title></rect>
 <rect x="308" y="482" width="96" height="16" fill="rgb(70,24,106)"><title>Hammersmith: 6</title></rect>
-<rect x="308" y="500" width="96" height="16" fill="rgb(71,28,109)"><title>Llanelli: 7</title></rect>
-<rect x="308" y="518" width="96" height="16" fill="rgb(51,179,121)"><title>Sheffield Central: 57</title></rect>
+<rect x="308" y="500" width="96" height="16" fill="rgb(71,32,113)"><title>Llanelli: 8</title></rect>
+<rect x="308" y="518" width="96" height="16" fill="rgb(59,184,117)"><title>Sheffield Central: 59</title></rect>
 <rect x="308" y="536" width="96" height="16" fill="rgb(60,75,136)"><title>Rossendale and Darwen: 20</title></rect>
 <rect x="308" y="554" width="96" height="16" fill="rgb(63,68,135)"><title>Portsmouth North: 18</title></rect>
 <rect x="308" y="572" width="96" height="16" fill="rgb(68,50,125)"><title>Caerphilly: 13</title></rect>
@@ -232,20 +232,20 @@
 <rect x="308" y="644" width="96" height="16" fill="rgb(57,81,138)"><title>Neath: 22</title></rect>
 <rect x="308" y="662" width="96" height="16" fill="rgb(71,32,113)"><title>Bolsover: 8</title></rect>
 <rect x="308" y="680" width="96" height="16" fill="rgb(70,39,118)"><title>Newcastle upon Tyne North: 10</title></rect>
-<rect x="308" y="698" width="96" height="16" fill="rgb(36,169,130)"><title>Kilmarnock and Loudoun: 53</title></rect>
+<rect x="308" y="698" width="96" height="16" fill="rgb(44,174,125)"><title>Kilmarnock and Loudoun: 55</title></rect>
 <rect x="308" y="716" width="96" height="16" fill="rgb(35,133,140)"><title>Croydon Central: 40</title></rect>
-<rect x="308" y="734" width="96" height="16" fill="rgb(33,163,133)"><title>Workington: 51</title></rect>
-<rect x="308" y="752" width="96" height="16" fill="rgb(52,93,140)"><title>Northampton North: 26</title></rect>
-<rect x="308" y="770" width="96" height="16" fill="rgb(68,8,91)"><title>Hayes and Harlington: 2</title></rect>
-<rect x="308" y="788" width="96" height="16" fill="rgb(40,120,141)"><title>Greenwich and Woolwich: 35</title></rect>
+<rect x="308" y="734" width="96" height="16" fill="rgb(36,169,130)"><title>Workington: 53</title></rect>
+<rect x="308" y="752" width="96" height="16" fill="rgb(49,99,141)"><title>Northampton North: 28</title></rect>
+<rect x="308" y="770" width="96" height="16" fill="rgb(69,12,95)"><title>Hayes and Harlington: 3</title></rect>
+<rect x="308" y="788" width="96" height="16" fill="rgb(39,123,141)"><title>Greenwich and Woolwich: 36</title></rect>
 <rect x="308" y="806" width="96" height="16" fill="rgb(33,155,135)"><title>Chesterfield: 48</title></rect>
-<rect x="308" y="824" width="96" height="16" fill="rgb(72,192,108)"><title>Norwich South: 62</title></rect>
+<rect x="308" y="824" width="96" height="16" fill="rgb(85,196,101)"><title>Norwich South: 64</title></rect>
 <rect x="308" y="842" width="96" height="16" fill="rgb(47,105,141)"><title>Bristol North West: 30</title></rect>
-<rect x="308" y="860" width="96" height="16" fill="rgb(57,81,138)"><title>Lincoln: 22</title></rect>
+<rect x="308" y="860" width="96" height="16" fill="rgb(56,84,138)"><title>Lincoln: 23</title></rect>
 <rect x="308" y="878" width="96" height="16" fill="rgb(66,58,129)"><title>South Basildon and East Thurrock: 15</title></rect>
-<rect x="308" y="896" width="96" height="16" fill="rgb(60,75,136)"><title>St Ives: 20</title></rect>
+<rect x="308" y="896" width="96" height="16" fill="rgb(61,71,136)"><title>St Ives: 19</title></rect>
 <rect x="308" y="914" width="96" height="16" fill="rgb(32,141,140)"><title>Bury North: 43</title></rect>
-<rect x="308" y="932" width="96" height="16" fill="rgb(68,47,123)"><title>Erith and Thamesmead: 12</title></rect>
+<rect x="308" y="932" width="96" height="16" fill="rgb(68,50,125)"><title>Erith and Thamesmead: 13</title></rect>
 <rect x="308" y="950" width="96" height="16" fill="rgb(71,28,109)"><title>Halesowen and Rowley Regis: 7</title></rect>
 <rect x="308" y="968" width="96" height="16" fill="rgb(71,32,113)"><title>Nuneaton: 8</title></rect>
 <rect x="308" y="986" width="96" height="16" fill="rgb(68,50,125)"><title>North East Cambridgeshire: 13</title></rect>
@@ -254,11 +254,11 @@
 <rect x="308" y="1040" width="96" height="16" fill="rgb(61,71,136)"><title>Havant: 19</title></rect>
 <rect x="308" y="1058" width="96" height="16" fill="rgb(54,87,139)"><title>Bury South: 24</title></rect>
 <rect x="308" y="1076" width="96" height="16" fill="rgb(69,43,121)"><title>Glasgow South: 11</title></rect>
-<rect x="308" y="1094" width="96" height="16" fill="rgb(34,136,140)"><title>Swansea West: 41</title></rect>
+<rect x="308" y="1094" width="96" height="16" fill="rgb(32,144,139)"><title>Swansea West: 44</title></rect>
 <rect x="308" y="1112" width="96" height="16" fill="rgb(45,108,141)"><title>Lancaster and Fleetwood: 31</title></rect>
-<rect x="308" y="1130" width="96" height="16" fill="rgb(54,87,139)"><title>Dulwich and West Norwood: 24</title></rect>
+<rect x="308" y="1130" width="96" height="16" fill="rgb(35,133,140)"><title>Dulwich and West Norwood: 40</title></rect>
 <rect x="308" y="1148" width="96" height="16" fill="rgb(53,90,140)"><title>Warrington North: 25</title></rect>
-<rect x="308" y="1166" width="96" height="16" fill="rgb(56,84,138)"><title>North West Durham: 23</title></rect>
+<rect x="308" y="1166" width="96" height="16" fill="rgb(32,147,138)"><title>North West Durham: 45</title></rect>
 <rect x="308" y="1184" width="96" height="16" fill="rgb(53,90,140)"><title>Holborn and St Pancras: 25</title></rect>
 <rect x="308" y="1202" width="96" height="16" fill="rgb(64,65,134)"><title>North Cornwall: 17</title></rect>
 <rect x="308" y="1220" width="96" height="16" fill="rgb(36,169,130)"><title>Bridgwater and West Somerset: 53</title></rect>
@@ -266,8 +266,8 @@
 <rect x="308" y="1256" width="96" height="16" fill="rgb(63,68,135)"><title>Feltham and Heston: 18</title></rect>
 <rect x="406" y="104" width="96" height="16" fill="rgb(38,125,141)"><title>Kirkcaldy and Cowdenbeath: 37</title></rect>
 <rect x="406" y="122" width="96" height="16" fill="rgb(52,93,140)"><title>Luton North: 26</title></rect>
-<rect x="406" y="140" width="96" height="16" fill="rgb(47,177,123)"><title>Copeland: 56</title></rect>
-<rect x="406" y="158" width="96" height="16" fill="rgb(68,47,123)"><title>Ealing North: 12</title></rect>
+<rect x="406" y="140" width="96" height="16" fill="rgb(51,179,121)"><title>Copeland: 57</title></rect>
+<rect x="406" y="158" width="96" height="16" fill="rgb(68,50,125)"><title>Ealing North: 13</title></rect>
 <rect x="406" y="176" width="96" height="16" fill="rgb(186,222,39)"><title>Isle of Wight: 76</title></rect>
 <rect x="406" y="194" width="96" height="16" fill="rgb(32,149,137)"><title>Dover: 46</title></rect>
 <rect x="406" y="212" width="96" height="16" fill="rgb(71,32,113)"><title>Stretford and Urmston: 8</title></rect>
@@ -276,21 +276,21 @@
 <rect x="406" y="266" width="96" height="16" fill="rgb(70,39,118)"><title>Derby North: 10</title></rect>
 <rect x="406" y="284" width="96" height="16" fill="rgb(69,12,95)"><title>Gillingham and Rainham: 3</title></rect>
 <rect x="406" y="302" width="96" height="16" fill="rgb(68,8,91)"><title>Central Ayrshire: 2</title></rect>
-<rect x="406" y="320" width="96" height="16" fill="rgb(34,136,140)"><title>Bassetlaw: 41</title></rect>
+<rect x="406" y="320" width="96" height="16" fill="rgb(40,171,128)"><title>Bassetlaw: 54</title></rect>
 <rect x="406" y="338" width="96" height="16" fill="rgb(71,32,113)"><title>Thurrock: 8</title></rect>
-<rect x="406" y="356" width="96" height="16" fill="rgb(36,131,141)"><title>Bristol West: 39</title></rect>
-<rect x="406" y="374" width="96" height="16" fill="rgb(42,117,141)"><title>Carlisle: 34</title></rect>
-<rect x="406" y="392" width="96" height="16" fill="rgb(53,90,140)"><title>Coventry North West: 25</title></rect>
-<rect x="406" y="410" width="96" height="16" fill="rgb(71,28,109)"><title>Slough: 7</title></rect>
+<rect x="406" y="356" width="96" height="16" fill="rgb(35,133,140)"><title>Bristol West: 40</title></rect>
+<rect x="406" y="374" width="96" height="16" fill="rgb(44,111,141)"><title>Carlisle: 32</title></rect>
+<rect x="406" y="392" width="96" height="16" fill="rgb(54,87,139)"><title>Coventry North West: 24</title></rect>
+<rect x="406" y="410" width="96" height="16" fill="rgb(71,32,113)"><title>Slough: 8</title></rect>
 <rect x="406" y="428" width="96" height="16" fill="rgb(68,50,125)"><title>Wyre Forest: 13</title></rect>
-<rect x="406" y="446" width="96" height="16" fill="rgb(68,50,125)"><title>Weston-Super-Mare: 13</title></rect>
-<rect x="406" y="464" width="96" height="16" fill="rgb(42,117,141)"><title>Coventry South: 34</title></rect>
+<rect x="406" y="446" width="96" height="16" fill="rgb(67,54,127)"><title>Weston-Super-Mare: 14</title></rect>
+<rect x="406" y="464" width="96" height="16" fill="rgb(40,120,141)"><title>Coventry South: 35</title></rect>
 <rect x="406" y="482" width="96" height="16" fill="rgb(69,43,121)"><title>Islwyn: 11</title></rect>
-<rect x="406" y="500" width="96" height="16" fill="rgb(69,12,95)"><title>Westminster North: 3</title></rect>
-<rect x="406" y="518" width="96" height="16" fill="rgb(71,36,116)"><title>Streatham: 9</title></rect>
+<rect x="406" y="500" width="96" height="16" fill="rgb(37,128,141)"><title>Westminster North: 38</title></rect>
+<rect x="406" y="518" width="96" height="16" fill="rgb(56,84,138)"><title>Streatham: 23</title></rect>
 <rect x="406" y="536" width="96" height="16" fill="rgb(56,84,138)"><title>Kensington: 23</title></rect>
 <rect x="406" y="554" width="96" height="16" fill="rgb(56,84,138)"><title>Eltham: 23</title></rect>
-<rect x="406" y="572" width="96" height="16" fill="rgb(68,50,125)"><title>Rother Valley: 13</title></rect>
+<rect x="406" y="572" width="96" height="16" fill="rgb(67,54,127)"><title>Rother Valley: 14</title></rect>
 <rect x="406" y="590" width="96" height="16" fill="rgb(68,47,123)"><title>South Dorset: 12</title></rect>
 <rect x="406" y="608" width="96" height="16" fill="rgb(71,36,116)"><title>Bournemouth West: 9</title></rect>
 <rect x="406" y="626" width="96" height="16" fill="rgb(68,50,125)"><title>Cardiff Central: 13</title></rect>
@@ -299,10 +299,10 @@
 <rect x="406" y="680" width="96" height="16" fill="rgb(69,16,98)"><title>Meriden: 4</title></rect>
 <rect x="406" y="698" width="96" height="16" fill="rgb(66,58,129)"><title>Basildon and Billericay: 15</title></rect>
 <rect x="406" y="716" width="96" height="16" fill="rgb(63,68,135)"><title>Makerfield: 18</title></rect>
-<rect x="406" y="734" width="96" height="16" fill="rgb(65,61,131)"><title>Southport: 16</title></rect>
+<rect x="406" y="734" width="96" height="16" fill="rgb(52,93,140)"><title>Southport: 26</title></rect>
 <rect x="406" y="752" width="96" height="16" fill="rgb(70,39,118)"><title>Cleethorpes: 10</title></rect>
 <rect x="406" y="770" width="96" height="16" fill="rgb(71,28,109)"><title>Glasgow North: 7</title></rect>
-<rect x="406" y="788" width="96" height="16" fill="rgb(70,39,118)"><title>Ellesmere Port and Neston: 10</title></rect>
+<rect x="406" y="788" width="96" height="16" fill="rgb(69,43,121)"><title>Ellesmere Port and Neston: 11</title></rect>
 <rect x="406" y="806" width="96" height="16" fill="rgb(71,32,113)"><title>Lanark and Hamilton East: 8</title></rect>
 <rect x="406" y="824" width="96" height="16" fill="rgb(71,28,109)"><title>Redditch: 7</title></rect>
 <rect x="406" y="842" width="96" height="16" fill="rgb(66,58,129)"><title>Gravesham: 15</title></rect>
@@ -312,8 +312,8 @@
 <rect x="406" y="914" width="96" height="16" fill="rgb(68,8,91)"><title>Dundee East: 2</title></rect>
 <rect x="406" y="932" width="96" height="16" fill="rgb(68,50,125)"><title>Bognor Regis and Littlehampton: 13</title></rect>
 <rect x="406" y="950" width="96" height="16" fill="rgb(69,16,98)"><title>Wrexham: 4</title></rect>
-<rect x="406" y="968" width="96" height="16" fill="rgb(71,32,113)"><title>Rochester and Strood: 8</title></rect>
-<rect x="406" y="986" width="96" height="16" fill="rgb(45,108,141)"><title>Eastbourne: 31</title></rect>
+<rect x="406" y="968" width="96" height="16" fill="rgb(70,39,118)"><title>Rochester and Strood: 10</title></rect>
+<rect x="406" y="986" width="96" height="16" fill="rgb(44,111,141)"><title>Eastbourne: 32</title></rect>
 <rect x="406" y="1004" width="96" height="16" fill="rgb(63,68,135)"><title>Torridge and West Devon: 18</title></rect>
 <rect x="406" y="1022" width="96" height="16" fill="rgb(32,152,136)"><title>Norwich North: 47</title></rect>
 <rect x="406" y="1040" width="96" height="16" fill="rgb(57,81,138)"><title>Leeds North East: 22</title></rect>
@@ -321,7 +321,7 @@
 <rect x="406" y="1076" width="96" height="16" fill="rgb(69,16,98)"><title>Caithness, Sutherland and Easter Ross: 4</title></rect>
 <rect x="406" y="1094" width="96" height="16" fill="rgb(65,61,131)"><title>Hornsey and Wood Green: 16</title></rect>
 <rect x="406" y="1112" width="96" height="16" fill="rgb(69,16,98)"><title>Amber Valley: 4</title></rect>
-<rect x="406" y="1130" width="96" height="16" fill="rgb(56,84,138)"><title>Blaydon: 23</title></rect>
+<rect x="406" y="1130" width="96" height="16" fill="rgb(33,160,134)"><title>Blaydon: 50</title></rect>
 <rect x="406" y="1148" width="96" height="16" fill="rgb(161,217,54)"><title>North Norfolk: 75</title></rect>
 <rect x="406" y="1166" width="96" height="16" fill="rgb(70,20,102)"><title>Stourbridge: 5</title></rect>
 <rect x="406" y="1184" width="96" height="16" fill="rgb(70,24,106)"><title>Erewash: 6</title></rect>
@@ -330,10 +330,10 @@
 <rect x="406" y="1238" width="96" height="16" fill="rgb(38,125,141)"><title>Calder Valley: 37</title></rect>
 <rect x="406" y="1256" width="96" height="16" fill="rgb(68,8,91)"><title>Clwyd West: 2</title></rect>
 <rect x="504" y="104" width="96" height="16" fill="rgb(70,20,102)"><title>Brent North: 5</title></rect>
-<rect x="504" y="122" width="96" height="16" fill="rgb(61,71,136)"><title>Aberdeen North: 19</title></rect>
+<rect x="504" y="122" width="96" height="16" fill="rgb(57,81,138)"><title>Aberdeen North: 22</title></rect>
 <rect x="504" y="140" width="96" height="16" fill="rgb(70,24,106)"><title>Cumbernauld, Kilsyth and Kirkintilloch East: 6</title></rect>
 <rect x="504" y="158" width="96" height="16" fill="rgb(68,47,123)"><title>Worcester: 12</title></rect>
-<rect x="504" y="176" width="96" height="16" fill="rgb(64,65,134)"><title>Sherwood: 17</title></rect>
+<rect x="504" y="176" width="96" height="16" fill="rgb(63,68,135)"><title>Sherwood: 18</title></rect>
 <rect x="504" y="194" width="96" height="16" fill="rgb(71,28,109)"><title>Cannock Chase: 7</title></rect>
 <rect x="504" y="212" width="96" height="16" fill="rgb(54,87,139)"><title>Wellingborough: 24</title></rect>
 <rect x="504" y="230" width="96" height="16" fill="rgb(45,108,141)"><title>North Devon: 31</title></rect>
@@ -342,7 +342,7 @@
 <rect x="504" y="284" width="96" height="16" fill="rgb(70,24,106)"><title>Ilford South: 6</title></rect>
 <rect x="504" y="302" width="96" height="16" fill="rgb(69,16,98)"><title>Clwyd South: 4</title></rect>
 <rect x="504" y="320" width="96" height="16" fill="rgb(69,16,98)"><title>Preseli Pembrokeshire: 4</title></rect>
-<rect x="504" y="338" width="96" height="16" fill="rgb(47,105,141)"><title>Burton: 30</title></rect>
+<rect x="504" y="338" width="96" height="16" fill="rgb(45,108,141)"><title>Burton: 31</title></rect>
 <rect x="504" y="356" width="96" height="16" fill="rgb(66,58,129)"><title>East Yorkshire: 15</title></rect>
 <rect x="504" y="374" width="96" height="16" fill="rgb(70,24,106)"><title>Ealing Central and Acton: 6</title></rect>
 <rect x="504" y="392" width="96" height="16" fill="rgb(70,39,118)"><title>Mitcham and Morden: 10</title></rect>
@@ -350,23 +350,23 @@
 <rect x="504" y="428" width="96" height="16" fill="rgb(32,149,137)"><title>Berwick-upon-Tweed: 46</title></rect>
 <rect x="504" y="446" width="96" height="16" fill="rgb(71,32,113)"><title>Pontypridd: 8</title></rect>
 <rect x="504" y="464" width="96" height="16" fill="rgb(71,28,109)"><title>Dumfries and Galloway: 7</title></rect>
-<rect x="504" y="482" width="96" height="16" fill="rgb(71,32,113)"><title>Milton Keynes South: 8</title></rect>
-<rect x="504" y="500" width="96" height="16" fill="rgb(48,102,141)"><title>West Lancashire: 29</title></rect>
+<rect x="504" y="482" width="96" height="16" fill="rgb(71,36,116)"><title>Milton Keynes South: 9</title></rect>
+<rect x="504" y="500" width="96" height="16" fill="rgb(47,105,141)"><title>West Lancashire: 30</title></rect>
 <rect x="504" y="518" width="96" height="16" fill="rgb(54,87,139)"><title>Corby: 24</title></rect>
 <rect x="504" y="536" width="96" height="16" fill="rgb(63,68,135)"><title>Crewe and Nantwich: 18</title></rect>
-<rect x="504" y="554" width="96" height="16" fill="rgb(69,12,95)"><title>Ynys Môn: 3</title></rect>
-<rect x="504" y="572" width="96" height="16" fill="rgb(68,8,91)"><title>South Swindon: 2</title></rect>
-<rect x="504" y="590" width="96" height="16" fill="rgb(32,152,136)"><title>Colchester: 47</title></rect>
+<rect x="504" y="554" width="96" height="16" fill="rgb(69,16,98)"><title>Ynys Môn: 4</title></rect>
+<rect x="504" y="572" width="96" height="16" fill="rgb(59,78,137)"><title>South Swindon: 21</title></rect>
+<rect x="504" y="590" width="96" height="16" fill="rgb(33,155,135)"><title>Colchester: 48</title></rect>
 <rect x="504" y="608" width="96" height="16" fill="rgb(69,12,95)"><title>Livingston: 3</title></rect>
 <rect x="504" y="626" width="96" height="16" fill="rgb(52,93,140)"><title>Brentford and Isleworth: 26</title></rect>
-<rect x="504" y="644" width="96" height="16" fill="rgb(71,36,116)"><title>Newcastle-under-Lyme: 9</title></rect>
+<rect x="504" y="644" width="96" height="16" fill="rgb(52,93,140)"><title>Newcastle-under-Lyme: 26</title></rect>
 <rect x="504" y="662" width="96" height="16" fill="rgb(52,93,140)"><title>Edinburgh East: 26</title></rect>
 <rect x="504" y="680" width="96" height="16" fill="rgb(71,28,109)"><title>Falkirk: 7</title></rect>
 <rect x="504" y="698" width="96" height="16" fill="rgb(70,39,118)"><title>Tamworth: 10</title></rect>
-<rect x="504" y="716" width="96" height="16" fill="rgb(68,4,87)"><title>Arfon: 1</title></rect>
+<rect x="504" y="716" width="96" height="16" fill="rgb(68,8,91)"><title>Arfon: 2</title></rect>
 <rect x="504" y="734" width="96" height="16" fill="rgb(42,117,141)"><title>Totnes: 34</title></rect>
 <rect x="504" y="752" width="96" height="16" fill="rgb(69,12,95)"><title>Hereford and South Herefordshire: 3</title></rect>
-<rect x="504" y="770" width="96" height="16" fill="rgb(65,61,131)"><title>Hendon: 16</title></rect>
+<rect x="504" y="770" width="96" height="16" fill="rgb(64,65,134)"><title>Hendon: 17</title></rect>
 <rect x="504" y="788" width="96" height="16" fill="rgb(50,96,141)"><title>Kettering: 27</title></rect>
 <rect x="504" y="806" width="96" height="16" fill="rgb(70,39,118)"><title>Reading West: 10</title></rect>
 <rect x="504" y="824" width="96" height="16" fill="rgb(68,47,123)"><title>Faversham and Mid Kent: 12</title></rect>
@@ -376,19 +376,19 @@
 <rect x="504" y="896" width="96" height="16" fill="rgb(69,16,98)"><title>Crawley: 4</title></rect>
 <rect x="504" y="914" width="96" height="16" fill="rgb(61,71,136)"><title>Dartford: 19</title></rect>
 <rect x="504" y="932" width="96" height="16" fill="rgb(50,96,141)"><title>Hazel Grove: 27</title></rect>
-<rect x="504" y="950" width="96" height="16" fill="rgb(33,158,134)"><title>Shipley: 49</title></rect>
+<rect x="504" y="950" width="96" height="16" fill="rgb(33,160,134)"><title>Shipley: 50</title></rect>
 <rect x="504" y="968" width="96" height="16" fill="rgb(71,28,109)"><title>Aldridge-Brownhills: 7</title></rect>
 <rect x="504" y="986" width="96" height="16" fill="rgb(61,71,136)"><title>Ashford: 19</title></rect>
 <rect x="504" y="1004" width="96" height="16" fill="rgb(70,20,102)"><title>Midlothian: 5</title></rect>
-<rect x="504" y="1022" width="96" height="16" fill="rgb(51,179,121)"><title>Bridgend: 57</title></rect>
+<rect x="504" y="1022" width="96" height="16" fill="rgb(55,182,119)"><title>Bridgend: 58</title></rect>
 <rect x="504" y="1040" width="96" height="16" fill="rgb(69,12,95)"><title>Chingford and Woodford Green: 3</title></rect>
 <rect x="504" y="1058" width="96" height="16" fill="rgb(70,24,106)"><title>Angus: 6</title></rect>
 <rect x="504" y="1076" width="96" height="16" fill="rgb(32,147,138)"><title>Ceredigion: 45</title></rect>
-<rect x="504" y="1094" width="96" height="16" fill="rgb(70,39,118)"><title>Gosport: 10</title></rect>
-<rect x="504" y="1112" width="96" height="16" fill="rgb(56,84,138)"><title>Stevenage: 23</title></rect>
+<rect x="504" y="1094" width="96" height="16" fill="rgb(69,43,121)"><title>Gosport: 11</title></rect>
+<rect x="504" y="1112" width="96" height="16" fill="rgb(54,87,139)"><title>Stevenage: 24</title></rect>
 <rect x="504" y="1130" width="96" height="16" fill="rgb(68,4,87)"><title>Delyn: 1</title></rect>
 <rect x="504" y="1148" width="96" height="16" fill="rgb(52,93,140)"><title>Yeovil: 26</title></rect>
-<rect x="504" y="1166" width="96" height="16" fill="rgb(69,43,121)"><title>Morley and Outwood: 11</title></rect>
+<rect x="504" y="1166" width="96" height="16" fill="rgb(68,50,125)"><title>Morley and Outwood: 13</title></rect>
 <rect x="504" y="1184" width="96" height="16" fill="rgb(71,32,113)"><title>North Herefordshire: 8</title></rect>
 <rect x="504" y="1202" width="96" height="16" fill="rgb(61,71,136)"><title>Truro and Falmouth: 19</title></rect>
 <rect x="504" y="1220" width="96" height="16" fill="rgb(43,114,141)"><title>Vale of Glamorgan: 33</title></rect>
@@ -397,44 +397,44 @@
 <rect x="602" y="104" width="96" height="16" fill="rgb(71,28,109)"><title>The Wrekin: 7</title></rect>
 <rect x="602" y="122" width="96" height="16" fill="rgb(54,87,139)"><title>City of Chester: 24</title></rect>
 <rect x="602" y="140" width="96" height="16" fill="rgb(64,65,134)"><title>Hove: 17</title></rect>
-<rect x="602" y="158" width="96" height="16" fill="rgb(59,78,137)"><title>North West Cambridgeshire: 21</title></rect>
+<rect x="602" y="158" width="96" height="16" fill="rgb(60,75,136)"><title>North West Cambridgeshire: 20</title></rect>
 <rect x="602" y="176" width="96" height="16" fill="rgb(70,39,118)"><title>North East Derbyshire: 10</title></rect>
-<rect x="602" y="194" width="96" height="16" fill="rgb(85,196,101)"><title>Chorley: 64</title></rect>
+<rect x="602" y="194" width="96" height="16" fill="rgb(79,194,105)"><title>Chorley: 63</title></rect>
 <rect x="602" y="212" width="96" height="16" fill="rgb(53,90,140)"><title>Forest of Dean: 25</title></rect>
 <rect x="602" y="230" width="96" height="16" fill="rgb(69,16,98)"><title>Ludlow: 4</title></rect>
-<rect x="602" y="248" width="96" height="16" fill="rgb(65,61,131)"><title>Montgomeryshire: 16</title></rect>
+<rect x="602" y="248" width="96" height="16" fill="rgb(63,68,135)"><title>Montgomeryshire: 18</title></rect>
 <rect x="602" y="266" width="96" height="16" fill="rgb(33,158,134)"><title>Taunton Deane: 49</title></rect>
 <rect x="602" y="284" width="96" height="16" fill="rgb(68,47,123)"><title>Tynemouth: 12</title></rect>
-<rect x="602" y="302" width="96" height="16" fill="rgb(70,24,106)"><title>Wirral West: 6</title></rect>
-<rect x="602" y="320" width="96" height="16" fill="rgb(63,68,135)"><title>City of Durham: 18</title></rect>
-<rect x="602" y="338" width="96" height="16" fill="rgb(63,68,135)"><title>Broxbourne: 18</title></rect>
+<rect x="602" y="302" width="96" height="16" fill="rgb(71,28,109)"><title>Wirral West: 7</title></rect>
+<rect x="602" y="320" width="96" height="16" fill="rgb(50,96,141)"><title>City of Durham: 27</title></rect>
+<rect x="602" y="338" width="96" height="16" fill="rgb(61,71,136)"><title>Broxbourne: 19</title></rect>
 <rect x="602" y="356" width="96" height="16" fill="rgb(56,84,138)"><title>Brighton, Pavilion: 23</title></rect>
-<rect x="602" y="374" width="96" height="16" fill="rgb(69,12,95)"><title>North Swindon: 3</title></rect>
+<rect x="602" y="374" width="96" height="16" fill="rgb(56,84,138)"><title>North Swindon: 23</title></rect>
 <rect x="602" y="392" width="96" height="16" fill="rgb(68,50,125)"><title>Brigg and Goole: 13</title></rect>
-<rect x="602" y="410" width="96" height="16" fill="rgb(66,58,129)"><title>Hampstead and Kilburn: 15</title></rect>
+<rect x="602" y="410" width="96" height="16" fill="rgb(65,61,131)"><title>Hampstead and Kilburn: 16</title></rect>
 <rect x="602" y="428" width="96" height="16" fill="rgb(49,99,141)"><title>Stockton South: 28</title></rect>
 <rect x="602" y="446" width="96" height="16" fill="rgb(68,1,84)"><title>Dwyfor Meirionnydd: 0</title></rect>
 <rect x="602" y="464" width="96" height="16" fill="rgb(69,16,98)"><title>Bexleyheath and Crayford: 4</title></rect>
-<rect x="602" y="482" width="96" height="16" fill="rgb(38,125,141)"><title>Worthing West: 37</title></rect>
+<rect x="602" y="482" width="96" height="16" fill="rgb(35,133,140)"><title>Worthing West: 40</title></rect>
 <rect x="602" y="500" width="96" height="16" fill="rgb(68,50,125)"><title>Eddisbury: 13</title></rect>
 <rect x="602" y="518" width="96" height="16" fill="rgb(33,155,135)"><title>West Suffolk: 48</title></rect>
 <rect x="602" y="536" width="96" height="16" fill="rgb(70,24,106)"><title>Chelsea and Fulham: 6</title></rect>
 <rect x="602" y="554" width="96" height="16" fill="rgb(68,1,84)"><title>Na h-Eileanan an Iar: 0</title></rect>
-<rect x="602" y="572" width="96" height="16" fill="rgb(71,28,109)"><title>Wirral South: 7</title></rect>
-<rect x="602" y="590" width="96" height="16" fill="rgb(59,78,137)"><title>Bexhill and Battle: 21</title></rect>
-<rect x="602" y="608" width="96" height="16" fill="rgb(47,105,141)"><title>Argyll and Bute: 30</title></rect>
-<rect x="602" y="626" width="96" height="16" fill="rgb(70,20,102)"><title>Aberconwy: 5</title></rect>
-<rect x="602" y="644" width="96" height="16" fill="rgb(68,47,123)"><title>Carshalton and Wallington: 12</title></rect>
-<rect x="602" y="662" width="96" height="16" fill="rgb(68,50,125)"><title>Exeter: 13</title></rect>
+<rect x="602" y="572" width="96" height="16" fill="rgb(71,32,113)"><title>Wirral South: 8</title></rect>
+<rect x="602" y="590" width="96" height="16" fill="rgb(57,81,138)"><title>Bexhill and Battle: 22</title></rect>
+<rect x="602" y="608" width="96" height="16" fill="rgb(45,108,141)"><title>Argyll and Bute: 31</title></rect>
+<rect x="602" y="626" width="96" height="16" fill="rgb(71,32,113)"><title>Aberconwy: 8</title></rect>
+<rect x="602" y="644" width="96" height="16" fill="rgb(68,50,125)"><title>Carshalton and Wallington: 13</title></rect>
+<rect x="602" y="662" width="96" height="16" fill="rgb(67,54,127)"><title>Exeter: 14</title></rect>
 <rect x="602" y="680" width="96" height="16" fill="rgb(38,125,141)"><title>Wells: 37</title></rect>
 <rect x="602" y="698" width="96" height="16" fill="rgb(52,93,140)"><title>Banff and Buchan: 26</title></rect>
 <rect x="602" y="716" width="96" height="16" fill="rgb(53,90,140)"><title>Tooting: 25</title></rect>
-<rect x="602" y="734" width="96" height="16" fill="rgb(33,139,140)"><title>Brecon and Radnorshire: 42</title></rect>
+<rect x="602" y="734" width="96" height="16" fill="rgb(32,147,138)"><title>Brecon and Radnorshire: 45</title></rect>
 <rect x="602" y="752" width="96" height="16" fill="rgb(64,65,134)"><title>Penistone and Stocksbridge: 17</title></rect>
 <rect x="602" y="770" width="96" height="16" fill="rgb(70,20,102)"><title>Inverness, Nairn, Badenoch and Strathspey: 5</title></rect>
-<rect x="602" y="788" width="96" height="16" fill="rgb(59,78,137)"><title>Harwich and North Essex: 21</title></rect>
+<rect x="602" y="788" width="96" height="16" fill="rgb(57,81,138)"><title>Harwich and North Essex: 22</title></rect>
 <rect x="602" y="806" width="96" height="16" fill="rgb(70,39,118)"><title>Berwickshire, Roxburgh and Selkirk: 10</title></rect>
-<rect x="602" y="824" width="96" height="16" fill="rgb(61,71,136)"><title>Cities of London and Westminster: 19</title></rect>
+<rect x="602" y="824" width="96" height="16" fill="rgb(33,155,135)"><title>Cities of London and Westminster: 48</title></rect>
 <rect x="602" y="842" width="96" height="16" fill="rgb(70,39,118)"><title>Newton Abbot: 10</title></rect>
 <rect x="602" y="860" width="96" height="16" fill="rgb(33,166,132)"><title>Mid Norfolk: 52</title></rect>
 <rect x="602" y="878" width="96" height="16" fill="rgb(33,160,134)"><title>Penrith and The Border: 50</title></rect>
@@ -442,10 +442,10 @@
 <rect x="602" y="914" width="96" height="16" fill="rgb(33,160,134)"><title>Ochil and South Perthshire: 50</title></rect>
 <rect x="602" y="932" width="96" height="16" fill="rgb(64,65,134)"><title>Hornchurch and Upminster: 17</title></rect>
 <rect x="602" y="950" width="96" height="16" fill="rgb(70,39,118)"><title>South Holland and The Deepings: 10</title></rect>
-<rect x="602" y="968" width="96" height="16" fill="rgb(54,87,139)"><title>Battersea: 24</title></rect>
+<rect x="602" y="968" width="96" height="16" fill="rgb(53,90,140)"><title>Battersea: 25</title></rect>
 <rect x="602" y="986" width="96" height="16" fill="rgb(52,93,140)"><title>Bromley and Chislehurst: 26</title></rect>
 <rect x="602" y="1004" width="96" height="16" fill="rgb(71,28,109)"><title>Mid Worcestershire: 7</title></rect>
-<rect x="602" y="1022" width="96" height="16" fill="rgb(65,61,131)"><title>South West Wiltshire: 16</title></rect>
+<rect x="602" y="1022" width="96" height="16" fill="rgb(64,65,134)"><title>South West Wiltshire: 17</title></rect>
 <rect x="602" y="1040" width="96" height="16" fill="rgb(35,133,140)"><title>East Worthing and Shoreham: 40</title></rect>
 <rect x="602" y="1058" width="96" height="16" fill="rgb(71,32,113)"><title>Enfield, Southgate: 8</title></rect>
 <rect x="602" y="1076" width="96" height="16" fill="rgb(70,20,102)"><title>Ilford North: 5</title></rect>
@@ -456,24 +456,24 @@
 <rect x="602" y="1166" width="96" height="16" fill="rgb(71,28,109)"><title>Dumfriesshire, Clydesdale and Tweeddale: 7</title></rect>
 <rect x="602" y="1184" width="96" height="16" fill="rgb(69,16,98)"><title>Shrewsbury and Atcham: 4</title></rect>
 <rect x="602" y="1202" width="96" height="16" fill="rgb(68,50,125)"><title>Newark: 13</title></rect>
-<rect x="602" y="1220" width="96" height="16" fill="rgb(62,187,114)"><title>Suffolk Coastal: 60</title></rect>
+<rect x="602" y="1220" width="96" height="16" fill="rgb(66,190,112)"><title>Suffolk Coastal: 61</title></rect>
 <rect x="602" y="1238" width="96" height="16" fill="rgb(69,12,95)"><title>Alyn and Deeside: 3</title></rect>
 <rect x="602" y="1256" width="96" height="16" fill="rgba(253, 231, 36, 1)"><title>Perth and North Perthshire: 87</title></rect>
 <rect x="700" y="104" width="96" height="16" fill="rgb(70,20,102)"><title>Southend West: 5</title></rect>
 <rect x="700" y="122" width="96" height="16" fill="rgb(54,87,139)"><title>South West Bedfordshire: 24</title></rect>
-<rect x="700" y="140" width="96" height="16" fill="rgb(65,61,131)"><title>Hemel Hempstead: 16</title></rect>
-<rect x="700" y="158" width="96" height="16" fill="rgb(71,32,113)"><title>Poole: 8</title></rect>
+<rect x="700" y="140" width="96" height="16" fill="rgb(66,58,129)"><title>Hemel Hempstead: 15</title></rect>
+<rect x="700" y="158" width="96" height="16" fill="rgb(71,36,116)"><title>Poole: 9</title></rect>
 <rect x="700" y="176" width="96" height="16" fill="rgb(71,32,113)"><title>Ross, Skye and Lochaber: 8</title></rect>
 <rect x="700" y="194" width="96" height="16" fill="rgb(52,93,140)"><title>Somerton and Frome: 26</title></rect>
 <rect x="700" y="212" width="96" height="16" fill="rgb(65,61,131)"><title>Milton Keynes North: 16</title></rect>
 <rect x="700" y="230" width="96" height="16" fill="rgb(68,4,87)"><title>Uxbridge and South Ruislip: 1</title></rect>
 <rect x="700" y="248" width="96" height="16" fill="rgb(68,4,87)"><title>East Lothian: 1</title></rect>
-<rect x="700" y="266" width="96" height="16" fill="rgb(71,36,116)"><title>York Central: 9</title></rect>
+<rect x="700" y="266" width="96" height="16" fill="rgb(47,105,141)"><title>York Central: 30</title></rect>
 <rect x="700" y="284" width="96" height="16" fill="rgb(71,28,109)"><title>Harrow East: 7</title></rect>
 <rect x="700" y="302" width="96" height="16" fill="rgb(71,36,116)"><title>Harrow West: 9</title></rect>
 <rect x="700" y="320" width="96" height="16" fill="rgb(71,36,116)"><title>East Kilbride, Strathaven and Lesmahagow: 9</title></rect>
 <rect x="700" y="338" width="96" height="16" fill="rgb(68,47,123)"><title>Beverley and Holderness: 12</title></rect>
-<rect x="700" y="356" width="96" height="16" fill="rgb(57,81,138)"><title>Fylde: 22</title></rect>
+<rect x="700" y="356" width="96" height="16" fill="rgb(56,84,138)"><title>Fylde: 23</title></rect>
 <rect x="700" y="374" width="96" height="16" fill="rgb(53,90,140)"><title>Gedling: 25</title></rect>
 <rect x="700" y="392" width="96" height="16" fill="rgb(67,54,127)"><title>West Dorset: 14</title></rect>
 <rect x="700" y="410" width="96" height="16" fill="rgb(45,108,141)"><title>Leeds North West: 31</title></rect>
@@ -483,9 +483,9 @@
 <rect x="700" y="482" width="96" height="16" fill="rgb(63,68,135)"><title>Canterbury: 18</title></rect>
 <rect x="700" y="500" width="96" height="16" fill="rgb(70,39,118)"><title>Stirling: 10</title></rect>
 <rect x="700" y="518" width="96" height="16" fill="rgb(65,61,131)"><title>Tiverton and Honiton: 16</title></rect>
-<rect x="700" y="536" width="96" height="16" fill="rgb(68,47,123)"><title>Maidstone and The Weald: 12</title></rect>
+<rect x="700" y="536" width="96" height="16" fill="rgb(68,50,125)"><title>Maidstone and The Weald: 13</title></rect>
 <rect x="700" y="554" width="96" height="16" fill="rgb(70,39,118)"><title>Thirsk and Malton: 10</title></rect>
-<rect x="700" y="572" width="96" height="16" fill="rgb(66,58,129)"><title>Pudsey: 15</title></rect>
+<rect x="700" y="572" width="96" height="16" fill="rgb(64,65,134)"><title>Pudsey: 17</title></rect>
 <rect x="700" y="590" width="96" height="16" fill="rgb(57,81,138)"><title>Cambridge: 22</title></rect>
 <rect x="700" y="608" width="96" height="16" fill="rgb(69,16,98)"><title>Staffordshire Moorlands: 4</title></rect>
 <rect x="700" y="626" width="96" height="16" fill="rgb(70,39,118)"><title>Monmouth: 10</title></rect>
@@ -493,50 +493,50 @@
 <rect x="700" y="662" width="96" height="16" fill="rgb(70,39,118)"><title>Aldershot: 10</title></rect>
 <rect x="700" y="680" width="96" height="16" fill="rgb(47,105,141)"><title>Lewes: 30</title></rect>
 <rect x="700" y="698" width="96" height="16" fill="rgb(68,50,125)"><title>Spelthorne: 13</title></rect>
-<rect x="700" y="716" width="96" height="16" fill="rgb(69,43,121)"><title>Banbury: 11</title></rect>
+<rect x="700" y="716" width="96" height="16" fill="rgb(68,47,123)"><title>Banbury: 12</title></rect>
 <rect x="700" y="734" width="96" height="16" fill="rgb(68,47,123)"><title>Epping Forest: 12</title></rect>
 <rect x="700" y="752" width="96" height="16" fill="rgb(71,32,113)"><title>Finchley and Golders Green: 8</title></rect>
 <rect x="700" y="770" width="96" height="16" fill="rgb(32,147,138)"><title>Braintree: 45</title></rect>
-<rect x="700" y="788" width="96" height="16" fill="rgb(64,65,134)"><title>Basingstoke: 17</title></rect>
-<rect x="700" y="806" width="96" height="16" fill="rgb(32,141,140)"><title>Croydon South: 43</title></rect>
+<rect x="700" y="788" width="96" height="16" fill="rgb(63,68,135)"><title>Basingstoke: 18</title></rect>
+<rect x="700" y="806" width="96" height="16" fill="rgb(32,144,139)"><title>Croydon South: 44</title></rect>
 <rect x="700" y="824" width="96" height="16" fill="rgb(71,36,116)"><title>Welwyn Hatfield: 9</title></rect>
-<rect x="700" y="842" width="96" height="16" fill="rgb(57,81,138)"><title>Loughborough: 22</title></rect>
-<rect x="700" y="860" width="96" height="16" fill="rgb(67,54,127)"><title>Rugby: 14</title></rect>
-<rect x="700" y="878" width="96" height="16" fill="rgb(45,108,141)"><title>Gower: 31</title></rect>
+<rect x="700" y="842" width="96" height="16" fill="rgb(44,111,141)"><title>Loughborough: 32</title></rect>
+<rect x="700" y="860" width="96" height="16" fill="rgb(66,58,129)"><title>Rugby: 15</title></rect>
+<rect x="700" y="878" width="96" height="16" fill="rgb(43,114,141)"><title>Gower: 33</title></rect>
 <rect x="700" y="896" width="96" height="16" fill="rgb(52,93,140)"><title>Stafford: 26</title></rect>
-<rect x="700" y="914" width="96" height="16" fill="rgb(66,190,112)"><title>Central Suffolk and North Ipswich: 61</title></rect>
+<rect x="700" y="914" width="96" height="16" fill="rgb(79,194,105)"><title>Central Suffolk and North Ipswich: 63</title></rect>
 <rect x="700" y="932" width="96" height="16" fill="rgb(68,47,123)"><title>Cheltenham: 12</title></rect>
-<rect x="700" y="950" width="96" height="16" fill="rgb(71,36,116)"><title>Sefton Central: 9</title></rect>
-<rect x="700" y="968" width="96" height="16" fill="rgb(67,54,127)"><title>Watford: 14</title></rect>
-<rect x="700" y="986" width="96" height="16" fill="rgb(69,43,121)"><title>North West Leicestershire: 11</title></rect>
+<rect x="700" y="950" width="96" height="16" fill="rgb(67,54,127)"><title>Sefton Central: 14</title></rect>
+<rect x="700" y="968" width="96" height="16" fill="rgb(66,58,129)"><title>Watford: 15</title></rect>
+<rect x="700" y="986" width="96" height="16" fill="rgb(68,47,123)"><title>North West Leicestershire: 12</title></rect>
 <rect x="700" y="1004" width="96" height="16" fill="rgb(70,20,102)"><title>Reading East: 5</title></rect>
-<rect x="700" y="1022" width="96" height="16" fill="rgb(44,111,141)"><title>South Ribble: 32</title></rect>
+<rect x="700" y="1022" width="96" height="16" fill="rgb(45,108,141)"><title>South Ribble: 31</title></rect>
 <rect x="700" y="1040" width="96" height="16" fill="rgb(66,58,129)"><title>Grantham and Stamford: 15</title></rect>
 <rect x="700" y="1058" width="96" height="16" fill="rgb(68,8,91)"><title>Moray: 2</title></rect>
 <rect x="700" y="1076" width="96" height="16" fill="rgb(69,12,95)"><title>South Derbyshire: 3</title></rect>
-<rect x="700" y="1094" width="96" height="16" fill="rgb(36,169,130)"><title>South Suffolk: 53</title></rect>
-<rect x="700" y="1112" width="96" height="16" fill="rgb(54,87,139)"><title>Edinburgh North and Leith: 24</title></rect>
+<rect x="700" y="1094" width="96" height="16" fill="rgb(40,171,128)"><title>South Suffolk: 54</title></rect>
+<rect x="700" y="1112" width="96" height="16" fill="rgb(53,90,140)"><title>Edinburgh North and Leith: 25</title></rect>
 <rect x="700" y="1130" width="96" height="16" fill="rgb(71,32,113)"><title>Chipping Barnet: 8</title></rect>
-<rect x="700" y="1148" width="96" height="16" fill="rgb(53,90,140)"><title>Hertsmere: 25</title></rect>
+<rect x="700" y="1148" width="96" height="16" fill="rgb(52,93,140)"><title>Hertsmere: 26</title></rect>
 <rect x="700" y="1166" width="96" height="16" fill="rgb(70,24,106)"><title>North Dorset: 6</title></rect>
 <rect x="700" y="1184" width="96" height="16" fill="rgb(60,75,136)"><title>Chichester: 20</title></rect>
-<rect x="700" y="1202" width="96" height="16" fill="rgb(69,43,121)"><title>Bosworth: 11</title></rect>
+<rect x="700" y="1202" width="96" height="16" fill="rgb(33,160,134)"><title>Bosworth: 50</title></rect>
 <rect x="700" y="1220" width="96" height="16" fill="rgb(49,99,141)"><title>Elmet and Rothwell: 28</title></rect>
 <rect x="700" y="1238" width="96" height="16" fill="rgb(91,198,97)"><title>Broadland: 65</title></rect>
-<rect x="700" y="1256" width="96" height="16" fill="rgb(69,43,121)"><title>New Forest East: 11</title></rect>
+<rect x="700" y="1256" width="96" height="16" fill="rgb(68,47,123)"><title>New Forest East: 12</title></rect>
 <rect x="798" y="104" width="96" height="16" fill="rgb(68,4,87)"><title>Orkney and Shetland: 1</title></rect>
 <rect x="798" y="122" width="96" height="16" fill="rgb(63,68,135)"><title>Sutton Coldfield: 18</title></rect>
 <rect x="798" y="140" width="96" height="16" fill="rgb(63,68,135)"><title>Salisbury: 18</title></rect>
-<rect x="798" y="158" width="96" height="16" fill="rgb(110,205,86)"><title>South Norfolk: 68</title></rect>
-<rect x="798" y="176" width="96" height="16" fill="rgb(33,155,135)"><title>Bury St Edmunds: 48</title></rect>
-<rect x="798" y="194" width="96" height="16" fill="rgb(71,32,113)"><title>Maldon: 8</title></rect>
+<rect x="798" y="158" width="96" height="16" fill="rgb(117,207,83)"><title>South Norfolk: 69</title></rect>
+<rect x="798" y="176" width="96" height="16" fill="rgb(33,160,134)"><title>Bury St Edmunds: 50</title></rect>
+<rect x="798" y="194" width="96" height="16" fill="rgb(69,43,121)"><title>Maldon: 11</title></rect>
 <rect x="798" y="212" width="96" height="16" fill="rgb(64,65,134)"><title>Romsey and Southampton North: 17</title></rect>
 <rect x="798" y="230" width="96" height="16" fill="rgb(71,28,109)"><title>South Staffordshire: 7</title></rect>
 <rect x="798" y="248" width="96" height="16" fill="rgb(50,96,141)"><title>Witham: 27</title></rect>
 <rect x="798" y="266" width="96" height="16" fill="rgb(68,47,123)"><title>Warwick and Leamington: 12</title></rect>
 <rect x="798" y="284" width="96" height="16" fill="rgb(54,87,139)"><title>Macclesfield: 24</title></rect>
-<rect x="798" y="302" width="96" height="16" fill="rgb(63,68,135)"><title>Wycombe: 18</title></rect>
-<rect x="798" y="320" width="96" height="16" fill="rgb(53,90,140)"><title>Orpington: 25</title></rect>
+<rect x="798" y="302" width="96" height="16" fill="rgb(59,78,137)"><title>Wycombe: 21</title></rect>
+<rect x="798" y="320" width="96" height="16" fill="rgb(54,87,139)"><title>Orpington: 24</title></rect>
 <rect x="798" y="338" width="96" height="16" fill="rgb(69,12,95)"><title>Kingswood: 3</title></rect>
 <rect x="798" y="356" width="96" height="16" fill="rgb(57,81,138)"><title>Tonbridge and Malling: 22</title></rect>
 <rect x="798" y="374" width="96" height="16" fill="rgb(32,144,139)"><title>Kingston and Surbiton: 44</title></rect>
@@ -544,31 +544,31 @@
 <rect x="798" y="410" width="96" height="16" fill="rgb(68,47,123)"><title>Cardiff North: 12</title></rect>
 <rect x="798" y="428" width="96" height="16" fill="rgb(33,139,140)"><title>Huntingdon: 42</title></rect>
 <rect x="798" y="446" width="96" height="16" fill="rgb(63,68,135)"><title>Chippenham: 18</title></rect>
-<rect x="798" y="464" width="96" height="16" fill="rgb(69,43,121)"><title>Stone: 11</title></rect>
+<rect x="798" y="464" width="96" height="16" fill="rgb(68,50,125)"><title>Stone: 13</title></rect>
 <rect x="798" y="482" width="96" height="16" fill="rgb(57,81,138)"><title>Devizes: 22</title></rect>
-<rect x="798" y="500" width="96" height="16" fill="rgb(56,84,138)"><title>Chelmsford: 23</title></rect>
+<rect x="798" y="500" width="96" height="16" fill="rgb(54,87,139)"><title>Chelmsford: 24</title></rect>
 <rect x="798" y="518" width="96" height="16" fill="rgb(71,36,116)"><title>Selby and Ainsty: 9</title></rect>
 <rect x="798" y="536" width="96" height="16" fill="rgb(32,144,139)"><title>Hexham: 44</title></rect>
-<rect x="798" y="554" width="96" height="16" fill="rgb(57,81,138)"><title>Congleton: 22</title></rect>
+<rect x="798" y="554" width="96" height="16" fill="rgb(54,87,139)"><title>Congleton: 24</title></rect>
 <rect x="798" y="572" width="96" height="16" fill="rgb(63,68,135)"><title>Wealden: 18</title></rect>
-<rect x="798" y="590" width="96" height="16" fill="rgb(54,87,139)"><title>Daventry: 24</title></rect>
+<rect x="798" y="590" width="96" height="16" fill="rgb(53,90,140)"><title>Daventry: 25</title></rect>
 <rect x="798" y="608" width="96" height="16" fill="rgb(65,61,131)"><title>Skipton and Ripon: 16</title></rect>
-<rect x="798" y="626" width="96" height="16" fill="rgb(64,65,134)"><title>Aylesbury: 17</title></rect>
-<rect x="798" y="644" width="96" height="16" fill="rgb(68,50,125)"><title>New Forest West: 13</title></rect>
-<rect x="798" y="662" width="96" height="16" fill="rgb(43,114,141)"><title>Ribble Valley: 33</title></rect>
-<rect x="798" y="680" width="96" height="16" fill="rgb(40,171,128)"><title>Westmorland and Lonsdale: 54</title></rect>
+<rect x="798" y="626" width="96" height="16" fill="rgb(63,68,135)"><title>Aylesbury: 18</title></rect>
+<rect x="798" y="644" width="96" height="16" fill="rgb(67,54,127)"><title>New Forest West: 14</title></rect>
+<rect x="798" y="662" width="96" height="16" fill="rgb(45,108,141)"><title>Ribble Valley: 31</title></rect>
+<rect x="798" y="680" width="96" height="16" fill="rgb(36,169,130)"><title>Westmorland and Lonsdale: 53</title></rect>
 <rect x="798" y="698" width="96" height="16" fill="rgb(67,54,127)"><title>North West Hampshire: 14</title></rect>
 <rect x="798" y="716" width="96" height="16" fill="rgb(69,16,98)"><title>Solihull: 4</title></rect>
-<rect x="798" y="734" width="96" height="16" fill="rgb(49,99,141)"><title>Sevenoaks: 28</title></rect>
+<rect x="798" y="734" width="96" height="16" fill="rgb(48,102,141)"><title>Sevenoaks: 29</title></rect>
 <rect x="798" y="752" width="96" height="16" fill="rgb(49,99,141)"><title>North East Fife: 28</title></rect>
-<rect x="798" y="770" width="96" height="16" fill="rgb(50,96,141)"><title>Lichfield: 27</title></rect>
+<rect x="798" y="770" width="96" height="16" fill="rgb(48,102,141)"><title>Lichfield: 29</title></rect>
 <rect x="798" y="788" width="96" height="16" fill="rgb(56,84,138)"><title>Edinburgh West: 23</title></rect>
-<rect x="798" y="806" width="96" height="16" fill="rgb(59,78,137)"><title>Richmond (Yorks): 21</title></rect>
-<rect x="798" y="824" width="96" height="16" fill="rgb(44,111,141)"><title>East Surrey: 32</title></rect>
-<rect x="798" y="842" width="96" height="16" fill="rgb(70,39,118)"><title>Bath: 10</title></rect>
+<rect x="798" y="806" width="96" height="16" fill="rgb(57,81,138)"><title>Richmond (Yorks): 22</title></rect>
+<rect x="798" y="824" width="96" height="16" fill="rgb(43,114,141)"><title>East Surrey: 33</title></rect>
+<rect x="798" y="842" width="96" height="16" fill="rgb(37,128,141)"><title>Bath: 38</title></rect>
 <rect x="798" y="860" width="96" height="16" fill="rgb(66,58,129)"><title>Sleaford and North Hykeham: 15</title></rect>
 <rect x="798" y="878" width="96" height="16" fill="rgb(70,24,106)"><title>Stratford-on-Avon: 6</title></rect>
-<rect x="798" y="896" width="96" height="16" fill="rgb(68,47,123)"><title>North East Hertfordshire: 12</title></rect>
+<rect x="798" y="896" width="96" height="16" fill="rgb(69,43,121)"><title>North East Hertfordshire: 11</title></rect>
 <rect x="798" y="914" width="96" height="16" fill="rgb(65,61,131)"><title>North Wiltshire: 16</title></rect>
 <rect x="798" y="932" width="96" height="16" fill="rgb(66,58,129)"><title>Old Bexley and Sidcup: 15</title></rect>
 <rect x="798" y="950" width="96" height="16" fill="rgb(70,39,118)"><title>Derbyshire Dales: 10</title></rect>
@@ -578,19 +578,19 @@
 <rect x="798" y="1022" width="96" height="16" fill="rgb(69,12,95)"><title>Brentwood and Ongar: 3</title></rect>
 <rect x="798" y="1040" width="96" height="16" fill="rgb(69,43,121)"><title>Christchurch: 11</title></rect>
 <rect x="798" y="1058" width="96" height="16" fill="rgb(49,99,141)"><title>Cheadle: 28</title></rect>
-<rect x="798" y="1076" width="96" height="16" fill="rgb(61,71,136)"><title>Wyre and Preston North: 19</title></rect>
-<rect x="798" y="1094" width="96" height="16" fill="rgb(69,12,95)"><title>North East Somerset: 3</title></rect>
+<rect x="798" y="1076" width="96" height="16" fill="rgb(63,68,135)"><title>Wyre and Preston North: 18</title></rect>
+<rect x="798" y="1094" width="96" height="16" fill="rgb(50,96,141)"><title>North East Somerset: 27</title></rect>
 <rect x="798" y="1112" width="96" height="16" fill="rgb(60,75,136)"><title>Reigate: 20</title></rect>
 <rect x="798" y="1130" width="96" height="16" fill="rgb(56,84,138)"><title>Eastleigh: 23</title></rect>
 <rect x="798" y="1148" width="96" height="16" fill="rgb(71,36,116)"><title>Edinburgh South: 9</title></rect>
-<rect x="798" y="1166" width="96" height="16" fill="rgb(47,105,141)"><title>Aberdeen South: 30</title></rect>
+<rect x="798" y="1166" width="96" height="16" fill="rgb(44,111,141)"><title>Aberdeen South: 32</title></rect>
 <rect x="798" y="1184" width="96" height="16" fill="rgb(59,78,137)"><title>South West Devon: 21</title></rect>
 <rect x="798" y="1202" width="96" height="16" fill="rgb(69,43,121)"><title>Filton and Bradley Stoke: 11</title></rect>
 <rect x="798" y="1220" width="96" height="16" fill="rgb(61,71,136)"><title>Tatton: 19</title></rect>
 <rect x="798" y="1238" width="96" height="16" fill="rgb(44,174,125)"><title>Stroud: 55</title></rect>
 <rect x="798" y="1256" width="96" height="16" fill="rgb(61,71,136)"><title>Arundel and South Downs: 19</title></rect>
 <rect x="896" y="104" width="96" height="16" fill="rgb(70,39,118)"><title>Meon Valley: 10</title></rect>
-<rect x="896" y="122" width="96" height="16" fill="rgb(57,81,138)"><title>Tunbridge Wells: 22</title></rect>
+<rect x="896" y="122" width="96" height="16" fill="rgb(56,84,138)"><title>Tunbridge Wells: 23</title></rect>
 <rect x="896" y="140" width="96" height="16" fill="rgb(32,141,140)"><title>North East Bedfordshire: 43</title></rect>
 <rect x="896" y="158" width="96" height="16" fill="rgb(70,39,118)"><title>Sutton and Cheam: 10</title></rect>
 <rect x="896" y="176" width="96" height="16" fill="rgb(69,43,121)"><title>East Hampshire: 11</title></rect>
@@ -605,7 +605,7 @@
 <rect x="896" y="338" width="96" height="16" fill="rgb(71,36,116)"><title>Mid Dorset and North Poole: 9</title></rect>
 <rect x="896" y="356" width="96" height="16" fill="rgb(69,43,121)"><title>Charnwood: 11</title></rect>
 <rect x="896" y="374" width="96" height="16" fill="rgb(50,96,141)"><title>The Cotswolds: 27</title></rect>
-<rect x="896" y="392" width="96" height="16" fill="rgb(50,96,141)"><title>Harrogate and Knaresborough: 27</title></rect>
+<rect x="896" y="392" width="96" height="16" fill="rgb(49,99,141)"><title>Harrogate and Knaresborough: 28</title></rect>
 <rect x="896" y="410" width="96" height="16" fill="rgb(69,12,95)"><title>Altrincham and Sale West: 3</title></rect>
 <rect x="896" y="428" width="96" height="16" fill="rgb(69,12,95)"><title>Mid Derbyshire: 3</title></rect>
 <rect x="896" y="446" width="96" height="16" fill="rgb(35,133,140)"><title>South East Cambridgeshire: 40</title></rect>
@@ -616,42 +616,42 @@
 <rect x="896" y="536" width="96" height="16" fill="rgb(71,28,109)"><title>Rayleigh and Wickford: 7</title></rect>
 <rect x="896" y="554" width="96" height="16" fill="rgb(71,36,116)"><title>Kenilworth and Southam: 9</title></rect>
 <rect x="896" y="572" width="96" height="16" fill="rgb(63,68,135)"><title>Mole Valley: 18</title></rect>
-<rect x="896" y="590" width="96" height="16" fill="rgb(50,96,141)"><title>St Albans: 27</title></rect>
-<rect x="896" y="608" width="96" height="16" fill="rgb(43,114,141)"><title>Gordon: 33</title></rect>
+<rect x="896" y="590" width="96" height="16" fill="rgb(52,93,140)"><title>St Albans: 26</title></rect>
+<rect x="896" y="608" width="96" height="16" fill="rgb(42,117,141)"><title>Gordon: 34</title></rect>
 <rect x="896" y="626" width="96" height="16" fill="rgb(68,47,123)"><title>Fareham: 12</title></rect>
 <rect x="896" y="644" width="96" height="16" fill="rgb(66,58,129)"><title>Horsham: 15</title></rect>
 <rect x="896" y="662" width="96" height="16" fill="rgb(32,152,136)"><title>Twickenham: 47</title></rect>
 <rect x="896" y="680" width="96" height="16" fill="rgb(43,114,141)"><title>Mid Bedfordshire: 33</title></rect>
-<rect x="896" y="698" width="96" height="16" fill="rgb(37,128,141)"><title>Richmond Park: 38</title></rect>
-<rect x="896" y="716" width="96" height="16" fill="rgb(60,75,136)"><title>Buckingham: 20</title></rect>
-<rect x="896" y="734" width="96" height="16" fill="rgb(61,71,136)"><title>Oxford West and Abingdon: 19</title></rect>
+<rect x="896" y="698" width="96" height="16" fill="rgb(35,133,140)"><title>Richmond Park: 40</title></rect>
+<rect x="896" y="716" width="96" height="16" fill="rgb(57,81,138)"><title>Buckingham: 22</title></rect>
+<rect x="896" y="734" width="96" height="16" fill="rgb(57,81,138)"><title>Oxford West and Abingdon: 22</title></rect>
 <rect x="896" y="752" width="96" height="16" fill="rgb(53,90,140)"><title>Guildford: 25</title></rect>
 <rect x="896" y="770" width="96" height="16" fill="rgb(57,81,138)"><title>Surrey Heath: 22</title></rect>
 <rect x="896" y="788" width="96" height="16" fill="rgb(68,47,123)"><title>Haltemprice and Howden: 12</title></rect>
 <rect x="896" y="806" width="96" height="16" fill="rgb(48,102,141)"><title>Wantage: 29</title></rect>
 <rect x="896" y="824" width="96" height="16" fill="rgb(71,32,113)"><title>East Dunbartonshire: 8</title></rect>
 <rect x="896" y="842" width="96" height="16" fill="rgb(59,78,137)"><title>North Somerset: 21</title></rect>
-<rect x="896" y="860" width="96" height="16" fill="rgb(53,90,140)"><title>Witney: 25</title></rect>
+<rect x="896" y="860" width="96" height="16" fill="rgb(52,93,140)"><title>Witney: 26</title></rect>
 <rect x="896" y="878" width="96" height="16" fill="rgb(61,71,136)"><title>Wimbledon: 19</title></rect>
-<rect x="896" y="896" width="96" height="16" fill="rgb(47,105,141)"><title>Beaconsfield: 30</title></rect>
-<rect x="896" y="914" width="96" height="16" fill="rgb(43,114,141)"><title>South Northamptonshire: 33</title></rect>
+<rect x="896" y="896" width="96" height="16" fill="rgb(42,117,141)"><title>Beaconsfield: 34</title></rect>
+<rect x="896" y="914" width="96" height="16" fill="rgb(40,120,141)"><title>South Northamptonshire: 35</title></rect>
 <rect x="896" y="932" width="96" height="16" fill="rgb(71,28,109)"><title>Windsor: 7</title></rect>
 <rect x="896" y="950" width="96" height="16" fill="rgb(65,61,131)"><title>Henley: 16</title></rect>
-<rect x="896" y="968" width="96" height="16" fill="rgb(48,102,141)"><title>South West Hertfordshire: 29</title></rect>
+<rect x="896" y="968" width="96" height="16" fill="rgb(49,99,141)"><title>South West Hertfordshire: 28</title></rect>
 <rect x="896" y="986" width="96" height="16" fill="rgb(61,71,136)"><title>Epsom and Ewell: 19</title></rect>
-<rect x="896" y="1004" width="96" height="16" fill="rgb(57,81,138)"><title>Hitchin and Harpenden: 22</title></rect>
+<rect x="896" y="1004" width="96" height="16" fill="rgb(56,84,138)"><title>Hitchin and Harpenden: 23</title></rect>
 <rect x="896" y="1022" width="96" height="16" fill="rgb(53,90,140)"><title>Esher and Walton: 25</title></rect>
 <rect x="896" y="1040" width="96" height="16" fill="rgb(56,84,138)"><title>West Aberdeenshire and Kincardine: 23</title></rect>
-<rect x="896" y="1058" width="96" height="16" fill="rgb(61,71,136)"><title>Winchester: 19</title></rect>
-<rect x="896" y="1076" width="96" height="16" fill="rgb(32,149,137)"><title>South Cambridgeshire: 46</title></rect>
-<rect x="896" y="1094" width="96" height="16" fill="rgb(61,71,136)"><title>Hertford and Stortford: 19</title></rect>
+<rect x="896" y="1058" width="96" height="16" fill="rgb(60,75,136)"><title>Winchester: 20</title></rect>
+<rect x="896" y="1076" width="96" height="16" fill="rgb(32,152,136)"><title>South Cambridgeshire: 47</title></rect>
+<rect x="896" y="1094" width="96" height="16" fill="rgb(60,75,136)"><title>Hertford and Stortford: 20</title></rect>
 <rect x="896" y="1112" width="96" height="16" fill="rgb(43,114,141)"><title>Sheffield, Hallam: 33</title></rect>
 <rect x="896" y="1130" width="96" height="16" fill="rgb(66,58,129)"><title>Mid Sussex: 15</title></rect>
 <rect x="896" y="1148" width="96" height="16" fill="rgb(71,28,109)"><title>Maidenhead: 7</title></rect>
 <rect x="896" y="1166" width="96" height="16" fill="rgb(47,105,141)"><title>South West Surrey: 30</title></rect>
 <rect x="896" y="1184" width="96" height="16" fill="rgb(71,36,116)"><title>Rushcliffe: 9</title></rect>
-<rect x="896" y="1202" width="96" height="16" fill="rgb(68,8,91)"><title>York Outer: 2</title></rect>
-<rect x="896" y="1220" width="96" height="16" fill="rgb(68,50,125)"><title>Chesham and Amersham: 13</title></rect>
+<rect x="896" y="1202" width="96" height="16" fill="rgb(56,84,138)"><title>York Outer: 23</title></rect>
+<rect x="896" y="1220" width="96" height="16" fill="rgb(67,54,127)"><title>Chesham and Amersham: 14</title></rect>
 <rect x="896" y="1238" width="96" height="16" fill="rgb(70,39,118)"><title>North East Hampshire: 10</title></rect>
 <rect x="896" y="1256" width="96" height="16" fill="rgb(59,78,137)"><title>Wokingham: 21</title></rect>
 </svg>

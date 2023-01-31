@@ -20,6 +20,9 @@ if(-e $file){
 	$str = join("",@lines);
 
 	$str =~ s/^\xFE\xFF//;	# UTF-16be BOM - https://stackoverflow.com/questions/42449973/remove-utf-16-bom-from-string-with-perl
+	$str =~ s/^\xFF\xFE//;  # If you have UTF-16le
+	$str =~ s/^\x{FEFF}//;
+	$str =~ s/^\N{BOM}//;
 	$json = JSON::XS->new->decode($str);
 
 	@warmspaces = @{$json->{'value'}{'pageItems'}};
