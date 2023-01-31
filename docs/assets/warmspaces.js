@@ -194,7 +194,7 @@
 						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
 						if(p.address) html += '<p class="address">'+p.address+'</p>';
 						html += (d && d!="m" ? '<p><strong>Distance:</strong> about <span class="dist">'+d+'</span> away</p>' : '');
-						if(p.address) html += '<p><strong>Map</strong>: <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
+						if(typeof lat==="number" && typeof lon==="number") html += '<p><strong>Map</strong>: <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
