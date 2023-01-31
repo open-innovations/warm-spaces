@@ -171,6 +171,7 @@
 			if(accuracy > 200) accuracy = 200;
 
 			html = '';
+			var nopen = 0;
 			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
 				p = this.sorted[i].properties;
 				d = formatDistance(this.sorted[i].distance,accuracy);
@@ -182,6 +183,8 @@
 					var cls = this.toggles[typ].class;
 					if(this.toggles[typ].checked){
 
+						if(typ == "open" && nopen == 0) cls += ' nearest';
+
 						lat = this.sorted[i].geometry.coordinates[1];
 						lon = this.sorted[i].geometry.coordinates[0];
 
@@ -189,8 +192,9 @@
 						html += '<div>';
 						html += '<div class="doublepadded">';
 						html += '<h3>'+(p.url ? '<a href="'+p.url+'/" target="_source">' : '')+p.title+(p.url ? '</a>' : '')+'</h3>';
-						if(p.address) html += '<p class="address">'+p.address+' (<a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google Maps</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing Maps</a>)</p>';
-						html += (d && d!="m" ? '<p><span class="dist">'+d+'</span> or so away</p>' : '');
+						if(p.address) html += '<p class="address">'+p.address+'</p>';
+						html += (d && d!="m" ? '<p><strong>Distance:</strong> about <span class="dist">'+d+'</span> away</p>' : '');
+						if(p.address) html += '<p><strong>Map</strong>: <a href="https://www.openstreetmap.org/#map=18/'+lat+'/'+lon+'" target="_osm">OpenStreetMap</a> | <a href="https://www.google.com/maps/@'+lat+','+lon+',18z" target="_gmap">Google</a> | <a href="https://www.bing.com/maps/?cp='+lat+'%7E'+lon+'&lvl=18" target="_bing">Bing</a></p>';
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
@@ -201,6 +205,7 @@
 						html += '</div></li>';
 
 						added++;
+						if(typ == "open") nopen++;
 					}
 				}else{
 					log('warn','No toggle of type '+typ,p);
@@ -343,63 +348,33 @@
 			}
 			return n;
 		};
+		
+		/**
+		  Adapted from https://github.com/ubahnverleih/simple-opening-hours
+		 */
+		!function(t){function e(t){return this._original=t,this.parse(t),this}e.prototype.getTable=function(){return"object"==typeof this.openingHours?this.openingHours:{}},e.prototype.isOpen=function(t){var e=this;if("boolean"==typeof this.openingHours)return this.openingHours;var n,r=(t=t||new Date).getDay(),o=t.getHours()+":"+(t.getMinutes()<10?"0"+t.getMinutes():t.getMinutes()),i=0;for(var s in this.openingHours)i==r&&(n=this.openingHours[s]),i++;var a=!1;return n.some(function(t){var n=t.replace(/\+$/,"-24:00").split("-");if(-1!=e.compareTime(o,n[0])&&-1!=e.compareTime(n[1],o))return a=!0,!0}),a},e.prototype.parse=function(t){var e=this;if(/24\s*?\/\s*?7/.test(t))this.openingHours=this.alwaysOpen=!0;else{if(/\s*off\s*/.test(t))return this.openingHours=!1,void(this.alwaysClosed=!0);this.init(),t.toLowerCase().replace(/\s*([-:,;])\s*/g,"$1").split(";").forEach(function(t){e.parseHardPart(t)})}},e.prototype.parseHardPart=function(t){var e=this;"24/7"==t&&(t="mo-su 00:00-24:00");var n=t.split(/\ |\,/),r={},o=[],i=[];for(var s in n.forEach(function(t){e.checkDay(t)&&(0==i.length?o=o.concat(e.parseDays(t)):(o.forEach(function(t){r[t]?r[t]=r[t].concat(i):r[t]=i}),o=e.parseDays(t),i=[])),e.isTimeRange(t)&&("off"==t?i=[]:i.push(t))}),o.forEach(function(t){r[t]?r[t]=r[t].concat(i):r[t]=i}),r)this.openingHours[s]=r[s]},e.prototype.parseDays=function(t){var e=this,n=[];return t.split(",").forEach(function(t){0==(t.match(/\-/g)||[]).length?n.push(t):n=n.concat(e.calcDayRange(t))}),n},e.prototype.init=function(){this.openingHours={su:[],mo:[],tu:[],we:[],th:[],fr:[],sa:[],ph:[]}},e.prototype.calcDayRange=function(t){var e={su:0,mo:1,tu:2,we:3,th:4,fr:5,sa:6},n=t.split("-"),r=e[n[0]],o=e[n[1]],i=[];return this.calcRange(r,o,6).forEach(function(t){for(var n in e)e[n]==t&&i.push(n)}),i},e.prototype.calcRange=function(t,e,n){if(t==e)return[t];for(var r=[t],o=t;o<(t<e?e:n);)o++,r.push(o);return t>e&&(r=r.concat(this.calcRange(0,e,n))),r},e.prototype.isTimeRange=function(t){return!!t.match(/[0-9]{1,2}:[0-9]{2}\+/)||(!!t.match(/[0-9]{1,2}:[0-9]{2}\-[0-9]{1,2}:[0-9]{2}/)||!!t.match(/off/))},e.prototype.checkDay=function(t){var e=["mo","tu","we","th","fr","sa","su","ph"];if(t.match(/\-/g)){var n=t.split("-");if(-1!==e.indexOf(n[0])&&-1!==e.indexOf(n[1]))return!0}else if(-1!==e.indexOf(t))return!0;return!1},e.prototype.compareTime=function(t,e){var n=Number(t.replace(":","")),r=Number(e.replace(":",""));return n>r?1:n<r?-1:0},t.SimpleOpeningHours=e}(window||this);
+		function capitalizeFirstLetter(string) { return string.charAt(0).toUpperCase() + string.slice(1); }
 		function processHours(times){
-			var i,j,d,dow,now,nth,days,bits,bitpart,cls,okday,today,ranges,r,ts,t1,t2,hh,newtimes,ofmonth,ds,s,e,day;
+			var i,longdays,now,days,hours,cls,newtimes;
 			cls = "closed";
 			newtimes = "";
+
 			if(times){
-				var longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat"};
-				days = {"Su":0,"Mo":1,"Tu":2,"We":3,"Th":4,"Fr":5,"Sa":6};
+
+				longdays = {"Su":"Sun","Mo":"Mon","Tu":"Tue","We":"Wed","Th":"Thu","Fr":"Fri","Sa":"Sat","Ph":"Public holiday"};
+				//days = {"Su":0,"Mo":1,"Tu":2,"We":3,"Th":4,"Fr":5,"Sa":6};
+				days = ['mo','tu','we','th','fr','sa','su','ph'];
 				now = new Date();
-				nth = now.getNthOfMonth();
-				bits = times.split(/\; /);
-				okday = false;
-				for(i = 0; i < bits.length; i++){
-					(bitpart) = bits[i].split(/ /);
-					ds = bitpart[0].split(/-/);
-					dow = now.getDay();
-					hh = now.getHours() + now.getMinutes()/60;
-					today = "";
-					for(d in days){
-						if(dow==days[d]) today = d;
-					}
-					okday = false;
-					if(ds.length == 1){
-						okday = (ds[0].match(today));
-					}else{
-						s = days[ds[0]];
-						e = days[ds[1]];
-						if(dow >= s && dow <= e) okday = true;
-					}
 
-					ofmonth = "";
-					// Check week of month
-					bitpart[0] = bitpart[0].replace(/\[([^\]]+)\]/,function(m,p1){
-						if(!p1.match(nth)) okday = false;
-						ofmonth = "<sup>"+p1+"</sup>";
-						return "";
-					});
-					
-					// Format days
-					for(j in longdays) bitpart[0] = bitpart[0].replace(new RegExp(j,'g'),longdays[j]);
-
-					newtimes += '<li data="'+times+'">'+bitpart[0]+ofmonth+': '+bitpart[1]+'</li>';
-
-					if(okday){
-						ranges = bitpart[1].split(/,/);
-						//console.log(bits,bitpart,'matches this day of week');
-						for(r = 0; r < ranges.length; r++){
-							ts = ranges[r].split(/-/);
-							t1 = ts[0].split(/:/);
-							t2 = ts[1].split(/:/);
-							t1 = parseInt(t1[0]) + parseInt(t1[1])/60;
-							t2 = parseInt(t2[0]) + parseInt(t2[1])/60;
-							if(t1 <= hh && t2 > hh) cls = "open";
-							if(hh < t1 && hh > t1-0.5) cls = "opening-soon";
-							if(hh < t2 && hh > t2-0.25) cls = "closing-soon";
-						}
-					}
+				hours = new SimpleOpeningHours(times);
+			
+				for(i = 0; i < days.length; i++){
+					if(hours.openingHours[days[i]].length > 0) newtimes += '<li data="'+times+'">'+longdays[capitalizeFirstLetter(days[i])]+': <time>'+hours.openingHours[days[i]]+'</time></li>';
 				}
+				if(hours.isOpen()) cls = "open";
+				if(!hours.isOpen() && hours.isOpen(new Date(now.getTime() + 0.5*3600*1000))) cls = "opening-soon"; // Opens within half an hour
+				if(hours.isOpen() && !hours.isOpen(new Date(now.getTime() + 0.5*3600*1000))) cls = "closing-soon"; // Closes within half an hour
+
 			}
 			return {'type':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
 		}
