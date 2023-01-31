@@ -1391,6 +1391,7 @@ directories:
       type: html
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
+    notes: "No location information is given so they can't be geocoded"
     register:
       url: "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration"
     data:
@@ -1543,3 +1544,6 @@ directories:
     notes: "Lists libraries and links to Warm Welcome"
   - title: "Live Well York"
     url: "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
+    data:
+      url: "https://www.livewellyork.co.uk/api/s4s-advanced-search/products/get-list?searchParams=%7B%22searchTab%22:%22productsTab%22,%22searchText%22:%22%22,%22sortOption%22:%22Rank;asc%22,%22pageNumber%22:1,%22pageSize%22:50,%22activities%22:%5B%5D,%22locations%22:%5B%5D,%22whoIsFor%22:%5B%5D,%22services%22:%5B%225bdc51f7-e332-43e1-9d1b-af0a00dd6f90%22%5D,%22volunteering%22:false,%22postcodeOptions%22:%7B%22distance%22:%221609%22%7D%7D"
+      type: html
