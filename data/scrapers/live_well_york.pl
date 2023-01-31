@@ -14,7 +14,7 @@ $file = $ARGV[0];
 if(-e $file){
 
 	# Open the file
-	open(FILE,"<",$file);
+	open(FILE,"<:utf8",$file);
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
