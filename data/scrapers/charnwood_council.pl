@@ -43,6 +43,12 @@ if(-e $file){
 			if($p[$i] =~ /What['’]s on offer: (.*)/i){
 				$d->{'description'} = $1;
 			}
+			if($p[$i] =~ /Website: <a href="([^\"]*)"[^\>]*>/i){
+				$d->{'url'} = $1;
+			}
+			if($d->{'url'} && $p[$i] =~ /Facebook: <a href="([^\"]*)"[^\>]*>/i){
+				$d->{'url'} = $1;
+			}
 			if($p[$i] =~ /Contact: (.*)/i){
 				$d->{'contact'} = $1;
 			}
