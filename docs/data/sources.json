@@ -472,10 +472,12 @@
 		"title": "East Ayrshire Council",
 		"url": "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
 	},
-	"east_lindsey": {
-		"id": "east_lindsey",
-		"notes": "Too hard to extract enough information",
-		"title": "East Lindsey",
+	"east_lindsey_council": {
+		"count": 23,
+		"geocount": 23,
+		"id": "east_lindsey_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&ehbc=2E312F&ll=53.25336230230613%2C0.0483210000000156&z=9" },
+		"title": "East Lindsey Council",
 		"url": "https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
@@ -622,6 +624,14 @@
 		"id": "havering_council",
 		"title": "Havering Council",
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
+	},
+	"herefordshire_council": {
+		"count": 40,
+		"geocount": 40,
+		"id": "herefordshire_council",
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9" },
+		"title": "Herefordshire Council",
+		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
 		"count": 104,

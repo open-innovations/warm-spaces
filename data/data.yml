@@ -569,9 +569,16 @@ directories:
         address: "Address"
         hours: "Opening times"
         description: "Support available"
-  - title: "East Lindsey"
+  - title: "East Lindsey Council"
     url: "https://www.e-lindsey.gov.uk/warmspaces"
-    notes: "Too hard to extract enough information"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&ehbc=2E312F&ll=53.25336230230613%2C0.0483210000000156&z=9"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&ehbc=2E312F&ll=53.25336230230613%2C0.0483210000000156&z=9"
+      type: googlemap
+      keys:
+        title: "name"
   - title: "East Staffordshire Council"
     url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
     notes: "Not enough address information for half the entries"
@@ -746,6 +753,18 @@ directories:
     data:
       url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
       type: html
+  - title: "Herefordshire Council"
+    url: "https://www.talkcommunitydirectory.org/warmspace"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9"
+      type: googlemap
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9"
+      type: googlemap
+      keys:
+        title: "name"
+        description: "description"
+        hours: "description"
   - title: "Hertfordshire Council"
     url: "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
     register:
