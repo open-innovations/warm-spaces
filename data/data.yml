@@ -856,8 +856,12 @@ directories:
       url: "https://www.lambeth.gov.uk/warm-spaces"
       type: leaflet
     data:
-      url: "https://www.lambeth.gov.uk/warm-spaces"
-      type: html
+      - url: "https://www.lambeth.gov.uk/warm-spaces"
+        type: html
+      - url: "https://www.lambeth.gov.uk/warm-spaces?search_api_fulltext=&page=0%2C1"
+        type: html
+      - url: "https://www.lambeth.gov.uk/warm-spaces?search_api_fulltext=&page=0%2C2"
+        type: html
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:
