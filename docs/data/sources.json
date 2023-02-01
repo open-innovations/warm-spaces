@@ -81,22 +81,22 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 35,
-		"geocount": 35,
+		"count": 34,
+		"geocount": 34,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
 	"belfast_council": {
-		"count": 26,
+		"count": 31,
 		"geocount": 26,
 		"id": "belfast_council",
 		"title": "Belfast Council",
@@ -139,7 +139,7 @@
 		"url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
 	},
 	"bracknell_forest_council": {
-		"count": 17,
+		"count": 16,
 		"geocount": 6,
 		"id": "bracknell_forest_council",
 		"notes": "Locations for libraries on separate pages",
@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": 12,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -377,16 +377,16 @@
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
 	},
 	"colchester_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 28,
+		"geocount": 28,
 		"id": "colchester_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11" },
 		"title": "Colchester Council",
 		"url": "https://www.colchester.gov.uk/cost-of-living-support/?id=&page=warm--welcoming--spaces"
 	},
 	"communities_1st": {
-		"count": 30,
-		"geocount": 29,
+		"count": "0",
+		"geocount": "0",
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 168,
-		"geocount": 164,
+		"count": 169,
+		"geocount": 165,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 115,
-		"geocount": 114,
+		"count": 121,
+		"geocount": 120,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -668,8 +668,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 41,
-		"geocount": 39,
+		"count": 42,
+		"geocount": 40,
 		"id": "hinckley_and_bosworth_council",
 		"title": "Hinckley and Bosworth Council",
 		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
@@ -682,16 +682,16 @@
 		"url": "https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 35,
-		"geocount": 35,
+		"count": 34,
+		"geocount": 34,
 		"id": "hull_council",
 		"map": { "type": "iShare", "url": "https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title": "Hull Council",
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 43,
+		"geocount": 43,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -767,8 +767,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 172,
-		"geocount": 172,
+		"count": 176,
+		"geocount": 176,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -807,8 +807,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 44,
-		"geocount": 42,
+		"count": 45,
+		"geocount": 43,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -868,16 +868,16 @@
 		"url": "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": 39,
-		"geocount": 39,
+		"count": 42,
+		"geocount": 42,
 		"id": "neath_port_talbot_council",
 		"register": { "url": "https://appsportal2.npt.gov.uk/businessaccount" },
 		"title": "Neath Port Talbot Council",
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 24,
-		"geocount": 24,
+		"count": 26,
+		"geocount": 26,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
@@ -976,8 +976,8 @@
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
 	"powys_council": {
-		"count": 51,
-		"geocount": 51,
+		"count": 52,
+		"geocount": 52,
 		"id": "powys_council",
 		"title": "Powys Council",
 		"url": "https://en.powys.gov.uk/powyswarmspaces"
@@ -1242,8 +1242,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 35,
+		"geocount": 35,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1276,8 +1276,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4239,
-		"geocount": 4239,
+		"count": 4190,
+		"geocount": 4190,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1354,8 +1354,8 @@
 		"url": "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
 	},
 	"wolverhampton_council": {
-		"count": 25,
-		"geocount": 22,
+		"count": 26,
+		"geocount": 23,
 		"id": "wolverhampton_council",
 		"title": "Wolverhampton Council",
 		"url": "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"

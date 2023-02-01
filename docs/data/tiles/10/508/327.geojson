@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.34008,54.23297],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Family Life Church, The Old School, Finkle Street, Thirsk, England YO7 1DA","hours":{"_text":"Thursday: 12:00 - 14:00, Sunday: 10:30 - 12:30","opening":"Th 12:00-14:00; Su 10:30-12:30"},"title":"Family Life Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.34507,54.23098],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Courthouse, 4 Westgate, Thirsk, North Yorkshire YO71QS","description":"Open from 24-11-2022.","hours":{"_text":"Thursday: 14:00 - 16:00","opening":"Th 14:00-16:00"},"title":"Rural Arts"},"type":"Feature"}
 	]
 }

@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.03967,54.90782],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Leswalt High Road, Stranraer, Wigtownshire DG9 0AA","hours":{"_text":"Friday: 14:00 - 16:00","opening":"Fr 14:00-16:00"},"title":"Stranraer Parish Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.01056,54.96347],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Cairnryan Village Community Hall, Cairnryan Rd, Stranraer, Scotland, DG9 8QX","hours":{"_text":"12pm-1pm"},"title":"Cairnryan Hall Welfare Facilities Group Limited","url":"http://www.cairnryangroup.co.uk"},"type":"Feature"}
 	]
 }
