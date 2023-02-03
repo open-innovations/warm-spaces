@@ -89,8 +89,8 @@
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 34,
-		"geocount": 34,
+		"count": 36,
+		"geocount": 36,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -196,8 +196,8 @@
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
 	"bristol_council": {
-		"count": 89,
-		"geocount": 89,
+		"count": 93,
+		"geocount": 93,
 		"id": "bristol_council",
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
@@ -297,8 +297,8 @@
 		"url": "https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count": 61,
-		"geocount": 57,
+		"count": 62,
+		"geocount": 58,
 		"id": "central_bedfordshire_council",
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 169,
-		"geocount": 165,
+		"count": 170,
+		"geocount": 166,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -475,8 +475,8 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 31,
-		"geocount": 31,
+		"count": 35,
+		"geocount": 35,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 121,
-		"geocount": 120,
+		"count": 120,
+		"geocount": 119,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -573,8 +573,8 @@
 		"url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
 	},
 	"gedling_council": {
-		"count": 31,
-		"geocount": 30,
+		"count": 32,
+		"geocount": 31,
 		"id": "gedling_council",
 		"title": "Gedling Council",
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
@@ -767,8 +767,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 176,
-		"geocount": 176,
+		"count": 175,
+		"geocount": 175,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -791,8 +791,8 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": 50,
-		"geocount": 50,
+		"count": 51,
+		"geocount": 51,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -876,8 +876,8 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 25,
+		"geocount": 25,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
@@ -1104,8 +1104,8 @@
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
 	"spark_somerset": {
-		"count": 99,
-		"geocount": 96,
+		"count": 100,
+		"geocount": 97,
 		"id": "spark_somerset",
 		"map": { "type": "xmap", "url": "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
@@ -1143,8 +1143,8 @@
 		"url": "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
 	},
 	"stockport_council": {
-		"count": 106,
-		"geocount": 106,
+		"count": 99,
+		"geocount": 99,
 		"id": "stockport_council",
 		"map": { "type": "leaflet", "url": "https://www.stockport.gov.uk/warm-spaces" },
 		"title": "Stockport Council",
@@ -1174,8 +1174,8 @@
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
-		"count": 70,
-		"geocount": 70,
+		"count": 71,
+		"geocount": 71,
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"title": "Sunderland Council",
@@ -1258,8 +1258,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 47,
+		"geocount": 47,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1276,8 +1276,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4204,
-		"geocount": 4204,
+		"count": 4213,
+		"geocount": 4213,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
