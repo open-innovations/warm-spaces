@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.71097,55.29820],"type":"Point"},"properties":{"_source":"warm_spaces","address":"45 Main Street, Morpeth, England, NE65 9PP","hours":{"_text":"Mon-Sat, 10:30am-4:30pm","opening":"Mo-Sa 10:30-16:30"},"title":"Gallery Forty5","url":"https://www.feltongallery45.co.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.56728,55.18731],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"The Round House, Lintonville Parkway, Ashington, Northumberland, NE63 9JZ","hours":{"_text":""},"loc_pcd":true,"title":"Age UK Northumberland","url":"Ashington"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.56879,55.18549],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Ashington Leisure Centre, Lintonville Terrace, Portland Park, Ashington, Northumberland, NE63 9JY","hours":{"_text":""},"loc_pcd":true,"title":"Ashington Leisure Centre","url":"Ashington"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.56879,55.18549],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Ashington Leisure Centre, Lintonville Terrace, Portland Park, Ashington, Northumberland, NE63 9JY","hours":{"_text":""},"loc_pcd":true,"title":"Ashington Library","url":"https://central.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"},
