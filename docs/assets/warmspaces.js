@@ -47,14 +47,17 @@
 			});
 		};
 
+		this.list = opts.el.querySelector('.list.grid');
+		if(!this.list){
+			// Create list output area
+			this.list = document.createElement('ul');
+			this.list.classList.add('list','grid');
+		}
+
 		// Create an element before the list
 		this.loader = document.createElement('div');
 		this.loader.classList.add('loader');
-		opts.el.appendChild(this.loader);
-
-		// Create list output area
-		this.list = document.createElement('ul');
-		this.list.classList.add('list','grid');
+		this.list.before(this.loader);
 
 		// Create a tiled data layer object
 		this.tiler = OI.TiledDataLayer(merge({
