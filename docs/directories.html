@@ -28,7 +28,7 @@
 			<div class="b1-bg">
 				<div class="holder padded" style="text-align:center;">
 					<a href="https://open-innovations.org/"><svg width="100" height="100" overflow="auto" viewbox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg"><mask id="oi-person"><path d="m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0" fill="#fff"></path></mask><g id="oi-logo" fill="#FF6700"><circle r="32" mask="url(#oi-person)"></circle></g></svg></a>
-					<div class="title">Warm spaces in the UK</div>
+					<div class="title">Warm spaces directories</div>
 				</div>
 			</div>
 		</header>
@@ -36,29 +36,18 @@
 
 	<div class="b6-bg">
 		<div class="holder padded tallpadded">
-			<p style="text-align:center;">A compilation of <a href="find"><strong><span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces</strong></a> from <a href="directories"><strong><span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories</strong></a>.</p>
-			<ul class="grid">
-				<li><a href="find" class="c13-bg padded call-to-action">Find a warm space</a></li>
-				<li><a href="by-area" class="c13-bg padded call-to-action">Warm spaces by area</a></li>
-				<li><a href="directories" class="c13-bg padded call-to-action">List of directories included</a></li>
-			</ul>
+			<div style="text-align:center;"><a href="find" class="c13-bg padded" style="display:inline-block;margin:auto;margin-bottom: 1em;text-decoration:none;border-radius:4px;font-family:Poppins;" id="find">Find warm spaces</a></div>
+			<p>Our <a href="find">warm spaces finder tool</a> currently searches through <strong><span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span></strong> warm spaces from <strong><span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span></strong> of the directories listed below. If you know of a directory that we haven't included here, please <a href="mailto:hello@open-innovations.org?subject=Warm spaces directory">let us know</a>.</p>
+			<div class="jekyll-parse">
+{% include_relative data/summary.html %}
+			</div>
+			<p>Those directories with a <span class="c13-bg">geocoded</span> value in the list above can be searched with our <a href="find">warm spaces finder tool</a>. You can also <a href="data/sources.json">get a version of this table as a structured JSON file</a> and <a href="data/places.json">all the parsed warm spaces as JSON</a> too (including those not <span class="c13-bg">geocoded</span>).</p>
+
 		</div>
 	</div>
 	<footer class="b1-bg">
 		<div class="holder padded tallpadded">
-
-			<h2>About</h2>
-			<p>During the winter of 2022-3, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Many different groups - from voluntary groups to local councils - have started collating different <a href="directories">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. So we have developed this as a lower bandwidth tool that searches through multiple warm spaces directories.</p>
-
-			<h3>Saving bandwidth</h3>
-			<p>Many of the existing directories are on web pages that use a lot of data. Ofcom research from October 2021 estimated that 2 million households were "experiencing affordability issues with either their fixed broadband and/or smartphone" and we might expect there to be a large overlap between those and households struggling with the cost of heating. Bandwidth-intensive web pages are less than ideal if you only have 1GB of data per month or are paying per MB. You don't want to use up a day's worth of data just to see if there is anywhere warm nearby. This list-based interface aims to keep data transfer down. If you'd prefer, you can also see <a href="https://mapper.odileeds.org/?6/55.67139/-0.57129/datamill-0902a2be-f58e-429c-a6aa-6f196ccc45fd">all <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces on a map</a> (but that uses more data).</p>
-
-			<h3>Sources</h3>
-			<p>This search includes <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces from <span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories that we were able to automatically collect and automatically parse (<a href="data/places.json">all parsed warm spaces as JSON</a>). As organisations can submit their warm space to multiple directories, there may be duplicates. If there are mistakes please refer back to the original source(s) and, if the mistakes are there, ask them to update those. If the mistake is only present in our version but not the original <a href="mailto:hello@open-innovations.org?subject=Warm Spaces Finder">let us know</a> so we can check our parsers. If you have a warm space that isn't included here then please refer to the <a href="directories">directories of warm spaces</a> (<a href="data/sources.json">as JSON</a>) and choose an appropriate source to register with.</p>
-			<p>We've also made it possible to get a list of all the <a href="by-area#LAD">warm spaces within each local authority</a> or <a href="by-area#PCON">warm spaces within each UK Parliamentary constituency</a>.</p>
 			
-			<hr class="about" />
-
 			<ul class="elsewhere">
 				<li class="instagram"><a href="https://www.instagram.com/openinnovates/"><svg width="48" height="48" version="1.1" viewbox="83 -108.9 64 64" aria-labelledby="icon-instagram"><title id="icon-instagram">Instagram</title><path d="m115-100.9c-6.5181 0-7.3361 0.0285-9.8961 0.145-2.555 0.117-4.299 0.5215-5.8251 1.115-1.5785 0.61301-2.9175 1.433-4.2515 2.7675-1.335 1.334-2.155 2.673-2.77 4.251-0.59501 1.5265-1 3.271-1.115 5.8251-0.1145 2.56-0.1445 3.3785-0.1445 9.8966 0 6.5181 0.029 7.3336 0.145 9.8936 0.1175 2.555 0.52201 4.299 1.115 5.8251 0.61351 1.5785 1.4335 2.9175 2.768 4.2515 1.3335 1.335 2.6725 2.157 4.25 2.77 1.527 0.5935 3.2715 0.99801 5.8261 1.115 2.56 0.1165 3.3775 0.145 9.8951 0.145 6.5186 0 7.3341-0.0285 9.8941-0.145 2.555-0.117 4.301-0.52151 5.828-1.115 1.578-0.61301 2.915-1.435 4.2486-2.77 1.335-1.334 2.155-2.673 2.77-4.251 0.59-1.5265 0.99501-3.271 1.115-5.8251 0.11494-2.56 0.145-3.376 0.145-9.8941 0-6.5181-0.03-7.3361-0.145-9.8961-0.12002-2.555-0.52501-4.299-1.115-5.8251-0.615-1.5785-1.435-2.9175-2.77-4.2515-1.335-1.335-2.67-2.155-4.25-2.7675-1.53-0.59351-3.275-0.99801-5.8301-1.115-2.56-0.1165-3.375-0.145-9.8951-0.145zm-2.153 4.325c0.63902-1e-3 1.352 0 2.153 0 6.4081 0 7.1676 0.023 9.6981 0.138 2.34 0.107 3.61 0.49801 4.456 0.82651 1.12 0.43501 1.9185 0.95501 2.758 1.795 0.84 0.84001 1.36 1.64 1.796 2.76 0.32851 0.84501 0.72 2.115 0.82651 4.455 0.11494 2.53 0.14 3.29 0.14 9.6951 0 6.4051-0.025 7.1651-0.14 9.6951-0.10701 2.34-0.498 3.61-0.82651 4.455-0.435 1.12-0.95602 1.9175-1.796 2.757-0.84001 0.84001-1.6375 1.36-2.758 1.795-0.84501 0.33-2.116 0.72001-4.456 0.82701-2.53 0.11501-3.29 0.14-9.6981 0.14-6.4086 0-7.1681-0.025-9.6981-0.14-2.34-0.108-3.61-0.499-4.4565-0.82751-1.12-0.435-1.92-0.95501-2.76-1.795-0.84001-0.84001-1.36-1.638-1.796-2.7585-0.32851-0.84501-0.72001-2.115-0.82651-4.455-0.11501-2.53-0.138-3.29-0.138-9.6991s0.023-7.1651 0.138-9.6951c0.107-2.34 0.498-3.61 0.82651-4.456 0.435-1.12 0.95601-1.92 1.796-2.76 0.84-0.84001 1.64-1.36 2.76-1.796 0.846-0.33 2.1165-0.72 4.4565-0.82751 2.214-0.1 3.072-0.13 7.5451-0.135zm14.964 3.985c-1.59 0-2.88 1.2885-2.88 2.879 0 1.59 1.29 2.88 2.88 2.88s2.88-1.29 2.88-2.88-1.29-2.88-2.88-2.88zm-12.811 3.365c-6.8066 0-12.325 5.5186-12.325 12.325 0 6.8066 5.5186 12.323 12.325 12.323 6.8066 0 12.323-5.5161 12.323-12.323 0-6.8066-5.5171-12.325-12.324-12.325zm0 4.325c4.418 0 8.0001 3.5815 8.0001 8.0001 0 4.418-3.582 8.0001-8.0001 8.0001-4.4186 0-8.0001-3.582-8.0001-8.0001 0-4.4185 3.5815-8.0001 8.0001-8.0001z" fill="#fff" stroke-width=".50001"></path></svg></a></li>
 				<li class="github"><a href="https://github.com/open-innovations"><svg width="48" height="48" viewbox="83 -108.9 64 64" aria-labelledby="icon-github"><title id="icon-github">Github</title><path d="m 114.97,-100.9 c -13.24,0 -23.97,11.015 -23.97,24.606 0,10.874 6.867,20.096 16.4,23.349 1.19,0.225 1.63,-0.534 1.63,-1.183 0,-0.588 0,-2.527 0,-4.583 -6.66,1.487 -8.07,-2.901 -8.07,-2.901 -1.095,-2.842 -2.665,-3.598 -2.665,-3.598 -2.178,-1.527 0.166,-1.496 0.166,-1.496 2.409,0.17 3.669,2.534 3.669,2.534 2.14,3.762 5.62,2.674 6.98,2.044 0.22,-1.587 0.84,-2.674 1.52,-3.286 -5.32,-0.623 -10.917,-2.735 -10.917,-12.163 0,-2.689 0.937,-4.883 2.467,-6.605 -0.25,-0.625 -1.07,-3.128 0.24,-6.516 0,0 2,-0.661 6.59,2.524 1.9,-0.548 3.96,-0.819 5.99,-0.828 2.04,0 4.1,0.282 6,0.831 4.58,-3.188 6.58,-2.524 6.58,-2.524 1.31,3.391 0.49,5.891 0.24,6.513 1.55,1.722 2.47,3.916 2.47,6.605 0,9.452 -5.6,11.534 -10.94,12.145 0.86,0.762 1.62,2.258 1.62,4.554 0,3.288 0,5.94 0,6.751 0,0.655 0.44,1.422 1.65,1.182 9.52,-3.259 16.38,-12.481 16.38,-23.349 0,-13.591 -10.73,-24.606 -23.97,-24.606 z" fill="white"></path></svg></a></li>

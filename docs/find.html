@@ -24,7 +24,6 @@
 		background-size: 240px;
 		min-height: 240px;
 	}
-	footer h3 { margin-top: 2em; }
 	</style>
 </head>
 <body class="b1-bg">
@@ -59,16 +58,16 @@
 	</div>
 	<footer class="b1-bg">
 		<div class="holder padded tallpadded">
+
 			<h2>About</h2>
-			<p>During the winter of 2022-3, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Many different groups - from voluntary groups to local councils - have started collating different <a href="index.html">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. So we have developed this as a lower bandwidth tool that searches through multiple warm spaces directories.</p>
+			<p>During the winter of 2022-3, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Many different groups - from voluntary groups to local councils - have started collating different <a href="directories">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. So we have developed this as a lower bandwidth tool that searches through multiple warm spaces directories.</p>
 
 			<h3>Saving bandwidth</h3>
 			<p>Many of the existing directories are on web pages that use a lot of data. Ofcom research from October 2021 estimated that 2 million households were "experiencing affordability issues with either their fixed broadband and/or smartphone" and we might expect there to be a large overlap between those and households struggling with the cost of heating. Bandwidth-intensive web pages are less than ideal if you only have 1GB of data per month or are paying per MB. You don't want to use up a day's worth of data just to see if there is anywhere warm nearby. This list-based interface aims to keep data transfer down. If you'd prefer, you can also see <a href="https://mapper.odileeds.org/?6/55.67139/-0.57129/datamill-0902a2be-f58e-429c-a6aa-6f196ccc45fd">all <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces on a map</a> (but that uses more data).</p>
 
 			<h3>Sources</h3>
-			<p>This search includes <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces from <span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories that we were able to automatically collect and automatically parse (<a href="data/places.json">all parsed warm spaces as JSON</a>). As organisations can submit their warm space to multiple directories, there may be duplicates. If there are mistakes please refer back to the original source(s) and, if the mistakes are there, ask them to update those. If the mistake is only present in our version but not the original <a href="mailto:hello@open-innovations.org?subject=Warm Spaces Finder">let us know</a> so we can check our parsers. If you have a warm space that isn't included here then please refer to the <a href="index.html">directories of warm spaces</a> (<a href="data/sources.json">as JSON</a>) and choose an appropriate source to register with.</p>
-			<p>We've also made it possible to get a list of all the <a href="by-area.html#LAD">warm spaces within each local authority</a> or <a href="by-area.html#PCON">warm spaces within each UK Parliamentary constituency</a>.</p>
-			
+			<p>This search includes <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces from <span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories that we were able to automatically collect and automatically parse (<a href="data/places.json">all parsed warm spaces as JSON</a>). As organisations can submit their warm space to multiple directories, there may be duplicates. If there are mistakes please refer back to the original source(s) and, if the mistakes are there, ask them to update those. If the mistake is only present in our version but not the original <a href="mailto:hello@open-innovations.org?subject=Warm Spaces Finder">let us know</a> so we can check our parsers. If you have a warm space that isn't included here then please refer to the <a href="directories">directories of warm spaces</a> (<a href="data/sources.json">as JSON</a>) and choose an appropriate source to register with.</p>
+			<p>We've also made it possible to get a list of all the <a href="by-area#LAD">warm spaces within each local authority</a> or <a href="by-area#PCON">warm spaces within each UK Parliamentary constituency</a>.</p>
 			
 			<h3>Opening times</h3>
 			<p>Please note that <em>our display of opening times may not always be correct</em>. This is because the original data sources have allowed people to provide opening hours as unstructured free-text. There are hundreds of ways that organisations have chosen to write their opening hours and some choices of formatting make it very <a href="https://github.com/open-innovations/warm-spaces/actions/runs/3637587054/jobs/6138765472#step:4:6">hard for our code to work it out correctly</a>. The indications of opening given in this tool are therefore our automated best attempt to work them out. We're doing pretty well at it but have also provided a view of the original text for each. You can also check against the original sources. We suggest that people/organisations/directories use <a href="https://wiki.openstreetmap.org/wiki/Key:opening_hours">an existing standard format for opening times</a> such as the one developed by Open Street Map when adding data to the various directories. That way it will be easier to check for certain kinds of data entry mistake.</p>

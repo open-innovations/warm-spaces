@@ -156,6 +156,7 @@ ul.times > li > time { float: right; }
 ul.list, .loader svg { margin-top:1em; }
 ul.list > li.c13-bg.nearest > div > div:first-child:before { background: black; color: white; padding: 0.5em; content: "This is your nearest open venue"; display: block; position: relative; text-align:center; z-index: 99; }
 ul.list > li h3 { margin-bottom: 0; }
+footer h3 { margin-top: 2em; }
 
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }
