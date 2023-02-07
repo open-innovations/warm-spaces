@@ -22,8 +22,8 @@ directories:
       url: "https://warmspaces.org/spaces"
       type: googlemap
     data:
-      url: "https://warmspaces.org/locations/"
-      type: squarespace
+      url: "https://tools.squarewebsites.org/sqs-response/warmspaces-org/json/map-locations.js"
+      type: html
     register:
       url: "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform"
   - title: "Aberdeen City Council"
@@ -1147,14 +1147,14 @@ directories:
       url: "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716"
       type: arcgis
     data:
-      url: "https://services-eu1.arcgis.com/WD0cvOmDKf7CA0Xy/arcgis/rest/services/Warm_Spaces_in_Perth_and_Kinross/FeatureServer/27/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects"
+      url: "https://services-eu1.arcgis.com/WD0cvOmDKf7CA0Xy/arcgis/rest/services/Warm_Spaces_in_Perth_and_Kinross/FeatureServer/27/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=MI_PRINX&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects"
       type: arcgis
       keys:
         address: "Address"
-        contact: "Contact_De"
-        description: "Descriptio"
-        title: "Name_of_Or"
-        hours: "Opening_HO"
+        contact: "Contact_Details"
+        description: "Description_of_Project"
+        title: "Name_of_Organisation"
+        hours: "Opening_Hours"
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
   - title: "Peterborough Council"

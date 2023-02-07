@@ -30,7 +30,7 @@ if(-e $file){
 
 		if($item =~ /<a[^\>]*href="([^\"]+)" itemprop="url">([^\<]+)<\/a>/){
 			$d->{'title'} = $2;
-			$d->{'url'} = ($1 =~ /^\// ? "https://www.durhamlocate.org.uk":"").$1;
+			$d->{'url'} = ($1 =~ /^\// ? "https://livewellservices.cheshireeast.gov.uk":"").$1;
 		}
 		if($item =~ /<meta itemprop="latitude" content="([^\"]+)" \/>/){ $d->{'lat'} = $1; }
 		if($item =~ /<meta itemprop="longitude" content="([^\"]+)" \/>/){ $d->{'lon'} = $1; }

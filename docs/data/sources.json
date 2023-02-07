@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 52,
+		"geocount": 52,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -507,8 +507,8 @@
 		"url": "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
 	},
 	"eastleigh_council": {
-		"count": 15,
-		"geocount": 15,
+		"count": 16,
+		"geocount": 16,
 		"id": "eastleigh_council",
 		"title": "Eastleigh Council",
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
@@ -912,8 +912,8 @@
 		"url": "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
 	},
 	"north_northamptonshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 42,
+		"geocount": 42,
 		"id": "north_northamptonshire_council",
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
@@ -944,8 +944,8 @@
 		"url": "https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"count": 125,
-		"geocount": 125,
+		"count": 133,
+		"geocount": 133,
 		"id": "perth_and_kinross_council",
 		"map": { "type": "arcgis", "url": "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -976,8 +976,8 @@
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
 	"powys_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": 53,
+		"geocount": 53,
 		"id": "powys_council",
 		"title": "Powys Council",
 		"url": "https://en.powys.gov.uk/powyswarmspaces"
@@ -1074,8 +1074,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 170,
-		"geocount": 170,
+		"count": 171,
+		"geocount": 171,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1211,8 +1211,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 43,
-		"geocount": 41,
+		"count": 45,
+		"geocount": 43,
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1242,8 +1242,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 35,
-		"geocount": 35,
+		"count": 36,
+		"geocount": 36,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1267,8 +1267,8 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1300,
-		"geocount": 1300,
+		"count": 1767,
+		"geocount": 1767,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1276,8 +1276,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4218,
-		"geocount": 4218,
+		"count": 4226,
+		"geocount": 4226,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
