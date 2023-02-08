@@ -34,6 +34,7 @@
 				'maxZoom': 18,
 				'scrollWheelZoom': true
 			});
+			map.attributionControl.setPrefix('Data compiled by <a href="https://open-innovations.org/">Open Innovations</a> from <a href="directories">directories of warm spaces</a>');
 			var _obj = this;
 			// Add callback to the move end event
 			map.on('moveend',function(){
@@ -43,7 +44,7 @@
 
 			// Add a tile layer
 			L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
-				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+				attribution: 'Tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 				subdomains: 'abcd',
 				minZoom: 2,
 				maxZoom: 18
