@@ -6,68 +6,47 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
-	<title>Warm spaces directories | Open Innovations</title>
+	<title>Warm spaces map | Open Innovations</title>
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="icon" href="https://open-innovations.org/resources/images/logos/oi-square-13.svg" />
+	<link rel="StyleSheet" href="assets/leaflet.css" type="text/css" />
+	<script type="text/javascript" src="assets/leaflet.js"></script>
+	<script type="text/javascript" src="assets/leaflet.markercluster.js"></script>
+	<script type="text/javascript" src="assets/warmspaces-map.js"></script>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@OpenInnovates">
-	<meta name="twitter:url" property="og:url" content="https://warm.open-innovations.org/">
-	<meta name="twitter:title" property="og:title" content="Warm spaces directories">
-	<meta name="twitter:description" property="og:description" content="A directory of directories of warm spaces.">
-	<meta name="description" content="A directory of directories of warm spaces.">
+	<meta name="twitter:url" property="og:url" content="https://warm.open-innovations.org/map">
+	<meta name="twitter:title" property="og:title" content="Warm spaces map">
+	<meta name="twitter:description" property="og:description" content="A map showing warm spaces from directories of warm spaces.">
+	<meta name="description" content="A map showing warm spaces from directories of warm spaces.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/resources/images/logos/oi-square-13.png">
 	<style>
 	h2 { margin-top: 2em; }
 	ul.calls { margin-bottom: 2em; }
+	#map { width: 100%; max-width: 100%; height: calc(100vh - 10em); border: 1px solid red; }
+	.marker-group { border-radius: 100%; line-height: 3em; width: 3em; text-align: center; font-family: Poppins; }
+	.leaflet-popup-content > p  { margin: 0; }
+	.leaflet-popup-content .row { margin-top: 0.5em; }
+	.leaflet-popup-content h3 { margin-bottom: 0; }
+	.leaflet-popup-content .footnote { font-size: 0.8em; border-top: 1px solid #999; padding-top: 0.5em; }
 	</style>
 </head>
 <body class="b1-bg">
-
 
 	<div class="b6-bg">
 		<header>
 			<div class="b1-bg">
 				<div class="holder padded" style="text-align:center;">
 					<a href="https://open-innovations.org/"><svg width="100" height="100" overflow="auto" viewbox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg"><mask id="oi-person"><path d="m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0" fill="#fff"></path></mask><g id="oi-logo" fill="#FF6700"><circle r="32" mask="url(#oi-person)"></circle></g></svg></a>
-					<div class="title">About our warm spaces project</div>
+					<div class="title">Warm spaces map</div>
 				</div>
 			</div>
 		</header>
 	</div>
-
-	<div class="b6-bg">
-		<div class="holder padded tallpadded">
-			<ul class="grid calls">
-				<li><a href="find" class="c13-bg padded call-to-action">Find a warm space</a></li>
-				<li><a href="by-area" class="c13-bg padded call-to-action">Warm spaces by area</a></li>
-				<li><a href="directories" class="c13-bg padded call-to-action">List of directories included</a></li>
-			</ul>
-
-			<p>During the winter of 2022-3, the cost-of-living crisis in the UK means more-and-more people will struggle to stay warm. Many different groups - from voluntary groups to local councils - have started collating different <a href="directories">directories of warm spaces</a>. This duplicates work and means each directory only contains a subset of all warm spaces. We have developed this project as a lower-bandwidth tool to collate the data.</p>
-
-			<h2>Saving bandwidth</h2>
-			<p>Many of the existing directories are on web pages that use a lot of data. Ofcom research from October 2021 estimated that 2 million households were "experiencing affordability issues with either their fixed broadband and/or smartphone" and we might expect there to be a large overlap between those and households struggling with the cost of heating. Bandwidth-intensive web pages are less than ideal if you only have 1GB of data per month or are paying per MB. You don't want to use up a day's worth of data just to see if there is anywhere warm nearby. Our <a href="find">list-based search interface</a> aims to keep data transfer down. If you'd prefer, you can also see <a href="https://mapper.odileeds.org/?6/55.67139/-0.57129/datamill-0902a2be-f58e-429c-a6aa-6f196ccc45fd">all <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces on a map</a> (but that uses more data).</p>
-
-			<h2>Sources</h2>
-			<p>The search includes <span class="jekyll-parse">{% include_relative data/nspaces.txt %}</span> warm spaces from <span class="jekyll-parse">{% include_relative data/ndirs.txt %}</span> directories that we were able to automatically collect and parse (<a href="data/places.json">all parsed warm spaces as JSON</a>). As organisations can submit their warm space to multiple directories, there may be duplicates (automatically removing duplicates is very hard so we've left them in). If there are mistakes please refer back to the original source(s) and, if the mistakes are there, ask them to update those. If the mistake is only present in our version but not the original <a href="mailto:hello@open-innovations.org?subject=Warm Spaces Finder">let us know</a> so we can check our parsers. If you have a warm space that isn't included here then please refer to the <a href="directories">directories of warm spaces</a> (also available <a href="data/sources.json">as JSON</a>) and choose an appropriate source to register with.</p>
-			<p>We've also made it possible to get a list of all the <a href="by-area#LAD">warm spaces within each local authority</a> or <a href="by-area#PCON">warm spaces within each UK Parliamentary constituency</a>.</p>
-			
-			<h2>Opening times</h2>
-			<p>Please note that <em>our display of opening times may not always be correct</em>. This is because the original data sources have allowed people to provide opening hours as unstructured free-text. There are hundreds of ways that organisations have chosen to write their opening hours and some choices of formatting make it very <a href="https://github.com/open-innovations/warm-spaces/actions/runs/3637587054/jobs/6138765472#step:4:6">hard for our code to work it out correctly</a>. The indications of opening given in this tool are therefore our automated best attempt to work them out. We're doing pretty well at it but have also provided a view of the original text for each. You can also check against the original sources. We suggest that people/organisations/directories use <a href="https://wiki.openstreetmap.org/wiki/Key:opening_hours">an existing standard format for opening times</a> such as the one developed by Open Street Map when adding data to the various directories. That way it will be easier to check for certain kinds of data entry mistake.</p>
-			
-			<h2>Location &amp; privacy</h2>
-			<p>For the best results, the "near my location" button should work best. That uses your device's location (if you let it). We could have just sent that to our server to find the nearest warm spaces to your location but we decided to do as much as we can to respect your privacy whilst still being useful. If you do allow your location to be used, it is rounded to the nearest ~5km&times;2.5km grid cell and then all the warm spaces for that cell (and some neighbouring ones just in case you are on the edge of a grid cell) are loaded. This rounding ensures that your exact location doesn't leave this page so we (or our server) won't get to know what it is. Once the results are sent back to this page, your precise location is then used (in the page) to order the results.</p>
-			<p>Some people, understandably, turn location services off on their device or block their browser from having access to that. In that case the "near my location" button obviously can't function. So we've also added a place search. Again, we could have taken the easy approach of sending what you type off to our server (or someone else's) to work out where that place is. But, instead, we've taken open data published by Ordnance Survey about place names, and then grouped those by first letter. So when you start typing, all our server needs to know is the first letter. This means a larger data usage than just passing full place name you've entered and returning a location, but felt reasonable to protect your privacy.</p>
-			<p>If you use the place name search then the distance we show on the search results will be from the Ordnance Survey centre of the place to the warm space. So, if you've searched for a large place like "Leeds" the distances and ordering will probably not be correct for you. We've included cities, towns, suburban areas, villages, and hamlets from the Ordnance Survey data so hopefully there is something close enough to you to be useful.</p>
-			
-			<h2>Credits</h2>
-			<p>This tool was initially created by Stuart Lowe, <a href="https://open-innovations.org/">Open Innovations</a> at the end of November 2022.</p>
-			<p>The results come from various <a href="index.html">directories of warm spaces</a>; each result links back to the specific source directory that it came from. The original data has been contributed by individuals/organisations to those directories. This search tool is updated daily from the source directories.</p>
-			<p>The place name search uses a subset of processed data from <a href="https://www.ordnancesurvey.co.uk/business-government/products/open-map-names">Ordnance Survey's Open Names</a> released under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a> and is &copy; Crown copyright and database right 2021 / Royal Mail data &copy; Royal Mail copyright and database right 2021 / National Statistics data &copy; Crown copyright and database right 2021.</p>
-			<p>We have <a href="https://odileeds.github.io/Postcodes2LatLon/">derived locations from postcodes</a> for <span class="jekyll-parse">{% include_relative data/ngeocoded.txt %}</span> warm spaces using the <a href="http://geoportal.statistics.gov.uk/items/national-statistics-postcode-lookup-august-2018">ONS postcode lookup</a> which is derived from Code-Point® Open and <a href="https://www.ons.gov.uk/methodology/geography/licences">released under the Open Government Licence</a>.</p>
-			
-		</div>
+	<div class="b6-bg doublepadded">
+		<div id="map"></div>
 	</div>
+
 	<footer class="b1-bg">
 		<div class="holder padded tallpadded">
 
