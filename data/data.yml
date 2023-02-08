@@ -908,7 +908,7 @@ directories:
         hours: "description"
   - title: "Kirklees Council"
     url: "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
-    notes: "Mentions libraries and refers to Warm Welcome UK"
+    notes: "Mentions libraries and refers to Warm Welcome UK. No opening times given by the Kirklees website; they outsource those to Google."
     data:
       url: "https://www.kirklees.gov.uk/beta/wheres-my-nearest/xml/iLibraries.xml"
       type: html
