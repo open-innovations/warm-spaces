@@ -80,7 +80,7 @@
 				S('#'+str).addClass('open').find('button').focus();
 				return this;
 			}
-			a = (str) ? str.split('/') : [6,54.83866,1.72485];
+			a = (str) ? str.split('/') : [6,54.69288,-3.35083];
 			if(!this.anchor) this.anchor = {};
 			this.anchor.lat = a[1];
 			this.anchor.zoom = a[0];
