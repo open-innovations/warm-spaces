@@ -16,6 +16,7 @@
 		var log = logger.message;
 		var nodegroup;
 		var map;
+		var el = document.getElementById('map');
 
 		// Do we update the address bar?
 		this.pushstate = !!(window.history && history.pushState);
@@ -27,7 +28,7 @@
 			this.getAnchor();
 
 			// Create the map
-			map = new L.map(document.getElementById('map'),{
+			map = new L.map(el,{
 				'center': [this.anchor.lat,this.anchor.lon],
 				'zoom': this.anchor.zoom,
 				'maxZoom': 18
@@ -143,7 +144,7 @@
 
 		this.update = function(){
 			if(this.json && this.sources){
-				
+				if(el.querySelector('.loader')) el.querySelector('.loader').remove();
 				var icon = L.divIcon({
 					'className': '',
 					'html':	'<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="7.0556mm" height="11.571mm" viewBox="0 0 25 41.001" id="svg2" version="1.1"><g id="layer1" transform="translate(1195.4,216.71)"><path style="fill:#FF6700;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="M 12.5 0.5 A 12 12 0 0 0 0.5 12.5 A 12 12 0 0 0 1.8047 17.939 L 1.8008 17.939 L 12.5 40.998 L 23.199 17.939 L 23.182 17.939 A 12 12 0 0 0 24.5 12.5 A 12 12 0 0 0 12.5 0.5 z " transform="matrix(1,0,0,1,-1195.4,-216.71)" id="path4147" /><ellipse style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.428;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="path4173" cx="-1182.9" cy="-204.47" rx="5.3848" ry="5.0002" /></g></svg>',
