@@ -31,7 +31,8 @@
 			map = new L.map(el,{
 				'center': [this.anchor.lat,this.anchor.lon],
 				'zoom': this.anchor.zoom,
-				'maxZoom': 18
+				'maxZoom': 18,
+				'scrollWheelZoom': false
 			});
 			var _obj = this;
 			// Add callback to the move end event
