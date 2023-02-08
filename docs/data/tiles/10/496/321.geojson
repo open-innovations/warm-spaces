@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.60551,55.42210],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"Stewart Road, Campbeltown, PA28 6AT","description":"Stewart Road, Campbeltown, PA28 6AT","loc_pcd":true,"title":"Kintyre Community Centre"},"type":"Feature"}
+	]
+}

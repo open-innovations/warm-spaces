@@ -17,8 +17,8 @@
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 41,
+		"geocount": 41,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -39,8 +39,8 @@
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count": 31,
-		"geocount": 12,
+		"count": 33,
+		"geocount": 14,
 		"id": "argyll_and_bute_third_sector_interface",
 		"title": "Argyll and Bute Third Sector Interface",
 		"url": "https://www.argylltsi.org/warmspaces.html"
@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -97,7 +97,7 @@
 	},
 	"belfast_council": {
 		"count": 41,
-		"geocount": 41,
+		"geocount": 40,
 		"id": "belfast_council",
 		"title": "Belfast Council",
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
@@ -188,8 +188,8 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 49,
+		"geocount": 49,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -364,8 +364,8 @@
 		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 41,
+		"geocount": 41,
 		"id": "chorley_council",
 		"title": "Chorley Council",
 		"url": "https://chorley.gov.uk/article/2917/Warm-Spaces"
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 171,
-		"geocount": 167,
+		"count": 173,
+		"geocount": 169,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 121,
-		"geocount": 120,
+		"count": 123,
+		"geocount": 122,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -588,8 +588,8 @@
 		"url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
 	},
 	"gloucester_council": {
-		"count": 34,
-		"geocount": 32,
+		"count": 35,
+		"geocount": 33,
 		"id": "gloucester_council",
 		"register": { "url": "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/" },
 		"title": "Gloucester Council",
@@ -736,8 +736,10 @@
 		"url": "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/10"
 	},
 	"kirklees_council": {
+		"count": 24,
+		"geocount": 24,
 		"id": "kirklees_council",
-		"notes": "Mentions libraries and refers to Warm Welcome UK",
+		"notes": "Mentions libraries and refers to Warm Welcome UK. No opening times given by the Kirklees website; they outsource those to Google.",
 		"title": "Kirklees Council",
 		"url": "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
 	},
@@ -767,8 +769,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 176,
-		"geocount": 176,
+		"count": 175,
+		"geocount": 175,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -1003,8 +1005,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 43,
+		"geocount": 43,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1059,8 +1061,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 20,
-		"geocount": 20,
+		"count": 21,
+		"geocount": 21,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1129,8 +1131,8 @@
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
 	},
 	"staffordshire_fire_and_rescue": {
-		"count": 4,
-		"geocount": 4,
+		"count": 3,
+		"geocount": 3,
 		"id": "staffordshire_fire_and_rescue",
 		"title": "Staffordshire Fire and Rescue",
 		"url": "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
@@ -1196,8 +1198,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 85,
-		"geocount": 81,
+		"count": 88,
+		"geocount": 84,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1211,8 +1213,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 45,
-		"geocount": 43,
+		"count": 46,
+		"geocount": 44,
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1276,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4226,
-		"geocount": 4226,
+		"count": 4236,
+		"geocount": 4236,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

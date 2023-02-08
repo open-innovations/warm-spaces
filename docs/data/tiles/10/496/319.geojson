@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.41723,55.86311],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tarbert Church of Scotland Hall, Campbeltown Road, Tarbert, Scotland, PA29, United Kingdom","description":"Free Food/Drink, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly, Hot soup and snacks, access to foodbank supplies.","hours":{"_text":"Weds, 12noon-1.30pm","opening":"We 12:00-13:30"},"title":"The Pantry"},"type":"Feature"}
+	]
+}

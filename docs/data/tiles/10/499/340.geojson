@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.25532,51.61719],"type":"Point"},"properties":{"_source":"swansea_council","address":"Llanmadoc SA3 1DE","description":"https://www.facebook.com/Llanmadoc-Community-Shop-117492851929476/ 01792 386494, siop.y.bobl@gmail.com Tuesday 10.00am - 4.00pm Come and find a lovely warm shop and cafe in the sleepy village of Llanmadoc in North Gower. You will be offered unlimited tea and coffee along with a light lunch. ; Free wifi; Accessible entrance / venue; Toilets; Accessible toilets; Baby changing facilities; Car parking; Refreshments available; all tea, coffee, cake, soup, pasty or a roll are free; ; Drinking water available; Newspapers / magazines; Advice, information and signposting; information on services in the area, local walks etc; ;","loc_pcd":true,"title":"Llanmadoc Community Shop"},"type":"Feature"}
+	]
+}

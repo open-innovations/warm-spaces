@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.02696,57.87871],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Dornoch, Scotland, IV25","hours":{"_text":"Thursdays 12pm-3pm, Sundays 10:30am-12:30pm and 5:30pm-7:30pm","opening":"Th 12:00-15:00; Su 10:30-12:30,17:30-19:30"},"title":"The Living Room - Dornoch Free Church","url":"https://www.dornochfreechurch.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.02696,57.87871],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Dornoch, Scotland, IV25, United Kingdom","description":"Free Food/Drink, Device Charging, Advice, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly","hours":{"_text":"Thursdays 12pm-3pm, Sundays 10:30am-12:30pm and 5:30pm-7:30pm","opening":"Th 12:00-15:00; Su 10:30-12:30,17:30-19:30"},"title":"The Living Room - Dornoch Free Church","url":"https://www.dornochfreechurch.co.uk"},"type":"Feature"}
 	]
 }
