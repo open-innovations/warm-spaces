@@ -17,10 +17,11 @@
 		var nodegroup;
 		var map;
 		var el = document.getElementById('map');
+		var _obj = this;
 
 		// Do we update the address bar?
 		this.pushstate = !!(window.history && history.pushState);
-		window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ this.moveMap(e); };
+		window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ _obj.moveMap(e); };
 
 		this.init = function(){
 
@@ -65,7 +66,7 @@
 			this.getAnchor(a);
 			if(!a){
 				this.trackmove = false;
-				this.map.setView({lon:this.anchor.lon,lat:this.anchor.latitude},this.anchor.zoom);
+				map.setView([this.anchor.lat,this.anchor.lon],this.anchor.zoom);
 			}else{
 				if(map && this.pushstate) history.pushState({},"Map","?"+this.anchor.str);
 			}
