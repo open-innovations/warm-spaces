@@ -15,9 +15,11 @@
 		var logger = new Log({"title":this.title,"version":this.version});
 		var log = logger.message;
 		var nodegroup;
-		var map;
+		var map,markerList;
 		var el = document.getElementById('map');
 		var _obj = this;
+		var icons = {'closed':'#bbbbbb','open':'#FF6700','closing-soon':'#D60303','opening-soon':'#F9BC26'};
+
 
 		// Do we update the address bar?
 		this.pushstate = !!(window.history && history.pushState);
@@ -51,6 +53,8 @@
 				maxZoom: 18
 			}).addTo(map);
 			this.load();
+			
+			setInterval(function(){ _obj.update(); },60000);
 			return this;
 		};
 		this.updateMap = function(){
@@ -131,30 +135,34 @@
 				html += ' / <a href="'+source.register.url+'" target="_source">Contribute</a>';
 			}
 			return (html ? '<p class="row footnote"><strong>From:</strong> '+html+'</p>' : '');
-		}
+		};
 		this.makePopup = function(p){
 			var html = '';
+			var hours = {};
 			html += '<h3>'+p.title+'</h3>';
 			if(p.address) html += '<p class="address">'+p.address+'</p>';
 			if(p.description) html += '<p class="row"><strong>Notes:</strong> '+p.description+'</p>';
-			if(p.hours && p.hours._text){
-				var hours = processHours(p.hours.opening);
+			if(p.hours && p.hours.opening){
+				hours = processHours(p.hours.opening);
 				html += (hours.times ? '<p class="times row"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times row"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
 			}
 			html += this.formatSource(this.sources[p._source]);
-			return html;
+			return {'html':html,'hours':hours};
 		}
+		function makeIcon(cls,colour){
+			return {'icon':L.divIcon({
+				'className': cls||"",
+				'html':	'<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="7.0556mm" height="11.571mm" viewBox="0 0 25 41.001" id="svg2" version="1.1"><g id="layer1" transform="translate(1195.4,216.71)"><path style="fill:%COLOUR%;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="M 12.5 0.5 A 12 12 0 0 0 0.5 12.5 A 12 12 0 0 0 1.8047 17.939 L 1.8008 17.939 L 12.5 40.998 L 23.199 17.939 L 23.182 17.939 A 12 12 0 0 0 24.5 12.5 A 12 12 0 0 0 12.5 0.5 z " transform="matrix(1,0,0,1,-1195.4,-216.71)" id="path4147" /><ellipse style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.428;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="path4173" cx="-1182.9" cy="-204.47" rx="5.3848" ry="5.0002" /></g></svg>'.replace(/\%COLOUR\%/,(colour||"#FF6700")),
+				'iconSize':	 [27, 42],
+				'popupAnchor': [0, -22]
+			}),'class':cls||"",'colour':colour||""};
+		}
+		for(i in icons) icons[i] = makeIcon(i,icons[i]);
 
 		this.update = function(){
 			if(this.json && this.sources){
 				if(el.querySelector('.loader')) el.querySelector('.loader').remove();
-				var icon = L.divIcon({
-					'className': '',
-					'html':	'<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="7.0556mm" height="11.571mm" viewBox="0 0 25 41.001" id="svg2" version="1.1"><g id="layer1" transform="translate(1195.4,216.71)"><path style="fill:#FF6700;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="M 12.5 0.5 A 12 12 0 0 0 0.5 12.5 A 12 12 0 0 0 1.8047 17.939 L 1.8008 17.939 L 12.5 40.998 L 23.199 17.939 L 23.182 17.939 A 12 12 0 0 0 24.5 12.5 A 12 12 0 0 0 12.5 0.5 z " transform="matrix(1,0,0,1,-1195.4,-216.71)" id="path4147" /><ellipse style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.428;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="path4173" cx="-1182.9" cy="-204.47" rx="5.3848" ry="5.0002" /></g></svg>',
-					'iconSize':	 [32, 42],
-					'popupAnchor': [-2, -22]
-				});
-
+				
 				var nodes = L.markerClusterGroup({
 					chunkedLoading: true,
 					maxClusterRadius: 60,
@@ -162,20 +170,22 @@
 						var pins = cluster.getAllChildMarkers();
 						var colours = {};
 						for(var i = 0; i < pins.length; i++){
-							if(!colours[pins[i].properties.background]) colours[pins[i].properties.background] = 0;
-							colours[pins[i].properties.background]++;
+							if(!colours[pins[i].options.class]) colours[pins[i].options.class] = 0;
+							colours[pins[i].options.class]++;
 						}
 						var grad = "";
 						// The number of colours
 						var n = 0;
 						var p = 0;
-						var f = Math.sqrt(2);
+						var f = 1/Math.sqrt(2);
 						var ordered = Object.keys(colours).sort(function(a,b){return colours[a]-colours[b]});
+						var t = 0;
 						for(var i = ordered.length-1; i >= 0; i--){
 							c = ordered[i];
+							t += colours[c];
 							if(grad) grad += ', ';
-							grad += c+' '+Math.round(p)+'%';
-							p += (100*colours[c]/pins.length)/f;
+							grad += icons[c].colour+' '+Math.round(p)+'%';
+							p = 100*Math.sqrt(t/pins.length)*f;
 							grad += ' '+Math.round(p)+'%';
 						}
 						return L.divIcon({ html: '<div class="marker-group" style="background:radial-gradient(circle at center, '+grad+');">'+pins.length+'</div>', className: '',iconSize: L.point(40, 40) });
@@ -187,17 +197,20 @@
 				});
 				
 				// Build marker list
-				var markerList = [];
+				markerList = [];
 
 				// Remove the previous cluster group
 				if(nodegroup) map.removeLayer(nodegroup);
 
 				for(var i = 0; i < this.json.length; i++){
 					if(typeof this.json[i].lon==="number" && typeof this.json[i].lat==="number"){
-						marker = L.marker([this.json[i].lat,this.json[i].lon],{icon: icon});
+						pop = this.makePopup(this.json[i]);
+						if(!pop.hours.type) pop.hours.type = "closed";
+						if(!icons[pop.hours.type]) icons[pop.hours.type] = makeIcon();
+						marker = L.marker([this.json[i].lat,this.json[i].lon],{class:pop.hours.type,icon: icons[pop.hours.type].icon});
 						if(!marker.properties) marker.properties = {};
-						marker.properties.background = "#FF6700";
-						marker.bindPopup(this.makePopup(this.json[i]),{'icon':marker});
+						marker.properties.hours = pop.hours;
+						marker.bindPopup(pop.html,{'icon':marker});
 						markerList.push(marker);
 					}
 				}
@@ -240,11 +253,12 @@
 			if(hours.isOpen() && !hours.isOpen(new Date(now.getTime() + 0.5*3600*1000))) cls = "closing-soon"; // Closes within half an hour
 
 		}
-		return {'type':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':'')};
+		return {'type':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':''),'string':times};
 	}
+
 	OI.ready(function(){
-		var ws = new WarmspacesMap();
-		ws.init();
+		root.ws = new WarmspacesMap();
+		root.ws.init();
 	});
 
 	function Log(opt){
