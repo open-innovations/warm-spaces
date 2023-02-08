@@ -32,7 +32,7 @@
 				'center': [this.anchor.lat,this.anchor.lon],
 				'zoom': this.anchor.zoom,
 				'maxZoom': 18,
-				'scrollWheelZoom': false
+				'scrollWheelZoom': true
 			});
 			var _obj = this;
 			// Add callback to the move end event
