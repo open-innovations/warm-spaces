@@ -17,8 +17,8 @@
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": 43,
+		"geocount": 43,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -52,8 +52,8 @@
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"barnet_council": {
-		"count": 23,
-		"geocount": 23,
+		"count": 26,
+		"geocount": 26,
 		"id": "barnet_council",
 		"map": { "type": "leaflet", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url": "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -188,8 +188,8 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 52,
+		"geocount": 52,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -297,8 +297,8 @@
 		"url": "https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count": 62,
-		"geocount": 58,
+		"count": 64,
+		"geocount": 59,
 		"id": "central_bedfordshire_council",
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 46,
-		"geocount": 46,
+		"count": 47,
+		"geocount": 47,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -430,8 +430,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 215,
-		"geocount": 211,
+		"count": 216,
+		"geocount": 212,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -514,8 +514,8 @@
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
 	},
 	"edinburgh_council": {
-		"count": 70,
-		"geocount": 70,
+		"count": 74,
+		"geocount": 72,
 		"id": "edinburgh_council",
 		"map": { "type": "arcgis", "url": "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37" },
 		"title": "Edinburgh Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 123,
-		"geocount": 122,
+		"count": 124,
+		"geocount": 123,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -644,8 +644,8 @@
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"herefordshire_council": {
-		"count": 40,
-		"geocount": 40,
+		"count": 41,
+		"geocount": 41,
 		"id": "herefordshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9" },
 		"title": "Herefordshire Council",
@@ -690,8 +690,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 42,
+		"geocount": 42,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -878,8 +878,8 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 24,
+		"geocount": 24,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4236,
-		"geocount": 4236,
+		"count": 4240,
+		"geocount": 4240,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
