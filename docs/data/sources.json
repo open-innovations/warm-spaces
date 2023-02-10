@@ -89,8 +89,8 @@
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 37,
+		"geocount": 37,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -196,8 +196,8 @@
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
 	"bristol_council": {
-		"count": 93,
-		"geocount": 93,
+		"count": 96,
+		"geocount": 96,
 		"id": "bristol_council",
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 59,
-		"geocount": 58,
+		"count": 62,
+		"geocount": 61,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -507,8 +507,8 @@
 		"url": "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
 	},
 	"eastleigh_council": {
-		"count": 16,
-		"geocount": 16,
+		"count": 17,
+		"geocount": 17,
 		"id": "eastleigh_council",
 		"title": "Eastleigh Council",
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 124,
-		"geocount": 123,
+		"count": 126,
+		"geocount": 125,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -809,8 +809,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 45,
-		"geocount": 43,
+		"count": 46,
+		"geocount": 44,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1047,7 +1047,7 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 47,
+		"count": 46,
 		"geocount": 29,
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
@@ -1229,8 +1229,8 @@
 		"url": "https://www.tewkesbury.gov.uk/warm-spaces"
 	},
 	"tonbridge_and_malling_council": {
-		"count": 20,
-		"geocount": 19,
+		"count": 24,
+		"geocount": 23,
 		"id": "tonbridge_and_malling_council",
 		"title": "Tonbridge and Malling Council",
 		"url": "https://www.tmbc.gov.uk/community-services/warm-spaces"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4240,
-		"geocount": 4240,
+		"count": 4245,
+		"geocount": 4245,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
