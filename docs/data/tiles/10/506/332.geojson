@@ -2,6 +2,7 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-1.91357,53.32363],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Town Hall, Market Street, Chapel-en-le-Frith, High Peak SK23 0HP","hours":{"_text":"Monday: 09:30 - 15:00, Tuesday: 09:30 - 15:00, Wednesday: 09:30 - 15:00","opening":"Mo 09:30-15:00; Tu 09:30-15:00; We 09:30-15:00"},"title":"Churches Together in Chapel-en-le-Frith"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.10359,53.29815],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Bollington Library","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.10812,53.29566],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Life Church Bollington (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.09824,53.29810],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"The Bridgend Centre, Bollington (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.91492,53.25647],"type":"Point"},"properties":{"_source":"high_peak_council","address":"2B, 11-13 Eagle Parade, Buxton, SK176EQ","description":"Tuesday - Mindfulness 3.30pm - 4.15pm","hours":{"_text":"Drop-in&apos;s:"},"loc_pcd":true,"title":"Grapevine Wellbeing Centre","url":"https://www.facebook.com/grapevinewellbeing/"},"type":"Feature"},
