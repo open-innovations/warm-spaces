@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 51,
+		"geocount": 51,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -97,7 +97,7 @@
 	},
 	"belfast_council": {
 		"count": 38,
-		"geocount": 38,
+		"geocount": 37,
 		"id": "belfast_council",
 		"title": "Belfast Council",
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 12,
+		"geocount": 10,
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 47,
-		"geocount": 47,
+		"count": 48,
+		"geocount": 48,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 126,
-		"geocount": 125,
+		"count": 127,
+		"geocount": 126,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -885,8 +885,8 @@
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
 	"newham_council": {
-		"count": 31,
-		"geocount": 31,
+		"count": 34,
+		"geocount": 34,
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"title": "Newham Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4252,
-		"geocount": 4252,
+		"count": 4253,
+		"geocount": 4253,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
