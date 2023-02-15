@@ -96,8 +96,8 @@
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
 	"belfast_council": {
-		"count": 38,
-		"geocount": 37,
+		"count": 36,
+		"geocount": 36,
 		"id": "belfast_council",
 		"title": "Belfast Council",
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
@@ -220,8 +220,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 54,
-		"geocount": 54,
+		"count": 53,
+		"geocount": 53,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 127,
-		"geocount": 126,
+		"count": 130,
+		"geocount": 129,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -690,8 +690,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -878,8 +878,8 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 24,
-		"geocount": 24,
+		"count": 29,
+		"geocount": 29,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
@@ -1244,8 +1244,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 37,
+		"geocount": 37,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4255,
-		"geocount": 4255,
+		"count": 4257,
+		"geocount": 4257,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
