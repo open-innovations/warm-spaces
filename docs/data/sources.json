@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 186,
-		"geocount": 186,
+		"count": 189,
+		"geocount": 189,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -421,7 +421,7 @@
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
 	},
 	"cumbria_council": {
-		"count": 245,
+		"count": 244,
 		"geocount": 242,
 		"id": "cumbria_council",
 		"map": { "type": "leaflet", "url": "https://new.cumbria.gov.uk/warm-spots" },
@@ -430,8 +430,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 230,
-		"geocount": 226,
+		"count": 233,
+		"geocount": 229,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -467,7 +467,7 @@
 	},
 	"durham_county_council": {
 		"count": 175,
-		"geocount": 172,
+		"geocount": 171,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 130,
-		"geocount": 129,
+		"count": 131,
+		"geocount": 130,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -946,8 +946,8 @@
 		"url": "https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"count": 133,
-		"geocount": 133,
+		"count": "0",
+		"geocount": "0",
 		"id": "perth_and_kinross_council",
 		"map": { "type": "arcgis", "url": "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1091,7 +1091,7 @@
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
 	},
 	"south_tyneside_council": {
-		"count": 69,
+		"count": 68,
 		"geocount": 63,
 		"id": "south_tyneside_council",
 		"map": { "type": "os", "url": "https://maps.southtyneside.gov.uk/warm_spaces/" },
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4263,
-		"geocount": 4263,
+		"count": 4264,
+		"geocount": 4264,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
