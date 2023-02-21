@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 131,
-		"geocount": 130,
+		"count": 132,
+		"geocount": 131,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -661,8 +661,8 @@
 		"url": "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
 	},
 	"high_peak_council": {
-		"count": 29,
-		"geocount": 24,
+		"count": 30,
+		"geocount": 25,
 		"id": "high_peak_council",
 		"title": "High Peak Council",
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
@@ -675,8 +675,8 @@
 		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
 	},
 	"hounslow_council": {
-		"count": 35,
-		"geocount": 34,
+		"count": 51,
+		"geocount": 41,
 		"id": "hounslow_council",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
@@ -769,8 +769,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 174,
-		"geocount": 174,
+		"count": 176,
+		"geocount": 176,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -946,8 +946,8 @@
 		"url": "https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 133,
+		"geocount": 133,
 		"id": "perth_and_kinross_council",
 		"map": { "type": "arcgis", "url": "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1260,8 +1260,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 48,
+		"geocount": 48,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4264,
-		"geocount": 4264,
+		"count": 4268,
+		"geocount": 4268,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
