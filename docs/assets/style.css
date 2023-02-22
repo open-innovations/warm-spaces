@@ -160,6 +160,37 @@ footer h3 { margin-top: 2em; }
 .call-to-action { text-decoration:none;border-radius:4px;font-family:Poppins; text-align: center; }
 
 
+/* Typeahead search */
+.placesearch { min-width: 30px; min-height: 30px; }
+.placesearch .submit {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='13'%3E%3Cg stroke-width='2' stroke='%23000000' fill='none'%3E%3Cpath d='M11.29 11.71l-4-4'/%3E%3Ccircle cx='5' cy='5' r='4'/%3E%3C/g%3E%3C/svg%3E");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+	cursor: pointer;
+}
+.placesearch form { position: relative; margin-bottom: 0; }
+.placesearch .pop-left { display: none; }
+.placesearch .typeahead-results { width: 100% }
+.placesearch .typeahead-results ol { list-style: none; margin: 0px; padding: 0px; }
+.placesearch .typeahead-results li { background-color: white; color: black; margin-bottom: 0; }
+.placesearch .typeahead-results li > a { padding: 0.25em 0.5em; background: #efefef; text-decoration: none; display: block; color: inherit; width: 100%; }
+.placesearch .typeahead-results li.selected { background-color: #dfdfdf; color: black; }
+.placesearch .typeahead-results li.selected a { background-color: #444; color: white; }
+.placesearch.typing input[type="text"]{ display: block; min-width: 16em; height: 30px; padding: 0.25em 0.5em; border: 0px; }
+.placesearch.typing .typeahead-results { display: block; }
+.placesearch.typing .typeahead-results a { border: 0px; width: 100%; height: auto; text-align: left; }
+.placesearch.typing .pop-left { display: inline-block; position: relative; top: 0px; right: 0px; }
+
+
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }
 }

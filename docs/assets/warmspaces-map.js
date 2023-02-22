@@ -53,6 +53,132 @@
 				maxZoom: 18
 			}).addTo(map);
 			this.load();
+
+
+			var ctrl = document.querySelector('.leaflet-top.leaflet-left');
+			// Add placesearch
+			div = document.createElement('div');
+			div.classList.add('leaflet-control');
+			div.classList.add('leaflet-bar');
+			div.innerHTML = '<div class="placesearch"><div class="submit" href="#" title="Search" role="button" aria-label="Search"></div><form id="placesearch" class="placeform layersearch pop-left" action="search" method="GET" autocomplete="off"><input class="place" id="search" name="place" value="" placeholder="Search for a named area" type="text" /><div class="searchresults" id="searchresults"></div></div></form>';
+			ctrl.appendChild(div);
+			
+			function toggleActive(state){
+				e = ctrl.querySelector('.placesearch');
+				if(typeof state!=="boolean") state = !e.classList.contains('typing');
+				if(state){
+					e.classList.add('typing');
+					e.querySelector('input.place').focus();
+				}else{
+					e.classList.remove('typing');
+				}
+			}
+		
+			div.querySelector('.submit').addEventListener('click', function(e){ toggleActive(); });
+
+			// Stop map dragging on the element
+			ctrl.addEventListener('mousedown', function(){ map.dragging.disable(); });
+			ctrl.addEventListener('mouseup', function(){ map.dragging.enable(); });
+
+			var inp = document.getElementById('search');
+			console.log('typeahead',inp);
+			if(inp){
+				document.getElementById('placesearch').addEventListener('submit',function(e){ e.preventDefault(); e.stopPropagation(); });
+				// Build the main search for places
+				this.typeahead = TypeAhead.init(inp,{
+					'items': [],
+					'max': 8,	// Set a maximum number to list
+					'render': function(d){
+						// Construct the label shown in the drop down list
+						return d.displayname;
+					},
+					'process': function(place){
+						var z = 12;
+						if(place.type=="c") z = 13;
+						else if(place.type=="" || place.type=="t") z = 14;
+						else if(place.type=="o" || place.type=="a" || place.type=="v") z = 15;
+						map.setView(L.latLng(place.lat,place.lon),z,{});
+					},
+					'rank': function(d,str){
+						// Calculate the weight to add to this airport
+						var r = 0;
+						var words,w;
+						if(d){
+							words = str.split(/[\s\,]/);
+							if(typeof d.displayname==="string") r += getScore(d.displayname,str);
+							if(typeof d.truename==="string") r += getScore(d.truename,str);
+							for(w = 0; w < words.length; w++){
+								if(words[w]){
+									if(typeof d.displayname==="string") r += getScore(d.displayname,words[w]);
+									if(typeof d.truename==="string") r += getScore(d.truename,words[w]);
+								}
+							}
+							if(d.type=="c") r *= 5;
+							if(d.type=="t") r *= 4;
+							if(d.type=="o") r *= 3;
+							if(d.type=="a") r *= 2;
+							if(d.type=="v") r *= 2;
+							//r *= d.population;
+						}
+						return r;
+					}
+				});
+
+				inp.addEventListener('focus',function(e){
+					e.currentTarget.value = "";
+				});
+
+				// Define a function for scoring how well a string matches
+				function getScore(str1,str2,v1,v2,v3){
+					var r = 0;
+					str1 = str1.toUpperCase();
+					str2 = str2.toUpperCase();
+					if(str1.indexOf(str2)==0) r += (v1||3);
+					if(str1.indexOf(str2)>0) r += (v2||1);
+					if(str1==str2) r += (v3||4);
+					return r;
+				}
+				var loading = {};
+				// Attach a callback to the 'change' event. This gets called each time the user enters/deletes a character.
+				this.typeahead.on('change',{'me':this.typeahead},function(e){
+					var name = e.target.value.toLowerCase();
+					var fl = name[0];
+					if(fl && fl.match(/[a-zA-Z\'\`]/i)){
+						if(!loading[fl]){
+							var file = 'data/geo/ranked-'+fl+'.tsv';
+							var _obj = e.data.me;
+
+							fetch(file,{})
+							.then(response => { return response.text(); })
+							.then(d => {
+								
+								var data,l,c,header,cols,datum;
+								d = d.replace(/\r/g,'').split(/[\n]/);
+								data = new Array(d.length);
+								header = ["truename","admin1","type","lat","lon"];
+								for(l = 0; l < d.length; l++){
+									cols = d[l].split(/\t/);
+									datum = {};
+									for(c = 0; c < cols.length; c++){
+										datum[header[c]] = cols[c].replace(/(^\"|\"$)/g,"");
+										// Convert numbers
+										if(parseFloat(datum[header[c]])+"" == datum[header[c]]) datum[header[c]] = parseFloat(datum[header[c]]);
+										datum.i = l;
+										datum.displayname = datum.truename+(datum.admin1 ? ', '+datum.admin1+'':'');
+									}
+									data[l] = datum;
+								}
+								_obj.addItems(data);
+							}).catch(error => {
+								_obj.message('Unable to load file '+file,{'type':'ERROR','extra':{}});
+							});
+							loading[fl] = true;
+						}
+					}
+				});
+			}
+
+
 			
 			setInterval(function(){ _obj.update(); },60000);
 			return this;
@@ -256,6 +382,11 @@
 		}
 		return {'type':cls,'times':(newtimes ? '<ul class="times">'+newtimes+'</ul>':''),'string':times};
 	}
+	
+	/*!
+		Typeahead search v0.1.8
+	*/
+	!function(e){void 0===e.TypeAhead&&(e.TypeAhead=new function(){return this.version="0.1.8",this.init=function(e,t){return new function(e,t){if(t||(t={}),"string"==typeof e&&(e=document.querySelector(e)),!e)return console.warn("No valid element provided"),this;var n,o,i=this,a={},r=t.items||[],s="boolean"==typeof t.inline&&t.inline;function l(){return n?n.querySelectorAll("li"):[]}function f(o){o&&(i.input=e,"function"==typeof t.process?t.process.call(i,r[o]):console.log(r[o])),n&&(n.innerHTML=""),s&&(e.style.marginBottom="0px")}function c(){for(var e=l(),t=0;t<e.length;t++)if(e[t].classList.contains("selected"))return f(e[t].getAttribute("data-id"))}return this.update=function(){var t=document.createEvent("HTMLEvents");return t.initEvent("keyup",!1,!0),e.dispatchEvent(t),this},this.on=function(u,d,p){return e?("change"==u?(a[u]||(a[u]=[],e.addEventListener("keyup",function(d){d.preventDefault(),d.stopPropagation(),40==d.keyCode||38==d.keyCode?function(e){for(var t,n=l(),o=-1,i=0;i<n.length;i++)n[i].classList.contains("selected")&&(o=i);t=o,40==e?o++:o--,o<0&&(o=n.length-1),o>=n.length&&(o=0),t>=0&&n[t].classList.remove("selected"),n[o].classList.add("selected")}(d.keyCode):13==d.keyCode?c():(function(c,u,d){var p,h,y,v,g,m,k;if(v=c.toUpperCase(),y=[],v){for(h=0;h<r.length;h++)m={rank:0,key:h,value:r[h]},"function"==typeof t.rank?m.rank=t.rank(r[h],c):(0==r[h].toUpperCase().indexOf(v)&&(m.rank+=3),r[h].toUpperCase().indexOf(v)>0&&(m.rank+=1)),y.push(m);y=function(e,t){return e.sort(function(e,n){return e[t]<n[t]?1:-1})}(y,"rank")}if(n||(e.parentElement.style.position="relative",(n=document.createElement("div")).classList.add("typeahead-results"),n.style.top=e.offsetTop+e.offsetHeight+"px",n.style.left=e.offsetLeft+"px",n.style.maxWidth=e.parentElement.offsetWidth-e.offsetLeft-parseInt(window.getComputedStyle(e.parentElement,null).getPropertyValue("padding-right"))+"px",n.style.position="absolute",o.style.position="relative",e.insertAdjacentElement("afterend",n)),g="",y.length>0){for(p="number"==typeof t.max?Math.min(y.length,t.max):y.length,g="<ol>",h=0;h<p;h++)y[h].rank>0&&(g+='<li data-id="'+y[h].key+'" '+(0==h?' class="selected"':"")+'><a tabindex="0" href="#" class="name item">'+("function"==typeof t.render?t.render(r[y[h].key]):r[y[h].key])+"</a></li>");g+="</ol>"}n.innerHTML=g,s&&(e.style.marginBottom=n.offsetHeight+"px");var b=l();for(h=0;h<b.length;h++)b[h].addEventListener("click",function(e){e.preventDefault(),e.stopPropagation(),f(this.getAttribute("data-id"))});if(a[d])for(u._typeahead=i,h=0;h<a[d].length;h++)k=a[d][h],u.data=k.data||{},"function"==typeof k.fn&&k.fn.call(k.data.this||this,u)}(this.value,d,u),"function"==typeof t.endsearch&&t.endsearch(this.value))}),e.addEventListener("blur",function(e){"function"==typeof t.blur&&t.blur()})),a[u].push({fn:p,data:d})):"blur"==u?console.log("blur"):console.warn("No event of type "+u),this):(console.warn("Unable to attach event "+u),this)},this.off=function(e,t){if(a[e])for(var n=0;n<a[e].length;n++)a[e][n].fn==t&&a[e].splice(n,1)},e.form&&(o=e.form).addEventListener("submit",function(e){e.preventDefault(),e.stopPropagation(),c()},!1),e&&e.setAttribute("autocomplete","off"),this.addItems=function(e){r||(r=[]),r=r.concat(e)},this.clearItems=function(){r=[]},this.on("change",{},function(e){}),this}(e,t)},this})}(window||this);
 
 	OI.ready(function(){
 		root.ws = new WarmspacesMap();
