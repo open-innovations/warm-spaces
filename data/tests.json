@@ -335,7 +335,18 @@
 		{"text":"Every Wednesday from 12.00 till 2.00pm","good":"We 12:00-14:00"},
 		{"text":"11:00 to 3:30 every Sunday","good":"Su 11:00-15:30"},
 		{"text":"Mon – Fri 0830-1630 Various Evenings and Weekends","good":"Mo-Fr 08:30-16:30"},
-		{"text":"11am – 1pm every Wednesday & Friday","good":"We,Fr 11:00-13:00"}
+		{"text":"11am – 1pm every Wednesday & Friday","good":"We,Fr 11:00-13:00"},
+		{"text":"Tuesday 22/11/2022 from 5pm – 8pm","good":""},
+		{"text":"Monday between 11am to 12pm","good":"Mo 11:00-12:00"},
+		{"text":"Monday 3pm till 11pm Tuesday to Sunday 12noon till 11pm","good":"Tu-Su 12:00-23:00; Mo 15:00-23:00"},
+		{"text":"10am – 12noon, every Wednesday","good":"We 10:00-12:00"},
+		{"text":"Every second Wednesday of the month, 11.30am – 1.30pm","good":"We[2] 11:30-13:30"},
+		{"text":"Second Thursday of each month during term time, lunch club 11:00 to 13:00","good":"Th[2] 11:00-13:00"},
+		{"text":"Last Tuesday of the month between 1.30pm and 4pm Coffee and Chat","good":"Tu[-1] 13:30-16:00"},
+		{"text":"Monday, Tuesday, Wednesday and Friday between 09.30 and 15:00","good":"Mo 09:30-15:00; Tu 09:30-15:00; We 09:30-15:00; Fr 09:30-15:00"},
+		{"text":"Monday’s 10.30 -2pm","good":"Mo 10:30-14:00"},
+		{"text":"Wednesday 10am-1pm and 5-7pm Friday 2-4pm Saturday 10am -1pm","good":"We 10:00-13:00,17:00-19:00; Fr 14:00-16:00; Sa 10:00-13:00"},
+		{"text":"10-00 to 12-30. Thursday only","good":"Th 10:00-12:30"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},
@@ -355,7 +366,14 @@
 		{"text":"Friday: 09:45 - 11:30 / - Fortnightly","good":"Fr 09:45-11:30","note":"Which fortnightly?"},
 		{"text":"Thursday: 9:30 - 12:00, Friday: 10:30 - 13:00 / - Fortnightly, Sunday: 10:00 - 12:00","good":"Th 09:30-12:00; Fr 10:30-13:00; Su 10:00-12:00","note":"Which fortnightly?"},
 		{"text":"Monday: 9:30 - 17:00 / 13:00 - 14:00, Tuesday: 9:30 - 18:00 / 13:00 - 14:00, Wednesday: 9:30 - 17:00 / 13:00 - 14:00, Thursday: 9:30 - 17:00 / 13:00 - 14:00, Friday: 9:30 - 18:00 / 13:00 - 14:00, Saturday: 9:30 - 16:00","good":"Mo 09:30-17:00,13:00-14:00; Tu 09:30-18:00,13:00-14:00; We 09:30-17:00,13:00-14:00; Th 09:30-17:00,13:00-14:00; Fr 09:30-18:00,13:00-14:00; Sa 09:30-16:00","note":"What does the second time refer to as it is within the first?"},
-		{"text":"Tuesday: 13:00 - 15:00 / - Fortnightly, Thursday: 09:30 - 15:30, Friday: 09:30 - 12:00, Sunday: 10:00 - 12:30","good":"Tu 13:00-15:00; Th 09:30-15:30; Fr 09:30-12:00; Su 10:00-12:30","note":"Which fortnightly?"}
+		{"text":"Tuesday: 13:00 - 15:00 / - Fortnightly, Thursday: 09:30 - 15:30, Friday: 09:30 - 12:00, Sunday: 10:00 - 12:30","good":"Tu 13:00-15:00; Th 09:30-15:30; Fr 09:30-12:00; Su 10:00-12:30","note":"Which fortnightly?"},
+		{"text":"Monday 9.30 till 2.30 Tuesday 9.30 till 2.30 Wednesday 9.30 till 2.30 Thursday 9.30 till 2.30","good":"Mo 09:30-14:30; Tu 09:30-14:30; We 09:30-14:30; Th 09:30-14:30"},
+		{"text":"Monday, Wednesday and Thursday 10 till 1 and 2 till 5 Saturday 10 till 1","note":"Ambiguity about morning or afternoon"},
+		{"text":"Monday 11- 1pm Wednesday 11-3pm 4th Sunday in the month 12.30 – 2.30","good":"Mo 11:00-13:00; We 11:00-15:00; Su[4] 12:30-14:30","note":"Ambiguity about morning or afternoon"},
+		{"text":"Mon, Tue & Wed 11.30 – 1.30","good":"Mo 11:30-13:30;Tu 11:30-13:30;We 11:30-13:30","note":"Ambiguity about morning or afternoon"},
+		{"text":"Wednesday’s 3:30pm – 5pm Homework Club Friday’s 3:15 – 4:15 Drop In ","good":"We 15:30-17:00; Fr 15:15-16:15","note":"Ambiguity about morning or afternoon"},
+		{"text":"Last Tuesday of the month between 1.30 and 4pm Coffee and Chat","good":"Tu[-1] 13:30-16:00","note":"Ambiguity about morning or afternoon"},
+		{"text":"Monday to Friday inclusive, 9.30 – 3.30","good":"Mo-Fr 09:30-15:30","note":"Ambiguity about morning or afternoon"}
 	],
 	"tocheck": [
 		{"text":"Monday: 10:00 - 19:00, Tuesday: 10:00 - 17:00, Thursday: 10:00 - 17:00, Friday: 10:00 - 17:00, Saturday: 12:00 - 17:00","good":"Mo 10:00-19:00; Tu 10:00-17:00; Th 10:00-17:00; Fr 10:00-17:00; Sa 12:00-17:00"},
