@@ -297,7 +297,7 @@ sub parseOpeningHours {
 		$str =~ s/\//, /g;
 		$str =~ s/[—–]/-/g;
 		$str =~ s/24 hours/00:00-24:00/g;
-
+		
 		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
 		$str =~ s/a\.?m\.?/am/gi;
 		$str =~ s/p\.?m\.?/pm/gi;
@@ -305,6 +305,7 @@ sub parseOpeningHours {
 		$str =~ s/ (am|pm) /$1 /g;	# trim spaces before am/pm
 		$str =~ s/\. ([0-9])/ $1/g;	# trim off decimal points before spaces before numbers
 		$str =~ s/([0-9]{1,2})\.([0-9]{2})/$1:$2/g;	# Convert times of the form "1.30" to "1:30"
+		$str =~ s/([0-9]{2})([0-9]{2})/$1:$2/g;	# Convert times of the form "0130" to "01:30"
 
 		# Convert "weekdays" or "weekends" into day ranges
 		$str =~ s/Weekdays/Mo-Fr/gi;
@@ -386,10 +387,20 @@ sub parseOpeningHours {
 			}
 		}
 
+		# Match time + "every" + multiple days
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(((Mo|Tu|We|Th|Fr|Sa|Su) ?[\,\&]? ?){2,})//){
+			$day1 = $4;
+			$t = getHourRange($1);
+			$day1 =~ s/ /,/g;
+			if($t){
+				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1 $t";
+			}
+		}
+
 		# Match time + "every" + single day
-		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,\-]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//){
-			$day1 = $3;
-			$mod1 = $2;
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,\-]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
+			$day1 = $5;
+			$mod1 = $4;
 			$t = getHourRange($1);
 			if($t){
 				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
