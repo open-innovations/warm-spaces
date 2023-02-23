@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.53597,54.48595],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kircubbin Community Centre, 4 Church Grove, Newtownards, Northern Ireland, BT22 2SU, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly","hours":{"_text":"Monday to Friday 9am-5pm","opening":"Mo-Fr 09:00-17:00"},"title":"Peninsula Healthy Living","url":"https://www.peninsulahealthyliving.org"},"type":"Feature"}
-	]
-}
+{}

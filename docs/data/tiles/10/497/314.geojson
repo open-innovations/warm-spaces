@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.10730,56.81924],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Parade, Fort William, Scotland, PH33 6BA, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Newspapers","hours":{"_text":"Every Saturday, 11am-2pm","opening":"Sa 11:00-14:00"},"title":"Fort William Kilmallie Church of Scotland, MacIntosh Hall","url":"https://www.thedmac.co.uk/welcome.htm"},"type":"Feature"}
-	]
-}
+{}
