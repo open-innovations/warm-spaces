@@ -39,8 +39,10 @@ if(-e $file){
 		$record = $1;
 		$rfile = "raw/birmingham-$record.html";
 		
-		warning("\t$i = $record\n");
+		warning("\tGetting details for $i = $record\n");
+
 		# Keep cached copy of individual URL
+		$age = getFileAge($rfile);
 		if($age >= 86400 || -s $rfile == 0){
 			warning("\tSaving $d->{'url'} to <cyan>$rfile<none>\n");
 			# For each entry we now need to get the sub page to find the location information
