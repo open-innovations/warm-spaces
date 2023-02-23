@@ -303,6 +303,7 @@ sub parseOpeningHours {
 		$str =~ s/p\.?m\.?/pm/gi;
 
 		$str =~ s/ (am|pm) /$1 /g;	# trim spaces before am/pm
+		$str =~ s/\. ([0-9])/ $1/g;	# trim off decimal points before spaces before numbers
 		$str =~ s/([0-9]{1,2})\.([0-9]{2})/$1:$2/g;	# Convert times of the form "1.30" to "1:30"
 
 		# Convert "weekdays" or "weekends" into day ranges
