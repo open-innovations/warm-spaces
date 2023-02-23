@@ -287,7 +287,7 @@ sub parseOpeningHours {
 		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
 		$str =~ s/ (at|in) [^0-9]+ from /: /g;
 		$str =~ s/ (between) ([0-9\:amp]+) and / $2 - /g;
-		$str =~ s/ (to|until|til) / - /g;
+		$str =~ s/ (to|until|til|till) / - /g;
 		$str =~ s/ (at|from) /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/\&apos\;//g;
