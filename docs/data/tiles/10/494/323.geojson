@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.06514,55.07978],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"Mill Street, Cushendall, BT44 0RR","description":"Tea & Newspapers - Tuesdays, Thursdays and Saturdays at 10.30am, Lego Club - Tuesdays 6.15pm and Saturdays 11am","hours":{"_text":"Tuesdays 2-8, Thursdays 10-1 and 2-5, Saturdays 10-1 and 2-5","opening":"Tu 02:00-08:00; Th 10:00-01:00,02:00-05:00; Sa 10:00-01:00,02:00-05:00"},"title":"Cushendall Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.06514,55.07978],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"Mill Street, Cushendall, BT44 0RR","description":"Tea & Newspapers - Tuesdays, Thursdays and Saturdays at 10.30am, Lego Club - Tuesdays 6.15pm and Saturdays 11am","hours":{"_text":"Tuesdays 2-8, Thursdays 10-1 and 2-5, Saturdays 10-1 and 2-5","opening":"Tu 02:00-08:00; Th 10:00-01:00,02:00-05:00; Sa 10:00-01:00,02:00-05:00"},"title":"Cushendall Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-6.05219,55.05437],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"208 Garron Road, Glenariffe, BT44 0RB","contact":"02821771585 or info@friendsofglenariffe.org","description":"Tuesdays - Knit & Natter, a chance to socialise while enjoying needlecrafts. Fridays - Get Together, different activities and facilitators each week such as live music or table quiz.","hours":{"_text":"Tuesdays 10.30am-12.30pm and Fridays 10.30am-12.30pm","opening":"Tu 10:30-12:30; Fr 10:30-12:30"},"title":"Glenariffe Community & Recreation Centre"},"type":"Feature"}
 	]
 }

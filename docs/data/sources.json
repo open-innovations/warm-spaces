@@ -288,8 +288,8 @@
 		"url": "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
 	},
 	"causeway_coast_and_glens_council": {
-		"count": 40,
-		"geocount": 40,
+		"count": 41,
+		"geocount": 41,
 		"id": "causeway_coast_and_glens_council",
 		"map": { "type": "arcgis", "url": "https://cbcni.maps.arcgis.com/apps/webappviewer/index.html?id=038a7d2070094e58ba4377c9b9fe4d2d" },
 		"register": { "url": "https://arcg.is/zfHr9" },
@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 77,
-		"geocount": 76,
+		"count": 76,
+		"geocount": 75,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -377,8 +377,8 @@
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
 	},
 	"colchester_council": {
-		"count": 29,
-		"geocount": 29,
+		"count": 30,
+		"geocount": 30,
 		"id": "colchester_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11" },
 		"title": "Colchester Council",
@@ -514,8 +514,8 @@
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
 	},
 	"edinburgh_council": {
-		"count": 74,
-		"geocount": 72,
+		"count": 73,
+		"geocount": 73,
 		"id": "edinburgh_council",
 		"map": { "type": "arcgis", "url": "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37" },
 		"title": "Edinburgh Council",
@@ -769,8 +769,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 179,
-		"geocount": 179,
+		"count": 181,
+		"geocount": 181,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -978,8 +978,8 @@
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
 	"powys_council": {
-		"count": 53,
-		"geocount": 53,
+		"count": "0",
+		"geocount": "0",
 		"id": "powys_council",
 		"title": "Powys Council",
 		"url": "https://en.powys.gov.uk/powyswarmspaces"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4273,
-		"geocount": 4273,
+		"count": 4275,
+		"geocount": 4275,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
