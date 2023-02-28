@@ -323,8 +323,6 @@ sub parseOpeningHours {
 		$str =~ s/12 ?noon/12:00/gi;
 		$str =~ s/(noon|midday)/ 12:00/gi;
 
-print "$str\n";
-
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
 				$d = $days[$i]->{'match'}[$j];
@@ -341,7 +339,6 @@ print "$str\n";
 					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
 					else { $nstr = " ".$d; }
 					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( (of|in) ?(the|each|every)? ?month)?\,?/$nstr/;
-					print "$str\n";
 				}				
 
 				# Replace a day match with the short version
