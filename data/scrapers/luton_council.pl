@@ -18,41 +18,37 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
-
-	# Build a web scraper
-	my $warmspaces = scraper {
-		process 'div[class="card"]', "warmspaces[]" => scraper {
-			process 'div[class="card-header"]', 'title' => 'TEXT';
-			process 'div[class="card-body"] div[class="card-footer"]', 'description' => 'TEXT';
-			process 'div[class="card-body"] li', 'li[]' => 'HTML';
-		};
-	};
-
-	my $res = $warmspaces->scrape( $str );
-
-	@entries;
+	
+	$json = JSON::XS->new->decode($str);
+	@days = ("Mon","Tue","Wed","Thu","Fri","Sat","Sun");
 
 	# Loop over warmspaces processing the <li> values
-	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		$d = $res->{'warmspaces'}[$i];
-		$li = @{$d->{'li'}};
-		
-		if($d->{'description'} eq "Additional activities:"){ delete $d->{'description'}; }
-		if($li > 0){
-			for($l = 0; $l < $li; $l++){
-				$d->{'li'}[$l] =~ s/<br ?\/?>/ /g;
-				$d->{'li'}[$l] =~ s/<[^\>]+>//g;
-				if($d->{'li'}[$l] =~ /Time: (.*)/){ $d->{'hours'} = parseOpeningHours({'_text'=>$1}); }
-				if($d->{'li'}[$l] =~ /Where to go: (.*)/){ $d->{'address'} = $1; }
+	for($i = 0; $i < @{$json->{'hits'}{'hits'}}; $i++){
+		$warmspace = $json->{'hits'}{'hits'}[$i];
+		if($warmspace->{'_source'}{'offering'}[0] eq "Warm Space"){
+			#print Dumper $warmspace;
+			$d = {};
+			$d->{'title'} = $warmspace->{'_source'}{'tag'};
+			$d->{'description'} = $warmspace->{'_source'}{'description'};
+			$d->{'address'} = $warmspace->{'_source'}{'venue'}{'address'};
+			$d->{'lat'} = $warmspace->{'_source'}{'venue'}{'geopoint'}{'lat'};
+			$d->{'lon'} = $warmspace->{'_source'}{'venue'}{'geopoint'}{'lon'};
+			if($warmspace->{'_source'}{'venue'}{'postcode'}){ $d->{'address'} .= ($d->{'address'} ? ", ":"").$warmspace->{'_source'}{'venue'}{'postcode'}; }
+			$d->{'hours'} = {'_text'=>'','opening'=>''};
+			for($dy = 0; $dy < @days; $dy++){
+				$day = $days[$dy];
+				if($warmspace->{'_source'}{'openingHours'}{$day}{'start'}){
+					$d->{'hours'}{'_text'} .= ($d->{'hours'}{'_text'} ? " ":"").$day." $warmspace->{'_source'}{'openingHours'}{$day}{'start'}-$warmspace->{'_source'}{'openingHours'}{$day}{'end'};";
+				}
 			}
+			if($d->{'hours'}{'_text'}){ $d->{'hours'} = parseOpeningHours($d->{'hours'}); }
 
-			# Remove the <li> entry
-			delete $d->{'li'};
+			if($warmspace->{'_source'}{'phone'}){ $d->{'contact'} .= ($d->{'contact'} ? " ":"")."Tel: ".$warmspace->{'_source'}{'phone'}; }
 
-			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));
 		}
 	}
+
 
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";

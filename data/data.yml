@@ -1014,8 +1014,22 @@ directories:
   - title: "Luton Council"
     url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
     data:
-      url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
+      url: "https://map.foodfirstluton.co.uk/api/points"
       type: html
+      method: POST
+      form: '{"geopoint":{"latitude":51.879917,"longitude":-0.417829},"helpPage":"luton"}'
+      headers:
+        Accept: "application/json"
+        Accept-Encoding: "gzip, deflate"
+        Accept-Language: en-GB,en;q=0.5
+        Content-Type: text/plain;charset=UTF-8
+        Connection: keep-alive
+        Origin: "https://map.foodfirstluton.co.uk"
+        Referer: "https://map.foodfirstluton.co.uk/map?lat=51.8848512&lon=-0.4194304"
+        Sec-Fetch-Dest: empty
+        Sec-Fetch-Mode: cors
+        Sec-Fetch-Site: same-origin
+        TE: trailers
   - title: "Malvern Hills Council"
     url: "https://www.malvernhills.gov.uk/community/general-information-support"
     notes: "Refers people to Warm Welcome and libraries"
