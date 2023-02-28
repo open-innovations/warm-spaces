@@ -17,8 +17,8 @@
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 42,
+		"geocount": 42,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 130,
-		"geocount": 129,
+		"count": 131,
+		"geocount": 130,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -690,8 +690,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 44,
+		"geocount": 44,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -816,8 +816,8 @@
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
 	"luton_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 32,
+		"geocount": 32,
 		"id": "luton_council",
 		"title": "Luton Council",
 		"url": "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
@@ -1005,8 +1005,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 38,
+		"geocount": 38,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1106,8 +1106,8 @@
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
 	"spark_somerset": {
-		"count": 100,
-		"geocount": 97,
+		"count": 103,
+		"geocount": 100,
 		"id": "spark_somerset",
 		"map": { "type": "xmap", "url": "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
@@ -1168,8 +1168,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 265,
-		"geocount": 265,
+		"count": 264,
+		"geocount": 264,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4277,
-		"geocount": 4277,
+		"count": 4279,
+		"geocount": 4279,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
