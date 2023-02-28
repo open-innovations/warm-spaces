@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.46915,55.59009],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Ashbank Hotel, Airds, Carradale, Campbelltown, Scotland, PA28 6RY, United Kingdom","description":"Free Wi-Fi, Device Charging, People to chat to, Space to work, Toilets, Parking, Child Friendly","hours":{"_text":"Daily 4pm-11pm","opening":"Mo-Su 16:00-23:00"},"title":"Ashbank Hotel","url":"https://www.facebook.com/people/Ashbank-Hotel/100057030837291/"},"type":"Feature"}
+	]
+}

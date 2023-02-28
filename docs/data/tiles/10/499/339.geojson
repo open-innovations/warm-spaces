@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.24898,51.68442],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Portobello Inn, Stepney Road, Burry Port, Wales, SA16 0BP, United Kingdom","description":"Device Charging, Advice, People to chat to, Space to work, Food/Drink for sale, Play games and read books","hours":{"_text":"Mon-Fri, 12pm-4pm","opening":"Mo-Fr 12:00-16:00"},"title":"Portobello Inn","url":"https://www.facebook.com/portobelloinnburryport/"},"type":"Feature"}
+	]
+}

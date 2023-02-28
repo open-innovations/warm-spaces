@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.68475,55.35482],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Culzean Road, Maybole, Scotland, KA19 7DE, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly","hours":{"_text":"10am"},"title":"Carrick Centre","url":"https://www.carrickcentre.co.uk"},"type":"Feature"}
+	]
+}

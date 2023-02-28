@@ -1,1 +1,8 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.40058,54.98104],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Marsden Road, South Shields, NE34 6RQ","description":"Nearest bus: Marsden Road, South Shields","hours":{"_text":"Wednesdays 10am to 12pm","opening":"We 10:00-12:00"},"loc_pcd":true,"title":"Marsden Road Baptist Tabernacle"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.40013,54.98046],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Marsden Road, South Shields, NE34 6RE","description":"Nearest metro: N/A; Nearest bus: Marsden Road / The Hill","hours":{"_text":"Monday, Tuesday, Thursdays and Friday: 12noon to 3.30pm","opening":"Mo 12:00-15:30; Tu 12:00-15:30; Th 12:00-15:30; Fr 12:00-15:30"},"loc_pcd":true,"title":"Marsden Road Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.40015,54.98461],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Norham Avenue, South Shields, NE34 7TD","description":"Activity: Please contact Horsley Hill Children Centre for information; Nearest metro: N/A; Nearest bus: Horsley Hill / Highfield Road","loc_pcd":true,"title":"Horsley Hill Children's Centre"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.31769,52.51368],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Park, Newtown, Powys SY162NZ","description":"We have free exhibitions to see and a programme of events, many of them free, that you can sign up for and join in.","hours":{"_text":"Tuesday: 11:00 - 16:00, Wednesday: 11:00 - 16:00, Thursday: 11:00 - 16:00, Friday: 11:00 - 16:00, Saturday: 11:00 - 16:00","opening":"Tu 11:00-16:00; We 11:00-16:00; Th 11:00-16:00; Fr 11:00-16:00; Sa 11:00-16:00"},"title":"Oriel Davies Gallery"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.31769,52.51368],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Park, Newtown, Powys SY162NZ","description":"We have free exhibitions to see and a programme of events, many of them free, that you can sign up for and join in.","hours":{"_text":"Tuesday: 11:00 - 16:00, Wednesday: 11:00 - 16:00, Thursday: 11:00 - 16:00, Friday: 11:00 - 16:00, Saturday: 11:00 - 16:00","opening":"Tu 11:00-16:00; We 11:00-16:00; Th 11:00-16:00; Fr 11:00-16:00; Sa 11:00-16:00"},"title":"Oriel Davies Gallery"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.32540,52.64913],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bridge Street, Welshpool, Wales, SY21 0RY, United Kingdom","description":"Free Wi-Fi, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Computer Access","hours":{"_text":"Tuesday 10am-1pm, Thursday 3pm-6pm, Friday 2pm-5pm, Saturday 10am-1pm","opening":"Tu 10:00-13:00; Th 15:00-18:00; Fr 14:00-17:00; Sa 10:00-13:00"},"title":"Llanfair Caereinion Community Library","url":"https://www.facebook.com/groups/214623463785092"},"type":"Feature"}
 	]
 }

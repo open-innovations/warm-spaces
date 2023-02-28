@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.31161,57.64800],"type":"Point"},"properties":{"_source":"warm_welcome","address":"10 greyfriars street , Elgin, Moray IV30 1LF","description":"Open from Every Tuesday from 12:00 hrs 21/02/2023. . We cater for all regardless. Disabled access and centrally located in Elgin Town centre. Under 18s welcome with a responsible Adult. Gluten free options available. We provide a public warm space where all shall receive a warm comfortable welcome. A complimentary drink, soup and roll etc are offered to all. Come in, rest up and warm outside and in. Board games etc available.","hours":{"_text":"Tuesday: 12:00 - 16:00","opening":"Tu 12:00-16:00"},"title":"Oasis Church and River Church warm space"},"type":"Feature"}
+	]
+}

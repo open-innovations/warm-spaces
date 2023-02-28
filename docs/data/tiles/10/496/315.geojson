@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.56772,56.69961],"type":"Point"},"properties":{"_source":"warm_spaces","address":"School Road, Acharacle, Scotland, PH36 4JA, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Shower Facilities","hours":{"_text":"2pm-9pm"},"title":"The Sunart Centre"},"type":"Feature"}
+	]
+}

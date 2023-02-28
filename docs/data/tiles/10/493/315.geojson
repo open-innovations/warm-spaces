@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.52937,56.62402],"type":"Point"},"properties":{"_source":"warm_spaces","address":"5 Main Street, Isle of Coll, Scotland, PA78 6SY, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accesible Toilet, Parking, Child Friendly, Computer Access","hours":{"_text":"9am-9pm"},"title":"An Cridhe","url":"https://ancridhe.co.uk"},"type":"Feature"}
+	]
+}

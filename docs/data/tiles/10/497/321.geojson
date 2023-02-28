@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.09293,55.50013],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sandbraes Road, Isle of Arran, Scotland, KA27 8RE, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Space to work, Toilets, Parking, Child Friendly, Pet Friendly, Crafts, jigsaws, table games, books and magazines, local newspaper.","hours":{"_text":"Mondays and Fridays 10am-3pm","opening":"Mo 10:00-15:00; Fr 10:00-15:00"},"title":"Whiting Bay and Kildonan Church"},"type":"Feature"}
+	]
+}
