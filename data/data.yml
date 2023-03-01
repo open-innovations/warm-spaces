@@ -1117,6 +1117,13 @@ directories:
   - title: "North East Derbyshire"
     url: "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
     notes: "A bit too difficult to automatically parse"
+  - title: "North Herts Council"
+    url: "https://www.north-herts.gov.uk/warm-spaces"
+    register:
+      url: "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces"
+    data:
+      url: "https://www.north-herts.gov.uk/warm-spaces"
+      type: html
   - title: "North Northamptonshire Council"
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     data:
