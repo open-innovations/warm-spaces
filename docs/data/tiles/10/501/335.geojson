@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.84914,52.59064],"type":"Point"},"properties":{"_source":"powys_council","address":"POWYS COUNTY COUNCIL, MACHYNLLETH LIBRARY, HEOL MAENGWYN, MACHYNLLETH, SY20 8DY","description":"Accessible entrance; Free wi-fi; Free devices to use; Free use of computers; Charging facilities for phones and other devices; Work stations for agile working; Newspapers; Book borrowing/swap; Toilets; Disabled toilets; Activities; Play equipment; Outdoor space/activities; Other","loc_pcd":true,"title":"Machynlleth Library","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=9757-5941-2716-0239"},"type":"Feature"}
+	]
+}
