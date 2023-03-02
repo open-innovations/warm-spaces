@@ -52,8 +52,8 @@
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"barnet_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 27,
+		"geocount": 27,
 		"id": "barnet_council",
 		"map": { "type": "leaflet", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url": "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -89,8 +89,8 @@
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 36,
+		"geocount": 36,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -212,8 +212,8 @@
 		"url": "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 61,
-		"geocount": 61,
+		"count": 60,
+		"geocount": 60,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -406,8 +406,8 @@
 		"url": "https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id": "croydon_council",
 		"map": { "type": "leaflet", "url": "https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title": "Croydon Council",
@@ -430,8 +430,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 233,
-		"geocount": 229,
+		"count": 235,
+		"geocount": 231,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 176,
-		"geocount": 172,
+		"count": 177,
+		"geocount": 173,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 137,
-		"geocount": 136,
+		"count": 135,
+		"geocount": 134,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -878,8 +878,8 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 27,
-		"geocount": 27,
+		"count": 26,
+		"geocount": 26,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
@@ -912,6 +912,14 @@
 		"notes": "A bit too difficult to automatically parse",
 		"title": "North East Derbyshire",
 		"url": "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
+	},
+	"north_herts_council": {
+		"count": 24,
+		"geocount": 23,
+		"id": "north_herts_council",
+		"register": { "url": "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces" },
+		"title": "North Herts Council",
+		"url": "https://www.north-herts.gov.uk/warm-spaces"
 	},
 	"north_northamptonshire_council": {
 		"count": 42,
@@ -1005,8 +1013,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 37,
+		"geocount": 37,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1184,8 +1192,8 @@
 		"url": "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
 	},
 	"surrey_county_council_warm_hubs": {
-		"count": 139,
-		"geocount": 139,
+		"count": 140,
+		"geocount": 140,
 		"id": "surrey_county_council_warm_hubs",
 		"map": { "type": "arcgis", "url": "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515" },
 		"title": "Surrey County Council warm hubs",
@@ -1260,8 +1268,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 47,
+		"geocount": 47,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1278,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4272,
-		"geocount": 4272,
+		"count": 4271,
+		"geocount": 4271,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
