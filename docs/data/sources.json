@@ -288,8 +288,8 @@
 		"url": "http://carefreecornwall.org.uk/warm-banks-in-cornwall/"
 	},
 	"causeway_coast_and_glens_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": 43,
+		"geocount": 43,
 		"id": "causeway_coast_and_glens_council",
 		"map": { "type": "arcgis", "url": "https://cbcni.maps.arcgis.com/apps/webappviewer/index.html?id=038a7d2070094e58ba4377c9b9fe4d2d" },
 		"register": { "url": "https://arcg.is/zfHr9" },
@@ -304,8 +304,8 @@
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 46,
+		"geocount": 46,
 		"id": "ceredigion_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9" },
 		"title": "Ceredigion Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -406,8 +406,8 @@
 		"url": "https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 44,
+		"geocount": 44,
 		"id": "croydon_council",
 		"map": { "type": "leaflet", "url": "https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title": "Croydon Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 135,
-		"geocount": 134,
+		"count": 133,
+		"geocount": 132,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -690,8 +690,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 43,
+		"geocount": 43,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -801,8 +801,8 @@
 		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
 	},
 	"lichfield_council": {
-		"count": 17,
-		"geocount": 17,
+		"count": "0",
+		"geocount": "0",
 		"id": "lichfield_council",
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title": "Lichfield Council",
@@ -1084,8 +1084,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 173,
-		"geocount": 173,
+		"count": 174,
+		"geocount": 174,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4271,
-		"geocount": 4271,
+		"count": 4270,
+		"geocount": 4270,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1310,8 +1310,8 @@
 		"url": "https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 34,
-		"geocount": 30,
+		"count": 35,
+		"geocount": 31,
 		"id": "west_devon_council",
 		"title": "West Devon Council",
 		"url": "https://westdevon.gov.uk/article/9368/Warm-Spaces"
