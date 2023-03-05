@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 13,
+		"geocount": 10,
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -451,8 +451,8 @@
 		"url": "https://www.derbyshiredales.gov.uk/community/warm-spaces"
 	},
 	"devizes_council": {
-		"count": 9,
-		"geocount": 8,
+		"count": "0",
+		"geocount": "0",
 		"id": "devizes_council",
 		"title": "Devizes Council",
 		"url": "https://www.devizes-tc.gov.uk/warmspaces/"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 132,
-		"geocount": 131,
+		"count": 136,
+		"geocount": 135,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
