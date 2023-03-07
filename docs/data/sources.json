@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": 13,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -430,8 +430,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 235,
-		"geocount": 231,
+		"count": 237,
+		"geocount": 232,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 177,
-		"geocount": 173,
+		"count": 178,
+		"geocount": 174,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 136,
-		"geocount": 135,
+		"count": 135,
+		"geocount": 134,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -588,8 +588,8 @@
 		"url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
 	},
 	"gloucester_council": {
-		"count": 35,
-		"geocount": 33,
+		"count": 34,
+		"geocount": 32,
 		"id": "gloucester_council",
 		"register": { "url": "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/" },
 		"title": "Gloucester Council",
@@ -719,8 +719,8 @@
 		"url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
 	},
 	"kensington_and_chelsea": {
-		"count": 28,
-		"geocount": 28,
+		"count": 24,
+		"geocount": 24,
 		"id": "kensington_and_chelsea",
 		"map": { "type": "arcgis", "url": "https://lbhf.maps.arcgis.com/apps/instant/nearby/index.html?appid=e7e3050fbb8e49b79b5743bf17b9c720&sliderDistance=400&findSource=1&find=-23824.558013193524%252C6713243.6715945285" },
 		"title": "Kensington and Chelsea",
@@ -809,7 +809,7 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 46,
+		"count": 45,
 		"geocount": 44,
 		"id": "live_well_york",
 		"title": "Live Well York",
@@ -847,8 +847,8 @@
 		"url": "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
 	},
 	"mid_and_east_antrim_council": {
-		"count": 22,
-		"geocount": 11,
+		"count": 23,
+		"geocount": 12,
 		"id": "mid_and_east_antrim_council",
 		"notes": "Some spaces are without addresses",
 		"title": "Mid and East Antrim Council",
@@ -878,15 +878,15 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 25,
+		"geocount": 25,
 		"id": "newcastle_under_lyme_council",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
 	"newham_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 39,
+		"geocount": 39,
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"title": "Newham Council",
@@ -986,8 +986,8 @@
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
 	"powys_council": {
-		"count": 53,
-		"geocount": 53,
+		"count": 52,
+		"geocount": 52,
 		"id": "powys_council",
 		"title": "Powys Council",
 		"url": "https://en.powys.gov.uk/powyswarmspaces"
@@ -1107,8 +1107,8 @@
 		"url": "https://www.southtyneside.gov.uk/article/14924/Warm-spaces-South-Tyneside"
 	},
 	"southwalk_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 41,
+		"geocount": 39,
 		"id": "southwalk_council",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
@@ -1176,8 +1176,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 264,
-		"geocount": 264,
+		"count": 263,
+		"geocount": 263,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1268,8 +1268,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 46,
+		"geocount": 46,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
