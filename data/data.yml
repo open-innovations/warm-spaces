@@ -1009,7 +1009,7 @@ directories:
       url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
       type: googlemap
     data:
-      url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
+      url: "https://www.lichfielddc.gov.uk/directory/11/keeping-warm/category/18"
       type: html
   - title: "Luton Council"
     url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
