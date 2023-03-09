@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-0.74622,52.03653],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Trinity Centre, Fishermead Boulevard , Milton Keynes MK6 2LA","hours":{"_text":"Friday: 12:30 - 15:00","opening":"Fr 12:30-15:00"},"title":"Action Speaks c.i.c"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.74622,52.03653],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Trinity Centre, Fishermead, Milton Keynes MK6 2LA","description":"A free meal, in a safe place, for everyone","hours":{"_text":"Wednesday: 16:00 - 18:00","opening":"We 16:00-18:00"},"title":"Grace Church, Milton Keynes"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.75170,52.02952],"type":"Point"},"properties":{"_source":"warm_welcome","address":"MKCC, Strudwick Drive, Oldbrook, Milton Keynes, County (optional) MK6 2TG","description":"Enjoy a hot drink, some soup, and play some board games – and the best part is – It’s completely free!","hours":{"_text":"Monday: 10:00 - 15:00, Friday: 10:00 - 15:00","opening":"Mo 10:00-15:00; Fr 10:00-15:00"},"title":"Milton Keynes Christian Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.81461,51.94947],"type":"Point"},"properties":{"_source":"warm_welcome","address":"9 The Beechams, Mursley, Buckinghamshire MK17 0RX","description":"Open from 01-11-22.","hours":{"_text":"Wednesday: 08:30 - 13:30, Thursday: 08:30 - 13:30","opening":"We 08:30-13:30; Th 08:30-13:30"},"title":"PCC Mursley Rectory Room"},"type":"Feature"},

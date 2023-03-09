@@ -196,8 +196,8 @@
 		"url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
 	},
 	"bristol_council": {
-		"count": 100,
-		"geocount": 100,
+		"count": 103,
+		"geocount": 103,
 		"id": "bristol_council",
 		"map": { "type": "arcgis", "url": "https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
 		"title": "Bristol Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -406,8 +406,8 @@
 		"url": "https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 45,
 		"id": "croydon_council",
 		"map": { "type": "leaflet", "url": "https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title": "Croydon Council",
@@ -466,8 +466,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 178,
-		"geocount": 174,
+		"count": 177,
+		"geocount": 173,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 138,
-		"geocount": 137,
+		"count": 135,
+		"geocount": 134,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -704,8 +704,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 47,
-		"geocount": 45,
+		"count": 46,
+		"geocount": 44,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
 		"title": "Isle of Wight Council",
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4271,
-		"geocount": 4271,
+		"count": 4275,
+		"geocount": 4275,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
