@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 197,
-		"geocount": 197,
+		"count": 198,
+		"geocount": 198,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -475,8 +475,8 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 37,
+		"geocount": 37,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -499,7 +499,7 @@
 		"url": "https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
-		"count": 35,
+		"count": 34,
 		"geocount": 20,
 		"id": "east_staffordshire_council",
 		"notes": "Not enough address information for half the entries",
@@ -514,8 +514,8 @@
 		"url": "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
 	},
 	"edinburgh_council": {
-		"count": 73,
-		"geocount": 73,
+		"count": 74,
+		"geocount": 74,
 		"id": "edinburgh_council",
 		"map": { "type": "arcgis", "url": "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37" },
 		"title": "Edinburgh Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 133,
-		"geocount": 132,
+		"count": 134,
+		"geocount": 133,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -727,8 +727,8 @@
 		"url": "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
 	},
 	"kingston_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 32,
+		"geocount": 32,
 		"id": "kingston_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3W0eRlVADHwMI5Wf1eA94IsEcysZVZlbAOfCbDJNgK3FZzg/viewform?usp=sf_link" },
@@ -914,8 +914,8 @@
 		"url": "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
 	},
 	"north_herts_council": {
-		"count": 24,
-		"geocount": 23,
+		"count": 23,
+		"geocount": 22,
 		"id": "north_herts_council",
 		"register": { "url": "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces" },
 		"title": "North Herts Council",
@@ -936,8 +936,8 @@
 		"url": "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
 	},
 	"northumberland_county_council": {
-		"count": 136,
-		"geocount": 136,
+		"count": 137,
+		"geocount": 137,
 		"id": "northumberland_county_council",
 		"map": { "type": "tableau", "url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q" },
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4276,
-		"geocount": 4276,
+		"count": 4274,
+		"geocount": 4274,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1324,8 +1324,8 @@
 		"url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 95,
-		"geocount": 91,
+		"count": 90,
+		"geocount": 86,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
