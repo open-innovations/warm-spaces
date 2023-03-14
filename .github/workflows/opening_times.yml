@@ -26,7 +26,6 @@ jobs:
         with:
           install: |
             JSON::XS
-            YAML::XS
 
       # Runs script
       - name: Run tests
