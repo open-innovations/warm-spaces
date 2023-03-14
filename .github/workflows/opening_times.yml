@@ -34,3 +34,15 @@ jobs:
         run: |
           perl test.pl
 
+      - name: Commit changes to files
+        working-directory: ./
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/test.log
+          git commit -m "Update opening time tests" || exit 0
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
