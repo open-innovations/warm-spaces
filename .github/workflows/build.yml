@@ -49,6 +49,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/postcodes.tsv
+          git add data/imd.svg
+          git add data/build.log
           git add docs/index.html
           git add docs/data/ndirs.txt
           git add docs/data/ngeocoded.txt

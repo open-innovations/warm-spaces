@@ -12,11 +12,17 @@ use utf8;
 use JSON::XS;
 use YAML::XS 'LoadFile';
 use Data::Dumper;
+use OpenInnovations::Log;
 use POSIX qw(strftime);
 use Encode;
 use Geo::Coordinates::OSGB qw(ll_to_grid grid_to_ll);
 require "lib.pl";
 binmode STDOUT, 'utf8';
+
+
+my $log = OpenInnovations::Log->new()->open("build.log");
+$log->msg("Build started: ".strftime("%FT%H:%M:%S", localtime)."\n\n");
+
 
 $dir = "../docs/data/";
 $rawdir = "raw/";
@@ -61,7 +67,7 @@ sub processDirectories {
 		if(!$d->{'id'}){ $d->{'id'} = getID($d->{'title'}); }
 
 		# Print the title of this one
-		msg("$j: <cyan>$d->{'title'}<none> ($d->{'id'})\n");
+		$log->msg("$j: <cyan>$d->{'title'}<none> ($d->{'id'})\n");
 
 		@features = ();
 
@@ -142,13 +148,13 @@ sub processDirectories {
 				push(@warmplaces,$features[$f]);
 			}
 
-			msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
+			$log->msg("\tAdded $d->{'count'} features ($d->{'geocount'} geocoded).\n");
 			$total += $d->{'count'};
 			$totalgeo += $d->{'geocount'};
 			if($d->{'count'} > 0){ $totaldir++; }
 			
 			$counter = @warmplaces;
-			msg("\tTotal = $counter\n");
+			$log->msg("\tTotal = $counter\n");
 
 		}
 		$table .= "<tr>";
@@ -211,7 +217,7 @@ sub processDirectories {
 	print $fh "</table>\n";
 	close($fh);
 
-	msg("Added $total features in total ($totalgeo geocoded from $totaldir directories).\n");
+	$log->msg("Added $total features in total ($totalgeo geocoded from $totaldir directories).\n");
 	open($fh,">:utf8",$dir."ndirs.txt");
 	print $fh "$totaldir";
 	close($fh);
@@ -264,7 +270,7 @@ sub parseStorepointFeature {
 		if($json->{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
 			$postcode = $2;
 			# An unlikely coordinate so try geocoding
-			warning("\tUnlikely coordinates ($json->{'lat'}, $json->{'lon'}) so geocoding based on $postcode\n");
+			$log->warning("\tUnlikely coordinates ($json->{'lat'}, $json->{'lon'}) so geocoding based on $postcode\n");
 			# Now we need to find the postcode areas e.g. LS, BD, M etc and load those files if we haven't
 			$pc = getPostcode($postcode);
 			if($pc->{'lat'}){
@@ -352,7 +358,7 @@ sub parseGeoJSONFeature {
 	if(!$json->{'lon'}){ $json->{'lon'} = ($f->{'geometry'}{'x'}||$f->{'geometry'}{'coordinates'}[0]); }
 
 	if(ref $json->{'lat'} eq "ARRAY" || ref $json->{'lon'} eq "ARRAY"){
-		warning("\tCoordinates seem to be an array so calculating centre.\n");
+		$log->warning("\tCoordinates seem to be an array so calculating centre.\n");
 		my (@ll) = getCentre($f->{'geometry'});
 		$json->{'lat'} = $ll[1];
 		$json->{'lon'} = $ll[0];
@@ -371,7 +377,7 @@ sub getXLSX {
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
 	
-	msg("\tUnzipping xlsx to extract data from $d->{'data'}[$i]{'sheet'}\n");
+	$log->msg("\tUnzipping xlsx to extract data from $d->{'data'}[$i]{'sheet'}\n");
 
 	# First we need to get the sharedStrings.xml
 	$str = decode_utf8(join("",`unzip -p $file xl/sharedStrings.xml`));
@@ -441,12 +447,12 @@ sub getStorePoint {
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
 
-	msg("\tProcessing Storepoint data\n");
+	$log->msg("\tProcessing Storepoint data\n");
 	$json = getJSON($file);
 
 	$d->{'count'} = @{$json->{'results'}{'locations'}};
 	if($d->{'count'} == 0){
-		warning("\tNo features for $d->{'title'}\n");
+		$log->warning("\tNo features for $d->{'title'}\n");
 	}else{
 
 		# For each feature 
@@ -471,18 +477,18 @@ sub getGeoJSON {
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
 
-	msg("\tProcessing GeoJSON\n");
+	$log->msg("\tProcessing GeoJSON\n");
 	$geojson = getJSON($file);
 	
 	if(ref $geojson eq "ARRAY"){
-		msg("\tGeoJSON looks like an array\n");
+		$log->msg("\tGeoJSON looks like an array\n");
 		$geojson = $geojson->[0];
 	}
 
 	# How many features in the GeoJSON
 	$d->{'count'} = @{$geojson->{'features'}};
 	if($d->{'count'} == 0){
-		warning("\tNo features for $d->{'title'}\n");
+		$log->warning("\tNo features for $d->{'title'}\n");
 	}else{
 
 		# For each feature 
@@ -522,13 +528,13 @@ sub getArcGIS {
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
 
-	msg("\tProcessing GeoJSON\n");
+	$log->msg("\tProcessing GeoJSON\n");
 	$geojson = getJSON($file);
 
 	# How many features in the GeoJSON
 	$d->{'count'} = @{$geojson->{'features'}};
 	if($d->{'count'} == 0){
-		warning("\tNo features for $d->{'title'}\n");
+		$log->warning("\tNo features for $d->{'title'}\n");
 	}else{
 
 		# For each feature 
@@ -585,7 +591,7 @@ sub getGoogleMap {
 	$file = $rawdir.$d->{'id'}.($i ? "-$i":"").".html";
 	$kmzfile = $rawdir.$d->{'id'}.".kmz";
 
-	msg("\tGetting Google Maps pageData\n");
+	$log->msg("\tGetting Google Maps pageData\n");
 	getURLToFile($url,$file);
 	$str = join("",getFileContents($file));
 	if($str =~ /\"(https:\/\/www.google.com\/maps\/d\/kml\?mid[^\"]+)\\"/){
@@ -593,9 +599,9 @@ sub getGoogleMap {
 		$kmzurl =~ s/\\\\u003d/=/g;
 		$kmzurl =~ s/\\\\u0026/\&/g;
 	}
-	msg("\tGetting Google Maps kmz from $kmzurl\n");
+	$log->msg("\tGetting Google Maps kmz from $kmzurl\n");
 	getURLToFile($kmzurl,$kmzfile);
-	msg("\tUnzipping kmz\n");
+	$log->msg("\tUnzipping kmz\n");
 	$str = decode_utf8(join("",`unzip -p $kmzfile doc.kml`));
 
 	while($str =~ s/<Placemark>(.*?)<\/Placemark>//s){
@@ -771,7 +777,7 @@ sub getCSV {
 	$file = getDataFromURL($d,$i);
 
 
-	msg("\tProcessing CSV\n");
+	$log->msg("\tProcessing CSV\n");
 	open(FILE,"<:utf8",$file);
 	@lines = <FILE>;
 	close(FILE);
@@ -839,7 +845,7 @@ sub getWPGeoDir {
 		eval {
 			$json = JSON::XS->new->decode($str);
 		};
-		if($@){ warning("\tInvalid output from WordPress GeoDirectory.\n".$str); }
+		if($@){ $log->warning("\tInvalid output from WordPress GeoDirectory.\n".$str); }
 		
 		print Dumper $json->{'items'};
 		for($f = 0; $f < @{$json->{'items'}}; $f++){
@@ -922,7 +928,7 @@ sub getHTML {
 		# Get the data (if we don't have a cached version)
 		$file = getDataFromURL($d,$i);
 
-		msg("\tParsing web page\n");
+		$log->msg("\tParsing web page\n");
 
 		$str = `perl $scraper $file`;
 
@@ -936,7 +942,7 @@ sub getHTML {
 			eval {
 				$json = JSON::XS->new->decode($str);
 			};
-			if($@){ warning("\tInvalid output from scraper.\n".$str); }
+			if($@){ $log->warning("\tInvalid output from scraper.\n".$str); }
 
 			for($f = 0; $f < @{$json}; $f++){
 				$json->[$f]{'_source'} = $d->{'id'};
@@ -946,10 +952,10 @@ sub getHTML {
 			@features = addLatLonFromPostcodes(@features);
 
 		}else{
-			warning("\tNo JSON returned from scraper\n");
+			$log->warning("\tNo JSON returned from scraper\n");
 		}
 	}else{
-		warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
+		$log->warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
 	}
 	return @features;
 }
