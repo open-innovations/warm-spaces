@@ -154,7 +154,7 @@ sub processDirectories {
 			if($d->{'count'} > 0){ $totaldir++; }
 			
 			$counter = @warmplaces;
-			$log->msg("\tTotal = $counter\n");
+			#$log->msg("\tTotal = $counter\n");
 
 		}
 		$table .= "<tr>";
