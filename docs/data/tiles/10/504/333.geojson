@@ -8,8 +8,8 @@
 		{"geometry":{"coordinates":[-2.68345,52.96803],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Watergate, Whitchurch, England, SY13 1DW, United Kingdom","description":"Free Wi-Fi, Device Charging, People to chat to, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Dogs allowed","hours":{"_text":"12pm-12am"},"title":"The Watergate","url":"https://www.facebook.com/watergatewhitchurch/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.51955,53.06888],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Nantwich Library","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.50703,53.06498],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Nantwich Elim Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.51931,53.06617],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Nantwich Methodist Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.46980,53.08781],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Motherwell Cheshire CIO (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.49096,53.00583],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Hankelow Methodist Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.49096,53.00583],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Hankelow Methodist Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.51931,53.06617],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Nantwich Methodist Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"}
 	]
 }

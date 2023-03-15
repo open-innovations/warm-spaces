@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 50,
+		"geocount": 50,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 198,
-		"geocount": 198,
+		"count": 197,
+		"geocount": 197,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -212,8 +212,8 @@
 		"url": "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 52,
-		"geocount": 52,
+		"count": 51,
+		"geocount": 51,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -406,8 +406,8 @@
 		"url": "https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 46,
+		"geocount": 46,
 		"id": "croydon_council",
 		"map": { "type": "leaflet", "url": "https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title": "Croydon Council",
@@ -467,7 +467,7 @@
 	},
 	"durham_county_council": {
 		"count": 176,
-		"geocount": 173,
+		"geocount": 172,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 132,
-		"geocount": 131,
+		"count": 133,
+		"geocount": 132,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -936,8 +936,8 @@
 		"url": "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
 	},
 	"northumberland_county_council": {
-		"count": 137,
-		"geocount": 137,
+		"count": 138,
+		"geocount": 138,
 		"id": "northumberland_county_council",
 		"map": { "type": "tableau", "url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q" },
@@ -1005,8 +1005,8 @@
 		"url": "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 49,
+		"geocount": 49,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
@@ -1176,8 +1176,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 263,
-		"geocount": 263,
+		"count": 256,
+		"geocount": 256,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1277,8 +1277,8 @@
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1796,
-		"geocount": 1796,
+		"count": 1816,
+		"geocount": 1816,
 		"id": "warm_spaces",
 		"map": { "type": "googlemap", "url": "https://warmspaces.org/spaces" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4274,
-		"geocount": 4274,
+		"count": 4275,
+		"geocount": 4275,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

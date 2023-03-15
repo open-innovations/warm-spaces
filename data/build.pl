@@ -835,8 +835,6 @@ sub getWPGeoDir {
 	# Get the data (if we don't have a cached version)
 	$file = getDataFromURL($d,$i);
 
-	print "Here: $file\n";
-
 	if(-e $file){
 		open(FILE,"<:utf8",$file);
 		@lines = <FILE>;
@@ -847,9 +845,7 @@ sub getWPGeoDir {
 		};
 		if($@){ $log->warning("\tInvalid output from WordPress GeoDirectory.\n".$str); }
 		
-		print Dumper $json->{'items'};
 		for($f = 0; $f < @{$json->{'items'}}; $f++){
-			print "$f - $json->{'items'}[$f]{'m'}\n";
 			$entry = {};
 			$props = {};
 			$remove = {};

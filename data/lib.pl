@@ -177,7 +177,7 @@ sub getFileContents {
 	return @lines;
 }
 sub getJSON {
-	my (@files,$str,@lines);
+	my (@files,$str,@lines,$json);
 	my $file = $_[0];
 	open(FILE,"<:utf8",$file);
 	@lines = <FILE>;
@@ -186,7 +186,12 @@ sub getJSON {
 	# Error check for JS variable e.g. South Tyneside https://maps.southtyneside.gov.uk/warm_spaces/assets/data/wsst_council_spaces.geojson.js
 	$str =~ s/[^\{]*var [^\{]+ = //g;
 	if(!$str){ $str = "{}"; }
-	return JSON::XS->new->decode($str);	
+	eval {
+		$json = JSON::XS->new->decode($str);
+	};
+	if($@){ error("\tInvalid output in $file.\n"); $json = {}; }
+	
+	return $json;
 }
 
 sub tidyJSON {
@@ -610,7 +615,7 @@ sub addLatLonFromPostcodes {
 			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
 			if($places[$i]{'address'} =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
 				$postcode = $2;
-				warning("\tFinding coordinates for $postcode\n");
+				msg("\tFinding coordinates for $postcode\n");
 				# Now we need to find the postcode areas e.g. LS, BD, M etc and load those files if we haven't
 				$pc = getPostcode($postcode);
 				if($pc->{'lat'}){
