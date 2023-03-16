@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 197,
-		"geocount": 197,
+		"count": 196,
+		"geocount": 196,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 133,
-		"geocount": 132,
+		"count": 140,
+		"geocount": 139,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -704,8 +704,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 46,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 43,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
 		"title": "Isle of Wight Council",
@@ -1244,8 +1244,8 @@
 		"url": "https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},
 	"torbay_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 36,
+		"geocount": 36,
 		"id": "torbay_council",
 		"map": { "type": "googlemap", "url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/" },
 		"title": "Torbay Council",
@@ -1268,8 +1268,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 50,
+		"geocount": 50,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
