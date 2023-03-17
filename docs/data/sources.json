@@ -111,7 +111,7 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 196,
+		"count": 197,
 		"geocount": 196,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 140,
-		"geocount": 139,
+		"count": 136,
+		"geocount": 135,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -668,8 +668,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 42,
-		"geocount": 40,
+		"count": 43,
+		"geocount": 41,
 		"id": "hinckley_and_bosworth_council",
 		"title": "Hinckley and Bosworth Council",
 		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
@@ -1176,8 +1176,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 256,
-		"geocount": 256,
+		"count": 255,
+		"geocount": 255,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4275,
-		"geocount": 4275,
+		"count": 4272,
+		"geocount": 4272,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
