@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": 13,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -719,8 +719,8 @@
 		"url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
 	},
 	"kensington_and_chelsea": {
-		"count": "0",
-		"geocount": "0",
+		"count": 24,
+		"geocount": 24,
 		"id": "kensington_and_chelsea",
 		"map": { "type": "arcgis", "url": "https://lbhf.maps.arcgis.com/apps/instant/nearby/index.html?appid=e7e3050fbb8e49b79b5743bf17b9c720&sliderDistance=400&findSource=1&find=-23824.558013193524%252C6713243.6715945285" },
 		"title": "Kensington and Chelsea",
