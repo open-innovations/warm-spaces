@@ -188,8 +188,8 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": 50,
+		"geocount": 50,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 13,
+		"geocount": 10,
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -385,8 +385,8 @@
 		"url": "https://www.colchester.gov.uk/cost-of-living-support/?id=&page=warm--welcoming--spaces"
 	},
 	"communities_1st": {
-		"count": 30,
-		"geocount": 29,
+		"count": "0",
+		"geocount": "0",
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 137,
-		"geocount": 136,
+		"count": 134,
+		"geocount": 133,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -870,8 +870,8 @@
 		"url": "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 49,
+		"geocount": 49,
 		"id": "neath_port_talbot_council",
 		"register": { "url": "https://appsportal2.npt.gov.uk/businessaccount" },
 		"title": "Neath Port Talbot Council",
@@ -914,8 +914,8 @@
 		"url": "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
 	},
 	"north_herts_council": {
-		"count": 23,
-		"geocount": 22,
+		"count": 22,
+		"geocount": 21,
 		"id": "north_herts_council",
 		"register": { "url": "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces" },
 		"title": "North Herts Council",
@@ -1176,8 +1176,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 255,
-		"geocount": 255,
+		"count": 253,
+		"geocount": 253,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
