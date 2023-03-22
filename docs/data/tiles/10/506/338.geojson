@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.08125,51.89071],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Great Norwood Street, Cheltenham, Gloucestershire GL50 2AP","description":"Open from 9/11/22.","hours":{"_text":"Wednesday: 10:00 - 16:00","opening":"We 10:00-16:00"},"title":"Bethesda Church Cheltenham"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.05910,51.94597],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bishops Cleeve Library, Tobyfield Road, Cheltenham GL52 8NN","hours":{"_text":"Monday: 13:00 - 17:00, Tuesday: 13:00 - 17:00, Wednesday: 10:00 - 17:00, Thursday: 9:00 - 17:00, Friday: 09:00 - 17:00, Saturday: 09:00 - 15:00","opening":"Mo 13:00-17:00; Tu 13:00-17:00; We 10:00-17:00; Th 09:00-17:00; Fr 09:00-17:00; Sa 09:00-15:00"},"title":"Bishops Cleeve Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.10487,52.03018],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Main Road, Bredon, Glos GL20 7QN","description":"Open from 08-12-2022.","hours":{"_text":"Thursday: 12:00 - 14:00 / - Monthly","opening":"Th 12:00-14:00"},"title":"Bredon Parish Council"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.85666,52.04270],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Leamington Road, Broadway, Worcestershire WR12 7DZ","hours":{"_text":"Monday: 09:30 - 16:30, Wednesday: 09:30 - 16:30, Saturday: 09:30 - 13:00","opening":"Mo 09:30-16:30; We 09:30-16:30; Sa 09:30-13:00"},"title":"Broadway Library"},"type":"Feature"},
