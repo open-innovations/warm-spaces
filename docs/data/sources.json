@@ -212,8 +212,8 @@
 		"url": "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 50,
-		"geocount": 50,
+		"count": 49,
+		"geocount": 49,
 		"id": "bromley_well",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
 		"title": "Bromley Well",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -430,8 +430,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 237,
-		"geocount": 232,
+		"count": 240,
+		"geocount": 235,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -451,8 +451,8 @@
 		"url": "https://www.derbyshiredales.gov.uk/community/warm-spaces"
 	},
 	"devizes_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 9,
+		"geocount": 8,
 		"id": "devizes_council",
 		"title": "Devizes Council",
 		"url": "https://www.devizes-tc.gov.uk/warmspaces/"
@@ -475,8 +475,8 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 36,
+		"geocount": 36,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 135,
-		"geocount": 135,
+		"count": 133,
+		"geocount": 132,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4262,
-		"geocount": 4262,
+		"count": 4264,
+		"geocount": 4264,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
