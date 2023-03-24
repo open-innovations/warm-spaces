@@ -220,8 +220,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 57,
-		"geocount": 57,
+		"count": 56,
+		"geocount": 56,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 46,
-		"geocount": 46,
+		"count": 45,
+		"geocount": 45,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 133,
-		"geocount": 132,
+		"count": 137,
+		"geocount": 136,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1244,8 +1244,8 @@
 		"url": "https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},
 	"torbay_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 33,
+		"geocount": 33,
 		"id": "torbay_council",
 		"map": { "type": "googlemap", "url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/" },
 		"title": "Torbay Council",
@@ -1333,8 +1333,8 @@
 		"url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"westminster_council": {
-		"count": 63,
-		"geocount": 63,
+		"count": "0",
+		"geocount": "0",
 		"id": "westminster_council",
 		"map": { "type": "arcgis", "url": "https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"title": "Westminster Council",
