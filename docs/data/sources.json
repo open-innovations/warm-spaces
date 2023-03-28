@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 57,
-		"geocount": 57,
+		"count": 51,
+		"geocount": 51,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -52,8 +52,8 @@
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"barnet_council": {
-		"count": 30,
-		"geocount": 30,
+		"count": 32,
+		"geocount": 32,
 		"id": "barnet_council",
 		"map": { "type": "leaflet", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url": "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 199,
-		"geocount": 199,
+		"count": 198,
+		"geocount": 198,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -139,8 +139,8 @@
 		"url": "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
 	},
 	"bracknell_forest_council": {
-		"count": 16,
-		"geocount": 6,
+		"count": 14,
+		"geocount": 4,
 		"id": "bracknell_forest_council",
 		"notes": "Locations for libraries on separate pages",
 		"title": "Bracknell Forest Council",
@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 139,
-		"geocount": 139,
+		"count": 136,
+		"geocount": 135,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -769,8 +769,8 @@
 		"title": "Lancaster Council"
 	},
 	"leeds_city_council": {
-		"count": 184,
-		"geocount": 184,
+		"count": 185,
+		"geocount": 185,
 		"id": "leeds_city_council",
 		"licence": "OGLv3",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -809,8 +809,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 45,
-		"geocount": 44,
+		"count": 46,
+		"geocount": 45,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1013,8 +1013,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 38,
+		"geocount": 38,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1055,8 +1055,8 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 40,
-		"geocount": 27,
+		"count": 38,
+		"geocount": 26,
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
 		"url": "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4259,
-		"geocount": 4259,
+		"count": 4258,
+		"geocount": 4258,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
