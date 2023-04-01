@@ -536,8 +536,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 138,
-		"geocount": 137,
+		"count": 134,
+		"geocount": 133,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1055,8 +1055,8 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 15,
-		"geocount": 10,
+		"count": 1,
+		"geocount": 1,
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
 		"url": "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1286,8 +1286,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4249,
-		"geocount": 4249,
+		"count": 4250,
+		"geocount": 4250,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
