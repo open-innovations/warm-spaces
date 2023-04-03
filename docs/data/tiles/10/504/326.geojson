@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.59104,54.43424],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o The Old Post House, Mount Pleasant, Tebay, Cumbria CA10 3TH","description":"Open from 06-11-2022.","hours":{"_text":"Sunday: 10:30 - 16:30 / - Monthly","opening":"Su 10:30-16:30"},"title":"Wild Wanderings, St James, Tebay Methodist and friends"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.75131,54.55661],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 01931 719202","description":"Welcoming community pub environment with board games and snug with real fire. Events are frequently hosted such as quizzes, macrame, darts and guitar playing.","title":"Bampton Valley Community Pub","url":"https://new.cumbria.gov.uk/node/3912"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.59104,54.43424],"type":"Point"},"properties":{"_source":"warm_welcome","address":"c/o The Old Post House, Mount Pleasant, Tebay, Cumbria CA10 3TH","description":"Open from 06-11-2022.","hours":{"_text":"Sunday: 10:30 - 16:30 / - Monthly","opening":"Su 10:30-16:30"},"title":"Wild Wanderings, St James, Tebay Methodist and friends"},"type":"Feature"}
 	]
 }

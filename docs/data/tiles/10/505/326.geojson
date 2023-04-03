@@ -1,8 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.31752,54.52584],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Email: krissie.pipe@outlook.com","description":"Craft and chatter group","title":"Brough Methodist Church","url":"https://new.cumbria.gov.uk/node/9963"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.31910,54.52656],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 07890756760; Email: Chofhs@gmail.com","description":"The youth centre is a warm, vibrant environment. Lovely comfy sofas, a place to be yourself. A warm welcome awaits from our lovely volunteers, meet new people, a good chat. A daily newspaper, magazines, jigsaws, cards and dominoes, board games.Occasional films","title":"CHOFHS Youth Centre, Brough","url":"https://new.cumbria.gov.uk/node/9153"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.39269,54.53276],"type":"Point"},"properties":{"_source":"cumbria_council","contact":"Tel: 07734244926; Email: Cotehouse@aol.com","description":"A warm friendly welcome, papers, magazines, lots of chatter, Church open for this specific event Church open , community based space, a warm friendly welcome to all","title":"Warcop Methodist Church","url":"https://new.cumbria.gov.uk/node/9152"},"type":"Feature"}
-	]
-}
+{}
