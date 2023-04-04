@@ -469,7 +469,7 @@ directories:
       url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
   - title: "Cumbria Council"
-    inactive: 2023-04-01,
+    inactive: 2023-04-01
     url: "https://new.cumbria.gov.uk/warm-spots"
     register:
       url: "https://www.surveymonkey.co.uk/r/warmspots"
@@ -552,7 +552,7 @@ directories:
     url: "https://www.derbyshiredales.gov.uk/community/warm-spaces"
     notes: "Too unstructured to parse"
   - title: "Devizes Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.devizes-tc.gov.uk/warmspaces/"
     data:
       url: "https://www.devizes-tc.gov.uk/warmspaces/"
@@ -840,6 +840,7 @@ directories:
       url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
       type: html
   - title: "Hounslow Council"
+    inactive: 2023-03-31
     url: "https://www.hounslow.gov.uk/warmspaces"
     data:
       url: "https://www.hounslow.gov.uk/warmspaces"
@@ -917,7 +918,7 @@ directories:
       url: "https://www.kirklees.gov.uk/beta/wheres-my-nearest/xml/iLibraries.xml"
       type: html
   - title: "Lambeth Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.lambeth.gov.uk/warm-spaces"
     register:
       url: "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch"
@@ -1085,7 +1086,7 @@ directories:
       - url: "https://www.npt.gov.uk/34536?c=5"
         type: html
   - title: "Newcastle under Lyme Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.newcastle-staffs.gov.uk/warmspaces"
     data:
       url: "https://www.newcastle-staffs.gov.uk/directory/8/a-to-z/A"
@@ -1385,7 +1386,7 @@ directories:
       - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=5"
         type: html
   - title: "Stafford Borough Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.staffordbc.gov.uk/warm-spaces"
     register: mailto:warmspaces@staffordbc.gov.uk
     data:
@@ -1530,13 +1531,13 @@ directories:
       url: "https://www.tewkesbury.gov.uk/warm-spaces-directory"
       type: html
   - title: "Tonbridge and Malling Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.tmbc.gov.uk/community-services/warm-spaces"
     data:
       url: "https://www.tmbc.gov.uk/directory/7/a-to-z/A"
       type: html
   - title: "Torbay Council"
-    inactive: 2023-04-04,
+    inactive: 2023-04-04
     url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
     map:
       url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/"

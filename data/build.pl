@@ -163,7 +163,7 @@ sub processDirectories {
 		$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "")."</td>";
 		$table .= "<td>".($d->{'map'} && $d->{'map'}{'url'} ? "<a href=\"$d->{'map'}{'url'}\">Map</a>":"")."</td>";
 		$table .= "<td>".($d->{'register'} && $d->{'register'}{'url'} ? "<a href=\"$d->{'register'}{'url'}\">Add a warm place</a>":"")."</td>";
-		$table .= "<td>".($d->{'notes'} ? $d->{'notes'}:"")."</td>";
+		$table .= "<td>".($d->{'notes'} ? $d->{'notes'}:"").($d->{'inactive'} ? " Inactive as of ".$d->{'inactive'} : "")."</td>";
 		$table .= "</tr>\n";
 
 		# Remove the data structure as we don't want to store that in the JSON
