@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 49,
+		"geocount": 49,
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -258,8 +258,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 27,
-		"geocount": 27,
+		"count": 26,
+		"geocount": 26,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -421,9 +421,8 @@
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
 	},
 	"cumbria_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "cumbria_council",
+		"inactive": "2023-04-01",
 		"map": { "type": "leaflet", "url": "https://new.cumbria.gov.uk/warm-spots" },
 		"register": { "url": "https://www.surveymonkey.co.uk/r/warmspots" },
 		"title": "Cumbria Council",
@@ -451,9 +450,8 @@
 		"url": "https://www.derbyshiredales.gov.uk/community/warm-spaces"
 	},
 	"devizes_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "devizes_council",
+		"inactive": "2023-04-04",
 		"title": "Devizes Council",
 		"url": "https://www.devizes-tc.gov.uk/warmspaces/"
 	},
@@ -467,7 +465,7 @@
 	},
 	"durham_county_council": {
 		"count": 179,
-		"geocount": 175,
+		"geocount": 176,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -536,8 +534,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 136,
-		"geocount": 136,
+		"count": 133,
+		"geocount": 132,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -652,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 104,
-		"geocount": 99,
+		"count": 111,
+		"geocount": 106,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -675,9 +673,8 @@
 		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
 	},
 	"hounslow_council": {
-		"count": 51,
-		"geocount": 41,
 		"id": "hounslow_council",
+		"inactive": "2023-03-31",
 		"title": "Hounslow Council",
 		"url": "https://www.hounslow.gov.uk/warmspaces"
 	},
@@ -744,9 +741,8 @@
 		"url": "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
 	},
 	"lambeth_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "lambeth_council",
+		"inactive": "2023-04-04",
 		"map": { "type": "leaflet", "url": "https://www.lambeth.gov.uk/warm-spaces" },
 		"register": { "url": "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch" },
 		"title": "Lambeth Council",
@@ -878,9 +874,8 @@
 		"url": "https://www.npt.gov.uk/34533"
 	},
 	"newcastle_under_lyme_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "newcastle_under_lyme_council",
+		"inactive": "2023-04-04",
 		"title": "Newcastle under Lyme Council",
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
@@ -1005,8 +1000,8 @@
 		"url": "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 44,
+		"geocount": 44,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
@@ -1131,9 +1126,8 @@
 		"url": "https://sthelens.gov.uk/warmspaces"
 	},
 	"stafford_borough_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "stafford_borough_council",
+		"inactive": "2023-04-04",
 		"register": "mailto:warmspaces@staffordbc.gov.uk",
 		"title": "Stafford Borough Council",
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
@@ -1176,8 +1170,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 247,
-		"geocount": 247,
+		"count": 197,
+		"geocount": 197,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1207,7 +1201,7 @@
 	},
 	"swansea_council": {
 		"count": 75,
-		"geocount": 46,
+		"geocount": 74,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1237,16 +1231,14 @@
 		"url": "https://www.tewkesbury.gov.uk/warm-spaces"
 	},
 	"tonbridge_and_malling_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "tonbridge_and_malling_council",
+		"inactive": "2023-04-04",
 		"title": "Tonbridge and Malling Council",
 		"url": "https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},
 	"torbay_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "torbay_council",
+		"inactive": "2023-04-04",
 		"map": { "type": "googlemap", "url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/" },
 		"title": "Torbay Council",
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
