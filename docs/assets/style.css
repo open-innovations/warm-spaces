@@ -191,6 +191,8 @@ footer h3 { margin-top: 2em; }
 .placesearch.typing .pop-left { display: inline-block; position: relative; top: 0px; right: 0px; }
 
 
+.inactive { text-decoration:line-through; color: #999; }
+
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }
 }

@@ -72,7 +72,7 @@ sub processDirectories {
 		@features = ();
 
 		# If there is data
-		if($d->{'data'} && (!$key || ($key && $d->{'id'} eq $key))){
+		if(!$d->{'inactive'} && $d->{'data'} && (!$key || ($key && $d->{'id'} eq $key))){
 
 			# If the data structure is a HASH we turn it into an array of hashes
 			if(ref $d->{'data'} eq "HASH"){
@@ -157,7 +157,7 @@ sub processDirectories {
 			$log->msg("\tTotal = $counter\n");
 
 		}
-		$table .= "<tr>";
+		$table .= "<tr".($d->{'inactive'} ? " class=\"inactive\"" : "").">";
 		$table .= "<td><a href=\"$d->{'url'}\">$d->{'title'}</a></td>";
 		$table .= "<td>".($d->{'count'} ? $d->{'count'} : "?")."</td>";
 		$table .= "<td".($d->{'geocount'} ? " class=\"c13-bg\"":"").">".($d->{'geocount'} ? $d->{'geocount'} : "")."</td>";

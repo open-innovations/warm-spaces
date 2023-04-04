@@ -35,6 +35,13 @@ if(-e $file){
 			if($content =~ s/^<p>(.*?)<\/p>//){
 				$d->{'address'} = $1;
 			}
+			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+			if($d->{'address'} !~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
+				if($content =~ s/<p>([^\<]*?)(([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2}))(.*?)<\/p>//){
+					$d->{'address'} = $1.$2.$3;
+				}
+			}
+
 			if($content =~ s/^<p>(.*?(mailto|[0-9\s]{8,}))<\/p>//){
 				$d->{'contact'} = trimHTML($1);
 			}
