@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 51,
-		"geocount": 51,
+		"count": 48,
+		"geocount": 48,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -81,8 +81,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -464,8 +464,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 179,
-		"geocount": 176,
+		"count": 178,
+		"geocount": 174,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -534,8 +534,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 133,
-		"geocount": 132,
+		"count": 132,
+		"geocount": 131,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -659,8 +659,8 @@
 		"url": "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
 	},
 	"high_peak_council": {
-		"count": 30,
-		"geocount": 25,
+		"count": 29,
+		"geocount": 24,
 		"id": "high_peak_council",
 		"title": "High Peak Council",
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
@@ -781,8 +781,8 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 41,
-		"geocount": 39,
+		"count": 39,
+		"geocount": 38,
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
@@ -1170,8 +1170,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 197,
-		"geocount": 197,
+		"count": 196,
+		"geocount": 196,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4247,
-		"geocount": 4247,
+		"count": 4246,
+		"geocount": 4246,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
