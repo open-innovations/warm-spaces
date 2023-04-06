@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.91553,54.54207],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Barnard Castle, County Durham, DL12 8NP","contact":"Telephone: 01833 690 606 Email: info@thebowesmuseum.org.uk","title":"The Bowes Museum","url":"https://www.durhamlocate.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.92348,54.54382],"type":"Point"},"properties":{"_source":"durham_county_council","address":"The Witham, 3 Horsemarket, Barnard Castle, County Durham, DL12 8LY","contact":"Telephone: 01833 631 107 Email: info@thewitham.org.uk","title":"The Witham","url":"https://www.durhamlocate.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.92236,54.54352],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Barnard Castle Library, 2 Hall Street, Barnard Castle, County Durham, DL12 8JB","contact":"Telephone: 03000 263 409 Email: bdcaslibrary@durham.gov.uk","title":"Barnard Castle Library","url":"https://www.durhamlocate.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.90752,54.55126],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Teesdale Community Resources, Ing Lane, Shaw Bank, Barnard Castle, County Durham, DL12 8TD","contact":"Telephone: 01833 690 150 Email: info@tcrhub.co.uk","title":"Teesdale Community Resources - The Hub","url":"https://www.durhamlocate.org.uk"},"type":"Feature"}
