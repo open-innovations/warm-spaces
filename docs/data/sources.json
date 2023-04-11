@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 198,
-		"geocount": 197,
+		"count": 199,
+		"geocount": 199,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -464,8 +464,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 164,
-		"geocount": 160,
+		"count": 162,
+		"geocount": 158,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -534,8 +534,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 135,
-		"geocount": 134,
+		"count": 136,
+		"geocount": 135,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -1244,8 +1244,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 28,
-		"geocount": 28,
+		"count": 27,
+		"geocount": 27,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1260,8 +1260,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 40,
-		"geocount": 40,
+		"count": 37,
+		"geocount": 37,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4233,
-		"geocount": 4233,
+		"count": 4173,
+		"geocount": 4173,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
