@@ -364,8 +364,8 @@
 		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": "0",
+		"geocount": "0",
 		"id": "chorley_council",
 		"title": "Chorley Council",
 		"url": "https://chorley.gov.uk/article/2917/Warm-Spaces"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -534,8 +534,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 135,
-		"geocount": 134,
+		"count": "0",
+		"geocount": "0",
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
 		"title": "Essex Map",
@@ -909,8 +909,8 @@
 		"url": "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
 	},
 	"north_herts_council": {
-		"count": 23,
-		"geocount": 22,
+		"count": "0",
+		"geocount": "0",
 		"id": "north_herts_council",
 		"register": { "url": "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces" },
 		"title": "North Herts Council",
@@ -1170,8 +1170,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 194,
-		"geocount": 194,
+		"count": 192,
+		"geocount": 192,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
