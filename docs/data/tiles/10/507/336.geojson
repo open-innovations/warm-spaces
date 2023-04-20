@@ -82,7 +82,6 @@
 		{"geometry":{"coordinates":[-1.50925,52.41001],"type":"Point"},"properties":{"_source":"coventry_council","title":"Voluntary Action Coventry","url":"https://www.coventry.gov.uk/directory-record/59118/voluntary-action-coventry"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.47774,52.42360],"type":"Point"},"properties":{"_source":"coventry_council","title":"Stoke Heath Community Centre","url":"https://www.coventry.gov.uk/directory-record/59103/stoke-heath-community-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.55599,52.41259],"type":"Point"},"properties":{"_source":"coventry_council","title":"Allesley Park Evangelical Church","url":"https://www.coventry.gov.uk/directory-record/59101/allesley-park-evangelical-church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.48766,52.45337],"type":"Point"},"properties":{"_source":"coventry_council","title":"Longford Baptist Church","url":"https://www.coventry.gov.uk/directory-record/59100/longford-baptist-church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.52348,52.40832],"type":"Point"},"properties":{"_source":"coventry_council","title":"Spongate Community Project","url":"https://www.coventry.gov.uk/directory-record/59091/spongate-community-project"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51874,52.43113],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Community Centre","url":"https://www.coventry.gov.uk/directory-record/59090/jubilee-crescent-community-centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.51379,52.40974],"type":"Point"},"properties":{"_source":"coventry_council","title":"Belgrade Theatre","url":"https://www.coventry.gov.uk/directory-record/59075/belgrade-theatre"},"type":"Feature"},
@@ -108,6 +107,7 @@
 		{"geometry":{"coordinates":[-1.46321,52.38856],"type":"Point"},"properties":{"_source":"coventry_council","title":"Willenhall Library","url":"https://www.coventry.gov.uk/directory-record/58824/willenhall-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.57989,52.40719],"type":"Point"},"properties":{"_source":"coventry_council","title":"Tile Hill Library","url":"https://www.coventry.gov.uk/directory-record/58823/tile-hill-library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.48730,52.40964],"type":"Point"},"properties":{"_source":"coventry_council","title":"Stoke Library","url":"https://www.coventry.gov.uk/directory-record/58822/stoke-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.51813,52.43105],"type":"Point"},"properties":{"_source":"coventry_council","title":"Jubilee Crescent Library","url":"https://www.coventry.gov.uk/directory-record/58821/jubilee-crescent-library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.50848,52.43940],"type":"Point"},"properties":{"_source":"coventry_council","title":"Holbrooks Library","url":"https://www.coventry.gov.uk/directory-record/58820/holbrooks-library"},"type":"Feature"}
 	]
 }
