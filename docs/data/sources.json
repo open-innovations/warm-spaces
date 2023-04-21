@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -1079,8 +1079,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 174,
-		"geocount": 174,
+		"count": 175,
+		"geocount": 175,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1208,8 +1208,8 @@
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count": 41,
-		"geocount": 40,
+		"count": 40,
+		"geocount": 39,
 		"id": "swindon_council",
 		"title": "Swindon Council",
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
@@ -1260,8 +1260,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 32,
-		"geocount": 32,
+		"count": 31,
+		"geocount": 31,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
