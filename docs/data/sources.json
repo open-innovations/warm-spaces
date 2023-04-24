@@ -103,8 +103,8 @@
 		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
 	},
 	"bexley_council": {
-		"count": 6,
-		"geocount": 6,
+		"count": "0",
+		"geocount": "0",
 		"id": "bexley_council",
 		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
 		"title": "Bexley Council",
@@ -258,8 +258,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 24,
-		"geocount": 24,
+		"count": 35,
+		"geocount": 35,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4174,
-		"geocount": 4174,
+		"count": 4173,
+		"geocount": 4173,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
