@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.00332,51.43733],"type":"Point"},"properties":{"_source":"warm_welcome","address":"30 Church Street, Calne, Wiltshire SN11 0HU","description":"Open from 11/11/2022.","hours":{"_text":"Friday: 10:00 - 16:00","opening":"Fr 10:00-16:00"},"title":"Calne and Blackland Parish"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.00332,51.43733],"type":"Point"},"properties":{"_source":"warm_welcome","address":"30 Church Street, Calne, Wiltshire SN11 0HU","description":"Open from 11/11/2022.","title":"Calne and Blackland Parish"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.00670,51.43767],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Castle Street, Calne, Wiltshire SN11 0DX","title":"Calne Baptist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.00469,51.43209],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Silver Street, Calne, Wiltshire SN11 0JF","description":"Open from 02-11-2022.","hours":{"_text":"Wednesday: 10:00 - 16:00","opening":"We 10:00-16:00"},"title":"Calne Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.81784,51.56133],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Trinity Centre, Stonehill Green, Westlea, Swindon SN5 7AR","description":"Open from 24/11/2022. A community space where everyone is welcome. Free hot drinks and cake, as well as free WiFi, charging facilities, parking, games, crafts, and space for children to play. There will also be craft activities and board games available.","hours":{"_text":"Thursday: 10:00 - 13:00","opening":"Th 10:00-13:00"},"title":"Gateway Church Swindon"},"type":"Feature"},
