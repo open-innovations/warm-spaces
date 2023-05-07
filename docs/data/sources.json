@@ -39,8 +39,8 @@
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count": 36,
-		"geocount": 14,
+		"count": 33,
+		"geocount": 12,
 		"id": "argyll_and_bute_third_sector_interface",
 		"title": "Argyll and Bute Third Sector Interface",
 		"url": "https://www.argylltsi.org/warmspaces.html"
@@ -89,8 +89,8 @@
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 34,
-		"geocount": 34,
+		"count": 33,
+		"geocount": 33,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 201,
-		"geocount": 201,
+		"count": 199,
+		"geocount": 199,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -220,8 +220,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 44,
+		"geocount": 44,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -258,8 +258,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 35,
-		"geocount": 35,
+		"count": 22,
+		"geocount": 22,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 76,
+		"geocount": 75,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -429,8 +429,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 242,
-		"geocount": 237,
+		"count": 24,
+		"geocount": 24,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 66,
-		"geocount": 61,
+		"count": 60,
+		"geocount": 55,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1064,8 +1064,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 21,
-		"geocount": 21,
+		"count": 19,
+		"geocount": 19,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1087,8 +1087,8 @@
 		"url": "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
 	},
 	"south_cambs_council": {
-		"count": 23,
-		"geocount": 22,
+		"count": 16,
+		"geocount": 16,
 		"id": "south_cambs_council",
 		"title": "South Cambs Council",
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
@@ -1170,16 +1170,16 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 191,
-		"geocount": 191,
+		"count": 45,
+		"geocount": 45,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
-		"count": 71,
-		"geocount": 71,
+		"count": 63,
+		"geocount": 63,
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"title": "Sunderland Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4172,
-		"geocount": 4172,
+		"count": 4176,
+		"geocount": 4176,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
