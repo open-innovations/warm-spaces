@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.40015,54.98461],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Norham Avenue, South Shields, NE34 7TD","description":"Activity: Please contact Horsley Hill Children Centre for information; Nearest bus: Horsley Hill / Highfield Road","loc_pcd":true,"title":"Horsley Hill Children's Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.40015,54.98461],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Norham Avenue, South Shields, NE34 7TD","description":"Activity: Please contact Horsley Hill Children&#39;s Centre for information; Nearest bus: Horsley Hill / Highfield Road","loc_pcd":true,"title":"Horsley Hill Children's Centre"},"type":"Feature"}
 	]
 }
