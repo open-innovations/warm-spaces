@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[34.26430,0.94478],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Manafa district in Uganda, Bubulo, Mbale 256","title":"Children's welfare organisation Manafa Uganda"},"type":"Feature"}
+	]
+}
