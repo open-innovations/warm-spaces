@@ -113,17 +113,14 @@
 		{"geometry":{"coordinates":[-2.99044,53.44570],"type":"Point"},"properties":{"_source":"sefton_council","address":"64-68 Balliol Rd, Bootle L20 7EJ","contact":"01513456639","hours":{"_text":"Thursday 11am-4pm","opening":"Th 11:00-16:00"},"loc_pcd":true,"title":"The Independence Initiative"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97578,53.46660],"type":"Point"},"properties":{"_source":"sefton_council","address":"71 Bailey Dr, Bootle L20 6EX","hours":{"_text":"Thursday 10am-3pm","opening":"Th 10:00-15:00"},"loc_pcd":true,"title":"The Orrell Trust"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.98002,53.46215],"type":"Point"},"properties":{"_source":"sefton_council","address":"The Venus Centre, 215 Linacre Ln, Bootle L20 6AD","contact":"01514744744","hours":{"_text":"Thursday 4pm-7pm","opening":"Th 16:00-19:00"},"loc_pcd":true,"title":"The Venus Charity"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99073,53.44578],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 11am - 4pm","title":"The Independence Initiative"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97781,53.49299],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 11.30am - 3pm","title":"L30 Community Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99095,53.44365],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays & Wednesdays 10am - 2pm","title":"Community by Nature"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99095,53.44365],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and times TBC","title":"Community by Nature"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.02443,53.47193],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Fridays 11am - 2pm","title":"Crosby Housing Association & Waterloo Community Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97006,53.48607],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 3pm- 5pm Wednesdays 12noon - 2pm Thursday 9am - 11am","title":"St Oswalds Church Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.94464,53.50736],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 1pm - 4pm","title":"Friends of Maghull & District"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99118,53.45586],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday - Friday 9.30am-1.30pm","title":"Sefton OPERA"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99791,53.44905],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays and Sundays 1pm-4pm","title":"Lock & Quay Community Pub"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99752,53.46348],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 12am-4pm","title":"Linacre Methodist Mission"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-3pm","title":"The Orrell Trust"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.01855,53.48778],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesdays 11.30am-1.30pm","title":"Bethel New Life Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.00383,53.46011],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 12pm - 2pm","title":"Kindfulness Coffee Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97781,53.49299],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 11am - 1.30pm Thursdays 11.30am - 3pm","title":"L30 Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99752,53.46348],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"Linacre Methodist Mission"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-1pm","title":"The Orrell Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99118,53.45586],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 9am - 11.30am Wednesday 2.30pm - 4pm Friday 9am-11.30am","title":"Sefton OPERA"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.01581,53.47120],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"SING Plus"},"type":"Feature"}
 	]
 }

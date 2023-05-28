@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 76,
+		"geocount": 75,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -456,8 +456,8 @@
 		"url": "https://www.devizes-tc.gov.uk/warmspaces/"
 	},
 	"dover_council": {
-		"count": 28,
-		"geocount": 28,
+		"count": "0",
+		"geocount": "0",
 		"id": "dover_council",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/67b666bc92b44763a2b55289c9fc9fc3?data_id=86e4bddcadd14c56954aa0a57b49c363-184a4dfdb12-layer-1%3A21&org=DDC" },
 		"title": "Dover Council",
@@ -635,8 +635,8 @@
 		"url": "https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count": 28,
-		"geocount": 22,
+		"count": 26,
+		"geocount": 20,
 		"id": "havering_council",
 		"title": "Havering Council",
 		"url": "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 52,
-		"geocount": 47,
+		"count": 49,
+		"geocount": 44,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 38,
-		"geocount": 37,
+		"count": 37,
+		"geocount": 36,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1064,8 +1064,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 19,
-		"geocount": 19,
+		"count": 13,
+		"geocount": 13,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1215,8 +1215,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 46,
-		"geocount": 44,
+		"count": "0",
+		"geocount": "0",
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1244,8 +1244,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 25,
+		"geocount": 25,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4179,
-		"geocount": 4179,
+		"count": 4178,
+		"geocount": 4178,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
