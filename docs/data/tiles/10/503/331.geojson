@@ -121,6 +121,10 @@
 		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-1pm","title":"The Orrell Trust"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.99118,53.45586],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 9am - 11.30am Wednesday 2.30pm - 4pm Friday 9am-11.30am","title":"Sefton OPERA"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.01581,53.47120],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"SING Plus"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.01581,53.47120],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"SING Plus"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.02245,53.47764],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 2pm","title":"Crosby Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.94524,53.50718],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 2pm","title":"Maghull (Meadows) Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97840,53.49018],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 1pm","title":"Netherton Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.98970,53.45026],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 1pm","title":"Bootle Library"},"type":"Feature"}
 	]
 }

@@ -220,8 +220,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 41,
+		"geocount": 41,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -258,8 +258,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 22,
-		"geocount": 22,
+		"count": "0",
+		"geocount": "0",
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -481,8 +481,8 @@
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": 47,
+		"geocount": 47,
 		"id": "east_ayrshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 49,
-		"geocount": 44,
+		"count": 44,
+		"geocount": 39,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -789,8 +789,8 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": 53,
-		"geocount": 53,
+		"count": "0",
+		"geocount": "0",
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -1008,8 +1008,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 21,
-		"geocount": 21,
+		"count": "0",
+		"geocount": "0",
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1064,8 +1064,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 13,
-		"geocount": 13,
+		"count": 19,
+		"geocount": 19,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1087,14 +1087,14 @@
 		"url": "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
 	},
 	"south_cambs_council": {
-		"count": 16,
-		"geocount": 16,
+		"count": 14,
+		"geocount": 14,
 		"id": "south_cambs_council",
 		"title": "South Cambs Council",
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
 	},
 	"south_tyneside_council": {
-		"count": 50,
+		"count": 52,
 		"geocount": 39,
 		"id": "south_tyneside_council",
 		"map": { "type": "os", "url": "https://maps.southtyneside.gov.uk/warm_spaces/" },
@@ -1200,8 +1200,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 76,
-		"geocount": 75,
+		"count": 67,
+		"geocount": 67,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1260,8 +1260,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 31,
-		"geocount": 31,
+		"count": "0",
+		"geocount": "0",
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4178,
-		"geocount": 4178,
+		"count": 4177,
+		"geocount": 4177,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
