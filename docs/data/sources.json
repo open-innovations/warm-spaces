@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 203,
-		"geocount": 203,
+		"count": 204,
+		"geocount": 204,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 195,
-		"geocount": 195,
+		"count": 196,
+		"geocount": 196,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 76,
-		"geocount": 75,
+		"count": "0",
+		"geocount": "0",
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -464,8 +464,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 158,
-		"geocount": 155,
+		"count": 41,
+		"geocount": 40,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -481,8 +481,8 @@
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 43,
+		"geocount": 43,
 		"id": "east_ayrshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 44,
-		"geocount": 39,
+		"count": 39,
+		"geocount": 35,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -701,8 +701,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 47,
-		"geocount": 45,
+		"count": "0",
+		"geocount": "0",
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
 		"title": "Isle of Wight Council",
@@ -789,16 +789,16 @@
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": "0",
-		"geocount": "0",
+		"count": 53,
+		"geocount": 53,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
 		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
 	},
 	"lichfield_council": {
-		"count": 17,
-		"geocount": 17,
+		"count": 15,
+		"geocount": 15,
 		"id": "lichfield_council",
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title": "Lichfield Council",
@@ -1163,8 +1163,8 @@
 		"url": "https://www.stockton.gov.uk/warm-spaces"
 	},
 	"stroud_cscic": {
-		"count": 52,
-		"geocount": 47,
+		"count": "0",
+		"geocount": "0",
 		"id": "stroud_cscic",
 		"title": "Stroud CSCIC",
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
@@ -1208,8 +1208,8 @@
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count": 40,
-		"geocount": 39,
+		"count": 39,
+		"geocount": 38,
 		"id": "swindon_council",
 		"title": "Swindon Council",
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
