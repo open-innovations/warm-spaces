@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 75,
+		"geocount": 74,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -608,8 +608,8 @@
 		"url": "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
 	},
 	"haringey_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": "0",
+		"geocount": "0",
 		"id": "haringey_council",
 		"title": "Haringey Council",
 		"url": "https://www.haringey.gov.uk/community/haringey-warm-welcome"
@@ -812,8 +812,8 @@
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
 	"luton_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": 2,
+		"geocount": 2,
 		"id": "luton_council",
 		"title": "Luton Council",
 		"url": "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
@@ -1155,8 +1155,8 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 57,
-		"geocount": 56,
+		"count": 59,
+		"geocount": 58,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",
@@ -1200,8 +1200,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 67,
-		"geocount": 67,
+		"count": 66,
+		"geocount": 66,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
