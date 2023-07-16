@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 210,
-		"geocount": 209,
+		"count": 212,
+		"geocount": 212,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 196,
-		"geocount": 196,
+		"count": 198,
+		"geocount": 198,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 37,
-		"geocount": 36,
+		"count": 36,
+		"geocount": 35,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -866,8 +866,8 @@
 		"url": "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 49,
+		"geocount": 49,
 		"id": "neath_port_talbot_council",
 		"register": { "url": "https://appsportal2.npt.gov.uk/businessaccount" },
 		"title": "Neath Port Talbot Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4179,
-		"geocount": 4179,
+		"count": 4178,
+		"geocount": 4178,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1341,8 +1341,8 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 44,
-		"geocount": 32,
+		"count": 43,
+		"geocount": 31,
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
