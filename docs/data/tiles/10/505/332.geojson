@@ -54,7 +54,7 @@
 		{"geometry":{"coordinates":[-2.36605,53.14467],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Unity Methodist Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.44473,53.19220],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"St Michaels and All Angels Church - Middlewich (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.22995,53.32811],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"St Bartholomew&#39;s Church (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.12278,53.25704],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"The Snowgoose Cafe Bar (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.23615,53.21862],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Radchester&#39;s Garden Ornaments (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.23615,53.21862],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Radchester&#39;s Garden Ornaments (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.12278,53.25704],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"The Snowgoose Cafe Bar (Warm Place in CE)","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"}
 	]
 }

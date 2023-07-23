@@ -312,8 +312,8 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": 13,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "charnwood_council",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 65,
-		"geocount": 61,
+		"count": 70,
+		"geocount": 62,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -687,8 +687,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 39,
+		"geocount": 39,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -798,7 +798,7 @@
 	},
 	"lichfield_council": {
 		"count": 15,
-		"geocount": 15,
+		"geocount": 13,
 		"id": "lichfield_council",
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title": "Lichfield Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4178,
-		"geocount": 4178,
+		"count": 4179,
+		"geocount": 4179,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1309,7 +1309,7 @@
 		"url": "https://westdevon.gov.uk/article/9368/Warm-Spaces"
 	},
 	"west_dunbartonshire_council": {
-		"count": 18,
+		"count": 19,
 		"geocount": 15,
 		"id": "west_dunbartonshire_council",
 		"title": "West Dunbartonshire Council",
