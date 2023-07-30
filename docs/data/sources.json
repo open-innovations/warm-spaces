@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 212,
-		"geocount": 212,
+		"count": 221,
+		"geocount": 221,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -464,8 +464,8 @@
 		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 40,
-		"geocount": 39,
+		"count": 39,
+		"geocount": 38,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 70,
-		"geocount": 62,
+		"count": 67,
+		"geocount": 59,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -781,16 +781,16 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 38,
-		"geocount": 37,
+		"count": "0",
+		"geocount": "0",
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
 		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
 	},
 	"lewisham_local": {
-		"count": 55,
-		"geocount": 55,
+		"count": 56,
+		"geocount": 56,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -812,8 +812,8 @@
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
 	"luton_council": {
-		"count": 2,
-		"geocount": 2,
+		"count": "0",
+		"geocount": "0",
 		"id": "luton_council",
 		"title": "Luton Council",
 		"url": "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4179,
-		"geocount": 4179,
+		"count": 4178,
+		"geocount": 4178,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1293,8 +1293,8 @@
 		"url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count": 21,
-		"geocount": 21,
+		"count": 20,
+		"geocount": 20,
 		"id": "west_berkshire_council",
 		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },

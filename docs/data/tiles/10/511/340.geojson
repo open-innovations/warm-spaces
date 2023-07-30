@@ -507,6 +507,7 @@
 		{"geometry":{"coordinates":[-0.04725,51.47424],"type":"Point"},"properties":{"address":"385 Queen's Rd, London SE14 5HD, United Kingdom London Greater London SE14 5HD United Kingdom","contact":"Tel:","title":"The Field"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.03679,51.43937],"type":"Point"},"properties":{"address":"40 Vancouver Rd London Greater London SE23 2AF United Kingdom","contact":"Tel:","title":"St Georges Church Forest Hill"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.03634,51.45682],"type":"Point"},"properties":{"address":"003 Beecroft Rd London Greater London SE4 2BS United Kingdom","contact":"Tel:","title":"Brockley Community Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.05355,51.48585],"type":"Point"},"properties":{"address":"Zampa Road SE16 3LN London Greater London SE16 3LH United Kingdom","contact":"Tel:","title":"Millwall Football Club"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.05355,51.48585],"type":"Point"},"properties":{"address":"Zampa Road SE16 3LN London Greater London SE16 3LH United Kingdom","contact":"Tel:","title":"Millwall Football Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.03660,51.46377],"type":"Point"},"properties":{"address":"Brockley London Greater London SE4 2RW United Kingdom","contact":"Tel: 07495902760","title":"Shine Bright Wellbeing"},"type":"Feature"}
 	]
 }
