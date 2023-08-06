@@ -251,7 +251,7 @@
 		"url": "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
 	},
 	"cambridge_council": {
-		"count": 23,
+		"count": 22,
 		"geocount": 1,
 		"id": "cambridge_council",
 		"title": "Cambridge Council",
@@ -563,8 +563,8 @@
 		"url": "https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 91,
-		"geocount": 89,
+		"count": 90,
+		"geocount": 88,
 		"id": "gateshead_council",
 		"map": { "type": "googlemap", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title": "Gateshead Council",
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 67,
-		"geocount": 59,
+		"count": 66,
+		"geocount": 58,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -758,7 +758,7 @@
 		"url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
 	"lancaster_council": {
-		"count": 33,
+		"count": 34,
 		"geocount": 33,
 		"id": "lancaster_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1bP5gmUB9jRQXMWen1XGLGvp6kl6XgYo&ll=54.079464630036675%2C-2.8243405999999993&z=12" },
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 36,
-		"geocount": 35,
+		"count": 31,
+		"geocount": 30,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1178,8 +1178,8 @@
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
-		"count": 63,
-		"geocount": 63,
+		"count": "0",
+		"geocount": "0",
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"title": "Sunderland Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4178,
-		"geocount": 4178,
+		"count": 4180,
+		"geocount": 4180,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
