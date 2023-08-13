@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -666,8 +666,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 43,
-		"geocount": 41,
+		"count": "0",
+		"geocount": "0",
 		"id": "hinckley_and_bosworth_council",
 		"title": "Hinckley and Bosworth Council",
 		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
@@ -797,8 +797,8 @@
 		"url": "https://www.lewishamlocal.com/lewisham-warm-spaces/"
 	},
 	"lichfield_council": {
-		"count": 15,
-		"geocount": 13,
+		"count": 12,
+		"geocount": 10,
 		"id": "lichfield_council",
 		"map": { "type": "googlemap", "url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title": "Lichfield Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4180,
-		"geocount": 4180,
+		"count": 4178,
+		"geocount": 4178,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
