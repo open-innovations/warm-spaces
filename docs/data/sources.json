@@ -188,8 +188,8 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": 49,
+		"geocount": 49,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 31,
-		"geocount": 31,
+		"count": 30,
+		"geocount": 30,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 66,
-		"geocount": 58,
+		"count": 65,
+		"geocount": 57,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -659,8 +659,8 @@
 		"url": "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
 	},
 	"high_peak_council": {
-		"count": 29,
-		"geocount": 24,
+		"count": 28,
+		"geocount": 23,
 		"id": "high_peak_council",
 		"title": "High Peak Council",
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
@@ -940,8 +940,8 @@
 		"url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
 	},
 	"oxford_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 43,
+		"geocount": 43,
 		"id": "oxford_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12" },
 		"register": { "url": "mailto:lcooper@oxford.gov.uk" },
@@ -949,8 +949,8 @@
 		"url": "https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"count": 133,
-		"geocount": 133,
+		"count": "0",
+		"geocount": "0",
 		"id": "perth_and_kinross_council",
 		"map": { "type": "arcgis", "url": "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1079,8 +1079,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 176,
-		"geocount": 176,
+		"count": 177,
+		"geocount": 177,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1155,8 +1155,8 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 58,
-		"geocount": 57,
+		"count": 59,
+		"geocount": 58,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4178,
-		"geocount": 4178,
+		"count": 4181,
+		"geocount": 4181,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1341,8 +1341,8 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 43,
-		"geocount": 31,
+		"count": 47,
+		"geocount": 33,
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
