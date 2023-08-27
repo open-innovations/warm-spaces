@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 31,
-		"geocount": 30,
+		"count": 18,
+		"geocount": 17,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -949,8 +949,8 @@
 		"url": "https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 133,
+		"geocount": 133,
 		"id": "perth_and_kinross_council",
 		"map": { "type": "arcgis", "url": "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url": "mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1087,8 +1087,8 @@
 		"url": "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
 	},
 	"south_cambs_council": {
-		"count": 14,
-		"geocount": 14,
+		"count": 13,
+		"geocount": 12,
 		"id": "south_cambs_council",
 		"title": "South Cambs Council",
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4181,
-		"geocount": 4181,
+		"count": 4184,
+		"geocount": 4184,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
