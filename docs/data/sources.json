@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 198,
-		"geocount": 198,
+		"count": 199,
+		"geocount": 199,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -280,8 +280,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 55,
-		"geocount": 50,
+		"count": 67,
+		"geocount": 60,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 30,
-		"geocount": 30,
+		"count": 32,
+		"geocount": 32,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -481,8 +481,8 @@
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 42,
+		"geocount": 42,
 		"id": "east_ayrshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
@@ -497,8 +497,8 @@
 		"url": "https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
-		"count": 34,
-		"geocount": 20,
+		"count": "0",
+		"geocount": "0",
 		"id": "east_staffordshire_council",
 		"notes": "Not enough address information for half the entries",
 		"title": "East Staffordshire Council",
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 65,
-		"geocount": 57,
+		"count": 69,
+		"geocount": 59,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -812,7 +812,7 @@
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
 	"luton_council": {
-		"count": "0",
+		"count": 1,
 		"geocount": "0",
 		"id": "luton_council",
 		"title": "Luton Council",
@@ -1155,8 +1155,8 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 59,
-		"geocount": 58,
+		"count": 62,
+		"geocount": 61,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4184,
-		"geocount": 4184,
+		"count": 4188,
+		"geocount": 4188,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

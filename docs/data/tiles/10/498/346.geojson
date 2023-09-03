@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.91160,50.26816],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"9 Fore St, Tregony, Truro TR2 5RN","contact":"Bill Davies billd@volunteercornwall.org.uk 079395 797872","description":"A warm friendly space with free refreshments","hours":{"_text":"Sunday 9.30am - 10.15am. 11.45am - 2pm, Mondays 10.30am - 12noon, Wednesdays 6.30pm - 7.20pm, Saturday 14 Jan, 18 Feb & 10 March 2023, Veteran's breakfast 10.30-12noon. Open to everyone","opening":"Su 09:30-10:15; Mo 10:30-12:00; We 18:30-19:20"},"loc_pcd":true,"title":"Tregony Bible Christian Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.79455,50.24308],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"The Roseland Institute, Gorran, St Austell, PL26 6NT","description":"Address: The Roseland Institute, Gorran, St Austell, PL26 6NT Cornwall Area: Restormel Hub Area: The Roseland Hub Name: Roseland Surgeries Patient Group (RSPG) Opening Times: Mon 13:00 - 16:00 Activities Offered: Mon 13:00 - 16:00 (weekly) St Just Cafe Public Contact Name: Bob Field Public Phone: 07831 579629 Public Email: bob@bobanddee.co.uk Notes: Integrated Care Area: Central","loc_pcd":true,"title":"Roseland Surgeries Patient Group (RSPG)"},"type":"Feature"}
 	]
 }
