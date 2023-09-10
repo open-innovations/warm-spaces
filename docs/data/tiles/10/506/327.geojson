@@ -1,8 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.82914,54.30957],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Railway Street, Leyburn, North Yorkshire DL8 5AT","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.82275,54.30779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Harmby Road, Leyburn, North Yorkshire DL8 5FD","hours":{"_text":"Monday: 12:00 - 16:00, Tuesday: 12:00 - 16:00, Sunday: 12:00 - 16:00","opening":"Mo 12:00-16:00; Tu 12:00-16:00; Su 12:00-16:00"},"title":"St Matthew's Church, Leyburn"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.83228,54.31163],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Leyburn Community Library, Thornborough Hall, Leyburn, England, DL8 5AB, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Computer Access, Free loans of books and magazines, Free IT help on Tuesday afternoons,","hours":{"_text":"Monday 10am 4pm, Tuesday 10am-6pm, Friday 10am-4pm, Saturday 10am-12noon","opening":"Tu 10:00-18:00; Fr 10:00-16:00; Sa 10:00-12:00"},"title":"Leyburn Community Library"},"type":"Feature"}
 	]
 }

@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.19974,54.72128],"type":"Point"},"properties":{"_source":"warm_welcome","address":"40a Parkhall Rd, Antrim , N Ireland Bt41 1BU","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Antrim Elim"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.01629,54.57348],"type":"Point"},"properties":{"_source":"belfast_council","contact":"Tel: 028 9062 7189","hours":{"_text":"Monday 10am to 12 noon; Wednesday 1pm to 4pm","opening":"Mo 10:00-12:00; We 13:00-16:00"},"title":"Glen Road","url":"https://www.belfastcity.gov.uk/Community/Community-centres/Glen-Road-Community-Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.98405,54.62603],"type":"Point"},"properties":{"_source":"belfast_council","contact":"Tel: 028 9071 9337","hours":{"_text":"Monday, Tuesday and Thursday 10am to 1pm","opening":"Mo 10:00-13:00; Tu 10:00-13:00; Th 10:00-13:00"},"title":"Ligoniel","url":"https://www.belfastcity.gov.uk/Community/Community-centres/Ligoniel-Community-Centre"},"type":"Feature"}
 	]

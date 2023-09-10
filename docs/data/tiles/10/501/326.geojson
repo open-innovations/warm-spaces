@@ -1,8 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.53811,54.51538],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dalzell Street, Moor Row, Cumbria CA24 3JP","description":"Open from 24-11-2022.","hours":{"_text":"Thursday: 10:30 - 14:00","opening":"Th 10:30-14:00"},"title":"Emmanuel Church Moor Row"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.58607,54.54592],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Catherine Street, Whitehaven, Cumbria CA28 7PD","description":"Open from 17-10-2022.","hours":{"_text":"Monday: 10:00 - 15:00, Wednesday: 10:00 - 13:00, Friday: 10:00 - 13:00","opening":"Mo 10:00-15:00; We 10:00-13:00; Fr 10:00-13:00"},"title":"The Salvation Army, Whitehaven Corps"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.52824,54.48346],"type":"Point"},"properties":{"_source":"warm_spaces","address":"The Meeting Place, Main Street, Egremont, England, CA22, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet","hours":{"_text":"Friday 12noon-3pm","opening":"Fr 12:00-15:00"},"title":"Egremont Methodist","url":"http://www.egremontmethodist.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.56919,54.53646],"type":"Point"},"properties":{"_source":"warm_spaces","address":"111 Main Street, Whitehaven, England, CA28 8QA, United Kingdom","description":"People to chat to, Free tea or coffee","hours":{"_text":"Tue &amp; Wed 9am-5pm","opening":"Tu 09:00-17:00; We 09:00-17:00"},"title":"Mainstreet Hair and Beauty","url":"https://www.instagram.com/mainstreethairandbeauty/"},"type":"Feature"}
 	]

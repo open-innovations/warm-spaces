@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.79455,50.24308],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"The Roseland Institute, Gorran, St Austell, PL26 6NT","description":"Address: The Roseland Institute, Gorran, St Austell, PL26 6NT Cornwall Area: Restormel Hub Area: The Roseland Hub Name: Roseland Surgeries Patient Group (RSPG) Opening Times: Mon 13:00 - 16:00 Activities Offered: Mon 13:00 - 16:00 (weekly) St Just Cafe Public Contact Name: Bob Field Public Phone: 07831 579629 Public Email: bob@bobanddee.co.uk Notes: Integrated Care Area: Central","loc_pcd":true,"title":"Roseland Surgeries Patient Group (RSPG)"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.79455,50.24308],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"The Roseland Institute, Gorran, St Austell, PL26 6NT","description":"Address: The Roseland Institute, Gorran, St Austell, PL26 6NT Cornwall Area: Restormel Hub Area: The Roseland Hub Name: Roseland Surgeries Patient Group (RSPG) Opening Times: Mon 13:00 - 16:00 Activities Offered: Mon 13:00 - 16:00 (weekly) St Just Cafe Public Contact Name: Bob Field Public Phone: 07831 579629 Public Email: bob@bobanddee.co.uk Notes: Integrated Care Area: Central","loc_pcd":true,"title":"Roseland Surgeries Patient Group (RSPG)"},"type":"Feature"}
 	]
 }

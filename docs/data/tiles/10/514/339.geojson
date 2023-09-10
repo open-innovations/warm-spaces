@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[1.02881,51.81042],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Brightlingsea, Essex CO7 0AE","description":"Open from 2 November 2022. Opening on Wednesday 2nd November 2022.","hours":{"_text":"Wednesday: 09:00 - 16:30, Saturday: 09:00 - 12:00","opening":"We 09:00-16:30; Sa 09:00-12:00"},"title":"St James' Church Brightlingsea"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.91192,51.83317],"type":"Point"},"properties":{"_source":"colchester_council","address":"Village Hall, Edward Marke Drive Langenhoe, CO5 7LP","contact":"Tel: 01206 735980; Email: bookings@alvh.org.uk","description":"Village Coffee Morning Free of charge,with the opportunity to make a donation for the refreshments.","hours":{"_text":"Wednesdays 10.00-12.00pm","opening":"We 10:00-12:00"},"title":"Abberton and Langenhoe Community Association"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.92039,51.78255],"type":"Point"},"properties":{"_source":"colchester_council","address":"32 Mill Rd, West Mersea, Colchester CO5 8RJ","contact":"Tel: ; Email: jen.hughes@merseafree.church","description":"The free drop in group provides tea, coffee, bisucits, crafts, games, jigsaws and conversation.","hours":{"_text":"Friday mornings 10am-12pm","opening":"Fr 10:00-12:00"},"title":"West Mersea Free Church"},"type":"Feature"}
 	]

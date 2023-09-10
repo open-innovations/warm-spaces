@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.56412,54.61867],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Salterbeck Drive, Workington, Cumbria CA14 5HA","description":"Open from 04-11-2022. Open to anyone We are currently offering: Free breakfasts Monday to Friday 9am - 11am Free hot drinks and biscuits from 9am – 4.30pm FREE Soup and a Roll every Friday 12 - 2pm","hours":{"_text":"Monday: 09:00 - 17:00, Tuesday: 09:00 - 17:00, Wednesday: 09:00 - 17:00, Thursday: 09:00 - 17:00, Friday: 09:00 - 16:30","opening":"Mo 09:00-17:00; Tu 09:00-17:00; We 09:00-17:00; Th 09:00-17:00; Fr 09:00-16:30"},"title":"The Oval Centre"},"type":"Feature"}
-	]
-}
+{}

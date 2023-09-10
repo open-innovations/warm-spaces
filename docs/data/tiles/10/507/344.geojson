@@ -1,8 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.74610,50.73582],"type":"Point"},"properties":{"_source":"warm_welcome","address":"15 Airfield Road, Christchurch, Dorset BH23 3TG","description":"Open from Community Meal - every second Wednesday of the month. families and individuals of all ages and stages warmly welcomed Enjoy community and friendship over a hot homecooked meal and dessert. Please book space with Sarah on 07536 983678","hours":{"_text":"Wednesday: 17:30 - 19:00 / - Monthly","opening":"We 17:30-19:00"},"title":"Faithworks Wessex"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.58840,50.72225],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Milford on Sea Community Centre, 9 Sea Road, Milford on Sea, Hampshire SO41 0PH","description":"Open from 09/12/2022.","hours":{"_text":"Friday: 12:00 - 16:00","opening":"Fr 12:00-16:00"},"title":"Milford on Sea Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.52070,50.68267],"type":"Point"},"properties":{"_source":"warm_spaces","address":"School Green Road, Freshwater, England, PO40, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Free activities","hours":{"_text":"Monday, Saturday 9.30am to 12.30pm, Tuesday, Wdnesday, Friday 9.30am to 12.30pm and 1.30pm to 4.30pm","opening":"Mo 09:30-12:30; Sa 09:30-12:30; Fr 09:30-12:30,13:30-16:30"},"title":"Freshwater Library","url":"https://www.iow.gov.uk/Residents/Libraries-Cultural-and-Heritage/"},"type":"Feature"}
 	]
 }

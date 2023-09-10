@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-7.63610,54.34414],"type":"Point"},"properties":{"_source":"warm_welcome","address":"16 EAST BRIDGE ST, ENNISKILLEN, FERMANAGH BT74 7BW","hours":{"_text":"Friday: 11:00 - 14:00, Sunday: 10:30 - 12:30","opening":"Fr 11:00-14:00; Su 10:30-12:30"},"title":"ENNISKILLEN PRESBYTERIAN CHURCH"},"type":"Feature"}
-	]
-}
+{}

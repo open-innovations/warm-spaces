@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.71650,54.80878],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2 Wood Road , Tobermore , Tobermore BT45 5QP","hours":{"_text":"Tuesday: 19:45 - 21:00, Wednesday: 19:30 - 21:00, Thursday: 10:30 - 13:00 / 20:00 - 21:30, Sunday: 12:00 - 13:30","opening":"Tu 19:45-21:00; We 19:30-21:00; Th 10:30-13:00,20:00-21:30; Su 12:00-13:30"},"title":"Kilcronaghan Parish Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.93699,54.96676],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"294 Drumrane Road, Burnfoot, BT47 4NL","contact":"07759005439","description":"Tea/coffee and biscuits. Newspapers and puzzles available. A guest speaker each day.","hours":{"_text":"Tuesday 11am-3pm","opening":"Tu 11:00-15:00"},"title":"Burnfoot Old School"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.92022,54.92634],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"13 Garvagh Road, Dungiven, BT47 4LT","hours":{"_text":"Monday 11am-3pm","opening":"Mo 11:00-15:00"},"title":"St Canices GAC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.93448,54.91341],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"36 Magheramore Road, Dungiven, BT47 4SW","hours":{"_text":"Thursday 11am-3pm","opening":"Th 11:00-15:00"},"title":"Dromboughill Community Centre"},"type":"Feature"},

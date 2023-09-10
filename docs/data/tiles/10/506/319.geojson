@@ -1,8 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.09047,55.87116],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eyemouth Community Centre , Albert Road, Berwickshire TD14 5DE","description":"Everyone is welcome Community cafe with space for small children to play in a secure area","hours":{"_text":"Thursday: 10:30 - 1:30","opening":"Th 10:30-01:30"},"title":"EDCT - The Splash Project"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.09136,55.86858],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eyemouth Parish Church, Victoria Road, EYEMOUTH, Berwickshire TD14 5JD","description":"Saturday monthly film nights (check facebook for details)","hours":{"_text":"Monday: 9:00 - 11:00, Wednesday: 9:00 - 11:00, Friday: 9:00 - 11:00, Saturday: 17:45 - 20:30 / - Monthly","opening":"Mo 09:00-11:00; We 09:00-11:00; Fr 09:00-11:00; Sa 17:45-20:30"},"title":"Eyemouth Parish Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.08858,55.87151],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Manse Road, Eyemouth, Scottish Borders TD14 5JE","description":"People are welcome to bring their own hot drinks.","hours":{"_text":"Monday: 10:00 - 13:00 / 14:00 - 17:00, Thursday: 10:00 - 13:00, Friday: 10:00 - 13:00 / 14:00 - 17:00","opening":"Mo 10:00-13:00,14:00-17:00; Th 10:00-13:00; Fr 10:00-13:00,14:00-17:00"},"title":"Eyemouth Public Library"},"type":"Feature"}
-	]
-}
+{}

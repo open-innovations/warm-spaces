@@ -111,8 +111,8 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 221,
-		"geocount": 221,
+		"count": 225,
+		"geocount": 225,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -280,8 +280,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 67,
-		"geocount": 60,
+		"count": 136,
+		"geocount": 122,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -337,8 +337,8 @@
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 75,
-		"geocount": 74,
+		"count": 17,
+		"geocount": 17,
 		"id": "cheshire_east_council",
 		"title": "Cheshire East Council",
 		"url": "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 69,
-		"geocount": 59,
+		"count": 70,
+		"geocount": 60,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -880,8 +880,8 @@
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
 	"newham_council": {
-		"count": 7,
-		"geocount": 7,
+		"count": "0",
+		"geocount": "0",
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"title": "Newham Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4188,
-		"geocount": 4188,
+		"count": 1,
+		"geocount": 1,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1293,8 +1293,8 @@
 		"url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": 21,
+		"geocount": 21,
 		"id": "west_berkshire_council",
 		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },
@@ -1341,8 +1341,8 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 47,
-		"geocount": 33,
+		"count": "0",
+		"geocount": "0",
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",

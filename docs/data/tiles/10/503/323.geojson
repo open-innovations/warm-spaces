@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.81352,55.17881],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Buccleuch House, 4 South Hermitage Street, Newcastleton, Scottish Borders TD9 0QR","description":"Open from 09-01-2023. Join us in a warm, friendly space. On Tuesdays we will be providing soup and a roll between 12 and 1pm. We have a wide programme of activities, come along and join in..","hours":{"_text":"Monday: 13:00 - 15:00, Tuesday: 09:00 - 16:00, Thursday: 09:00 - 12:00, Friday: 09:00 - 12:00","opening":"Mo 13:00-15:00; Tu 09:00-16:00; Th 09:00-12:00; Fr 09:00-12:00"},"title":"Newcastleton and District Community Trust"},"type":"Feature"}
-	]
-}
+{}

@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[0.90674,50.94894],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lydd Library, Skinner Road, Lydd, Romney Marsh TN29 9HN","hours":{"_text":"Monday: 11:00 - 16:00, Tuesday: 11:00 - 16:00, Thursday: 11:00 - 16:00, Friday: 12:00 - 16:00, Saturday: 09:00 - 13:00","opening":"Mo 11:00-16:00; Tu 11:00-16:00; Th 11:00-16:00; Fr 12:00-16:00; Sa 09:00-13:00"},"title":"Lydd Library"},"type":"Feature"}
-	]
-}
+{}

@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.50619,57.20837],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Wildside Centre, Whitebridge, Inverness IV2 6UN","description":"Open from 14/11/2022.","hours":{"_text":"Wednesday: 09:30 - 15:30","opening":"We 09:30-15:30"},"title":"Stratherrick and Foyers Community Trust"},"type":"Feature"}
-	]
-}
+{}

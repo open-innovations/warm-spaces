@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.81783,55.61685],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Victoria Street, Galashiels, Selkirkshire TD1 1HH","description":"Open from 01/12/2022.","hours":{"_text":"Thursday: 13:00 - 16:00, Friday: 13:00 - 16:00","opening":"Th 13:00-16:00; Fr 13:00-16:00"},"title":"Galashiels Baptist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.05903,55.61945],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Buccleuch Road, Innerleithen, Peeblesshire EH44 6LA","description":"People are welcome to bring their own hot drinks in","hours":{"_text":"Tuesday: 12:00 - 18:00, Thursday: 11:00 - 17:00","opening":"Tu 12:00-18:00; Th 11:00-17:00"},"title":"Innerleithen Library Contact Centre"},"type":"Feature"}
-	]
-}
+{}

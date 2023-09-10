@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.83815,55.55346],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ettrick ~Terrace, Selkirk, Selkirkshire TD7 4LE","description":"People are welcome to bring their own hot drinks","hours":{"_text":"Tuesday: 14:00 - 17:00, Thursday: 10:00 - 13:00","opening":"Tu 14:00-17:00; Th 10:00-13:00"},"title":"Selkirk Public Library"},"type":"Feature"}
-	]
-}
+{}

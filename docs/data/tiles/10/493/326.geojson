@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-6.33915,54.45806],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sloan Street, Lurgan, Armagh BT66 8NT","description":"Open on the 1st Tuesday of each month with activities. We have services on Sunday, Craft group on Wednesday and other events throughout the week. Visit stjohnslurgan.org for more details.","hours":{"_text":"Tuesday: 10:00 - 12:00","opening":"Tu 10:00-12:00"},"title":"St. John the Evangelist"},"type":"Feature"}
-	]
-}
+{}
