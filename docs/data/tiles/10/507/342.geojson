@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.74432,50.99284],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Downton Library, Church Leat, Salisbury, England, SP5 3PD, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Accessible Toilet, Child Friendly, Computer Access","hours":{"_text":"Mon 2pm-7pm, Tue &amp; Wed 2pm-5pm, Thu 10am-1pm, Fri 10am-5pm, Sat 10am-1pm","opening":"Tu 14:00-17:00; We 14:00-17:00; Mo 14:00-19:00; Th 10:00-13:00; Fr 10:00-17:00; Sa 10:00-13:00"},"title":"Downton Library","url":"https://www.wiltshire.gov.uk/libraries"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.74432,50.99284],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Downton Library, Church Leat, Salisbury, England, SP5 3PD, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Accessible Toilet, Child Friendly, Computer Access","hours":{"_text":"Mon 2pm-7pm, Tue &amp; Wed 2pm-5pm, Thu 10am-1pm, Fri 10am-5pm, Sat 10am-1pm","opening":"Tu 14:00-17:00; We 14:00-17:00; Mo 14:00-19:00; Th 10:00-13:00; Fr 10:00-17:00; Sa 10:00-13:00"},"title":"Downton Library","url":"https://www.wiltshire.gov.uk/libraries"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.72774,51.12831],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Support, friendship and entertainment","title":"Club Friday - Winterbourne","url":"https://directory.hertfordshire.gov.uk/Services/1169"},"type":"Feature"}
 	]
 }

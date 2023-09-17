@@ -280,8 +280,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 136,
-		"geocount": 122,
+		"count": 137,
+		"geocount": 123,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 1,
-		"geocount": 1,
+		"count": 4,
+		"geocount": 4,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1341,8 +1341,8 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 47,
+		"geocount": 33,
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
