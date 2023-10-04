@@ -19,75 +19,69 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 	
-	
+	my $pages = scraper {
+		process 'h2.wp-block-heading a', 'url[]' =>  '@href';
+	};
+	$pages = $pages->scrape( $str );
 	
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.listing-details', "warmspace" => scraper {
+		process '.wpbdp-listing', "warmspace[]" => scraper {
+			process '.wpbdp-field-organisation_name', 'title' => 'TEXT';
+			process '.wpbdp-field-organisation_name .value a', 'url' => '@HREF';
 			process '.wpbdp-field-address', 'address' => 'TEXT';
 			process '.wpbdp-field-postcode', 'postcode' => 'TEXT';
-			process '.wpbdp-field-who_is_the_warm_space_contact .value', 'contact' => 'TEXT';
-			process '.wpbdp-field-telephone_number', 'phone' => 'TEXT';
+			#process '.wpbdp-field-who_is_the_warm_space_contact .value', 'contact' => 'TEXT';
+			#process '.wpbdp-field-telephone_number', 'phone' => 'TEXT';
 			process '.wpbdp-field-opening_times .value', 'hours' => 'TEXT';
 			process '.wpbdp-field-description .value', 'description' => 'TEXT';
-			process '.wpbdp-field-facilitiesamenities .value', 'facilities' => 'TEXT';
+			#process '.wpbdp-field-facilitiesamenities .value', 'facilities' => 'TEXT';
 		}
 	};
 
-	if($str =~ /var WPBDP_googlemaps_data = (.*);\n/){
-		$str = $1;
-		if(!$str){ $str = "{}"; }
-		$json = JSON::XS->new->decode($str);	
 
-		for($i = 0; $i < @{$json->{'map_0'}{'locations'}}; $i++){
-			$d = $json->{'map_0'}{'locations'}[$i];
-			if($d->{'geolocation'}){
-				$d->{'lat'} = $d->{'geolocation'}{'lat'};
-				$d->{'lon'} = $d->{'geolocation'}{'lng'};
+	for($p = 0; $p < @{$pages->{'url'}}; $p++){
+
+		$url = $pages->{'url'}[$p];
+		
+
+		if($url =~ /.*warm-spaces-directory\/([^\/]*)\/?/){
+			$section = $1;
+			$rfile = "raw/bradford-council-$section.html";
+			warning("\tGetting details for $p = $section (<cyan>$rfile<none>)\n");
+
+			# Keep cached copy of individual URL
+			$age = getFileAge($rfile);
+			if($age >= 86400 || -s $rfile == 0){
+				warning("\tSaving <green>$purl<none> to <cyan>$rfile<none>\n");
+				# Download the section
+				`curl -s --insecure --compressed -o $rfile "$url"`;
 			}
-			delete $d->{'geolocation'};
-			delete $d->{'content'};
+			open(FILE,"<:utf8",$rfile);
+			@lines = <FILE>;
+			close(FILE);
+			$html = join("",@lines);
+
+			$res = $warmspaces->scrape( $html );
 			
+			for($i = 0; $i < @{$res->{'warmspace'}}; $i++){
+				$d = $res->{'warmspace'}[$i];
+				if($d->{'title'}){
 
-			if($d->{'url'} =~ /costoflivingbradford/){
-						
-				$d->{'url'} =~ /warm-spaces-directory-old\/([^\/]*)\//;
-				$record = $1;
-				$rfile = "raw/bradford-$record.html";
-				
-				warning("\tGetting details for $i = $record\n");
+					if($d->{'postcode'} && $d->{'address'}){ $d->{'address'} .= ', '.$d->{'postcode'}; }
+					$d->{'address'} =~ s/\, +\,/\,/g;
+					if($d->{'hours'}){ $d->{'hours'} = parseOpeningHours({'_text'=>$d->{'hours'}}); }
+					if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 
-				$age = getFileAge($rfile);
-				# Keep cached copy of individual URL
-				if($age >= 86400 || -s $rfile == 0){
-					warning("\tSaving $d->{'url'} to <cyan>$rfile<none>\n");
-					# For each entry we now need to get the sub page to find the location information
-					`curl '$d->{'url'}' -o $rfile -s --insecure -L --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate' -H 'Upgrade-Insecure-Requests: 1'`;
+					push(@entries,makeJSON($d,1));
 				}
-				open(FILE,"<:utf8",$rfile);
-				@lines = <FILE>;
-				close(FILE);
-				$html = join("",@lines);
-				
-				my $res = $warmspaces->scrape( $html );
-				if($res->{'warmspace'}{'address'} && $d->{'address'}){
-					$d->{'address'} = $res->{'warmspace'}{'address'}.", ".$d->{'address'};
-				}
-				if($res->{'warmspace'}{'contact'}){ $d->{'contact'} = $res->{'warmspace'}{'contact'}; }
-				if($res->{'warmspace'}{'phone'}){ $d->{'contact'} .= ($d->{'contact'} ? ", ":"")."Tel: $res->{'warmspace'}{'phone'}"; }
-
-				if($res->{'warmspace'}{'description'}){ $d->{'description'} = $res->{'warmspace'}{'description'}; }
-				if($res->{'warmspace'}{'facilities'}){ $d->{'description'} .= ($d->{'description'} ? ". ":"")."Facilities: $res->{'warmspace'}{'facilities'}"; }
-				
-				if($res->{'warmspace'}{'hours'}){ $d->{'hours'} = parseOpeningHours({'_text'=>$res->{'warmspace'}{'hours'}}); }
-				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
-
 			}
-			
-			push(@entries,makeJSON($d,1));
+
 		}
+
 	}
 
+	warning("\tSaved to $file.json\n");
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";
 	close(FILE);
