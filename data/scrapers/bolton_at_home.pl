@@ -21,54 +21,72 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'div[class="content-item single-content content-wrapper"]', "warmspaces[]" => scraper {
-			process 'div[class="content-wrapper-inner"]', 'div[]' => scraper {
-				process 'h1', 'heading' => 'HTML';
-				process 'label', 'label[]' => 'HTML';
-				process 'div[class="content"]', 'content[]' => 'HTML';
-			}
-		};
+		process '#main-page-content .placement-row-wrapper .type-droplet .content-item-inner', "warmspaces[]" => 'HTML';
 	};
 	my $res = $warmspaces->scrape( $str );
 
+	my $entry = scraper {
+		process '> h2', 'title' => 'TEXT';
+		process 'label', 'label[]' => 'TEXT';
+		process 'div.content', 'content[]' => 'HTML';
+	};
 
 	my %results;
-
+	my %entries;
+	
+	
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		$area = $res->{'warmspaces'}[$i]{'div'}[0];
-		if($area->{'heading'}){
-			for($j = 0; $j < @{$area->{'label'}}; $j++){
-				if($area->{'label'}[$j] =~ /(Open .*)/){
-					$day = $1;
-					while($area->{'content'}[$j] =~ s/<h2><strong>(.*?) - (.*?)<\/strong><\/h2>(.*?)(<h2>|$)/$4/){
-						$hours = $2;
-						$content = $3;
-						$desc = "$1 - $2";
-						if($content =~ /<p><strong>Location:<\/strong><\/p><p>(.*?)<\/p>/){
-							$address = $1;
-						}
-						if($content =~ /<p><strong>Contact:<\/strong><\/p><p>(.*?)<\/p>/){
-							$contact = $1;
-							$contact =~ s/<[^\>]+>//g;
-						}
-						$key = "$address";
+		$html = $res->{'warmspaces'}[$i];
+		
+		$html =~ /<h2 id="([^\"]+)"/;
+		$name = $1;
+		$html =~ s/<\!--.*?-->//gs;
 
-						if(!$results{$key}){ $results{$key} = {}; }
+		$entries = $entry->scrape( $html );
 
-						if($address =~ /^(.*?)\, /){
-							$results{$key}{'title'} = $1;
-						}
-						
-						$hours =~ s/^([^0-9]+?) - ?//g;
-						
-						$results{$key}{'hours'} .= ($results{$key}{'hours'} ? '; ' : '')."$day ".$hours;
-						$results{$key}{'description'} .= ($results{$key}{'description'} ? "; " : "").$day.": ".$desc;
-						$results{$key}{'address'} .= ($results{$key}{'address'} !~ /$address/ ? ($results{$key}{'address'} ? "; " : "").$address : "");;
-						$results{$key}{'contact'} .= ($results{$key}{'contact'} !~ /$contact/ ? ($results{$key}{'contact'} ? "; " : "").$contact : "");
-					}
+		for($j = 0; $j < @{$entries->{'label'}}; $j++){
+
+			$day = $entries->{'label'}[$j];
+			$content = $entries->{'content'}[$j];
+			
+			while($content =~ s/<h2>(.*?)<\/h2>(.*?)(<hr|$)//si){
+				$title = $1;
+				$bit = $2;
+
+				$contact = "";
+				$address = "";
+				
+				$title =~ s/<[^\>]+>//g;
+				if($title =~ s/^(.*?) \- ([^\(]+?)( \(|$)/$1$3/){
+					$title = $1;
+					$hours = $day." ".$2;
+				}
+				$title =~ s/ \(Click here[^\)]*?\)//gi;
+
+				if($bit =~ /<p><strong>Location:<\/strong><\/p><p>(.*?)<\/p>/){
+					$address = $1;
+				}
+				if($bit =~ /<p><strong>Contact:<\/strong><\/p><p>(.*?)<\/p>/){
+					$contact = $1;
+					$contact =~ s/<[^\>]+>//g;
+				}
+				$key = $address;
+
+				# If we don't already have this address
+				if(!$results{$key}){ $results{$key} = {}; }
+
+				if(!$results{$key}{'title'}){ $results{$key}{'title'} = $title; }
+				if(!$results{$key}{'address'}){ $results{$key}{'address'} = $address; }
+				if(!$results{$key}{'contact'}){ $results{$key}{'contact'} = $contact; }
+				if($hours){
+					$results{$key}{'hours'} .= ($results{$key}{'hours'} ? '; ' : '').$hours;
 				}
 			}
+			
+
 		}
+
+
 	}
 
 	foreach $key (sort(keys(%results))){
