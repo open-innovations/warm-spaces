@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-0.94852,53.63084],"type":"Point"},"properties":{"_source":"warm_welcome","address":"MMWCDC, South Yorkshre DN8 4LH","description":"A warm welcome, join us for a cup of tea and a biscuit! Various activities from a game of cards, dominoes, board games, or just a chat. Access to computers, free wifi, support provided and able to signpost to agencies","hours":{"_text":"Monday: 10:00 - 03:00","opening":"Mo 10:00-03:00"},"title":"Warm Welcome"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.02985,53.59343],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Stainforth Community Library, Church Road, Doncaster, England, DN7 5PW, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Food/Drink for sale, Wheelchair Accessible, Toilets, Parking, Child Friendly, Computer Access","hours":{"_text":"Mon, Tue, Thurs, Fri 10am-3pm, Sat 10am-1pm","opening":"Mo 10:00-15:00; Tu 10:00-15:00; Th 10:00-15:00; Fr 10:00-15:00; Sa 10:00-13:00"},"title":"Stainforth Library","url":"https://www.s4all.org.uk"},"type":"Feature"}
 	]
 }

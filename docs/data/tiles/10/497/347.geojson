@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.24084,50.02780],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Mullion Methodist Church, Churchtown, Mullion, Helston, TR12 7BT","description":"Address: Mullion Methodist Church, Churchtown, Mullion, Helston, TR12 7BT Cornwall Area: Kerrier Hub Area: Helston & The Lizard Hub Name: Mustard Seed Opening Times: Fri 10:00 - 12:00 Activities Offered: Public Contact Name: David Williams Public Phone: 01326 564194 Public Email: mustardseed@post.com Notes: Integrated Care Area: West","loc_pcd":true,"title":"Mustard Seed"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.24084,50.02780],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"Mullion Methodist Church, Churchtown, Mullion, Helston, TR12 7BT","description":"Address: Mullion Methodist Church, Churchtown, Mullion, Helston, TR12 7BT Cornwall Area: Kerrier Hub Area: Helston & The Lizard Hub Name: Mustard Seed Opening Times: Fri 10:00 - 12:00 Activities Offered: Public Contact Name: David Williams Public Phone: 01326 564194 Public Email: mustardseed@post.com Notes: Integrated Care Area: West","loc_pcd":true,"title":"Mustard Seed"},"type":"Feature"}
 	]
 }

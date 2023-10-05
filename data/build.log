@@ -1,29 +1,29 @@
-Build started: 2023-10-01T18:36:13
+Build started: 2023-10-05T18:35:52
 
 1: Warm Welcome (warm_welcome)
 	Processing Storepoint data
-	Added 13 features (13 geocoded).
-	Total = 13
+	Added 114 features (114 geocoded).
+	Total = 114
 2: Warm spaces (warm_spaces)
 	Parsing web page
 	Added 1816 features (1816 geocoded).
-	Total = 1829
+	Total = 1930
 3: Aberdeen City Council (aberdeen_city_council)
 	Parsing web page
 	Added 47 features (47 geocoded).
-	Total = 1876
+	Total = 1977
 4: Aberdeenshire Council (aberdeenshire_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&lid=XIJTHwriV8Y
 	Unzipping kmz
 	Added 54 features (54 geocoded).
-	Total = 1930
+	Total = 2031
 5: Adur and Worthing Council (adur_and_worthing_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&lid=EXyctTYXuyo
 	Unzipping kmz
 	Added 44 features (44 geocoded).
-	Total = 1974
+	Total = 2075
 6: Angus Council (angus_council)
 7: Ards and North Down Council (ards_and_north_down_council)
 8: Argyll and Bute Third Sector Interface (argyll_and_bute_third_sector_interface)
@@ -31,91 +31,91 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Parsing web page
-	Added 33 features (12 geocoded).
-	Total = 2007
+	Added 34 features (12 geocoded).
+	Total = 2109
 9: Barnet Council (barnet_council)
 	Parsing web page
 	Added 32 features (32 geocoded).
-	Total = 2039
+	Total = 2141
 10: Armagh City, Bandridge and Craigavon Council (armagh_city__bandridge_and_craigavon_council)
 11: Barnsley Council (barnsley_council)
 12: Basildon Council (basildon_council)
 13: Bassetlaw CVS (bassetlaw_cvs)
 	Processing GeoJSON
 	Added 41 features (41 geocoded).
-	Total = 2080
+	Total = 2182
 14: Bath and North East Somerset Council (bath_and_north_east_somerset_council)
 	Parsing web page
 	WARNING: No JSON returned from scraper
 	Added 0 features (0 geocoded).
-	Total = 2080
+	Total = 2182
 15: Bedford Council (bedford_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 2080
+	Total = 2182
 16: Belfast Council (belfast_council)
 	Parsing web page
 	Added 26 features (26 geocoded).
-	Total = 2106
+	Total = 2208
 17: Bexley Council (bexley_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 2106
+	Total = 2208
 18: Birmingham Council (birmingham_council)
 	Parsing web page
-	Added 225 features (225 geocoded).
-	Total = 2331
+	Added 227 features (227 geocoded).
+	Total = 2435
 19: Bolton at Home (bolton_at_home)
 	Parsing web page
-	Added 0 features (0 geocoded).
-	Total = 2331
+	Added 27 features (24 geocoded).
+	Total = 2462
 20: Boston Borough Council (boston_borough_council)
 21: Bournemouth, Christchurch and Poole (bournemouth__christchurch_and_poole)
 22: Bracknell Forest Council (bracknell_forest_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 2331
+	Total = 2462
 23: Bradford Council (bradford_council)
 	Parsing web page
-	Added 0 features (0 geocoded).
-	Total = 2331
+	Added 203 features (176 geocoded).
+	Total = 2665
 24: Bradford on Avon Council (bradford_on_avon_council)
 25: Braintree Council (braintree_council)
 	Processing GeoJSON
 	Added 50 features (50 geocoded).
-	Total = 2381
+	Total = 2715
 26: Breckland Council (breckland_council)
 27: Brent (brent)
 28: Bridgend Council (bridgend_council)
 	Parsing web page
 	Added 124 features (109 geocoded).
-	Total = 2505
+	Total = 2839
 29: Brighton & Hove Council (brighton___hove_council)
 	Parsing web page
 	Added 49 features (49 geocoded).
-	Total = 2554
+	Total = 2888
 30: Bristol Council (bristol_council)
 	Processing GeoJSON
 	Added 49 features (49 geocoded).
-	Total = 2603
+	Total = 2937
 31: Broadland and South Norfolk Council (broadland_and_south_norfolk_council)
 	Processing GeoJSON
 	Added 49 features (49 geocoded).
-	Total = 2652
+	Total = 2986
 32: Bromley Well (bromley_well)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&lid=bl9jtUHCLfg
 	Unzipping kmz
 	Added 49 features (49 geocoded).
-	Total = 2701
+	Total = 3035
 33: Buckinghamshire Council (buckinghamshire_council)
 	Parsing web page
 	Added 41 features (41 geocoded).
-	Total = 2742
+	Total = 3076
 34: Burnley Council (burnley_council)
 	Parsing web page
 	Added 28 features (27 geocoded).
-	Total = 2770
+	Total = 3104
 35: Bury Directory (bury_directory)
 	Parsing web page
 	Parsing web page
@@ -123,48 +123,48 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 2770
+	Total = 3104
 36: Calderdale Council (calderdale_council)
 	Unzipping xlsx to extract data from sheet1
 	Added 28 features (28 geocoded).
-	Total = 2798
+	Total = 3132
 37: Cambridge Council (cambridge_council)
 	Parsing web page
-	Added 22 features (1 geocoded).
-	Total = 2820
+	Added 0 features (0 geocoded).
+	Total = 3132
 38: Cambridgeshire ACRE (cambridgeshire_acre)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 2820
+	Total = 3132
 39: Camden Council (camden_council)
 	Parsing web page
 	Added 32 features (30 geocoded).
-	Total = 2852
+	Total = 3164
 40: Cannock Chase Council (cannock_chase_council)
 41: Carefree Cornwall (carefree_cornwall)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&lid=0aD9Okcr9jA
 	Unzipping kmz
-	Added 137 features (123 geocoded).
-	Total = 2989
+	Added 68 features (61 geocoded).
+	Total = 3232
 42: Causeway Coast and Glens Council (causeway_coast_and_glens_council)
 	Processing GeoJSON
 	Added 43 features (43 geocoded).
-	Total = 3032
+	Total = 3275
 43: Central Bedfordshire Council (central_bedfordshire_council)
 	Parsing web page
 	Added 65 features (60 geocoded).
-	Total = 3097
+	Total = 3340
 44: Ceredigion Council (ceredigion_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&lid=n1Ur6rfW4iU
 	Unzipping kmz
 	Added 46 features (46 geocoded).
-	Total = 3143
+	Total = 3386
 45: Charnwood Council (charnwood_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 3143
+	Total = 3386
 46: Chelmsford Connects (chelmsford_connects)
 47: Cheltenham Council (cheltenham_council)
 48: Cherwell Council (cherwell_council)
@@ -172,50 +172,50 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 17 features (17 geocoded).
-	Total = 3160
+	Total = 3403
 50: Cheshire West and Chester Council (cheshire_west_and_chester_council)
 51: Chesterfield Council (chesterfield_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&lid=Oq-B1Qjnu-0
 	Unzipping kmz
 	Added 32 features (32 geocoded).
-	Total = 3192
+	Total = 3435
 52: Chichester Deanery (chichester_deanery)
 53: Chorley Council (chorley_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 3192
+	Total = 3435
 54: City of London (city_of_london)
 55: Colchester Council (colchester_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&lid=NC1vrlSJuUs
 	Unzipping kmz
 	Added 30 features (30 geocoded).
-	Total = 3222
+	Total = 3465
 56: Coventry Council (coventry_council)
 	Parsing web page
 	Added 50 features (50 geocoded).
-	Total = 3272
+	Total = 3515
 57: Communities 1st (communities_1st)
 	Parsing web page
 	Added 30 features (28 geocoded).
-	Total = 3302
+	Total = 3545
 58: Community Action Derby (community_action_derby)
 59: Croydon Council (croydon_council)
 	Parsing web page
 	Added 46 features (46 geocoded).
-	Total = 3348
+	Total = 3591
 60: Croydon Simply Connect (croydon_simply_connect)
 	Parsing web page
-	Added 32 features (32 geocoded).
-	Total = 3380
+	Added 31 features (31 geocoded).
+	Total = 3622
 61: Cumbria Council (cumbria_council)
 62: Cyngor Gwynedd (cyngor_gwynedd)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&lid=nHgv1lPg9Lc
 	Unzipping kmz
 	Added 24 features (24 geocoded).
-	Total = 3404
+	Total = 3646
 63: Derbyshire Council (derbyshire_council)
 64: Derbyshire Dales Council (derbyshire_dales_council)
 65: Devizes Council (devizes_council)
@@ -223,62 +223,62 @@ Build started: 2023-10-01T18:36:13
 	Processing GeoJSON
 	WARNING: No features for Dover Council
 	Added 0 features (0 geocoded).
-	Total = 3404
+	Total = 3646
 67: Durham County Council (durham_county_council)
 	Parsing web page
 	Parsing web page
 	Added 39 features (38 geocoded).
-	Total = 3443
+	Total = 3685
 68: Ealing Council (ealing_council)
 	Parsing web page
 	Added 36 features (36 geocoded).
-	Total = 3479
+	Total = 3721
 69: East Ayrshire Council (east_ayrshire_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&lid=59J7OzSf3nQ
 	Unzipping kmz
 	Added 42 features (42 geocoded).
-	Total = 3521
+	Total = 3763
 70: East Lindsey Council (east_lindsey_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&lid=z6a0zpTzgq0
 	Unzipping kmz
 	Added 23 features (23 geocoded).
-	Total = 3544
+	Total = 3786
 71: East Staffordshire Council (east_staffordshire_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 3544
+	Total = 3786
 72: Eastleigh Council (eastleigh_council)
 	Parsing web page
 	Added 17 features (17 geocoded).
-	Total = 3561
+	Total = 3803
 73: Edinburgh Council (edinburgh_council)
 	Processing GeoJSON
 	Processing GeoJSON
 	Processing GeoJSON
 	Processing GeoJSON
 	Added 74 features (74 geocoded).
-	Total = 3635
+	Total = 3877
 74: Enfield Council (enfield_council)
 75: Enfield Food Alliance (enfield_food_alliance)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1fdCZEnF1DBpmHmh2geCCGWUFm2--kLc&lid=oZSd21X6XgM
 	Unzipping kmz
 	Added 19 features (19 geocoded).
-	Total = 3654
+	Total = 3896
 76: Essex Map (essex_map)
 	Parsing web page
 	WARNING: No JSON returned from scraper
 	Added 0 features (0 geocoded).
-	Total = 3654
+	Total = 3896
 77: Exeter Council (exeter_council)
 78: Fife Council (fife_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&lid=V78vjpnob2o
 	Unzipping kmz
 	Added 120 features (119 geocoded).
-	Total = 3774
+	Total = 4016
 79: Fylde Council (fylde_council)
 80: Gateshead Council (gateshead_council)
 	Parsing web page
@@ -286,46 +286,46 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 90 features (88 geocoded).
-	Total = 3864
+	Total = 4106
 81: Gedling Council (gedling_council)
 	Parsing web page
 	Added 32 features (31 geocoded).
-	Total = 3896
+	Total = 4138
 82: Glasgow Council (glasgow_council)
 	Parsing web page
-	Added 23 features (23 geocoded).
-	Total = 3919
+	Added 0 features (0 geocoded).
+	Total = 4138
 83: Gloucester Council (gloucester_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 3919
+	Total = 4138
 84: Greenwich Council (greenwich_council)
 	Parsing web page
 	Added 72 features (72 geocoded).
-	Total = 3991
+	Total = 4210
 85: Hackney Council (hackney_council)
 86: Haringey Council (haringey_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 3991
+	Total = 4210
 87: Harlow Council (harlow_council)
 88: Harrogate NetMakers (harrogate_netmakers)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&lid=0HHhcZN0zss
 	Unzipping kmz
 	Added 16 features (16 geocoded).
-	Total = 4007
+	Total = 4226
 89: Havant Council (havant_council)
 90: Havering Council (havering_council)
 	Parsing web page
 	Added 26 features (20 geocoded).
-	Total = 4033
+	Total = 4252
 91: Herefordshire Council (herefordshire_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&lid=ifi_on_aGXI
 	Unzipping kmz
 	Added 44 features (44 geocoded).
-	Total = 4077
+	Total = 4296
 92: Hertfordshire Council (hertfordshire_council)
 	Parsing web page
 	Parsing web page
@@ -339,15 +339,15 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 71 features (61 geocoded).
-	Total = 4148
+	Total = 4367
 93: High Peak Council (high_peak_council)
 	Parsing web page
 	Added 28 features (23 geocoded).
-	Total = 4176
+	Total = 4395
 94: Hinckley and Bosworth Council (hinckley_and_bosworth_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 4176
+	Total = 4395
 95: Hounslow Council (hounslow_council)
 96: Hull Council (hull_council)
 	Processing GeoJSON
@@ -390,64 +390,64 @@ Build started: 2023-10-01T18:36:13
 	WARNING: Coordinates seem to be an array so calculating centre.
 	WARNING: Coordinates seem to be an array so calculating centre.
 	Added 37 features (37 geocoded).
-	Total = 4213
+	Total = 4432
 97: Huntingdonshire Council (huntingdonshire_council)
 	Parsing web page
-	Added 38 features (38 geocoded).
-	Total = 4251
+	Added 39 features (39 geocoded).
+	Total = 4471
 98: Ipswich Council (ipswich_council)
 99: Isle of Wight Council (isle_of_wight_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 4251
+	Total = 4471
 100: Islington Council (islington_council)
 	Parsing web page
 	Added 43 features (43 geocoded).
-	Total = 4294
+	Total = 4514
 101: Kensington and Chelsea (kensington_and_chelsea)
 	Processing GeoJSON
 	Added 24 features (24 geocoded).
-	Total = 4318
+	Total = 4538
 102: Kingston Council (kingston_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from 
 	Unzipping kmz
 	Added 0 features (0 geocoded).
-	Total = 4318
+	Total = 4538
 103: Kirklees Council (kirklees_council)
 	Parsing web page
 	Added 24 features (24 geocoded).
-	Total = 4342
+	Total = 4562
 104: Lambeth Council (lambeth_council)
 105: Lancashire Council (lancashire_council)
 	Processing GeoJSON
 	Processing GeoJSON
 	Added 166 features (166 geocoded).
-	Total = 4508
+	Total = 4728
 106: Lancaster Council (lancaster_council)
 	Parsing web page
 	Added 34 features (33 geocoded).
-	Total = 4542
+	Total = 4762
 107: Leeds City Council (leeds_city_council)
 	Processing GeoJSON
 	Added 190 features (190 geocoded).
-	Total = 4732
+	Total = 4952
 108: Leicester Council (leicester_council)
 109: Lewes and Eastbourne Council (lewes_and_eastbourne_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 4732
+	Total = 4952
 110: Lewisham Local (lewisham_local)
 	Added 56 features (56 geocoded).
-	Total = 4788
+	Total = 5008
 111: Lichfield Council (lichfield_council)
 	Parsing web page
 	Added 12 features (10 geocoded).
-	Total = 4800
+	Total = 5020
 112: Luton Council (luton_council)
 	Parsing web page
 	Added 1 features (0 geocoded).
-	Total = 4801
+	Total = 5021
 113: Malvern Hills Council (malvern_hills_council)
 114: Manchester Council (manchester_council)
 115: Mansfield Council (mansfield_council)
@@ -455,14 +455,14 @@ Build started: 2023-10-01T18:36:13
 117: Mid and East Antrim Council (mid_and_east_antrim_council)
 	Parsing web page
 	Added 23 features (12 geocoded).
-	Total = 4824
+	Total = 5044
 118: Midlothian Council (midlothian_council)
 119: Middlesbrough Council (middlesbrough_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1UmvNYg24mUNr-rnBaiirspUi5LO8wXY&lid=Y8Y8kzANL2U
 	Unzipping kmz
 	Added 23 features (23 geocoded).
-	Total = 4847
+	Total = 5067
 120: Neath Port Talbot Council (neath_port_talbot_council)
 	Parsing web page
 	Parsing web page
@@ -470,65 +470,65 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 49 features (49 geocoded).
-	Total = 4896
+	Total = 5116
 121: Newcastle under Lyme Council (newcastle_under_lyme_council)
 122: Newham Council (newham_council)
 	Processing GeoJSON
 	WARNING: No features for Newham Council
 	Added 0 features (0 geocoded).
-	Total = 4896
+	Total = 5116
 123: Norfolk Community Foundation (norfolk_community_foundation)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&lid=rxwtYod596k
 	Unzipping kmz
 	Added 167 features (163 geocoded).
-	Total = 5063
+	Total = 5283
 124: North Devon Council (north_devon_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5063
+	Total = 5283
 125: North East Derbyshire (north_east_derbyshire)
 126: North Herts Council (north_herts_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5063
+	Total = 5283
 127: North Northamptonshire Council (north_northamptonshire_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5063
+	Total = 5283
 128: North Somerset Council (north_somerset_council)
 129: Northumberland County Council (northumberland_county_council)
 	Unzipping xlsx to extract data from sheet1
 	Added 138 features (138 geocoded).
-	Total = 5201
+	Total = 5421
 130: Oxford Council (oxford_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&lid=71BboqKSgL4
 	Unzipping kmz
 	Added 43 features (43 geocoded).
-	Total = 5244
+	Total = 5464
 131: Perth and Kinross Council (perth_and_kinross_council)
 	Processing GeoJSON
 	Added 133 features (133 geocoded).
-	Total = 5377
+	Total = 5597
 132: Peterborough Council (peterborough_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5377
+	Total = 5597
 133: Plymouth Council (plymouth_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&lid=5uXKV2NbBrw
 	Unzipping kmz
 	Added 73 features (72 geocoded).
-	Total = 5450
+	Total = 5670
 134: Portsmouth Council (portsmouth_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5450
+	Total = 5670
 135: Powys Council (powys_council)
 	Parsing web page
 	Added 52 features (52 geocoded).
-	Total = 5502
+	Total = 5722
 136: Preston Council (preston_council)
 137: Reading Council (reading_council)
 138: Redcar and Cleveland Council (redcar_and_cleveland_council)
@@ -538,62 +538,62 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5502
+	Total = 5722
 139: Richmond upon Thames Council (richmond_upon_thames_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5502
+	Total = 5722
 140: Rochdale Council (rochdale_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&lid=mpvQeT_0Hxs
 	Unzipping kmz
 	Added 13 features (13 geocoded).
-	Total = 5515
+	Total = 5735
 141: Rotherham Council (rotherham_council)
 142: Ryedale Council (ryedale_council)
 143: Salisbury Council (salisbury_council)
 144: Sandwell Council (sandwell_council)
 	Parsing web page
-	Added 20 features (20 geocoded).
-	Total = 5535
+	Added 0 features (0 geocoded).
+	Total = 5735
 145: Scarborough Council (scarborough_council)
 	Parsing web page
 	Added 1 features (1 geocoded).
-	Total = 5536
+	Total = 5736
 146: Sefton Council (sefton_council)
 	Parsing web page
 	Added 32 features (31 geocoded).
-	Total = 5568
+	Total = 5768
 147: Sefton CVS (sefton_cvs)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1ufQzUkVn58B6Hw1pTwvmGTYWtSE2DRA&lid=ffKRWzYZG8A
 	Unzipping kmz
 	Added 19 features (19 geocoded).
-	Total = 5587
+	Total = 5787
 148: Sevenoaks Council (sevenoaks_council)
 149: Sheffield VAS (sheffield_vas)
 	Processing CSV
 	Added 177 features (177 geocoded).
-	Total = 5764
+	Total = 5964
 150: South Cambs Council (south_cambs_council)
 	Parsing web page
 	Added 13 features (12 geocoded).
-	Total = 5777
+	Total = 5977
 151: South Tyneside Council (south_tyneside_council)
 	Parsing web page
 	Parsing web page
 	Parsing web page
 	Processing GeoJSON
 	Added 52 features (39 geocoded).
-	Total = 5829
+	Total = 6029
 152: Spark Somerset (spark_somerset)
 	Parsing web page
 	Added 103 features (100 geocoded).
-	Total = 5932
+	Total = 6132
 153: Southwalk Council (southwalk_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5932
+	Total = 6132
 154: St Helens Council (st_helens_council)
 	Parsing web page
 	Parsing web page
@@ -601,20 +601,20 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 36 features (33 geocoded).
-	Total = 5968
+	Total = 6168
 155: Stafford Borough Council (stafford_borough_council)
 156: Staffordshire Fire and Rescue (staffordshire_fire_and_rescue)
 	Parsing web page
 	Added 3 features (3 geocoded).
-	Total = 5971
+	Total = 6171
 157: Stevenage Council (stevenage_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 5971
+	Total = 6171
 158: Stockport Council (stockport_council)
 	Processing GeoJSON
 	Added 99 features (99 geocoded).
-	Total = 6070
+	Total = 6270
 159: Stockton-on-Tees Council (stockton-on-tees_council)
 	Parsing web page
 	Parsing web page
@@ -626,16 +626,16 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Parsing web page
-	Added 62 features (61 geocoded).
-	Total = 6132
+	Added 64 features (63 geocoded).
+	Total = 6334
 160: Stroud CSCIC (stroud_cscic)
 	Parsing web page
-	Added 0 features (0 geocoded).
-	Total = 6132
+	Added 52 features (47 geocoded).
+	Total = 6386
 161: Suffolk - Rural Coffee Caravan (suffolk_-_rural_coffee_caravan)
 	Parsing web page
 	Added 45 features (45 geocoded).
-	Total = 6177
+	Total = 6431
 162: Sunderland Council (sunderland_council)
 	Parsing web page
 	Parsing web page
@@ -644,11 +644,11 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 6177
+	Total = 6431
 163: Surrey County Council warm hubs (surrey_county_council_warm_hubs)
 	Processing GeoJSON
 	Added 140 features (140 geocoded).
-	Total = 6317
+	Total = 6571
 164: Sutton Council (sutton_council)
 165: Swansea Council (swansea_council)
 	Parsing web page
@@ -658,53 +658,52 @@ Build started: 2023-10-01T18:36:13
 	Parsing web page
 	Parsing web page
 	Added 66 features (66 geocoded).
-	Total = 6383
+	Total = 6637
 166: Swindon Council (swindon_council)
 	Parsing web page
 	Parsing web page
 	Parsing web page
 	Added 38 features (37 geocoded).
-	Total = 6421
+	Total = 6675
 167: Tameside Council (tameside_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 6421
+	Total = 6675
 168: Tewkesbury Council (tewkesbury_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 6421
+	Total = 6675
 169: Tonbridge and Malling Council (tonbridge_and_malling_council)
 170: Torbay Council (torbay_council)
 171: Vale of Glamorgan Council (vale_of_glamorgan_council)
 	Processing GeoJSON
-	WARNING: No features for Vale of Glamorgan Council
-	Added 0 features (0 geocoded).
-	Total = 6421
+	Added 25 features (25 geocoded).
+	Total = 6700
 172: Wakefield Council (wakefield_council)
 	WARNING: No scaper at scrapers/wakefield_council.pl
 	Added 0 features (0 geocoded).
-	Total = 6421
+	Total = 6700
 173: Wandsworth Council (wandsworth_council)
 	Parsing web page
 	Added 0 features (0 geocoded).
-	Total = 6421
+	Total = 6700
 174: Warwickshire Rural Council (warwickshire_rural_council)
 175: West Berkshire Council (west_berkshire_council)
 	Processing GeoJSON
 	Added 21 features (21 geocoded).
-	Total = 6442
+	Total = 6721
 176: West Devon Council (west_devon_council)
 	Parsing web page
-	Added 35 features (31 geocoded).
-	Total = 6477
+	Added 0 features (0 geocoded).
+	Total = 6721
 177: West Dunbartonshire Council (west_dunbartonshire_council)
 	Parsing web page
 	Added 19 features (15 geocoded).
-	Total = 6496
+	Total = 6740
 178: West Northamptonshire (west_northamptonshire)
 	Parsing web page
 	Added 39 features (0 geocoded).
-	Total = 6535
+	Total = 6779
 179: Westminster Council (westminster_council)
 	Processing GeoJSON
 	WARNING: No features for Westminster Council
@@ -713,28 +712,29 @@ Build started: 2023-10-01T18:36:13
 	Processing GeoJSON
 	WARNING: No features for Westminster Council
 	Added 0 features (0 geocoded).
-	Total = 6535
+	Total = 6779
 180: Wigan Council (wigan_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y&lid=qqvSy7YrMao
 	Unzipping kmz
 	Added 74 features (74 geocoded).
-	Total = 6609
+	Total = 6853
 181: Wiltshire Council (wiltshire_council)
 	Parsing web page
 	Parsing web page
 	Parsing web page
 	Parsing web page
 	Added 47 features (33 geocoded).
-	Total = 6656
+	Total = 6900
 182: Wokingham Council (wokingham_council)
 183: Wolverhampton Council (wolverhampton_council)
 	Parsing web page
 	Added 26 features (23 geocoded).
-	Total = 6682
+	Total = 6926
 184: Worcestershire Council (worcestershire_council)
 185: Live Well York (live_well_york)
 	Parsing web page
-	Added 18 features (17 geocoded).
-	Total = 6700
-Added 6700 features in total (6485 geocoded from 95 directories).
+	WARNING: No JSON returned from scraper
+	Added 0 features (0 geocoded).
+	Total = 6926
+Added 6926 features in total (6708 geocoded from 94 directories).

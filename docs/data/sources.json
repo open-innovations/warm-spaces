@@ -39,7 +39,7 @@
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count": 33,
+		"count": 34,
 		"geocount": 12,
 		"id": "argyll_and_bute_third_sector_interface",
 		"title": "Argyll and Bute Third Sector Interface",
@@ -111,16 +111,16 @@
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
 	},
 	"birmingham_council": {
-		"count": 225,
-		"geocount": 225,
+		"count": 227,
+		"geocount": 227,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": "0",
-		"geocount": "0",
+		"count": 27,
+		"geocount": 24,
 		"id": "bolton_at_home",
 		"title": "Bolton at Home",
 		"url": "https://www.boltonathome.org.uk/warm-spaces/"
@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 203,
+		"geocount": 176,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -251,8 +251,8 @@
 		"url": "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
 	},
 	"cambridge_council": {
-		"count": 22,
-		"geocount": 1,
+		"count": "0",
+		"geocount": "0",
 		"id": "cambridge_council",
 		"title": "Cambridge Council",
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
@@ -280,8 +280,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 137,
-		"geocount": 123,
+		"count": 68,
+		"geocount": 61,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -414,8 +414,8 @@
 		"url": "https://www.croydon.gov.uk/warm-spaces-directory"
 	},
 	"croydon_simply_connect": {
-		"count": 32,
-		"geocount": 32,
+		"count": 31,
+		"geocount": 31,
 		"id": "croydon_simply_connect",
 		"title": "Croydon Simply Connect",
 		"url": "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
@@ -578,8 +578,8 @@
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
 	},
 	"glasgow_council": {
-		"count": 23,
-		"geocount": 23,
+		"count": "0",
+		"geocount": "0",
 		"id": "glasgow_council",
 		"map": { "type": "arcgis-story", "url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0" },
 		"title": "Glasgow Council",
@@ -687,8 +687,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 39,
+		"geocount": 39,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 18,
-		"geocount": 17,
+		"count": "0",
+		"geocount": "0",
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1042,8 +1042,8 @@
 		"url": "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": "0",
+		"geocount": "0",
 		"id": "sandwell_council",
 		"map": { "type": "googlemap", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
 		"title": "Sandwell Council",
@@ -1155,16 +1155,16 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 62,
-		"geocount": 61,
+		"count": 64,
+		"geocount": 63,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",
 		"url": "https://www.stockton.gov.uk/warm-spaces"
 	},
 	"stroud_cscic": {
-		"count": "0",
-		"geocount": "0",
+		"count": 52,
+		"geocount": 47,
 		"id": "stroud_cscic",
 		"title": "Stroud CSCIC",
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
@@ -1244,8 +1244,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 25,
+		"geocount": 25,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 13,
-		"geocount": 13,
+		"count": 114,
+		"geocount": 114,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1302,8 +1302,8 @@
 		"url": "https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 35,
-		"geocount": 31,
+		"count": "0",
+		"geocount": "0",
 		"id": "west_devon_council",
 		"title": "West Devon Council",
 		"url": "https://westdevon.gov.uk/article/9368/Warm-Spaces"

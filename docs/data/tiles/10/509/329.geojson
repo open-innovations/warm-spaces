@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-0.93735,53.92146],"type":"Point"},"properties":{"_source":"live_well_york","address":"Main Street, Elvington, YO41 4AG","contact":"David Headlam","description":"Mondays, Wednesdays and Fridays 9am-11amDuring FebruaryA welcoming warm space to meet others, find out what's on locally and take advantage of tv, free hot drinks, magazines and WiFi.","hours":{"_text":"Mondays, Wednesdays and Fridays 9am-11amDuring FebruaryA welcoming warm space to meet others, find out what's on locally and take advantage of tv, free hot drinks, magazines and WiFi.","opening":"Mo 09:00-11:00; We 09:00-11:00; Fr 09:00-11:00"},"loc_pcd":true,"title":"Elvington Village Hall"},"type":"Feature"}
-	]
-}
+{}
