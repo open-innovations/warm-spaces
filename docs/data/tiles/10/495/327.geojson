@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.94315,54.25775],"type":"Point"},"properties":{"_source":"warm_welcome","address":"37 Main Street, County Down BT31 9DQ","description":"The space is open to all and serves tea / coffee, scones, buns, soup and toasties. Open Tuesday 10am - 3pm. Everything is free but if you wish to make a donation it is much appreciated!","hours":{"_text":"Tuesday: 10:00 - 15:00","opening":"Tu 10:00-15:00"},"loc_pcd":true,"title":"Taste & See"},"type":"Feature"}
+	]
+}

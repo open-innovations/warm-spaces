@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-0.47504,52.66163],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Stamford Free Church, Lincolnshire PE9 1SU","description":"Lunch provided by George's Food Hub and vegetables, fruit and pastries to take, all for a donation 12.30 - 2pm followed by Time Out, an opportunity to chat, play table games (Uno, Scrabble and dominoes are popular) or do your own craft or art work, tea and cake provided, again just for a donation to the charity Hope and Homes for Children. Held every Tuesday.","hours":{"_text":"Tuesday: 12:00 - 04:00","opening":"Tu 12:00-04:00"},"title":"Warm hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.51715,52.56794],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Station Road, Peterborough, England, PE8 6YH, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Games, puzzles, jigsaws, newspapers and magazines, activities","hours":{"_text":"Wednesday &amp; Thursday 8am-6pm","opening":"We 08:00-18:00; Th 08:00-18:00"},"title":"Kings Cliffe Active","url":"https://www.kcactive.co.uk"},"type":"Feature"}
 	]
 }

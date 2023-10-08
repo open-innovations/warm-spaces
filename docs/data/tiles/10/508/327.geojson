@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.34064,54.23295],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Family Life Church, North Yorkshire YO7 1DA","description":"SPACE OPENING ON 12th October 2023** We welcome you to a warm space with a good bowl of hot soup and warm roll.","hours":{"_text":"Thursday: 12:00 - 13:30","opening":"Th 12:00-13:30"},"title":"Family Life Church"},"type":"Feature"}
+	]
+}

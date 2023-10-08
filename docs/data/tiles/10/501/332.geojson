@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.82859,53.32391],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Johns Methodist Church, Llandudno, Gwynedd LL30 2NN","description":"Open every Friday from 13:00 until 16:00 Hot drinks, soup, conversation and welcome","hours":{"_text":"Friday: 13:00 - 16:00","opening":"Fr 13:00-16:00"},"title":"St John’s Methodist Church Llandudno"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.82812,53.32361],"type":"Point"},"properties":{"_source":"warm_spaces","address":"53-55 Mostyn Street, Llandudno, Wales, LL30 2NN, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Fri, 10am, 1pm-4pm. [free after 13.00]","opening":"Fr 10:00-12:00,13:00-16:00"},"title":"St John's Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.83363,53.32235],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Lloyd Street, Llandudno, Wales, LL30, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Advice, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Wednesday, 10am-12.30pm","opening":"We 10:00-12:30"},"title":"Tea &amp; Toast","url":"https://www.emmanuelchurchllandudno.org.uk"},"type":"Feature"}
 	]

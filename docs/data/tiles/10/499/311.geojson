@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.22683,57.48041],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Pentahotels, Inverness-shire IV1 1LU","description":"Our lounge area is open to all","hours":{"_text":"Sunday: 12:00 - 14:30","opening":"Su 12:00-14:30"},"title":"Pentahotel Inverness"},"type":"Feature"}
+	]
+}

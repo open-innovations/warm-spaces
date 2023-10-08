@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[0.91342,51.77729],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Community Support Hall, Essex CO5 8JB","description":"Community Hall open to everyone","hours":{"_text":"Monday: 14:00 - 16:30","opening":"Mo 14:00-16:30"},"title":"Community Support Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.91192,51.83317],"type":"Point"},"properties":{"_source":"colchester_council","address":"Village Hall, Edward Marke Drive Langenhoe, CO5 7LP","contact":"Tel: 01206 735980; Email: bookings@alvh.org.uk","description":"Village Coffee Morning Free of charge,with the opportunity to make a donation for the refreshments.","hours":{"_text":"Wednesdays 10.00-12.00pm","opening":"We 10:00-12:00"},"title":"Abberton and Langenhoe Community Association"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.92039,51.78255],"type":"Point"},"properties":{"_source":"colchester_council","address":"32 Mill Rd, West Mersea, Colchester CO5 8RJ","contact":"Tel: ; Email: jen.hughes@merseafree.church","description":"The free drop in group provides tea, coffee, bisucits, crafts, games, jigsaws and conversation.","hours":{"_text":"Friday mornings 10am-12pm","opening":"Fr 10:00-12:00"},"title":"West Mersea Free Church"},"type":"Feature"}
 	]

@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 203,
-		"geocount": 176,
+		"count": 182,
+		"geocount": 157,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -578,8 +578,8 @@
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
 	},
 	"glasgow_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 23,
+		"geocount": 23,
 		"id": "glasgow_council",
 		"map": { "type": "arcgis-story", "url": "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0" },
 		"title": "Glasgow Council",
@@ -650,8 +650,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 71,
-		"geocount": 61,
+		"count": 70,
+		"geocount": 60,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -805,8 +805,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": "0",
-		"geocount": "0",
+		"count": 17,
+		"geocount": 17,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1278,8 +1278,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 114,
-		"geocount": 114,
+		"count": 346,
+		"geocount": 346,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1316,7 +1316,7 @@
 		"url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 39,
+		"count": 51,
 		"geocount": "0",
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },

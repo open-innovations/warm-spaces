@@ -1,1 +1,8 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.60787,54.74930],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Chapel, Cumbria CA10 1HY","description":"Open to all east access","hours":{"_text":"Tuesday: 10:00 - 12:00","opening":"Tu 10:00-12:00"},"title":"Gamblesby Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.49299,54.57808],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Appleby Eden Cricket Club, Cumbria CA16 6QR","description":"This is a welcoming space that is open for everyone and where it's OK to not be OK.","hours":{"_text":"Friday: 09:30 - 14:00","opening":"Fr 09:30-14:00"},"title":"Renew Wellbeing Eden at Appleby Eden Cricket Club"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.55977,54.62522],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kirkby Thore Memorial Hall, Cumbria CA10 1UE 1UE","description":"A warm welcome for all. Play board games, join in with craft activities or simply sit and chat. Tea, coffee and cake provided","hours":{"_text":"Wednesday: 14:00 - 16:00","opening":"We 14:00-16:00"},"title":"Wellbeing Wednesday"},"type":"Feature"}
+	]
+}

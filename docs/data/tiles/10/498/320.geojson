@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.68572,55.75347],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army, Ayrshire KA25 6HN","description":"A listening ear with support of a job club, assistance with CVs, volunteering chats, digital skills and more. Refreshments served.","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"A Wee Welcome In"},"type":"Feature"}
+	]
+}

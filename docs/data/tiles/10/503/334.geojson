@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.05751,52.85680],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Oswestry, Shropshire SY11 2SY","description":"Community chat cafe.","hours":{"_text":"Tuesday: 10:30 - 12:30","opening":"Tu 10:30-12:30"},"title":"Place of Welcome at St Oswald's, Oswestry"},"type":"Feature"}
+	]
+}
