@@ -569,7 +569,7 @@ sub savePostcodes {
 
 sub getPostcode {
 	my $postcode = $_[0];
-	my ($i,@lines,$pc,$fh,@lines,);
+	my ($i,@lines,$pc,$fh,@lines,$p,$lat,$lon);
 
 	$postcode =~ /^([A-Z]{1,2})/;
 	$pc = $1;

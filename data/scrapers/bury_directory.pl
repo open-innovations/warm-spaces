@@ -20,14 +20,14 @@ if(-e $file){
 	$str = join("",@lines);
 	
 	$str =~ s/\&nbsp;/ /g;
-
+	
 	@entries;
 
 	while($str =~ s/<section[^\>]*id="page-content"[^\>]*>(.*?)<\/section>//s){
 		$content = $1;
-		if($content =~ /<div class="mt-4 text-xl builder-p">(.*?)<\/div>/s){
-			$content = $1;
-			while($content =~ s/<p><strong><u>(.*?)<\/u><\/strong><\/p>(.*?)(<p><strong><u>)/$3/s){
+		while($content =~ s/<div class="mt-4 text-xl builder-p">(.*?)<\/div>//s){
+			$incontent = $1;
+			while($incontent =~ s/<p><strong><u>(.*?)<\/u><\/strong><\/p>(.*?)(<p><strong><u>|$)/$3/s){
 				$d = {'title'=>$1};
 				$ws = $2;
 				if($ws =~ s/<p><strong>Address\:? *<\/strong>:? *(.*?)<\/p>//sg){ $d->{'address'} = $1; }
