@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.58586,52.84954],"type":"Point"},"properties":{"_source":"cyngor_gwynedd","address":"Canolfan Fenter Congl Meinciau, Botwnnog, Pwllheli, Gwynedd, LL53 8RA","contact":"Tel: 01758770000; Email: darren.morley@conglmeinciau.org.uk","description":"Cyfeiriad: Canolfan Fenter Congl Meinciau, Botwnnog, Pwllheli, Gwynedd Côd Post: LL53 8RA Rhif Ffôn: 01758770000 E-bost: darren.morley@conglmeinciau.org.uk Dyddiau ac Oriau agor: Llun i Gwener 10AM - 4.00PM Beth fydd ar gael yn rhan o’ch “Croeso Cynnes”?: Defnydd o stafell gynnes / The use of a warm room, Paned / Warm Beverage, Bwyd / Food, WIFI, Gweithgareddau / Activities Unrhyw fanylion pellach?: Rhan o rhwydwaith hybiau cymunedol Cyngor Gwynedd","hours":{"_text":"Llun i Gwener 10AM - 4.00PM"},"loc_pcd":true,"title":"Canolfan Fenter Congl Meinciau"},"type":"Feature"}
-	]
-}
+{}

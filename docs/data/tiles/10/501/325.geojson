@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.54307,54.64285],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Johns Church, Cumbria CA14 3AW","description":"The space is open to all","hours":{"_text":"Wednesday: 10:30 - 12:45","opening":"We 10:30-12:45"},"title":"St John's Church Community Hall"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.54307,54.64285],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Johns Church, Cumbria CA14 3AW","description":"The space is open to all","hours":{"_text":"Wednesday: 10:30 - 12:45","opening":"We 10:30-12:45"},"title":"St John's Church Community Hall"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.55958,54.63089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St.Mary's Church, Salisbury Street Workington, Cumbria CA14 3TR","description":"SPACE OPENING ON 15th November 2023** Warm and welcoming space in the parish centre. Offering hot drinks and toast. Newspapers. Access to the internet. Board games. Good company.","hours":{"_text":"Wednesday: 09:00 - 11:30","opening":"We 09:00-11:30"},"title":"Warm Welcome St. Mary's Westfield"},"type":"Feature"}
 	]
 }

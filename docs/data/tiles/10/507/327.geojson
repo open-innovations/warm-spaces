@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.65625,54.22234],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7 Little Market Place, Masham, Ripon HG4 4DY","description":"NYC Libraries computer access for members, first 60 minutes free.","hours":{"_text":"Monday: 10:00 - 15:00, Tuesday: 10:00 - 15:00, Wednesday: 10:00 - 15:00, Thursday: 10:00 - 15:00, Friday: 10:00 - 15:00, Saturday: 10:00 - 15:00","opening":"Mo 10:00-15:00; Tu 10:00-15:00; We 10:00-15:00; Th 10:00-15:00; Fr 10:00-15:00; Sa 10:00-15:00"},"title":"Mashamshire Community Library"},"type":"Feature"}
+	]
+}

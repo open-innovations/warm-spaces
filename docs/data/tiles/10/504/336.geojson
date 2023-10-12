@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.70526,52.30855],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wyson Lane, LUDLOW, Ludlow SY8 4NL","description":"SPACE OPENING ON 6th November 2023** **Open every Monday from 6th. November, 11am-2pm. Offering friendship and free lunch.","hours":{"_text":"Monday: 11:00 - 14:00","opening":"Mo 11:00-14:00"},"title":"Welcome Space"},"type":"Feature"}
+	]
+}

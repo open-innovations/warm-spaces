@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-7.35458,54.18103],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Riverview Room,, Enniskillen, Fermanagh BT747BW","description":"Tea4U is held in the Riverview Room of the Bridge Centre which is a lovely modern, spacious room with toilet and lift facilities. We are a Community Cafe, open to all each Friday. Toys and books are available. Food is served on a Pay As You Can basis. The Tea4U Team will offer to sit with you and get to know you. Many regular customers are now our friends. Please pop in sometime, you'll be made very welcome.","hours":{"_text":"Friday: 11:00 - 14:00","opening":"Fr 11:00-14:00"},"title":"Tea4U Community Cafe"},"type":"Feature"}
+	]
+}

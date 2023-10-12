@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.68345,52.96860],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Watergate Centre, Whitchurch, Shropshire SY13 1DW","description":"Drop in for a FREE 'Cuppa'. Connect with others, read a newspaper, do a jigsaw, bring your knitting or just sit a while.","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"Watergate Centre - Warm Welcome Space"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.68345,52.96803],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Watergate, Whitchurch, England, SY13 1DW, United Kingdom","description":"Free Wi-Fi, Device Charging, People to chat to, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Dogs allowed","hours":{"_text":"12pm-12am"},"title":"The Watergate","url":"https://www.facebook.com/watergatewhitchurch/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.51955,53.06888],"type":"Point"},"properties":{"_source":"cheshire_east_council","title":"Nantwich Library","url":"https://livewellservices.cheshireeast.gov.uk"},"type":"Feature"}
 	]

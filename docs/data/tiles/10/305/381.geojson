@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-72.52175,41.76984],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St James Parish Centre, Bolton, Gt Manchester","description":"A welcoming supportive space for local people over 55. Arts and Crafts, games, quizzes, activities and speakers. A place to chat and make friends.","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"Age Well in Breightmet"},"type":"Feature"}
+	]
+}

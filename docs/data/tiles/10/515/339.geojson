@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[1.11937,51.78102],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Jaywick Methodist Church, Essex CO15 2NA","description":"Winter Warmer Space every Wednesday from 10am to 2pm","hours":{"_text":"Wednesday: 10:00 - 02:00","opening":"We 10:00-02:00"},"title":"Open House"},"type":"Feature"},
 		{"geometry":{"coordinates":[1.15561,51.78959],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Rosemary Road, Clacton-on-Sea, England, CO15 1NZ, United Kingdom","description":"Free Wi-Fi, Advice, People to chat to, Space to work, Accessible Toilet, Activities","hours":{"_text":"Monday-Friday 9am-4pm","opening":"Mo-Fr 09:00-16:00"},"title":"Imperial House","url":"https://www.cvstendring.org.uk"},"type":"Feature"}
 	]
 }

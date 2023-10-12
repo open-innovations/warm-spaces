@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-7.63604,54.34390],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Riverview Room,, Fermanagh BT747BW","description":"The Riverview Room in the Bridge Centre is open to all each Friday. Food is srved on a Pay As You Can basis. The Tea4U Team will offer to sit with you and get to know you.","hours":{"_text":"Friday: 11:00 - 14:00","opening":"Fr 11:00-14:00"},"title":"Tea4U Community Cafe"},"type":"Feature"}
+	]
+}

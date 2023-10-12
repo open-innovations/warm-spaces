@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 182,
-		"geocount": 157,
+		"count": 174,
+		"geocount": 150,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -237,8 +237,8 @@
 		"url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": "0",
-		"geocount": "0",
+		"count": 62,
+		"geocount": 60,
 		"id": "bury_directory",
 		"title": "Bury Directory",
 		"url": "https://theburydirectory.co.uk/warm-spaces-bury"
@@ -364,15 +364,15 @@
 		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 8,
+		"geocount": 8,
 		"id": "chorley_council",
 		"title": "Chorley Council",
-		"url": "https://chorley.gov.uk/article/2917/Warm-Spaces"
+		"url": "https://chorley.gov.uk/welcomespaces"
 	},
 	"city_of_london": {
 		"id": "city_of_london",
-		"notes": "Refers to Warm Welcome UK",
+		"notes": "Page has been removed since winter 2022",
 		"title": "City of London",
 		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
 	},
@@ -386,16 +386,16 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
 	},
 	"community_action_derby": {
 		"id": "community_action_derby",
-		"notes": "In PDFs so too unstructured to parse",
+		"notes": "In 2022/3 it was listed in PDFs and was too unstructured to parse.",
 		"title": "Community Action Derby",
-		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-places"
+		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs-1"
 	},
 	"coventry_council": {
 		"count": 50,
@@ -430,7 +430,7 @@
 	},
 	"cyngor_gwynedd": {
 		"count": 24,
-		"geocount": 24,
+		"geocount": "0",
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -439,9 +439,9 @@
 	},
 	"derbyshire_council": {
 		"id": "derbyshire_council",
-		"notes": "Too unstructured to parse",
+		"notes": "In 2022/3 it was too unstructured to parse",
 		"title": "Derbyshire Council",
-		"url": "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
+		"url": "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/keep-warm-in-winter.aspx"
 	},
 	"derbyshire_dales_council": {
 		"id": "derbyshire_dales_council",
@@ -460,8 +460,9 @@
 		"geocount": "0",
 		"id": "dover_council",
 		"map": { "type": "arcgis", "url": "https://experience.arcgis.com/experience/67b666bc92b44763a2b55289c9fc9fc3?data_id=86e4bddcadd14c56954aa0a57b49c363-184a4dfdb12-layer-1%3A21&org=DDC" },
+		"notes": "Their map no longer exists",
 		"title": "Dover Council",
-		"url": "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
+		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
 		"count": 39,
@@ -500,9 +501,9 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "east_staffordshire_council",
-		"notes": "Not enough address information for half the entries",
+		"notes": "In 2022/3 there was not enough address information for half the entries",
 		"title": "East Staffordshire Council",
-		"url": "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
+		"url": "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
 	},
 	"eastleigh_council": {
 		"count": 17,
@@ -538,6 +539,7 @@
 		"geocount": "0",
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
+		"notes": "Website maps appear to be broken as of October 2023",
 		"title": "Essex Map",
 		"url": "https://www.essexmap.co.uk/warm-spaces/"
 	},
@@ -563,8 +565,8 @@
 		"url": "https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 90,
-		"geocount": 88,
+		"count": 89,
+		"geocount": 87,
 		"id": "gateshead_council",
 		"map": { "type": "googlemap", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title": "Gateshead Council",
@@ -589,6 +591,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "gloucester_council",
+		"notes": "No longer exists as of October 2023",
 		"register": { "url": "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/" },
 		"title": "Gloucester Council",
 		"url": "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
@@ -603,7 +606,7 @@
 	},
 	"hackney_council": {
 		"id": "hackney_council",
-		"notes": "Refers people to Warm Welcome and warmspaces.org",
+		"notes": "No longer exists as of October 2023",
 		"title": "Hackney Council",
 		"url": "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
 	},
@@ -611,6 +614,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "haringey_council",
+		"notes": "No longer exists as of October 2023",
 		"title": "Haringey Council",
 		"url": "https://www.haringey.gov.uk/community/haringey-warm-welcome"
 	},
@@ -669,8 +673,9 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "hinckley_and_bosworth_council",
+		"register": { "url": "https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title": "Hinckley and Bosworth Council",
-		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
+		"url": "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support"
 	},
 	"hounslow_council": {
 		"id": "hounslow_council",
@@ -687,8 +692,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 39,
-		"geocount": 39,
+		"count": 38,
+		"geocount": 38,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -696,17 +701,17 @@
 	},
 	"ipswich_council": {
 		"id": "ipswich_council",
-		"notes": "Only over Christmas/new year",
+		"notes": "No longer exists as of October 2023",
 		"title": "Ipswich Council",
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 51,
+		"geocount": 48,
 		"id": "isle_of_wight_council",
-		"register": { "url": "https://forms.office.com/r/pKAutwRiyz" },
+		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
-		"url": "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+		"url": "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
 	},
 	"islington_council": {
 		"count": 43,
@@ -728,9 +733,10 @@
 		"geocount": "0",
 		"id": "kingston_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc" },
+		"notes": "Their Google map has had access limited.",
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3W0eRlVADHwMI5Wf1eA94IsEcysZVZlbAOfCbDJNgK3FZzg/viewform?usp=sf_link" },
 		"title": "Kingston Council",
-		"url": "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/10"
+		"url": "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/8"
 	},
 	"kirklees_council": {
 		"count": 24,
@@ -781,12 +787,12 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 48,
+		"geocount": 48,
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
-		"url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
+		"url": "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
 	},
 	"lewisham_local": {
 		"count": 56,
@@ -815,6 +821,7 @@
 		"count": 1,
 		"geocount": "0",
 		"id": "luton_council",
+		"notes": "Has been removed and is due to update 'in the Autumn'.",
 		"title": "Luton Council",
 		"url": "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
 	},
@@ -834,7 +841,7 @@
 		"id": "mansfield_council",
 		"notes": "Not enough structure to parse",
 		"title": "Mansfield Council",
-		"url": "https://www.mansfield.gov.uk/finance/financial-support-1/7"
+		"url": "https://www.mansfield.gov.uk/finance/financial-support-1/8"
 	},
 	"merton_council": {
 		"id": "merton_council",
@@ -884,6 +891,7 @@
 		"geocount": "0",
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
+		"notes": "Has been removed as of October 2023",
 		"title": "Newham Council",
 		"url": "https://www.newham.gov.uk/warmhavens"
 	},
@@ -899,6 +907,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "north_devon_council",
+		"notes": "Has been removed as of October 2023",
 		"title": "North Devon Council",
 		"url": "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
 	},
@@ -912,6 +921,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "north_herts_council",
+		"notes": "Removed as of October 2023",
 		"register": { "url": "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces" },
 		"title": "North Herts Council",
 		"url": "https://www.north-herts.gov.uk/warm-spaces"
@@ -920,6 +930,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "north_northamptonshire_council",
+		"notes": "Removed as of October 2023",
 		"title": "North Northamptonshire Council",
 		"url": "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
 	},
@@ -958,8 +969,8 @@
 		"url": "https://www.pkc.gov.uk/warmspaces"
 	},
 	"peterborough_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 24,
+		"geocount": 19,
 		"id": "peterborough_council",
 		"title": "Peterborough Council",
 		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
@@ -1155,8 +1166,8 @@
 		"url": "https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 64,
-		"geocount": 63,
+		"count": 65,
+		"geocount": 64,
 		"id": "stockton-on-tees_council",
 		"register": { "url": "https://www.stockton.gov.uk/warm-spaces-application" },
 		"title": "Stockton-on-Tees Council",
@@ -1278,8 +1289,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 346,
-		"geocount": 346,
+		"count": 643,
+		"geocount": 643,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1316,7 +1327,7 @@
 		"url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 51,
+		"count": 57,
 		"geocount": "0",
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
