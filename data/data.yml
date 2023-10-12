@@ -1026,6 +1026,7 @@ directories:
       type: html
   - title: "Luton Council"
     url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
+    notes: "Has been removed and is due to update 'in the Autumn'."
     data:
       url: "https://map.foodfirstluton.co.uk/api/points"
       type: html
@@ -1050,7 +1051,7 @@ directories:
     url: "https://www.manchester.gov.uk/info/10050/help_with_the_cost_of_living_crisis/8498/warm_spaces_in_libraries_across_manchester"
     notes: "Links to libraries"
   - title: "Mansfield Council"
-    url: "https://www.mansfield.gov.uk/finance/financial-support-1/7"
+    url: "https://www.mansfield.gov.uk/finance/financial-support-1/8"
     notes: "Not enough structure to parse"
   - title: "Merton Council"
     url: "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
@@ -1100,6 +1101,7 @@ directories:
       type: html
   - title: "Newham Council"
     url: "https://www.newham.gov.uk/warmhavens"
+    notes: "Has been removed as of October 2023"
     map:
       url: "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d"
       type: arcgis
