@@ -19,7 +19,7 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 	
-	if($str =~ /<h2 id="locations-1-1">Locations<\/h2>(.*?)<h2/s){
+	if($str =~ /<h2 id="hub-locations-and-offers-2-0">Hub locations and offers<\/h2>(.*?)(<h2|<\/div)/s){
 		$content = $1;
 		while($content =~ s/<p><strong>(.*?)<\/strong>(.*?)<p><strong>/<p><strong>/s){
 			$d = {'title'=>trimHTML($1)};
