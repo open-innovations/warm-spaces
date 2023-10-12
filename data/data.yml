@@ -425,7 +425,7 @@ directories:
       type: html
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
-    notes: "Refers to Warm Welcome UK" 
+    notes: "Page has been removed since winter 2022" 
   - title: "Colchester Council"
     url: "https://www.colchester.gov.uk/cost-of-living-support/?id=&page=warm--welcoming--spaces"
     map:
@@ -453,8 +453,8 @@ directories:
       url: "https://www.communities1st.org.uk/warm-hubs"
       type: html
   - title: "Community Action Derby"
-    url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-places"
-    notes: "In PDFs so too unstructured to parse"
+    url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs-1"
+    notes: "In 2022/3 it was listed in PDFs and was too unstructured to parse."
   - title: "Croydon Council"
     url: "https://www.croydon.gov.uk/warm-spaces-directory"
     map:
@@ -546,8 +546,8 @@ directories:
         hours: "Dyddiau ac Oriau agor"
         description: "Beth fydd ar gael yn rhan o’ch “Croeso Cynnes”"
   - title: "Derbyshire Council"
-    url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
-    notes: "Too unstructured to parse"
+    url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/keep-warm-in-winter.aspx"
+    notes: "In 2022/3 it was too unstructured to parse"
   - title: "Derbyshire Dales Council"
     url: "https://www.derbyshiredales.gov.uk/community/warm-spaces"
     notes: "Too unstructured to parse"
@@ -558,7 +558,8 @@ directories:
       url: "https://www.devizes-tc.gov.uk/warmspaces/"
       type: html
   - title: "Dover Council"
-    url: "https://www.dover.gov.uk/Community/Support-Services-Directory/Warm-Spaces.aspx"
+    url: "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
+    notes: "Their map no longer exists"
     map:
       url: "https://experience.arcgis.com/experience/67b666bc92b44763a2b55289c9fc9fc3?data_id=86e4bddcadd14c56954aa0a57b49c363-184a4dfdb12-layer-1%3A21&org=DDC"
       type: arcgis
@@ -614,8 +615,8 @@ directories:
       keys:
         title: "name"
   - title: "East Staffordshire Council"
-    url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
-    notes: "Not enough address information for half the entries"
+    url: "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
+    notes: "In 2022/3 there was not enough address information for half the entries"
     data:
       url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
       type: html
@@ -684,6 +685,7 @@ directories:
         hours: "When"
   - title: "Essex Map"
     url: "https://www.essexmap.co.uk/warm-spaces/"
+    notes: "Website maps appear to be broken as of October 2023"
     map:
       url: "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D="
       type: googlemap
@@ -744,6 +746,7 @@ directories:
       type: html
   - title: "Gloucester Council"
     url: "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
+    notes: "No longer exists as of October 2023"
     register:
       url: "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/"
     data:
@@ -759,9 +762,10 @@ directories:
       type: html
   - title: "Hackney Council"
     url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
-    notes: "Refers people to Warm Welcome and warmspaces.org"
+    notes: "No longer exists as of October 2023"
   - title: "Haringey Council"
     url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
+    notes: "No longer exists as of October 2023"
     data:
       url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
       type: html
@@ -835,7 +839,9 @@ directories:
       url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
       type: html
   - title: "Hinckley and Bosworth Council"
-    url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
+    url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support"
+    register:
+      url: "https://www.hinckley-bosworth.gov.uk/warmplacesQ"
     data:
       url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
       type: html
@@ -870,13 +876,13 @@ directories:
       type: html
   - title: "Ipswich Council"
     url: "https://www.ipswich.gov.uk/content/warm-bank-venues"
-    notes: "Only over Christmas/new year"
+    notes: "No longer exists as of October 2023"
   - title: "Isle of Wight Council"
-    url: "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+    url: "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
     register:
-      url: "https://forms.office.com/r/pKAutwRiyz"
+      url: "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u"
     data:
-      url: "https://beta.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-spaces/"
+      url: "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
       type: html
   - title: "Islington Council"
     url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
@@ -898,7 +904,8 @@ directories:
         hours: "Timings_and_Offers"
         url: "Weblink"
   - title: "Kingston Council"
-    url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/10"
+    url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/8"
+    notes: "Their Google map has had access limited."
     map:
       url: "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc"
       type: googlemap
@@ -991,11 +998,11 @@ directories:
     url: "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
     notes: "Refers to Warm Welcome"
   - title: "Lewes and Eastbourne Council"
-    url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/"
+    url: "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
     register:
       url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/"
     data:
-      url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces-directory/"
+      url: "https://www.lewes-eastbourne.gov.uk/article/1639/Community-Spaces-directory"
       type: html
   - title: "Lewisham Local"
     url: "https://www.lewishamlocal.com/lewisham-warm-spaces/"

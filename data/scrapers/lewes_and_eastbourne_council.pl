@@ -3,6 +3,7 @@
 use lib "./";
 use utf8;
 use Data::Dumper;
+use Web::Scraper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -18,23 +19,48 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 	
+	my $page = scraper {
+		process '.paging--search li.paging__item a', 'urls[]' => '@HREF';
+	};
+	my @urls = @{$page->scrape( $str )->{'urls'}};
+	my @entries;
 
-	while($str =~ s/<div class="clear tabs-body-inner"><div class="contenteditor">(.*?)<\/div>/$1/s){
-		$content = $1;
-		
-		while($content =~ s/<h3>(.*?)<\/h3>(.*?)(<h3>|$)/$3/s){
-			$title = trimHTML($1);
-			@p = split(/<\/p>[\n\t\s]*<p>/,$2);
-			$d = {'title'=>$title};
-			for($i = 0; $i < @p; $i++){
-				if($p[$i] =~ /^Open/){ $d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($p[$i])}); }
-				elsif($p[$i] =~ /^(Telephone|Email)/){ $d->{'contact'} = ($d->{'contact'} ? $d->{'contact'}."; " : "").trimHTML($p[$i]); }
-				elsif($p[$i] =~ /^\s*<p>(.*)/){ $d->{'address'} = trimHTML($p[$i]); }
-				else{ $d->{'description'} = ($d->{'description'} ? $d->{'description'}."; " : "").trimHTML($p[$i]); }
+	# Build a web scraper
+	my $warmspaces = scraper {
+		process '.card.card--contact', "warmspaces[]" => scraper {
+			process '.card__heading', 'title' => 'TEXT';
+			process 'a.card__link', 'url' => '@HREF';
+			process '.nvp__value--contact-address li', 'address[]' => 'HTML';
+			process '.nvp__value--contact-telephone', 'contact' => 'TEXT';
+		}
+	};
+
+	for($u = -1; $u < @urls; $u++){
+		if($u >= 0){
+			# Get the URL
+			$rfile = "raw/lewes_and_eastbournce-".($u+1).".html";
+			
+			warning("\tGetting details for $u\n");
+
+			# Keep cached copy of individual URL
+			$age = getFileAge($rfile);
+			if($age >= 86400 || -s $rfile == 0){
+				warning("\tSaving $urls[$u] to <cyan>$rfile<none>\n");
+				# For each entry we now need to get the sub page to find the location information
+				`curl '$urls[$u]' -o $rfile -s --insecure -L --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Upgrade-Insecure-Requests: 1'`;
 			}
+			open(FILE,"<:utf8",$rfile);
+			@lines = <FILE>;
+			close(FILE);
+			$str = join("",@lines);
+		}
+		$res = $warmspaces->scrape( $str );
+		for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+			$d = $res->{'warmspaces'}[$i];
+			if($d->{'address'}){ $d->{'address'} = join(", ",@{$d->{'address'}}); }
+			if($d->{'contact'}){ $d->{'contact'} = "Tel: ".$d->{'contact'}; }
 			push(@entries,makeJSON($d,1));
 		}
-
 	}
 
 	open(FILE,">:utf8","$file.json");
