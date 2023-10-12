@@ -27,16 +27,31 @@ if(-e $file){
 	};
 	my $res = $warmspaces->scrape( $str );
 
-	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+	for($i = 1; $i < @{$res->{'warmspaces'}}; $i++){
 		
 		$area = $res->{'warmspaces'}[$i];
 		if(@{$area->{'td'}} == 3){
 			$d = {};
-			$d->{'title'} = parseText($area->{'td'}[0]);
-			if($area->{'td'}[0] =~ /<a href="([^\"]+)"/){ $d->{'url'} = $1; if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://chorley.gov.uk".$d->{'url'}; } }
-			$d->{'hours'} = parseOpeningHours({'_text'=>$area->{'td'}[1]});
+			@ps = ();
+			while($area->{'td'}[0] =~ s/<p>(.*?)<\/p>//){
+				push(@ps,$1);
+			}
+			if(@ps > 0){
+				$d->{'title'} = parseText($ps[0]);
+				if(@ps > 1 && $ps[1] =~ /<a[^\>]+href="([^\"]+)"/){
+					$d->{'url'} = $1;
+					if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://chorley.gov.uk".$d->{'url'}; }
+				}
+				if(@ps > 2){
+					$d->{'description'} = parseText($ps[2]);
+				}
+			}else{
+				$d->{'title'} = parseText($area->{'td'}[0]);
+			}
+
+			$d->{'hours'} = parseOpeningHours({'_text'=>$area->{'td'}[2]});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
-			if($area->{'td'}[2]){ $d->{'address'} = parseText($area->{'td'}[2]); }
+			if($area->{'td'}[2]){ $d->{'address'} = parseText($area->{'td'}[1]); }
 			push(@entries,makeJSON($d,1));
 		}
 	}

@@ -419,9 +419,9 @@ directories:
     url: "https://www.chichesterdeanery.org/warmspaces.htm"
     notes: "Not enough location information"
   - title: "Chorley Council"
-    url: "https://chorley.gov.uk/article/2917/Warm-Spaces"
+    url: "https://chorley.gov.uk/welcomespaces"
     data:
-      url: "https://chorley.gov.uk/article/2917/Warm-Spaces"
+      url: "https://chorley.gov.uk/welcomespaces"
       type: html
   - title: "City of London"
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
