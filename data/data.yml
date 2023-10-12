@@ -1127,6 +1127,7 @@ directories:
         address: "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}"
   - title: "North Devon Council"
     url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
+    notes: "Has been removed as of October 2023"
     data:
       url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
       type: html
@@ -1135,12 +1136,14 @@ directories:
     notes: "A bit too difficult to automatically parse"
   - title: "North Herts Council"
     url: "https://www.north-herts.gov.uk/warm-spaces"
+    notes: "Removed as of October 2023"
     register:
       url: "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces"
     data:
       url: "https://www.north-herts.gov.uk/warm-spaces"
       type: html
   - title: "North Northamptonshire Council"
+    notes: "Removed as of October 2023"
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     data:
       url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
