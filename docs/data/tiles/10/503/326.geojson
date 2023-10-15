@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.90480,54.37547],"type":"Point"},"properties":{"_source":"warm_welcome","address":"marchesi cente holly road windermere, Windermere , Cumbria La23 2af","description":"Community warm hub for people to pop in and have hot drink / chat / relax with homemade lunch shared with others .","hours":{"_text":"Tuesday: 10:00 - 14:00, Friday: 10:00 - 14:00","opening":"Tu 10:00-14:00; Fr 10:00-14:00"},"title":"Community warm hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.02337,54.46044],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Grasmere Village Hall, Broadgate, Ambleside, England, LA22 9TA, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly","hours":{"_text":"10am-12.30pm"},"title":"Grasmere Village Hall","url":"https://www.facebook.com/GrasmereVillageHall"},"type":"Feature"}
 	]
 }

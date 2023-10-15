@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.49184,53.32114],"type":"Point"},"properties":{"_source":"warm_welcome","address":"15, Rhyl, Denbighshire LL18 1SE","description":"The Bridge Community is based at the Church. We have Food Club, Food Bank, Money Advice as well as hot drinks available Tuesday and Thursday 10:30am to 2pm.","hours":{"_text":"Tuesday: 10:30 - 13:30, Wednesday: 18:00 - 19:30, Thursday: 10:30 - 13:30, Sunday: 10:00 - 12:00","opening":"Tu 10:30-13:30; We 18:00-19:30; Th 10:30-13:30; Su 10:00-12:00"},"title":"Sussex Street Christian centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.46504,53.20168],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Church Street, Denbigh, Wales, LL16 5BG, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Thursday 10am-2.30pm","opening":"Th 10:00-14:30"},"title":"Henllan"},"type":"Feature"}
 	]
 }
