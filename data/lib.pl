@@ -348,6 +348,9 @@ sub parseOpeningHours {
 
 				# Replace a day match with the short version
 				$str =~ s/$d[\'s]*(\W|$)/$days[$i]->{'short'}$1/gi;
+				
+				# Reverse anything of the style "12:00 noon - 2pm on the We[3]"
+				$str =~ s/([0-9\:\.\,apmno\s\t\-]+) on the (Mo|Tu|We|Th|Fr|Sa|Su)\[([^\]]+)\]/$2\[$3\] $1/i;
 			}
 		}
 
