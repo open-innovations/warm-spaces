@@ -147,8 +147,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 164,
-		"geocount": 140,
+		"count": 163,
+		"geocount": 139,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -386,7 +386,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -988,6 +988,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "portsmouth_council",
+		"notes": "No longer exists (October 2023)",
 		"title": "Portsmouth Council",
 		"url": "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
 	},
@@ -1019,10 +1020,10 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 24,
+		"geocount": 24,
 		"id": "richmond_upon_thames_council",
-		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory" },
+		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory" },
 		"title": "Richmond upon Thames Council",
 		"url": "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
 	},
@@ -1040,6 +1041,13 @@
 		"title": "Rotherham Council",
 		"url": "https://www.rotherham.gov.uk/warm-welcome"
 	},
+	"rugby_council": {
+		"count": 27,
+		"geocount": 25,
+		"id": "rugby_council",
+		"title": "Rugby Council",
+		"url": "https://www.rugby.gov.uk/warmhubs"
+	},
 	"ryedale_council": {
 		"id": "ryedale_council",
 		"notes": "A Google Doc that only covers November",
@@ -1053,8 +1061,8 @@
 		"url": "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 1,
+		"geocount": 1,
 		"id": "sandwell_council",
 		"map": { "type": "googlemap", "url": "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces" },
 		"title": "Sandwell Council",
@@ -1116,6 +1124,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "southwalk_council",
+		"notes": "Removed. Being updated in autumn 2023.",
 		"title": "Southwalk Council",
 		"url": "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
@@ -1154,6 +1163,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "stevenage_council",
+		"notes": "Removed.",
 		"title": "Stevenage Council",
 		"url": "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
 	},
@@ -1193,6 +1203,7 @@
 		"geocount": "0",
 		"id": "sunderland_council",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
+		"notes": "Removed.",
 		"title": "Sunderland Council",
 		"url": "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
 	},
@@ -1206,7 +1217,7 @@
 	},
 	"sutton_council": {
 		"id": "sutton_council",
-		"notes": "Refers to Warm Welcome UK",
+		"notes": "Removed.",
 		"title": "Sutton Council",
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
@@ -1226,8 +1237,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 13,
+		"geocount": 13,
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1271,10 +1282,10 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 23,
+		"geocount": 23,
 		"id": "wandsworth_council",
-		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/" },
+		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
 		"title": "Wandsworth Council",
 		"url": "https://www.wandsworth.gov.uk/warm-spaces"
@@ -1289,8 +1300,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 770,
-		"geocount": 770,
+		"count": 889,
+		"geocount": 889,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1313,9 +1324,10 @@
 		"url": "https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 9,
+		"geocount": 9,
 		"id": "west_devon_council",
+		"map": { "type": "leaflet", "url": "https://www.westdevon.gov.uk/warm-spaces-directory" },
 		"title": "West Devon Council",
 		"url": "https://westdevon.gov.uk/article/9368/Warm-Spaces"
 	},
@@ -1328,7 +1340,7 @@
 	},
 	"west_northamptonshire": {
 		"count": 46,
-		"geocount": "0",
+		"geocount": 42,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
@@ -1336,8 +1348,8 @@
 		"url": "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"westminster_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 28,
+		"geocount": 28,
 		"id": "westminster_council",
 		"map": { "type": "arcgis", "url": "https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"title": "Westminster Council",
@@ -1362,6 +1374,7 @@
 	},
 	"wokingham_council": {
 		"id": "wokingham_council",
+		"notes": "Removed.",
 		"register": { "url": "https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/" },
 		"title": "Wokingham Council",
 		"url": "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
@@ -1377,6 +1390,6 @@
 		"id": "worcestershire_council",
 		"notes": "Lists libraries and links to Warm Welcome",
 		"title": "Worcestershire Council",
-		"url": "https://www.worcestershire.gov.uk/info/21015/warm_spaces_in_libraries"
+		"url": "https://www.worcestershire.gov.uk/council-services/worcestershire-libraries/warm-welcome"
 	}
 }

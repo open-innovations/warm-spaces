@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.64086,55.90291],"type":"Point"},"properties":{"_source":"warm_welcome","address":"West Lothian EH48 4EU EH48 4EU","description":"SPACE OPENING ON 7th November 2023** Toastie Toes and Get To Knows! We provide a warm and welcoming space for families and friends to meet up, enjoy a little company and a hot meal, or simply a cuppa! You can come along and do your own thing or sit with others and play boardgames, watch movies, enjoy colouring and puzzle books, settle into a couch with a good book - and many more options, all for nowt, or a donation you can afford. We are planning a few activities - crafting sessions, bingo, games, quiz nights, movie nights and are open to suggestions too! Don’t sit at home, come along and meet your community.","hours":{"_text":"Tuesday: 16:00 - 20:00, Thursday: 16:00 - 20:00","opening":"Tu 16:00-20:00; Th 16:00-20:00"},"title":"Lodestars Community Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.65442,55.93328],"type":"Point"},"properties":{"_source":"warm_spaces","address":"7 The Square, Bathgate, Scotland, EH48 4LY, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, People to chat to, Space to work, Wheelchair Accessible, Toilets, Parking, Child Friendly","hours":{"_text":"Mondays and Fridays 10am-2pm","opening":"Mo 10:00-14:00; Fr 10:00-14:00"},"title":"Torphichen Inn 'A Drop In Place'","url":"https://torphichenkirk.com"},"type":"Feature"}
 	]
 }

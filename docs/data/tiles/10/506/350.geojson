@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.10494,49.18798],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Salvation Army, Channel Isles JE2 4WR","description":"Community Cafe that provides a safe space for people all year round. Every day we provide free freshly made soup, as well as a genuinely affordable menu of food and drink. The cafe is also the main access point for our various forms of support ranging from simply listening to people, through to practical support such as a food bank, and assistance with navigating job applications, social security etc. The cafe is a beautiful space with comfortable seating and free wifi. All are welcome, because we believe that everyone is beautifully created and of immense value.","hours":{"_text":"Monday: 09:00 - 16:00, Tuesday: 09:00 - 16:00, Wednesday: 09:00 - 16:00, Thursday: 09:00 - 16:00 - 09:00, Friday: 09:00 - 16:00, Sunday: 10:00 - 12:30","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00; Su 10:00-12:30"},"title":"The Salvation Army Community Cafe"},"type":"Feature"}
+	]
+}
