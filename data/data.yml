@@ -1593,10 +1593,10 @@ directories:
     register:
       url: "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network"
     map:
-      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/"
       type: leaflet
     data:
-      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/warm-spaces/warm-spaces-directory/"
+      url: "https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/"
       type: html
   - title: "Warwickshire Rural Council"
     url: "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
@@ -1617,8 +1617,11 @@ directories:
         description: "project_mission"
   - title: "West Devon Council"
     url: "https://westdevon.gov.uk/article/9368/Warm-Spaces"
+    map:
+      url: "https://www.westdevon.gov.uk/warm-spaces-directory"
+      type: leaflet
     data:
-      url: "https://westdevon.gov.uk/article/9368/Warm-Spaces"
+      url: "https://www.westdevon.gov.uk/warm-spaces-directory"
       type: html
   - title: "West Dunbartonshire Council"
     url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
@@ -1689,6 +1692,7 @@ directories:
         type: html
     notes: "All the data is stored in a PowerBi visualisation and is inaccessible to this tool."
   - title: "Wokingham Council"
+    notes: "Removed."
     url: "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
     register:
       url: "https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/"
@@ -1698,7 +1702,7 @@ directories:
       url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
       type: html
   - title: "Worcestershire Council"
-    url: "https://www.worcestershire.gov.uk/info/21015/warm_spaces_in_libraries"
+    url: "https://www.worcestershire.gov.uk/council-services/worcestershire-libraries/warm-welcome"
     notes: "Lists libraries and links to Warm Welcome"
   - title: "Live Well York"
     url: "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
