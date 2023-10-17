@@ -1224,6 +1224,7 @@ directories:
         description: "Facilities"
   - title: "Portsmouth Council"
     url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
+    notes: "No longer exists (October 2023)"
     data:
       url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
       type: html
@@ -1279,6 +1280,11 @@ directories:
   - title: "Rotherham Council"
     url: "https://www.rotherham.gov.uk/warm-welcome"
     notes: "Refers people to Warm Welcome"
+  - title: "Rugby Council"
+    url: "https://www.rugby.gov.uk/warmhubs"
+    data:
+      url: "https://www.rugby.gov.uk/warmhubs"
+      type: html
   - title: "Ryedale Council"
     url: "https://docs.google.com/document/d/1yXJo4aSFxJanNCN_eoxt5sr1es1zBFzM/edit"
     notes: "A Google Doc that only covers November"
