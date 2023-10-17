@@ -1260,10 +1260,10 @@ directories:
   - title: "Richmond upon Thames Council"
     url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
     map:
-      url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory"
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory"
       type: leaflet
     data:
-      url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces/warm_spaces_directory"
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory"
       type: html
   - title: "Rochdale Council"
     url: "https://www.rochdale.gov.uk/warmspaces"
@@ -1384,6 +1384,7 @@ directories:
         Cookie: "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk"
       type: html
   - title: "Southwalk Council"
+    notes: "Removed. Being updated in autumn 2023."
     url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
     data:
       url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
@@ -1416,6 +1417,7 @@ directories:
       url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
       type: html
   - title: "Stevenage Council"
+    notes: "Removed."
     url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
     data:
       url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
@@ -1473,6 +1475,7 @@ directories:
       url: "https://ruralcoffeecaravan.org.uk/map/"
       type: html
   - title: "Sunderland Council"
+    notes: "Removed."
     url: "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
     map:
       url: "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg"
@@ -1505,7 +1508,7 @@ directories:
         hours: OpenHours
   - title: "Sutton Council"
     url: "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
-    notes: "Refers to Warm Welcome UK"
+    notes: "Removed."
   - title: "Swansea Council"
     url: "https://www.swansea.gov.uk/swanseaspaces"
     map:

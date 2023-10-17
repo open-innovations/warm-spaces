@@ -21,7 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'div[class="fullcontainer pad20"] > table > tbody > tr', "warmspaces[]" => scraper {
+		process '.fullcontainer.pad20 table > tbody > tr', "warmspaces[]" => scraper {
 			process 'td[bgcolor="fff2cc"]', 'td[]' => 'HTML';
 		};
 	};
@@ -32,10 +32,24 @@ if(-e $file){
 		@td = @{$res->{'warmspaces'}[$i]{'td'}};
 
 		$d = {};
-		if(@td == 3){
+		if(@td == 1){
+			$td[0] =~ s/<a href="([^\"]+)">([^\>]+)<\/a>//;
+			$d->{'title'} = $2;
+			$d->{'url'} = $1;
+			$d->{'address'} = trimHTML($td[0]);
+		}elsif(@td == 2){
 			if(trimHTML($td[0]) ne "Library"){
 				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
-					$d->{'title'} = trimHTML($1);
+					$d->{'title'} = trimHTML($2);
+				}
+				$td[0] =~ s/<\/?p>//g;
+				$d->{'address'} = trimHTML($td[0]);
+				$d->{'hours'} = $td[1];
+			}
+		}elsif(@td == 3){
+			if(trimHTML($td[0]) ne "Library"){
+				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
+					$d->{'title'} = trimHTML($2);
 				}
 				$d->{'address'} = trimHTML($td[0]);
 				$d->{'hours'} = $td[1];
@@ -43,7 +57,7 @@ if(-e $file){
 		}elsif(@td == 4){
 			if(trimHTML($td[0]) ne "Where"){
 				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
-					$d->{'title'} = trimHTML($1);
+					$d->{'title'} = trimHTML($2);
 				}
 				if(!$d->{'title'} && $td[0] =~ s/(.*?)\, //){
 					$d->{'title'} = trimHTML($1);
@@ -68,12 +82,10 @@ if(-e $file){
 		if(!$d->{'description'}){ delete $d->{'description'}; }
 
 
-
 		if($d->{'title'}){
 			push(@entries,makeJSON($d,1));
 		}
 	}
-
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";
 	close(FILE);
