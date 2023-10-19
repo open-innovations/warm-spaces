@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.79117,54.99630],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Heddon-on-the-Wall Methodist Church, Tyne and Wear NE15 0DT","description":"open to all","hours":{"_text":"Thursday: 10:00 - 12:00","opening":"Th 10:00-12:00"},"title":"Community Coffee"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.94056,55.17275],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scots Gap Methodist Church, Northumberland NE61 4EG","description":"Open to all","hours":{"_text":"Friday: 10:00 - 14:00","opening":"Fr 10:00-14:00"},"title":"Friday at the Gap"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.79068,54.97992],"type":"Point"},"properties":{"_source":"gateshead_council","address":"Clara Vale Village Hall, South View, Clara Vale, Ryton, NE40 3SY","description":"Free wifi, Charging facilities, Hot drinks, cordial and biscuits, Library corner, Baby changing facilities, Car parking, Accessible toilets","loc_pcd":true,"title":"Clara Vale Village Hall"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.79117,54.99630],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Methodist Church, The Towne Gate, Heddon-on-the-wall, Newcastle Upon Tyne, Northumberland, NE15 0DT","hours":{"_text":""},"loc_pcd":true,"title":"Heddon-on-the-Wall Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.96027,55.16546],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Cambo Village Hall, North Row, Cambo, Morpeth, Northumberland, NE61 4BA","hours":{"_text":""},"loc_pcd":true,"title":"Cambo Village Hall (Cambo Cosy Kitchen)"},"type":"Feature"},

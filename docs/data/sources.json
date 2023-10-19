@@ -89,8 +89,8 @@
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 9,
+		"geocount": 9,
 		"id": "bedford_council",
 		"title": "Bedford Council",
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -106,6 +106,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "bexley_council",
+		"notes": "Removed.",
 		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
 		"title": "Bexley Council",
 		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
@@ -147,8 +148,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 163,
-		"geocount": 139,
+		"count": 157,
+		"geocount": 133,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -237,8 +238,8 @@
 		"url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": 62,
-		"geocount": 60,
+		"count": 58,
+		"geocount": 56,
 		"id": "bury_directory",
 		"title": "Bury Directory",
 		"url": "https://theburydirectory.co.uk/warm-spaces-bury"
@@ -258,11 +259,11 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": "0",
-		"geocount": "0",
+		"count": 21,
+		"geocount": 20,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
-		"url": "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
+		"url": "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
 	},
 	"camden_council": {
 		"count": 32,
@@ -280,8 +281,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 68,
-		"geocount": 61,
+		"count": 69,
+		"geocount": 62,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -386,7 +387,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -755,8 +756,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 166,
-		"geocount": 166,
+		"count": 165,
+		"geocount": 165,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -887,8 +888,8 @@
 		"url": "https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
 	"newham_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 7,
+		"geocount": 7,
 		"id": "newham_council",
 		"map": { "type": "arcgis", "url": "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"notes": "Has been removed as of October 2023",
@@ -1012,8 +1013,8 @@
 		"url": "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 43,
+		"geocount": 43,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
@@ -1300,8 +1301,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 889,
-		"geocount": 889,
+		"count": 987,
+		"geocount": 987,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

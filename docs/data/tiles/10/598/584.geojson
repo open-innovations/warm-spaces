@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[30.40072,-24.60990],"type":"Point"},"properties":{"_source":"warm_welcome","address":"unit 7, Suffolk IP27 ONZ","description":"The Zebras Hub is a safe space in the heart of Brandon, Suffolk. Situated at the Harvey Adam Centre on the industrial estate, we run many services from the hub; including our weekly Friday coffee morning which is FREE and open from 11am -1pm each week. This is open to our whole community to attend. We additionally run other services such as our SEND parents space and other special events throughout the year.","hours":{"_text":"Tuesday: 10:30 - 12:00 Monthly, Friday: 11:00 - 01:00","opening":"Tu 10:30-12:00; Fr 11:00-01:00"},"title":"Zebras Hub Brandon"},"type":"Feature"}
+	]
+}
