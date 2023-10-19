@@ -135,6 +135,7 @@ directories:
       url: "https://www.belfastcity.gov.uk/warmspaces"
       type: html
   - title: "Bexley Council"
+    notes: "Removed."
     url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
     register:
       url: "https://forms.office.com/r/x39WnQanNv"
@@ -312,9 +313,9 @@ directories:
       url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
       type: html
   - title: "Cambridgeshire ACRE"
-    url: "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
+    url: "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
     data:
-      url: "https://www.cambsacre.org.uk/what-we-do-cambridgeshire-acre/warm-hubs/"
+      url: "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
       type: "html"
   - title: "Camden Council"
     url: "https://www.camden.gov.uk/warm-spaces-in-camden"

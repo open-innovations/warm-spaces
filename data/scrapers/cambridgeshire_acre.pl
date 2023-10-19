@@ -19,14 +19,22 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-	while($str =~ s/<div class="elementor-element [^>]*>.*?<span class="elementor-icon-list-text"><b>(.*?)<\/b><\/span>.*?<div class="elementor-element [^\>]*>.*?<span class="elementor-icon-list-text">(.*?)<\/span>//s){
-		$d = {};
-		$d->{'title'} = $1;
-		$content = $2;
-		if($content =~ s/Venue(\s|\&nbsp;)?:(\s|\&nbsp;)?(.*?)</</i){ $d->{'address'} = parseText($3); }
-		if($content =~ s/Notes(\s|\&nbsp;)?:(\s|\&nbsp;)?(.*?)(<|$)/$4/i){ $d->{'description'} = parseText($3); if($d->{'description'} eq "-"){ delete $d->{'description'}; } }
-		if($content =~ s/Opening Times(\s|\&nbsp;)?:(\s|\&nbsp;)?(.*?)</</i){ $d->{'hours'} = parseOpeningHours({'_text'=>parseText($3)}); }
-		push(@entries,makeJSON($d,1));
+
+	# Build a web scraper
+	my $res = scraper {
+		process '.elementor-icon-list-item .elementor-icon-list-text', "warmspaces[]" => 'TEXT';
+	}->scrape( $str );
+
+	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+		if($res->{'warmspaces'}[$i] =~ /^(.*?)[\s\t]+- (.*)$/){
+			$d = {};
+			$d->{'title'} = $1;
+			$content = $2;
+			if($content =~ s/Opens(\s|\&nbsp;)?:(\s|\&nbsp;)?(.*?)$//i){ $d->{'hours'} = parseOpeningHours({'_text'=>parseText($3)}); }
+			$d->{'address'} = $content;
+			$d->{'description'} = "Part of the Cambridgeshire Community Hubs Network.";
+			push(@entries,makeJSON($d,1));
+		}
 	}
 
 	open(FILE,">:utf8","$file.json");
