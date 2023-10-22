@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-69.14532,44.98479],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Sacred Heart Parish Lower Rooms , Exeter, Exeter","description":"Open from 25 October 202 We are open to all but especially those feeling lonely Our Chatter Cafe offers a cuppa, warmth, a listening ear and a chat","hours":{"_text":"Wednesday: 10:30 - 12:30","opening":"We 10:30-12:30"},"title":"SVP Chatter Cafe, Sacred Heart RC Church"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.07536,52.10955],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Baptist Church, Worcestershire WR10 1AY","description":"A space to enjoy good company, have free refreshments and a place to relax. Children welcome","hours":{"_text":"Tuesday: 10:00 - 02:00, Friday: 10:00 - 02:00","opening":"Tu 10:00-02:00; Fr 10:00-02:00"},"title":"Welcome space"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.94352,52.09183],"type":"Point"},"properties":{"_source":"warm_spaces","address":"69 Bridge St, England, WR11 4SF, United Kingdom","description":"Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Pet Friendly, Tea and coffee available for purchase but no food","hours":{"_text":"Mon &amp; Tue, 10am-1pm","opening":"Mo 10:00-13:00; Tu 10:00-13:00"},"title":"Evesham Methodist Church","url":"https://www.evesham-methodist.org.uk"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.87089,52.21396],"type":"Point"},"properties":{"_source":"warm_spaces","address":"59 High Street, Alcester, England, B49 5AF, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, People to chat to, Pay It Forward Scheme, Food/Drink for sale, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Tuesdays, 9am-12pm","opening":"Tu 09:00-12:00"},"title":"Orangemabel Tearoom","url":"https://www.Orangemabel.com"},"type":"Feature"}
 	]
