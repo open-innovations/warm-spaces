@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-122.75756,48.94127],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dyffryn Park, Blaina","description":"Open from 22-03-2023.","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Blaina Bowls Club"},"type":"Feature"}
+	]
+}

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.49314,54.53721],"type":"Point"},"properties":{"_source":"warm_welcome","address":"36 MainStreet, Frizington, Cumbria","description":"Drop In for a warm drinks, snacks and a chat.","hours":{"_text":"Thursday: 10:30 - 12:30","opening":"Th 10:30-12:30"},"title":"Frizington Methodist Church"},"type":"Feature"}
+	]
+}

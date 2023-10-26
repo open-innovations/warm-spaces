@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.61444,54.48325],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Windsor Terrace, Whitby, North Yorkshire YO21 1EY","description":"Library space with comfortable seating and browsing areas, computer usage, tables and chairs. Lift from street level to entrance and internal lift to 1st floor library space. Free membership for users.","hours":{"_text":"Monday: 09:30 - 17:00, Tuesday: 09:30 - 19:00, Thursday: 09:30 - 17:00, Friday: 09:30 - 17:00, Saturday: 10:00 - 13:00","opening":"Mo 09:30-17:00; Tu 09:30-19:00; Th 09:30-17:00; Fr 09:30-17:00; Sa 10:00-13:00"},"title":"Whitby Library"},"type":"Feature"}
+	]
+}

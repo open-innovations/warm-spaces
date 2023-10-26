@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-81.20611,46.57167],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church Street, Sutton on Hull, Hull","hours":{"_text":"Monday: 10:00 - 13:00, Wednesday: 10:00 - 13:00, Friday: 10:00 - 13:00","opening":"Mo 10:00-13:00; We 10:00-13:00; Fr 10:00-13:00"},"title":"Sutton on Hull Methodist Church"},"type":"Feature"}
+	]
+}
