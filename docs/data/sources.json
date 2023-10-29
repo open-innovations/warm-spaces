@@ -238,8 +238,8 @@
 		"url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": 58,
-		"geocount": 56,
+		"count": 59,
+		"geocount": 55,
 		"id": "bury_directory",
 		"title": "Bury Directory",
 		"url": "https://theburydirectory.co.uk/warm-spaces-bury"
@@ -387,7 +387,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -655,8 +655,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 70,
-		"geocount": 60,
+		"count": 69,
+		"geocount": 59,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -977,8 +977,8 @@
 		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
 	},
 	"plymouth_council": {
-		"count": 73,
-		"geocount": 72,
+		"count": 21,
+		"geocount": "0",
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1301,8 +1301,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 1480,
-		"geocount": 1480,
+		"count": 1589,
+		"geocount": 1589,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1365,8 +1365,8 @@
 		"url": "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 47,
-		"geocount": 33,
+		"count": 46,
+		"geocount": 32,
 		"id": "wiltshire_council",
 		"map": { "type": "powerbi", "url": "https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes": "All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
