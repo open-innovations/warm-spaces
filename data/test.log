@@ -1,4 +1,4 @@
-Tests started: 2023-03-14T11:20:49
+Tests started: 2023-11-01T09:33:21
 
 Test 1: [PASS] "Monday: 1pm - 5pm, Wednesday: 9.30am - 4pm"
 Test 2: [PASS] "&lsquo;Soup Socials&rsquo; will operate from noon to 2pm on Mondays."
@@ -364,6 +364,7 @@ Test 333: [PASS] "Monday, Tuesday, Wednesday and Friday between 09.30 and 15:00"
 Test 334: [PASS] "Monday’s 10.30 -2pm"
 Test 335: [PASS] "Wednesday 10am-1pm and 5-7pm Friday 2-4pm Saturday 10am -1pm"
 Test 336: [PASS] "10-00 to 12-30. Thursday only"
+Test 337: [PASS] "12 noon - 2pm on the third Wednesday of the month"
 
-[PASS]: 324 tests
+[PASS]: 325 tests
 [FAIL]: 12 tests
