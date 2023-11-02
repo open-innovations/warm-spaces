@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.78868,51.95612],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Myddfai Community Hall & Visitor Centre, Dyfed SA20 0JD","description":"Cafe gift shop & events hall","hours":{"_text":"Wednesday: 11:00 - 16:00, Friday: 11:00 - 16:00, Saturday: 11:00 - 16:00, Sunday: 11:00 - 16:00","opening":"We 11:00-16:00; Fr 11:00-16:00; Sa 11:00-16:00; Su 11:00-16:00"},"title":"Myddfai Community Hall & Visitor Centre"},"type":"Feature"}
+	]
+}

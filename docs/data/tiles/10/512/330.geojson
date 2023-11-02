@@ -1,1 +1,8 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[0.03458,53.70669],"type":"Point"},"properties":{"_source":"warm_welcome","address":"East Riding Yorkshire HU192RS","description":"A reopened village pub. The only one in a 3 mile radius","hours":{"_text":"Monday: 11:00 - 16:00, Tuesday: 11:00 - 16:00, Wednesday: 11:00 - 16:00, Thursday: 11:00 - 16:00, Friday: 11:00 - 16:00, Saturday: 11:00 - 16:00, Sunday: 11:00 - 16:00","opening":"Mo 11:00-16:00; Tu 11:00-16:00; We 11:00-16:00; Th 11:00-16:00; Fr 11:00-16:00; Sa 11:00-16:00; Su 11:00-16:00"},"title":"Plough Inn"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.02950,53.73127],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Methodist Church , Withernsea, North Humberside HU19 2DZ","description":"warm welcome space with seating refreshments, jigsaw exchange, table-board games and book exchange. Disabled toilets","hours":{"_text":"Thursday: 11:00 - 14:00","opening":"Th 11:00-14:00"},"title":"The Community room"},"type":"Feature"},
+		{"geometry":{"coordinates":[0.03570,53.72874],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Withernsea Centre, East Riding of Yorkshire HU19 2HH","description":"East Riding libraries offer warm welcoming places, with comfy seating, books, games and jigsaws. Please check our website for service updates and any changes to our usual opening hours.","hours":{"_text":"Monday: 09:30 - 16:30, Tuesday: 09:30 - 18:30, Thursday: 09:30 - 04:30, Friday: 09:30 - 13:00, Saturday: 09:30 - 12:30","opening":"Mo 09:30-16:30; Tu 09:30-18:30; Th 09:30-04:30; Fr 09:30-13:00; Sa 09:30-12:30"},"title":"Withernsea Centre"},"type":"Feature"}
+	]
+}

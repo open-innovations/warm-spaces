@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.63871,52.90693],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Station Road East, Grantham, Lincolnshire NG31 6HX","description":"Open from 31.10.23 St John's Warm Hub meets in the hall within St John's Spitalgate","hours":{"_text":"Thursday: 10:00 - 12:00, Friday: 10:00 - 12:00, Saturday: 10:00 - 12:00","opening":"Th 10:00-12:00; Fr 10:00-12:00; Sa 10:00-12:00"},"title":"St. John’s Parish Room"},"type":"Feature"}
+	]
+}
