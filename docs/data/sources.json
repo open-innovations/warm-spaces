@@ -148,8 +148,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 140,
-		"geocount": 116,
+		"count": 135,
+		"geocount": 112,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -230,16 +230,16 @@
 		"url": "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 29,
-		"geocount": 28,
+		"count": 31,
+		"geocount": 31,
 		"id": "burnley_council",
 		"map": { "type": "googlemap", "url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"title": "Burnley Council",
 		"url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": 59,
-		"geocount": 55,
+		"count": 56,
+		"geocount": 52,
 		"id": "bury_directory",
 		"title": "Bury Directory",
 		"url": "https://theburydirectory.co.uk/warm-spaces-bury"
@@ -387,7 +387,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -655,8 +655,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 69,
-		"geocount": 59,
+		"count": 68,
+		"geocount": 58,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1099,8 +1099,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 177,
-		"geocount": 177,
+		"count": 145,
+		"geocount": 145,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1231,8 +1231,8 @@
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count": 38,
-		"geocount": 37,
+		"count": 39,
+		"geocount": 38,
 		"id": "swindon_council",
 		"title": "Swindon Council",
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
@@ -1301,8 +1301,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 1965,
-		"geocount": 1965,
+		"count": 2047,
+		"geocount": 2047,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1340,8 +1340,8 @@
 		"url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 51,
-		"geocount": 50,
+		"count": 57,
+		"geocount": 56,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
