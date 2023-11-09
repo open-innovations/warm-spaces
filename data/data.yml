@@ -388,7 +388,9 @@ directories:
       type: html
   - title: "Chelmsford Connects"
     url: "https://chelmsfordconnects.org.uk/search?category=1555"
-    notes: "Not enough address/location data"
+    data:
+      url: "https://chelmsfordconnects.org.uk/search?category=1555"
+      type: html
   - title: "Cheltenham Council"
     url: "https://www.cheltenham.gov.uk/info/60/community_advice_and_engagement/1757/cost_of_living_support/3"
     notes: "Not enough structure to parse"
