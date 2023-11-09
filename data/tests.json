@@ -347,7 +347,11 @@
 		{"text":"Monday’s 10.30 -2pm","good":"Mo 10:30-14:00"},
 		{"text":"Wednesday 10am-1pm and 5-7pm Friday 2-4pm Saturday 10am -1pm","good":"We 10:00-13:00,17:00-19:00; Fr 14:00-16:00; Sa 10:00-13:00"},
 		{"text":"10-00 to 12-30. Thursday only","good":"Th 10:00-12:30"},
-		{"text":"12 noon - 2pm on the third Wednesday of the month","good":"We[3] 12:00-14:00"}
+		{"text":"12 noon - 2pm on the third Wednesday of the month","good":"We[3] 12:00-14:00"},
+		{"text":"10am-5.30pm (Mon-Sun)","good":"Mo-Su 10:00-17:30"},
+		{"text":"10am-5.30pm (Sun)","good":"Su 10:00-17:30"},
+		{"text":"Mon-Frid, 9am-5pm","good":"Mo-Fr 09:00-17:00"},
+		{"text":"Second Tuesday each month 10:30am - 11:30am","good":"Tu[2] 10:30-11:30"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},
