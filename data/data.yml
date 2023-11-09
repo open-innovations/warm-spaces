@@ -381,9 +381,7 @@ directories:
         description: "Activity Offered"
   - title: "Charnwood Council"
     url: "https://www.charnwood.gov.uk/pages/warmspaces"
-    data:
-      url: "https://www.charnwood.gov.uk/pages/warmspaces"
-      type: html
+    notes: "Now refers people to Warm Welcome UK"
   - title: "Chelmsford Connects"
     url: "https://chelmsfordconnects.org.uk/search?category=1555"
     data:
@@ -425,8 +423,8 @@ directories:
       url: "https://chorley.gov.uk/welcomespaces"
       type: html
   - title: "City of London"
-    url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
-    notes: "Page has been removed since winter 2022" 
+    url: "https://news.cityoflondon.gov.uk/libraries-offer-a-warm-space-to-city-residents-this-winter/"
+    notes: "As of winter 2023 it just mentions libraries" 
   - title: "Colchester Council"
     url: "https://www.colchester.gov.uk/cost-of-living-support/?id=&page=warm--welcoming--spaces"
     map:
@@ -686,15 +684,12 @@ directories:
         hours: "When"
   - title: "Essex Map"
     url: "https://www.essexmap.co.uk/warm-spaces/"
-    notes: "Website maps appear to be broken as of October 2023"
     map:
-      url: "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D="
+      url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon"
       type: googlemap
     data:
-      url: "https://www.essexmap.co.uk/jm-ajax/get_listings/"
+      url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon"
       type: html
-      method: POST
-      form: "lang=&search_keywords=warm+space&search_location=&search_categories%5B%5D=&filter_job_type%5B%5D=organisation&filter_job_type%5B%5D=service&filter_job_type%5B%5D=&per_page=200&orderby=featured&order=DESC&page=1&show_pagination=false&form_data=display_mode%3Dgrid%26filter_order%3Ddefault%26search_keywords%3Dwarm%2520space%26filter_order%3Drandom%26search_categories%255B%255D%3D%26filter_job_type%255B%255D%3Dorganisation%26filter_job_type%255B%255D%3Dservice%26filter_job_type%255B%255D%3D"
   - title: "Exeter Council"
     url: "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
     notes: "Not enough location information"
