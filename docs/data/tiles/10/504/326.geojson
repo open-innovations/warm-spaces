@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.59245,54.43293],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Woodend Terrace, Cumbria CA10 3UZ","description":"A chance to eat and spend time together.","hours":{"_text":"Sunday: 12:30 - 16:00 Monthly","opening":"Su 12:30-16:00"},"title":"Tebay Community Meal"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.59245,54.43293],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Tebay Methodist Chapel, Cumbria CA10 3UZ","description":"A chance to eat and spend time together on the first Sunday of each month.","hours":{"_text":"Sunday: 12:30 - 16:00 Monthly","opening":"Su 12:30-16:00"},"title":"Tebay Community Meal"},"type":"Feature"}
 	]
 }

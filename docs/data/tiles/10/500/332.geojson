@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.13417,53.22773],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Penrallt Baptist Church, Bangor, Gwynedd LL57 2EU","description":"A weekly drop-in with refreshments and activities.","hours":{"_text":"Thursday: 10:30 - 12:30","opening":"Th 10:30-12:30"},"title":"Renew 57"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.13045,53.22364],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St John's Methodist Church , Gwynedd LL57 1NR","description":"Access by steps with hand rails or up a slope with a rail Warm Spaces is in the Church Hall","hours":{"_text":"Sunday: 11:30 - 14:30 Fortnightly","opening":"Su 11:30-14:30"},"title":"St John's Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.92782,53.26773],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Bangor Road, Penmaenmawr, Wales, LL34 6LE, United Kingdom","description":"Free Food/Drink, People to chat to, Toilets, Crafts and games","hours":{"_text":"Friday 10am-1pm","opening":"Fr 10:00-13:00"},"title":"St Paul's Church Penmaenmawr"},"type":"Feature"}
 	]

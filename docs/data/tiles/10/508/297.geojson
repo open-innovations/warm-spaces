@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-1.24589,59.99875],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Carnegie Hall, Shetland, Shetland ZE29HH ZE29HH","description":"Open every Friday 11 - 4pm Soup, Hot Rolls, Sweet, Tea & Coffee Books, Games, Paper, and plenty of chat. A warm and friendly Welcome to all ages. Everyone It is open to all ages and everyone is welcome.","hours":{"_text":"Friday: 11:00 - 16:00","opening":"Fr 11:00-16:00"},"title":"Carnegie Hall Sandwick Shetland ( Friday at Carnegie )"},"type":"Feature"}
+	]
+}

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.36631,54.66335],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Age UK, Cockermouth, Cumbria CA13 9JS","description":"A warm, welcoming space, with free resources, information, advice and support. A range of daily activities plus refreshments for £3.","hours":{"_text":"Monday: 10:00 - 14:00, Tuesday: 10:00 - 15:00, Wednesday: 10:00 - 15:00, Thursday: 10:00 - 15:00, Friday: 10:00 - 15:00","opening":"Mo 10:00-14:00; Tu 10:00-15:00; We 10:00-15:00; Th 10:00-15:00; Fr 10:00-15:00"},"title":"Age UK Activity Centre, 93 Main St"},"type":"Feature"}
+	]
+}
