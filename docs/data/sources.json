@@ -96,20 +96,19 @@
 		"url": "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
 	},
 	"belfast_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "belfast_council",
+		"notes": "Now just mentions leisure centres, libraries and links to Warm Welcome UK",
 		"title": "Belfast Council",
-		"url": "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
+		"url": "https://www.belfastcity.gov.uk/costoflivingsupport#897-3"
 	},
 	"bexley_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 9,
+		"geocount": 9,
 		"id": "bexley_council",
 		"notes": "Removed.",
-		"register": { "url": "https://forms.office.com/r/x39WnQanNv" },
+		"register": { "url": "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places" },
 		"title": "Bexley Council",
-		"url": "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+		"url": "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
 		"count": 232,
@@ -313,15 +312,15 @@
 		"url": "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
 	},
 	"charnwood_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "charnwood_council",
+		"notes": "Now refers people to Warm Welcome UK",
 		"title": "Charnwood Council",
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
 	},
 	"chelmsford_connects": {
+		"count": 51,
+		"geocount": 40,
 		"id": "chelmsford_connects",
-		"notes": "Not enough address/location data",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
 	},
@@ -373,9 +372,9 @@
 	},
 	"city_of_london": {
 		"id": "city_of_london",
-		"notes": "Page has been removed since winter 2022",
+		"notes": "As of winter 2023 it just mentions libraries",
 		"title": "City of London",
-		"url": "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+		"url": "https://news.cityoflondon.gov.uk/libraries-offer-a-warm-space-to-city-residents-this-winter/"
 	},
 	"colchester_council": {
 		"count": 30,
@@ -539,8 +538,7 @@
 		"count": "0",
 		"geocount": "0",
 		"id": "essex_map",
-		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/listings/?search_keywords=warm+space&submit=&filter_job_type%5B%5D=" },
-		"notes": "Website maps appear to be broken as of October 2023",
+		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
 		"title": "Essex Map",
 		"url": "https://www.essexmap.co.uk/warm-spaces/"
 	},
@@ -1301,8 +1299,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2253,
-		"geocount": 2253,
+		"count": 2256,
+		"geocount": 2256,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
