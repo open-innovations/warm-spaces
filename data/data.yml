@@ -130,17 +130,15 @@ directories:
       url: "https://localoffer.bedford.gov.uk/kb5/bedford/directory/service.page?id=vxkQZt80NSs&localofferchannel=0"
       type: html
   - title: "Belfast Council"
-    url: "https://www.belfastcity.gov.uk/Community/Warm-Spaces-Warm-Welcome"
-    data:
-      url: "https://www.belfastcity.gov.uk/warmspaces"
-      type: html
+    url: "https://www.belfastcity.gov.uk/costoflivingsupport#897-3"
+    notes: "Now just mentions leisure centres, libraries and links to Warm Welcome UK"
   - title: "Bexley Council"
     notes: "Removed."
-    url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+    url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
     register:
-      url: "https://forms.office.com/r/x39WnQanNv"
+      url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
     data:
-      url: "https://www.bexley.gov.uk/news/warm-welcome-across-bexley"
+      url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
       type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
