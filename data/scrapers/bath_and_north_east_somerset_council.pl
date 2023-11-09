@@ -18,23 +18,22 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
-
-	warning("\tTesting Bath...\n");
-
-	$str =~ s/<meta [^\>]*>//gi;
+	
+	$str =~ s/<meta[^\>]*>//g;
+	
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.geolocation-location', "warmspaces[]" => scraper {
-			process '*', 'content' => 'HTML';
+		process 'div.geolocation-location', "warmspaces[]" => scraper {
+			process 'h2', 'title' => 'TEXT';
+			process '.views-field-title a', 'url' => '@HREF';
+			process '.views-field-localgov-directory-address', 'address' => 'HTML';
 			process '*', 'lat' => '@data-lat';
 			process '*', 'lon' => '@data-lng';
-			process '*', 'title' => '@data-label';
-			process 'a', 'url' => '@HREF';
-			process '.address', 'address' => 'TEXT';
 		}
 	};
 	my $res = $warmspaces->scrape( $str );
+
 	$n = @{$res->{'warmspaces'}};
 	warning("\tMatched $n warmspaces on page.\n");
 
@@ -63,10 +62,13 @@ if(-e $file){
 sub trim {
 	my $str = $_[0];
 	$str =~ s/(<br ?\/?>|<p>)/\n /g;
-	$str =~ s/<[^\>]+>//g;
+	$str =~ s/<[^\>]+>/, /g;
 	$str =~ s/(^[\s\t\n\r]+|[\s\t\n\r]+$)//g;
 	$str =~ s/[\n\r]{2,}/\n/g;
 	$str =~ s/[\s\t]{2,}/ /g;
 	$str =~ s/ , /, /g;
+	$str =~ s/\, ?\, ?/, /g;
+	$str =~ s/\, ?\, ?/, /g;
+	$str =~ s/(^\, ?\, ?|^\, ?|\, ?$|\, ?\,$)//g;
 	return $str;
 }

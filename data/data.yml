@@ -122,7 +122,7 @@ directories:
       url: "https://livewell.bathnes.gov.uk/warm-places-map"
       type: leaflet
     data:
-      url: "https://livewell.bathnes.gov.uk/warm-places-map"
+      url: "https://livewell.bathnes.gov.uk/map-of-warm-spaces"
       type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
