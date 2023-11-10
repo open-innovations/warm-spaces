@@ -1036,6 +1036,9 @@ directories:
     data:
       url: "https://www.lichfielddc.gov.uk/directory/11/keeping-warm/category/18"
       type: html
+  - title: "Looe Town Council"
+    url: "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
+    notes: "Only available as a JPG"
   - title: "Luton Council"
     url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
     notes: "Has been removed and is due to update 'in the Autumn'."
@@ -1555,6 +1558,9 @@ directories:
     data:
       url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
       type: html
+  - title: "Tendring Council"
+    url: "https://www.tendringdc.gov.uk/warm-hubs"
+    notes: "Provided as a PDF"
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     notes: "No location information is given so they can't be geocoded"
