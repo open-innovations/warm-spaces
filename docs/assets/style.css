@@ -196,6 +196,19 @@ footer h3 { margin-top: 2em; }
 .inactive td:first-child { text-decoration:line-through; }
 .inactive:hover td { color: inherit; }
 
+header nav ul {
+	width: min-content;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.2em;
+	position: relative;
+	font-family: Poppins;
+	display: flex;
+}
+header nav ul li { display: inline-block; margin-top: 0; }
+header nav ul > li > a { padding: 0.5em 1em; display: inline-block; width: 100%; color: inherit; line-height: 1.44em; white-space: nowrap; }
+header nav ul > li > a:hover, header nav ul > li > a:focus { background: white; color: black; }
+
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }
 }
