@@ -569,6 +569,7 @@ sub getArcGIS {
 
 			push(@features,$json);
 		}
+		@features = addLatLonFromPostcodes(@features);
 	}
 	return @features;
 }

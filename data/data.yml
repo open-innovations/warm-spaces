@@ -95,6 +95,17 @@ directories:
   - title: "Armagh City, Bandridge and Craigavon Council"
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
     notes: "Not enough location information"
+  - title: "Banbury Town Council"
+    url: ""
+    data:
+      url: "https://utility.arcgis.com/usrsvcs/servers/b7d5f2155be24760a744e241774bbb06/rest/services/Public_Map_Services/Cherwell_Public_Warm_Spaces/FeatureServer/0/query?f=json&cacheHint=true&resultOffset=0&resultRecordCount=1000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=27700&returnGeometry=false&spatialRel=esriSpatialRelIntersects"
+      type: arcgis
+      keys:
+        title: Organisation
+        address: Address
+        contact: "{{ Key_contact }} Tel: {{ Telephone }} Email: {{ Email }}"
+        hours: Opening_Times
+        description: Facilities_Provided
   - title: "Barnsley Council"
     url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
     notes: "Refers people to Warm Welcome UK"
