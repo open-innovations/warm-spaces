@@ -1422,7 +1422,7 @@ directories:
       - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=5"
         type: html
   - title: "Stafford Borough Council"
-    inactive: 2023-04-04
+    notes: "No longer provide a directory"
     url: "https://www.staffordbc.gov.uk/warm-spaces"
     register: mailto:warmspaces@staffordbc.gov.uk
     data:
@@ -1492,6 +1492,7 @@ directories:
       url: "https://ruralcoffeecaravan.org.uk/map/"
       type: html
   - title: "Sunderland Council"
+    inactive: 2023-11-10
     notes: "Removed."
     url: "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
     map:

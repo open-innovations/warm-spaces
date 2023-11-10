@@ -21,8 +21,8 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.fullcontainer.pad20 table > tbody > tr', "warmspaces[]" => scraper {
-			process 'td[bgcolor="fff2cc"]', 'td[]' => 'HTML';
+		process '.fullcontainer.pad20 > table > tbody > tr', "warmspaces[]" => scraper {
+			process 'td[valign="top"]', 'td[]' => 'HTML';
 		};
 	};
 	my $res = $warmspaces->scrape( $str );
@@ -32,55 +32,17 @@ if(-e $file){
 		@td = @{$res->{'warmspaces'}[$i]{'td'}};
 
 		$d = {};
-		if(@td == 1){
-			$td[0] =~ s/<a href="([^\"]+)">([^\>]+)<\/a>//;
-			$d->{'title'} = $2;
-			$d->{'url'} = $1;
-			$d->{'address'} = trimHTML($td[0]);
-		}elsif(@td == 2){
-			if(trimHTML($td[0]) ne "Library"){
-				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
-					$d->{'title'} = trimHTML($2);
-				}
-				$td[0] =~ s/<\/?p>//g;
-				$d->{'address'} = trimHTML($td[0]);
-				$d->{'hours'} = $td[1];
+		if(@td == 5){
+			$d->{'title'} = trimHTML($td[0]);
+			$d->{'address'} = trimHTML($td[1]);
+			if($d->{'address'} =~ s/\.? ([0-9]{4,} ?[0-9]{3,8} ?[0-9]{3,8})//){
+				$d->{'contact'} = "Tel: ".$1;
 			}
-		}elsif(@td == 3){
-			if(trimHTML($td[0]) ne "Library"){
-				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
-					$d->{'title'} = trimHTML($2);
-				}
-				$d->{'address'} = trimHTML($td[0]);
-				$d->{'hours'} = $td[1];
-			}
-		}elsif(@td == 4){
-			if(trimHTML($td[0]) ne "Where"){
-				if($td[0] =~ s/<(strong|a)>(.*?)<\/(strong|a)>//){
-					$d->{'title'} = trimHTML($2);
-				}
-				if(!$d->{'title'} && $td[0] =~ s/(.*?)\, //){
-					$d->{'title'} = trimHTML($1);
-				}
-				$d->{'address'} = trimHTML($td[0]);
-				if($td[2] =~ /(monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i){
-					$d->{'hours'} = trimHTML($td[2]);
-				}else{
-					$d->{'hours'} = $td[1].". ".trimHTML($td[2]);
-				}
-				$d->{'description'} = trimHTML($td[3]);
-			}
-		}
-
-
-		if($d->{'hours'}){
-			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'hours'}});
+			$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($td[2])});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 			if(!$d->{'hours'}{'_text'}){ delete $d->{'hours'}; }
+			$d->{'description'} = trimHTML($td[3]);
 		}
-		if(!$d->{'address'}){ delete $d->{'address'}; }
-		if(!$d->{'description'}){ delete $d->{'description'}; }
-
 
 		if($d->{'title'}){
 			push(@entries,makeJSON($d,1));
