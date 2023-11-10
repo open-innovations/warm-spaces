@@ -33,6 +33,9 @@ if(-e $file){
 
 		$d = {};
 		if(@td == 5){
+			if($td[0] =~ /href="([^\"]+)"/){
+				$d->{'url'} = $1;
+			}
 			$d->{'title'} = trimHTML($td[0]);
 			$d->{'address'} = trimHTML($td[1]);
 			if($d->{'address'} =~ s/\.? ([0-9]{4,} ?[0-9]{3,8} ?[0-9]{3,8})//){
