@@ -1343,9 +1343,11 @@ directories:
         title: "name"
   - title: "Sevenoaks Council"
     url: "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
-    notes: "Not enough location information"
     register:
       url: "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces"
+    data:
+      url: "https://www.sevenoaks.gov.uk/directory/37/warm_spaces"
+      type: html
   - title: "Sheffield VAS"
     url: "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
     map:
