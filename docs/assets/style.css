@@ -81,7 +81,6 @@ header a { text-decoration: none; }
 footer { width: 100%; padding: 1em; padding-bottom: 3em; }
 footer h2 + p { margin-top: 1em; }
 footer a { color: #1DD3A7; }
-header a { line-height: 0; }
 .msg { text-align:center; padding: 0.5em; }
 
 .holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
