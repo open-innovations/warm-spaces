@@ -917,6 +917,7 @@ directories:
         url: "Weblink"
   - title: "Kingston Council"
     url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/8"
+    inactive: 2023-11-10
     notes: "Their Google map has had access limited."
     map:
       url: "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc"

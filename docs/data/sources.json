@@ -51,6 +51,13 @@
 		"title": "Armagh City, Bandridge and Craigavon Council",
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
+	"banbury_town_council": {
+		"count": 16,
+		"geocount": 16,
+		"id": "banbury_town_council",
+		"title": "Banbury Town Council",
+		"url": ""
+	},
 	"barnet_council": {
 		"count": 32,
 		"geocount": 32,
@@ -556,6 +563,13 @@
 		"title": "Fife Council",
 		"url": "https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
 	},
+	"frome_council": {
+		"count": 10,
+		"geocount": 10,
+		"id": "frome_council",
+		"title": "Frome Council",
+		"url": "https://www.frometowncouncil.gov.uk/your-community/community/cost-of-living-crisis-support/"
+	},
 	"fylde_council": {
 		"id": "fylde_council",
 		"notes": "Not enough location information and structure to parse",
@@ -816,6 +830,12 @@
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
+	"looe_town_council": {
+		"id": "looe_town_council",
+		"notes": "Only available as a JPG",
+		"title": "Looe Town Council",
+		"url": "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
+	},
 	"luton_council": {
 		"count": 15,
 		"geocount": 12,
@@ -976,7 +996,7 @@
 	},
 	"plymouth_council": {
 		"count": 21,
-		"geocount": "0",
+		"geocount": 20,
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1090,8 +1110,9 @@
 		"url": "https://seftoncvs.org.uk/warmspaces/"
 	},
 	"sevenoaks_council": {
+		"count": 21,
+		"geocount": 21,
 		"id": "sevenoaks_council",
-		"notes": "Not enough location information",
 		"register": { "url": "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
 		"title": "Sevenoaks Council",
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
@@ -1145,8 +1166,10 @@
 		"url": "https://sthelens.gov.uk/warmspaces"
 	},
 	"stafford_borough_council": {
+		"count": "0",
+		"geocount": "0",
 		"id": "stafford_borough_council",
-		"inactive": "2023-04-04",
+		"notes": "No longer provide a directory",
 		"register": "mailto:warmspaces@staffordbc.gov.uk",
 		"title": "Stafford Borough Council",
 		"url": "https://www.staffordbc.gov.uk/warm-spaces"
@@ -1198,9 +1221,8 @@
 		"url": "https://ruralcoffeecaravan.org.uk/map/"
 	},
 	"sunderland_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "sunderland_council",
+		"inactive": "2023-11-10",
 		"map": { "type": "image", "url": "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg" },
 		"notes": "Removed.",
 		"title": "Sunderland Council",
@@ -1236,11 +1258,17 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 16,
+		"geocount": 16,
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
+	},
+	"tendring_council": {
+		"id": "tendring_council",
+		"notes": "Provided as a PDF",
+		"title": "Tendring Council",
+		"url": "https://www.tendringdc.gov.uk/warm-hubs"
 	},
 	"tewkesbury_council": {
 		"count": "0",
@@ -1308,7 +1336,10 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
+		"count": 42,
+		"geocount": 42,
 		"id": "warwickshire_rural_council",
+		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
 		"title": "Warwickshire Rural Council",
 		"url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
