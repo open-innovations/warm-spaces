@@ -708,6 +708,11 @@ directories:
         description: "Additional info"
         url: "Website"
         contact: "Tel: {{ Phone number }}; Email: {{ Email address }}"
+  - title: "Frome Council"
+    url: "https://www.frometowncouncil.gov.uk/your-community/community/cost-of-living-crisis-support/"
+    data:
+      url: "https://www.frometowncouncil.gov.uk/wp-content/uploads/2023/10/Fromes-Warm-Spaces-2023-24.ics"
+      type: html
   - title: "Fylde Council"
     url: "https://fylde.gov.uk/warm-spaces-in-fylde/"
     notes: "Not enough location information and structure to parse"
