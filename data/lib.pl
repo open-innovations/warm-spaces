@@ -262,7 +262,7 @@ sub parseOpeningHours {
 		{'match'=>['Tuesday','Tue','Tues'],'short' => 'Tu','key'=>'tuesday'},
 		{'match'=>['Wednesday','Wed'],'short' => 'We','key'=>'wednesday'},
 		{'match'=>['Thursday','Thurs','Thur','Thu'],'short' => 'Th','key'=>'thursday'},
-		{'match'=>['Friday','Fri'],'short' => 'Fr','key'=>'friday'},
+		{'match'=>['Friday','Fri','Frid'],'short' => 'Fr','key'=>'friday'},
 		{'match'=>['Saturday','Sat'],'short' => 'Sa','key'=>'saturday'},
 		{'match'=>['Sunday','Sun'],'short' => 'Su','key'=>'sunday'}
 	);
@@ -280,11 +280,21 @@ sub parseOpeningHours {
 			delete $hours->{$days[$i]->{'key'}};
 		}
 	}
+	
 	if($parsed && !$hours->{'_text'}){
 		$hours->{'_text'} = $parsed;
 	}
 
 	$str = "".($hours->{'_text'}||"");
+
+	for($i = 0; $i < @days; $i++){
+		for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
+			$str =~ s/\($days[$i]->{'match'}[$j]\)/$days[$i]->{'match'}[$j]/g;
+		}
+	}
+
+	# Fix date ranges in brackets
+	$str =~ s/\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)-(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\)/$1-$2/g;
 	
 	if($str && !$hours->{'_parsed'}){
 
@@ -297,6 +307,7 @@ sub parseOpeningHours {
 		$str =~ s/ (between) ([0-9\:amp]+) (and|to) / $2 - /g;
 		$str =~ s/ (to|until|til|till) / - /g;
 		$str =~ s/( of (each|every) month )[^0-9]+/$1/g;
+		$str =~ s/ (each|every) week\,?//g;
 		$str =~ s/ (at|from) /: /g;
 		$str =~ s/ (\&|and) /, /g;
 		$str =~ s/ inclusive\,?//g;
@@ -308,7 +319,7 @@ sub parseOpeningHours {
 		$str =~ s/[—–]/-/g;
 		$str =~ s/24 hours/00:00-24:00/g;
 		$str =~ s/day[\'\’]s/days/g;
-		
+
 		# Standardise A.M./P.M./a.m./p.m./AM/PM into am/pm
 		$str =~ s/a\.?m\.?/am/gi;
 		$str =~ s/p\.?m\.?/pm/gi;
@@ -331,9 +342,11 @@ sub parseOpeningHours {
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
 				$d = $days[$i]->{'match'}[$j];
+				$str =~ s/((1st|first)(\,|\s)? ?(3rd|third)) ($d)s?\,?( ?of the month)?/$days[$i]->{'short'}\[1,3\]/gi;
+				$str =~ s/((2nd|second)(\,|\s)? ?(4th|fourth)) ($d)s?\,?( ?of the month)?/$days[$i]->{'short'}\[2,4\]/gi;
 			
 				# Replace any string that refers to e.g. "first Sunday" with "Su[1]"
-				while($str =~ /((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( (of|in) ?(the|each|every)? ?month)?\,?/){
+				while($str =~ /((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( (of|in)? ?(the|each|every)? ?(month|Month))?\,?/){
 					$nth = $1;
 					$nstr = "";
 					if($nth =~ /(first|1st)/i){ $nstr .= ($nstr?",":"")."1"; }
@@ -343,7 +356,7 @@ sub parseOpeningHours {
 					if($nth =~ /last/i){ $nstr .= ($nstr?",":"")."-1"; }
 					if($nstr){ $nstr = " $days[$i]->{'short'}\[$nstr\]"; }
 					else { $nstr = " ".$d; }
-					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( (of|in) ?(the|each|every)? ?month)?\,?/$nstr/;
+					$str =~ s/((1st|first|First|2nd|second|Second|3rd|third|Third|4th|fourth|Fourth|last|Last|and|\,|\s)+) $d( (of|in)? ?(the|each|every)? ?(month|Month))?\,?/$nstr/;
 				}				
 
 				# Replace a day match with the short version
@@ -412,9 +425,10 @@ sub parseOpeningHours {
 		}
 
 		# Match time + "every" + single day
-		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*[\-\–][\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,\-]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
-			$day1 = $5;
-			$mod1 = $4;
+		while($str =~ s/([0-9\:\.\,]+(am|pm)?[\s\t]*(\-|\–|to)[\s\t]*[0-9\:\.\,]+(am|pm)?)[\,]? every *(\[[0-9\,\-]\])? *(Mo|Tu|We|Th|Fr|Sa|Su)//i){
+
+			$day1 = $6;
+			$mod1 = $5;
 			$t = getHourRange($1);
 			if($t){
 				$hours->{'_parsed'} .= ($hours->{'_parsed'} ? "; ":"")."$day1$mod1 $t";
