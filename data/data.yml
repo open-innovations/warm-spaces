@@ -1232,11 +1232,11 @@ directories:
       type: googlemap
       keys:
         url: "Website"
-        contact: "Phone number"
-        address: "Address and postcode"
-        title: "name"
-        hours: "Opening times"
-        description: "Facilities"
+        contact: "Contact telephone number"
+        address: "Full address and postcode"
+        title: "Building / venue name"
+        hours: "Opening days/hours"
+        description: "Services or activities provided: (e.g. Wi-Fi, refreshments, games, art & craft, support & advice, food etc.)"
   - title: "Portsmouth Council"
     url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
     notes: "No longer exists (October 2023)"
