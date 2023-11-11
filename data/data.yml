@@ -82,16 +82,6 @@ directories:
         type: html
       - url: "https://www.argylltsi.org/maki.html"
         type: html
-  - title: "Barnet Council"
-    url: "https://www.barnet.gov.uk/directories/warm-spaces"
-    register:
-      url: "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space"
-    map:
-      url: "https://www.barnet.gov.uk/directories/warm-spaces"
-      type: leaflet
-    data:
-      url: "https://www.barnet.gov.uk/directories/warm-spaces"
-      type: html
   - title: "Armagh City, Bandridge and Craigavon Council"
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
     notes: "Not enough location information"
@@ -106,9 +96,22 @@ directories:
         contact: "{{ Key_contact }} Tel: {{ Telephone }} Email: {{ Email }}"
         hours: Opening_Times
         description: Facilities_Provided
+  - title: "Barnet Council"
+    url: "https://www.barnet.gov.uk/directories/warm-spaces"
+    register:
+      url: "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space"
+    map:
+      url: "https://www.barnet.gov.uk/directories/warm-spaces"
+      type: leaflet
+    data:
+      url: "https://www.barnet.gov.uk/directories/warm-spaces"
+      type: html
   - title: "Barnsley Council"
     url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
     notes: "Refers people to Warm Welcome UK"
+  - title: "Barrow Council"
+    url: "https://barrowbc.gov.uk/warm-welcome-spaces-start-open-borough"
+    notes: "Only available as a PDF"
   - title: "Basildon Council"
     url: "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
     notes: "Not enough structure to parse"
@@ -857,6 +860,21 @@ directories:
     data:
       url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
       type: html
+  - title: "Horsham District"
+    url: "https://www.horshamdistrictwarmspaces.com/"
+    data:
+      - url: "https://www.horshamdistrictwarmspaces.com/horsham"
+        type: html
+      - url: "https://www.horshamdistrictwarmspaces.com/broadbridge-heath"
+        type: html
+      - url: "https://www.horshamdistrictwarmspaces.com/warnham"
+        type: html
+      - url: "https://www.horshamdistrictwarmspaces.com/upper-beeding"
+        type: html
+      - url: "https://www.horshamdistrictwarmspaces.com/copy-of-broadbridge-heath"
+        type: html
+      - url: "https://www.horshamdistrictwarmspaces.com/copy-of-lower-beeding"
+        type: html
   - title: "Hounslow Council"
     inactive: 2023-03-31
     url: "https://www.hounslow.gov.uk/warmspaces"
