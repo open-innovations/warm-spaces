@@ -689,8 +689,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 9,
-		"geocount": "0",
+		"count": 31,
+		"geocount": 29,
 		"id": "hinckley_and_bosworth_council",
 		"register": { "url": "https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title": "Hinckley and Bosworth Council",

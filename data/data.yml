@@ -858,8 +858,8 @@ directories:
     register:
       url: "https://www.hinckley-bosworth.gov.uk/warmplacesQ"
     data:
-      url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
-      type: html
+      - url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
+        type: html
   - title: "Horsham District"
     url: "https://www.horshamdistrictwarmspaces.com/"
     data:
