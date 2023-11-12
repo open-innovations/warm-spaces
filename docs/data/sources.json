@@ -94,8 +94,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 24,
-		"geocount": 24,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
 		"title": "Bath and North East Somerset Council",
@@ -125,7 +125,7 @@
 	},
 	"birmingham_council": {
 		"count": 232,
-		"geocount": 231,
+		"geocount": 232,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -160,8 +160,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 195,
-		"geocount": 168,
+		"count": 193,
+		"geocount": 166,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -548,8 +548,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 186,
-		"geocount": 186,
+		"count": "0",
+		"geocount": "0",
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
 		"title": "Essex Map",
@@ -732,8 +732,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 46,
-		"geocount": 44,
+		"count": 51,
+		"geocount": 48,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
@@ -1339,8 +1339,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2274,
-		"geocount": 2274,
+		"count": 2276,
+		"geocount": 2276,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
