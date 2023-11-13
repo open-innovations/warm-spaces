@@ -218,8 +218,8 @@ directories:
         address: "{{ ADDRESS }} {{ POSTCODE }}"
         description: "CHARGE"
   - title: "Breckland Council"
-    url: "https://www.breckland.gov.uk/community/warm-spaces"
-    notes: "Not enough location information"
+    url: "https://www.breckland.gov.uk/community/warm-and-well"
+    notes: "As of autumn 2023 it links to Warm Welcome UK"
   - title: "Brent"
     url: "https://www.brent.gov.uk/cost-of-living-help-and-advice"
     notes: "Refers people to Warm Welcome"
@@ -323,9 +323,7 @@ directories:
         description: "D"        
   - title: "Cambridge Council"
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
-    data:
-      url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
-      type: html
+    notes: "As of November 2023 it links to Warm Welcome UK"
   - title: "Cambridgeshire ACRE"
     url: "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
     data:
@@ -408,7 +406,7 @@ directories:
     notes: "Not enough structure to parse"
   - title: "Cherwell Council"
     url: "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
-    notes: "No warm spaces listed"
+    notes: "Links to a PDF and Warm Welcome UK"
   - title: "Cheshire East Council"
     url: "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
     data:
@@ -454,6 +452,20 @@ directories:
         address: "Address"
         hours: "Opening Times"
         contact: "Tel: {{ Contact Number }}; Email: {{ Email }}"
+  - title: "Communities 1st"
+    url: "https://www.communities1st.org.uk/warm-hubs"
+    data:
+      url: "https://www.communities1st.org.uk/warm-hubs"
+      type: html
+  - title: "Community Action Derby"
+    url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
+    data:
+      url: "https://www.google.com/maps/d/embed?mid=1MRxPR61MIqeSNAx4Mq-qBe8he5dN3MI&ehbc=2E312F"
+      type: googlemap
+      keys:
+        title: "Organisation Name"
+        address: "Address"
+        hours: "{{ Session Day }} {{ Session Times }}"
   - title: "Coventry Council"
     url: "https://www.coventry.gov.uk/cost-living-wellbeing-support"
     map:
@@ -462,14 +474,6 @@ directories:
     data:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
       type: html
-  - title: "Communities 1st"
-    url: "https://www.communities1st.org.uk/warm-hubs"
-    data:
-      url: "https://www.communities1st.org.uk/warm-hubs"
-      type: html
-  - title: "Community Action Derby"
-    url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs-1"
-    notes: "In 2022/3 it was listed in PDFs and was too unstructured to parse."
   - title: "Croydon Council"
     url: "https://www.croydon.gov.uk/warm-spaces-directory"
     map:

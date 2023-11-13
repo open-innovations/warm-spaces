@@ -162,7 +162,7 @@
 	},
 	"bradford_council": {
 		"count": 202,
-		"geocount": 176,
+		"geocount": 201,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -184,9 +184,9 @@
 	},
 	"breckland_council": {
 		"id": "breckland_council",
-		"notes": "Not enough location information",
+		"notes": "As of autumn 2023 it links to Warm Welcome UK",
 		"title": "Breckland Council",
-		"url": "https://www.breckland.gov.uk/community/warm-spaces"
+		"url": "https://www.breckland.gov.uk/community/warm-and-well"
 	},
 	"brent": {
 		"id": "brent",
@@ -265,9 +265,8 @@
 		"url": "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
 	},
 	"cambridge_council": {
-		"count": "0",
-		"geocount": "0",
 		"id": "cambridge_council",
+		"notes": "As of November 2023 it links to Warm Welcome UK",
 		"title": "Cambridge Council",
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
@@ -346,7 +345,7 @@
 	},
 	"cherwell_council": {
 		"id": "cherwell_council",
-		"notes": "No warm spaces listed",
+		"notes": "Links to a PDF and Warm Welcome UK",
 		"title": "Cherwell Council",
 		"url": "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
@@ -406,10 +405,11 @@
 		"url": "https://www.communities1st.org.uk/warm-hubs"
 	},
 	"community_action_derby": {
+		"count": 45,
+		"geocount": 45,
 		"id": "community_action_derby",
-		"notes": "In 2022/3 it was listed in PDFs and was too unstructured to parse.",
 		"title": "Community Action Derby",
-		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs-1"
+		"url": "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
 	},
 	"coventry_council": {
 		"count": 50,
@@ -1009,7 +1009,7 @@
 	},
 	"plymouth_council": {
 		"count": 29,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
