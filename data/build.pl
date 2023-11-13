@@ -594,7 +594,7 @@ sub getGoogleMap {
 	my $d = shift;
 	my $i = shift;
 
-	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$props,$remove,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt,$key,$v,$tempv);
+	my ($dir,$str,$file,$kmzfile,$kmzurl,$placemarks,$lon,$lat,$alt,$c,$url,$entry,$props,$remove,$k,@entries,$hrs,$parse,$re,$p2,@matches,$txt,$key,$v,$tempv,@temp,@locs,$loclookup,$l,$tname,$n);
 
 	$url = $d->{'data'}[$i]{'url'};
 	$file = $rawdir.$d->{'id'}.($i ? "-$i":"").".html";
@@ -603,6 +603,28 @@ sub getGoogleMap {
 	$log->msg("\tGetting Google Maps pageData\n");
 	getURLToFile($url,$file);
 	$str = join("",getFileContents($file));
+
+	# Try to extract any page data (which may have coordinates not included in the KMZ)
+	if($str =~ /var _pageData = \"(.*?)\"\;/){
+		$pagedata = $1;
+		$pagedata =~ s/\\\"/\"/g;
+		eval {
+			@temp = @{JSON::XS->new->decode($pagedata)};
+		};
+		if($@){ error("\tInvalid output in $file.\n"); @temp = (); }
+		else {
+			@locs = @{$temp[1][6][0][4][0][6]};
+			for($l = 0; $l < @locs; $l++){
+				$n = @{$locs[$l][4][4]};
+				$tname = $locs[$l][5][0][0];
+				$tname =~ s/\\u0026/\&/g;	# Replace escaped ampersands
+				if($n == 2){
+					$loclookup->{$tname} = {'lat'=>$locs[$l][4][4][0],'lon'=>$locs[$l][4][4][1]};
+				}
+			}
+		}
+	}
+
 	if($str =~ /\"(https:\/\/www.google.com\/maps\/d\/kml\?mid[^\"]+)\\"/){
 		$kmzurl = $1;
 		$kmzurl =~ s/\\\\u003d/=/g;
@@ -711,6 +733,15 @@ sub getGoogleMap {
 			$entry->{'hours'} = parseOpeningHours({'_text'=>parseText($entry->{'hours'})});
 			if(!$entry->{'hours'}{'opening'}){ delete $entry->{'hours'}{'opening'}; }
 		}
+		
+		# If we have built the lookup for the location
+		if($loclookup->{$entry->{'name'}}){
+			if(!$entry->{'lat'}){ $entry->{'lat'} = $loclookup->{$entry->{'name'}}{'lat'}; }
+			if(!$entry->{'lon'}){ $entry->{'lon'} = $loclookup->{$entry->{'name'}}{'lon'}; }
+		}else{
+			print "No lookup for $entry->{'name'}\n";
+		}
+		
 		$entry->{'_source'} = $d->{'id'};
 		push(@entries,$entry);
 	}
