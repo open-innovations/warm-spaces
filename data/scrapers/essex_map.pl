@@ -41,6 +41,7 @@ if(-e $file){
 			if($1 > $endpage){ $endpage = $1; }
 		}
 	}
+	warning("\tEssex map has <yellow>$endpage<none> pages\n");
 
 
 	for($i = 1; $i <= $endpage; $i++){
@@ -55,6 +56,7 @@ if(-e $file){
 			# For each entry we now need to get the sub page to find the location information
 			`curl '$url' -o $rfile -s --insecure -L --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Upgrade-Insecure-Requests: 1'`;
 		}
+		warning("\tReading <cyan>$rfile<none>\n");
 		open(FILE,"<:utf8",$rfile);
 		@lines = <FILE>;
 		close(FILE);

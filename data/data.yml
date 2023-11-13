@@ -133,8 +133,10 @@ directories:
   - title: "Bath and North East Somerset Council"
     url: "https://livewell.bathnes.gov.uk/warm-places-list"
     map:
-      url: "https://livewell.bathnes.gov.uk/warm-places-map"
+      url: "https://livewell.bathnes.gov.uk/map-of-warm-spaces"
       type: leaflet
+    register:
+      url: "https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset"
     data:
       url: "https://livewell.bathnes.gov.uk/map-of-warm-spaces"
       type: html

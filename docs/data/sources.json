@@ -94,10 +94,11 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 24,
+		"geocount": 24,
 		"id": "bath_and_north_east_somerset_council",
-		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/warm-places-map" },
+		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
+		"register": { "url": "https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
 		"title": "Bath and North East Somerset Council",
 		"url": "https://livewell.bathnes.gov.uk/warm-places-list"
 	},
@@ -160,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 193,
-		"geocount": 166,
+		"count": 202,
+		"geocount": 176,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -331,8 +332,8 @@
 		"url": "https://www.charnwood.gov.uk/pages/warmspaces"
 	},
 	"chelmsford_connects": {
-		"count": 46,
-		"geocount": 35,
+		"count": 45,
+		"geocount": 34,
 		"id": "chelmsford_connects",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
@@ -548,8 +549,8 @@
 		"url": "https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": "0",
-		"geocount": "0",
+		"count": 186,
+		"geocount": 186,
 		"id": "essex_map",
 		"map": { "type": "googlemap", "url": "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
 		"title": "Essex Map",
@@ -732,8 +733,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 51,
-		"geocount": 48,
+		"count": 46,
+		"geocount": 44,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
@@ -780,8 +781,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 91,
-		"geocount": 91,
+		"count": 92,
+		"geocount": 92,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -1305,8 +1306,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 28,
+		"geocount": 28,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1339,8 +1340,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2276,
-		"geocount": 2276,
+		"count": 2301,
+		"geocount": 2301,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

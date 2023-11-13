@@ -55,6 +55,7 @@ sub processDirectories {
 	my $totalgeocoded = 0;
 	my $table = "";
 	my $key = $ARGV[0];
+	my $stime,$etime,$diff;
 
 
 	# Loop over the directories
@@ -68,6 +69,7 @@ sub processDirectories {
 
 		# Print the title of this one
 		$log->msg("$j: <cyan>$d->{'title'}<none> ($d->{'id'})\n");
+		$stime = time;
 
 		@features = ();
 
@@ -175,6 +177,12 @@ sub processDirectories {
 		}
 		if($sources->{$d->{'id'}}{'geocount'}){
 			$sources->{$d->{'id'}}{'geocount'} += 0;
+		}
+
+		$etime = time;
+		$diff = ($etime-$stime);
+		if($diff > 0){
+			$log->msg("\tProcessed in <yellow>".($diff)."<none> second".($diff==1 ? "":"s")."\n");
 		}
 	}
 	open($fh,">:utf8",$dir."places.json");
@@ -925,7 +933,7 @@ sub getHTML {
 		# Get the data (if we don't have a cached version)
 		$file = getDataFromURL($d,$i);
 
-		$log->msg("\tParsing web page\n");
+		$log->msg("\tParsing web page using <cyan>$scraper<none>\n");
 
 		$str = `perl $scraper $file`;
 

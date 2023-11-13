@@ -76,7 +76,7 @@ sub getDataFromURL {
 
 	$url = $d->{'data'}[$n]{'url'};
 
-	msg("\tURL: $url\n");
+	msg("\tURL: <blue>$url<none>\n");
 
 	$file = $rawdir.$d->{'id'}.($n ? "-$n":"").".".$d->{'data'}[$n]{'type'};
 	$age = 100000;
@@ -301,6 +301,7 @@ sub parseOpeningHours {
 		# Clean up "between 1pm and 4pm"
 		$str =~ s/between ([0-9\:\.\,]+(am|pm)?)[\s\t]*and[\s\t]*([0-9\:\.\,]+(am|pm)?)/$1 - $3/ig;
 
+		$str =~ s/\&ndash\;/-/g;
 		$str =~ s/ from [0-9]{1,2}(st|nd|rd|th)? (January|February|March|April|May|June|July|August|September|October|November|December) ?/ /gi; # Remove start dates
 		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
 		$str =~ s/ (at|in) [^0-9]+ from /: /g;

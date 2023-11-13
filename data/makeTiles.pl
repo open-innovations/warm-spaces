@@ -31,8 +31,7 @@ sub makeTiles {
 	my $json = shift;
 	my $zoom = shift;
 
-	my ($str,$filegeo,$coder,$tiler,$dir,$f,$i,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop,@todo);
-	my ($line,$jsonbit,$t,$file,$feature,$dp,$maxsize,$size);
+	my ($str,$filegeo,$coder,$tiler,$dir,$f,$i,@zooms,$z,%tiles,$x,$y,$zdir,$fh,$dh,$filename,@features,$prop,@todo,$tile,$line,$jsonbit,$t,$file,$feature,$dp,$maxsize,$size);
 
 	$dir = ($basedir."../docs/data/tiles");
 	@zooms = split(/[\:\;]/,$zoom||"10");
@@ -57,8 +56,10 @@ sub makeTiles {
 
 	$tiler = OpenInnovations::Tiler->new();
 	@features = @{$json};
+	print "Making features...\n";
 
 	for($f = 0; $f < @features; $f++){
+		if($f % 500 == 0){ print " $f...\n"; }
 		if($features[$f]->{'lat'} && $features[$f]->{'lon'} && $features[$f]->{'lon'} >= -180 && $features[$f]->{'lon'} <= 180){
 			$jsonbit = {'type'=>'Feature'};
 			$jsonbit->{'geometry'} = {'type'=>'Point','coordinates'=>[sprintf("%0.5f",$features[$f]->{'lon'}),sprintf("%0.5f",$features[$f]->{'lat'})]};
@@ -79,20 +80,23 @@ sub makeTiles {
 					`mkdir $dir/$zoom/$x/`;
 				}
 				$file = "$dir/$zoom/$x/$y.geojson";
-				$tiles{$file} = 1;
-				if(!-e $file || -s $file == 0){
-					open($fh,">:utf8",$file)||error('No file '.$file);
-					print $fh "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n";
+				if(!$tiles{$file}){
+					$tiles{$file} = "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n";
 				}else{
-					open($fh,">>:utf8",$file)||error('No file '.$file);
-					print $fh ",\n";
+					$tiles{$file} .= ",\n";
 				}
-				print $fh "\t\t".$feature;
-				close($fh);
-
+				$tiles{$file} .= "\t\t".$feature;
 			}
 		}
 	}
+
+	foreach $tile (sort(keys(%tiles))){
+		open($fh,">:utf8",$tile);
+		print $fh $tiles{$tile};
+		print $fh "\n\t\]\n\}\n";
+		close($fh);
+	}
+	print "Updating empty tiles...\n";
 	$maxsize = 0;
 
 	for($z = 0; $z < @zooms; $z++){
@@ -114,9 +118,9 @@ sub makeTiles {
 	}
 
 	foreach $file (sort(keys(%tiles))){
-		open($fh,">>:utf8",$file);
-		print $fh "\n\t\]\n\}\n";
-		close($fh);
+#		open($fh,">>:utf8",$file);
+#		print $fh "\n\t\]\n\}\n";
+#		close($fh);
 		$size = -s $file;
 		if($size > $maxsize){
 			print "Largest file $file: $size\n";
