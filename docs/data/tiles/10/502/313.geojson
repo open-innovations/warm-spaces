@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.39890,57.00575],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Ivercauld Road, Braemar. Bar opening hours Free coffee and tea for Braemar residents.","hours":{"_text":"Ivercauld Road, Braemar. Bar opening hours Free coffee and tea for Braemar residents."},"title":"Farquharsons Bar and Kitchen"},"type":"Feature"}
-	]
-}
+{}

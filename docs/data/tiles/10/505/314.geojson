@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.33476,56.79491],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"15 Mid Street, Johnshaven. Open Tuesdays 10am to midday.","hours":{"_text":"15 Mid Street, Johnshaven. Open Tuesdays 10am to midday.","opening":"Tu 10:00-12:00"},"title":"Community Cafe Johnshaven"},"type":"Feature"}
-	]
-}
+{}

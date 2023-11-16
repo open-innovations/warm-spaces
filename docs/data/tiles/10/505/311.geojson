@@ -1,9 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.31207,57.33566],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Warm, free welcoming space for all. Every Monday - Wednesday 11am - 4pm. Tea, coffee, Biscuits, kids corner, tables, comfy chairs and Wifi.","hours":{"_text":"Warm, free welcoming space for all. Every Monday - Wednesday 11am - 4pm. Tea, coffee, Biscuits, kids corner, tables, comfy chairs and Wifi.","opening":"Mo-We 11:00-16:00"},"title":"Meldrum Parish Church Warm Space"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.18235,57.33748],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"The Medan Centre Quarry Room 14 Oldmeldrum Road Pitmedden","hours":{"_text":"The Medan Centre Quarry Room 14 Oldmeldrum Road Pitmedden"},"title":"Udny Community Trust Open Doors"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.18232,57.33745],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"14 Oldmeldrum Rd, Pitmedden, Ellon AB41 7AG Open Tuesdays 2pm - 4.30pm. Closed until 24th January. Hot drinks, Games & Newspapers","hours":{"_text":"14 Oldmeldrum Rd, Pitmedden, Ellon AB41 7AG Open Tuesdays 2pm - 4.30pm. Closed until 24th January. Hot drinks, Games & Newspapers","opening":"Tu 14:00-16:30"},"title":"Open Doors - The Medan Centre, Pitmedden"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.19406,57.51311],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Sunday 10am-1.30pm","hours":{"_text":"Sunday 10am-1.30pm","opening":"Su 10:00-13:30"},"title":"St Kanes Church Centre Cosy Cafe"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.18290,57.33772],"type":"Point"},"properties":{"_source":"aberdeenshire_council","hours":{"_text":""},"title":"Open Doors: The Medan Centre\n14 Oldmeldrum Road\nPitmedden AB41 7AG. Free hot drink and fine piece. The board games are out, craft supplies are out and toys and lego for the kids. We run Open Doors during the school term time only. We do not run Open Doors when the schools are on holidays."},"type":"Feature"}
 	]
 }

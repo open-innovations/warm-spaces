@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-6.89639,55.03233],"type":"Point"},"properties":{"_source":"warm_welcome","address":"142 Drumsurn Road, Limavady, Londonderry","description":"SPACE OPENING ON 14th November 2023** **Open from 21-11-23. Our space is ideal to work in, or enjoy some quiet space. We will not be running any programmes during warm welcome hours. However, if you need someone to chat to, our Chaplain will be on site, and you can request time with him.","hours":{"_text":"Tuesday: 10:00 - 13:00","opening":"Tu 10:00-13:00"},"title":"The Big House Ireland"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.94727,55.13753],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"394 Seacoast Road, Limavady, BT49 0LA","contact":"02877750803 or magilligancommunity@hotmail.com","description":"Tea and Coffee. Food available from community fridge.","hours":{"_text":"Monday to Friday 9.30am-11.30am","opening":"Mo-Fr 09:30-11:30"},"title":"Magilligan Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.70811,55.17119],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"185 Coleraine Road, Portstewart, BT55 7PL","title":"Flowerfield Arts Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-6.95240,55.05197],"type":"Point"},"properties":{"_source":"causeway_coast_and_glens_council","address":"Main Street, Limavady, BT49 0EL","title":"Roe Valley Arts Centre"},"type":"Feature"},

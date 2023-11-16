@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-72.60033,42.00217],"type":"Point"},"properties":{"_source":"warm_welcome","address":"66 Church Street, Enfield, London","description":"We cater for all For news on Library activities see our newsletter here: https://www.enfield.gov.uk/services/libraries/library-newsletter or check out our warm spaces info here: https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces","hours":{"_text":"Monday: 09:00 - 20:00, Tuesday: 09:00 - 20:00, Wednesday: 09:00 - 17:30, Thursday: 09:00 - 20:00, Friday: 09:00 - 17:30, Saturday: 09:00 - 17:30, Sunday: 12:00 - 16:00","opening":"Mo 09:00-20:00; Tu 09:00-20:00; We 09:00-17:30; Th 09:00-20:00; Fr 09:00-17:30; Sa 09:00-17:30; Su 12:00-16:00"},"title":"Enfield Town Library"},"type":"Feature"}
+	]
+}

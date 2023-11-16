@@ -1,8 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.70113,57.23181],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Wednesday: 11:00 - 02:00","opening":"We 11:00-02:00"},"title":"Friendship Cafe"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.70329,57.23315],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"St Andrews Episopal Church. Main St, Alford, AB33 8PX Wednesdays 11am - 2pm Hot drinks, board games, Soup 12-1pm","hours":{"_text":"St Andrews Episopal Church. Main St, Alford, AB33 8PX Wednesdays 11am - 2pm Hot drinks, board games, Soup 12-1pm","opening":"We 11:00-14:00"},"title":"St Andrews Episopal Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.69470,57.23076],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"Thurs 3.30pm-6.30pm. Hot & cold drinks/biscuits. Hot food from 5-6 pm, burger/sausages in rolls","hours":{"_text":"Thurs 3.30pm-6.30pm. Hot & cold drinks/biscuits. Hot food from 5-6 pm, burger/sausages in rolls","opening":"Th 15:30-18:30"},"title":"Howe Trinity Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.70113,57.23181],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Wednesday: 11:00 - 02:00","opening":"We 11:00-02:00"},"title":"Friendship Cafe"},"type":"Feature"}
 	]
 }
