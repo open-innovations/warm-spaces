@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.15491,57.89825],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ullapool CoS Parish Hub, Ross-shire IV26 2UN","description":"A warm space offering free soup, home baking, teas and coffees. Every Friday from 12-2pm","hours":{"_text":"Friday: 12:00 - 14:00","opening":"Fr 12:00-14:00"},"title":"Warm&Cozy"},"type":"Feature"}
+	]
+}
