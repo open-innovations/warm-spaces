@@ -89,17 +89,20 @@
 	<script>
 	function loadBlock(i,block){
 		let html = block.innerHTML;
+		let file = "";
 		html = html.replace(/\{\% include_relative (.*\.[a-zA-Z]*) \%\}/g,function(m,p1){
 			file = p1;
 			return "<div id=\"jekyll-"+i+"\"></div>";
 		});
 		block.innerHTML = html;
-		fetch(file,{'i':i})
-		.then(response => { return response.text(); })
-		.then(text => {
-			document.getElementById('jekyll-'+i).outerHTML = text;
-		}).catch(error => {
-		});	
+		if(file){
+			fetch(file,{'i':i})
+			.then(response => { return response.text(); })
+			.then(text => {
+				document.getElementById('jekyll-'+i).outerHTML = text;
+			}).catch(error => {
+			});
+		}
 	}
 	var blocks = document.getElementsByClassName('jekyll-parse');
 	for(var i = 0; i < blocks.length; i++) loadBlock(i,blocks[i]);
