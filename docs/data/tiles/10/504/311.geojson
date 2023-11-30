@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.61870,57.35184],"type":"Point"},"properties":{"_source":"aberdeenshire_council","title":"Bennachie Leisure Centre, Bennachie Leisure Centre, Largie Rod, Insch, Aberdeenshire AB52 6LT. Our community cafe is a place to sit and meet people. We offer free Wi-Fi. Mon- Thurs 9am to 9pm, Fri 9am to 6pm, Sat 9am to 2pm. Closed from Saturday 24th December 2023. Reopening on Thursday 4th Jan 2024."},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.78250,57.44673],"type":"Point"},"properties":{"_source":"aberdeenshire_council","title":"Strathbogie Drumblade Church Friendship Club: Cuppa and piece, games Tuesday 2-4 pm all ages welcome."},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.61881,57.35203],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Bennachie Leisure Centre, Largie Rod, Insch, Aberdeenshire, AB52 6LT Hours: Mon- Thurs 9am to 9pm, Fri 9am to 6pm, Sat 9am to 2 pm. Closed from Saturday 24th December. Reopening on Thursday 4th Jan","hours":{"_text":"name: Bennachie Leisure Centre, Largie Rod, Insch, Aberdeenshire, AB52 6LT Hours: Mon- Thurs 9am to 9pm, Fri 9am to 6pm, Sat 9am to 2 pm. Closed from Saturday 24th December. Reopening on Thursday 4th Jan","opening":"Mo-Th 09:00-21:00; Fr 09:00-18:00; Sa 09:00-14:00"},"title":"Our community cafe is a place to sit and meet people. We offer free Wi-Fi"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.78201,57.44654],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Friendship Club, Strathbogie, Drumblade Kirk Hall, AB54 8DX Hours: Tuesday 2-4pm","hours":{"_text":"name: Friendship Club, Strathbogie, Drumblade Kirk Hall, AB54 8DX Hours: Tuesday 2-4pm","opening":"Tu 14:00-16:00"},"title":"Hot drinks, a piece and games"},"type":"Feature"}
 	]
 }

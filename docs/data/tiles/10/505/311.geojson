@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.18290,57.33772],"type":"Point"},"properties":{"_source":"aberdeenshire_council","hours":{"_text":""},"title":"Open Doors: The Medan Centre\n14 Oldmeldrum Road\nPitmedden AB41 7AG. Free hot drink and fine piece. The board games are out, craft supplies are out and toys and lego for the kids. We run Open Doors during the school term time only. We do not run Open Doors when the schools are on holidays."},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.18293,57.33778],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Open Doors, The Medan Centre, 14 Oldmeldrum Road, Pitmedden, AB41 7AG Hours: We run Open Doors during the school term time only","hours":{"_text":"name: Open Doors, The Medan Centre, 14 Oldmeldrum Road, Pitmedden, AB41 7AG Hours: We run Open Doors during the school term time only"},"title":"Free hot drink and fine piece. The board games are out, craft supplies are out and toys and Lego for the kids."},"type":"Feature"}
 	]
 }

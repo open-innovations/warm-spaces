@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.79433,57.07495],"type":"Point"},"properties":{"_source":"aberdeenshire_council","title":"Aboyne Social Space: Aboyne Library (within Aboyne Academy), Bridgeview Road, Aboyne. Free and welcome to all. Coffee tea, cakes, board games, laughs and conversation. Open every Friday 10-12 noon"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.79434,57.07519],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","hours":{"_text":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","opening":"Fr 10:00-12:00"},"title":"Friendly warm environment\nSafe place\nWarm foods, soups/stews etc\nRefreshments\nWi-fi\nBooks/reading materials and games\nGood company"},"type":"Feature"}
 	]
 }

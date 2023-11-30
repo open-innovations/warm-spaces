@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.63935,53.48475],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Thomas' Church Hall, Lancashire WN4 9PL","description":"Church hall open for hot drinks, magazines, board games and friendly company Also opportunities to shop at the Pantry","hours":{"_text":"Thursday: 14:30 - 16:00, Sunday: 14:30 - 16:00","opening":"Th 14:30-16:00; Su 14:30-16:00"},"title":"Ashton Pantry"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.60562,53.40673],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bewsey & Dallam Community Hub, Cheshire WA5 0DY","description":"Public Library open to all","hours":{"_text":"Thursday: 10:00 - 12:00","opening":"Th 10:00-12:00"},"title":"Bewsey and Dallam Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.52947,53.41671],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Birchwood Leisure & Tennis Complex, Cheshire WA3 7PT","description":"Public Library open to all","hours":{"_text":"Tuesday: 15:30 - 17:30","opening":"Tu 15:30-17:30"},"title":"Birchwood Community Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.65628,53.43028],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Burtonwood Library, Warrington, Cheshire WA5 4PS","description":"Public Library open to all","hours":{"_text":"Wednesday: 15:00 - 17:00","opening":"We 15:00-17:00"},"title":"Burtonwood Library and Post Office"},"type":"Feature"},

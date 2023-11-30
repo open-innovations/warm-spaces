@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.05043,57.07968],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Paper Shop Bakery, Inverness-shire PH21 1HP","description":"You're welcome to come and enjoy the warmth from the ovens at our bakery","hours":{"_text":"Tuesday: 09:00 - 18:00, Wednesday: 09:00 - 18:00, Thursday: 09:00 - 18:00, Friday: 09:00 - 21:00, Saturday: 09:00 - 21:00","opening":"Tu 09:00-18:00; We 09:00-18:00; Th 09:00-18:00; Fr 09:00-21:00; Sa 09:00-21:00"},"title":"The Paper Shop Bakery"},"type":"Feature"}
+	]
+}
