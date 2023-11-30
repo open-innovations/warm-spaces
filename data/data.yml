@@ -408,6 +408,8 @@ directories:
     url: "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
     notes: "Links to a PDF and Warm Welcome UK"
   - title: "Cheshire East Council"
+    inactive: 2023-11-29
+    notes: Now provided as a password-protected Sharepoint link
     url: "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
     data:
       - url: "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360"
@@ -475,7 +477,9 @@ directories:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
       type: html
   - title: "Croydon Council"
-    url: "https://www.croydon.gov.uk/warm-spaces-directory"
+    inactive: 2023-11-30
+    notes: "Has been removed"
+    url: "https://www.croydon.gov.uk/community-and-safety/warm-spaces"
     map:
       url: "https://www.croydon.gov.uk/warm-spaces-directory"
       type: leaflet
@@ -484,8 +488,10 @@ directories:
       type: html
   - title: "Croydon Simply Connect"
     url: "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
+    register:
+      url: https://forms.office.com/r/iBHN1rt1HE
     data: 
-      url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
+      url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=Warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
   - title: "Cumbria Council"
     inactive: 2023-04-01
@@ -1245,6 +1251,8 @@ directories:
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
   - title: "Peterborough Council"
+    inactive: 2023-11-30
+    notes: "They have removed their winter support hubs and now have Cost of Living Support Hubs which may or may not be a warm space"
     url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
     data:
       url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
@@ -1458,6 +1466,8 @@ directories:
       url: "https://www.staffordbc.gov.uk/warm-spaces"
       type: html
   - title: "Staffordshire Fire and Rescue"
+    inactive: 2023-11-30
+    notes: "Has been removed"
     url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
     data:
       url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
