@@ -28,7 +28,7 @@ if(-e $file){
 	if($str =~ s/("places":\[.*\]\}\])//s){
 		$json = JSON::XS->new->decode("{".$1."}");
 		for($i = 0; $i < @{$json->{'places'}}; $i++){
-			if($json->{'places'}[$i]{'categories'}[0]{'name'} eq "Warm Spaces"){
+			if($json->{'places'}[$i]{'categories'}[0]{'name'} eq "Warm Welcome Spaces"){
 				$d = {
 					'address'=>$json->{'places'}[$i]{'address'},
 					'title'=>$json->{'places'}[$i]{'title'},

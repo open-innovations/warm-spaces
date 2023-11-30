@@ -434,7 +434,7 @@ directories:
   - title: "Chorley Council"
     url: "https://chorley.gov.uk/welcomespaces"
     data:
-      url: "https://chorley.gov.uk/welcomespaces"
+      url: "https://chorley.gov.uk/warmspaces"
       type: html
   - title: "City of London"
     url: "https://news.cityoflondon.gov.uk/libraries-offer-a-warm-space-to-city-residents-this-winter/"
@@ -867,6 +867,8 @@ directories:
       - url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
         type: html
   - title: "Horsham District"
+    notes: Website no longer exists
+    inactive: 2023-11-23
     url: "https://www.horshamdistrictwarmspaces.com/"
     data:
       - url: "https://www.horshamdistrictwarmspaces.com/horsham"
@@ -926,6 +928,8 @@ directories:
       url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
       type: html
   - title: "Kensington and Chelsea"
+    notes: The map is no longer accessible
+    inactive: 2023-11-23
     url: "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
     map:
       url: "https://lbhf.maps.arcgis.com/apps/instant/nearby/index.html?appid=e7e3050fbb8e49b79b5743bf17b9c720&sliderDistance=400&findSource=1&find=-23824.558013193524%252C6713243.6715945285"
@@ -1749,6 +1753,7 @@ directories:
     register:
       url: "https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/"
   - title: "Wolverhampton Council"
+    notes: Now split across three separate lists (libraries, community centres, and family hubs) all with different levels of information
     url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
     data:
       url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
