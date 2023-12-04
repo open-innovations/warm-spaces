@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.51512,54.52174],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Cleator Moor Activity Centre, Cumbria ca25 5AN","description":"We would like to be able to provide a warm space for people to come and sit, enjoy company, play games and take part in some activities in the centre. We will provide activities like Bowling, Boccia, board games and ping pong. Our Warm Spot will be open to everyone, however we want to add a focus onto young families by creating a free soft play area- we believe this is a gap in the warm spots market as most are advertised for older generations. Our Better health team will attend for anyone who wants a basic health check (BMI/ Blood pressure). This will help people feel empowered around their own health- we will be able to answer questions on exercise and healthy living.","hours":{"_text":"Monday: 14:00 - 16:00","opening":"Mo 14:00-16:00"},"title":"Cleator Moor Activity Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.49314,54.53721],"type":"Point"},"properties":{"_source":"warm_welcome","address":"36 MainStreet, Frizington, Cumbria","description":"Drop In for a warm drinks, snacks and a chat.","hours":{"_text":"Thursday: 10:30 - 12:30","opening":"Th 10:30-12:30"},"title":"Frizington Methodist Church"},"type":"Feature"}
 	]
 }
