@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.06218,56.15969],"type":"Point"},"properties":{"_source":"fife_council","address":"79 Main Street, East Wemyss Fife KY1 4RQ","contact":"Tel: ; Email:","description":"East Wemyss Community Access for Everyone","hours":{"_text":"Monday tbc; Tuesday tbc; Wednesday tbc; Thursday tbc; Friday tbc; Saturday ; Sunday"},"name":"East Wemyss Senior Citizens Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.09116,56.15061],"type":"Point"},"properties":{"_source":"fife_council","address":"Mains Street, Coaltown of Wemyss, Kirkcaldy, FIfe, KY1 4NS","contact":"Tel: ; Email: coaltownofwemysscc@outlook.com","description":"A warm accessible comfortable inviting place to to get together to share a healthy meal, hot drink. Opportunities to meet new people, socialise with their friends and learn a new skill/get involved in an activity","hours":{"_text":"Monday ; Tuesday ; Wednesday ; Thursday 12 - 2 pm ; Friday ; Saturday ; Sunday","opening":"Th 12:00-14:00"},"name":"Wemyss Warm Welcome Inn at Coaltown of Wemyss Bowling Club"},"type":"Feature"}
+	]
+}

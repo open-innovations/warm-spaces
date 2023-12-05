@@ -1,8 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.82469,54.85179],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"36 Pound Street, Larne, Co. Antrim, BT40 1SQ;","contact":"T: 028 2827 7047; E: larne.library@librraiesni.org.uk;","description":"Tea and newspapers - Every Tuesday 11am","hours":{"_text":"Monday:, 10am - 5pm, Tuesday:, 10am - 5pm, Wednesday:, 10am - 5pm, Thursday:, 2pm - 8pm, Friday:, 10am - 5pm, Saturday:, 10am - 4pm","opening":"Mo 10:00-17:00; Tu 10:00-17:00; We 10:00-17:00; Th 14:00-20:00; Fr 10:00-17:00; Sa 10:00-16:00"},"loc_pcd":true,"title":"Larne Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.84080,54.85234],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"(the Point) 1-5 Doric Way,, Larne, BT402BH;","contact":"Laura Rice; T: 028 2827 3362;","description":"Various activities, with food and refreshments.","hours":{"_text":"Starting Monday 13 March 2023 plus the following dates:"},"loc_pcd":true,"title":"Larne Community Care Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.84037,54.86234],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"241 Linn Road, Larne, Co Antrim, BT40 2AH;","contact":"E: Deborah@larnecdp.org.uk","description":"Various activities, speakers, tea/coffee soup","hours":{"_text":"Monday 9 January 2023 – 27 March 2023"},"loc_pcd":true,"title":"Linn Road Community Centre"},"type":"Feature"}
-	]
-}
+{}

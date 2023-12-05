@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[53.58653,-2.44489],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Last allotments. Opp. Bolton rugby club, Bolton, Greater Manchester Bl1 3aw","description":"We only cater for disabled/learning disabilities It is an allotment,we grow veg/flowers","hours":{"_text":"Monday: 11:00 - 14:00, Tuesday: 11:00 - 14:00, Wednesday: 11:00 - 14:00, Thursday: 11:00 - 14:00, Friday: 11:00 - 14:00","opening":"Mo 11:00-14:00; Tu 11:00-14:00; We 11:00-14:00; Th 11:00-14:00; Fr 11:00-14:00"},"title":"Good companions Bolton"},"type":"Feature"}
+	]
+}
