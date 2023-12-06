@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.85968,54.89853],"type":"Point"},"properties":{"_source":"mid_and_east_antrim_council","address":"Ballygally Hall, 264 Coast Road, Ballygally, Larne, BT40 2QX;","contact":"Contact: Hall Manager, Ballygally Hall; E: bcdaltd@btconnect.com, T: 028 2858 1050;","description":"The Committee Room in Ballygally Hall will be made available to local residents on Wednesday afternoons on selected dates in January and February from 3pm to 5pm.","hours":{"_text":"Wednesdays:"},"loc_pcd":true},"type":"Feature"}
+	]
+}

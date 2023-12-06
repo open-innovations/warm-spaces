@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[77.32788,28.68367],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Antony's Church, , Surrey CR2T 9ET","description":"SPACE OPENING ON 6th December 2023** The space is open to all every Wednesday between 11.00 & 15.00","hours":{"_text":"Wednesday: 11:00 - 15:00","opening":"We 11:00-15:00"},"title":"St Antony's Church."},"type":"Feature"}
+	]
+}
