@@ -21,8 +21,15 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'table[class="responsive"] tbody tr', "warmspaces[]" => scraper {
-			process 'td', 'td[]' => 'HTML';
+		process '.results-list li', "warmspaces[]" => scraper {
+			process 'h3', 'title' => 'TEXT';
+			process 'h3 a', 'url' => '@HREF';
+			process '.service_date_displaydate', 'hours' => 'TEXT';
+			process 'div.mb-3', 'description' => 'TEXT';
+			process '.footer .btn', 'btn[]' => scraper {
+				process '*', 'href' => '@HREF';
+				process '*', 'txt' => 'TEXT';
+			};
 		};
 	};
 
@@ -32,25 +39,34 @@ if(-e $file){
 
 	# Loop over warmspaces processing the <li> values
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+
 		$d = $res->{'warmspaces'}[$i];
-		$td = @{$d->{'td'}};
-		if($td > 0){
-			$d->{'td'}[0] =~ s/[\n\r]//g;
-
-			if($d->{'td'}[0] =~ /<a[^\>]*href="([^\"]+)"[^\>]*>(.*?)<\/a>/){
-				$d->{'url'} = $1;
-				$d->{'title'} = $2;
-			}else{
-				$d->{'title'} = parseText($d->{'td'}[0]);
+		$btn = @{$d->{'btn'}};
+		if($btn > 0){
+			
+			for($b = 0; $b < $btn; $b++){
+				if($d->{'btn'}[$b]{'href'} =~ s/mailto\://i){
+					$d->{'contact'} .= ($d->{'contact'} ? ", ":"")."Email: ".$d->{'btn'}[$b]{'href'};
+				}
+				if($d->{'btn'}[$b]{'href'} =~ s/tel\://i){
+					$d->{'contact'} .= ($d->{'contact'} ? ", ":"")."Tel: ".parseText($d->{'btn'}[$b]{'txt'});
+				}
+				if($d->{'btn'}[$b]{'href'} =~ s/maps//i){
+					$d->{'address'} = parseText($d->{'btn'}[$b]{'txt'});
+				}
+				if($d->{'btn'}[$b]{'txt'} =~ /Website/i){
+					$d->{'url'} = $d->{'btn'}[$b]{'href'};
+				}
+			}
+			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'hours'}});
+			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+			
+			if($d->{'url'} !~ /^http/){
+				$d->{'url'} = "https://findyour.islington.gov.uk/".$d->{'url'};
 			}
 
-			$d->{'td'}[1] =~ s/[^A-Za-z0-9 ]//g;
-			if($d->{'td'}[1]){
-				$d->{'address'} = $d->{'td'}[1];
-			}
-
-			# Remove the <li> entry
-			delete $d->{'td'};
+			# Remove the buttons
+			delete $d->{'btn'};
 
 			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));

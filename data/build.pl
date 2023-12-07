@@ -215,8 +215,15 @@ sub processDirectories {
 	print $fh tidyJSON($sources,2);
 	close($fh);
 
+#	$ts = strftime("%A %e %B %I:%M %p",localtime);
+	$ts = "<time datetime=\"".strftime("%FT%X%z", localtime)."\">".strftime("%A %e %B %I:%M %p", localtime)."</time>";
+	$ts =~ s/ 0([0-9])/ $1/g;
+	$ts =~ s/ AM/ am/g;
+	$ts =~ s/ PM/ pm/g;
+	$ts =~ s/:00 / /g;
+
 	open($fh,">:utf8",$dir."summary.html");
-	print $fh "<p>As of <time datetime=\"".strftime("%FT%X%z", localtime)."\">".strftime("%e %B %Y (%R)", localtime)."</time>.</p>\n";
+	print $fh "<p>As of $ts.</p>\n";
 	print $fh "<table>\n";
 	print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th><th>Notes</th></thead></tr>\n";
 	print $fh "<tbody>\n";
@@ -234,6 +241,9 @@ sub processDirectories {
 	close($fh);
 	open($fh,">:utf8",$dir."ngeocoded.txt");
 	print $fh "$totalgeocoded";
+	close($fh);
+	open($fh,">:utf8",$dir."lastupdated.txt");
+	print $fh $ts;
 	close($fh);
 }
 
@@ -898,13 +908,12 @@ sub getWPGeoDir {
 			$file = $rawdir.$d->{'id'}."-marker-$json->{'items'}[$f]{'m'}.json";
 			getURLToFile($url,$file);
 			$jsonmarker = getJSON($file);
-			
+	
 			# Get any properties of the form "Property: blah</div>"
 			while($jsonmarker->{'html'} =~ />([^\:\>\<]+)\:(.*?)<\/div>/){
 				$props->{$1} = parseText($2);
 				$jsonmarker->{'html'} =~ s/>([^\:]+)\:(.*?)<\/div>//;
 			}
-
 			if($d->{'data'}[$i]{'keys'}){
 
 				# Replace any replacements in the $props structure and add them to the $entry structure

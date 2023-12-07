@@ -565,11 +565,11 @@ directories:
       url: "https://www.google.com/maps/d/embed?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9"
       type: googlemap
       keys:
-        title: "name"
-        address: "{{ Cyfeiriad }}, {{ Côd Post }}"
-        contact: "Tel: {{ Rhif Ffôn }}; Email: {{ E-bost }}"
-        hours: "Dyddiau ac Oriau agor"
-        description: "Beth fydd ar gael yn rhan o’ch “Croeso Cynnes”"
+        title: "Enw'r Adeilad / Premices Name"
+        address: "{{ Cyfeiriad / Address }}, {{ Côd Post / Post Code }}"
+        contact: "Tel: {{ Rhif Ffôn / Phone Number }}; Email: {{ E-bost / Email }}"
+        hours: "Dyddiau ac Oriau agor / Opening Days and Times"
+        description: "Beth fydd ar gael yn rhan o’ch “Croeso Cynnes”?"
   - title: "Derbyshire Council"
     url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/keep-warm-in-winter.aspx"
     notes: "In 2022/3 it was too unstructured to parse"
@@ -931,7 +931,7 @@ directories:
   - title: "Islington Council"
     url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
     data:
-      url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
+      url: "https://findyour.islington.gov.uk/kb5/islington/directory/results.page?communitychannelnew=15"
       type: html
   - title: "Kensington and Chelsea"
     notes: The map is no longer accessible
