@@ -17,8 +17,8 @@
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 17,
-		"geocount": 17,
+		"count": 18,
+		"geocount": 18,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 176,
-		"geocount": 175,
+		"count": 175,
+		"geocount": 174,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -444,8 +444,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 57,
-		"geocount": "0",
+		"count": 58,
+		"geocount": 58,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -742,8 +742,8 @@
 		"url": "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
 	},
 	"islington_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 26,
+		"geocount": 26,
 		"id": "islington_council",
 		"title": "Islington Council",
 		"url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
@@ -782,8 +782,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 127,
-		"geocount": 127,
+		"count": 128,
+		"geocount": 128,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -822,8 +822,8 @@
 		"url": "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
 	},
 	"lewisham_local": {
-		"count": "0",
-		"geocount": "0",
+		"count": 53,
+		"geocount": 53,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -1307,8 +1307,8 @@
 		"url": "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 28,
-		"geocount": 28,
+		"count": 22,
+		"geocount": 22,
 		"id": "vale_of_glamorgan_council",
 		"map": { "type": "astuntechnology", "url": "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title": "Vale of Glamorgan Council",
@@ -1323,8 +1323,8 @@
 		"url": "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
 	},
 	"wandsworth_council": {
-		"count": 37,
-		"geocount": 37,
+		"count": 34,
+		"geocount": 34,
 		"id": "wandsworth_council",
 		"map": { "type": "leaflet", "url": "https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url": "https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2976,
-		"geocount": 2976,
+		"count": 2996,
+		"geocount": 2996,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 87,
-		"geocount": 87,
+		"count": 86,
+		"geocount": 86,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
@@ -1383,8 +1383,8 @@
 		"url": "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 77,
-		"geocount": 73,
+		"count": 79,
+		"geocount": 75,
 		"id": "west_northamptonshire",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url": "https://forms.office.com/r/EHJpfj9uCF" },
