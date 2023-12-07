@@ -215,10 +215,9 @@
 				}
 			}
 			this.list.innerHTML = html;
-			
 			opts.el.appendChild(this.list);
 
-			this.loader.innerHTML = '';
+			this.loader.innerHTML = '<div class="warning padded">These results are compiled automatically from <a href="directories">various directories</a> which may have errors or be out-of-date.</div>';
 			this.key.style.display = "block";
 			
 			return this;
