@@ -584,6 +584,18 @@ sub getArcGIS {
 					($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lat'},$json->{'lon'});
 				}
 			}
+			if($json->{'contact'}){
+				$json->{'contact'} =~ s/(, )?Email: ?$//g;
+				$json->{'contact'} =~ s/Tel: ?$//g;
+			}
+
+			delete $json->{'monday'};
+			delete $json->{'tuesday'};
+			delete $json->{'wednesday'};
+			delete $json->{'thursday'};
+			delete $json->{'friday'};
+			delete $json->{'saturday'};
+			delete $json->{'sunday'};
 
 			push(@features,$json);
 		}

@@ -175,6 +175,7 @@
 
 			html = '';
 			var nopen = 0;
+			console.log(this.sorted);
 			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
 				p = this.sorted[i].properties;
 				d = formatDistance(this.sorted[i].distance,accuracy);
@@ -201,6 +202,10 @@
 						if(p.description) html += '<p><strong>Notes:</strong> '+p.description+'</p>';
 						if(p.hours && p.hours._text){
 							html += (hours.times ? '<p class="times"><strong>Opening hours (parsed):</strong></p>'+hours.times : '')+(p.hours._text ? '<p class="times"><strong>Opening hours (original text):</strong></p><p>'+p.hours._text+'</p>' : '');
+						}
+						if(p.contact){
+							p.contact = p.contact.replace(/\, ([^\:]{1,}\: ?)/g,function(m,p1){ return '<br />'+p1; }).replace(/([A-Za-z]+\:)/g,function(m,p1){ return '<em>'+p1+'</em>'; });
+							html += '<p class="contact"><strong>Contact:</strong><br />'+p.contact+'</p>';
 						}
 						html += '</div>';
 						html += '</div>';
