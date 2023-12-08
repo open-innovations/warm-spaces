@@ -52,8 +52,8 @@
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"banbury_town_council": {
-		"count": 16,
-		"geocount": 16,
+		"count": "0",
+		"geocount": "0",
 		"id": "banbury_town_council",
 		"title": "Banbury Town Council",
 		"url": ""
@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 175,
-		"geocount": 174,
+		"count": 174,
+		"geocount": 173,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -1009,8 +1009,8 @@
 		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
 	},
 	"plymouth_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": 46,
+		"geocount": 46,
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1172,16 +1172,16 @@
 		"url": "https://sparksomerset.org.uk/warm-welcome"
 	},
 	"st_helens_council": {
-		"count": 36,
-		"geocount": 33,
+		"count": 38,
+		"geocount": 35,
 		"id": "st_helens_council",
 		"register": { "url": "https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title": "St Helens Council",
 		"url": "https://sthelens.gov.uk/warmspaces"
 	},
 	"stafford_borough_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 7,
+		"geocount": 7,
 		"id": "stafford_borough_council",
 		"notes": "No longer provide a directory",
 		"register": "mailto:warmspaces@staffordbc.gov.uk",
@@ -1257,8 +1257,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 68,
-		"geocount": 68,
+		"count": 71,
+		"geocount": 71,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 2996,
-		"geocount": 2996,
+		"count": 3009,
+		"geocount": 3009,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
