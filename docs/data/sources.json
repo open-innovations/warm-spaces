@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 174,
-		"geocount": 173,
+		"count": 172,
+		"geocount": 171,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -1102,8 +1102,8 @@
 		"url": "https://www.sandwell.gov.uk/warmspaces"
 	},
 	"scarborough_council": {
-		"count": 1,
-		"geocount": 1,
+		"count": "0",
+		"geocount": "0",
 		"id": "scarborough_council",
 		"title": "Scarborough Council",
 		"url": "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3012,
-		"geocount": 3012,
+		"count": 3013,
+		"geocount": 3013,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
