@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 46,
+		"geocount": 46,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -59,8 +59,8 @@
 		"url": ""
 	},
 	"barnet_council": {
-		"count": 32,
-		"geocount": 32,
+		"count": "0",
+		"geocount": "0",
 		"id": "barnet_council",
 		"map": { "type": "leaflet", "url": "https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url": "https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -202,8 +202,8 @@
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 50,
+		"geocount": 50,
 		"id": "brighton___hove_council",
 		"map": { "type": "leaflet", "url": "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
 		"title": "Brighton & Hove Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -480,8 +480,8 @@
 		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 54,
-		"geocount": 54,
+		"count": 55,
+		"geocount": 55,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -1124,8 +1124,8 @@
 		"url": "https://seftoncvs.org.uk/warmspaces/"
 	},
 	"sevenoaks_council": {
-		"count": 21,
-		"geocount": 21,
+		"count": 22,
+		"geocount": 22,
 		"id": "sevenoaks_council",
 		"register": { "url": "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
 		"title": "Sevenoaks Council",
@@ -1265,15 +1265,15 @@
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count": 40,
-		"geocount": 39,
+		"count": 42,
+		"geocount": 41,
 		"id": "swindon_council",
 		"title": "Swindon Council",
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 25,
-		"geocount": 23,
+		"count": "0",
+		"geocount": "0",
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3013,
-		"geocount": 3013,
+		"count": 3033,
+		"geocount": 3033,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
