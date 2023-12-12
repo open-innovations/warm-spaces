@@ -21,7 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.fullcontainer.pad20 > table > tbody > tr', "warmspaces[]" => scraper {
+		process '.fullcontainer .infopage table > tbody > tr', "warmspaces[]" => scraper {
 			process 'td[valign="top"]', 'td[]' => 'HTML';
 		};
 	};

@@ -86,9 +86,9 @@ directories:
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
     notes: "Not enough location information"
   - title: "Banbury Town Council"
-    url: ""
+    url: "https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
     data:
-      url: "https://utility.arcgis.com/usrsvcs/servers/b7d5f2155be24760a744e241774bbb06/rest/services/Public_Map_Services/Cherwell_Public_Warm_Spaces/FeatureServer/0/query?f=json&cacheHint=true&resultOffset=0&resultRecordCount=1000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=27700&returnGeometry=false&spatialRel=esriSpatialRelIntersects"
+      url: "https://services8.arcgis.com/UQpattfmZaWDEU5y/arcgis/rest/services/Cherwell_Public_Warm_Spaces_TEST/FeatureServer/0/query?f=json&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=4000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=27700&spatialRel=esriSpatialRelIntersects"
       type: arcgis
       keys:
         title: Organisation
@@ -96,6 +96,7 @@ directories:
         contact: "{{ Key_contact }} Tel: {{ Telephone }} Email: {{ Email }}"
         hours: Opening_Times
         description: Facilities_Provided
+        url: Website
   - title: "Barnet Council"
     url: "https://www.barnet.gov.uk/directories/warm-spaces"
     register:
@@ -1354,6 +1355,8 @@ directories:
       url: "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces"
       type: html
   - title: "Scarborough Council"
+    inactive: 2023-12-12
+    notes: "No longer exists. Scarborough is now part of North Yorkshire council."
     url: "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
     data:
       url: "https://www.warmwelcome.info/v1/integrations/airtable/9f56f204-9490-4f1c-993c-c4b92576efe0/app92DO1AFEiaVhoQ/Events/records?block_id=5052426f-32d6-4ca8-82c2-5dc1d1e934e7"
