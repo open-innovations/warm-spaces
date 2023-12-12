@@ -762,7 +762,7 @@ directories:
   - title: "Gedling Council"
     url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
     data:
-      url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
+      url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
       type: html
   - title: "Glasgow Council"
     url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
