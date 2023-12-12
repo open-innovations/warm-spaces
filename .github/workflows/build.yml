@@ -52,7 +52,7 @@ jobs:
           git add data/imd.svg
           git add data/build.log
           git add docs/index.html
-          git add docs/lastupdated.txt
+          git add docs/data/lastupdated.txt
           git add docs/data/ndirs.txt
           git add docs/data/ngeocoded.txt
           git add docs/data/nspaces.txt
