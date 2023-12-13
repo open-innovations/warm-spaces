@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 46,
-		"geocount": 46,
+		"count": 47,
+		"geocount": 47,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -17,8 +17,8 @@
 		"url": "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 18,
-		"geocount": 18,
+		"count": 20,
+		"geocount": 20,
 		"id": "adur_and_worthing_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title": "Adur and Worthing Council",
@@ -125,16 +125,16 @@
 		"url": "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 240,
-		"geocount": 236,
+		"count": 243,
+		"geocount": 243,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
 		"url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": 27,
-		"geocount": 24,
+		"count": 26,
+		"geocount": 23,
 		"id": "bolton_at_home",
 		"title": "Bolton at Home",
 		"url": "https://www.boltonathome.org.uk/warm-spaces/"
@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 172,
-		"geocount": 171,
+		"count": 166,
+		"geocount": 165,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -480,8 +480,8 @@
 		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 56,
-		"geocount": 56,
+		"count": 57,
+		"geocount": 57,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -497,8 +497,8 @@
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id": "east_ayrshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
@@ -594,8 +594,8 @@
 		"url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
 	},
 	"gedling_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 36,
+		"geocount": 34,
 		"id": "gedling_council",
 		"title": "Gedling Council",
 		"url": "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
@@ -814,8 +814,8 @@
 		"url": "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 35,
+		"geocount": 35,
 		"id": "lewes_and_eastbourne_council",
 		"register": { "url": "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title": "Lewes and Eastbourne Council",
@@ -960,7 +960,7 @@
 		"url": "https://www.north-herts.gov.uk/warm-spaces"
 	},
 	"north_northamptonshire_council": {
-		"count": 47,
+		"count": 48,
 		"geocount": 47,
 		"id": "north_northamptonshire_council",
 		"notes": "Removed as of October 2023",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3043,
-		"geocount": 3043,
+		"count": 3069,
+		"geocount": 3069,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 88,
-		"geocount": 88,
+		"count": 89,
+		"geocount": 89,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
