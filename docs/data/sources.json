@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 166,
-		"geocount": 165,
+		"count": 162,
+		"geocount": 162,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -480,8 +480,8 @@
 		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 57,
-		"geocount": 57,
+		"count": 60,
+		"geocount": 60,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -586,8 +586,8 @@
 		"url": "https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 93,
-		"geocount": 89,
+		"count": 94,
+		"geocount": 90,
 		"id": "gateshead_council",
 		"map": { "type": "googlemap", "url": "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title": "Gateshead Council",
@@ -734,8 +734,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 51,
-		"geocount": 48,
+		"count": 52,
+		"geocount": 49,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
@@ -838,8 +838,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 4,
-		"geocount": 4,
+		"count": "0",
+		"geocount": "0",
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1227,8 +1227,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 48,
-		"geocount": 48,
+		"count": 49,
+		"geocount": 49,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3069,
-		"geocount": 3069,
+		"count": 3079,
+		"geocount": 3079,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
