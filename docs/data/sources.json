@@ -1,7 +1,7 @@
 {
 	"aberdeen_city_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 41,
+		"geocount": 41,
 		"id": "aberdeen_city_council",
 		"map": { "type": "googlemap", "url": "https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url": "mailto:warmspace@aberdeencity.gov.uk" },
@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 157,
-		"geocount": 157,
+		"count": 155,
+		"geocount": 155,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -497,8 +497,8 @@
 		"url": "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
 	},
 	"east_ayrshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 44,
+		"geocount": 44,
 		"id": "east_ayrshire_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9" },
 		"title": "East Ayrshire Council",
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 63,
-		"geocount": 54,
+		"count": 61,
+		"geocount": 53,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -720,8 +720,8 @@
 		"url": "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
 	},
 	"huntingdonshire_council": {
-		"count": 39,
-		"geocount": 39,
+		"count": 38,
+		"geocount": 38,
 		"id": "huntingdonshire_council",
 		"map": { "type": "googlemap", "url": "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/" },
 		"title": "Huntingdonshire Council",
@@ -851,8 +851,8 @@
 		"url": "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
 	},
 	"luton_council": {
-		"count": 14,
-		"geocount": 12,
+		"count": 13,
+		"geocount": 11,
 		"id": "luton_council",
 		"notes": "Has been removed and is due to update 'in the Autumn'.",
 		"title": "Luton Council",
@@ -1053,8 +1053,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 40,
+		"geocount": 40,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3114,
-		"geocount": 3114,
+		"count": 3118,
+		"geocount": 3118,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1359,8 +1359,8 @@
 		"url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count": 22,
-		"geocount": 22,
+		"count": 23,
+		"geocount": 23,
 		"id": "west_berkshire_council",
 		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },
