@@ -234,8 +234,8 @@
 		"url": "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 43,
+		"geocount": 43,
 		"id": "buckinghamshire_council",
 		"map": { "url": "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url": "https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -906,8 +906,8 @@
 		"url": "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 33,
+		"geocount": 33,
 		"id": "neath_port_talbot_council",
 		"register": { "url": "https://appsportal2.npt.gov.uk/businessaccount" },
 		"title": "Neath Port Talbot Council",
