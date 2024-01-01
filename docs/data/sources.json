@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 153,
-		"geocount": 153,
+		"count": 152,
+		"geocount": 152,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -243,8 +243,8 @@
 		"url": "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": "0",
+		"geocount": "0",
 		"id": "burnley_council",
 		"map": { "type": "googlemap", "url": "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"title": "Burnley Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -906,8 +906,8 @@
 		"url": "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 49,
+		"geocount": 49,
 		"id": "neath_port_talbot_council",
 		"register": { "url": "https://appsportal2.npt.gov.uk/businessaccount" },
 		"title": "Neath Port Talbot Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3128,
-		"geocount": 3128,
+		"count": 3131,
+		"geocount": 3131,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
