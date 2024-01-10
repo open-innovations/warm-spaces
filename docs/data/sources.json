@@ -363,8 +363,8 @@
 		"url": "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
 	},
 	"chesterfield_council": {
-		"count": 32,
-		"geocount": 32,
+		"count": "0",
+		"geocount": "0",
 		"id": "chesterfield_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13" },
 		"title": "Chesterfield Council",
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 32,
-		"geocount": 23,
+		"count": 34,
+		"geocount": 24,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1272,8 +1272,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 26,
-		"geocount": 23,
+		"count": 27,
+		"geocount": 24,
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3248,
-		"geocount": 3248,
+		"count": 3267,
+		"geocount": 3267,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },

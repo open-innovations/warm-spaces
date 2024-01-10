@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.54393,52.71496],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Admaston Methodist Church, Telford, Shropshire TF5 0AH","description":"Open to all . Limited parking outside , available close by . Open Mondays 10.30 to 12.30.","hours":{"_text":"Monday: 10:30 - 12:30","opening":"Mo 10:30-12:30"},"title":"Admaston Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.73639,52.73828],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Harlescott Grange Community Hub, Shrewsbury, Shropshire SY1 3JR","description":"Free bacon butties and cake 10-12 Free hot choc and doughnuts 3.30-4.30 Everyone welcome","hours":{"_text":"Thursday: 10:00 - 04:30, Sunday: 10:00 - 13:00","opening":"Th 10:00-04:30; Su 10:00-13:00"},"title":"Drop in grace church @ Harlescott Grange community hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.75130,52.70664],"type":"Point"},"properties":{"_source":"warm_welcome","address":"70 High Street, Madeley, Telford, Shropshire","description":"We will be providing tea, coffee, biscuits, hot soup and roll, friut, newspapers, and board games","hours":{"_text":"Monday: 10:00 - 14:00","opening":"Mo 10:00-14:00"},"title":"Welcoming Space"},"type":"Feature"}
 	]
