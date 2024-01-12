@@ -52,8 +52,8 @@
 		"url": "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"banbury_town_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 46,
+		"geocount": 46,
 		"id": "banbury_town_council",
 		"title": "Banbury Town Council",
 		"url": "https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 34,
-		"geocount": 24,
+		"count": 33,
+		"geocount": 23,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1009,8 +1009,8 @@
 		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
 	},
 	"plymouth_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": 55,
+		"geocount": 53,
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1053,8 +1053,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory" },
 		"title": "Richmond upon Thames Council",
@@ -1180,8 +1180,8 @@
 		"url": "https://sthelens.gov.uk/warmspaces"
 	},
 	"stafford_borough_council": {
-		"count": 7,
-		"geocount": 7,
+		"count": 10,
+		"geocount": 9,
 		"id": "stafford_borough_council",
 		"notes": "No longer provide a directory",
 		"register": "mailto:warmspaces@staffordbc.gov.uk",
@@ -1227,8 +1227,8 @@
 		"url": "https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 49,
-		"geocount": 49,
+		"count": 50,
+		"geocount": 50,
 		"id": "suffolk_-_rural_coffee_caravan",
 		"map": { "type": "googlemap", "url": "https://ruralcoffeecaravan.org.uk/map/" },
 		"title": "Suffolk - Rural Coffee Caravan",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3282,
-		"geocount": 3282,
+		"count": 3290,
+		"geocount": 3290,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 103,
-		"geocount": 103,
+		"count": 106,
+		"geocount": 106,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
