@@ -423,10 +423,10 @@ directories:
   - title: "Chesterfield Council"
     url: "https://www.chesterfield.gov.uk/home/latest-news/find-a-warm-space-to-visit-in-chesterfield.aspx"
     map:
-      url: "https://www.google.com/maps/d/u/0/viewer?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13"
+      url: "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/u/0/embed?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13"
+      url: "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12"
       type: googlemap
       keys:
         title: "name"
@@ -783,10 +783,10 @@ directories:
   - title: "Greenwich Council"
     url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
     map:
-      url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
+      url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
       type: googlemap
     data:
-      url: "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich"
+      url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
       type: html
   - title: "Hackney Council"
     url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
