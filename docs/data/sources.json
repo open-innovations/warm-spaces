@@ -161,8 +161,8 @@
 		"url": "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
 	},
 	"bradford_council": {
-		"count": 200,
-		"geocount": 200,
+		"count": 199,
+		"geocount": 199,
 		"id": "bradford_council",
 		"map": { "type": "googlemap", "url": "https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title": "Bradford Council",
@@ -310,8 +310,8 @@
 		"url": "https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count": 65,
-		"geocount": 60,
+		"count": 64,
+		"geocount": 59,
 		"id": "central_bedfordshire_council",
 		"title": "Central Bedfordshire Council",
 		"url": "https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -363,10 +363,10 @@
 		"url": "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
 	},
 	"chesterfield_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 25,
+		"geocount": 25,
 		"id": "chesterfield_council",
-		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?mid=1KkfzxdLSd2nHiPsI6_xkcU7EBOjFmb0&ll=53.24318292347753%2C-1.4144078500000035&z=13" },
+		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title": "Chesterfield Council",
 		"url": "https://www.chesterfield.gov.uk/home/latest-news/find-a-warm-space-to-visit-in-chesterfield.aspx"
 	},
@@ -480,8 +480,8 @@
 		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 64,
-		"geocount": 64,
+		"count": 70,
+		"geocount": 70,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -489,8 +489,8 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 39,
+		"geocount": 39,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -618,10 +618,10 @@
 		"url": "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
 	},
 	"greenwich_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 12,
+		"geocount": 12,
 		"id": "greenwich_council",
-		"map": { "type": "googlemap", "url": "https://www.royalgreenwich.gov.uk/directory/106/warm_spaces_across_royal_greenwich" },
+		"map": { "type": "googlemap", "url": "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich" },
 		"title": "Greenwich Council",
 		"url": "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
 	},
@@ -632,8 +632,8 @@
 		"url": "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
 	},
 	"haringey_council": {
-		"count": 9,
-		"geocount": 9,
+		"count": 10,
+		"geocount": 10,
 		"id": "haringey_council",
 		"notes": "No longer exists as of October 2023",
 		"title": "Haringey Council",
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 60,
-		"geocount": 50,
+		"count": 59,
+		"geocount": 49,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -852,7 +852,7 @@
 	},
 	"luton_council": {
 		"count": 13,
-		"geocount": 12,
+		"geocount": 13,
 		"id": "luton_council",
 		"notes": "Has been removed and is due to update 'in the Autumn'.",
 		"title": "Luton Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3325,
-		"geocount": 3325,
+		"count": 3332,
+		"geocount": 3332,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
