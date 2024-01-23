@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.29019,55.75622],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"School Street, Bowmore Islay, PA43 7JS The warm space is available anytime the centre is open from 10am - 6pm. They run lots of groups throughout the day including a lunch club for over 50&apos;s on a Thursday between 12.30 and 2pm. For morew information on the groups please call the centre on 01496 810767 or email Martyn Chandler","description":"MacTaggart Leisure Centre School Street, Bowmore Islay, PA43 7JS The warm space is available anytime the centre is open from 10am - 6pm. They run lots of groups throughout the day including a lunch club for over 50&apos;s on a Thursday between 12.30 and 2pm.","hours":{"_text":"MacTaggart Leisure Centre School Street, Bowmore Islay, PA43 7JS The warm space is available anytime the centre is open from 10am - 6pm. They run lots of groups throughout the day including a lunch club for over 50&apos;s on a Thursday between 12.30 and 2pm.","opening":"Th 12:30-14:00; Th 10:00-18:00"},"loc_pcd":true,"title":"MacTaggart Leisure Centre"},"type":"Feature"}
+	]
+}
