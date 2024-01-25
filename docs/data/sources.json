@@ -480,8 +480,8 @@
 		"url": "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 77,
-		"geocount": 76,
+		"count": 78,
+		"geocount": 77,
 		"id": "durham_county_council",
 		"map": { "type": "googlemap", "url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url": "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -684,7 +684,7 @@
 		"url": "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
 	},
 	"high_peak_council": {
-		"count": 26,
+		"count": 27,
 		"geocount": 22,
 		"id": "high_peak_council",
 		"title": "High Peak Council",
@@ -782,8 +782,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 141,
-		"geocount": 141,
+		"count": 142,
+		"geocount": 142,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -1172,8 +1172,8 @@
 		"url": "https://sparksomerset.org.uk/warm-welcome"
 	},
 	"st_helens_council": {
-		"count": 31,
-		"geocount": 28,
+		"count": 30,
+		"geocount": 27,
 		"id": "st_helens_council",
 		"register": { "url": "https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title": "St Helens Council",
@@ -1257,8 +1257,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 86,
-		"geocount": 85,
+		"count": 87,
+		"geocount": 86,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3371,
-		"geocount": 3371,
+		"count": 3383,
+		"geocount": 3383,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
