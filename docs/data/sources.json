@@ -363,8 +363,8 @@
 		"url": "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
 	},
 	"chesterfield_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 26,
+		"geocount": 26,
 		"id": "chesterfield_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title": "Chesterfield Council",
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 75,
-		"geocount": 61,
+		"count": 78,
+		"geocount": 63,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1045,8 +1045,8 @@
 		"url": "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 42,
-		"geocount": 42,
+		"count": 41,
+		"geocount": 41,
 		"id": "redcar_and_cleveland_council",
 		"map": { "type": "leaflet", "url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title": "Redcar and Cleveland Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3455,
-		"geocount": 3455,
+		"count": 3459,
+		"geocount": 3459,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 121,
-		"geocount": 121,
+		"count": 122,
+		"geocount": 122,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
