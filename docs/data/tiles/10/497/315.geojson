@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.96598,56.71502],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Church of Scotland Riverside Road, Kinlochleven PH50 4QH","description":"Warm space open to all Fridays from 12.30pm","hours":{"_text":"Friday: 12:30 - 03:00","opening":"Fr 12:30-03:00"},"title":"Kinlochleven Parish Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.96060,56.71404],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Units 1a & 1b Network Court, Kinlochleven, Argyll PH50 4SH","description":"Church and Community Centre","hours":{"_text":"Monday: 10:30 - 12:30, Wednesday: 10:30 - 12:30, Sunday: 14:30 - 15:30","opening":"Mo 10:30-12:30; We 10:30-12:30; Su 14:30-15:30"},"title":"Kinlochleven Salvation Army Church and Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-5.10105,56.68263],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Marys Episcopal Church, Glencoe, Argyll PH49 4HS","description":"A weekly service in the church followed by hot drinks, cake and biscuits, light lunch and plenty of conversation in the church hall afterwards. Service 11:00-11:30 / Refreshments 11:30-14:00. Pop in for a quick cuppa, or stay for the whole afternoon! Everybody welcome.","hours":{"_text":"Thursday: 11:00 - 14:00","opening":"Th 11:00-14:00"},"title":"Open Church Glencoe"},"type":"Feature"}
 	]
