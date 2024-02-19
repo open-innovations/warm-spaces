@@ -39,8 +39,8 @@
 		"url": "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count": 40,
-		"geocount": 19,
+		"count": "0",
+		"geocount": "0",
 		"id": "argyll_and_bute_third_sector_interface",
 		"title": "Argyll and Bute Third Sector Interface",
 		"url": "https://www.argylltsi.org/warmspaces.html"
@@ -742,8 +742,8 @@
 		"url": "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
 	},
 	"islington_council": {
-		"count": 32,
-		"geocount": 32,
+		"count": 31,
+		"geocount": 31,
 		"id": "islington_council",
 		"title": "Islington Council",
 		"url": "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3470,
-		"geocount": 3470,
+		"count": 3472,
+		"geocount": 3472,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
