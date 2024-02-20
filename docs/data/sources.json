@@ -1053,8 +1053,8 @@
 		"url": "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": "0",
+		"geocount": "0",
 		"id": "richmond_upon_thames_council",
 		"map": { "type": "leaflet", "url": "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory" },
 		"title": "Richmond upon Thames Council",
