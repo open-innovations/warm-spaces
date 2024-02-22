@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -691,8 +691,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 31,
-		"geocount": 30,
+		"count": 32,
+		"geocount": 31,
 		"id": "hinckley_and_bosworth_council",
 		"register": { "url": "https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title": "Hinckley and Bosworth Council",
@@ -822,8 +822,8 @@
 		"url": "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
 	},
 	"lewisham_local": {
-		"count": "0",
-		"geocount": "0",
+		"count": 53,
+		"geocount": 53,
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -838,8 +838,8 @@
 		"url": "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 5,
-		"geocount": 5,
+		"count": 6,
+		"geocount": 6,
 		"id": "live_well_york",
 		"title": "Live Well York",
 		"url": "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1132,8 +1132,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 173,
-		"geocount": 173,
+		"count": "0",
+		"geocount": "0",
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3478,
-		"geocount": 3478,
+		"count": 3487,
+		"geocount": 3487,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
