@@ -822,8 +822,8 @@
 		"url": "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
 	},
 	"lewisham_local": {
-		"count": 53,
-		"geocount": 53,
+		"count": "0",
+		"geocount": "0",
 		"id": "lewisham_local",
 		"map": { "type": "googlemap", "url": "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/" },
 		"title": "Lewisham Local",
@@ -1009,8 +1009,8 @@
 		"url": "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
 	},
 	"plymouth_council": {
-		"count": 55,
-		"geocount": 53,
+		"count": 56,
+		"geocount": 54,
 		"id": "plymouth_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url": "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1132,8 +1132,8 @@
 		"url": "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": "0",
-		"geocount": "0",
+		"count": 173,
+		"geocount": 173,
 		"id": "sheffield_vas",
 		"map": { "type": "leaflet", "url": "https://foxdash.co.uk/vas/index.htm" },
 		"title": "Sheffield VAS",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3487,
-		"geocount": 3487,
+		"count": 3491,
+		"geocount": 3491,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
