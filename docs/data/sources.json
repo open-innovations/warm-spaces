@@ -1272,8 +1272,8 @@
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"count": 27,
-		"geocount": 24,
+		"count": "0",
+		"geocount": "0",
 		"id": "tameside_council",
 		"title": "Tameside Council",
 		"url": "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3495,
-		"geocount": 3495,
+		"count": 3499,
+		"geocount": 3499,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 122,
-		"geocount": 122,
+		"count": 123,
+		"geocount": 123,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
