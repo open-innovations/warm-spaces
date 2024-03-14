@@ -126,7 +126,7 @@
 	},
 	"birmingham_council": {
 		"count": 248,
-		"geocount": 247,
+		"geocount": 248,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -271,8 +271,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 29,
-		"geocount": 28,
+		"count": 32,
+		"geocount": 31,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -489,8 +489,8 @@
 		"url": "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 39,
-		"geocount": 39,
+		"count": 40,
+		"geocount": 40,
 		"id": "ealing_council",
 		"map": { "type": "googlemap", "url": "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title": "Ealing Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3518,
-		"geocount": 3518,
+		"count": 3521,
+		"geocount": 3521,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
