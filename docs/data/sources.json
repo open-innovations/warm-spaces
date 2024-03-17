@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -734,8 +734,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 52,
+		"geocount": 49,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
