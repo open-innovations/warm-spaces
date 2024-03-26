@@ -17,7 +17,7 @@
 		{"geometry":{"coordinates":[-1.79536,51.05575],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Willowcroft - Salisbury","url":"https://directory.hertfordshire.gov.uk/Services/1103"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.79708,51.06983],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Reading group for people with memory loss and their carers","title":"Library Shared Reading Group - Salisbury","url":"https://directory.hertfordshire.gov.uk/Services/3"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.82348,51.08304],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Community fridge and cafe","title":"St Michael&#39;s Community Centre - Bemerton","url":"https://directory.hertfordshire.gov.uk/Services/404"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Tuesday Friendly Club - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/154"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Afternoon tea and chat - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/2228"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Afternoon tea and chat - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/2228"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Tuesday Friendly Club - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/154"},"type":"Feature"}
 	]
 }
