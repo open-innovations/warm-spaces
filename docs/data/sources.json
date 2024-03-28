@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -428,8 +428,8 @@
 		"url": "https://www.croydon.gov.uk/community-and-safety/warm-spaces"
 	},
 	"croydon_simply_connect": {
-		"count": 31,
-		"geocount": 31,
+		"count": 30,
+		"geocount": 30,
 		"id": "croydon_simply_connect",
 		"register": { "url": "https://forms.office.com/r/iBHN1rt1HE" },
 		"title": "Croydon Simply Connect",
@@ -564,8 +564,8 @@
 		"url": "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
 	},
 	"fife_council": {
-		"count": 122,
-		"geocount": 118,
+		"count": 124,
+		"geocount": 120,
 		"id": "fife_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998" },
 		"title": "Fife Council",
@@ -1257,8 +1257,8 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 84,
-		"geocount": 82,
+		"count": 76,
+		"geocount": 74,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
 		"title": "Swansea Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3493,
-		"geocount": 3493,
+		"count": 3481,
+		"geocount": 3481,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 123,
-		"geocount": 123,
+		"count": 126,
+		"geocount": 126,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
