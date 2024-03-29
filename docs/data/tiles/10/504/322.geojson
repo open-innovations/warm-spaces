@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.57956,55.23185],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Kielder Library, Kielder Community First School, Kielder, Hexham, Northumberland, NE48 1HQ","hours":{"_text":""},"loc_pcd":true,"title":"Kielder Library","url":"https://west.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"}
-	]
-}
+{}
