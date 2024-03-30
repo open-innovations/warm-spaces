@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -675,8 +675,8 @@
 		"url": "https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 83,
-		"geocount": 66,
+		"count": 82,
+		"geocount": 65,
 		"id": "hertfordshire_council",
 		"map": { "type": "googlemap", "url": "https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url": "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -975,8 +975,8 @@
 		"url": "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
 	},
 	"northumberland_county_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 138,
+		"geocount": 138,
 		"id": "northumberland_county_council",
 		"map": { "type": "tableau", "url": "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q" },
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3481,
-		"geocount": 3481,
+		"count": 3480,
+		"geocount": 3480,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
