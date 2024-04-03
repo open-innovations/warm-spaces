@@ -271,8 +271,8 @@
 		"url": "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 32,
-		"geocount": 31,
+		"count": 31,
+		"geocount": 30,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -851,8 +851,8 @@
 		"url": "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
 	},
 	"luton_council": {
-		"count": 13,
-		"geocount": 13,
+		"count": 8,
+		"geocount": 8,
 		"id": "luton_council",
 		"notes": "Has been removed and is due to update 'in the Autumn'.",
 		"title": "Luton Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3479,
-		"geocount": 3479,
+		"count": 3473,
+		"geocount": 3473,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
