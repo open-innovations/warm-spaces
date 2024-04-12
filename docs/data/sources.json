@@ -195,8 +195,8 @@
 		"url": "https://www.brent.gov.uk/cost-of-living-help-and-advice"
 	},
 	"bridgend_council": {
-		"count": 122,
-		"geocount": 107,
+		"count": "0",
+		"geocount": "0",
 		"id": "bridgend_council",
 		"title": "Bridgend Council",
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
@@ -272,14 +272,14 @@
 	},
 	"cambridgeshire_acre": {
 		"count": 31,
-		"geocount": 30,
+		"geocount": 31,
 		"id": "cambridgeshire_acre",
 		"title": "Cambridgeshire ACRE",
 		"url": "https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
 	},
 	"camden_council": {
 		"count": 32,
-		"geocount": "0",
+		"geocount": 30,
 		"id": "camden_council",
 		"map": { "type": "arcgis", "url": "https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -294,7 +294,7 @@
 	},
 	"carefree_cornwall": {
 		"count": 69,
-		"geocount": 62,
+		"geocount": 63,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3454,
-		"geocount": 3454,
+		"count": 3452,
+		"geocount": 3452,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 126,
-		"geocount": 126,
+		"count": 128,
+		"geocount": 128,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
