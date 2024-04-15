@@ -195,8 +195,8 @@
 		"url": "https://www.brent.gov.uk/cost-of-living-help-and-advice"
 	},
 	"bridgend_council": {
-		"count": "0",
-		"geocount": "0",
+		"count": 122,
+		"geocount": 107,
 		"id": "bridgend_council",
 		"title": "Bridgend Council",
 		"url": "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -428,8 +428,8 @@
 		"url": "https://www.croydon.gov.uk/community-and-safety/warm-spaces"
 	},
 	"croydon_simply_connect": {
-		"count": 30,
-		"geocount": 30,
+		"count": 29,
+		"geocount": 29,
 		"id": "croydon_simply_connect",
 		"register": { "url": "https://forms.office.com/r/iBHN1rt1HE" },
 		"title": "Croydon Simply Connect",
@@ -1147,8 +1147,8 @@
 		"url": "https://www.scambs.gov.uk/warm-hubs/"
 	},
 	"south_tyneside_council": {
-		"count": 52,
-		"geocount": 42,
+		"count": 53,
+		"geocount": 43,
 		"id": "south_tyneside_council",
 		"map": { "type": "os", "url": "https://maps.southtyneside.gov.uk/warm_spaces/" },
 		"title": "South Tyneside Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3452,
-		"geocount": 3452,
+		"count": 3453,
+		"geocount": 3453,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
