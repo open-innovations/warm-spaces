@@ -94,8 +94,8 @@
 		"url": "https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 31,
-		"geocount": 31,
+		"count": "0",
+		"geocount": "0",
 		"id": "bath_and_north_east_somerset_council",
 		"map": { "type": "leaflet", "url": "https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url": "https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -293,8 +293,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 69,
-		"geocount": 63,
+		"count": 70,
+		"geocount": 64,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -332,7 +332,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 45,
-		"geocount": 34,
+		"geocount": 33,
 		"id": "chelmsford_connects",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -691,8 +691,8 @@
 		"url": "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 33,
-		"geocount": 32,
+		"count": 32,
+		"geocount": 31,
 		"id": "hinckley_and_bosworth_council",
 		"register": { "url": "https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title": "Hinckley and Bosworth Council",
@@ -734,8 +734,8 @@
 		"url": "https://www.ipswich.gov.uk/content/warm-bank-venues"
 	},
 	"isle_of_wight_council": {
-		"count": 51,
-		"geocount": 48,
+		"count": 50,
+		"geocount": 47,
 		"id": "isle_of_wight_council",
 		"register": { "url": "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u" },
 		"title": "Isle of Wight Council",
@@ -782,8 +782,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 166,
-		"geocount": 166,
+		"count": 100,
+		"geocount": 100,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -851,8 +851,8 @@
 		"url": "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
 	},
 	"luton_council": {
-		"count": 1,
-		"geocount": 1,
+		"count": 2,
+		"geocount": 2,
 		"id": "luton_council",
 		"notes": "Has been removed and is due to update 'in the Autumn'.",
 		"title": "Luton Council",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3457,
-		"geocount": 3457,
+		"count": 3459,
+		"geocount": 3459,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
