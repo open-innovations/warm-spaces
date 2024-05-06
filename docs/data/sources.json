@@ -332,7 +332,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 45,
-		"geocount": 33,
+		"geocount": 21,
 		"id": "chelmsford_connects",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
@@ -782,8 +782,8 @@
 		"url": "https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 100,
-		"geocount": 100,
+		"count": 166,
+		"geocount": 166,
 		"id": "lancashire_council",
 		"map": { "url": "https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url": "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
