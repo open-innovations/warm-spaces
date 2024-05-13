@@ -332,7 +332,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 45,
-		"geocount": 20,
+		"geocount": 16,
 		"id": "chelmsford_connects",
 		"title": "Chelmsford Connects",
 		"url": "https://chelmsfordconnects.org.uk/search?category=1555"
@@ -1257,7 +1257,7 @@
 		"url": "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 65,
+		"count": 64,
 		"geocount": 63,
 		"id": "swansea_council",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.645226709090714%2C-4.029695849999997&z=11" },
