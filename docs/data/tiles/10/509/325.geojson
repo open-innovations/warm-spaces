@@ -1,8 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.04716,54.60479],"type":"Point"},"properties":{"_source":"redcar_and_cleveland_council","address":"Grangetown Library, Birchington Avenue, Grangetown, TS6 7LP, United Kingdom","hours":{"_text":"Monday - 9am until 5pm \n\t Wednesday - 10am until 5pm \n\t Thursday - 10am until 4pm \n\t Friday - 10am until 5pm \n\t Saturday - 9:30am until 12:30pm","opening":"Mo 09:00-17:00; We 10:00-17:00; Th 10:00-16:00; Fr 10:00-17:00; Sa 09:30-12:30"},"title":"Laburnum Road Library","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces/grangetown-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.01701,54.59145],"type":"Point"},"properties":{"_source":"redcar_and_cleveland_council","address":"Windy Hill Lane, Marske-by-the-Sea, TS11 7BL, United Kingdom","hours":{"_text":"Monday - 9am until 5pm \n\t Tuesday - 10am until 4pm \n\t Wednesday &amp; Friday - 10am until 5pm \n\t Saturday - 9:30am until 12:30pm","opening":"We 10:00-17:00; Fr 10:00-17:00; Mo 09:00-17:00; Tu 10:00-16:00; Sa 09:30-12:30"},"title":"Marske Library","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces/marske-library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.97256,54.58244],"type":"Point"},"properties":{"_source":"redcar_and_cleveland_council","address":"Windsor Road, Saltburn by the Sea, TS12 1AT, United Kingdom","hours":{"_text":"Monday, Wednesday, Thursday and Friday - 10am until 5pm \n\t Saturday - 9:30am until 12:30pm","opening":"Mo 10:00-17:00; We 10:00-17:00; Th 10:00-17:00; Fr 10:00-17:00; Sa 09:30-12:30"},"title":"Saltburn Library","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces/saltburn-library"},"type":"Feature"}
-	]
-}
+{}
