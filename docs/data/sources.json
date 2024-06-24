@@ -125,8 +125,8 @@
 		"url": "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 247,
-		"geocount": 247,
+		"count": 249,
+		"geocount": 249,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -293,8 +293,8 @@
 		"url": "https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 70,
-		"geocount": 64,
+		"count": 71,
+		"geocount": 65,
 		"id": "carefree_cornwall",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title": "Carefree Cornwall",
@@ -377,8 +377,8 @@
 		"url": "https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count": 11,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "chorley_council",
 		"title": "Chorley Council",
 		"url": "https://chorley.gov.uk/welcomespaces"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -632,8 +632,8 @@
 		"url": "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
 	},
 	"haringey_council": {
-		"count": 10,
-		"geocount": 10,
+		"count": "0",
+		"geocount": "0",
 		"id": "haringey_council",
 		"notes": "No longer exists as of October 2023",
 		"title": "Haringey Council",
@@ -1265,8 +1265,8 @@
 		"url": "https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count": 23,
-		"geocount": 22,
+		"count": 43,
+		"geocount": 42,
 		"id": "swindon_council",
 		"title": "Swindon Council",
 		"url": "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
