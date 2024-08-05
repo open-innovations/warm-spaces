@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-84.11678,40.74289],"type":"Point"},"properties":{"_source":"warm_welcome","address":"7, Somewhere up north NP12 8NW","description":"this is a space for sporty people","hours":{"_text":"Wednesday: 09:00 - 17:00, Saturday: 09:00 - 17:00, Sunday: 09:00 - 18:00","opening":"We 09:00-17:00; Sa 09:00-17:00; Su 09:00-18:00"},"title":"Lorien's second test space"},"type":"Feature"}
+	]
+}
