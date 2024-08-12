@@ -62,8 +62,6 @@
 		{"geometry":{"coordinates":[-3.01367,53.63394],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am - 4pm","title":"Birkdale Community Hub & Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97446,53.64273],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Last Thursday of each month 10am - 2pm","title":"Brighter Living Partnership"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.98630,53.65085],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 10am - 2pm","title":"Leyland Road Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.03375,53.59169],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"Woodvale Community Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.00639,53.64699],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 2pm","title":"Southport Library (The Atkinson)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.06727,53.55404],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday to Friday 10am - 5pm Saturdays 10am - 2pm","title":"Formby Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.03375,53.59169],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"Woodvale Community Centre"},"type":"Feature"}
 	]
 }

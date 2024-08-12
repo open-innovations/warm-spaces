@@ -125,8 +125,8 @@
 		"url": "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 278,
-		"geocount": 278,
+		"count": 281,
+		"geocount": 281,
 		"id": "birmingham_council",
 		"register": { "url": "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title": "Birmingham Council",
@@ -444,8 +444,8 @@
 		"url": "https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 64,
-		"geocount": 64,
+		"count": 65,
+		"geocount": 65,
 		"id": "cyngor_gwynedd",
 		"map": { "type": "googlemap", "url": "https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url": "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -1116,8 +1116,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 19,
-		"geocount": 19,
+		"count": 13,
+		"geocount": 13,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1341,8 +1341,8 @@
 		"url": "https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3500,
-		"geocount": 3500,
+		"count": 3502,
+		"geocount": 3502,
 		"id": "warm_welcome",
 		"map": { "type": "mapbox", "url": "https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url": "https://www.warmwelcome.uk/get-started/signup" },
