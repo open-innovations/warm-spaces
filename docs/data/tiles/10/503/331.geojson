@@ -109,8 +109,24 @@
 		{"geometry":{"coordinates":[-2.97781,53.49299],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 11am - 1.30pm Thursdays 11.30am - 3pm","title":"L30 Community Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97139,53.47835],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays, Tuesdays and Fridays 9am - 12pm","title":"Netherton Park Neighbourhood Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-1pm","title":"The Orrell Trust"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99074,53.44578],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesday 12pm-4pm","title":"The Independence Initiative"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.99118,53.45586],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 9am - 11.30am Wednesday 2.30pm - 4pm Friday 9am-11.30am","title":"Sefton OPERA"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.01581,53.47120],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Days and Times TBC","title":"SING Plus"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.99752,53.46348],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 12pm - 4pm","title":"Linacre Methodist Mission"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.99752,53.46348],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 12pm - 4pm","title":"Linacre Methodist Mission"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99791,53.44903],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Sunday 1pm-5pm","title":"Lock & Quay"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.98615,53.44519],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 10am-12pm","title":"Friends of Southpark"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99460,53.45708],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday & Wednesday 10am-2pm","title":"Gateway Collective"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.99910,53.47277],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 11.30am-1.30pm","title":"Litherland Youth and Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.94204,53.52606],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 12.30pm-2.30pm","title":"Lydiate Parish Council"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.03243,53.48576],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Friday 11.45am-2pm","title":"Marine in the community"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.02322,53.47720],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 12.30pm-4pm","title":"Plaza Community Cinema"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97989,53.46204],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday-Friday 9.30am-4pm","title":"Sean's Place"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.94568,53.50294],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 10am-2pm","title":"St George's URC Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.04000,53.48444],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursday 9am-2pm","title":"St Nicholas Church Soupa Thursday"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97004,53.48607],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 2pm-5pm Thursday 10.30-1pm","title":"St Oswalds Church Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.00481,53.45774],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday 11.30-2pm Wednesday 12.30-2pm","title":"St Leonards Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97342,53.46032],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursday 10am-2pm","title":"The Inclusion Network CIC"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.02397,53.47212],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 10am-4pm","title":"The Irenaeus Project"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97986,53.46227],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Biweekly sessions on Tuesdays(Only open to Women and Children) Biweekly session on Fridays (Open to all)","title":"Venus"},"type":"Feature"}
 	]
 }

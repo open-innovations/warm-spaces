@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id": "communities_1st",
 		"title": "Communities 1st",
 		"url": "https://www.communities1st.org.uk/warm-hubs"
@@ -1116,8 +1116,8 @@
 		"url": "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 13,
-		"geocount": 13,
+		"count": 38,
+		"geocount": 38,
 		"id": "sefton_cvs",
 		"map": { "type": "googlemap", "url": "https://seftoncvs.org.uk/warmspaces/" },
 		"title": "Sefton CVS",
@@ -1350,8 +1350,8 @@
 		"url": "https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 80,
-		"geocount": 80,
+		"count": 81,
+		"geocount": 81,
 		"id": "warwickshire_rural_council",
 		"map": { "type": "googlemap", "url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes": "Not enough details to include",
@@ -1359,8 +1359,8 @@
 		"url": "https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count": 23,
-		"geocount": 23,
+		"count": 25,
+		"geocount": 25,
 		"id": "west_berkshire_council",
 		"map": { "type": "leaflet", "url": "https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url": "https://adoddle.org/app/partners/west-berkshire/create" },
