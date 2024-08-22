@@ -223,6 +223,10 @@ sub tidyJSON {
 	$txt =~ s/	 / /g;
 	$txt =~ s/ / /g;
 	$txt =~ s/ {2,}/ /g;
+	$txt =~ s/\", \"/\",\"/g;
+	$txt =~ s/\": \"/\":\"/g;
+	$txt =~ s/, "lat"/,"lat"/g;
+	$txt =~ s/, "lon"/,"lon"/g;
 
 	return $txt;
 }
