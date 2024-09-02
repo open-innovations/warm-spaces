@@ -332,7 +332,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 45,
-		"geocount": 34,
+		"geocount": 31,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -675,8 +675,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 89,
-		"geocount": 71,
+		"count": 90,
+		"geocount": 72,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1307,8 +1307,8 @@
 		"url":"https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
 	},
 	"vale_of_glamorgan_council": {
-		"count": 24,
-		"geocount": 24,
+		"count": 23,
+		"geocount": 23,
 		"id":"vale_of_glamorgan_council",
 		"map": { "type":"astuntechnology","url":"https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title":"Vale of Glamorgan Council",
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3511,
-		"geocount": 3511,
+		"count": 3522,
+		"geocount": 3522,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },

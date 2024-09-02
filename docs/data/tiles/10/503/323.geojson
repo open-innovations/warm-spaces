@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.81357,55.17859],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Buccleuch House, 4 South Hermitage Street, Scottish Borders, Scottish Borders TD9 0QR","description":"Open from 09-01-2023. Join us in a warm, friendly space. On Tuesdays we will be providing soup and a roll between 12 and 1pm. We have a wide programme of activities, come along and join in..","hours":{"_text":"Monday: 10:30 - 12:00, Tuesday: 10:00 - 14:30, Thursday: 10:00 - 14:00","opening":"Mo 10:30-12:00; Tu 10:00-14:30; Th 10:00-14:00"},"title":"Newcastleton and District Community Trust"},"type":"Feature"}
+	]
+}
