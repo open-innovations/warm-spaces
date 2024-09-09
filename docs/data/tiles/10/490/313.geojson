@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-7.48918,56.95576],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Located within: Castlebay School, Castlebay , Isle of Barra HS9 5XD","description":"Our library is open to everyone, help yourself to a coffee,tea or hot chocolate and browse our collection of books to enjoy with your hot drink.","hours":{"_text":"Tuesday: 10:00 - 13:00 / 16:00 - 18:00, Wednesday: 01:00 - 13:00 / 16:00 - 18:00, Thursday: 10:00 - 13:00 / 16:00 - 18:00, Saturday: 10:00 - 13:00","opening":"Tu 10:00-13:00,16:00-18:00; We 01:00-13:00,16:00-18:00; Th 10:00-13:00,16:00-18:00; Sa 10:00-13:00"},"title":"Castlebay Library"},"type":"Feature"}
+	]
+}

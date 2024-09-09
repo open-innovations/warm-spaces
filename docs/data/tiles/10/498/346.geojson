@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.79455,50.24308],"type":"Point"},"properties":{"_source":"carefree_cornwall","address":"The Roseland Institute, Gorran, St Austell, PL26 6NT","description":"ICA Area: Mid Cornwall Area: Restormel Hub Area: The Roseland Address: The Roseland Institute, Gorran, St Austell, PL26 6NT Opening Times: Mon 13:00 - 16:00 Activities Offered: Mon 13:00 - 16:00 (weekly) St Just Cafe Public Contact Name: Bob Field Public Phone: 07831 579629 Public Email: bob@bobanddee.co.uk Notes: Health Checks: Pain or Cancer Café: Diabetes Support: Falls or Balance: Cardio or Respiratory Groups: Dementia Support: Physical Activity: Hospital Discharge: Growing and Cooking: Transport Provision: Yes Hub Partnership: Carer Support: Yes Outreach with Neighbourhoods: Enhanced PCN Relationship: Meals on Wheels: Debt or Legal Advice: Talking Therapies: Vaccination Clinics: Yes Digital Offer: Children, Young People and Family Hubs: Other Additional Service (Specify):","loc_pcd":true,"title":"Roseland Surgeries Patient Group (RSPG)"},"type":"Feature"}
-	]
-}
+{}

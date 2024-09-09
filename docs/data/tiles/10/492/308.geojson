@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.81383,57.90172],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Located within: Sir Edward Scott School, Tarbert, Isle of Harris HS3 3BG","description":"Our library is open to everyone, help yourself to a coffee,tea or hot chocolate and browse our collection of books to enjoy with your hot drink.","hours":{"_text":"Monday: 10:00 - 13:00 / 16:00 - 18:00, Tuesday: 10:00 - 13:00 / 16:00 - 18:00, Thursday: 10:00 - 13:00 / 16:00 - 18:00, Saturday: 10:00 - 13:00","opening":"Mo 10:00-13:00,16:00-18:00; Tu 10:00-13:00,16:00-18:00; Th 10:00-13:00,16:00-18:00; Sa 10:00-13:00"},"title":"Tarbert Library"},"type":"Feature"}
+	]
+}
