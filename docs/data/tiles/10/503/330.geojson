@@ -69,6 +69,7 @@
 		{"geometry":{"coordinates":[-3.04062,53.60248],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Friday 11am-1pm","title":"Compassion Acts"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.06408,53.55631],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday & Wednesday 10am-12pm","title":"Formby Luncheon Club"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.96244,53.54427],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednsaday 12pm-2.15pm","title":"St Thomas' Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.00386,53.63977],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday - Friday 10.30-3pm","title":"Southport Salvation Army"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.00386,53.63977],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday - Friday 10.30-3pm","title":"Southport Salvation Army"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.03404,53.60050],"type":"Point"},"properties":{"_source":"sefton_cvs","title":"Ainsdale Lunch and Leisure"},"type":"Feature"}
 	]
 }
