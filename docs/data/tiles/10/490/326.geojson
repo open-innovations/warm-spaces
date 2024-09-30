@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-7.72155,54.52149],"type":"Point"},"properties":{"_source":"warm_spaces","address":"35 Main Street, Enniskillen, Northern Ireland, BT93 1TF, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Computer Access","hours":{"_text":"Monday 10am-4pm","opening":"Mo 10:00-16:00"},"title":"The Courthouse"},"type":"Feature"}
-	]
-}
+{}

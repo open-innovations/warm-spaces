@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.26263,53.34069],"type":"Point"},"properties":{"_source":"warm_spaces","address":"32 Victoria Road, Mablethorpe, England, LN12 2AQ, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Food/Drink for sale, Wheelchair Accessible, Toilets, Computer Access","hours":{"_text":"9am-2pm"},"title":"Mablethorpe Coastal Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.26262,53.34070],"type":"Point"},"properties":{"_source":"east_lindsey_council","title":"The Coastal Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.00718,53.36921],"type":"Point"},"properties":{"_source":"east_lindsey_council","title":"Trinity Centre"},"type":"Feature"}
 	]

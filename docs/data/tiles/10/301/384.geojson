@@ -1,7 +1,0 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-74.00076,40.72076],"type":"Point"},"properties":{"_source":"warm_spaces","description":"Free Food/Drink, Free Wi-Fi, Advice, People to chat to, Toilets, Accessible Toilet","hours":{"_text":"Monday 2pm-4pm, Tuesday 12pm-2pm","opening":"Mo 14:00-16:00; Tu 12:00-14:00"},"title":"Church Lane","url":"https://www.clec.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-74.00076,40.72076],"type":"Point"},"properties":{"_source":"warm_spaces","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Pay It Forward Scheme, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Tuesday 12pm-4pm","opening":"Tu 12:00-16:00"},"title":"Ashbourne Methodist Church","url":"https://www.ashbournemethodist.org.uk"},"type":"Feature"}
-	]
-}

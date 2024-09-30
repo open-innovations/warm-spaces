@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.91152,55.30914],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Market Pl, Morpeth, England, NE65 7UW, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly","hours":{"_text":"Thursday 12pm-3pm","opening":"Th 12:00-15:00"},"title":"Rothbury United Reformed Church"},"type":"Feature"}
-	]
-}
+{}

@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.77606,50.28330],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Promenade, Kingsbridge, England, TQ7 1JD, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Space to work, Toilets","hours":{"_text":"Thursdays, 11.30am-1.30pm","opening":"Th 11:30-13:30"},"title":"Harbour House","url":"https://www.harbourhouse.org.uk"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.65789,50.27402],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Tap House at Stokeley Farm Shop, Stokeley Barton Farms, Stokenham, Devon, England, TQ7 2SE, United Kingdom","description":"People to chat to, Food/Drink for sale, Organised 'Warm Space' gatherings held in the Tap House with fire lit, board games, music playing, one pot food available at an affordable price.","hours":{"_text":"See website below for details"},"title":"South Hams Brewery Ltd","url":"https://stokeleyfarmshop.co.uk"},"type":"Feature"}
-	]
-}
+{}

@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.48473,56.13312],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Kilmartin Church, Kilmartin, Lochgilphead, Scotland, PA31 8RN, United Kingdom","description":"Free Food/Drink, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Community book swap","hours":{"_text":"First Wednesday of the month 12.30pm-4pm","opening":"We[1] 12:30-16:00"},"title":"Dunadd Bookswap","url":"http://www.dunadd.scot/bookswap/"},"type":"Feature"}
-	]
-}
+{}

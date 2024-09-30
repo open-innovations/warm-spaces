@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.37088,52.98330],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Green Lane, Corwen, Wales, LL21 0DN, United Kingdom","description":"Free Wi-Fi, Device Charging, People to chat to, Space to work, Food/Drink for sale, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Computer Access, Shower Facilities, Some games (table tennis, board games","hours":{"_text":"Daily 10am-5pm + occasional Saturdays &amp; Sundays","opening":"Mo-Su 10:00-17:00"},"title":"Corwen War Memorial Park","url":"https://Www.corwentowncouncil.co.uk"},"type":"Feature"}
-	]
-}
+{}

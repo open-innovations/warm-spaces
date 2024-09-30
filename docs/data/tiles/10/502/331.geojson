@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.18114,53.37089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29 Westbourne Road, West Kirby, Wirral CH484DQ","description":"A warm church hall where every week around 30 adults and around 8 children with their nursery staff gather for coffee, soup & bread and a chat.","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"West Kirby Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.18070,53.37056],"type":"Point"},"properties":{"_source":"warm_spaces","address":"59 Westbourne Road, Wirral, England, CH48 4DQ, United Kingdom","description":"Free Wi-Fi, People to chat to, Wheelchair Accessible, Toilets, Parking, Child Friendly, Hot and Cold Drinks","hours":{"_text":"Every Tuesday 10am - 11.30am","opening":"Tu 10:00-11:30"},"title":"Westbourne Hall, West Kirby (by Beacon Church)","url":"https://beaconchurchwirral.org"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.18114,53.37089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29 Westbourne Road, West Kirby, Wirral CH484DQ","description":"A warm church hall where every week around 30 adults and around 8 children with their nursery staff gather for coffee, soup & bread and a chat.","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"West Kirby Methodist Church"},"type":"Feature"}
 	]
 }

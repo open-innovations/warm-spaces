@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-0.80682,52.81595],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Melton Mowbray, Leics LE14 4AH","description":"We cater for young and old and in-between! We run a café with hot drinks and cake at the same time as our Little Gems parent/carer baby/toddler group - all welcome","hours":{"_text":"Wednesday: 10:00 - 11:30","opening":"We 10:00-11:30"},"title":"St Mary Magdalene"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.88284,52.76550],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Sage Cross Methodist Church, Sage Cross Street, Melton Mowbray, England, LE13 1RB, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Pet Friendly","hours":{"_text":"Tue &amp; Thu 10am-1pm","opening":"Tu 10:00-13:00; Th 10:00-13:00"},"title":"Sage Cross Warm Space","url":"https://Meltonmethodist.org.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.80682,52.81595],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Melton Mowbray, Leics LE14 4AH","description":"We cater for young and old and in-between! We run a café with hot drinks and cake at the same time as our Little Gems parent/carer baby/toddler group - all welcome","hours":{"_text":"Wednesday: 10:00 - 11:30","opening":"We 10:00-11:30"},"title":"St Mary Magdalene"},"type":"Feature"}
 	]
 }

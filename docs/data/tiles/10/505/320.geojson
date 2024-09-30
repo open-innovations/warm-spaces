@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.43510,55.59988],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bowmont Street, Roxburghshire, Roxburghshire TD5 7JH","description":"Library Contact Centre Visitors are welcome to bring their own hot drinks/snacks. Please note we are open the 1st and 3rd Saturdays of the month only.","hours":{"_text":"Monday: 10:00 - 16:00, Tuesday: 12:30 - 18:00, Thursday: 09:30 - 12:30, Friday: 11:00 - 16:00, Saturday: 09:00 - 12:00 Fortnightly","opening":"Mo 10:00-16:00; Tu 12:30-18:00; Th 09:30-12:30; Fr 11:00-16:00; Sa 09:00-12:00"},"title":"Kelso Library Contact Centre"},"type":"Feature"}
+	]
+}

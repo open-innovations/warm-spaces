@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.84318,56.37366],"type":"Point"},"properties":{"_source":"warm_spaces","address":"6 Comrie Street, Crieff PH7 4AX, ,","description":"Free Food/Drink, Wheelchair Accessible, Toilets, Accessible Toilet, Child Friendly, Complimentary Film Screenings","hours":{"_text":"Wednesday Film Days Dec-Feb 1.30pm-6pm"},"title":"Strathearn Arts","url":"https://www.strathearnarts.org"},"type":"Feature"}
-	]
-}
+{}

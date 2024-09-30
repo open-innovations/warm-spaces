@@ -1,7 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.61449,55.24115],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A T A C Community Hall, Northumberland NE61 5QL","description":"Community Hall on mile road, widdrington station, northumberland","hours":{"_text":"Tuesday: 11:00 - 04:00, Wednesday: 10:30 - 12:30","opening":"Tu 11:00-04:00; We 10:30-12:30"},"title":"ATAC COMMUNITY HALL"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.71097,55.29820],"type":"Point"},"properties":{"_source":"warm_spaces","address":"45 Main Street, Morpeth, England, NE65 9PP, United Kingdom","description":"Free Wi-Fi, Device Charging, People to chat to, Space to work, Food/Drink for sale","hours":{"_text":"Mon-Sat, 10:30am-4:30pm","opening":"Mo-Sa 10:30-16:30"},"title":"Gallery Forty5","url":"https://www.feltongallery45.co.uk"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.61449,55.24115],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A T A C Community Hall, Northumberland NE61 5QL","description":"Community Hall on mile road, widdrington station, northumberland","hours":{"_text":"Tuesday: 11:00 - 04:00, Wednesday: 10:30 - 12:30","opening":"Tu 11:00-04:00; We 10:30-12:30"},"title":"ATAC COMMUNITY HALL"},"type":"Feature"}
 	]
 }

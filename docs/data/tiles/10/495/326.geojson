@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-5.90114,54.57081],"type":"Point"},"properties":{"_source":"warm_spaces","address":"60 Rosetta Road, Belfast, Northern Ireland, BT6, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, People to chat to, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly, Computer Access","hours":{"_text":"Thursday 2pm-5 pm","opening":"Th 14:00-05:00"},"title":"Knockbreda Methodist Church","url":"https://www.knockbredamethodist.org"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.89831,54.40229],"type":"Point"},"properties":{"_source":"warm_spaces","address":"Lisburn Street, Ballynahinch, Northern Ireland, BT24 8BD, United Kingdom","description":"Free Food/Drink, Free Wi-Fi, Device Charging, Advice, People to chat to, Space to work, Wheelchair Accessible, Toilets, Accessible Toilet, Parking, Child Friendly","hours":{"_text":"Thursday 2pm-4 pm","opening":"Th 14:00-04:00"},"title":"Ballynahinch Methodist Church","url":"https://www.ballynahinchmethodist.org/page.php?id=1"},"type":"Feature"}
-	]
-}
+{}

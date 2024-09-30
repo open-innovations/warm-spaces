@@ -125,8 +125,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 291,
-		"geocount": 291,
+		"count": 292,
+		"geocount": 292,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -234,8 +234,8 @@
 		"url":"https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 46,
+		"geocount": 46,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -272,7 +272,7 @@
 	},
 	"cambridgeshire_acre": {
 		"count": 36,
-		"geocount": 33,
+		"geocount": 36,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -618,8 +618,8 @@
 		"url":"https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
 	},
 	"greenwich_council": {
-		"count": 15,
-		"geocount": 15,
+		"count":"0",
+		"geocount":"0",
 		"id":"greenwich_council",
 		"map": { "type":"googlemap","url":"https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich" },
 		"title":"Greenwich Council",
@@ -660,8 +660,8 @@
 		"url":"https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count": 22,
-		"geocount": 17,
+		"count": 10,
+		"geocount": 6,
 		"id":"havering_council",
 		"title":"Havering Council",
 		"url":"https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
@@ -675,8 +675,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 93,
-		"geocount": 75,
+		"count": 92,
+		"geocount": 74,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1332,8 +1332,8 @@
 		"url":"https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count": 1816,
-		"geocount": 1816,
+		"count":"0",
+		"geocount":"0",
 		"id":"warm_spaces",
 		"map": { "type":"googlemap","url":"https://warmspaces.org/spaces" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3597,
-		"geocount": 3597,
+		"count": 3654,
+		"geocount": 3654,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1383,8 +1383,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 87,
-		"geocount": 82,
+		"count": 95,
+		"geocount": 90,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
