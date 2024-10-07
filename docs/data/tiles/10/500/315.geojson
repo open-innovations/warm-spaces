@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.05049,56.59817],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Aberfeldy Parish Church, Aberfeldy , Perthshire Ph15 2NS","description":"The café is available to all on our community and operates alongside a Stay and Play get together for young mums and guardians with pre school age children.","hours":{"_text":"Tuesday: 10:00 - 12:00","opening":"Tu 10:00-12:00"},"title":"Warm Welcome Café"},"type":"Feature"}
+	]
+}

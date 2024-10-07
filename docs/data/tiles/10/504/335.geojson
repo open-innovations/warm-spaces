@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.80941,52.53779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Parish Centre, Church Stretton, Shropshire SY6 6DQ","description":"Every Saturday morning between 10-12 you will find a 'Warm Welcome' in St Laurence Parish Centre. We provide simple refreshments, good company, newspapers, games and conversation. Our space is accessible, inclusive and inter-generational so please come and join us on a Saturday and make some new friends!","hours":{"_text":"Saturday: 10:00 - 12:00","opening":"Sa 10:00-12:00"},"title":"A Warm Welcome in Church Stretton"},"type":"Feature"}
+	]
+}
