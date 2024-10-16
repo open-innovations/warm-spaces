@@ -234,8 +234,8 @@
 		"url":"https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
 	},
 	"buckinghamshire_council": {
-		"count": 46,
-		"geocount": 46,
+		"count": 47,
+		"geocount": 47,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -293,8 +293,8 @@
 		"url":"https://www.cannockchasedc.gov.uk/council/your-community/help-cost-living-crisis"
 	},
 	"carefree_cornwall": {
-		"count": 71,
-		"geocount": 65,
+		"count": 72,
+		"geocount": 66,
 		"id":"carefree_cornwall",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&ehbc=2E312F" },
 		"title":"Carefree Cornwall",
@@ -480,8 +480,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 9,
-		"geocount": 9,
+		"count": 19,
+		"geocount": 19,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -906,8 +906,8 @@
 		"url":"https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
 	},
 	"neath_port_talbot_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 50,
+		"geocount": 50,
 		"id":"neath_port_talbot_council",
 		"register": { "url":"https://appsportal2.npt.gov.uk/businessaccount" },
 		"title":"Neath Port Talbot Council",
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3765,
-		"geocount": 3765,
+		"count": 3785,
+		"geocount": 3785,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1383,8 +1383,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 95,
-		"geocount": 90,
+		"count": 97,
+		"geocount": 92,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
