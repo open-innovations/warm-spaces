@@ -52,8 +52,8 @@
 		"url":"https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"banbury_town_council": {
-		"count": 46,
-		"geocount": 46,
+		"count": 48,
+		"geocount": 48,
 		"id":"banbury_town_council",
 		"title":"Banbury Town Council",
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
@@ -399,7 +399,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 30,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -1109,8 +1109,8 @@
 		"url":"https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
 	},
 	"sefton_council": {
-		"count": 34,
-		"geocount": 33,
+		"count": 35,
+		"geocount": 34,
 		"id":"sefton_council",
 		"title":"Sefton Council",
 		"url":"https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3785,
-		"geocount": 3785,
+		"count": 3798,
+		"geocount": 3798,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1376,8 +1376,8 @@
 		"url":"https://westdevon.gov.uk/article/9368/Warm-Spaces"
 	},
 	"west_dunbartonshire_council": {
-		"count": 16,
-		"geocount": 14,
+		"count":"0",
+		"geocount":"0",
 		"id":"west_dunbartonshire_council",
 		"title":"West Dunbartonshire Council",
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"

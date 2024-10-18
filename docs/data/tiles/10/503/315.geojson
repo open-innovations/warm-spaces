@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.88967,56.64402],"type":"Point"},"properties":{"_source":"warm_welcome","address":"26 West High Street, Forfar, Angus DD8 1BA","description":"The Anchorage is a safe space where everyone can come and be made welcome. It is a safe place to stop a while and rest, restore, renew, restock and reconnect. All Souls Church have created this Anchorage in response to the need in our town for a free place for people of all faiths or none to just come and 'be'. A space to gather together, and rebuild a sense of community post covid.","hours":{"_text":"Tuesday: 09:30 - 12:00 / 13:00 - 15:00, Wednesday: 09:30 - 12:00 / 13:00 - 15:00, Thursday: 09:30 - 12:00, Friday: 09:30 - 12:00","opening":"Tu 09:30-12:00,13:00-15:00; We 09:30-12:00,13:00-15:00; Th 09:30-12:00; Fr 09:30-12:00"},"title":"The Anchorage"},"type":"Feature"}
+	]
+}
