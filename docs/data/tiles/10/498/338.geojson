@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.58991,52.04673],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Davids Church, Cardigan, Pembrokeshire SA43 2PJ","description":"Church building open on a Friday to provide a warm space, tea, coffee, books, craft and plenty of chatter for those in our community","hours":{"_text":"Thursday: 18:00 - 19:00, Friday: 10:00 - 12:00, Sunday: 11:00 - 12:30","opening":"Th 18:00-19:00; Fr 10:00-12:00; Su 11:00-12:30"},"title":"St David’s Church, Carreg Wen"},"type":"Feature"}
+	]
+}
