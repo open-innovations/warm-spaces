@@ -52,8 +52,8 @@
 		"url":"https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
 	},
 	"banbury_town_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 50,
+		"geocount": 50,
 		"id":"banbury_town_council",
 		"title":"Banbury Town Council",
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
@@ -125,8 +125,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 289,
-		"geocount": 289,
+		"count": 288,
+		"geocount": 288,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -251,8 +251,8 @@
 		"url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": 27,
-		"geocount": 26,
+		"count": 28,
+		"geocount": 27,
 		"id":"bury_directory",
 		"title":"Bury Directory",
 		"url":"https://theburydirectory.co.uk/warm-spaces-bury"
@@ -271,8 +271,8 @@
 		"url":"https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 36,
-		"geocount": 36,
+		"count": 37,
+		"geocount": 37,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -675,8 +675,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 93,
-		"geocount": 75,
+		"count": 92,
+		"geocount": 74,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3815,
-		"geocount": 3815,
+		"count": 3836,
+		"geocount": 3836,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1368,8 +1368,8 @@
 		"url":"https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 9,
-		"geocount": 9,
+		"count": 10,
+		"geocount": 10,
 		"id":"west_devon_council",
 		"map": { "type":"leaflet","url":"https://www.westdevon.gov.uk/warm-spaces-directory" },
 		"title":"West Devon Council",
@@ -1383,8 +1383,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 98,
-		"geocount": 93,
+		"count": 99,
+		"geocount": 94,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
