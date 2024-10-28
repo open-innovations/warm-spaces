@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.60048,50.66622],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Strangways Village Hall, Weymouth, Dorset DT3 4JR","description":"The space is open to all, Monday-Friday 9am - 1pm. Come and sit by the wood-burning stove and have a chat.","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"Abbotsbury Warm Space"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.60015,50.66602],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Bellenies Bakehouse & Tea Room, Weymouth, Dorset DT3 4JR","description":"A welcome to anybody !","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"Abbotsbury Warm Space"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.47167,50.61100],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Westham Centre, Dorset DT4 OAR","description":"A friendly free cafe space with refreshments and lunch. Activities are available or just a place to be or to chat with others. Open to all ages and backgrounds.","hours":{"_text":"Monday: 10:30 - 14:30","opening":"Mo 10:30-14:30"},"title":"Warm Welcome Cafe @ The Westham Centre"},"type":"Feature"}
 	]
 }
