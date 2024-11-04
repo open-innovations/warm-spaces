@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[0.26035,53.34032],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Mablethorpe College, Mablethorpe, Lincolnshire LN12 2DR","description":"SPACE OPENING ON 11th November 2024** Our Community Cafe space is fully accessible and provides a warm welcome, with refreshments, a warm meal and activities. We can also signpost to other organisations and sources of support.","hours":{"_text":"Monday: 11:00 - 14:00, Wednesday: 17:00 - 20:00","opening":"Mo 11:00-14:00; We 17:00-20:00"},"title":"Mablethorpe Wellbeing Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.26262,53.34070],"type":"Point"},"properties":{"_source":"east_lindsey_council","title":"The Coastal Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[0.00718,53.36921],"type":"Point"},"properties":{"_source":"east_lindsey_council","title":"Trinity Centre"},"type":"Feature"}
 	]
