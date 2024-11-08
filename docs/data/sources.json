@@ -126,7 +126,7 @@
 	},
 	"birmingham_council": {
 		"count": 277,
-		"geocount": 276,
+		"geocount": 277,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -480,8 +480,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 22,
-		"geocount": 22,
+		"count": 23,
+		"geocount": 23,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -586,8 +586,8 @@
 		"url":"https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 90,
-		"geocount": 87,
+		"count": 89,
+		"geocount": 86,
 		"id":"gateshead_council",
 		"map": { "type":"googlemap","url":"https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title":"Gateshead Council",
@@ -691,8 +691,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 34,
-		"geocount": 33,
+		"count": 36,
+		"geocount": 35,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1341,8 +1341,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3947,
-		"geocount": 3947,
+		"count": 3975,
+		"geocount": 3975,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1350,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 90,
-		"geocount": 90,
+		"count": 91,
+		"geocount": 91,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
