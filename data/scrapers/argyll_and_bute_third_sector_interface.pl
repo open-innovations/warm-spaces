@@ -18,33 +18,39 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
+	
+	# Very simplistic scraping because this is Wordpress generic class-based layout
+	my @warmspaces;
+	$str =~ s/\&nbsp;/ /g;
+	$str =~ s/\&\#8211;/-/g;
+	$str =~ s/\&\#8217;/\'/g;
+	while($str =~ s/<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33\%">(.*?)<\/div>.*?<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66\%">(.*?)<\/div>//s){
+		push(@warmspaces,{'left'=>$1,'right'=>$2});
+	}
 
-	# Build a web scraper
-	my $warmspaces = scraper {
-		process 'td[class="wsite-multicol-col"] div[class="paragraph"]', "warmspaces[]" => scraper {
-			process '*', 'content' => 'HTML';
-			process 'em', 'em[]' => 'HTML';
-			process 'strong', 'strong[]' => 'TEXT';
-			process 'a', 'url' => '@HREF';
+
+	for($i = 0; $i < @warmspaces; $i++){
+
+		$d = {};
+		if($warmspaces[$i]{'left'} =~ s/<h3[^\>]*>(.*?)<\/h3>//s){
+			$d->{'title'} = trimHTML($1);
 		}
-	};
-	my $res = $warmspaces->scrape( $str );
-
-	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		
-		$area = $res->{'warmspaces'}[$i];
-
-		if($area->{'strong'}[0]){
-			$d = {'title'=>$area->{'strong'}[0],'address'=>trimHTML($area->{'em'}[0])};
-			
-			while($area->{'content'} =~ s/<([^\>]+)>[^\<]+<\/[^\>]+>//g){ }
-			$d->{'description'} = trimHTML($area->{'content'});
-			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'description'}});
+		if($warmspaces[$i]{'left'} =~ s/<p><em>(.*?)<\/em><\/p>//s){
+			$d->{'address'} = trimHTML($1);
+			$d->{'address'} =~ s/,([^\s])/, $1/g;
+		}
+		$temp = $warmspaces[$i]{'right'};
+		$hrs = "";
+		while($temp =~ s/<strong>(.*?)<\/strong>//){
+			$hrs .= ($hrs ? ". ":"").$1;
+		}
+		if($hrs){
+			$d->{'hours'} = parseOpeningHours({'_text'=>$hrs});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
-			
-
-			push(@entries,makeJSON($d,1));
 		}
+		$d->{'description'} = trimHTML($warmspaces[$i]{'right'});
+
+		push(@entries,makeJSON($d,1));
 	}
 
 	open(FILE,">:utf8","$file.json");
