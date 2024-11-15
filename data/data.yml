@@ -39,7 +39,7 @@ directories:
   - title: "Aberdeenshire Council"
     url: "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
     map:
-      url: "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8"
+      url: "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.29830561485551%2C-2.414152099999982&z=9"
       type: googlemap
     data:
       url: "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8"
@@ -62,25 +62,14 @@ directories:
         hours: "description"
   - title: "Angus Council"
     url: "https://www.angus.gov.uk/community_spaces"
-    notes: "locationCentre is not queryable"
-    map:
-      url: "https://www.angus.gov.uk/community_spaces?page_id=1626#item-details"
-      type: locationCentre
+    notes: "No location data or real structure"
   - title: "Ards and North Down Council"
     url: "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
-    notes: "Provided as a PDF"
-    register:
-      url: "https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/"
+    notes: "Closed in 2023"
   - title: "Argyll and Bute Third Sector Interface"
-    url: "https://www.argylltsi.org/warmspaces.html"
+    url: "https://www.argylltsi.org/warm-spaces/"
     data:
-      - url: "https://www.argylltsi.org/cowal--bute.html"
-        type: html
-      - url: "https://www.argylltsi.org/helensburgh--lomond.html"
-        type: html
-      - url: "https://www.argylltsi.org/oban-lorn--the-isles.html"
-        type: html
-      - url: "https://www.argylltsi.org/maki.html"
+      - url: "https://www.argylltsi.org/warm-spaces/"
         type: html
   - title: "Armagh City, Bandridge and Craigavon Council"
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
@@ -154,9 +143,6 @@ directories:
     url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
     register:
       url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
-    data:
-      url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
-      type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     register:
@@ -179,6 +165,12 @@ directories:
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/warmspaces"
     notes: "Not enough information to parse"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11"
+      type: googlemap
+    data:
+      url: "https://www.boston.gov.uk/warmspaces"
+      type: html
   - title: "Bournemouth, Christchurch and Poole"
     url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
     notes: "Not enough structure to parse"
