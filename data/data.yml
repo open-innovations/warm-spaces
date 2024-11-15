@@ -164,7 +164,6 @@ directories:
       type: html
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/warmspaces"
-    notes: "Not enough information to parse"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11"
       type: googlemap
