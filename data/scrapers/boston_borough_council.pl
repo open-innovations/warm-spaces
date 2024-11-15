@@ -82,8 +82,8 @@ if(-e $file){
 		$html = join("",@lines);
 
 		$res = $entry->scrape( $html );
-#		$d->{'title'} = $results[$i]->{'title'};
-#		$d->{'url'} = $results[$i]->{'url'}; 
+		#$d->{'title'} = $results[$i]->{'title'};
+		$res->{'url'} = $results[$i]->{'url'}; 
 		
 		if($res->{'description'}){
 			$res->{'description'} = trimText($res->{'description'});
