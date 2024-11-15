@@ -12,7 +12,7 @@
 		"count": 36,
 		"geocount": 18,
 		"id":"aberdeenshire_council",
-		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8" },
+		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.29830561485551%2C-2.414152099999982&z=9" },
 		"title":"Aberdeenshire Council",
 		"url":"https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
@@ -26,24 +26,22 @@
 	},
 	"angus_council": {
 		"id":"angus_council",
-		"map": { "type":"locationCentre","url":"https://www.angus.gov.uk/community_spaces?page_id=1626#item-details" },
-		"notes":"locationCentre is not queryable",
+		"notes":"No location data or real structure",
 		"title":"Angus Council",
 		"url":"https://www.angus.gov.uk/community_spaces"
 	},
 	"ards_and_north_down_council": {
 		"id":"ards_and_north_down_council",
-		"notes":"Provided as a PDF",
-		"register": { "url":"https://engage.ardsandnorthdown.gov.uk/community-planning/warmwelcomespace/" },
+		"notes":"Closed in 2023",
 		"title":"Ards and North Down Council",
 		"url":"https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count":"0",
-		"geocount":"0",
+		"count": 45,
+		"geocount": 24,
 		"id":"argyll_and_bute_third_sector_interface",
 		"title":"Argyll and Bute Third Sector Interface",
-		"url":"https://www.argylltsi.org/warmspaces.html"
+		"url":"https://www.argylltsi.org/warm-spaces/"
 	},
 	"armagh_city__bandridge_and_craigavon_council": {
 		"id":"armagh_city__bandridge_and_craigavon_council",
@@ -116,8 +114,6 @@
 		"url":"https://www.belfastcity.gov.uk/costoflivingsupport#897-3"
 	},
 	"bexley_council": {
-		"count": 9,
-		"geocount": 9,
 		"id":"bexley_council",
 		"notes":"Removed.",
 		"register": { "url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places" },
@@ -140,8 +136,10 @@
 		"url":"https://www.boltonathome.org.uk/warm-spaces/"
 	},
 	"boston_borough_council": {
+		"count":"0",
+		"geocount":"0",
 		"id":"boston_borough_council",
-		"notes":"Not enough information to parse",
+		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11" },
 		"title":"Boston Borough Council",
 		"url":"https://www.boston.gov.uk/warmspaces"
 	},
@@ -399,7 +397,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -1147,7 +1145,7 @@
 		"url":"https://www.scambs.gov.uk/warm-hubs/"
 	},
 	"south_tyneside_council": {
-		"count": 53,
+		"count": 54,
 		"geocount": 43,
 		"id":"south_tyneside_council",
 		"map": { "type":"os","url":"https://maps.southtyneside.gov.uk/warm_spaces/" },
@@ -1341,8 +1339,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 3991,
-		"geocount": 3991,
+		"count": 4025,
+		"geocount": 4025,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1350,8 +1348,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 91,
-		"geocount": 91,
+		"count": 90,
+		"geocount": 90,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
@@ -1383,8 +1381,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 99,
-		"geocount": 94,
+		"count": 98,
+		"geocount": 93,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
@@ -1392,8 +1390,8 @@
 		"url":"https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"westminster_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 19,
+		"geocount": 19,
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"title":"Westminster Council",

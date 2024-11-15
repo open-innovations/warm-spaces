@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.53814,56.18124],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"Ardfern PA31 8QN","description":"Free warm space for all. ​Mondays 10am-6pm and Tuesdays 7-10pm.","hours":{"_text":"Mondays 10am-6pm. Tuesdays 7-10pm","opening":"Mo 10:00-18:00; Tu 19:00-22:00"},"loc_pcd":true,"title":"Craignish Village Hall"},"type":"Feature"}
+	]
+}

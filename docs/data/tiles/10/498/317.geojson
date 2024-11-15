@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.74814,56.19416],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"11 Kirkfield Place, Arrochar G83 7AE","description":"Wednesdays 1 – 2.30pm The Craft and Chat Group continues to run every Wednesday afternoon from 1pm until 2.30pm. It runs all year round, with the exception of the first two weeks in January when they generally take a break. However, if there is a need to keep the Church open for these two Wednesday's, it could be arranged.","hours":{"_text":"Wednesdays 1 – 2.30pm","opening":"We 13:00-14:30"},"loc_pcd":true,"title":"Arrochar Parish Church"},"type":"Feature"}
+	]
+}
