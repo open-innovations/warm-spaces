@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-4.61703,55.48625],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Starbucks Coffee (UK) Ltd, Prestwick, Ayrshire KA9 1TW","description":"A comfy cafe space with access to hot drinks, free WiFi and charging points","hours":{"_text":"Monday: 08:00 - 21:00, Tuesday: 08:00 - 21:00, Wednesday: 08:00 - 21:00, Thursday: 08:00 - 21:00, Friday: 08:00 - 21:00, Saturday: 08:00 - 21:00, Sunday: 08:00 - 20:00","opening":"Mo 08:00-21:00; Tu 08:00-21:00; We 08:00-21:00; Th 08:00-21:00; Fr 08:00-21:00; Sa 08:00-21:00; Su 08:00-20:00"},"title":"Prestwick Sainsbury’s"},"type":"Feature"},
 		{"geometry":{"coordinates":[-4.59274,55.39660],"type":"Point"},"properties":{"_source":"east_ayrshire_council","address":"Barbieston Road, Dalrymple, KA6 6DF","description":"Larder and community hub","hours":{"_text":"Thursday 10:30am to 12:30pm","opening":"Th 10:30-12:30"},"loc_pcd":true,"title":"Dalrymple Skeldon Hollybush Project (DaSH)"},"type":"Feature"}
 	]
 }
