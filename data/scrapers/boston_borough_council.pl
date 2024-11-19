@@ -75,7 +75,6 @@ if(-e $file){
 			# Download the section
 			`curl -s --insecure --compressed -o $rfile "$results[$i]{'url'}"`;
 		}
-		msg("Reading <cyan>$rfile<none>\n");
 		open(FILE,"<",$rfile);
 		@lines = <FILE>;
 		close(FILE);
