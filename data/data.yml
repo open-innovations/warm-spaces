@@ -182,7 +182,7 @@ directories:
       url: "https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
       type: html
   - title: "Bracknell Forest Council"
-    notes: "No longer exist"
+    notes: "No longer exists"
     inactive: 2024-11-19
   - title: "Bradford Council"
     url: "https://costoflivingbradford.co.uk/warm-spaces/"
@@ -195,7 +195,7 @@ directories:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: html
   - title: "Bradford on Avon Council"
-    notes: "No longer exist"
+    notes: "No longer exists"
     inactive: 2024-11-19
   - title: "Braintree Council"
     url: "https://www.braintree.gov.uk/warmspaces"
@@ -203,10 +203,10 @@ directories:
       url: "https://braintree.essexfrontline.org.uk/Library/SearchService?page=0&limit=100&distance=0&postcode=&searchText=warm%20space&phoneService=true&category=&facetoface=true&homevisit=true"
       type: html
   - title: "Breckland Council"
-    url: "https://www.breckland.gov.uk/community/warm-and-well"
-    notes: "As of autumn 2023 it links to Warm Welcome UK"
+    notes: "No longer exists"
+    inactive: 2024-11-19
   - title: "Brent"
-    url: "https://www.brent.gov.uk/cost-of-living-help-and-advice"
+    url: "https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
     notes: "Refers people to Warm Welcome"
   - title: "Bridgend Council"
     url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
@@ -214,12 +214,12 @@ directories:
       url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
       type: html
   - title: "Brighton & Hove Council"
-    url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+    url: "https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
     map:
-      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+      url: "https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go?view=map"
       type: leaflet
     data:
-      url: "https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-directory-indoor-activities-and-warm-places-go-winter"
+      url: "https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
       type: html
   - title: "Bristol Council"
     url: "https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
