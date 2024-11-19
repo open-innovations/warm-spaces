@@ -35,22 +35,28 @@ if(-e $file){
 		$d = $res->{'warmspaces'}[$i];
 		$td = @{$d->{'td'}};
 		if($td > 0){
-			$d->{'td'}[0] =~ s/[\n\r]//g;
+			$venue = parseText($d->{'td'}[0]);
+			$times = trimHTML($d->{'td'}[1]);
+			$avail = $d->{'td'}[2];
+			$other = $d->{'td'}[3];
 
-			if($d->{'td'}[0] =~ /^<p>(.*?)<\/p><p>(.*?)<\/p>/){
-					$d->{'address'} = $1;
-					$d->{'contact'} = $2;
-			}else{
-				$d->{'address'} = $d->{'td'}[0];
-				if($d->{'address'} =~ s/<p>(.*)<\/p>//){
-					$d->{'contact'} = $1;
-				}
+			$venue =~ s/[\n\r]//g;
+
+			$d->{'address'} = $venue;
+			if($venue =~ /^([^\,]+)\, ?(.*)$/){
+				$d->{'title'} = $1;
+				$d->{'address'} = $2;
 			}
 
 			# If we have opening hours, parse them
-			if($d->{'td'}[1]){
-				$d->{'td'}[1] =~ s/ / /g;
-				$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'td'}[1]});
+			if($times){
+				$times =~ s/ / /g;
+				$d->{'hours'} = parseOpeningHours({'_text'=>$times});
+			}
+			if($avail){ 
+				$d->{'description'} = $avail.($avail ? ". ":"").$other;
+				$d->{'description'} =~ s/\.+/\./g;
+				$d->{'description'} =~ s/ $//g;
 			}
 
 			# Remove the <li> entry
@@ -73,3 +79,19 @@ if(-e $file){
 
 }
 
+
+sub trimHTML {
+	my $str = $_[0];
+	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/([^\.])(<\/li>|<\/p>)/$1; /g;
+	$str =~ s/<[^\>]+>//g;
+	$str =~ s/(^[\s\t\n\r]+|[\s\t\n\r]+$)//g;
+	$str =~ s/[\n\r]{2,}/\n/g;
+	$str =~ s/[\s\t]{2,}/ /g;
+	$str =~ s/\;\s\.?\s?\;/\;/g;
+	$str =~ s/ ?\;$//g;
+	$str =~ s/^\. //g;
+	$str =~ s/\s\;\s/\; /g;
+	$str =~ s/\;\s+$//g;
+	return $str;
+}
