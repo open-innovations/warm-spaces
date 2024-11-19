@@ -175,6 +175,12 @@ directories:
     notes: "Not enough structure to parse"
     register:
       url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx"
+    map:
+      url: "https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$"
+      type: aurora
+    data:
+      url: "https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$"
+      type: html
   - title: "Bracknell Forest Council"
     url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
     notes: "Locations for libraries on separate pages"
