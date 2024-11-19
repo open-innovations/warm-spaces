@@ -171,7 +171,7 @@ directories:
       url: "https://www.boston.gov.uk/warmspaces"
       type: html
   - title: "Bournemouth, Christchurch and Poole"
-    url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
+    url: "https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
     notes: "Not enough structure to parse"
     register:
       url: "https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx"
@@ -179,7 +179,7 @@ directories:
       url: "https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$"
       type: aurora
     data:
-      url: "https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$"
+      url: "https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
       type: html
   - title: "Bracknell Forest Council"
     url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
