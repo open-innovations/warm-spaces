@@ -237,33 +237,23 @@ directories:
         address: "ADDRESS"
   - title: "Broadland and South Norfolk Council"
     url: "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
-    map:
-      url: "https://s-norfolk.maps.arcgis.com/apps/instant/nearby/index.html?appid=9d8c911143974201ba5c1a231b528030"
-      type: arcgis
-    data:
-      url: "https://services8.arcgis.com/SyngyOZB1zXVLSPX/arcgis/rest/services/Warm_Spaces/FeatureServer/3/query?f=geojson&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=102100&spatialRel=esriSpatialRelIntersects"
-      type: arcgis
-      keys:
-        title: "Name"
-        address: "Address"
-        hours: "Opening_times"
-        url: "URL_for_more_details"
+    notes: "No longer exists"
+    inactive: 2024-11-19
   - title: "Bromley Well"
-    url: "https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
+    url: "https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
     map:
-      url: "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11"
+      url: "https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11"
+      url: "https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12"
       type: googlemap
       keys:
-        title: "name"
-        description: "Notes"
-        hours: "Notes"
-        address: "street"
-        contact: "Tel: {{ Phone }}; Email: {{ Email }}"
-        address: "{{ street }}, {{ Postcode }}"
-        url: "Web"
+        title: "Name of Warm Centre e.g St Johns Church cafe  / Oprgington Community Centre"
+        description: "Please provide a short summary of what you offer and at what times/days. This might include, for example:-  warm welcoming place to relax; games and other activities; phone charging points; hot f..."
+        hours: "Please provide details of your open times.  e.g Mondays 10-2pm and Fridays 1pm- 3pm"
+        contact: "Tel: {{ Phone number for public enquiries }}; Email: {{ Contact email for public enquiries }}"
+        address: "{{ First line of address of Warm Centre venue }}, {{ Postcode - please enter full postcode }}"
+        url: "Enter your website"
   - title: "Buckinghamshire Council"
     url: "https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
     register:
@@ -271,7 +261,7 @@ directories:
     map:
       url: "https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1"
     data:
-      url: "https://api.familyinfo.buckinghamshire.gov.uk/api/v1/services?page=1&per_page=100&targetDirectories=bod&taxonomies=advice-and-support&taxonomies=welcoming-spaces"
+      url: "https://api.familyinfo.buckinghamshire.gov.uk/api/v1/services?directories=bod&page=1&per_page=100&taxonomies=advice-and-support%2Cwelcoming-spaces"
       type: html
   - title: "Burnley Council"
     url: "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
