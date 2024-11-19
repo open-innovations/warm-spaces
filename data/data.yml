@@ -182,13 +182,12 @@ directories:
       url: "https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
       type: html
   - title: "Bracknell Forest Council"
-    url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
-    notes: "Locations for libraries on separate pages"
-    data:
-      url: "https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
-      type: html
+    notes: "No longer exist"
+    inactive: 2024-11-19
   - title: "Bradford Council"
     url: "https://costoflivingbradford.co.uk/warm-spaces/"
+    register:
+      url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
     map:
       url: "https://costoflivingbradford.co.uk/warm-spaces-directory/"
       type: googlemap
