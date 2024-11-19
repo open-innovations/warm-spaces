@@ -265,6 +265,8 @@ directories:
       type: html
   - title: "Burnley Council"
     url: "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
+    register:
+      url: "https://www.surveymonkey.com/r/Warmspaces24"
     map:
       url: "https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/"
       type: googlemap
