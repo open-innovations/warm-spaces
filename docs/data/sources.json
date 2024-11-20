@@ -37,8 +37,8 @@
 		"url":"https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
 	},
 	"argyll_and_bute_third_sector_interface": {
-		"count": 45,
-		"geocount": 24,
+		"count": 43,
+		"geocount": 22,
 		"id":"argyll_and_bute_third_sector_interface",
 		"title":"Argyll and Bute Third Sector Interface",
 		"url":"https://www.argylltsi.org/warm-spaces/"
@@ -57,8 +57,8 @@
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
 	},
 	"barnet_council": {
-		"count": 7,
-		"geocount": 7,
+		"count": 8,
+		"geocount": 8,
 		"id":"barnet_council",
 		"map": { "type":"leaflet","url":"https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url":"https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -101,8 +101,8 @@
 		"url":"https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 9,
-		"geocount": 9,
+		"count": 22,
+		"geocount": 21,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -136,61 +136,62 @@
 		"url":"https://www.boltonathome.org.uk/warm-spaces/"
 	},
 	"boston_borough_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 15,
+		"geocount": 12,
 		"id":"boston_borough_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11" },
 		"title":"Boston Borough Council",
 		"url":"https://www.boston.gov.uk/warmspaces"
 	},
 	"bournemouth__christchurch_and_poole": {
+		"count": 40,
+		"geocount": 38,
 		"id":"bournemouth__christchurch_and_poole",
+		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
 		"notes":"Not enough structure to parse",
 		"register": { "url":"https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/How-you-can-help-with-warm-welcome-spaces.aspx" },
 		"title":"Bournemouth, Christchurch and Poole",
-		"url":"https://www.bcpcouncil.gov.uk/Communities/Cost-of-living-help/Warm-welcome-spaces/Find-a-warm-welcome-space.aspx"
+		"url":"https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
 	},
 	"bracknell_forest_council": {
-		"count":"0",
-		"geocount":"0",
 		"id":"bracknell_forest_council",
-		"notes":"Locations for libraries on separate pages",
-		"title":"Bracknell Forest Council",
-		"url":"https://www.bracknell-forest.gov.uk/cost-living-support/community-winter-hubs"
+		"inactive":"2024-11-19",
+		"notes":"No longer exists",
+		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 196,
+		"geocount": 196,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
+		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"title":"Bradford Council",
 		"url":"https://costoflivingbradford.co.uk/warm-spaces/"
 	},
 	"bradford_on_avon_council": {
 		"id":"bradford_on_avon_council",
-		"notes":"Not enough structure to parse",
-		"title":"Bradford on Avon Council",
-		"url":"https://bradfordonavontowncouncil.gov.uk/warm-spaces/"
+		"inactive":"2024-11-19",
+		"notes":"No longer exists",
+		"title":"Bradford on Avon Council"
 	},
 	"braintree_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 48,
+		"geocount": 48,
 		"id":"braintree_council",
-		"map": { "type":"arcgis","url":"https://braintree.maps.arcgis.com/apps/webappviewer/index.html?id=0392490654824486aebf5b5eb134b483" },
 		"title":"Braintree Council",
-		"url":"https://www.braintree.gov.uk/community/debt-management-cost-living/8"
+		"url":"https://www.braintree.gov.uk/warmspaces"
 	},
 	"breckland_council": {
 		"id":"breckland_council",
-		"notes":"As of autumn 2023 it links to Warm Welcome UK",
-		"title":"Breckland Council",
-		"url":"https://www.breckland.gov.uk/community/warm-and-well"
+		"inactive":"2024-11-19",
+		"notes":"No longer exists",
+		"title":"Breckland Council"
 	},
 	"brent": {
 		"id":"brent",
 		"notes":"Refers people to Warm Welcome",
 		"title":"Brent",
-		"url":"https://www.brent.gov.uk/cost-of-living-help-and-advice"
+		"url":"https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
 	},
 	"bridgend_council": {
 		"count": 122,
@@ -200,40 +201,39 @@
 		"url":"https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 55,
+		"geocount": 52,
 		"id":"brighton___hove_council",
-		"map": { "type":"leaflet","url":"https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter" },
+		"map": { "type":"leaflet","url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go?view=map" },
 		"title":"Brighton & Hove Council",
-		"url":"https://www.brighton-hove.gov.uk/cost-living-support/warm-welcome-indoor-activities-and-warm-places-go-winter"
+		"url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
 	},
 	"bristol_council": {
-		"count": 49,
-		"geocount": 49,
+		"count": 86,
+		"geocount": 86,
 		"id":"bristol_council",
-		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/webappviewer/index.html?id=4c5e933568424768bd871cea2003da34" },
+		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
 		"url":"https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
 	},
 	"broadland_and_south_norfolk_council": {
-		"count": 49,
-		"geocount": 49,
 		"id":"broadland_and_south_norfolk_council",
-		"map": { "type":"arcgis","url":"https://s-norfolk.maps.arcgis.com/apps/instant/nearby/index.html?appid=9d8c911143974201ba5c1a231b528030" },
+		"inactive":"2024-11-19",
+		"notes":"No longer exists",
 		"title":"Broadland and South Norfolk Council",
 		"url":"https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 49,
-		"geocount": 49,
+		"count": 18,
+		"geocount": 18,
 		"id":"bromley_well",
-		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1eYVcD610uCwHd9GsPmiZ3EE_KR3u7iM&hl=en&ehbc=2E312F&ll=51.374733987541894%2C0.020678999999996783&z=11" },
+		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12" },
 		"title":"Bromley Well",
-		"url":"https://www.bromleywell.org.uk/news/find-your-nearest-warm-centre/"
+		"url":"https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
 	},
 	"buckinghamshire_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 45,
+		"geocount": 45,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -241,10 +241,11 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 17,
+		"geocount": 17,
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
+		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
 		"title":"Burnley Council",
 		"url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
@@ -276,8 +277,8 @@
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
 	},
 	"camden_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 48,
+		"geocount": 48,
 		"id":"camden_council",
 		"map": { "type":"arcgis","url":"https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -397,7 +398,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -673,8 +674,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 93,
-		"geocount": 75,
+		"count": 95,
+		"geocount": 76,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -689,8 +690,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 36,
-		"geocount": 35,
+		"count": 37,
+		"geocount": 36,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -812,8 +813,8 @@
 		"url":"https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": 24,
+		"geocount": 24,
 		"id":"lewes_and_eastbourne_council",
 		"register": { "url":"https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title":"Lewes and Eastbourne Council",
@@ -1339,8 +1340,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4073,
-		"geocount": 4073,
+		"count": 4105,
+		"geocount": 4105,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
