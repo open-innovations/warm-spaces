@@ -426,8 +426,6 @@ directories:
         Opening_Times: "[\r\n]+"
         Event_Name: "[\r\n]+"
   - title: "Cheshire East Council"
-    inactive: 2023-11-29
-    notes: Now provided as a password-protected Sharepoint link
     url: "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
     data:
       - url: "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360"

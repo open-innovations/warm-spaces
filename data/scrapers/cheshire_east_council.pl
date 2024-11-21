@@ -34,7 +34,7 @@ if(-e $file){
 		}
 		if($item =~ /<meta itemprop="latitude" content="([^\"]+)" \/>/){ $d->{'lat'} = $1; }
 		if($item =~ /<meta itemprop="longitude" content="([^\"]+)" \/>/){ $d->{'lon'} = $1; }
-		if($item =~ /<div class="bem-search-result-item__contact">(.*?)<\/div>/){ $d->{'contact'} = parseText($1); }
+		if($item =~ /<div class="bem-search-result-item__contact">(.*?)<\/div>/){ $d->{'contact'} = parseText($1); $d->{'contact'} =~ s/Telephone:/Tel:/g }
 		if($item =~ /<p class="service-location bem-search-result-item__location">(.*?)<\/p>/){ $d->{'address'} = parseText($1); }
 		
 		# Store the entry as JSON
