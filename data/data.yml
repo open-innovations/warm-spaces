@@ -452,7 +452,7 @@ directories:
   - title: "Chorley Council"
     url: "https://chorley.gov.uk/welcomespaces"
     data:
-      url: "https://chorley.gov.uk/warmspaces"
+      url: "https://chorley.gov.uk/cost-living-support/warm-spaces-directory"
       type: html
   - title: "City of London"
     url: "https://news.cityoflondon.gov.uk/libraries-offer-a-warm-space-to-city-residents-this-winter/"
