@@ -16,6 +16,7 @@ use OpenInnovations::Log;
 use POSIX qw(strftime);
 use Encode;
 use Geo::Coordinates::OSGB qw(ll_to_grid grid_to_ll);
+use List::Util qw( min max );
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -308,14 +309,29 @@ sub parseStorepointFeature {
 sub parseGeoJSONFeature {
 	my $f = shift;
 	my $keys = shift;
+	my $split = shift;
 	my $sr = shift;
 	my $json = {};
 	my @fields = ("title","address","lat","lon","description","accessibility","type","contact","hours");
 	my $props = "properties";
+	my ($field,$i,@array,$s,$str);
 	if(!$f->{$props} && $f->{'attributes'}){
 		$props = "attributes";
 	}
-	my ($i,@days,$key,$tempk,$v,$k);
+
+	# Split fields as necessary
+	# split = {"Opening_Times":"[\n\r]+"}
+	if(defined($split)){
+		foreach $field (keys(%{$split})){
+			if(defined($f->{'properties'}{$field})){
+				$str = $f->{'properties'}{$field};
+				delete $f->{'properties'}{$field};
+				@{$f->{'properties'}{$field}} = split(/$split->{$field}/,$str);
+			}
+		}
+	}
+
+	my ($i,@days,$key,$tempk,$v,$k,$partial,@bits,$n,$max);
 	for($i = 0; $i < @fields; $i++){
 		if($f->{$props}{$fields[$i]}){
 			$json->{$fields[$i]} = getProperty($fields[$i],$f->{$props});
@@ -339,21 +355,51 @@ sub parseGeoJSONFeature {
 		if($f->{$props}{$keys->{$key}}){
 			# Save to the replacement key
 			$v = getProperty($keys->{$key},$f->{$props});
-			$v =~ s/(^\s|\s$)//;
-			if($v){ $json->{$key} = $v; }
+			if(ref($v) eq "ARRAY"){
+				@bits = @{$v};
+				if(@bits > 0){
+					$json->{$key} = "";
+					for($n = 0; $n < @bits; $n++){
+						$bits[$n] =~ s/(^\s|\s$)//;
+						$json->{$key} .= ($json->{$key} ? "; ":"").$bits[$n];
+					}
+				}
+			}else{
+				$v =~ s/(^\s|\s$)//;
+				if($v){ $json->{$key} = $v; }
+			}
 		}
 	}
+
 	foreach $key (keys(%{$keys})){
 		if($keys->{$key} =~ /\{\{ ?(.*?) ?\}\}/){
-			$tempk = $keys->{$key};
-			while($tempk =~ /\{\{ ?(.*?) ?\}\}/){
-				$k = $1;
-				$v = getProperty($k,$f->{$props});
-				$v =~ s/(^\s|\s$)//;
-				$tempk =~ s/\{\{ ?$k ?\}\}/$v/s;
-				$tempk =~ s/[\n]/ /g;
+			$partial = $keys->{$key};
+			$tempk = $partial;
+			$max = 1;
+			# First pass to see how many loops we will need
+			while($tempk =~ s/\{\{ ?(.*?) ?\}\}//){
+				if($split->{$1}){
+					$n = @{$f->{$props}{$1}};
+					$max = max($max,$n);
+				}
 			}
-			$json->{$key} = $tempk;
+			$n = 0;
+			$json->{$key} = "";
+			# Loop for the number of entries we have and concatenate with a "; "
+			for($n = 0; $n < $max; $n++){
+				$tempk = $partial;
+				while($tempk =~ /\{\{ ?(.*?) ?\}\}/){
+					$k = $1;
+					$v = getProperty($k,$f->{$props});
+					if(ref($v) eq "ARRAY"){
+						$v = @{$v}[$n];
+					}
+					$v =~ s/(^\s|\s$)//;
+					$tempk =~ s/\{\{ ?$k ?\}\}/$v/s;
+					$tempk =~ s/[\n]/ /g;
+				}
+				$json->{$key} .= ($json->{$key} ? "; ":"").$tempk;
+			}
 		}
 		$json->{$key} =~ s/\, \,/\,/g;
 		# Clean up "<Null>" values
@@ -512,7 +558,7 @@ sub getGeoJSON {
 		# For each feature 
 		$d->{'geocount'} = $d->{'count'};
 		for($f = 0; $f < $d->{'count'}; $f++){
-			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
+			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'},$d->{'data'}[$i]{'split'});
 			$json->{'_source'} = $d->{'id'};
 
 			if($d->{'data'}[$i]{'coords'} eq "switch"){
@@ -558,7 +604,7 @@ sub getArcGIS {
 		# For each feature 
 		$d->{'geocount'} = $d->{'count'};
 		for($f = 0; $f < $d->{'count'}; $f++){
-			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'});
+			$json = parseGeoJSONFeature($geojson->{'features'}[$f],$d->{'data'}[$i]{'keys'},$d->{'data'}[$i]{'split'});
 			if($geojson->{'transform'} && $d->{'data'}[$i]{'transform'} ne "ignore"){
 				$json->{'lat'} = $json->{'lat'}*$geojson->{'transform'}{'scale'}[1] + $geojson->{'transform'}{'translate'}[1];
 				$json->{'lon'} = $json->{'lon'}*$geojson->{'transform'}{'scale'}[0] + $geojson->{'transform'}{'translate'}[0];

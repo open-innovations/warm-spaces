@@ -139,7 +139,8 @@ directories:
     url: "https://www.belfastcity.gov.uk/costoflivingsupport#897-3"
     notes: "Now just mentions leisure centres, libraries and links to Warm Welcome UK"
   - title: "Bexley Council"
-    notes: "Removed."
+    notes: "Removed"
+    inactive: 2024-11-19
     url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
     register:
       url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
@@ -378,12 +379,12 @@ directories:
       url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
       type: html
   - title: "Ceredigion Council"
-    url: "https://haveyoursay.ceredigion.gov.uk/warm-welcome-spaces-map"
+    url: "https://ceredigion.gov.uk/resident/cost-of-living-support/warm-welcome-spaces/"
     map:
-      url: "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9"
+      url: "https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1_YZVUmo5wrQ8FxfFFQMAPU5YH1rUhnY&ehbc=2E312F&wmode=transparent&ll=52.291157852291256%2C-4.074526488845211&z=9"
+      url: "https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8"
       type: googlemap
       keys:
         title: "Warm Welcome Space"
@@ -407,6 +408,23 @@ directories:
   - title: "Cherwell Council"
     url: "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
     notes: "Links to a PDF and Warm Welcome UK"
+    map:
+      url: "https://cherwell.maps.arcgis.com/apps/instant/nearby/index.html?appid=5eb7e00e295e49c7bbbcd1896ebdb535&sliderDistance=2"
+      type: arcgis
+    data:
+      url: "https://services8.arcgis.com/UQpattfmZaWDEU5y/arcgis/rest/services/Cherwell_Public_Warm_Spaces_TEST/FeatureServer/0/query?f=geojson&distance=10&geometry=446157.93986974563%2C238069.83419816848&resultRecordCount=500&where=1%3D1&outFields=*&spatialRel=esriSpatialRelIntersects&units=esriSRUnit_StatuteMile&geometryType=esriGeometryPoint&defaultSR=27700&outSR=4326"
+      type: arcgis
+      keys:
+        title: "Organisation"
+        address: "Address"
+        url: "Website"
+        hours: "{{ Opening_Days }} {{ Opening_Times }}"
+        contact: "{{ Key_contact }}; Tel: {{ Telephone }}; Email: {{ Email }}"
+        description: "Event_Name"
+      split:
+        Opening_Days: "[\r\n]+"
+        Opening_Times: "[\r\n]+"
+        Event_Name: "[\r\n]+"
   - title: "Cheshire East Council"
     inactive: 2023-11-29
     notes: Now provided as a password-protected Sharepoint link
