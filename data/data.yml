@@ -436,7 +436,7 @@ directories:
     url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
     notes: "Refers people to Warm Welcome"
   - title: "Chesterfield Council"
-    url: "https://www.chesterfield.gov.uk/home/latest-news/find-a-warm-space-to-visit-in-chesterfield.aspx"
+    url: "https://www.chesterfield.gov.uk/latest-news/funding-for-warm-and-welcoming-spaces/"
     map:
       url: "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12"
       type: googlemap
