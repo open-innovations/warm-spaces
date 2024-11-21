@@ -455,12 +455,12 @@ directories:
       url: "https://chorley.gov.uk/cost-living-support/warm-spaces-directory"
       type: html
   - title: "City of London"
-    url: "https://news.cityoflondon.gov.uk/libraries-offer-a-warm-space-to-city-residents-this-winter/"
-    notes: "As of winter 2023 it just mentions libraries" 
+    url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
+    notes: "Links to WarmWelcome"
   - title: "Colchester Council"
-    url: "https://www.colchester.gov.uk/cost-of-living-support/?id=&page=warm--welcoming--spaces"
+    url: "https://www.colchester.gov.uk/support-for-residents/?id=&page=warm--welcoming--spaces"
     map:
-      url: "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11"
+      url: "https://www.google.com/maps/d/embed?mid=1-hZPqoj-5gklHCw4KzUep7FcL214lo0&ehbc=2E312F&ll=51.862833514604574%2C0.8569344500000309&z=10"
       type: googlemap
     data:
       url: "https://www.google.com/maps/d/embed?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&hl=en&ehbc=2E312F&ll=51.85166252327647%2C0.8540887499999883&z=11"
@@ -478,12 +478,8 @@ directories:
   - title: "Community Action Derby"
     url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1MRxPR61MIqeSNAx4Mq-qBe8he5dN3MI&ehbc=2E312F"
-      type: googlemap
-      keys:
-        title: "Organisation Name"
-        address: "Address"
-        hours: "{{ Session Day }} {{ Session Times }}"
+      url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
+      type: html
   - title: "Coventry Council"
     url: "https://www.coventry.gov.uk/cost-living-wellbeing-support"
     map:
