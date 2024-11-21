@@ -3,6 +3,7 @@
 use lib "./";
 use utf8;
 use Data::Dumper;
+use Web::Scraper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
@@ -17,49 +18,87 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
-	
-#	my %lookup;
-#
-#	while($str =~ s/<h3>[\n\r\t\s]*<a href="([^\"]+)" rel="bookmark"><span>(.*?)<\/span>[\n\r\t\s]*<\/a>[\n\r\t\s]*<\/h3>[\n\r\t\s]*<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">(.*?)<\/div>//s){
-#		$lookup{$2} = {'url'=>$1,'description'=>3};
-#		print "$1 - $2 - $3\n\n";
-#	}
-	
-	print Dumper %lookup;
 
+	$baseurl = "https://www.croydon.gov.uk";
+
+	# Build a web scraper to find the HTML entries
+	my $warmspaces = scraper {
+		process '.views-row', "rows[]" => scraper {
+			process 'h3 a', 'url' => '@HREF';
+			process 'h3', 'title' => 'TEXT';
+			process '.field--name-body', 'body' => 'HTML';
+			process '.field--name-postal-address', 'address' => 'TEXT';
+			process '.field--name-localgov-directory-phone', 'phone' => 'TEXT';
+		};
+	};
 
 	if($str =~ /<script type="application\/json" data-drupal-selector="drupal-settings-json">(.*?)<\/script>/){
-		$str = $1;
-		if(!$str){ $str = "{}"; }
-		$json = JSON::XS->new->decode($str);
-		
-		for($i = 0; $i < @{$json->{'leaflet'}{'leaflet-map-view-localgov-directory-channel-embed-map'}{'features'}}; $i++){
-			$temp = $json->{'leaflet'}{'leaflet-map-view-localgov-directory-channel-embed-map'}{'features'}[$i];
-			$d = {};
-			$d->{'lat'} = $temp->{'lat'};
-			$d->{'lon'} = $temp->{'lon'};
-			$d->{'title'} = $temp->{'label'};
-			$temp->{'popup'} =~ s/[\n\r]//g;
-			if($temp->{'popup'} =~ /<a href="([^\"]*)" rel="bookmark">/){
-				$d->{'url'} = "https://www.brighton-hove.gov.uk".$1;
-			}
+		$txt = $1;
+		if(!$txt){ $txt = "{}"; }
+		$json = JSON::XS->new->decode($txt);
+		@features = @{$json->{'leaflet'}{'leaflet-map-view-localgov-directory-channel-embed-map'}{'features'}};
+	}
 
-			if($temp->{'popup'} =~ /<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">(.*?)<\/div>/){
-				$desc = $1;
-				$desc =~ s/<\/p><p>/ /g;
-				$desc =~ s/<[^\>]*>//g;
-				$desc =~ s/\s{2,}/ /g;
-				$d->{'hours'} = parseOpeningHours({'_text'=>$desc});
-				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
+	for($i = 0; $i < @features; $i++){
+		$features[$i];
+		$url = "";
+		$features[$i]->{'popup'}{'value'} =~ s/[\n\r]//g;
+		if($features[$i]->{'popup'}{'value'} =~ /<a href="([^\"]*)" rel="bookmark">/){ $url = $1; }
+		if($url ne ""){
+			if(!defined($places{$url})){
+				$places{$url} = {};
 			}
-			if($temp->{'popup'} =~ /<address>(.*?)<\/address>/){
-				$d->{'address'} = $1;
-				$d->{'address'} =~ s/<[^\>]*>//g;
-				$d->{'address'} =~ s/(^[\s\t]+|[\s\t]+$)//g;
-			}
-
-			push(@entries,makeJSON($d,1));
+			$places{$url}{'lat'} = $features[$i]->{'lat'};
+			$places{$url}{'lon'} = $features[$i]->{'lon'};
+			$places{$url}{'title'} = $features[$i]->{'title'};
 		}
+	}
+
+	$n = 0;
+	$next = "placeholder";
+	while($next){
+		if($n>0){
+			# Get new page here
+			$rfile = "raw/croydon_council-$n.html";
+			# Keep cached copy of individual URL
+			$age = getFileAge($rfile);
+			if($age >= 86400 || -s $rfile == 0){
+				warning("\tSaving $next to <cyan>$rfile<none>\n");
+				# For each entry we now need to get the sub page to find the location information
+				`curl '$next' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1'`;
+			}
+			open(FILE,"<:utf8",$rfile);
+			@lines = <FILE>;
+			close(FILE);
+			$str = join("",@lines);
+		}
+		if($str =~ /"pager__item pager__item--next">.*?<a href="([^\"]+)"/s){
+			$next = $baseurl."/warm-spaces-directory".$1;
+		}else{
+			$next = "";
+		}
+
+		# Get the list from this page
+		my $list = $warmspaces->scrape( $str );
+		for($i = 0; $i < @{$list->{'rows'}}; $i++){
+			$url = $list->{'rows'}[$i]->{'url'};
+			$d = {};
+			if(defined($places{$url})){
+				$d->{'lat'} = $places{$url}{'lat'};
+				$d->{'lon'} = $places{$url}{'lon'};
+				$d->{'title'} = $places{$url}{'title'};
+				$d->{'address'} = $list->{'rows'}[$i]->{'address'};
+				if($list->{'rows'}[$i]->{'phone'}){ $d->{'contact'} = "Tel: ".$list->{'rows'}[$i]->{'phone'}; }
+				$d->{'url'} = $baseurl.$url;
+				$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($list->{'rows'}[$i]{'body'})});
+				
+				push(@entries,makeJSON($d,1));
+			}else{
+				warning("Bad $url\n");
+			}
+		}
+		$str = "";
+		$n++;
 	}
 
 	open(FILE,">:utf8","$file.json");
@@ -74,3 +113,12 @@ if(-e $file){
 
 }
 
+sub trimHTML {
+	my $str = $_[0];
+	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/<[^\>]+>//g;
+	$str =~ s/(^[\s\t\n\r]+|[\s\t\n\r]+$)//g;
+	$str =~ s/[\n\r]{2,}/\n/g;
+	$str =~ s/[\s\t]{2,}/ /g;
+	return $str;
+}

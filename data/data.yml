@@ -489,8 +489,6 @@ directories:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
       type: html
   - title: "Croydon Council"
-    inactive: 2023-11-30
-    notes: "Has been removed"
     url: "https://www.croydon.gov.uk/community-and-safety/warm-spaces"
     map:
       url: "https://www.croydon.gov.uk/warm-spaces-directory"
