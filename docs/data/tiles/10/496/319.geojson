@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.41470,55.86299],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 kintyre place tarbert PA29 6UL, Tarbert, Argyll PA29 6UL","description":"Somewhere safe and warm to meet up , have warm food, teas coffees, snacks. Play games, activities, chat, bring your own activities. Access to charging phones etc and to heating food . Advice and assistance around warmth and food poverty , isolation and wellbeing.","hours":{"_text":"Wednesday: 12:00 - 02:00","opening":"We 12:00-02:00"},"title":"The pantry warm Wednesdays"},"type":"Feature"}
+	]
+}
