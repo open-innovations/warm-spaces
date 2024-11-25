@@ -161,8 +161,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 182,
-		"geocount": 182,
+		"count": 181,
+		"geocount": 181,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -353,8 +353,8 @@
 		"url":"https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 30,
-		"geocount": 30,
+		"count": 31,
+		"geocount": 31,
 		"id":"cheshire_east_council",
 		"title":"Cheshire East Council",
 		"url":"https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -402,7 +402,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 30,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -483,8 +483,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 31,
+		"geocount": 30,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -597,7 +597,7 @@
 		"url":"https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
 	},
 	"gedling_council": {
-		"count": 37,
+		"count": 38,
 		"geocount": 34,
 		"id":"gedling_council",
 		"title":"Gedling Council",
@@ -1344,8 +1344,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4122,
-		"geocount": 4122,
+		"count": 4130,
+		"geocount": 4130,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
