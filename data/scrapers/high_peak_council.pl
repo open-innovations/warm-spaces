@@ -26,7 +26,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'div[class="maincontent__bodytext"] table tr', "warmspaces[]" => scraper {
+		process '.maincontent__left table tr', "warmspaces[]" => scraper {
 			process 'td', 'td[]' => 'HTML';
 		};
 	};
@@ -40,10 +40,13 @@ if(-e $file){
 		$d = $res->{'warmspaces'}[$i];
 		$td = @{$d->{'td'}};
 		if($td > 0 && $d->{'td'}[1]){
-			
+
 			if($d->{'td'}[1] =~ /^<p>(.*?)<\/p>/){
 				$place = $1;
 				if($place =~ /^(.*?) - (.*?)$/){
+					$d->{'title'} = $1;
+					$d->{'address'} = $2;
+				}elsif($place =~ /^([^\,]+), (.*)/){
 					$d->{'title'} = $1;
 					$d->{'address'} = $2;
 				}
@@ -54,8 +57,16 @@ if(-e $file){
 			if($d->{'td'}[3] =~ /^<p>(.*?)<\/p>/){
 				$d->{'description'} = $1;
 			}
-			if($d->{'td'}[4] =~ /<a href="([^\"]+)"/){
-				$d->{'url'} = $1;
+			if($d->{'td'}[4] =~ s/<a href="([^\"]+)"[^\>]*>//g){
+				$url = $1;
+				if($url =~ /^mailto:(.*)/){
+					$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: $1";
+				}else{
+					$d->{'url'} = $url;
+				}
+			}
+			if($d->{'td'}[4] =~ /([0-9\s]{10,})/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".trimText($1);
 			}
 
 			delete $d->{'td'};
