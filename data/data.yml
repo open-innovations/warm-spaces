@@ -804,7 +804,6 @@ directories:
     notes: "No longer exists as of October 2023"
   - title: "Haringey Council"
     url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
-    notes: "No longer exists as of October 2023"
     data:
       url: "https://new.haringey.gov.uk/community-support-safety/haringey-here-to-help/haringey-warm-welcome/a-warm-welcome-this-winter"
       type: html
