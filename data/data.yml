@@ -719,8 +719,12 @@ directories:
       url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon"
       type: googlemap
     data:
-      url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon"
+      url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm%20spaces&spost_category[]=&snear=&sgeo_lat=&sgeo_lon="
       type: html
+      headers:
+        Accept-Encoding: "gzip, deflate"
+        Accept-Language: en-GB,en;q=0.5
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
   - title: "Exeter Council"
     url: "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
     notes: "Not enough location information"
