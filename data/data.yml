@@ -789,6 +789,8 @@ directories:
       url: "https://www.gloucester.gov.uk/community-living/warm-spaces/"
       type: html
   - title: "Greenwich Council"
+    inactive: "2024-11-26"
+    notes: "No longer exists"
     url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
     map:
       url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
@@ -797,13 +799,14 @@ directories:
       url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
       type: html
   - title: "Hackney Council"
+    inactive: "2024-11-26"
     url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
     notes: "No longer exists as of October 2023"
   - title: "Haringey Council"
     url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
     notes: "No longer exists as of October 2023"
     data:
-      url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
+      url: "https://new.haringey.gov.uk/community-support-safety/haringey-here-to-help/haringey-warm-welcome/a-warm-welcome-this-winter"
       type: html
   - title: "Harlow Council"
     url: "https://www.harlow.gov.uk/warm-spaces"
@@ -1620,7 +1623,7 @@ directories:
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     notes: "No location information is given so they can't be geocoded"
     register:
-      url: "https://www.tewkesbury.gov.uk/forms/warm-spaces-directory-registration"
+      url: "https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/"
     data:
       url: "https://www.tewkesbury.gov.uk/warm-spaces-directory"
       type: html
