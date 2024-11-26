@@ -590,7 +590,7 @@ directories:
     notes: "In 2022/3 it was too unstructured to parse"
   - title: "Derbyshire Dales Council"
     url: "https://www.derbyshiredales.gov.uk/community/warm-spaces"
-    notes: "Too unstructured to parse"
+    notes: "As of Nov 2024 it is still too unstructured to parse with no address information."
   - title: "Devizes Council"
     inactive: 2023-04-04
     url: "https://www.devizes-tc.gov.uk/warmspaces/"
@@ -598,19 +598,9 @@ directories:
       url: "https://www.devizes-tc.gov.uk/warmspaces/"
       type: html
   - title: "Dover Council"
+    inactive: 2024-11-26
     url: "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
-    notes: "Their map no longer exists"
-    map:
-      url: "https://experience.arcgis.com/experience/67b666bc92b44763a2b55289c9fc9fc3?data_id=86e4bddcadd14c56954aa0a57b49c363-184a4dfdb12-layer-1%3A21&org=DDC"
-      type: arcgis
-    data:
-      url: "https://services3.arcgis.com/EHsv0z53RpH5ds1l/arcgis/rest/services/Warm_Spaces_Read_Only/FeatureServer/0/query?f=json&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=8000&where=1%3D1&orderByFields=FID&outFields=*&outSR=27700&spatialRel=esriSpatialRelIntersects"
-      type: arcgis
-      keys:
-        title: "Venue"
-        address: "Address_2"
-        hours: "Usual_open"
-        url: "Website"
+    notes: "They now (2024) link to WarmWelcome."
   - title: "Durham County Council"
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
@@ -658,7 +648,7 @@ directories:
     url: "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
     notes: "In 2022/3 there was not enough address information for half the entries"
     data:
-      url: "https://www.eaststaffsbc.gov.uk/cost-of-living-support/warmer-spaces"
+      url: "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
       type: html
   - title: "Eastleigh Council"
     url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"

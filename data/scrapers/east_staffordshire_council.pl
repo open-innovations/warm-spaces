@@ -19,24 +19,23 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-
-	# Build a web scraper for list items
+	# Build a web scraper for table rows
 	my $warmspaces = scraper {
-		process '.field-items li', "warmspaces[]" => 'TEXT';
+		process '.field--name-localgov-text table tr', "warmspaces[]" => scraper {
+			process 'td', 'td[]' => 'HTML';
+		}
 	};
 
 	$res = $warmspaces->scrape( $str );
 
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		$d = {};
-		if($res->{'warmspaces'}[$i] =~ /^([^\,]+?)\, /){
-			$d->{'title'} = $1;
-			if($res->{'warmspaces'}[$i] =~ s/(^| )running (.*)//){
-				$d->{'hours'} = parseOpeningHours({'_text'=>$2});
-				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+		if(defined($res->{'warmspaces'}[$i]{'td'})){
+			$d->{'address'} = $res->{'warmspaces'}[$i]{'td'}[1];
+			if($d->{'address'} =~ /^([^\,]*),/){
+				$d->{'title'} = $1;
 			}
-			$d->{'address'} = $res->{'warmspaces'}[$i];
-			$d->{'address'} =~ s/\, ?$//g;
+			$d->{'hours'} = parseOpeningHours({'_text'=>trimList($res->{'warmspaces'}[$i]{'td'}[2])});
 			push(@entries,makeJSON($d,1));
 		}
 	}
@@ -54,12 +53,16 @@ if(-e $file){
 }
 
 
-sub trimHTML {
+sub trimList {
 	my $str = $_[0];
-	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/<\/li><li>/; /g;
+	$str =~ s/<br ?\/?>/; /g;
 	$str =~ s/<[^\>]+>//g;
 	$str =~ s/(^[\s\t\n\r]+|[\s\t\n\r]+$)//g;
 	$str =~ s/[\n\r]{2,}/\n/g;
 	$str =~ s/[\s\t]{2,}/ /g;
+	$str =~ s/\; \; ?/\; /g;
+	$str =~ s/^\; ?//g;
+	$str =~ s/\; ?$//g;
 	return $str;
 }
