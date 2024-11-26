@@ -503,8 +503,13 @@ directories:
     data: 
       url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=Warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
+  - title: "Cumberland Council"
+    data:
+      - url: "https://www.cumberland.gov.uk/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare?f%5B0%5D=localgov_directories_facets%3A277"
+        type: html
   - title: "Cumbria Council"
     inactive: 2023-04-01
+    note: Council no longer exists
     url: "https://new.cumbria.gov.uk/warm-spots"
     register:
       url: "https://www.surveymonkey.co.uk/r/warmspots"
@@ -1745,6 +1750,11 @@ directories:
           title: "Institution"
           url: "Link"
           description: "Extra_Info"
+
+  - title: "Westmorland Council"
+    data:
+      - url: "https://www.westmorlandandfurness.gov.uk/warmspots"
+        type: html
   - title: "Wigan Council"
     url: "https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
     map:
