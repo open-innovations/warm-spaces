@@ -18,12 +18,12 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
+	$str =~ s/\&ndash;/-/g;
 
 	# Build a web scraper
 	my $warmspaces = scraper {
 		process 'div[class="widget_content byEditor by_editor editor"] table tr', "warmspaces[]" => scraper {
 			process "td", "td[]" => 'HTML';
-			process "td:first-child p:first-child strong", "title" => 'TEXT';
 		};
 	};
 
@@ -34,17 +34,34 @@ if(-e $file){
 	# Loop over warmspaces processing the <li> values
 	for($i = 1; $i < @{$res->{'warmspaces'}}; $i++){
 		$place = $res->{'warmspaces'}[$i];
+		$d = {};
 		
-		$d->{'title'} = $place->{'title'};
-		$d->{'title'} =~ s/ \([^\)]+\)$//;
-		$place->{'td'}[0] =~ s/^<p>(.*?)<\/p>//;
-		$d->{'address'} = parseText($place->{'td'}[0]);
-		$place->{'td'}[3] =~ s/[\(\)]//g;
-		$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($place->{'td'}[1])});
-		$place->{'td'}[3] =~ s/<\/li>/\, /g;
-		$d->{'description'} = "Facilities: ".parseText($place->{'td'}[3]);
-		$d->{'description'} =~ s/[\s]\,/\,/g;
-		$d->{'description'} =~ s/\,$//g;
+		$d->{'title'} = $place->{'td'}[1];
+
+		$d->{'address'} = parseText($place->{'td'}[2]);
+
+		if($place->{'td'}[5] =~ /href="([^\"]+)"/){
+			$d->{'url'} = $1;
+		}
+
+		if($place->{'td'}[6]){
+			$d->{'description'} = parseText($place->{'td'}[6]);
+			$d->{'description'} =~ s/[\s]\,/\,/g;
+			$d->{'description'} =~ s/\,$//g;
+		}
+
+		$place->{'td'}[7] =~ s/(^\"|\"$)//g;
+		$hours = $place->{'td'}[7].($place->{'td'}[7] !~ /\.$/ ? ". ":"").$place->{'td'}[8];
+		$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($hours)});
+
+		while($place->{'td'}[9] =~ s/<li>(.*?)<\/li>//){
+			$txt = $1;
+			if($txt =~ /[0-9 ]{8,}/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: $txt";
+			}elsif($txt =~ /mailto:([^\"]+)/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: $1";
+			}
+		}
 
 		# Store the entry as JSON
 		push(@entries,makeJSON($d,1));

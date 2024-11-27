@@ -901,7 +901,6 @@ directories:
       - url: "https://www.horshamdistrictwarmspaces.com/copy-of-lower-beeding"
         type: html
   - title: "Hounslow Council"
-    inactive: 2023-03-31
     url: "https://www.hounslow.gov.uk/warmspaces"
     data:
       url: "https://www.hounslow.gov.uk/warmspaces"
