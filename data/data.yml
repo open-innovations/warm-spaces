@@ -1084,8 +1084,7 @@ directories:
     url: "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
     notes: "Only available as a JPG"
   - title: "Luton Council"
-    url: "https://m.luton.gov.uk/Page/Show/Benefits/support/Pages/Warm-spaces.aspx"
-    notes: "Has been removed and is due to update 'in the Autumn'."
+    url: "https://m.luton.gov.uk/Page/Show/news/Pages/Stay-Warm-and-Well-this-Winter.aspx"
     data:
       url: "https://map.foodfirstluton.co.uk/api/points"
       type: html

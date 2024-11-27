@@ -25,8 +25,13 @@ if(-e $file){
 	# Loop over warmspaces processing the <li> values
 	for($i = 0; $i < @{$json->{'hits'}{'hits'}}; $i++){
 		$warmspace = $json->{'hits'}{'hits'}[$i];
-		if($warmspace->{'_source'}{'offering'}[0] eq "Warm Space"){
-			#print Dumper $warmspace;
+		$ws = 0;
+		for($c = 0; $c < @{$warmspace->{'_source'}{'offering'}}; $c++){
+			if($warmspace->{'_source'}{'offering'}[$c] eq "Warm Space"){
+				$ws = 1;
+			}
+		}
+		if($ws){
 			$d = {};
 			$d->{'title'} = $warmspace->{'_source'}{'tag'};
 			$d->{'description'} = $warmspace->{'_source'}{'description'};
@@ -48,7 +53,6 @@ if(-e $file){
 			push(@entries,makeJSON($d,1));
 		}
 	}
-
 
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";
