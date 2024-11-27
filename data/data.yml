@@ -1160,20 +1160,14 @@ directories:
       url: "https://www.newcastle-staffs.gov.uk/directory/8/a-to-z/A"
       type: html
   - title: "Newham Council"
+    notes: "In 2024 they just list their libraries"
     url: "https://www.newham.gov.uk/warmhavens"
-    notes: "Has been removed as of October 2023"
     map:
       url: "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d"
       type: arcgis
     data:
-      url: "https://services1.arcgis.com/trOdpHvvP7HrTfdb/arcgis/rest/services/WarmHaven_2/FeatureServer/0/query?f=geojson&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A536559.7237267748%2C%22ymin%22%3A180083.231306934%2C%22xmax%22%3A543727.723725646%2C%22ymax%22%3A187251.23130580518%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%7D%7D&geometryType=esriGeometryEnvelope&inSR=27700&outFields=*&outSR=4326"
-      type: arcgis
-      keys:
-        title: "Name"
-        address: "{{ Address }}"
-        url: "Website"
-        hours: "Opening_ti"
-        description: "Open to everyone: {{ Open_to_ev }}; Booking required: {{ Booking_ne }}; Toilets: {{ Toilets }}; Accessibility: {{ Accessibil }}; Baby changing: {{ Baby_chang }}; Warm drink: {{ Warm_drink }}; Warm food: {{ Warm_food_ }}; Device charging: {{ Device_cha }}; Use of computers: {{ Use of computers }}; Study space: {{ Study_spac }}; WiFi: {{ WiFi }}"        
+      url: "https://libraries.newham.gov.uk/digital-content/libraries/find-a-library"
+      type: html
   - title: "Norfolk Community Foundation"
     url: "https://www.norfolkfoundation.com/hot-spots/"
     map:
