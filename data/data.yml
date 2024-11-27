@@ -939,11 +939,6 @@ directories:
     data:
       url: "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
       type: html
-  - title: "Islington Council"
-    url: "https://www.islington.gov.uk/benefits-and-support/cost-of-living-support/warm-community-spaces"
-    data:
-      url: "https://findyour.islington.gov.uk/kb5/islington/directory/results.page?communitychannelnew=15"
-      type: html
   - title: "Kensington and Chelsea"
     notes: The map is no longer accessible
     inactive: 2023-11-23
@@ -1643,6 +1638,11 @@ directories:
         hours: "opening_times"
         contact: "contact_details"
         url: "website"
+  - title: "Voluntary Action Islington"
+    url: "https://vai.org.uk/warm-spaces-in-islington/"
+    data:
+      url: "https://vai.org.uk/warm-spaces-in-islington/"
+      type: html
   - title: "Wakefield Council"
     url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
     data:
