@@ -1112,8 +1112,8 @@ directories:
     url: "https://www.mansfield.gov.uk/finance/financial-support-1/8"
     notes: "Not enough structure to parse"
   - title: "Merton Council"
-    url: "https://libraries.merton.gov.uk/client/en_GB/merton/?rm=BRANCHES2%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue"
-    notes: "A list of libraries"
+    url: "https://www.merton.gov.uk/communities-and-neighbourhoods/warm-spaces"
+    notes: "Referes to WarmWelcome"
   - title: "Mid and East Antrim Council"
     url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
     notes: "Some spaces are without addresses"
@@ -1121,8 +1121,10 @@ directories:
       url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
       type: html
   - title: "Midlothian Council"
-    url: "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/4"
-    notes: "Too unstructured to parse"
+    url: "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
+    data:
+      url: "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
+      type: html
   - title: "Middlesbrough Council"
     url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
     map:
