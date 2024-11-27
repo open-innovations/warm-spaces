@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.85629,57.12987],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Tarland Social Space, Cromar Court Aberdeen Road, Tarland, AB34 4UE Hours: Open every Monday 10-12 noon","hours":{"_text":"name: Tarland Social Space, Cromar Court Aberdeen Road, Tarland, AB34 4UE Hours: Open every Monday 10-12 noon","opening":"Mo 10:00-12:00"},"title":"Coffee, tea, cakes, laughs and conversation"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.85629,57.12987],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Tarland Social Space, Cromar Court Aberdeen Road, Tarland, AB34 4UE Hours: Open every Monday 10-12 noon","hours":{"_text":"name: Tarland Social Space, Cromar Court Aberdeen Road, Tarland, AB34 4UE Hours: Open every Monday 10-12 noon","opening":"Mo 10:00-12:00"},"title":"Tarland Social Space, Cromar Court\nAberdeen Road, Tarland, AB34 4UE"},"type":"Feature"}
 	]
 }

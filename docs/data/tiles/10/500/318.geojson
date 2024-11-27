@@ -2,6 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-3.96290,56.10712],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Ninian's Road, Cambusbarron, Stirling","description":"Everyone from the community is welcome for friendship, food and fun. Tea and coffee available. Soup lunch from 12-1.30pm. Oasis Wellbeing Group Tuesday 10.30am-12.30pm CambusBairns parent and toddlers Wednesday 9.15-10.30am Prayer Space available upstairs","hours":{"_text":"Wednesday: 12:00 - 15:00","opening":"We 12:00-15:00"},"title":"Cambusbarron Community Hub Warm Space"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.94162,56.12047],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2-4 Bow Street FK8 1BS","description":"The space is open to all and provides warmth, hot soup and company.","hours":{"_text":"Monday: 17:30 - 20:30, Tuesday: 17:30 - 20:30, Wednesday: 17:30 - 20:30","opening":"Mo 17:30-20:30; Tu 17:30-20:30; We 17:30-20:30"},"title":"The Haven"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.94162,56.12047],"type":"Point"},"properties":{"_source":"warm_welcome","address":"2-4 Bow Street, FK8 1BS","description":"The space is open to all and provides warmth, hot soup and company.","hours":{"_text":"Monday: 17:30 - 20:30, Tuesday: 17:30 - 20:30, Wednesday: 17:30 - 20:30","opening":"Mo 17:30-20:30; Tu 17:30-20:30; We 17:30-20:30"},"title":"The Haven"},"type":"Feature"}
 	]
 }

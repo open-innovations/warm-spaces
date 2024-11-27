@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.06044,52.96512],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Methodist Church, Staffordshire ST11 9LZ","description":"We offer a warm welcome into our Church hall where we have refreshments, board games, craft activities, children’s toys/play area and space to sit and chat. All free of charge. Our team of volunteers love being there too and look forward to welcoming new guests.","hours":{"_text":"Tuesday: 15:00 - 17:00","opening":"Tu 15:00-17:00"},"title":"Warm Space at Blythe Bridge Methodist Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.06044,52.96512],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Methodist Church, Staffordshire ST11 9LZ","description":"We offer a warm welcome into our Church hall where we have refreshments, board games, craft activities, children’s toys/play area and space to sit and chat. All free of charge. Our team of volunteers love being there too and look forward to welcoming new guests.","hours":{"_text":"Tuesday: 15:00 - 17:00","opening":"Tu 15:00-17:00"},"title":"Warm Space at Blythe Bridge Methodist Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.83711,52.95204],"type":"Point"},"properties":{"_source":"east_staffordshire_council","address":"St Michaels Church, St Michael Church, Dove lane, Rocester, ST14 5JZ","hours":{"_text":"Monday from 10am to 4pm; Tuesday 1pm to 3.30pm; Thursday 10am to 3.30pm","opening":"Mo 10:00-16:00; Tu 13:00-15:30; Th 10:00-15:30"},"loc_pcd":true,"title":"St Michaels Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.88432,52.91916],"type":"Point"},"properties":{"_source":"east_staffordshire_council","address":"Stramshall Village Hall, Vicarage Drive, Stramshall ST14 5DL","hours":{"_text":"Thursdays 10:45am to 12:45pm","opening":"Th 10:45-12:45"},"loc_pcd":true,"title":"Stramshall Village Hall"},"type":"Feature"}
 	]
 }

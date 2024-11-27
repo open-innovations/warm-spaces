@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.98403,56.37554],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Comrie Community Library, Drummond St, Comrie, PH6 2DS","description":"Activities and refreshments","hours":{"_text":"Tues to Fri - all day"},"title":"Comrie Library"},"type":"Feature"}
+	]
+}

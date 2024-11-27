@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.79434,57.07519],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","hours":{"_text":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","opening":"Fr 10:00-12:00"},"title":"Friendly warm environment\nSafe place\nWarm foods, soups/stews etc\nRefreshments\nWi-fi\nBooks/reading materials and games\nGood company"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.79434,57.07519],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","hours":{"_text":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","opening":"Fr 10:00-12:00"},"title":"Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN"},"type":"Feature"}
 	]
 }

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.03274,51.88549],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Y Cross - Cross Inn, Haverfordwest, Pembrokeshire SA62 5PR","description":"SPACE OPENING ON 6th January 2025** Pub with a Hub","title":"Y Cross Inn"},"type":"Feature"}
+	]
+}
