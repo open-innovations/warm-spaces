@@ -1180,43 +1180,39 @@ directories:
         title: "name"
         address: "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}"
   - title: "North Devon Council"
+    inactive: 2023-10-01
     url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
     notes: "Has been removed as of October 2023"
     data:
       url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
       type: html
   - title: "North East Derbyshire"
+    notes: "They use CloudFlare to block access to automated scripts"
     url: "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
-    notes: "A bit too difficult to automatically parse"
   - title: "North Herts Council"
+    inactive: 2023-10-01
     url: "https://www.north-herts.gov.uk/warm-spaces"
     notes: "Removed as of October 2023"
-    register:
-      url: "https://northhertfordshire-self.achieveservice.com/service/Warm_Spaces"
-    data:
-      url: "https://www.north-herts.gov.uk/warm-spaces"
-      type: html
   - title: "North Northamptonshire Council"
-    notes: "Removed as of October 2023"
+    notes: "As of 24 October 2024 they are coordinating a network but haven't put it anywhere yet."
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
-    data:
-      url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
-      type: html
+    register:
+      url: "https://www.northnorthants.gov.uk/supporting-residents/register-warm-space"
   - title: "North Somerset Council"
     url: "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
     notes: "Static image map is not parseable"
     map:
-      url: "https://map.n-somerset.gov.uk/map/Aurora.svc/run?embedded=true&noCache=0.8196866537601234&script=%5cAurora%5cCommunityLivingRooms.AuroraScript%24&#"
+      url: "https://map.n-somerset.gov.uk/communitylivingrooms.html"
       type: os
   - title: "Northumberland County Council"
     url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
     register:
       url: "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q"
     map:
-      url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
-      type: tableau
+      url: "http://northumberland.maps.arcgis.com/apps/webappviewer/index.html?id=00357beba6b34afe80940a3fd4b6e6ef"
+      type: arcgis
     data:
-      url: "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Support/Warm%20Spaces/Warm-Spaces.xlsx"
+      url: "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Support/Warm%20Spaces/Warm-spaces-in-Northumberland.xlsx"
       type: xls
       sheet: "sheet1"
       startrow: 2
