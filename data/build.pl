@@ -707,7 +707,7 @@ sub getGoogleMap {
 		$placemark = $1;
 		$entry = {};
 		$props = {};
-		if($placemark =~ /<name>(.*?)<\/name>/s){ $entry->{'name'} = cleanCDATA($1); }
+		if($placemark =~ /<name>(.*?)<\/name>/s){ $entry->{'title'} = cleanCDATA($1); }
 		#if($placemark =~ /<description>(.*?)<\/description>/s){ $entry->{'description'} = parseText(cleanCDATA($1)); }
 		if($placemark =~ /<coordinates>(.*?)<\/coordinates>/s){
 			$c = cleanCDATA($1);
@@ -803,11 +803,11 @@ sub getGoogleMap {
 		}
 		
 		# If we have built the lookup for the location
-		if($loclookup->{$entry->{'name'}}){
+		if($loclookup->{$entry->{'title'}}){
 			if(!$entry->{'lat'}){ $entry->{'lat'} = $loclookup->{$entry->{'name'}}{'lat'}; }
 			if(!$entry->{'lon'}){ $entry->{'lon'} = $loclookup->{$entry->{'name'}}{'lon'}; }
 		}else{
-			print "No lookup for $entry->{'name'}\n";
+			print "No lookup for $entry->{'title'}\n";
 		}
 		
 		$entry->{'_source'} = $d->{'id'};
