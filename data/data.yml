@@ -929,6 +929,7 @@ directories:
       url: "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/"
       type: html
   - title: "Ipswich Council"
+    inactive: 2023-10-01
     url: "https://www.ipswich.gov.uk/content/warm-bank-venues"
     notes: "No longer exists as of October 2023"
   - title: "Isle of Wight Council"
@@ -982,7 +983,6 @@ directories:
       url: "https://www.kirklees.gov.uk/beta/wheres-my-nearest/xml/iLibraries.xml"
       type: html
   - title: "Lambeth Council"
-    inactive: 2023-04-04
     url: "https://www.lambeth.gov.uk/warm-spaces"
     register:
       url: "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch"
@@ -991,10 +991,6 @@ directories:
       type: leaflet
     data:
       - url: "https://www.lambeth.gov.uk/warm-spaces"
-        type: html
-      - url: "https://www.lambeth.gov.uk/warm-spaces?search_api_fulltext=&page=0%2C1"
-        type: html
-      - url: "https://www.lambeth.gov.uk/warm-spaces?search_api_fulltext=&page=0%2C2"
         type: html
   - title: "Lancashire Council"
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
