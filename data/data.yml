@@ -1060,17 +1060,18 @@ directories:
       url: "https://www.lewes-eastbourne.gov.uk/article/1639/Community-Spaces-directory"
       type: html
   - title: "Lewisham Local"
-    url: "https://www.lewishamlocal.com/lewisham-warm-spaces/"
+    url: "https://lewishamlocal.my.site.com/s/warm-welcomes"
     map:
-      url: "https://www.lewishamlocal.com/places/category/lewishamwarmwelcome/"
+      url: "https://www.lewishamlocal.com/lewisham-warm-welcomes/"
       type: googlemap
     data:
-      url: "https://www.lewishamlocal.com/wp-json/geodir/v2/markers/?post_type=gd_place&term[]=2542"
-      type: wpgeodir
+      url: "https://www.google.com/maps/d/embed?mid=1hFV8_mbekGM3gXlvvEahmDRddCbM_8E&ehbc=2E312F&ll=51.489940563781964%2C-0.08656799999999798&z=9"
+      type: googlemap
       keys:
-        address: "Address"
-        contact: "Tel: {{ Phone }}"
-        hours: "Time"
+        title: Name
+        address: "Address & Post Code"
+        hours: "Opening Times"
+        description: "Warm Welcome Activities"
   - title: "Lichfield Council"
     url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
     map:
