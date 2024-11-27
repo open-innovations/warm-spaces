@@ -1275,10 +1275,9 @@ directories:
         hours: "Opening days/hours"
         description: "Services or activities provided: (e.g. Wi-Fi, refreshments, games, art & craft, support & advice, food etc.)"
   - title: "Portsmouth Council"
-    url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
-    notes: "No longer exists (October 2023)"
+    url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/help-others-during-the-cost-of-living-crisis/warm-spaces/"
     data:
-      url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/warm-spaces/"
+      url: "https://www.portsmouth.gov.uk/wp-json/wpgmza/v1/features/base64eJyrVkrLzClJLVKyUqqOUcpNLIjPTIlRsopRMjWIUdIBiRRnlBZ4uhQDBaNjgQLJpcUl+blumak5KRCxWqVaABZ5Fu4"
       type: html
   - title: "Powys Council"
     url: "https://en.powys.gov.uk/powyswarmspaces"
