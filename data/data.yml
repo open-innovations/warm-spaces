@@ -1280,15 +1280,14 @@ directories:
       url: "https://www.portsmouth.gov.uk/wp-json/wpgmza/v1/features/base64eJyrVkrLzClJLVKyUqqOUcpNLIjPTIlRsopRMjWIUdIBiRRnlBZ4uhQDBaNjgQLJpcUl+blumak5KRCxWqVaABZ5Fu4"
       type: html
   - title: "Powys Council"
-    url: "https://en.powys.gov.uk/powyswarmspaces"
-    data:
-      url: "https://en.powys.gov.uk/powyswarmspaces"
-      type: html
-      headers:
-        Accept-Encoding: "gzip, deflate, br"
+    url: "https://en.powys.gov.uk/costofliving"
+    notes: "As of 2024-11-27 they are creating a network"
+    register:
+      url: "https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys"
   - title: "Preston Council"
+    inactive: 2024-11-27
     url: "https://council.lancashire.gov.uk/documents/s200514/Appendix%20A.pdf"
-    notes: "PDF without enough location information"
+    notes: "Direct to Lancashire"
   - title: "Reading Council"
     url: "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
     notes: "Not enough structure to be able to parse"
@@ -1310,11 +1309,13 @@ directories:
         type: html
   - title: "Richmond upon Thames Council"
     url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
+    register:
+      url: "https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory"
     map:
-      url: "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory"
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory"
       type: leaflet
     data:
-      url: "https://richmond.gov.uk/services/cost_of_living_hub/community_spaces/community_spaces_directory"
+      url: "https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory"
       type: html
   - title: "Rochdale Council"
     url: "https://www.rochdale.gov.uk/warmspaces"
