@@ -18,82 +18,54 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
+	$str =~ s/\&nbsp;/ /gs;
+	$str =~ s/\&apos;/\'/gs;
 	
-	my $page = scraper {
-		process 'ol.pages-in li a', 'urls[]' => '@HREF';
-	};
-	my @urls = @{$page->scrape( $str )->{'urls'}};
-	my @entries;
-
-	# Build a web scraper
-	my $warmspaces = scraper {
-		process '.document-content .editor tbody tr', "warmspaces[]" => scraper {
-			process 'td', 'td[]' => 'HTML';
-			process 'a', 'url' => '@HREF';
-		}
-	};
-	my $venues = {};
-	my $venue,$e,$dayofweek;
-
-	for($u = -1; $u < @urls; $u++){
-		if($u >= 0){
-			# Get the URL
-			$rfile = "raw/rugby-council-".($u+1).".html";
-			
-			warning("\tGetting details for $u\n");
-
-			# Keep cached copy of individual URL
-			$age = getFileAge($rfile);
-			if($age >= 86400 || -s $rfile == 0){
-				warning("\tSaving $urls[$u] to <cyan>$rfile<none>\n");
-				# For each entry we now need to get the sub page to find the location information
-				`curl '$urls[$u]' -o $rfile -s --insecure -L --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Upgrade-Insecure-Requests: 1'`;
+	my $pageparser = scraper {
+		process '.multi_part_section', 'days[]' => scraper {
+			process 'h2', 'day' => 'TEXT';
+			process 'table tbody tr', 'tr[]' => scraper {
+				process 'td', 'td[]' => 'HTML';
 			}
-			open(FILE,"<:utf8",$rfile);
-			@lines = <FILE>;
-			close(FILE);
-			$str = join("",@lines);
-		}
-		
-		if($str =~ /<title>([^\s]+) \|/){
-			$dayofweek = $1;
-		
-			$res = $warmspaces->scrape( $str );
+		};
+	};
+	
+	@days = @{$pageparser->scrape( $str )->{'days'}};
+	
+	my %places;
 
-			for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-				$venue = $res->{'warmspaces'}[$i]{'td'}[0];
-				if(!$venues->{$venue}){ $venues->{$venue} = (); }
-				$d = {'details'=>$res->{'warmspaces'}[$i]{'td'}[2]};
-				if($res->{'warmspaces'}[$i]{'url'}){
-					$d->{'url'} = $res->{'warmspaces'}[$i]{'url'};
+	for($d = 0; $d < @days; $d++){
+		$days[$d]->{'day'} =~ s/s$//g;
+		for($r = 0; $r < @{$days[$d]->{'tr'}}; $r++){
+			$address = $days[$d]->{'tr'}[$r]{'td'}[0];
+			$title = "";
+			if($address =~ /^([^\,]*)\,/){
+				$title = $1;
+				if(!defined($places{$title})){
+					$places{$title} = {'title'=>$title};
 				}
-				if($res->{'warmspaces'}[$i]{'td'}[1] =~ /(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)/i){
-					$d->{'hours'} = $res->{'warmspaces'}[$i]{'td'}[1];
-				}else{
-					$d->{'hours'} = $dayofweek.' '.$res->{'warmspaces'}[$i]{'td'}[1];
+				$places{$title}{'address'} = $address;
+				if($days[$d]->{'tr'}[$r]{'td'}[1]){
+					$days[$d]->{'tr'}[$r]{'td'}[1] = lcfirst( $days[$d]->{'tr'}[$r]{'td'}[1]);
+					$places{$title}{'hours'} .= ($places{$title}{'hours'} ? "; ":"").$days[$d]->{'day'}." ".$days[$d]->{'tr'}[$r]{'td'}[1];
 				}
-				push(@{$venues->{$venue}},$d);
+				if($days[$d]->{'tr'}[$r]{'td'}[2]){
+					$txt = trimHTML($days[$d]->{'tr'}[$r]{'td'}[2]);
+					$places{$title}{'description'} .= ($places{$title}{'description'} ? ($places{$title}{'description'} !~ /\.$/ ? ".":"")." ":"").$days[$d]->{'day'}.": ".$txt;
+					if($days[$d]->{'tr'}[$r]{'td'}[2] =~ /href="([^\"]+)"/){
+						$places{$title}{'url'} = $1;
+					}
+				}
 			}
 		}
 	}
-
-	for $venue (sort(keys(%{$venues}))){
-		$venue =~ /^([^\,]+), (.*)$/;
-		$d = {'title'=>$1,'address'=>$2};
-		$n = @{$venues->{$venue}};
-		for($e = 0; $e <= $n; $e++){
-			$d->{'hours'} .= ($d->{'hours'} ? "; ":"").$venues->{$venue}[$e]{'hours'};
-			if($d->{'description'} !~ /$venues->{$venue}[$e]{'details'}/){
-				$d->{'description'} .= ($d->{'description'} ? ($d->{'description'} !~ /\.$/ ? ".":"")." ":"").$venues->{$venue}[$e]{'details'};
-			}
-			$d->{'description'} =~ s/ $//g;
-		}
+	foreach $title (sort(keys(%places))){
+		$d = $places{$title};
 		if($d->{'hours'}){
 			$d->{'hours'} = parseOpeningHours({'_text'=>parseText($d->{'hours'})});
 		}
 		push(@entries,makeJSON($d,1));
 	}
-
 
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";

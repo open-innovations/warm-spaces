@@ -1199,6 +1199,9 @@ directories:
     map:
       url: "https://map.n-somerset.gov.uk/communitylivingrooms.html"
       type: os
+  - title: "North Yorkshire Council"
+    url: "https://www.northyorks.gov.uk/healthy-living/other-health-information/keep-well-and-warm-winter"
+    notes: "Links to WarmWelcomeUK"
   - title: "Northumberland County Council"
     url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
     register:
@@ -1333,8 +1336,9 @@ directories:
       url: "https://www.rugby.gov.uk/warmhubs"
       type: html
   - title: "Ryedale Council"
+    inactive: 2023-04-01
     url: "https://docs.google.com/document/d/1yXJo4aSFxJanNCN_eoxt5sr1es1zBFzM/edit"
-    notes: "A Google Doc that only covers November"
+    notes: "No longer exists. Merged into North Yorkshire council."
   - title: "Salisbury Council"
     url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
     notes: "The list is a PDF"
