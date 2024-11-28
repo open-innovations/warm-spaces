@@ -18,41 +18,54 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
-
-	if($str =~ /<div class="a-body__inner">(.*?)<\/div>/s){
-		$str = $1;
-		while($str =~ s/<h2>(.*?)<\/h2>(.*?)<h2>/<h2>/){
-			$title = $1;
-			$content = $2;
-			$d = {};
-			
-			if($title =~ /<a[^\>]*href="([^\"]+)"/){
-				$d->{'url'} = $1;
+	
+	
+	# Build a web scraper
+	my $warmspaces = scraper {
+		process '.item--article', "warmspaces[]" => scraper {
+			process '.item__title', 'title' => 'TEXT';
+			process 'a.item__link', 'url' => '@HREF';
+		}
+	};
+	
+	my $warmpage = scraper {
+		process '.location-info__value--address', 'address' => 'HTML';
+		process '.location-info__link--directions', 'dirs' => '@HREF';
+	};
+	
+	my $res = $warmspaces->scrape($str);
+	
+	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+		$d = $res->{'warmspaces'}[$i];
+		$d->{'title'} = trimText($d->{'title'});
+		if($d->{'url'} =~ /^\//){
+			$d->{'url'} = "https://swansea.gov.uk".$d->{'url'};
+			# Get new page here
+			$rfile = "raw/swansea_council-page$i.html";
+			# Keep cached copy of individual URL
+			$age = getFileAge($rfile);
+			if($age >= 86400 || -s $rfile == 0){
+				warning("\tSaving $d->{'url'} to <cyan>$rfile<none>\n");
+				# For each entry we now need to get the sub page to find the location information
+				`curl '$d->{'url'}' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1'`;
 			}
-			$title =~ s/<[^\>]*>//g;
-			$d->{'title'} = $title;
-			
-			if($content =~ s/^<p>(.*?)<\/p>//){
-				$d->{'address'} = $1;
+			open(FILE,"<:utf8",$rfile);
+			@lines = <FILE>;
+			close(FILE);
+			$str = join("",@lines);
+			my $page = $warmpage->scrape($str);
+			if($page->{'address'}){
+				$d->{'address'} = $page->{'address'};
+				$d->{'address'} =~ s/<\/p>/, /g;
+				$d->{'address'} =~ s/<p>//g;
+				$d->{'address'} =~ s/, $//g;
 			}
-			# https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
-			if($d->{'address'} !~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
-				if($content =~ s/<p>([^\<]*?)(([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2}))(.*?)<\/p>//){
-					$d->{'address'} = $1.$2.$3;
-				}
+			if($page->{'dirs'} =~ /dir\/\/([0-9\.\+\-]+),([0-9\.\+\-]+)/){
+				$d->{'lat'} = $1+0;
+				$d->{'lon'} = $2+0;
 			}
-
-			if($content =~ s/^<p>(.*?(mailto|[0-9\s]{8,}))<\/p>//){
-				$d->{'contact'} = trimHTML($1);
-			}
-			if($content =~ s/^<p>(.*?(monday|tuesday|wednesday|thursday|friday|saturday|sunday))<\/p>//i){
-				$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($1)});
-			}
-			$d->{'description'} = trimHTML($content);
-
 			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));
-			
 		}
 	}
 
