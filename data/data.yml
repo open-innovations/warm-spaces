@@ -1473,19 +1473,11 @@ directories:
         hours: "Opening_schedule"
         description: "{{Services_available }}\nAccessibility:\nwheelchair: {{ Wheelchair_accessible }}; toilet: {{ Accessible_toilet }}; induction loop: {{ Hearing__audio_induction__loop }}; parking: {{ Accessible_parking }}; other: {{ Accessibility_Other }}"
   - title: "St Helens Council"
-    url: "https://sthelens.gov.uk/warmspaces"
+    url: "https://www.sthelens.gov.uk/welcomespaces"
     register:
       url: "https://sthelens.gov.uk/article/7260/Register-your-warm-space"
     data:
-      - url: "https://sthelens.gov.uk/article/7261/Directory"
-        type: html
-      - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=2"
-        type: html
-      - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=3"
-        type: html
-      - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=4"
-        type: html
-      - url: "https://sthelens.gov.uk/article/7261/Directory?q=*&p=5"
+      - url: "https://www.sthelens.gov.uk/article/7261/Directory"
         type: html
   - title: "Stafford Borough Council"
     notes: "No longer provide a directory"
