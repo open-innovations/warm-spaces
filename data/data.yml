@@ -1340,15 +1340,16 @@ directories:
     url: "https://docs.google.com/document/d/1yXJo4aSFxJanNCN_eoxt5sr1es1zBFzM/edit"
     notes: "No longer exists. Merged into North Yorkshire council."
   - title: "Salisbury Council"
+    inactive: 2024-11-28
     url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
-    notes: "The list is a PDF"
+    notes: "Since removed"
   - title: "Sandwell Council"
     url: "https://www.sandwell.gov.uk/warmspaces"
     map:
-      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces"
+      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces"
       type: googlemap
     data:
-      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23warmspaces"
+      url: "https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces"
       type: html
   - title: "Scarborough Council"
     inactive: 2023-12-12

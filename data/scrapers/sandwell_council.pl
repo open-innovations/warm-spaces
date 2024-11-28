@@ -18,17 +18,35 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-	while($str =~ s/data\['[^\']+'\].services.push\(\{(.*?)\}\)//s){
-		$entry = $1;
-		$d = {};
-		if($entry =~ /lat: ([0-9\+\-\.]+)/){ $d->{'lat'} = $1; }
-		if($entry =~ /lng: ([0-9\+\-\.]+)/){ $d->{'lon'} = $1; }
-		if($entry =~ /url: [\"\']([^\'\"]+)[\"\']/){ $d->{'url'} = $1; }
-		if($entry =~ /name: [\"\']([^\'\"]+)[\"\']/){ $d->{'title'} = $1; }
-		if($entry =~ /phone: [\"\']([^\'\"]+)[\"\']/){ $d->{'contact'} = "Tel: ".$1; }
-		if($entry =~ /address: [\"\']([^\'\"]+)[\"\']/){ $d->{'address'} = $1; $d->{'address'} =~ s/\\n/\, /g; $d->{'address'} =~ s/<br ?\\\/?>//g; }
-		if($entry =~ /postcode: [\"\']([^\'\"]+)[\"\']/){ $d->{'address'} .= ", ".$1; }
-		push(@entries,makeJSON($d,1));
+	my %services;
+	while($str =~ s/data\['([^\']+)'\].services.push\(\{(.*?)\}\)//s){
+		$id = $1;
+		$entry = $2;
+		if(!defined($services{$id})){ $services{$id} = {}; }
+		#$d = {};
+		if($entry =~ /lat: ([0-9\+\-\.]+)/){ $services{$id}{'lat'} = $1; }
+		if($entry =~ /lng: ([0-9\+\-\.]+)/){ $services{$id}{'lon'} = $1; }
+		if($entry =~ /url: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'url'} = $1; }
+		if($entry =~ /name: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'title'} = $1; }
+		if($entry =~ /phone: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'contact'} = "Tel: ".$1; }
+		if($entry =~ /address: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'address'} = $1; $services{$id}{'address'} =~ s/\\n/\, /g; $services{$id}{'address'} =~ s/<br ?\\\/?>//g; }
+		if($entry =~ /postcode: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'address'} .= ", ".$1; }
+	}
+	while($str =~ s/data\['([^\']+)'\] = \{(.*?)\}//s){
+		$id = $1;
+		$entry = $2;
+		if(!defined($services{$id})){ $services{$id} = {}; }
+		if($entry =~ /lat: ([0-9\+\-\.]+)/){ $services{$id}{'lat'} = $1; }
+		if($entry =~ /lng: ([0-9\+\-\.]+)/){ $services{$id}{'lon'} = $1; }
+		if($entry =~ /url: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'url'} = $1; }
+		if($entry =~ /name: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'title'} = $1; }
+		if($entry =~ /phone: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'contact'} = "Tel: ".$1; }
+		if($entry =~ /address: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'address'} = $1; $services{$id}{'address'} =~ s/\\n/\, /g; $services{$id}{'address'} =~ s/<br ?\\\/?>//g; }
+		if($entry =~ /postcode: [\"\']([^\'\"]+)[\"\']/){ $services{$id}{'address'} .= ", ".$1; }
+	}
+
+	foreach $id (sort(keys(%services))){
+		push(@entries,makeJSON($services{$id},1));
 	}
 
 	open(FILE,">:utf8","$file.json");
