@@ -1017,7 +1017,7 @@ directories:
       url: "https://www.lancaster.gov.uk/sites/cost-of-living/energy-bills-staying-warm"
       type: html
   - title: "Leeds City Council"
-    url: https://www.leeds.gov.uk/campaign/warm-spaces
+    url: https://www.leeds.gov.uk/campaign/welcome-spaces
     map:
       url: https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/
       type: arcgis

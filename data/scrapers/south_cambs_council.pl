@@ -19,21 +19,20 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-	$str =~ s/^.*<div[^\>]*class="elementor-widget-container"[^\>]*>(.*?)<\/div>.*$/$1/;
+	my $pageparser = scraper {
+		process 'table.table-bordered tr', 'tr[]' => scraper {
+			process 'td', 'td[]' => 'HTML';
+		};
+	};
+	
+	my $res = $pageparser->scrape( $str );
 
-	while($str =~ s/<h4>(.*?)<\/h4>[\n\r\s\t]*<p>(.*?)<\/p>//s){
-		$d = {'title'=>trimHTML($1)};
-		$content = $2;
-		$content =~ s/<\/?span>//g;
-		@lines = split(/<br>/,$content);
-		for($l = 0; $l < @lines; $l++){
-			$lines[$l] = trimHTML($lines[$l]);
-			if($lines[$l] =~ /Venue: (.*)/i){ $d->{'address'} = $1; }
-			elsif($lines[$l] =~ /Opening times: (.*)/i){ $d->{'hours'} = parseOpeningHours({'_text'=>$1}); }
-			elsif($lines[$l] =~ /Open from: (.*)/i){ $d->{'description'} = "Open from ".$1; }
-			elsif($lines[$l] =~ /Notes: (.*)/i){ $d->{'description'} = ($d->{'description'} ? " ":"").$1; }
-		}
-
+	for($r = 0; $r < @{$res->{'tr'}}; $r++){
+		$d = {};
+		$d->{'title'} = parseText($res->{'tr'}[$r]{'td'}[0]);
+		$d->{'address'} = trimHTML($res->{'tr'}[$r]{'td'}[1]);
+		$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($res->{'tr'}[$r]{'td'}[2])." ".trimHTML($res->{'tr'}[$r]{'td'}[3])});
+		
 		push(@entries,makeJSON($d,1));
 	}
 
@@ -55,6 +54,7 @@ sub trimHTML {
 	$str =~ s/<[^\>]*>/ /g;
 	$str =~ s/\s{2,}/ /g;
 	$str =~ s/^\, //g;
+	$str =~ s/ \, /, /g;
 	$str =~ s/(^\s|\s$)//g;
 	return $str;
 }
