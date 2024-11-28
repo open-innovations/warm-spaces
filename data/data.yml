@@ -316,7 +316,7 @@ directories:
       url: "https://ssa.camden.gov.uk/connect/analyst/controller/connectProxy/rest/Spatial/FeatureService"
       type: geojson
       method: POST
-      form: 'url=tables/features.json?page=1&pageLength=100&encodeSpecialChars=true&postData={"query":"SELECT \"Organisation\",\"OrganisationType\",\"WhoIsItFor\",\"PostalDetails\",\"OpeningDaysTimes\",\"Website\",\"OrganistationPhoneNumber\",\"OrganisationEmailAddress\" FROM \"/BusinessMaps/WarmSpaces/WarmSpaces\""}&projectName=/MapProjects/WarmSpacesMap'
+      form: 'url=tables/features.json?page=1&pageLength=100&outSR=4326&encodeSpecialChars=true&postData={"query":"SELECT \"Organisation\",\"OrganisationType\",\"WhoIsItFor\",\"PostalDetails\",\"OpeningDaysTimes\",\"Website\",\"OrganistationPhoneNumber\",\"OrganisationEmailAddress\" FROM \"/BusinessMaps/WarmSpaces/WarmSpaces\""}&projectName=/MapProjects/WarmSpacesMap'
       headers:
         Accept: "application/json, text/plain, */*"
         Accept-Language: "en-GB,en;q=0.5"
@@ -1441,10 +1441,37 @@ directories:
       type: html
   - title: "Southwalk Council"
     notes: "Removed. Being updated in autumn 2023."
-    url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+    url: "https://services.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+    map:
+      url: "https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
     data:
-      url: "https://www.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
-      type: html
+      url: "https://geomap.southwark.gov.uk/connect/analyst/controller/connectProxy/rest/Spatial/FeatureService"
+      type: geojson
+      method: POST
+      convertFromOSGB: true
+      form: "url=tables%2Ffeatures.json%3Fpage%3D1%26pageLength%3D100&encodeSpecialChars=true&postData=%7B%22query%22%3A%22SELECT%20%5C%22Type%5C%22%2C%5C%22Warm_Space%5C%22%2C%5C%22Address%5C%22%2C%5C%22Postcode%5C%22%2C%5C%22Service_Group%5C%22%2C%5C%22Opening_schedule%5C%22%2C%5C%22Open_from%5C%22%2C%5C%22Services_available%5C%22%2C%5C%22Website%5C%22%2C%5C%22Phone_number%5C%22%2C%5C%22Wheelchair_accessible%5C%22%2C%5C%22Accessible_toilet%5C%22%2C%5C%22Hearing__audio_induction__loop%5C%22%2C%5C%22Accessible_parking%5C%22%2C%5C%22Transport_provided%5C%22%2C%5C%22Languages_available_other_than%5C%22%2C%5C%22Accessibility_Other%5C%22%2C%5C%22X%5C%22%2C%5C%22Y%5C%22%2C%5C%22Ward%5C%22%20FROM%20%5C%22%2FNamedTables%2FWarm_Spaces_in_Southwark%5C%22%20WHERE%20MI_Intersects(obj%2CMI_Box(-0.1239%2C51.41109%2C-0.02558%2C51.5128%2C'EPSG%3A4326'))%22%7D&spatial_reference_id=4326&projectName=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
+      headers:
+        Accept: "application/json, text/plain, */*"
+        Accept-Language: "en-GB,en;q=0.5"
+        Accept-Encoding: "gzip, deflate"
+        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0"
+        Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+        Origin: https://geomap.southwark.gov.uk
+        DNT: 1
+        Connection: keep-alive
+        Sec-Fetch-Dest: empty,
+        Sec-Fetch-Mode: cors
+        Sec-Fetch-Site: same-origin
+        Pragma: no-cache
+        Cache-Control: no-cache
+        TE: trailers
+      keys:
+        title: "Warm_Space"
+        url: "Website"
+        address: "{{ Address }}, {{ Postcode }}"
+        contact: "Tel: {{ Phone_number }}"
+        hours: "Opening_schedule"
+        description: "{{Services_available }}\nAccessibility:\nwheelchair: {{ Wheelchair_accessible }}; toilet: {{ Accessible_toilet }}; induction loop: {{ Hearing__audio_induction__loop }}; parking: {{ Accessible_parking }}; other: {{ Accessibility_Other }}"
   - title: "St Helens Council"
     url: "https://sthelens.gov.uk/warmspaces"
     register:

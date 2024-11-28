@@ -566,8 +566,8 @@ sub getGeoJSON {
 				$json->{'lon'} = $json->{'lat'};
 				$json->{'lat'} = $temp;
 			}
-			
-			if($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG::27700/){
+
+			if(($geojson->{'crs'} && $geojson->{'crs'}{'properties'}{'name'} =~ /EPSG::27700/) || $d->{'data'}[$i]{'convertFromOSGB'}){
 				($json->{'lat'},$json->{'lon'}) = grid_to_ll($json->{'lat'},$json->{'lon'});
 			}
 			push(@features,$json);
