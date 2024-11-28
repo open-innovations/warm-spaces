@@ -1480,6 +1480,7 @@ directories:
       - url: "https://www.sthelens.gov.uk/article/7261/Directory"
         type: html
   - title: "Stafford Borough Council"
+    inactive: 2024-11-28
     notes: "No longer provide a directory"
     url: "https://www.staffordbc.gov.uk/warm-spaces"
     register: mailto:warmspaces@staffordbc.gov.uk
@@ -1495,10 +1496,7 @@ directories:
       type: html
   - title: "Stevenage Council"
     notes: "Removed."
-    url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
-    data:
-      url: "https://www.stevenage.gov.uk/stevenage-warm-spaces-network"
-      type: html
+    url: "https://www.stevenage.gov.uk/town-and-community/emergencies/keeping-warm-in-winter"
   - title: "Stockport Council"
     url: "https://www.stockport.gov.uk/warm-spaces"
     map:
@@ -1514,29 +1512,11 @@ directories:
         contact: "phone_number"
         url: "website"
   - title: "Stockton-on-Tees Council"
-    url: "https://www.stockton.gov.uk/warm-spaces"
+    url: "https://www.stockton.gov.uk/community-spaces"
     register:
       url: "https://www.stockton.gov.uk/warm-spaces-application"
     data:
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=2&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=3&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=4&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=5&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=6&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=7&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=8&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=9&s=name#eventsearch"
-        type: html
-      - url: "https://www.stockton.gov.uk/warm-spaces-directory?q=*&p=10&s=name#eventsearch"
+      - url: "https://www.stockton.gov.uk/community-spaces-directory"
         type: html
   - title: "Stroud CSCIC"
     url: "https://cscic.org/community-hubs/warm-spaces/"
