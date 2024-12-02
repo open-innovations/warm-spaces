@@ -401,8 +401,8 @@
 		"url":"https://www.colchester.gov.uk/support-for-residents/?id=&page=warm--welcoming--spaces"
 	},
 	"communities_1st": {
-		"count": 30,
-		"geocount": 30,
+		"count":"0",
+		"geocount":"0",
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -594,8 +594,8 @@
 		"url":"https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 88,
-		"geocount": 85,
+		"count": 87,
+		"geocount": 84,
 		"id":"gateshead_council",
 		"map": { "type":"googlemap","url":"https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title":"Gateshead Council",
@@ -886,8 +886,8 @@
 		"url":"https://www.merton.gov.uk/communities-and-neighbourhoods/warm-spaces"
 	},
 	"mid_and_east_antrim_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 3,
+		"geocount": 3,
 		"id":"mid_and_east_antrim_council",
 		"notes":"Some spaces are without addresses",
 		"title":"Mid and East Antrim Council",
@@ -1016,7 +1016,7 @@
 	},
 	"plymouth_council": {
 		"count": 33,
-		"geocount": 32,
+		"geocount": 33,
 		"id":"plymouth_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url":"https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1356,8 +1356,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4155,
-		"geocount": 4155,
+		"count": 4173,
+		"geocount": 4173,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
