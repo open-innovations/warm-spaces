@@ -1613,7 +1613,8 @@ directories:
         type: html
   - title: "Tendring Council"
     url: "https://www.tendringdc.gov.uk/warm-hubs"
-    notes: "Provided as a PDF"
+    inactive: 2024-12-03
+    notes: "As of winter 2024 they no longer seem to have a dedicated page"
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     notes: "No location information is given so they can't be geocoded"
@@ -1623,7 +1624,6 @@ directories:
       url: "https://tewkesbury.gov.uk/services/community/warm-spaces/warm-spaces-directory-list/"
       type: html
   - title: "Tonbridge and Malling Council"
-    inactive: 2023-04-04
     url: "https://www.tmbc.gov.uk/community-services/warm-spaces"
     data:
       url: "https://www.tmbc.gov.uk/directory/7/a-to-z/A"
