@@ -17,6 +17,7 @@ directories:
         lon: loc_long
         url: website
   - title: "Warm spaces"
+    inactive: 2024-11-01
     url: "https://warmspaces.org/"
     map:
       url: "https://warmspaces.org/spaces"
@@ -64,6 +65,7 @@ directories:
     url: "https://www.angus.gov.uk/community_spaces"
     notes: "No location data or real structure"
   - title: "Ards and North Down Council"
+    inactive: 2023-11-01
     url: "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
     notes: "Closed in 2023"
   - title: "Argyll and Bute Third Sector Interface"
