@@ -1775,16 +1775,15 @@ directories:
         type: html
     notes: "All the data is stored in a PowerBi visualisation and is inaccessible to this tool."
   - title: "Wokingham Council"
-    notes: "Removed."
+    inactive: 2024-12-03
+    notes: "Removed in 2024."
     url: "https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
     register:
       url: "https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/"
   - title: "Wolverhampton Council"
-    notes: Now split across three separate lists (libraries, community centres, and family hubs) all with different levels of information
+    inactive: 2024-12-03
+    notes: "No longer exists"
     url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
-    data:
-      url: "https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
-      type: html
   - title: "Worcestershire Council"
     url: "https://www.worcestershire.gov.uk/council-services/worcestershire-libraries/warm-welcome"
     notes: "Lists libraries and links to Warm Welcome"
