@@ -229,10 +229,10 @@
 		};
 		this.loadGSS = function(code){
 			var gss = {
-				'PCON':{
-					'title':'Parliamentary Constituencies (2017)',
-					'patterns':[/^E14[0-9]{6}$/,/^W07[0-9]{6}$/,/^S14[0-9]{6}$/,/^N06[0-9]{6}$/],
-					'geojson':'https://open-innovations.github.io/geography-bits/data/PCON17CD/{{gss}}.geojsonl'
+				'PCON24':{
+					'title':'Parliamentary Constituencies (2024)',
+					'patterns':[/^E1400[0-9]{4}$/,/^W07[0-9]{6}$/,/^S14[0-9]{6}$/,/^N06[0-9]{6}$/],
+					'geojson':'https://open-innovations.github.io/geography-bits/data/PCON24CD/{{gss}}.geojsonl'
 				},
 				'WD':{
 					'title': 'Wards (2021)',
@@ -240,9 +240,9 @@
 					'geojson': 'https://open-innovations.github.io/geography-bits/data/WD21CD/{{gss}}.geojsonl'
 				},
 				'LAD':{
-					'title': 'Local Authority Districts (2021)',
+					'title': 'Local Authority Districts (2024)',
 					'patterns':[/^E06[0-9]{6}$/,/^W06[0-9]{6}$/,/^S12[0-9]{6}$/,/^E07[0-9]{6}$/,/^E08[0-9]{6}$/,/^E09[0-9]{6}$/],
-					'geojson': 'https://open-innovations.github.io/geography-bits/data/LAD21CD/{{gss}}.geojsonl'
+					'geojson': 'https://open-innovations.github.io/geography-bits/data/LAD24CD/{{gss}}.geojsonl'
 				}
 			};
 			var g,m,url="";
