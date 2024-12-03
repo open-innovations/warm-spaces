@@ -21,7 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.fullcontainer .infopage table > tbody > tr', "warmspaces[]" => scraper {
+		process '#main .infopage table > tbody > tr', "warmspaces[]" => scraper {
 			process 'td[valign="top"]', 'td[]' => 'HTML';
 		};
 	};
@@ -35,6 +35,7 @@ if(-e $file){
 		if(@td == 5){
 			if($td[0] =~ /href="([^\"]+)"/){
 				$d->{'url'} = $1;
+				if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://www.tameside.gov.uk".$d->{'url'}; }
 			}
 			$d->{'title'} = trimHTML($td[0]);
 			$d->{'address'} = trimHTML($td[1]);

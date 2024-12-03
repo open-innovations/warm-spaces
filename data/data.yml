@@ -1595,8 +1595,22 @@ directories:
   - title: "Tameside Council"
     url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
     data:
-      url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
-      type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/ashton"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/denton"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/droylsden"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/dukinfield"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/londgendale"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/hyde"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/mossley"
+        type: html
+      - url: "https://www.tameside.gov.uk/warm-welcome-hub/stalybridge"
+        type: html
   - title: "Tendring Council"
     url: "https://www.tendringdc.gov.uk/warm-hubs"
     notes: "Provided as a PDF"
@@ -1606,7 +1620,7 @@ directories:
     register:
       url: "https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/"
     data:
-      url: "https://www.tewkesbury.gov.uk/warm-spaces-directory"
+      url: "https://tewkesbury.gov.uk/services/community/warm-spaces/warm-spaces-directory-list/"
       type: html
   - title: "Tonbridge and Malling Council"
     inactive: 2023-04-04

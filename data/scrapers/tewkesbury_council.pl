@@ -21,47 +21,43 @@ if(-e $file){
 
 	# Get the locations
 	my $warmspaces = scraper {
-		process 'li.accordion-item', 'warmspaces[]' => scraper {
-			process '.accordion-item__title', 'title' => 'TEXT';
-			process '.accordion-item__description p', 'content' => 'HTML';
+		process '.accordion .accordion-title', 'titles[]' => 'TEXT';
+		process '.accordion .accordion-panel', 'content[]' => scraper {
+			process 'p', 'p[]' => 'HTML';
 		};
 	};
+	
+	
 	my $res = $warmspaces->scrape($str);
+	for($i = 0; $i < @{$res->{'titles'}}; $i++){
 
-	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		$entry = $res->{'warmspaces'}[$i];
 
 		$d = {};
-		$d->{'title'} = trimHTML($entry->{'title'});
+		$d->{'title'} = trimText($res->{'titles'}[$i]);
 
-		@bits = split(/<br ?\/?>/,$entry->{'content'});
-		$title = "";
+		@bits = @{$res->{'content'}[$i]{'p'}};
 		for($b = 0; $b < @bits; $b++){
-			if($bits[$b] =~ /(.*): (.*)/){
-				$title = $1;
-				$arg = $2;
-			}else{
-				$arg = $bits[$b];
+			if($bits[$b] =~ /Location/ && $b+1 < @bits){
+				$d->{'address'} = $bits[$b+1];
 			}
-			if($title =~ /Opening hours/i){
-				$d->{'hours'} .= ($d->{'hours'} ? "; ":"").$arg;
+			if($bits[$b] =~ /<strong>Opening hours<\/strong>(.*)$/i){
+				$bits[$b] = trimHTML($1);
+				$d->{'hours'} = parseOpeningHours({'_text'=>$bits[$b]});
+				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 			}
-			if($title =~ /Contact/i){
-				$arg =~ s/<[^\>]+>//g;
-				$d->{'contact'} .= ($d->{'contact'} ? "; ":"").$arg;
+			if($bits[$b] =~ /<strong>Activity<\/strong>(.*)$/i){
+				$d->{'description'} = trimHTML($1);
 			}
-			if($title =~ /Website/i){
-				if($arg =~ /<a href="([^\"]+)"[^\>]*>/){
-					$d->{'url'} = $1;
-				}
+			if($bits[$b] =~ /Website.*href="([^\"]+)"/){
+				$d->{'url'} = $1;
 			}
-			if($title =~ /Activity/i){
-				$d->{'description'} .= ($d->{'description'} ? " ":"").$arg;
+			if($bits[$b] =~ /Contact.*href="mailto:([^\"]+)"/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".trimText($1);
 			}
-		}
-		if($d->{'hours'}){
-			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'hours'}});
-			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+			if($bits[$b] =~ /Contact.*((\+[0-9]+)?\s*((\(0\)|0)[0-9]{2,})\s+(([0-9]{3,} ?[0-9]{3,})))/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".trimText($1);
+			}
+			
 		}
 
 		push(@entries,makeJSON($d,1));
@@ -81,7 +77,8 @@ if(-e $file){
 
 sub trimHTML {
 	my $str = $_[0];
-	$str =~ s/(<br ?\/?>|<p>)/\n /g;
+	$str =~ s/^<br ?\/?>//;
+	$str =~ s/(<br ?\/?>|<p>)/; /g;
 	$str =~ s/<[^\>]*>/ /g;
 	$str =~ s/\s{2,}/ /g;
 	$str =~ s/(^\s|\s$)//g;
