@@ -32,7 +32,7 @@ if(-e $file){
 		@td = @{$res->{'warmspaces'}[$i]{'td'}};
 
 		$address = $td[1];
-		$address =~ s/[\xc2\xa0]/\t/g;
+		$address =~ s/\&apos;/\'/gs;
 		if($address =~ s/^(.*?) ?(<br ?\/?>|\,|\t)(.*)$//){
 			$d->{'title'} = trimHTML($1);
 			$address = $3;
@@ -40,11 +40,17 @@ if(-e $file){
 				$d->{'contact'} = trimHTML($1);
 			}
 			$d->{'address'} = trimHTML($address);
+			$d->{'address'} =~ s/ ,/,/g;
+			$d->{'address'} =~ s/,+/,/g;
 		}
+		$td[0] =~ s/<\/p><p>/; /g;
+		$td[0] =~ s/<br ?\/?>/ /g;
+		$td[0] = trimHTML($td[0]);
+		$td[0] =~ s/day\&apos;s/days/gs;
 		$d->{'hours'} = parseOpeningHours({'_text'=>$td[0]});
 		if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 		if(!$d->{'hours'}{'_text'}){ delete $d->{'hours'}; }
-		$d->{'description'} = $td[2];
+		$d->{'description'} = trimHTML($td[2]);
 
 		delete $d->{'td'};
 

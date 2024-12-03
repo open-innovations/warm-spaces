@@ -1658,12 +1658,8 @@ directories:
       url: "https://vai.org.uk/warm-spaces-in-islington/"
       type: html
   - title: "Wakefield Council"
-    url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
-    data:
-      url: "https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
-      type: html
-      robots: false
-    notes: "Wakefield Council website blocks automatic access of webpages"
+    url: "https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
+    notes: "Wakefield Council website blocks automatic access of webpages but also directs people to WarmWelcomeUK"
   - title: "Wandsworth Council"
     url: "https://www.wandsworth.gov.uk/warm-spaces"
     register:
@@ -1698,7 +1694,7 @@ directories:
         url: "project_url"
         description: "project_mission"
   - title: "West Devon Council"
-    url: "https://westdevon.gov.uk/article/9368/Warm-Spaces"
+    url: "https://www.westdevon.gov.uk/warm-spaces-directory"
     map:
       url: "https://www.westdevon.gov.uk/warm-spaces-directory"
       type: leaflet
@@ -1708,7 +1704,7 @@ directories:
   - title: "West Dunbartonshire Council"
     url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
     data:
-      url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
+      url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/warm-hubs/warm-hubs/"
       type: html
   - title: "West Northamptonshire"
     url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
