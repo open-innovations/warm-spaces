@@ -122,8 +122,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 268,
-		"geocount": 268,
+		"count": 273,
+		"geocount": 273,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -317,8 +317,8 @@
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 47,
-		"geocount": 47,
+		"count": 48,
+		"geocount": 48,
 		"id":"ceredigion_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8" },
 		"title":"Ceredigion Council",
@@ -1103,8 +1103,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 30,
-		"geocount": 30,
+		"count": 13,
+		"geocount": 13,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1288,13 +1288,14 @@
 	},
 	"tendring_council": {
 		"id":"tendring_council",
-		"notes":"Provided as a PDF",
+		"inactive":"2024-12-03",
+		"notes":"As of winter 2024 they no longer seem to have a dedicated page",
 		"title":"Tendring Council",
 		"url":"https://www.tendringdc.gov.uk/warm-hubs"
 	},
 	"tewkesbury_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 10,
+		"geocount": 9,
 		"id":"tewkesbury_council",
 		"notes":"No location information is given so they can't be geocoded",
 		"register": { "url":"https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/" },
@@ -1302,8 +1303,9 @@
 		"url":"https://www.tewkesbury.gov.uk/warm-spaces"
 	},
 	"tonbridge_and_malling_council": {
+		"count": 24,
+		"geocount": 23,
 		"id":"tonbridge_and_malling_council",
-		"inactive":"2023-04-04",
 		"title":"Tonbridge and Malling Council",
 		"url":"https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},
@@ -1330,12 +1332,10 @@
 		"url":"https://vai.org.uk/warm-spaces-in-islington/"
 	},
 	"wakefield_council": {
-		"count":"0",
-		"geocount":"0",
 		"id":"wakefield_council",
-		"notes":"Wakefield Council website blocks automatic access of webpages",
+		"notes":"Wakefield Council website blocks automatic access of webpages but also directs people to WarmWelcomeUK",
 		"title":"Wakefield Council",
-		"url":"https://www.wakefield.gov.uk/more-money-in-my-pocket/warm-spaces"
+		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
 		"count": 48,
@@ -1356,8 +1356,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4173,
-		"geocount": 4173,
+		"count": 4174,
+		"geocount": 4174,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1388,18 +1388,18 @@
 		"id":"west_devon_council",
 		"map": { "type":"leaflet","url":"https://www.westdevon.gov.uk/warm-spaces-directory" },
 		"title":"West Devon Council",
-		"url":"https://westdevon.gov.uk/article/9368/Warm-Spaces"
+		"url":"https://www.westdevon.gov.uk/warm-spaces-directory"
 	},
 	"west_dunbartonshire_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 16,
+		"geocount": 14,
 		"id":"west_dunbartonshire_council",
 		"title":"West Dunbartonshire Council",
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 97,
-		"geocount": 92,
+		"count": 96,
+		"geocount": 91,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
@@ -1439,16 +1439,16 @@
 	},
 	"wokingham_council": {
 		"id":"wokingham_council",
-		"notes":"Removed.",
+		"inactive":"2024-12-03",
+		"notes":"Removed in 2024.",
 		"register": { "url":"https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/" },
 		"title":"Wokingham Council",
 		"url":"https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
 	},
 	"wolverhampton_council": {
-		"count":"0",
-		"geocount":"0",
 		"id":"wolverhampton_council",
-		"notes":"Now split across three separate lists (libraries, community centres, and family hubs) all with different levels of information",
+		"inactive":"2024-12-03",
+		"notes":"No longer exists",
 		"title":"Wolverhampton Council",
 		"url":"https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
 	},
