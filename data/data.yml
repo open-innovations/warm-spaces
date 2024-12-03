@@ -1592,10 +1592,6 @@ directories:
     data:
       - url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
         type: html
-      - url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4?page=2"
-        type: html
-      - url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4?page=3"
-        type: html
   - title: "Tameside Council"
     url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
     data:
