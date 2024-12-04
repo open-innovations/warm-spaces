@@ -1,4 +1,11 @@
 {
+	"_helpandkindness": {
+		"count": 90,
+		"geocount": 90,
+		"id":"_helpandkindness",
+		"title":"#HelpAndKindness",
+		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
+	},
 	"aberdeen_city_council": {
 		"count": 39,
 		"geocount": 39,
@@ -32,6 +39,7 @@
 	},
 	"ards_and_north_down_council": {
 		"id":"ards_and_north_down_council",
+		"inactive":"2023-11-01",
 		"notes":"Closed in 2023",
 		"title":"Ards and North Down Council",
 		"url":"https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
@@ -423,8 +431,8 @@
 		"url":"https://www.coventry.gov.uk/cost-living-wellbeing-support"
 	},
 	"croydon_council": {
-		"count": 24,
-		"geocount": 24,
+		"count": 19,
+		"geocount": 19,
 		"id":"croydon_council",
 		"map": { "type":"leaflet","url":"https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title":"Croydon Council",
@@ -1016,7 +1024,7 @@
 	},
 	"plymouth_council": {
 		"count": 33,
-		"geocount": 33,
+		"geocount": 32,
 		"id":"plymouth_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url":"https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1024,8 +1032,8 @@
 		"url":"https://www.plymouth.gov.uk/warm-welcoming-spaces"
 	},
 	"portsmouth_council": {
-		"count": 9,
-		"geocount": 9,
+		"count":"0",
+		"geocount":"0",
 		"id":"portsmouth_council",
 		"title":"Portsmouth Council",
 		"url":"https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/help-others-during-the-cost-of-living-crisis/warm-spaces/"
@@ -1103,8 +1111,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 13,
-		"geocount": 13,
+		"count": 15,
+		"geocount": 15,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1338,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 51,
+		"geocount": 51,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1347,17 +1355,16 @@
 		"url":"https://www.wandsworth.gov.uk/warm-spaces"
 	},
 	"warm_spaces": {
-		"count":"0",
-		"geocount":"0",
 		"id":"warm_spaces",
+		"inactive":"2024-11-01",
 		"map": { "type":"googlemap","url":"https://warmspaces.org/spaces" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSeQgc1ROLZKKO3KjnfzR_N2OH8mfWPhjkVkT5Xz4cEFj-k72Q/viewform" },
 		"title":"Warm spaces",
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4174,
-		"geocount": 4174,
+		"count": 4194,
+		"geocount": 4194,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
