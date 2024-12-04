@@ -831,6 +831,11 @@ directories:
     data:
       url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
       type: html
+  - title: "#HelpAndKindness"
+    url: "https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
+    data:
+      url: "https://www.helpandkindness.co.uk/winter-activities-and-services-in-dorset/dorset/warm-spaces-and-warm-hubs"
+      type: html
   - title: "Herefordshire Council"
     url: "https://www.talkcommunitydirectory.org/warmspace"
     map:
