@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 91,
-		"geocount": 91,
+		"count": 93,
+		"geocount": 93,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -24,8 +24,8 @@
 		"url":"https://www.avashire.org.uk/warm-spaces-aberdeenshire"
 	},
 	"adur_and_worthing_council": {
-		"count": 14,
-		"geocount": 14,
+		"count": 16,
+		"geocount": 16,
 		"id":"adur_and_worthing_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&ehbc=2E312F&ll=50.80907846499665%2C-0.2581569040039211&z=11" },
 		"title":"Adur and Worthing Council",
@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 17,
-		"geocount": 17,
+		"count":"0",
+		"geocount":"0",
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -325,8 +325,8 @@
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 47,
+		"geocount": 45,
 		"id":"ceredigion_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8" },
 		"title":"Ceredigion Council",
@@ -649,8 +649,8 @@
 		"url":"https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
 	},
 	"haringey_council": {
-		"count": 22,
-		"geocount": 22,
+		"count": 23,
+		"geocount": 23,
 		"id":"haringey_council",
 		"title":"Haringey Council",
 		"url":"https://www.haringey.gov.uk/community/haringey-warm-welcome"
@@ -918,8 +918,8 @@
 		"url":"https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
 	},
 	"neath_port_talbot_council": {
-		"count": 50,
-		"geocount": 50,
+		"count":"0",
+		"geocount":"0",
 		"id":"neath_port_talbot_council",
 		"register": { "url":"https://appsportal2.npt.gov.uk/businessaccount" },
 		"title":"Neath Port Talbot Council",
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 51,
-		"geocount": 51,
+		"count": 52,
+		"geocount": 52,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4239,
-		"geocount": 4239,
+		"count": 4293,
+		"geocount": 4293,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 90,
-		"geocount": 90,
+		"count": 91,
+		"geocount": 91,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
