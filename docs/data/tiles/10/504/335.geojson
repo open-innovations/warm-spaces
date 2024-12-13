@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.80941,52.53779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Parish Centre, Church Stretton, Shropshire SY6 6DQ","description":"Every Saturday morning between 10-12 you will find a 'Warm Welcome' in St Laurence Parish Centre. We provide simple refreshments, good company, newspapers, games and conversation. Our space is accessible, inclusive and inter-generational so please come and join us on a Saturday and make some new friends!","hours":{"_text":"Saturday: 10:00 - 12:00","opening":"Sa 10:00-12:00"},"title":"A Warm Welcome in Church Stretton"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.80941,52.53779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Parish Centre, Church Stretton, Shropshire SY6 6DQ","description":"Every Saturday morning between 10-12 you will find a 'Warm Welcome' in St Laurence Parish Centre. We provide simple refreshments, good company, newspapers, games and conversation. Our space is accessible, inclusive and inter-generational so please come and join us on a Saturday and make some new friends!","hours":{"_text":"Saturday: 10:00 - 12:00","opening":"Sa 10:00-12:00"},"title":"A Warm Welcome in Church Stretton"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.73042,52.69543],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St. Giles Community Hall, Shropshire, Shropshire SY2 6EH","description":"SPACE OPENING ON 15th January 2025** Family Friendly drop-in after school. Re-starting January 15th, 3.30 - 5pm.","hours":{"_text":"Wednesday: 15:30 - 17:00","opening":"We 15:30-17:00"},"title":"St Giles Church Hall, Shrewsbury"},"type":"Feature"}
 	]
 }
