@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 93,
-		"geocount": 93,
+		"count": 94,
+		"geocount": 94,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -100,8 +100,8 @@
 		"url":"https://www.bcvs.org.uk/warmspaces"
 	},
 	"bath_and_north_east_somerset_council": {
-		"count": 27,
-		"geocount": 27,
+		"count": 29,
+		"geocount": 29,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 219,
-		"geocount": 219,
+		"count": 221,
+		"geocount": 221,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 17,
-		"geocount": 17,
+		"count":"0",
+		"geocount":"0",
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -416,8 +416,8 @@
 		"url":"https://www.communities1st.org.uk/warm-hubs"
 	},
 	"community_action_derby": {
-		"count": 27,
-		"geocount": 26,
+		"count": 22,
+		"geocount": 21,
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -580,8 +580,8 @@
 		"url":"https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
 	},
 	"fife_council": {
-		"count": 37,
-		"geocount": 3,
+		"count": 60,
+		"geocount": 4,
 		"id":"fife_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998" },
 		"title":"Fife Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4318,
-		"geocount": 4318,
+		"count": 4328,
+		"geocount": 4328,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
