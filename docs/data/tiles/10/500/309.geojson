@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.07374,57.74198],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Highland Council, Ross-shire IV18 0DG","description":"Invergordon Public Library is proud to offer a warm space in the heart of our community. Come in for a warm welcome, a soft seat, and a good book. Printing, public computers, wi-fi and a range of other services are available for visitors.","hours":{"_text":"Monday: 09:00 - 12:30 / 13:30 - 17:00, Tuesday: 09:00 - 12:30 / 13:30 - 17:00, Wednesday: 09:00 - 12:30 / 13:30 - 19:00, Thursday: 09:00 - 12:30 / 13:30 - 17:00, Friday: 09:00 - 12:30 / 13:30 - 18:00","opening":"Mo 09:00-12:30,13:30-17:00; Tu 09:00-12:30,13:30-17:00; We 09:00-12:30,13:30-19:00; Th 09:00-12:30,13:30-17:00; Fr 09:00-12:30,13:30-18:00"},"title":"Invergordon Public Library"},"type":"Feature"}
-	]
-}
+{}

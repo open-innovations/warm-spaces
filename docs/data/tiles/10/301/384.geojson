@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-73.99405,40.74831],"type":"Point"},"properties":{"_source":"warm_welcome","address":"new york, New York 10001 10001","title":"city national"},"type":"Feature"}
+	]
+}

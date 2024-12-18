@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 94,
-		"geocount": 94,
+		"count": 96,
+		"geocount": 96,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 221,
-		"geocount": 221,
+		"count": 219,
+		"geocount": 219,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 31,
-		"geocount": 30,
+		"count": 34,
+		"geocount": 33,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 93,
-		"geocount": 75,
+		"count": 96,
+		"geocount": 77,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -729,8 +729,8 @@
 		"url":"https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 35,
-		"geocount": 35,
+		"count": 34,
+		"geocount": 34,
 		"id":"hull_council",
 		"map": { "type":"iShare","url":"https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title":"Hull Council",
@@ -894,7 +894,7 @@
 		"url":"https://www.merton.gov.uk/communities-and-neighbourhoods/warm-spaces"
 	},
 	"mid_and_east_antrim_council": {
-		"count": 5,
+		"count": 7,
 		"geocount": 3,
 		"id":"mid_and_east_antrim_council",
 		"notes":"Some spaces are without addresses",
@@ -1181,8 +1181,8 @@
 		"url":"https://services.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
 	},
 	"spark_somerset": {
-		"count": 103,
-		"geocount": 100,
+		"count":"0",
+		"geocount":"0",
 		"id":"spark_somerset",
 		"map": { "type":"xmap","url":"https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
@@ -1302,8 +1302,8 @@
 		"url":"https://www.tendringdc.gov.uk/warm-hubs"
 	},
 	"tewkesbury_council": {
-		"count": 10,
-		"geocount": 9,
+		"count": 11,
+		"geocount": 10,
 		"id":"tewkesbury_council",
 		"notes":"No location information is given so they can't be geocoded",
 		"register": { "url":"https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/" },
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 52,
-		"geocount": 52,
+		"count": 64,
+		"geocount": 64,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4328,
-		"geocount": 4328,
+		"count": 4346,
+		"geocount": 4346,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
