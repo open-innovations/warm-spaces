@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.97828,57.97400],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Go Golspie Development Trust, YMCA Building, Golspie,, Sutherland KW10 6TL","description":"A free Warm Space for the community, based within the small hall in the YMCA Building, accessible via the back door from East Millicent Avenue. Anyone can help themselves to tea and coffee refreshments and food in the Community Food Larder fridge.","hours":{"_text":"Tuesday: 10:30 - 12:30","opening":"Tu 10:30-12:30"},"title":"YMCA Building - Warm Space"},"type":"Feature"}
+	]
+}

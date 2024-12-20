@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.07110,56.61853],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Ambleside, Isle of Mull, Isle of Mull PA75 6QA","description":"This is a test listing. This space is not live.","hours":{"_text":"Monday: 10:00 - 11:00","opening":"Mo 10:00-11:00"},"title":"TEST-SPACE-NOT-LIVE"},"type":"Feature"}
+	]
+}
