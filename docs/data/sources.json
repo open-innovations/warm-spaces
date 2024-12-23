@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 93,
-		"geocount": 93,
+		"count": 92,
+		"geocount": 92,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -109,8 +109,8 @@
 		"url":"https://livewell.bathnes.gov.uk/warm-places-list"
 	},
 	"bedford_council": {
-		"count": 30,
-		"geocount": 29,
+		"count": 33,
+		"geocount": 32,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -131,7 +131,7 @@
 	},
 	"birmingham_council": {
 		"count": 274,
-		"geocount": 274,
+		"geocount": 273,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 218,
-		"geocount": 189,
+		"count": 219,
+		"geocount": 190,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -210,8 +210,8 @@
 		"url":"https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
 	},
 	"brighton___hove_council": {
-		"count": 55,
-		"geocount": 52,
+		"count": 52,
+		"geocount": 49,
 		"id":"brighton___hove_council",
 		"map": { "type":"leaflet","url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go?view=map" },
 		"title":"Brighton & Hove Council",
@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 17,
-		"geocount": 17,
+		"count":"0",
+		"geocount":"0",
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -1067,8 +1067,8 @@
 		"url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 89,
-		"geocount": 88,
+		"count": 88,
+		"geocount": 87,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 64,
-		"geocount": 64,
+		"count": 65,
+		"geocount": 65,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4361,
-		"geocount": 4361,
+		"count": 4369,
+		"geocount": 4369,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
