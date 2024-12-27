@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 92,
-		"geocount": 92,
+		"count": 91,
+		"geocount": 91,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -1032,8 +1032,8 @@
 		"url":"https://www.plymouth.gov.uk/warm-welcoming-spaces"
 	},
 	"portsmouth_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 9,
+		"geocount": 9,
 		"id":"portsmouth_council",
 		"title":"Portsmouth Council",
 		"url":"https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/help-others-during-the-cost-of-living-crisis/warm-spaces/"
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4371,
-		"geocount": 4371,
+		"count": 4368,
+		"geocount": 4368,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
