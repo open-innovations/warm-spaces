@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 274,
-		"geocount": 274,
+		"count": 276,
+		"geocount": 276,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -218,8 +218,8 @@
 		"url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
 	},
 	"bristol_council": {
-		"count": 86,
-		"geocount": 86,
+		"count": 85,
+		"geocount": 85,
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 17,
+		"geocount": 17,
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -339,8 +339,8 @@
 		"url":"https://www.charnwood.gov.uk/pages/warmspaces"
 	},
 	"chelmsford_connects": {
-		"count": 42,
-		"geocount": 36,
+		"count": 44,
+		"geocount": 38,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -863,8 +863,8 @@
 		"url":"https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
 	},
 	"luton_council": {
-		"count": 21,
-		"geocount": 21,
+		"count": 22,
+		"geocount": 22,
 		"id":"luton_council",
 		"title":"Luton Council",
 		"url":"https://m.luton.gov.uk/Page/Show/news/Pages/Stay-Warm-and-Well-this-Winter.aspx"
@@ -1227,8 +1227,8 @@
 		"url":"https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 73,
+		"geocount": 73,
 		"id":"stockton-on-tees_council",
 		"register": { "url":"https://www.stockton.gov.uk/warm-spaces-application" },
 		"title":"Stockton-on-Tees Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4372,
-		"geocount": 4372,
+		"count": 4393,
+		"geocount": 4393,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
