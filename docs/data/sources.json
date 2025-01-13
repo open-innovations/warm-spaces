@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 92,
-		"geocount": 92,
+		"count": 93,
+		"geocount": 93,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 167,
-		"geocount": 167,
+		"count": 172,
+		"geocount": 171,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -233,8 +233,8 @@
 		"url":"https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 18,
-		"geocount": 18,
+		"count": 19,
+		"geocount": 19,
 		"id":"bromley_well",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12" },
 		"title":"Bromley Well",
@@ -374,8 +374,8 @@
 		"url":"https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
 	},
 	"chesterfield_council": {
-		"count": 35,
-		"geocount": 35,
+		"count": 36,
+		"geocount": 36,
 		"id":"chesterfield_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title":"Chesterfield Council",
@@ -529,8 +529,8 @@
 		"url":"https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
-		"count": 16,
-		"geocount": 16,
+		"count": 17,
+		"geocount": 17,
 		"id":"east_staffordshire_council",
 		"notes":"In 2022/3 there was not enough address information for half the entries",
 		"title":"East Staffordshire Council",
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 84,
+		"geocount": 71,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -850,8 +850,8 @@
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 6,
-		"geocount": 5,
+		"count": 9,
+		"geocount": 8,
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4451,
-		"geocount": 4451,
+		"count": 4460,
+		"geocount": 4460,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
