@@ -145,8 +145,9 @@
 				log('error','Unable to load URL '+url,{'type':'ERROR','extra':{}});
 			});
 		};
-		this.updateList = function(){
-			var maxn = 180;
+		this.updateList = function(maxn){
+			var perpage = 60;
+			if(typeof maxn!=="number") maxn = perpage;
 			var max = (this.region ? this.sorted.length : Math.min(maxn,this.sorted.length));
 			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy,lat,lon;
 			// We want to round to the accuracy of the geolocation
@@ -175,7 +176,6 @@
 
 			html = '';
 			var nopen = 0;
-			console.log(this.sorted);
 			for(i = 0, added=0; i < this.sorted.length && added < max; i++){
 				p = this.sorted[i].properties;
 				d = formatDistance(this.sorted[i].distance,accuracy);
@@ -227,6 +227,15 @@
 			if(max < this.sorted.length) msg += '<br />We are only showing the closest '+maxn+' offers. You may wish to see all <a href="by-area.html#LAD">warm space offers within a local authority</a>.';
 			msg += '</div>';
 			this.loader.innerHTML = msg;
+			if(max < this.sorted.length){
+				var more = document.createElement('button');
+				more.innerHTML = "Show more offers";
+				more.addEventListener('click',function(){
+					console.log('more',_obj);
+					_obj.updateList(maxn+perpage);
+				});
+				this.list.appendChild(more);
+			}
 			this.key.style.display = "block";
 			
 			return this;
