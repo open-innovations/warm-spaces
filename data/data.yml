@@ -318,22 +318,23 @@ directories:
       url: "https://ssa.camden.gov.uk/connect/analyst/controller/connectProxy/rest/Spatial/FeatureService"
       type: geojson
       method: POST
-      form: 'url=tables/features.json?page=1&pageLength=100&outSR=4326&encodeSpecialChars=true&postData={"query":"SELECT \"Organisation\",\"OrganisationType\",\"WhoIsItFor\",\"PostalDetails\",\"OpeningDaysTimes\",\"Website\",\"OrganistationPhoneNumber\",\"OrganisationEmailAddress\" FROM \"/BusinessMaps/WarmSpaces/WarmSpaces\""}&projectName=/MapProjects/WarmSpacesMap'
+      set-cookies: https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap
+      form: "url=tables/features.json?page=1&pageLength=100&outSR=4326&encodeSpecialChars=true&postData={\"query\":\"SELECT %22Organisation%22,%22OrganisationType%22,%22WhoIsItFor%22,%22PostalDetails%22,%22OpeningDaysTimes%22,%22Website%22,%22OrganistationPhoneNumber%22,%22OrganisationEmailAddress%22 FROM %22/BusinessMaps/WarmSpaces/WarmSpaces%22 WHERE MI_Intersects(obj,MI_Box(523652,176184,539326,189329,'EPSG:27700'))\"}&projectName=/MapProjects/WarmSpacesMap"
       headers:
+        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
         Accept: "application/json, text/plain, */*"
         Accept-Language: "en-GB,en;q=0.5"
         Accept-Encoding: "gzip, deflate"
         Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
-        Origin: https://ssa.camden.gov.uk
-        DNT: 1
-        Connection: keep-alive
-        Sec-Fetch-Dest: empty,
-        Sec-Fetch-Mode: cors
-        Sec-Fetch-Site: same-origin
-        Pragma: no-cache
-        Cache-Control: no-cache
-        TE: trailers
-        Cookie: "JSESSIONID=EEB0C61EB1D8598FCDD22AD56C2CF3EE; __cf_bm=q8FVITNXuxMG4iLJyOuNbolZNn3r1nRWXebswbk.Cqs-1732021665-1.0.1.1-_aPTSMfV2LA_PApc1TOpctMmeLWoszFBZQAFP2uit0jsOZh23gDzucxdcRYaOyuuYVrnn8x1nk8EVzXvS5BpMA; cf_clearance=PQmq5Dkuao7.GCW8JPrACfL.TBNn4FlC_BIki5R8oiE-1732021665-1.2.1.1-_MSKRdZXBJJh2xFX1BqhGakbdiSqEuFwIbSP6TQSsNxky3veOWN0SNJVDhXoy2ukDtewHWQm.q_H1OcyOZGaqcjr.hwy5UYRUAEaErdupdjaBghWwOl6x5S5alvBFey_CxoBMnI_4m1XCDVaxSB5MAP58rwixEuhcgOXs5ahRIHAeBioFtDiduXv3eTuerIbiyMX_vR5P_mdtdL1SXnxvXF4KD6E1eqep02NFgmzpYtSRSYxVIf4Ns1.6cgYY0kkLH2tPs1SqMD50Ia7d_kRaiDkzBb4cuqoWcQFi5ee3SPYneZGbHm28fv1TMepjrvhy93el5F48uxLu6gwvvYTfA"
+        Origin: "https://ssa.camden.gov.uk"
+        DNT: "1"
+        Connection: "keep-alive"
+        Sec-Fetch-Dest: "empty"
+        Sec-Fetch-Mode: "cors"
+        Sec-Fetch-Site: "same-origin"
+        Pragma: "no-cache"
+        Cache-Control: "no-cache"
+        TE: "trailers"
       keys:
         title: "Organisation"
         url: "Website"
