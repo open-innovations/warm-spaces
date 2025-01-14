@@ -146,8 +146,8 @@
 			});
 		};
 		this.updateList = function(){
-
-			var max = (this.region ? this.sorted.length : Math.min(60,this.sorted.length));
+			var maxn = 180;
+			var max = (this.region ? this.sorted.length : Math.min(maxn,this.sorted.length));
 			var acc,logacc,base,frac,options,distance,imin,tmin,i,p,d,html,accuracy,lat,lon;
 			// We want to round to the accuracy of the geolocation
 			acc = (this.location ? this.location.coords.accuracy : 50);
@@ -222,7 +222,11 @@
 			this.list.innerHTML = html;
 			opts.el.appendChild(this.list);
 
-			this.loader.innerHTML = '<div class="warning padded">These results are compiled automatically from <a href="directories">various directories</a> which may have errors or be out-of-date.</div>';
+			var msg = '<div class="warning padded">';
+			msg += 'These results are compiled automatically from <a href="directories">various directories</a> which may have errors or be out-of-date.';
+			if(max < this.sorted.length) msg += '<br />We are only showing the closest '+maxn+' offers. You may wish to see all <a href="by-area.html#LAD">warm space offers within a local authority</a>.';
+			msg += '</div>';
+			this.loader.innerHTML = msg;
 			this.key.style.display = "block";
 			
 			return this;
