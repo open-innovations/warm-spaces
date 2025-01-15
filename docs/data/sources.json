@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 279,
-		"geocount": 279,
+		"count": 278,
+		"geocount": 278,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 172,
-		"geocount": 171,
+		"count": 180,
+		"geocount": 180,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -184,8 +184,8 @@
 		"title":"Bradford on Avon Council"
 	},
 	"braintree_council": {
-		"count": 48,
-		"geocount": 48,
+		"count": 57,
+		"geocount": 57,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -286,8 +286,8 @@
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
 	},
 	"camden_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 48,
+		"geocount": 48,
 		"id":"camden_council",
 		"map": { "type":"arcgis","url":"https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -850,8 +850,8 @@
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 9,
-		"geocount": 8,
+		"count": 12,
+		"geocount": 11,
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1172,8 +1172,8 @@
 		"url":"https://www.southtyneside.gov.uk/article/14924/Warm-spaces-South-Tyneside"
 	},
 	"southwalk_council": {
-		"count": 51,
-		"geocount": 51,
+		"count":"0",
+		"geocount":"0",
 		"id":"southwalk_council",
 		"map": { "url":"https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces" },
 		"notes":"Removed. Being updated in autumn 2023.",
@@ -1273,7 +1273,7 @@
 	},
 	"swansea_council": {
 		"count": 70,
-		"geocount": 70,
+		"geocount":"0",
 		"id":"swansea_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.6441924295704%2C-4.029695849999997&z=12" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4460,
-		"geocount": 4460,
+		"count": 4503,
+		"geocount": 4503,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 91,
-		"geocount": 91,
+		"count":"0",
+		"geocount":"0",
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
