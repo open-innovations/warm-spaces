@@ -1,11 +1,15 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
 use lib "./";
 use utf8;
 use Data::Dumper;
 use Web::Scraper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
+
+my ($file,$i,$d,@td,@lines,$str,$warmspaces,$res,@entries);
 
 # Get the file to process
 $file = $ARGV[0];
@@ -20,17 +24,21 @@ if(-e $file){
 	$str = join("",@lines);
 
 	# Build a web scraper
-	my $warmspaces = scraper {
+	$warmspaces = scraper {
 		process '#main .infopage table > tbody > tr', "warmspaces[]" => scraper {
 			process 'td[valign="top"]', 'td[]' => 'HTML';
 		};
 	};
-	my $res = $warmspaces->scrape( $str );
+	$res = $warmspaces->scrape( $str );
 
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		$d = $res->{'warmspaces'}[$i];
-		@td = @{$res->{'warmspaces'}[$i]{'td'}};
-
+		# Check if we have an array
+		if(ref($res->{'warmspaces'}[$i]{'td'}) eq "ARRAY"){
+			@td = @{$res->{'warmspaces'}[$i]{'td'}};
+		}else{
+			@td = ();
+		}
 		$d = {};
 		if(@td == 5){
 			if($td[0] =~ /href="([^\"]+)"/){
