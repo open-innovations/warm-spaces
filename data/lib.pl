@@ -75,7 +75,7 @@ sub getFileAge {
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
-	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile);
+	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile,$cmd);
 
 	$url = $d->{'data'}[$n]{'url'};
 
@@ -108,15 +108,15 @@ sub getDataFromURL {
 		}
 		if($d->{'data'}[$n]{'form'}){
 			$d->{'data'}[$n]{'form'} =~ s/\"/\\\"/g;
-			$d->{'data'}[$n]{'form'} =~ s/\%22/\\\%22/g;
 			$args .= " --data-raw \"$d->{'data'}[$n]{'form'}\"";
 		}
 		# Have we set cookies
 		if(-e $cfile){
 			$args .= " -b $cfile";
 		}
-		#msg("curl -s --insecure $args --compressed -o $file \"$url\"");
-		`curl -s --insecure -L $args --compressed -o $file "$url"`;
+		$cmd = "curl -s --insecure -L $args --compressed \"$url\" -o \"$file\"";
+		msg("$cmd\n");
+		`$cmd`;
 		msg("\tDownloaded to $file\n");
 	}
 	return $file;

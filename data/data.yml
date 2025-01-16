@@ -319,7 +319,7 @@ directories:
       type: geojson
       method: POST
       set-cookies: https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap
-      form: "url=tables/features.json?page=1&pageLength=100&outSR=4326&encodeSpecialChars=true&postData={\"query\":\"SELECT %22Organisation%22,%22OrganisationType%22,%22WhoIsItFor%22,%22PostalDetails%22,%22OpeningDaysTimes%22,%22Website%22,%22OrganistationPhoneNumber%22,%22OrganisationEmailAddress%22 FROM %22/BusinessMaps/WarmSpaces/WarmSpaces%22 WHERE MI_Intersects(obj,MI_Box(523652,176184,539326,189329,'EPSG:27700'))\"}&projectName=/MapProjects/WarmSpacesMap"
+      form: "url=tables%2Ffeatures.json%3Fpage%3D1%26pageLength%3D50&encodeSpecialChars=true&postData=%7B%22query%22%3A%22SELECT%20%5C%22Organisation%5C%22%2C%5C%22OrganisationType%5C%22%2C%5C%22WhoIsItFor%5C%22%2C%5C%22PostalDetails%5C%22%2C%5C%22OpeningDaysTimes%5C%22%2C%5C%22Website%5C%22%2C%5C%22OrganistationPhoneNumber%5C%22%2C%5C%22OrganisationEmailAddress%5C%22%20FROM%20%5C%22%2FBusinessMaps%2FWarmSpaces%2FWarmSpaces%5C%22%20WHERE%20MI_Intersects(obj%2CMI_Box(523652%2C176184%2C539326%2C189329%2C'EPSG%3A27700'))%22%7D&projectName=%2FMapProjects%2FWarmSpacesMap"
       headers:
         User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
         Accept: "application/json, text/plain, */*"
@@ -1457,7 +1457,8 @@ directories:
       type: geojson
       method: POST
       convertFromOSGB: true
-      form: "url=tables%2Ffeatures.json%3Fpage%3D1%26pageLength%3D100&encodeSpecialChars=true&postData=%7B%22query%22%3A%22SELECT%20%5C%22Type%5C%22%2C%5C%22Warm_Space%5C%22%2C%5C%22Address%5C%22%2C%5C%22Postcode%5C%22%2C%5C%22Service_Group%5C%22%2C%5C%22Opening_schedule%5C%22%2C%5C%22Open_from%5C%22%2C%5C%22Services_available%5C%22%2C%5C%22Website%5C%22%2C%5C%22Phone_number%5C%22%2C%5C%22Wheelchair_accessible%5C%22%2C%5C%22Accessible_toilet%5C%22%2C%5C%22Hearing__audio_induction__loop%5C%22%2C%5C%22Accessible_parking%5C%22%2C%5C%22Transport_provided%5C%22%2C%5C%22Languages_available_other_than%5C%22%2C%5C%22Accessibility_Other%5C%22%2C%5C%22X%5C%22%2C%5C%22Y%5C%22%2C%5C%22Ward%5C%22%20FROM%20%5C%22%2FNamedTables%2FWarm_Spaces_in_Southwark%5C%22%20WHERE%20MI_Intersects(obj%2CMI_Box(-0.1239%2C51.41109%2C-0.02558%2C51.5128%2C'EPSG%3A4326'))%22%7D&spatial_reference_id=4326&projectName=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
+      set-cookies: "https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
+      form: "url=tables%2Ffeatures.json%3Fpage%3D1%26pageLength%3D100&encodeSpecialChars=true&postData=%7B%22query%22%3A%22SELECT%20%5C%22Type%5C%22%2C%5C%22Warm_Space%5C%22%2C%5C%22Address%5C%22%2C%5C%22Postcode%5C%22%2C%5C%22Service_Group%5C%22%2C%5C%22Opening_schedule%5C%22%2C%5C%22Open_from%5C%22%2C%5C%22Services_available%5C%22%2C%5C%22Website%5C%22%2C%5C%22Phone_number%5C%22%2C%5C%22Wheelchair_accessible%5C%22%2C%5C%22Accessible_toilet%5C%22%2C%5C%22Hearing__audio_induction__loop%5C%22%2C%5C%22Accessible_parking%5C%22%2C%5C%22Transport_provided%5C%22%2C%5C%22Languages_available_other_than%5C%22%2C%5C%22Accessibility_Other%5C%22%2C%5C%22X%5C%22%2C%5C%22Y%5C%22%2C%5C%22Ward%5C%22%20FROM%20%5C%22%2FNamedTables%2FWarm_Spaces_in_Southwark%5C%22%20WHERE%20MI_Intersects(obj%2CMI_Box(530186%2C170547%2C537292%2C181585%2C'EPSG%3A27700'))%22%7D&projectName=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
       headers:
         Accept: "application/json, text/plain, */*"
         Accept-Language: "en-GB,en;q=0.5"
