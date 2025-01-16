@@ -114,8 +114,8 @@ sub getDataFromURL {
 		if(-e $cfile){
 			$args .= " -b $cfile";
 		}
-		$cmd = "curl -s --insecure -L $args --compressed \"$url\" -o \"$file\"";
-		msg("$cmd\n");
+		$cmd = "curl -s --insecure -L $args --max-time 60 --compressed \"$url\" -o \"$file\"";
+		#msg("$cmd\n");
 		`$cmd`;
 		msg("\tDownloaded to $file\n");
 	}
