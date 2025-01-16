@@ -266,8 +266,8 @@
 		"url":"https://theburydirectory.co.uk/warm-spaces-bury"
 	},
 	"calderdale_council": {
-		"count": 28,
-		"geocount": 28,
+		"count": 54,
+		"geocount": 54,
 		"id":"calderdale_council",
 		"title":"Calderdale Council",
 		"url":"https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
@@ -423,8 +423,8 @@
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
 	},
 	"coventry_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": 59,
+		"geocount": 59,
 		"id":"coventry_council",
 		"map": { "type":"googlemap","url":"https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search" },
 		"title":"Coventry Council",
@@ -1190,8 +1190,8 @@
 		"url":"https://sparksomerset.org.uk/warm-welcome"
 	},
 	"st_helens_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 30,
+		"geocount": 29,
 		"id":"st_helens_council",
 		"register": { "url":"https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title":"St Helens Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4505,
-		"geocount": 4505,
+		"count": 4522,
+		"geocount": 4522,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
