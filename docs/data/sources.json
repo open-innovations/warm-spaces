@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 17,
-		"geocount": 17,
+		"count": 18,
+		"geocount": 18,
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -318,8 +318,8 @@
 		"url":"https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count": 64,
-		"geocount": 60,
+		"count": 65,
+		"geocount": 61,
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -1172,8 +1172,8 @@
 		"url":"https://www.southtyneside.gov.uk/article/14924/Warm-spaces-South-Tyneside"
 	},
 	"southwalk_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 51,
+		"geocount": 51,
 		"id":"southwalk_council",
 		"map": { "url":"https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces" },
 		"notes":"Removed. Being updated in autumn 2023.",
@@ -1190,8 +1190,8 @@
 		"url":"https://sparksomerset.org.uk/warm-welcome"
 	},
 	"st_helens_council": {
-		"count": 30,
-		"geocount": 29,
+		"count":"0",
+		"geocount":"0",
 		"id":"st_helens_council",
 		"register": { "url":"https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title":"St Helens Council",
@@ -1272,7 +1272,7 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 70,
+		"count": 71,
 		"geocount":"0",
 		"id":"swansea_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.6441924295704%2C-4.029695849999997&z=12" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4503,
-		"geocount": 4503,
+		"count": 4505,
+		"geocount": 4505,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 91,
+		"geocount": 91,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
