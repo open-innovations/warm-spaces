@@ -292,15 +292,11 @@ directories:
   - title: "Calderdale Council"
     url: "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
     data:
-      url: "https://dataworks.calderdale.gov.uk/download/e6x89/8cn/Warm%20and%20Welcoming%20Spaces%20December%202022.xlsx"
-      type: xls
-      sheet: "sheet1"
-      startrow: 2
+      url: "https://dataworks.calderdale.gov.uk/download/e6x89/kee/Warm%20and%20Welcoming%20Spaces%20December%202024.geojson"
+      type: geojson
       keys:
-        title: "A"
-        address: "B"
-        hours: "C"
-        description: "D"        
+        title: "Organisation"
+        address: "Address"  
   - title: "Cambridge Council"
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
     notes: "As of November 2023 it links to Warm Welcome UK"
