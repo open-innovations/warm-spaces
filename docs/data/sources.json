@@ -130,16 +130,16 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 278,
-		"geocount": 278,
+		"count": 284,
+		"geocount": 284,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
 		"url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": 26,
-		"geocount": 23,
+		"count": 25,
+		"geocount": 22,
 		"id":"bolton_at_home",
 		"title":"Bolton at Home",
 		"url":"https://www.boltonathome.org.uk/warm-spaces/"
@@ -279,8 +279,8 @@
 		"url":"https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
 	},
 	"cambridgeshire_acre": {
-		"count": 36,
-		"geocount": 36,
+		"count":"0",
+		"geocount":"0",
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -361,8 +361,8 @@
 		"url":"https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 33,
-		"geocount": 32,
+		"count": 35,
+		"geocount": 34,
 		"id":"cheshire_east_council",
 		"title":"Cheshire East Council",
 		"url":"https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -1023,8 +1023,8 @@
 		"url":"https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
 	},
 	"plymouth_council": {
-		"count": 50,
-		"geocount": 50,
+		"count": 51,
+		"geocount": 51,
 		"id":"plymouth_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13" },
 		"register": { "url":"https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes" },
@@ -1273,7 +1273,7 @@
 	},
 	"swansea_council": {
 		"count": 71,
-		"geocount":"0",
+		"geocount": 71,
 		"id":"swansea_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.6441924295704%2C-4.029695849999997&z=12" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4522,
-		"geocount": 4522,
+		"count": 4538,
+		"geocount": 4538,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
