@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 95,
-		"geocount": 95,
+		"count": 103,
+		"geocount": 103,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 280,
-		"geocount": 280,
+		"count": 279,
+		"geocount": 279,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -203,8 +203,8 @@
 		"url":"https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
 	},
 	"bridgend_council": {
-		"count": 122,
-		"geocount": 107,
+		"count":"0",
+		"geocount":"0",
 		"id":"bridgend_council",
 		"title":"Bridgend Council",
 		"url":"https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
@@ -529,8 +529,8 @@
 		"url":"https://www.e-lindsey.gov.uk/warmspaces"
 	},
 	"east_staffordshire_council": {
-		"count": 17,
-		"geocount": 17,
+		"count":"0",
+		"geocount":"0",
 		"id":"east_staffordshire_council",
 		"notes":"In 2022/3 there was not enough address information for half the entries",
 		"title":"East Staffordshire Council",
@@ -566,7 +566,7 @@
 		"url":"https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count":"0",
+		"count": 15,
 		"geocount":"0",
 		"id":"essex_map",
 		"map": { "type":"googlemap","url":"https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
@@ -1032,8 +1032,8 @@
 		"url":"https://www.plymouth.gov.uk/warm-welcoming-spaces"
 	},
 	"portsmouth_council": {
-		"count": 9,
-		"geocount": 9,
+		"count":"0",
+		"geocount":"0",
 		"id":"portsmouth_council",
 		"title":"Portsmouth Council",
 		"url":"https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/help-others-during-the-cost-of-living-crisis/warm-spaces/"
@@ -1149,8 +1149,8 @@
 		"url":"https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 183,
-		"geocount": 183,
+		"count": 198,
+		"geocount": 198,
 		"id":"sheffield_vas",
 		"map": { "type":"leaflet","url":"https://foxdash.co.uk/vas/index.htm" },
 		"title":"Sheffield VAS",
@@ -1190,8 +1190,8 @@
 		"url":"https://sparksomerset.org.uk/warm-welcome"
 	},
 	"st_helens_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 30,
+		"geocount": 29,
 		"id":"st_helens_council",
 		"register": { "url":"https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title":"St Helens Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4589,
-		"geocount": 4589,
+		"count": 4595,
+		"geocount": 4595,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
