@@ -25,6 +25,6 @@
 		{"geometry":{"coordinates":[-1.13650,51.52235],"type":"Point"},"properties":{"_source":"west_berkshire_council","description":"Providing support to people in The Goring Gap area, including information, help and connections.","title":"The Hub by Q1 Foundation","url":"https://adoddle.org/app/projects/6078/the-hub-by-q1-foundation"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.24705,51.40929],"type":"Point"},"properties":{"_source":"west_berkshire_council","description":"Providing a place to meet. Food is by paid membership","title":"Thatcham community larder","url":"https://adoddle.org/app/projects/6093/thatcham-community-larder"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.33105,51.40285],"type":"Point"},"properties":{"_source":"west_berkshire_council","description":"Providing free hot meals to Adults homeless, lonely, vulnerable or struggling to make ends meet.","title":"Loose Ends Newbury","url":"https://adoddle.org/app/projects/6172/loose-ends-newbury"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.32095,51.40155],"type":"Point"},"properties":{"_source":"west_berkshire_council","description":"A safe space for people to meet, eat, learn and make new friends","title":"Educafe","url":"https://adoddle.org/app/projects/6768/educafe"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.32095,51.40155],"type":"Point"},"properties":{"_source":"west_berkshire_council","description":"Unlocking social health and community connections","title":"Educafe","url":"https://adoddle.org/app/projects/6768/educafe"},"type":"Feature"}
 	]
 }
