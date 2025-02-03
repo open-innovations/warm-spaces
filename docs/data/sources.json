@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 280,
-		"geocount": 280,
+		"count": 281,
+		"geocount": 281,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -676,8 +676,8 @@
 		"url":"https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count": 10,
-		"geocount": 6,
+		"count": 12,
+		"geocount": 7,
 		"id":"havering_council",
 		"title":"Havering Council",
 		"url":"https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 79,
-		"geocount": 69,
+		"count": 76,
+		"geocount": 66,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -850,8 +850,8 @@
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 14,
-		"geocount": 13,
+		"count": 15,
+		"geocount": 14,
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1111,8 +1111,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 19,
-		"geocount": 19,
+		"count": 20,
+		"geocount": 20,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1157,8 +1157,8 @@
 		"url":"https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
 	},
 	"south_cambs_council": {
-		"count": 19,
-		"geocount": 18,
+		"count":"0",
+		"geocount":"0",
 		"id":"south_cambs_council",
 		"title":"South Cambs Council",
 		"url":"https://www.scambs.gov.uk/warm-hubs/"
