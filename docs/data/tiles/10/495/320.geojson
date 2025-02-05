@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.68347,55.61420],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A'Chleit Church, Tarbert, Argyll and Bute PA29 6XD","description":"This space is attached to A'Chleit Church and is open to all.","hours":{"_text":"Wednesday: 14:00 - 16:00 Monthly","opening":"We 14:00-16:00"},"title":"A'Chleit Church Hall"},"type":"Feature"}
+	]
+}

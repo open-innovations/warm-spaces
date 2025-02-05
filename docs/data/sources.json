@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 281,
-		"geocount": 281,
+		"count": 283,
+		"geocount": 283,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -153,8 +153,8 @@
 		"url":"https://www.boston.gov.uk/warmspaces"
 	},
 	"bournemouth__christchurch_and_poole": {
-		"count": 39,
-		"geocount": 38,
+		"count": 38,
+		"geocount": 37,
 		"id":"bournemouth__christchurch_and_poole",
 		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
 		"notes":"Not enough structure to parse",
@@ -374,8 +374,8 @@
 		"url":"https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
 	},
 	"chesterfield_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 38,
+		"geocount": 38,
 		"id":"chesterfield_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title":"Chesterfield Council",
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 42,
-		"geocount": 40,
+		"count": 43,
+		"geocount": 41,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 76,
-		"geocount": 66,
+		"count":"0",
+		"geocount":"0",
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1059,16 +1059,16 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 160,
-		"geocount": 160,
+		"count":"0",
+		"geocount":"0",
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
 		"url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 84,
-		"geocount": 83,
+		"count": 86,
+		"geocount": 85,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1272,8 +1272,8 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 78,
-		"geocount": 78,
+		"count": 79,
+		"geocount": 79,
 		"id":"swansea_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.6441924295704%2C-4.029695849999997&z=12" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1333,8 +1333,8 @@
 		"url":"https://www.valeofglamorgan.gov.uk/en/living/Cost-of-Living/Warm-Spaces.aspx"
 	},
 	"voluntary_action_islington": {
-		"count": 27,
-		"geocount": 27,
+		"count":"0",
+		"geocount":"0",
 		"id":"voluntary_action_islington",
 		"title":"Voluntary Action Islington",
 		"url":"https://vai.org.uk/warm-spaces-in-islington/"
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 65,
-		"geocount": 65,
+		"count": 66,
+		"geocount": 66,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4599,
-		"geocount": 4599,
+		"count": 4606,
+		"geocount": 4606,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1405,8 +1405,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 97,
-		"geocount": 92,
+		"count": 96,
+		"geocount": 91,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
