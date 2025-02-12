@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 76,
-		"geocount": 65,
+		"count": 77,
+		"geocount": 66,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4619,
-		"geocount": 4619,
+		"count": 4626,
+		"geocount": 4626,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
