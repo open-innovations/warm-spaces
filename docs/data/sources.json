@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 105,
-		"geocount": 105,
+		"count": 106,
+		"geocount": 106,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 283,
-		"geocount": 283,
+		"count": 282,
+		"geocount": 282,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 77,
-		"geocount": 66,
+		"count": 75,
+		"geocount": 65,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1090,8 +1090,8 @@
 		"url":"https://www.rotherham.gov.uk/warm-welcome"
 	},
 	"rugby_council": {
-		"count": 9,
-		"geocount": 9,
+		"count": 10,
+		"geocount": 10,
 		"id":"rugby_council",
 		"title":"Rugby Council",
 		"url":"https://www.rugby.gov.uk/warmhubs"
@@ -1227,8 +1227,8 @@
 		"url":"https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 74,
-		"geocount": 74,
+		"count": 84,
+		"geocount": 84,
 		"id":"stockton-on-tees_council",
 		"register": { "url":"https://www.stockton.gov.uk/warm-spaces-application" },
 		"title":"Stockton-on-Tees Council",
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 66,
-		"geocount": 66,
+		"count": 67,
+		"geocount": 67,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4626,
-		"geocount": 4626,
+		"count": 4631,
+		"geocount": 4631,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 92,
-		"geocount": 92,
+		"count": 93,
+		"geocount": 93,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
