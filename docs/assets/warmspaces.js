@@ -209,7 +209,7 @@
 						}
 						html += '</div>';
 						html += '</div>';
-						html += formatSource(this.sources[p._source]);
+						html += formatSource(this.sources[p._source],p);
 						html += '</div></li>';
 
 						added++;
@@ -231,7 +231,6 @@
 				var more = document.createElement('button');
 				more.innerHTML = "Show more offers";
 				more.addEventListener('click',function(){
-					console.log('more',_obj);
 					_obj.updateList(maxn+perpage);
 				});
 				this.list.appendChild(more);
@@ -340,7 +339,7 @@
 			this.tiler.getTiles(bounds,opts.tiles.zoomLevels[0]);
 			return this;
 		};
-		function formatSource(source){
+		function formatSource(source,entry){
 			var html = "";
 			if(source=="") return '';
 			if(source.url) html += '<a href="'+source.url+'" target="_source">';
@@ -352,6 +351,7 @@
 			if(source.register && source.register.url && source.register.url!=source.url){
 				html += ' / <a href="'+source.register.url+'" target="_source">Contribute</a>';
 			}
+			html += ' / <a href="mailto:hello@open-innovations.org?subject=Complaints and Reports&body=Use this email to report illegal/harmful UGC (User Generated Content) on the Warm Spaces Finder. Note that the specific warm space offer comes from a directory maintained by '+(source.title)+' ('+source.url+') so you should also report any complaints to them.%0d%0a%0d%0aDirectory: '+source.title+'%0d%0a%0d%0aTitle: '+entry.title.replace(/"/g,'\'')+'%0d%0a%0d%0aThe nature of the complaint:%0d%0a%0d%0aI wish to be contacted about this report: Yes/No%0d%0a%0d%0aBy sending this email you are covered by our Privacy Policy which can be found at https://open-innovations.org/privacy">Report</a>'
 			return (html ? '<div class="source b2-bg"><strong>From:</strong> '+html+'</div>' : '');
 		}
 		Date.prototype.getNthOfMonth = function(){
