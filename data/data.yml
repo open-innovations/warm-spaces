@@ -1577,20 +1577,10 @@ directories:
     register:
       url: "https://swansea.gov.uk/swanseaspacesdirectory"
     map:
-      url: "https://www.google.com/maps/d/embed?mid=19SOxE0PBbR249as4UiDuQQVPOOArySw&ehbc=2E312F&ll=51.6441924295704%2C-4.029695849999997&z=12"
-      type: googlemap
+      url: "https://www.swansea.gov.uk/swanseaspacesmap"
+      type: leaflet
     data:
-      - url: "https://www.swansea.gov.uk/swanseaspacescentral"
-        type: html
-      - url: "https://www.swansea.gov.uk/swanseaspaceseast"
-        type: html
-      - url: "https://www.swansea.gov.uk/swanseaspacesnorth"
-        type: html
-      - url: "https://www.swansea.gov.uk/swanseaspacesnorthwest"
-        type: html
-      - url: "https://www.swansea.gov.uk/swanseaspaceswest"
-        type: html
-      - url: "https://www.swansea.gov.uk/swanseaspacesgower"
+      - url: "https://www.swansea.gov.uk/swanseaspaces"
         type: html
   - title: "Swindon Council"
     url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"

@@ -31,6 +31,7 @@ if(-e $file){
 	my $warmpage = scraper {
 		process '.location-info__value--address', 'address' => 'HTML';
 		process '.location-info__link--directions', 'dirs' => '@HREF';
+		process '.event__body','event'=>'HTML';
 	};
 	
 	my $res = $warmspaces->scrape($str);
@@ -38,6 +39,7 @@ if(-e $file){
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		$d = $res->{'warmspaces'}[$i];
 		$d->{'title'} = trimText($d->{'title'});
+		if($d->{'url'} eq "/swanseaspacesmap"){ $d->{'url'} = ""; }
 		if($d->{'url'} =~ /^\//){
 			$d->{'url'} = "https://swansea.gov.uk".$d->{'url'};
 			# Get new page here
@@ -54,6 +56,12 @@ if(-e $file){
 			close(FILE);
 			$str = join("",@lines);
 			my $page = $warmpage->scrape($str);
+			my $event = $page->{'event'};
+			$event =~ s/.*<a [^\>]+>Swansea Space<\/a><\/h2>(.*?)<h2>.*/$1/i;
+			if($event =~ s/<a href=\"mailto:([^\"]+)">(.*?)<\/a>//){
+				$d->{'contact'} .= "Email: $1";
+			}
+			$d->{'description'} = trimHTML($event);
 			if($page->{'address'}){
 				$d->{'address'} = $page->{'address'};
 				$d->{'address'} =~ s/<\/p>/, /g;
@@ -64,6 +72,9 @@ if(-e $file){
 				$d->{'lat'} = $1+0;
 				$d->{'lon'} = $2+0;
 			}
+			my $opening = $d->{'description'};
+			$d->{'hours'} = parseOpeningHours({'_text'=>$opening});
+			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
 			# Store the entry as JSON
 			push(@entries,makeJSON($d,1));
 		}
@@ -85,12 +96,14 @@ if(-e $file){
 sub trimHTML {
 	my $str = $_[0];
 	$str =~ s/^<[^\>]+>//g;	# Remove initial HTML tags
-	$str =~ s/<\/p>/ /g;	# Replace end of paragraphs with semi-colons
+	$str =~ s/<\/p>/; /g;	# Replace end of paragraphs with semi-colons
 	$str =~ s/<ul>/; /g;	# Replace start of list with space
 	$str =~ s/<\/li>/; /g;	# Replace end of list item with semi-colons
 	$str =~ s/<br ?\/?>/, /g;	# Replace <br> with commas
-	$str =~ s/<[^\>]+>//g;	# Remove any remaining tags
+	$str =~ s/<[^\>]+>/ /g;	# Remove any remaining tags
 	$str =~ s/\&nbsp;/ /g;
+	$str =~ s/ *\; *\; */\; /g;	# De-duplicate semi-colons
+	$str =~ s/([\.\:])\;/$1/g;
 	$str =~ s/ {2,}/ /g;	# De-duplicate spaces
 	return $str;
 }
