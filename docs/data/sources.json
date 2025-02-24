@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 106,
-		"geocount": 106,
+		"count": 107,
+		"geocount": 107,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -850,8 +850,8 @@
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 16,
-		"geocount": 15,
+		"count": 13,
+		"geocount": 12,
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1242,8 +1242,8 @@
 		"url":"https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 53,
-		"geocount": 53,
+		"count": 52,
+		"geocount": 52,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4641,
-		"geocount": 4641,
+		"count": 4644,
+		"geocount": 4644,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1390,8 +1390,8 @@
 		"url":"https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 10,
-		"geocount": 10,
+		"count": 9,
+		"geocount": 9,
 		"id":"west_devon_council",
 		"map": { "type":"leaflet","url":"https://www.westdevon.gov.uk/warm-spaces-directory" },
 		"title":"West Devon Council",
