@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 107,
-		"geocount": 107,
+		"count": 108,
+		"geocount": 108,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 282,
-		"geocount": 282,
+		"count": 281,
+		"geocount": 281,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 43,
-		"geocount": 41,
+		"count": 44,
+		"geocount": 42,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -1346,8 +1346,8 @@
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
-		"count": 64,
-		"geocount": 64,
+		"count": 68,
+		"geocount": 68,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4644,
-		"geocount": 4644,
+		"count": 4648,
+		"geocount": 4648,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },

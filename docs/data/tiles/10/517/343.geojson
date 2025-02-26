@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[1.90116,50.79085],"type":"Point"},"properties":{"_source":"_helpandkindness","address":"Ferndown CIC, 53 Casterbridge Road, Ferndown, Dorset BH22 8LJ","contact":"Tel: 01202 936121; Email: info@ferndowncommunitysupport.org.uk","description":"We support all and any members of our local community, whether they need a little bit of extra help with shopping or collecting prescriptions, or if they are feeling lonely and disconnected, and many other things! We also arrange events, particularly...","title":"Ferndown CIC","url":"https://www.helpandkindness.co.uk/service/6051/Ferndown-CIC"},"type":"Feature"}
+		{"geometry":{"coordinates":[1.90116,50.79085],"type":"Point"},"properties":{"_source":"_helpandkindness","address":"Ferndown CIC, 53 Casterbridge Road, Ferndown, Dorset BH22 8LJ","contact":"Tel: 01202 936121","description":"We support all and any members of our local community, whether they need a little bit of extra help with shopping or collecting prescriptions, or if they are feeling lonely and disconnected, and many other things! We also arrange events, particularly...","title":"Ferndown CIC","url":"https://www.helpandkindness.co.uk/service/6051/Ferndown-CIC"},"type":"Feature"}
 	]
 }
