@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 284,
-		"geocount": 284,
+		"count": 288,
+		"geocount": 288,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -233,8 +233,8 @@
 		"url":"https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
 	},
 	"bromley_well": {
-		"count": 19,
-		"geocount": 19,
+		"count": 21,
+		"geocount": 21,
 		"id":"bromley_well",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12" },
 		"title":"Bromley Well",
@@ -1242,8 +1242,8 @@
 		"url":"https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"count": 52,
-		"geocount": 52,
+		"count":"0",
+		"geocount":"0",
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4651,
-		"geocount": 4651,
+		"count": 4650,
+		"geocount": 4650,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
