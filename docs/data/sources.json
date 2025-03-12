@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 297,
-		"geocount": 297,
+		"count": 300,
+		"geocount": 300,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -241,8 +241,8 @@
 		"url":"https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
 	},
 	"buckinghamshire_council": {
-		"count": 46,
-		"geocount": 46,
+		"count": 45,
+		"geocount": 45,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 62,
-		"geocount": 58,
+		"count": 63,
+		"geocount": 59,
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 75,
-		"geocount": 66,
+		"count": 77,
+		"geocount": 67,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -729,8 +729,8 @@
 		"url":"https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 34,
-		"geocount": 34,
+		"count": 33,
+		"geocount": 33,
 		"id":"hull_council",
 		"map": { "type":"iShare","url":"https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title":"Hull Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4653,
-		"geocount": 4653,
+		"count": 4658,
+		"geocount": 4658,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
