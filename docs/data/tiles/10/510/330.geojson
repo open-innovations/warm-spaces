@@ -24,6 +24,7 @@
 		{"geometry":{"coordinates":[-0.37468,53.74430],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.38705,53.73272],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.38411,53.74186],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.39772,53.72972],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.39772,53.72972],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.38782,53.73486],"type":"Point"},"properties":{"_source":"hull_council","address":","},"type":"Feature"}
 	]
 }

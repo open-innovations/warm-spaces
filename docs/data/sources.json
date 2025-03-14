@@ -65,8 +65,8 @@
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
 	},
 	"barnet_council": {
-		"count": 8,
-		"geocount": 8,
+		"count":"0",
+		"geocount":"0",
 		"id":"barnet_council",
 		"map": { "type":"leaflet","url":"https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url":"https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -241,8 +241,8 @@
 		"url":"https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
 	},
 	"buckinghamshire_council": {
-		"count": 45,
-		"geocount": 45,
+		"count": 44,
+		"geocount": 44,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 77,
-		"geocount": 67,
+		"count": 75,
+		"geocount": 66,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -729,8 +729,8 @@
 		"url":"https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 34,
+		"geocount": 34,
 		"id":"hull_council",
 		"map": { "type":"iShare","url":"https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title":"Hull Council",
@@ -850,8 +850,8 @@
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 14,
-		"geocount": 13,
+		"count": 17,
+		"geocount": 16,
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1272,8 +1272,8 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 80,
-		"geocount": 79,
+		"count": 82,
+		"geocount": 81,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4658,
-		"geocount": 4658,
+		"count": 4659,
+		"geocount": 4659,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
