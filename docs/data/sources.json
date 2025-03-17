@@ -65,8 +65,8 @@
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
 	},
 	"barnet_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 8,
+		"geocount": 8,
 		"id":"barnet_council",
 		"map": { "type":"leaflet","url":"https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url":"https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 300,
-		"geocount": 300,
+		"count": 301,
+		"geocount": 301,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -340,7 +340,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 44,
-		"geocount": 38,
+		"geocount": 29,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
