@@ -340,7 +340,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 44,
-		"geocount": 29,
+		"geocount": 38,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -409,8 +409,8 @@
 		"url":"https://www.colchester.gov.uk/support-for-residents/?id=&page=warm--welcoming--spaces"
 	},
 	"communities_1st": {
-		"count":"0",
-		"geocount":"0",
+		"count": 30,
+		"geocount": 30,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 75,
-		"geocount": 66,
+		"count": 74,
+		"geocount": 65,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1059,8 +1059,8 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 165,
-		"geocount": 165,
+		"count":"0",
+		"geocount":"0",
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4659,
-		"geocount": 4659,
+		"count": 4662,
+		"geocount": 4662,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
