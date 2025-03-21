@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.46353,55.38269],"type":"Point"},"properties":{"_source":"braintree_council","address":"-, -","title":"Essex Library Service","url":"https://braintree.essexfrontline.org.uk/Library/ServiceDetail/67dd7a48b6316d7e78985cba"},"type":"Feature"}
+	]
+}

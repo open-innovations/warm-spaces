@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-2.18232,57.33747],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Udny Community Trust Ltd, Ellon, Aberdeenshire AB41 7AG","description":"Everyone from the community is welcome to come in, use our comfy couch area and get cozy. We've got a sharing library with books and board games, and there's always someone around to have a natter with.","hours":{"_text":"Monday: 09:00 - 15:00, Tuesday: 09:00 - 15:00, Wednesday: 09:00 - 15:00, Thursday: 09:00 - 15:00, Friday: 09:00 - 15:00, Saturday: 09:00 - 15:00","opening":"Mo 09:00-15:00; Tu 09:00-15:00; We 09:00-15:00; Th 09:00-15:00; Fr 09:00-15:00; Sa 09:00-15:00"},"title":"The Medan Centre"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.18293,57.33778],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Open Doors, The Medan Centre, 14 Oldmeldrum Road, Pitmedden, AB41 7AG Hours: We run Open Doors during the school term time only","hours":{"_text":"name: Open Doors, The Medan Centre, 14 Oldmeldrum Road, Pitmedden, AB41 7AG Hours: We run Open Doors during the school term time only"},"title":"Open Doors, The Medan Centre, 14 Oldmeldrum Road, Pitmedden, AB41 7AG"},"type":"Feature"}
 	]
 }
