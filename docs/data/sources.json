@@ -325,8 +325,8 @@
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 51,
-		"geocount": 49,
+		"count": 50,
+		"geocount": 48,
 		"id":"ceredigion_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8" },
 		"title":"Ceredigion Council",
@@ -340,7 +340,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 44,
-		"geocount": 37,
+		"geocount": 38,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 77,
-		"geocount": 66,
+		"count": 79,
+		"geocount": 67,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -863,8 +863,8 @@
 		"url":"https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
 	},
 	"luton_council": {
-		"count": 21,
-		"geocount": 21,
+		"count": 20,
+		"geocount": 20,
 		"id":"luton_council",
 		"title":"Luton Council",
 		"url":"https://m.luton.gov.uk/Page/Show/news/Pages/Stay-Warm-and-Well-this-Winter.aspx"
@@ -1272,7 +1272,7 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 81,
+		"count": 80,
 		"geocount": 80,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4665,
-		"geocount": 4665,
+		"count": 4668,
+		"geocount": 4668,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
