@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 179,
-		"geocount": 179,
+		"count": 180,
+		"geocount": 180,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 30,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -602,8 +602,8 @@
 		"url":"https://fylde.gov.uk/warm-spaces-in-fylde/"
 	},
 	"gateshead_council": {
-		"count": 87,
-		"geocount": 84,
+		"count": 86,
+		"geocount": 83,
 		"id":"gateshead_council",
 		"map": { "type":"googlemap","url":"https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*" },
 		"title":"Gateshead Council",
@@ -1067,8 +1067,8 @@
 		"url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 86,
-		"geocount": 85,
+		"count": 87,
+		"geocount": 86,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4668,
-		"geocount": 4668,
+		"count": 4670,
+		"geocount": 4670,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 94,
-		"geocount": 94,
+		"count": 95,
+		"geocount": 95,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
