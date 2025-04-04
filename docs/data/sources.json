@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 108,
-		"geocount": 108,
+		"count": 109,
+		"geocount": 109,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 180,
-		"geocount": 180,
+		"count": 179,
+		"geocount": 179,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -184,8 +184,8 @@
 		"title":"Bradford on Avon Council"
 	},
 	"braintree_council": {
-		"count": 36,
-		"geocount": 36,
+		"count": 33,
+		"geocount": 33,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -505,8 +505,8 @@
 		"url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count": 41,
-		"geocount": 41,
+		"count": 42,
+		"geocount": 42,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
@@ -1272,8 +1272,8 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 78,
-		"geocount": 78,
+		"count": 77,
+		"geocount": 77,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4662,
-		"geocount": 4662,
+		"count": 4663,
+		"geocount": 4663,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
