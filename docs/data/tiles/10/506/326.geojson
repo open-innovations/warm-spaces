@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-1.90752,54.55126],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Ings Lane, Staindrop Road, Barnard Castle, County Durham, DL12 8TD","contact":"Telephone: 01833 690150 Email: info@tcrhub.co.uk","title":"Food Hampers (TCR Hub Barnard Castle)","url":"https://www.durhamlocate.org.uk/Services/5100"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.92236,54.54352],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Barnard Castle Library, 2 Hall Street, Barnard Castle, County Durham, DL12 8JB","contact":"Telephone: 03000 263 409 Email: bdcaslibrary@durham.gov.uk","title":"Barnard Castle Library","url":"https://www.durhamlocate.org.uk/Services/2964"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.92236,54.54352],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Barnard Castle Library, 2 Hall Street, Barnard Castle, County Durham, DL12 8JB","contact":"Telephone: 03000 263 409 Email: bdcaslibrary@durham.gov.uk","title":"Barnard Castle Library","url":"https://www.durhamlocate.org.uk/Services/2964"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.90752,54.55126],"type":"Point"},"properties":{"_source":"durham_county_council","address":"Ings Lane, Staindrop Road, Barnard Castle, County Durham, DL12 8TD","contact":"Telephone: 01833 690150 Email: info@tcrhub.co.uk","title":"Food Hampers (TCR Hub Barnard Castle)","url":"https://www.durhamlocate.org.uk/Services/5100"},"type":"Feature"}
 	]
 }
