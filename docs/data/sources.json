@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 306,
+		"geocount": 306,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -318,8 +318,8 @@
 		"url":"https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 65,
+		"geocount": 61,
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -340,7 +340,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 44,
-		"geocount": 38,
+		"geocount": 14,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -388,8 +388,8 @@
 		"url":"https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 24,
+		"geocount": 21,
 		"id":"chorley_council",
 		"title":"Chorley Council",
 		"url":"https://chorley.gov.uk/welcomespaces"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -423,8 +423,8 @@
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
 	},
 	"coventry_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 59,
+		"geocount": 59,
 		"id":"coventry_council",
 		"map": { "type":"googlemap","url":"https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search" },
 		"title":"Coventry Council",
@@ -505,8 +505,8 @@
 		"url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
 	},
 	"ealing_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 42,
+		"geocount": 42,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
@@ -566,8 +566,8 @@
 		"url":"https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count":"0",
-		"geocount":"0",
+		"count": 30,
+		"geocount": 13,
 		"id":"essex_map",
 		"map": { "type":"googlemap","url":"https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
 		"title":"Essex Map",
@@ -676,8 +676,8 @@
 		"url":"https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 12,
+		"geocount": 7,
 		"id":"havering_council",
 		"title":"Havering Council",
 		"url":"https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
@@ -707,8 +707,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 36,
+		"geocount": 35,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -722,8 +722,8 @@
 		"url":"https://www.horshamdistrictwarmspaces.com/"
 	},
 	"hounslow_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 21,
+		"geocount": 21,
 		"id":"hounslow_council",
 		"title":"Hounslow Council",
 		"url":"https://www.hounslow.gov.uk/warmspaces"
@@ -842,16 +842,16 @@
 		"url":"https://lewishamlocal.my.site.com/s/warm-welcomes"
 	},
 	"lichfield_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 19,
+		"geocount": 19,
 		"id":"lichfield_council",
 		"map": { "type":"googlemap","url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map" },
 		"title":"Lichfield Council",
 		"url":"https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
 	},
 	"live_well_york": {
-		"count": 17,
-		"geocount": 16,
+		"count": 1,
+		"geocount":"0",
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -911,8 +911,8 @@
 		"url":"https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
 	},
 	"midlothian_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 19,
+		"geocount": 17,
 		"id":"midlothian_council",
 		"title":"Midlothian Council",
 		"url":"https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
@@ -1090,8 +1090,8 @@
 		"url":"https://www.rotherham.gov.uk/warm-welcome"
 	},
 	"rugby_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 10,
+		"geocount": 10,
 		"id":"rugby_council",
 		"title":"Rugby Council",
 		"url":"https://www.rugby.gov.uk/warmhubs"
@@ -1141,8 +1141,8 @@
 		"url":"https://seftoncvs.org.uk/warmspaces/"
 	},
 	"sevenoaks_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 22,
+		"geocount": 22,
 		"id":"sevenoaks_council",
 		"register": { "url":"https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
 		"title":"Sevenoaks Council",
@@ -1281,8 +1281,8 @@
 		"url":"https://www.swansea.gov.uk/swanseaspaces"
 	},
 	"swindon_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 43,
+		"geocount": 42,
 		"id":"swindon_council",
 		"title":"Swindon Council",
 		"url":"https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4666,
-		"geocount": 4666,
+		"count": 4670,
+		"geocount": 4670,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
