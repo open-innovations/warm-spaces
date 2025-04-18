@@ -241,8 +241,8 @@
 		"url":"https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
 	},
 	"buckinghamshire_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 43,
+		"geocount": 43,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4670,
-		"geocount": 4670,
+		"count": 4673,
+		"geocount": 4673,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1390,8 +1390,8 @@
 		"url":"https://www.westberks.gov.uk/warm-spaces"
 	},
 	"west_devon_council": {
-		"count": 9,
-		"geocount": 9,
+		"count":"0",
+		"geocount":"0",
 		"id":"west_devon_council",
 		"map": { "type":"leaflet","url":"https://www.westdevon.gov.uk/warm-spaces-directory" },
 		"title":"West Devon Council",
