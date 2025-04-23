@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 306,
-		"geocount": 306,
+		"count": 308,
+		"geocount": 308,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -241,8 +241,8 @@
 		"url":"https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
 	},
 	"buckinghamshire_council": {
-		"count": 43,
-		"geocount": 43,
+		"count": 41,
+		"geocount": 41,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 79,
-		"geocount": 66,
+		"count": 69,
+		"geocount": 56,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4674,
-		"geocount": 4674,
+		"count": 4681,
+		"geocount": 4681,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1381,8 +1381,8 @@
 		"url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 25,
+		"geocount": 25,
 		"id":"west_berkshire_council",
 		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url":"https://adoddle.org/app/partners/west-berkshire/create" },

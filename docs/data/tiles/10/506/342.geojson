@@ -20,7 +20,7 @@
 		{"geometry":{"coordinates":[-1.78170,51.06556],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Weekly social group for anyone feeling lonely or isolated","title":"The Chatty Cafe - Salisbury","url":"https://directory.hertfordshire.gov.uk/Services/2501"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.82348,51.08304],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Community fridge and cafe","title":"St Michael&#39;s Community Centre - Bemerton","url":"https://directory.hertfordshire.gov.uk/Services/404"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.90078,51.15283],"type":"Point"},"properties":{"_source":"wiltshire_council","description":"Weekly social group for anyone feeling lonely or isolated","title":"Chatter &amp; Natter - Berwick St James","url":"https://directory.hertfordshire.gov.uk/Services/2499"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Afternoon tea and chat - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/2228"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Tuesday Friendly Club - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/154"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Tuesday Friendly Club - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/154"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.77833,51.17058],"type":"Point"},"properties":{"_source":"wiltshire_council","title":"Afternoon tea and chat - Amesbury","url":"https://directory.hertfordshire.gov.uk/Services/2228"},"type":"Feature"}
 	]
 }
