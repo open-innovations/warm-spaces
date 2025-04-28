@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 309,
-		"geocount": 309,
+		"count": 314,
+		"geocount": 314,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -340,7 +340,7 @@
 	},
 	"chelmsford_connects": {
 		"count": 44,
-		"geocount": 38,
+		"geocount": 20,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -1273,7 +1273,7 @@
 	},
 	"swansea_council": {
 		"count": 74,
-		"geocount": 73,
+		"geocount": 74,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
