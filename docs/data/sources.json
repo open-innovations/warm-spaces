@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 313,
-		"geocount": 313,
+		"count": 316,
+		"geocount": 316,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -218,8 +218,8 @@
 		"url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
 	},
 	"bristol_council": {
-		"count": 87,
-		"geocount": 87,
+		"count":"0",
+		"geocount":"0",
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -683,8 +683,8 @@
 		"url":"https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
 	},
 	"herefordshire_council": {
-		"count": 44,
-		"geocount": 44,
+		"count": 43,
+		"geocount": 43,
 		"id":"herefordshire_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9" },
 		"title":"Herefordshire Council",
@@ -707,8 +707,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 36,
-		"geocount": 35,
+		"count": 37,
+		"geocount": 36,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1067,8 +1067,8 @@
 		"url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
 	},
 	"richmond_upon_thames_council": {
-		"count": 87,
-		"geocount": 86,
+		"count": 88,
+		"geocount": 87,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1149,8 +1149,8 @@
 		"url":"https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
 	},
 	"sheffield_vas": {
-		"count": 198,
-		"geocount": 198,
+		"count": 197,
+		"geocount": 197,
 		"id":"sheffield_vas",
 		"map": { "type":"leaflet","url":"https://foxdash.co.uk/vas/index.htm" },
 		"title":"Sheffield VAS",
@@ -1227,8 +1227,8 @@
 		"url":"https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
-		"count": 83,
-		"geocount": 83,
+		"count": 84,
+		"geocount": 84,
 		"id":"stockton-on-tees_council",
 		"register": { "url":"https://www.stockton.gov.uk/warm-spaces-application" },
 		"title":"Stockton-on-Tees Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4685,
-		"geocount": 4685,
+		"count": 4686,
+		"geocount": 4686,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
