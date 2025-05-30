@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 316,
-		"geocount": 316,
+		"count": 317,
+		"geocount": 317,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -184,8 +184,8 @@
 		"title":"Bradford on Avon Council"
 	},
 	"braintree_council": {
-		"count": 33,
-		"geocount": 33,
+		"count": 38,
+		"geocount": 38,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -218,8 +218,8 @@
 		"url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
 	},
 	"bristol_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 87,
+		"geocount": 87,
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -259,8 +259,8 @@
 		"url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/"
 	},
 	"bury_directory": {
-		"count": 24,
-		"geocount": 23,
+		"count":"0",
+		"geocount":"0",
 		"id":"bury_directory",
 		"title":"Bury Directory",
 		"url":"https://theburydirectory.co.uk/warm-spaces-bury"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -439,8 +439,8 @@
 		"url":"https://www.croydon.gov.uk/community-and-safety/warm-spaces"
 	},
 	"croydon_simply_connect": {
-		"count": 29,
-		"geocount": 29,
+		"count": 28,
+		"geocount": 28,
 		"id":"croydon_simply_connect",
 		"register": { "url":"https://forms.office.com/r/iBHN1rt1HE" },
 		"title":"Croydon Simply Connect",
@@ -462,8 +462,8 @@
 		"url":"https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 103,
-		"geocount": 100,
+		"count": 207,
+		"geocount": 201,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -707,8 +707,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 37,
-		"geocount": 36,
+		"count": 39,
+		"geocount": 38,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1059,8 +1059,8 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 165,
-		"geocount": 165,
+		"count":"0",
+		"geocount":"0",
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
@@ -1111,8 +1111,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 20,
-		"geocount": 20,
+		"count": 26,
+		"geocount": 26,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1133,8 +1133,8 @@
 		"url":"https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
 	},
 	"sefton_cvs": {
-		"count": 38,
-		"geocount": 38,
+		"count": 28,
+		"geocount": 28,
 		"id":"sefton_cvs",
 		"map": { "type":"googlemap","url":"https://seftoncvs.org.uk/warmspaces/" },
 		"title":"Sefton CVS",
@@ -1164,8 +1164,8 @@
 		"url":"https://www.scambs.gov.uk/warm-hubs/"
 	},
 	"south_tyneside_council": {
-		"count": 8,
-		"geocount": 8,
+		"count": 4,
+		"geocount": 4,
 		"id":"south_tyneside_council",
 		"map": { "type":"os","url":"https://maps.southtyneside.gov.uk/warm_spaces/" },
 		"title":"South Tyneside Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4686,
-		"geocount": 4686,
+		"count": 4689,
+		"geocount": 4689,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },

@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.40015,54.98461],"type":"Point"},"properties":{"_source":"south_tyneside_council","address":"Norham Avenue, South Shields, NE34 7TD","description":"Activity: Please contact Horsley Hill Family Hub for information; Nearest bus: Horsley Hill / Highfield Road","loc_pcd":true,"title":"Horsley Hill Family Hub"},"type":"Feature"}
-	]
-}
+{}
