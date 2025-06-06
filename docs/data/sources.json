@@ -318,8 +318,8 @@
 		"url":"https://www.causewaycoastandglens.gov.uk/live/advice-services/warm-welcome-spaces"
 	},
 	"central_bedfordshire_council": {
-		"count": 65,
-		"geocount": 61,
+		"count": 64,
+		"geocount": 60,
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -462,8 +462,8 @@
 		"url":"https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 207,
-		"geocount": 201,
+		"count": 202,
+		"geocount": 197,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -676,8 +676,8 @@
 		"url":"https://www.havant.gov.uk/cost-living-support"
 	},
 	"havering_council": {
-		"count": 12,
-		"geocount": 7,
+		"count": 10,
+		"geocount":"0",
 		"id":"havering_council",
 		"title":"Havering Council",
 		"url":"https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
@@ -729,8 +729,8 @@
 		"url":"https://www.hounslow.gov.uk/warmspaces"
 	},
 	"hull_council": {
-		"count": 34,
-		"geocount": 34,
+		"count": 37,
+		"geocount": 37,
 		"id":"hull_council",
 		"map": { "type":"iShare","url":"https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title":"Hull Council",
@@ -1059,8 +1059,8 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 165,
+		"geocount": 165,
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
@@ -1111,8 +1111,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 26,
-		"geocount": 26,
+		"count": 25,
+		"geocount": 25,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4689,
-		"geocount": 4689,
+		"count": 4690,
+		"geocount": 4690,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 101,
-		"geocount": 101,
+		"count": 104,
+		"geocount": 104,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
