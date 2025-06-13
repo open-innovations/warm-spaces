@@ -82,6 +82,9 @@
 		{"geometry":{"coordinates":[-2.97615,53.46610],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-1pm","title":"The Orrell Trust"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.97342,53.46032],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Thursdays 10am-1pm","title":"The Inclusion Network CIC"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.02397,53.47212],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 10am-4pm","title":"The Irenaeus Project"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.97986,53.46227],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays 10am - 12pm Biweekly sessions (Only open to Women and Children) Fridays 10am - 12pm Biweekly sessions (Open to all)","title":"Venus Charity"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.97986,53.46227],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesdays 10am - 12pm Biweekly sessions (Only open to Women and Children) Fridays 10am - 12pm Biweekly sessions (Open to all)","title":"Venus Charity"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97004,53.48607],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 3- 5pm Thursday 11-1pm","title":"St Oswalds Church Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.04001,53.48444],"type":"Point"},"properties":{"_source":"sefton_cvs","title":"St. Nicholas' Church Blundellsands"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97989,53.46204],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Monday 11am Friday 4pm","title":"Seans Place"},"type":"Feature"}
 	]
 }

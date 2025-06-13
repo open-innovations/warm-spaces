@@ -63,6 +63,9 @@
 		{"geometry":{"coordinates":[-2.98630,53.65085],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Mondays 11am - 2pm","title":"Leyland Road Methodist Church"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.00386,53.63977],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Tuesday - Friday 10am-3pm","title":"Southport Salvation Army"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.96244,53.54427],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesdays","title":"St Thomas' Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-3.03375,53.59169],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesdays","title":"Woodvale Community Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.03375,53.59169],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesdays","title":"Woodvale Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.97630,53.64279],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Wednesday 1pm - 3pm Saturday 11am - 1pm","title":"Compassion Acts"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.05734,53.56040],"type":"Point"},"properties":{"_source":"sefton_cvs","title":"Compassion Acts"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.04062,53.60248],"type":"Point"},"properties":{"_source":"sefton_cvs","description":"Friday 11am - 1pm","title":"Compassion Acts"},"type":"Feature"}
 	]
 }
