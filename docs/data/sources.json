@@ -7,8 +7,8 @@
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
 	},
 	"aberdeen_city_council": {
-		"count": 32,
-		"geocount": 32,
+		"count":"0",
+		"geocount":"0",
 		"id":"aberdeen_city_council",
 		"map": { "type":"googlemap","url":"https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url":"mailto:warmspace@aberdeencity.gov.uk" },
@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 318,
-		"geocount": 318,
+		"count": 317,
+		"geocount": 317,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -153,7 +153,7 @@
 		"url":"https://www.boston.gov.uk/warmspaces"
 	},
 	"bournemouth__christchurch_and_poole": {
-		"count": 48,
+		"count": 50,
 		"geocount": 37,
 		"id":"bournemouth__christchurch_and_poole",
 		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 88,
-		"geocount": 69,
+		"count": 79,
+		"geocount": 60,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -707,8 +707,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 39,
-		"geocount": 38,
+		"count": 40,
+		"geocount": 39,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
