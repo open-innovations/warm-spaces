@@ -325,8 +325,8 @@
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 49,
-		"geocount": 47,
+		"count": 46,
+		"geocount": 44,
 		"id":"ceredigion_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8" },
 		"title":"Ceredigion Council",
@@ -339,8 +339,8 @@
 		"url":"https://www.charnwood.gov.uk/pages/warmspaces"
 	},
 	"chelmsford_connects": {
-		"count": 43,
-		"geocount": 37,
+		"count":"0",
+		"geocount":"0",
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -588,8 +588,8 @@
 		"url":"https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
 	},
 	"frome_council": {
-		"count": 10,
-		"geocount": 10,
+		"count":"0",
+		"geocount":"0",
 		"id":"frome_council",
 		"title":"Frome Council",
 		"url":"https://www.frometowncouncil.gov.uk/your-community/community/cost-of-living-crisis-support/"
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 79,
-		"geocount": 60,
+		"count": 89,
+		"geocount": 70,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -722,8 +722,8 @@
 		"url":"https://www.horshamdistrictwarmspaces.com/"
 	},
 	"hounslow_council": {
-		"count": 21,
-		"geocount": 21,
+		"count":"0",
+		"geocount":"0",
 		"id":"hounslow_council",
 		"title":"Hounslow Council",
 		"url":"https://www.hounslow.gov.uk/warmspaces"
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4698,
-		"geocount": 4698,
+		"count": 4699,
+		"geocount": 4699,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
