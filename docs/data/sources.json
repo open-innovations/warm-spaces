@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 317,
-		"geocount": 317,
+		"count": 320,
+		"geocount": 320,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -361,8 +361,8 @@
 		"url":"https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 35,
-		"geocount": 34,
+		"count":"0",
+		"geocount":"0",
 		"id":"cheshire_east_council",
 		"title":"Cheshire East Council",
 		"url":"https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -388,8 +388,8 @@
 		"url":"https://www.chichesterdeanery.org/warmspaces.htm"
 	},
 	"chorley_council": {
-		"count": 24,
-		"geocount": 21,
+		"count": 22,
+		"geocount": 18,
 		"id":"chorley_council",
 		"title":"Chorley Council",
 		"url":"https://chorley.gov.uk/welcomespaces"
@@ -410,14 +410,14 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
 	},
 	"community_action_derby": {
-		"count": 29,
-		"geocount": 28,
+		"count": 28,
+		"geocount": 27,
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 63,
-		"geocount": 59,
+		"count":"0",
+		"geocount":"0",
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -566,8 +566,8 @@
 		"url":"https://www.enfieldfoodalliance.co.uk/warm-hubs"
 	},
 	"essex_map": {
-		"count": 221,
-		"geocount": 221,
+		"count":"0",
+		"geocount":"0",
 		"id":"essex_map",
 		"map": { "type":"googlemap","url":"https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon" },
 		"title":"Essex Map",
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 89,
-		"geocount": 70,
+		"count":"0",
+		"geocount":"0",
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -707,8 +707,8 @@
 		"url":"https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
 	},
 	"hinckley_and_bosworth_council": {
-		"count": 40,
-		"geocount": 39,
+		"count": 42,
+		"geocount": 41,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1059,8 +1059,8 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count": 165,
-		"geocount": 165,
+		"count":"0",
+		"geocount":"0",
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4699,
-		"geocount": 4699,
+		"count": 4701,
+		"geocount": 4701,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1436,8 +1436,8 @@
 		"url":"https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 57,
-		"geocount": 38,
+		"count":"0",
+		"geocount":"0",
 		"id":"wiltshire_council",
 		"map": { "type":"powerbi","url":"https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes":"All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
