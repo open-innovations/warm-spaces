@@ -1,0 +1,7 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-101.93163,51.85587],"type":"Point"},"properties":{"_source":"chelmsford_connects","address":"St. Andrew&#039;s Church - Pelly Room, Church Road, Boreham, Chelmsford, Essex CM3 3EG","description":"Regular every Wednesday morning 9:30 until 11:30 Community Coffee morning where anyone is welcomed. For further information please contact horton20@btinternet.com.","hours":{"_text":"Regular every Wednesday morning 9:30 until 11:30 Community Coffee morning where anyone is welcomed. For further information please contact horton20@btinternet.com.","opening":"We 09:30-11:30"},"title":"Community Coffee Morning","url":"https://chelmsfordconnects.org.uk/activity/community-coffee-morning/3832"},"type":"Feature"},
+		{"geometry":{"coordinates":[-101.93163,51.85587],"type":"Point"},"properties":{"_source":"chelmsford_connects","address":"St. Andrew&#039;s Church - Pelly Room, Church Road, Boreham, Chelmsford, Essex CM3 3EG","description":"Film Club from 1:30 until 4:00 every third Wednesday. For more information please contact horton20@btinternet.com.","hours":{"_text":"Film Club from 1:30 until 4:00 every third Wednesday. For more information please contact horton20@btinternet.com.","opening":"We 01:30-04:00"},"title":"Film Club","url":"https://chelmsfordconnects.org.uk/activity/film-club/3833"},"type":"Feature"}
+	]
+}

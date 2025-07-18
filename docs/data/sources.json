@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 110,
-		"geocount": 110,
+		"count": 109,
+		"geocount": 109,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -138,8 +138,8 @@
 		"url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"count": 24,
-		"geocount": 21,
+		"count":"0",
+		"geocount":"0",
 		"id":"bolton_at_home",
 		"title":"Bolton at Home",
 		"url":"https://www.boltonathome.org.uk/warm-spaces/"
@@ -339,8 +339,8 @@
 		"url":"https://www.charnwood.gov.uk/pages/warmspaces"
 	},
 	"chelmsford_connects": {
-		"count":"0",
-		"geocount":"0",
+		"count": 44,
+		"geocount": 37,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -588,8 +588,8 @@
 		"url":"https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
 	},
 	"frome_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 10,
+		"geocount": 10,
 		"id":"frome_council",
 		"title":"Frome Council",
 		"url":"https://www.frometowncouncil.gov.uk/your-community/community/cost-of-living-crisis-support/"
@@ -826,8 +826,8 @@
 		"url":"https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
 	},
 	"lewes_and_eastbourne_council": {
-		"count": 24,
-		"geocount": 24,
+		"count":"0",
+		"geocount":"0",
 		"id":"lewes_and_eastbourne_council",
 		"register": { "url":"https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/" },
 		"title":"Lewes and Eastbourne Council",
@@ -894,8 +894,8 @@
 		"url":"https://www.merton.gov.uk/communities-and-neighbourhoods/warm-spaces"
 	},
 	"mid_and_east_antrim_council": {
-		"count": 7,
-		"geocount": 3,
+		"count":"0",
+		"geocount":"0",
 		"id":"mid_and_east_antrim_council",
 		"notes":"Some spaces are without addresses",
 		"title":"Mid and East Antrim Council",
@@ -1059,8 +1059,8 @@
 		"url":"https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
 	},
 	"redcar_and_cleveland_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 165,
+		"geocount": 165,
 		"id":"redcar_and_cleveland_council",
 		"map": { "type":"leaflet","url":"https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces" },
 		"title":"Redcar and Cleveland Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4701,
-		"geocount": 4701,
+		"count": 4704,
+		"geocount": 4704,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
