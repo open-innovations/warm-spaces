@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count": 180,
-		"geocount": 180,
+		"count": 181,
+		"geocount": 181,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -361,8 +361,8 @@
 		"url":"https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
 	},
 	"cheshire_east_council": {
-		"count": 34,
-		"geocount": 33,
+		"count":"0",
+		"geocount":"0",
 		"id":"cheshire_east_council",
 		"title":"Cheshire East Council",
 		"url":"https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
@@ -496,8 +496,8 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"count": 63,
-		"geocount": 59,
+		"count":"0",
+		"geocount":"0",
 		"id":"durham_county_council",
 		"map": { "type":"googlemap","url":"https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True" },
 		"register": { "url":"https://www.durham.gov.uk/article/28229/Warm-Spaces-Network" },
@@ -691,8 +691,8 @@
 		"url":"https://www.talkcommunitydirectory.org/warmspace"
 	},
 	"hertfordshire_council": {
-		"count": 90,
-		"geocount": 70,
+		"count":"0",
+		"geocount":"0",
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4728,
-		"geocount": 4728,
+		"count": 4736,
+		"geocount": 4736,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1436,8 +1436,8 @@
 		"url":"https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count": 57,
-		"geocount": 38,
+		"count":"0",
+		"geocount":"0",
 		"id":"wiltshire_council",
 		"map": { "type":"powerbi","url":"https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
 		"notes":"All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
