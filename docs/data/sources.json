@@ -184,8 +184,8 @@
 		"title":"Bradford on Avon Council"
 	},
 	"braintree_council": {
-		"count": 38,
-		"geocount": 38,
+		"count": 39,
+		"geocount": 39,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 30,
+		"geocount": 28,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -1272,8 +1272,8 @@
 		"url":"https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
 	},
 	"swansea_council": {
-		"count": 72,
-		"geocount": 72,
+		"count": 71,
+		"geocount": 71,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4745,
-		"geocount": 4745,
+		"count": 4752,
+		"geocount": 4752,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.44155,54.41116],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Helping Hands, Craigavon, County Armagh BT62 3BR","description":"This is a space for anyone to come and get a cuppa whilst meeting some friendly faces and do some knitting and sewing for some great causes like the local Neo-natal unit! Be aware, lots of laughs involved!","hours":{"_text":"Thursday: 10:00 - 13:00","opening":"Th 10:00-13:00"},"title":"Stiches"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.44155,54.41116],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Helping Hands, Craigavon, County Armagh BT62 3BR","description":"A space for anyone to come and get a cuppa, get support in various ways including; furniture, food, clothing, counselling, training and much more! One group (Stiches) runs every Thursday. Come along and meet some friendly faces and do some knitting and sewing for some great causes like the local Neo-natal unit! Be aware, lots of laughs involved!","hours":{"_text":"Tuesday: 10:00 - 13:00, Wednesday: 10:00 - 13:00, Thursday: 10:00 - 13:00, Friday: 10:00 - 13:00","opening":"Tu 10:00-13:00; We 10:00-13:00; Th 10:00-13:00; Fr 10:00-13:00"},"title":"Helping Hands Community Outreach Project"},"type":"Feature"}
 	]
 }

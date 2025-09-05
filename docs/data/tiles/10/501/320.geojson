@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.68222,55.76721],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forth Community Resource Centre, 57 Hawkwood Terrace, Forth, South Lanarkshire ML11 8AT","description":"Bite and Blether sessions; Practical assistance and support; Free access to Wifi and computers; Free SIM cards; Charging point for mobiles; Help with welfare and IT enquiries; Emergency food and hygiene boxes; Someone to listen.","hours":{"_text":"Monday: 10:00 - 14:00, Tuesday: 10:00 - 12:00, Wednesday: 10:00 - 14:00, Thursday: 10:00 - 12:00, Friday: 10:00 - 14:00","opening":"Mo 10:00-14:00; Tu 10:00-12:00; We 10:00-14:00; Th 10:00-12:00; Fr 10:00-14:00"},"title":"Forth Community Resource Centre SG"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.68222,55.76721],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Forth Community Resource Centre, 57 Hawkwood Terrace, Forth, South Lanarkshire ML11 8AT","description":"Bite and Blether sessions; Practical assistance and support; Free access to Wifi and computers; Free SIM cards; Charging point for mobiles; Help with welfare and IT enquiries; Emergency food and hygiene boxes; Someone to listen.","hours":{"_text":"Monday: 00:00 - 00:00, Tuesday: 10:00 - 12:00, Wednesday: 10:00 - 14:00, Thursday: 10:00 - 12:00, Friday: 10:00 - 14:00","opening":"Mo 00:00-00:00; Tu 10:00-12:00; We 10:00-14:00; Th 10:00-12:00; Fr 10:00-14:00"},"title":"Forth Community Resource Centre SG"},"type":"Feature"}
 	]
 }
