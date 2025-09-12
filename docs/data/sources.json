@@ -130,8 +130,8 @@
 		"url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
 	},
 	"birmingham_council": {
-		"count": 320,
-		"geocount": 320,
+		"count": 323,
+		"geocount": 323,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -145,8 +145,8 @@
 		"url":"https://www.boltonathome.org.uk/warm-spaces/"
 	},
 	"boston_borough_council": {
-		"count": 16,
-		"geocount": 13,
+		"count":"0",
+		"geocount":"0",
 		"id":"boston_borough_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11" },
 		"title":"Boston Borough Council",
@@ -169,8 +169,8 @@
 		"title":"Bracknell Forest Council"
 	},
 	"bradford_council": {
-		"count":"0",
-		"geocount":"0",
+		"count": 182,
+		"geocount": 182,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -325,8 +325,8 @@
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
 	},
 	"ceredigion_council": {
-		"count": 46,
-		"geocount": 44,
+		"count":"0",
+		"geocount":"0",
 		"id":"ceredigion_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8" },
 		"title":"Ceredigion Council",
@@ -410,14 +410,14 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
 	},
 	"community_action_derby": {
-		"count": 28,
-		"geocount": 27,
+		"count":"0",
+		"geocount":"0",
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -462,8 +462,8 @@
 		"url":"https://new.cumbria.gov.uk/warm-spots"
 	},
 	"cyngor_gwynedd": {
-		"count": 202,
-		"geocount": 197,
+		"count": 201,
+		"geocount": 196,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -803,8 +803,8 @@
 		"url":"https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
 	"lancaster_council": {
-		"count": 28,
-		"geocount": 27,
+		"count":"0",
+		"geocount":"0",
 		"id":"lancaster_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1bP5gmUB9jRQXMWen1XGLGvp6kl6XgYo&ll=54.079464630036675%2C-2.8243405999999993&z=12" },
 		"title":"Lancaster Council"
@@ -1111,8 +1111,8 @@
 		"url":"https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
 	},
 	"sandwell_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 24,
+		"geocount": 24,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1141,8 +1141,8 @@
 		"url":"https://seftoncvs.org.uk/warmspaces/"
 	},
 	"sevenoaks_council": {
-		"count": 22,
-		"geocount": 22,
+		"count": 21,
+		"geocount": 21,
 		"id":"sevenoaks_council",
 		"register": { "url":"https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces" },
 		"title":"Sevenoaks Council",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4752,
-		"geocount": 4752,
+		"count": 4755,
+		"geocount": 4755,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1372,8 +1372,8 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
-		"count": 104,
-		"geocount": 104,
+		"count": 101,
+		"geocount": 101,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"notes":"Not enough details to include",
@@ -1381,8 +1381,8 @@
 		"url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
-		"count": 25,
-		"geocount": 25,
+		"count": 26,
+		"geocount": 26,
 		"id":"west_berkshire_council",
 		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/warm-spaces/" },
 		"register": { "url":"https://adoddle.org/app/partners/west-berkshire/create" },
@@ -1405,8 +1405,8 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"count": 102,
-		"geocount": 97,
+		"count": 103,
+		"geocount": 98,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
