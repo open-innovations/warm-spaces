@@ -1,7 +1,7 @@
 {
 	"_helpandkindness": {
-		"count": 109,
-		"geocount": 109,
+		"count": 110,
+		"geocount": 110,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -65,8 +65,8 @@
 		"url":"https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
 	},
 	"barnet_council": {
-		"count": 8,
-		"geocount": 8,
+		"count":"0",
+		"geocount":"0",
 		"id":"barnet_council",
 		"map": { "type":"leaflet","url":"https://www.barnet.gov.uk/directories/warm-spaces" },
 		"register": { "url":"https://www.barnet.gov.uk/benefits-grants-and-financial-advice/cost-living-support/warm-spaces-barnet/provide-warm-space" },
@@ -250,8 +250,8 @@
 		"url":"https://www.buckinghamshire.gov.uk/cost-of-living/find-a-place-to-keep-warm-welcoming-spaces/"
 	},
 	"burnley_council": {
-		"count": 18,
-		"geocount": 18,
+		"count": 22,
+		"geocount": 22,
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Warmspaces24" },
@@ -410,7 +410,7 @@
 	},
 	"communities_1st": {
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"title":"Communities 1st",
 		"url":"https://www.communities1st.org.uk/warm-hubs"
@@ -794,8 +794,8 @@
 		"url":"https://www.lambeth.gov.uk/warm-spaces"
 	},
 	"lancashire_council": {
-		"count": 166,
-		"geocount": 166,
+		"count": 100,
+		"geocount": 100,
 		"id":"lancashire_council",
 		"map": { "url":"https://lancashirecc.maps.arcgis.com/apps/dashboards/70acaa42875248958f64eb9a7ac4bc68" },
 		"register": { "url":"https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/" },
@@ -803,7 +803,7 @@
 		"url":"https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
 	},
 	"lancaster_council": {
-		"count":"0",
+		"count": 1,
 		"geocount":"0",
 		"id":"lancaster_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1bP5gmUB9jRQXMWen1XGLGvp6kl6XgYo&ll=54.079464630036675%2C-2.8243405999999993&z=12" },
@@ -932,8 +932,8 @@
 		"url":"https://www.newcastle-staffs.gov.uk/warmspaces"
 	},
 	"newham_council": {
-		"count": 10,
-		"geocount": 10,
+		"count":"0",
+		"geocount":"0",
 		"id":"newham_council",
 		"map": { "type":"arcgis","url":"https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d" },
 		"notes":"In 2024 they just list their libraries",
@@ -1363,8 +1363,8 @@
 		"url":"https://warmspaces.org/"
 	},
 	"warm_welcome": {
-		"count": 4774,
-		"geocount": 4774,
+		"count": 4785,
+		"geocount": 4785,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
