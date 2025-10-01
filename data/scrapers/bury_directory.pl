@@ -21,30 +21,59 @@ if(-e $file){
 	
 	$str =~ s/\&nbsp;/ /g;
 	
-	@entries;
+	$str =~ s/.*window.REDUX_DATA = //gs;
+	$str =~ s/<\/script>.*//gs;
+	$str =~ s/undefined/\"\"/g;
+	
+	if(!$str){ $str = "{}"; }
+	eval {
+		$json = JSON::XS->new->decode($str);
+	};
+	if($@){ error("\tInvalid JSON in $file.\n"); $json = {}; }
 
-	while($str =~ s/<section[^\>]*id="page-content"[^\>]*>(.*?)<\/section>//s){
-		$content = $1;
-		while($content =~ s/<div class="mt-4 text-xl builder-p">(.*?)<\/div>//s){
-			$incontent = $1;
-			while($incontent =~ s/<p><strong><u>(.*?)<\/u><\/strong><\/p>(.*?)(<p><strong><u>|$)/$3/s){
-				$d = {'title'=>$1};
-				$ws = $2;
-				if($ws =~ s/<p><strong>Address\:? *<\/strong>:? *(.*?)<\/p>//sg){ $d->{'address'} = $1; }
-				if($ws =~ s/<p><strong>Offer\:? *<\/strong>:? *(.*?)<\/p>//sg){ $d->{'description'} = $1; }
-				if($ws =~ s/<p><strong>Website\:? *<\/strong>:? *<a[^\>]*href="([^\"]+)"//sg){ $d->{'url'} = $1; }
-				if($ws =~ s/<p><strong>(Opening days\/times|Opening days and times)\:? *<\/strong>:? *(.*?)(<p><strong>|$)/$2/sg){ $d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($2)}); }
-				if($ws =~ s/<p><strong>Email\:?<\/strong>:? ?(.*?)<\/p>//sg){ $d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".trimHTML($1); }
-				if($ws =~ s/<p><strong>Telephone\:?<\/strong>:? ?(.*?)<\/p>//sg){ $d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".$1; }
-
-				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
-
-				# Store the entry as JSON
-				push(@entries,makeJSON($d,1));
-
+	my @data = @{$json->{'routing'}{'mappedEntry'}{'content'}{'data'}};
+	
+	for($d = 0; $d < @data; $d++){
+		if(ref $data[$d] eq "HASH"){
+			if(defined($data[$d]{'value'}) && ref $data[$d]{'value'} eq "HASH" && defined($data[$d]{'value'}{'link'})){
+				@content = @{$data[$d]{'value'}{'link'}{'content'}};
+				for($c = 0; $c < @content; $c++){
+					if($content[$c]{'type'} eq "_component"){
+						push(@items, @{$content[$c]{'value'}{'items'}});
+					}
+				}
 			}
 		}
-
+	}
+	for($i = 0; $i < @items; $i++){
+		$d = {};
+		$d->{'title'} = $items[$i]{'title'};
+		$items[$i]{'content'} =~ s/<p[^\>]*>//g;
+		$items[$i]{'content'} =~ s/\n//g;
+		@ps = split(/<\/p>/,$items[$i]{'content'});
+		for($p = 0; $p < @ps; $p++){
+			if($ps[$p] =~ /<strong[^\>]*>Address:?<\/strong>:? (.*)/){
+				$d->{'address'} = $1;
+			}
+			if($ps[$p] =~ /<strong[^\>]*>Offer:?<\/strong>:? (.*)/){
+				$d->{'description'} = $1;
+			}
+			if($ps[$p] =~ /<strong[^\>]*>Website:?<\/strong>:? <a href="([^\"]*)"/){
+				$d->{'url'} = $1;
+			}
+			if($ps[$p] =~ /<strong[^\>]*>Email:?<\/strong>\:? .*mailto:([^\"]*)"/){
+				$email = $1;
+				$email =~ s/\&quot.*//g;
+				$d->{'contact'} .= ($items[$i]{'contact'} ? " ":"")."Email: ".$email;
+			}
+			if($ps[$p] =~ /<strong[^\>]*>Opening days and times:?<\/strong>:? (.*)/){
+				$d->{'hours'} = {};
+				$d->{'hours'}{"_text"} = $1;
+				$d->{'hours'}{'_text'} =~ s/<[^\>]+>/ /g;
+				$d->{'hours'} = parseOpeningHours($items[$i]{'hours'});
+			}
+		}
+		push(@entries,makeJSON($d,1));
 	}
 
 	open(FILE,">:utf8","$file.json");

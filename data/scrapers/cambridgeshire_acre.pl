@@ -19,20 +19,39 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
+	$str =~ s/\&\#8211;/-/g;
+	$list = "";
+	while($str =~ s/<h4>(.*?)<\/h4>(.*?)<h4>/<h4>/s){
+		$list .= $2;
+	}
 
 	# Build a web scraper
 	my $res = scraper {
-		process '.elementor-icon-list-item .elementor-icon-list-text', "warmspaces[]" => 'TEXT';
-	}->scrape( $str );
+		process 'ul li', "warmspaces[]" => 'HTML';
+	}->scrape( $list );
 
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		if($res->{'warmspaces'}[$i] =~ /^(.*?)[\s\t]+- (.*)$/){
-			$d = {};
+		$d = {};
+		$content = $res->{'warmspaces'}[$i];
+		if($content =~ s/^<b>(.*?)<\/b> ?//){
 			$d->{'title'} = $1;
-			$content = $2;
-			if($content =~ s/Opens(\s|\&nbsp;)?:(\s|\&nbsp;)?(.*?)$//i){ $d->{'hours'} = parseOpeningHours({'_text'=>parseText($3)}); }
-			$d->{'address'} = $content;
-			$d->{'description'} = "Part of the Cambridgeshire Community Hubs Network.";
+		}
+		if($content =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
+			$pcd = $2;
+			$content =~ /(.*$pcd)/;
+			$d->{'address'} = $1;
+			$d->{'address'} =~ s/^ ?\- ?//g;
+		}
+		if($content =~ /href="([^\"]+)"/){
+			$d->{'url'} = $1;
+		}
+		if($content =~ /Opens: (.*)/){
+			$d->{'hours'} = {};
+			$d->{'hours'}{'_text'} = $1;
+			$d->{'hours'}{'_text'} =~ s/<[^\>]+>//g;
+			$d->{'hours'} = parseOpeningHours($d->{'hours'});
+		}
+		if($d->{'title'}){
 			push(@entries,makeJSON($d,1));
 		}
 	}

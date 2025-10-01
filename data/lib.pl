@@ -315,13 +315,17 @@ sub parseOpeningHours {
 	# Fix date ranges in brackets
 	$str =~ s/\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)-(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\)/$1-$2/g;
 	
-	if($str && !$hours->{'_parsed'}){
+	if($str && !defined($hours->{'_parsed'})){
+
 
 		# Clean up "between 1pm and 4pm"
 		$str =~ s/between ([0-9\:\.\,]+(am|pm)?)[\s\t]*and[\s\t]*([0-9\:\.\,]+(am|pm)?)/$1 - $3/ig;
 
 		$str =~ s/\&ndash\;/-/g;
 		$str =~ s/ from [0-9]{1,2}(st|nd|rd|th)? (January|February|March|April|May|June|July|August|September|October|November|December) ?/ /gi; # Remove start dates
+
+
+
 		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
 		$str =~ s/ (at|in) [^0-9]+ from /: /g;
 		$str =~ s/ (between) ([0-9\:amp]+) (and|to) / $2 - /g;
@@ -334,6 +338,10 @@ sub parseOpeningHours {
 		$str =~ s/\&apos\;//g;
 		$str =~ s/([^0-9]) \&amp\; ([^0-9])/$1, $2/g;
 		$str =~ s/ (mornings?|afternoons?)/ /g;
+		# Fixes for string in the style "Thursday, 2pm - 4pm (fortnightly, first and third week of each month)"
+		$str =~ s/((Mon|Tue|Wed|Thu|Fri|Sat|Sun).*?) \([^\)]*(((1st|first)(\,|\s)? ?(3rd|third))) week of each month\)/$3 $1/g;
+		$str =~ s/((Mon|Tue|Wed|Thu|Fri|Sat|Sun).*?) \([^\)]*(((2nd|second)(\,|\s)? ?(4th|fourth))) week of each month\)/$3 $1/g;
+
 		$str =~ s/ ?\([^\)]+\)//g;
 		$str =~ s/\//, /g;
 		$str =~ s/[—–]/-/g;
