@@ -44,10 +44,16 @@ if(-e $file){
 
 			$area = $res->{'warmspaces'}[$i];
 
+
 			$place = $area->{'td'}[0];
 			if($place =~ /<p>(.*?)<\/p>/){
 				$place = $1;
 			}
+			$time = $area->{'td'}[1];
+			if($time =~ /<p>(.*?)<\/p>/){
+				$time = $1;
+			}
+
 			# Fix for typo
 			if($place eq "Chorley Buddies)"){ $place = "Chorley Buddies"; }
 			if(!defined($places{$place})){
@@ -56,7 +62,7 @@ if(-e $file){
 			if(!defined($places{$place}{'address'})){
 				$places{$place}{'address'} = trimHTML($area->{'td'}[2]);
 			}
-			if($tables[$t]->{'title'} =~ /(.*)\'s/){
+			if($tables[$t]->{'title'} =~ /(.*)s/){
 				$places{$place}{'hours'}{'_text'} .= ($places{$place}{'hours'}{'_text'} ? "; ":"").$1." ".trimHTML($area->{'td'}[1]);
 			}elsif($tables[$t]->{'title'} eq "Across the borough all week"){
 				$places{$place}{'hours'}{'_text'} .= ($places{$place}{'hours'}{'_text'} ? "; ":"").trimHTML($area->{'td'}[1]);
@@ -66,7 +72,9 @@ if(-e $file){
 	foreach $place (sort(keys(%places))){
 		$places{$place}{'hours'} = parseOpeningHours($places{$place}{'hours'});
 		if(!$places{$place}{'hours'}{'opening'}){ delete $places{$place}{'hours'}; }
-		push(@entries,makeJSON($places{$place},1));
+		if($places{$place}{'address'}){
+			push(@entries,makeJSON($places{$place},1));
+		}
 	}
 
 	open(FILE,">:utf8","$file.json");

@@ -21,26 +21,27 @@ if(-e $file){
 	$str =~ s/\&nbsp;/ /g;
 
 	my $rowscraper = scraper {
-		process '.content--padded', 'row[]' => 'HTML';
+		process '.container--inner', 'row[]' => 'HTML';
 	};
-
-	my $res = $rowscraper->scrape( $str );
-	@rows = @{$res->{'row'}};
-	for($r = 0; $r < @rows; $r+=2){
-		if($rows[$r] =~ /<h4>/){
-			$d = {'title'=>trimHTML($rows[$r])};
-			if($rows[$r+1] =~ /<strong>[^\>]*Address[^\>]*<\/strong>([^\<]*)</){
-				$d->{'address'} = trimHTML($1);
+	
+	if($str =~ /Warm Welcome Hub List \(by area\)(.*?)<\/div>/s){
+		while($str =~ s/<h4>(.*?)<\/h4>(.*?)<hr[^\>]*>//s){
+			$d = {};
+			$d->{'title'} = $1;
+			$content = $2;
+			$d->{'title'} =~ s/<[^\>]*>//g;
+			if($content =~ /<strong>Address:<\/strong> ([^\<]*)/i){
+				$d->{'address'} = $1;
 			}
-			if($rows[$r+1] =~ /<strong>[^\>]*Days\/times[^\>]*<\/strong>([^\<]*)</){
-				$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($1)});
+			if($content =~ /<strong>Days\/times:<\/strong> (.*?)<\/p>/is){
+				$d->{'hours'} = parseOpeningHours({'_text'=>$1});
 				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 				if(!$d->{'hours'}{'_text'}){ delete $d->{'hours'}; }
 			}
 			push(@entries,makeJSON($d,1));
 		}
 	}
-
+	
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";
 	close(FILE);

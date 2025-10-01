@@ -455,33 +455,39 @@ directories:
       url: "https://www.centralbedfordshire.gov.uk/directory/110/a_to_z"
       type: html
   - title: "Ceredigion Council"
+    checked: 2025-10-01
     url: "https://ceredigion.gov.uk/resident/cost-of-living-support/warm-welcome-spaces/"
     map:
-      url: "https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8"
+      url: "https://www.google.com/maps/d/viewer?mid=1skpEIxs2eV_I-kb9soJedAMgDeei9io&ll=52.291157852291256%2C-4.074526488845211&z=10"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/viewer?mid=1MZOw4RyFRy4JmWvkYI78qnuWMptYCFE&ll=52.29115785229128%2C-4.074526488845211&z=8"
+      url: "https://www.google.com/maps/d/viewer?mid=1skpEIxs2eV_I-kb9soJedAMgDeei9io&ll=52.291157852291256%2C-4.074526488845211&z=10"
       type: googlemap
       keys:
         title: "Warm Welcome Space"
         lat: "latitude"
         lon: "longitude"
         address: "Address"
-        hours: "Opening Times"
         contact: "{{ Lead Contact }}: {{ Contact Details }}"
         description: "Activity Offered"
   - title: "Charnwood Council"
+    checked: 2025-10-01
     url: "https://www.charnwood.gov.uk/pages/warmspaces"
     notes: "Now refers people to Warm Welcome UK"
   - title: "Chelmsford Connects"
+    checked: 2025-10-01
     url: "https://chelmsfordconnects.org.uk/search?category=1555"
     data:
       url: "https://chelmsfordconnects.org.uk/search?category=1555"
       type: html
   - title: "Cheltenham Council"
+    checked: 2025-10-01
     url: "https://www.cheltenham.gov.uk/info/60/community_advice_and_engagement/1757/cost_of_living_support/3"
-    notes: "Not enough structure to parse"
+    data:
+      url: "https://www.cheltenham.gov.uk/info/60/community_advice_and_engagement/1757/cost_of_living_support/3"
+      type: html
   - title: "Cherwell Council"
+    checked: 2025-10-01
     url: "https://www.cherwell.gov.uk/info/118/communities/977/help-with-the-cost-of-living"
     notes: "Links to a PDF and Warm Welcome UK"
     map:
@@ -502,17 +508,17 @@ directories:
         Opening_Times: "[\r\n]+"
         Event_Name: "[\r\n]+"
   - title: "Cheshire East Council"
+    checked: 2025-10-01
     url: "https://www.cheshireeast.gov.uk/livewell/education-employment-and-money/money-matters/warm-places-keeping-cheshire-east-warm.aspx"
     data:
       - url: "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360"
         type: html
-      - url: "https://livewellservices.cheshireeast.gov.uk/Search?CategoryId=360&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=False&ServicePageIndex=2"
-        type: html
   - title: "Cheshire West and Chester Council"
+    checked: 2025-10-01
     url: "https://www.cheshirewestandchester.gov.uk/residents/housing-benefit-council-tax/cost-of-living-support/warm-welcoming-spaces"
     notes: "Refers people to Warm Welcome"
   - title: "Chesterfield Council"
-    url: "https://www.chesterfield.gov.uk/latest-news/funding-for-warm-and-welcoming-spaces/"
+    checked: 2025-10-01
     map:
       url: "https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12"
       type: googlemap
@@ -523,17 +529,21 @@ directories:
         title: "name"
         hours: "description"
   - title: "Chichester Deanery"
+    checked: 2025-10-01
     url: "https://www.chichesterdeanery.org/warmspaces.htm"
     notes: "Not enough location information"
   - title: "Chorley Council"
-    url: "https://chorley.gov.uk/welcomespaces"
+    checked: 2025-10-01
+    url: "https://chorley.gov.uk/cost-living-support/warmspaces"
     data:
       url: "https://chorley.gov.uk/cost-living-support/warm-spaces-directory"
       type: html
   - title: "City of London"
+    checked: 2025-10-01
     url: "https://www.cityoflondon.gov.uk/services/getting-help-with-the-cost-of-living/find-a-warm-welcome-space"
     notes: "Links to WarmWelcome"
   - title: "Colchester Council"
+    checked: 2025-10-01
     url: "https://www.colchester.gov.uk/support-for-residents/?id=&page=warm--welcoming--spaces"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1-hZPqoj-5gklHCw4KzUep7FcL214lo0&ehbc=2E312F&ll=51.862833514604574%2C0.8569344500000309&z=10"
@@ -547,16 +557,21 @@ directories:
         hours: "Opening Times"
         contact: "Tel: {{ Contact Number }}; Email: {{ Email }}"
   - title: "Communities 1st"
+    checked: 2025-10-01
     url: "https://www.communities1st.org.uk/warm-hubs"
+    register:
+      url: "https://www.communities1st.org.uk/RegisterWarmHubs"
     data:
       url: "https://www.communities1st.org.uk/warm-hubs"
       type: html
   - title: "Community Action Derby"
+    checked: 2025-10-01
     url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
     data:
       url: "https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
       type: html
   - title: "Coventry Council"
+    checked: 2025-10-01
     url: "https://www.coventry.gov.uk/cost-living-wellbeing-support"
     map:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
@@ -565,6 +580,7 @@ directories:
       url: "https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search"
       type: html
   - title: "Croydon Council"
+    checked: 2025-10-01
     url: "https://www.croydon.gov.uk/community-and-safety/warm-spaces"
     map:
       url: "https://www.croydon.gov.uk/warm-spaces-directory"
@@ -573,6 +589,7 @@ directories:
       url: "https://www.croydon.gov.uk/warm-spaces-directory"
       type: html
   - title: "Croydon Simply Connect"
+    checked: 2025-10-01
     url: "https://croydon.simplyconnect.uk/activities?keyword=warm-space&post_code=Croydon&page=1&limit=20&sort="
     register:
       url: https://forms.office.com/r/iBHN1rt1HE
@@ -580,6 +597,8 @@ directories:
       url: "https://croydon.simplyconnect.uk/api/services/directory?keyword=Warm-space&post_code=Croydon&distance=&region=&category=&verified=&page=1&limit=200&sort="
       type: html
   - title: "Cumberland Council"
+    checked: 2025-10-01
+    url: "https://www.cumberland.gov.uk/health-and-social-care/cost-living-support/find-and-register-warm-spots"
     data:
       - url: "https://www.cumberland.gov.uk/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare?f%5B0%5D=localgov_directories_facets%3A277"
         type: html
@@ -646,6 +665,7 @@ directories:
       - url: "https://new.cumbria.gov.uk/warm-spots?search_api_fulltext=&page=25"
         type: html
   - title: "Cyngor Gwynedd"
+    checked: 2025-10-01
     url: "https://www.gwynedd.llyw.cymru/en/Residents/Warm-Spaces-Croeso-Cynnes.aspx"
     register:
       url: "https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform"

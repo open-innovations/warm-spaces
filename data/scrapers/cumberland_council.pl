@@ -23,93 +23,40 @@ if(-e $file){
 	my $baseurl = "https://www.cumberland.gov.uk";
 	my %places;
 
-	# Build a web scraper
-	my $listparser = scraper {
-		process 'article.lgd-teaser--directory-warm-spot', "warmspaces[]" => scraper {
-			process 'h3 > a', 'url' => '@HREF';
-			process 'h3', 'title' => 'TEXT';
+
+	if($content =~ /<script type="application\/json" data-drupal-selector="drupal-settings-json">(.*?)<\/script>/){
+		$str = $1;
+		if(!$str){ $str = "{}"; }
+		eval {
+			$json = JSON::XS->new->decode($str);
 		};
-	};
-	# Build a web scraper
-	my $warmparser = scraper {
-		process 'h1', 'title' => 'TEXT';
-		process '.field--name-field-organisation-type .field__item', 'description' => 'HTML';
-		process '.field--name-postal-address .address', 'address' => 'HTML';
-		process '.localgov-directories-venue__enquiries .field--name-localgov-directory-opening-times .field__item', 'opening' => 'HTML';
-		process '.localgov-directories-venue__enquiries .bg-icon__envelope .bg-icon__phone', 'tel' => 'TEXT';
-		process '.localgov-directories-venue__enquiries .bg-icon__envelope a', 'email' => '@HREF';
-		process '.localgov-directories-venue__enquiries .bg-icon__link a', 'url' => '@HREF';
-	};
-	$str = $content;
-
-	# Get pages
-	my $pageparser = scraper {
-		process 'ul.pager__items li a', 'url[]' => '@HREF';
-	};
-	my @pages = @{$pageparser->scrape($str)->{'url'}};
-	my $pp = {};
-	for($p = 0; $p < @pages; $p++){
-		# Get the page
-		$url = $baseurl."/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare".$pages[$p];
-		$pp->{$url} = 1;
-	}
-
-	foreach $url (sort(keys(%{$pp}))){
-		if($url =~ /page=([0-9]+)/){
-			$p = $1;
-			if($p != "0"){
-				$rfile = "raw/cumberland_council-page$p.html";
-				# Keep cached copy of individual URL
-				$age = getFileAge($rfile);
-				if($age >= 86400 || -s $rfile == 0){
-					warning("\tSaving $url to <cyan>$rfile<none>\n");
-					# For each entry we now need to get the sub page to find the location information
-					`curl '$url' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1'`;
-				}
-				open(FILE,"<:utf8",$rfile);
-				@lines = <FILE>;
-				close(FILE);
-				$str = join("",@lines);
+		if($@){ error("\tInvalid output in $file.\n"); $json = {}; }
+		@features = @{$json->{'leaflet'}{'leaflet-map-view-localgov-directory-channel-embed-map'}{'features'}};
+		for($f = 0; $f < @features; $f++){
+			$d = {};
+			if($features[$f]{'lat'}){
+				$d->{'lat'} = $features[$f]{'lat'};
 			}
-
-			my $res = $listparser->scrape($str);
-			
-			for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-				$d = $res->{'warmspaces'}[$i];
-				$d->{'title'} = trimText($d->{'title'});
-				$d->{'url'} = $baseurl.$d->{'url'};
-
-				if($places{$d->{'url'}}){
-					
-					$rfile = "raw/cumberland_council-$i.html";
-					# Keep cached copy of individual URL
-					$age = getFileAge($rfile);
-					if($age >= 86400 || -s $rfile == 0){
-						warning("\tSaving $next to <cyan>$rfile<none>\n");
-						# For each entry we now need to get the sub page to find the location information
-						`curl '$d->{'url'}' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1'`;
-					}
-					open(FILE,"<:utf8",$rfile);
-					@lines = <FILE>;
-					close(FILE);
-					$str = join("",@lines);
-					
-					my $warm = $warmparser->scrape($str);
-					if($warm->{'opening'}){
-						$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($warm->{'opening'})});
-					}
-					if($warm->{'address'}){
-						$d->{'address'} = $warm->{'address'};
-						$d->{'address'} =~ s/<br ?\/?>/, /g;
-						$d->{'address'} =~ s/<[^\>]+>//g;
-					}
-					if($warm->{'tel'}){ $d->{'contact'} .= ($d->{'contact'} ? "; " : "").'Tel: '.$warm->{'tel'}; }
-					if($warm->{'email'}){ $warm->{'email'} =~ s/mailto://; $d->{'contact'} .= ($d->{'contact'} ? "; " : "").'Email: '.$warm->{'email'}; }
-					$d->{'lat'} = $places{$d->{'url'}}->{'lat'};
-					$d->{'lon'} = $places{$d->{'url'}}->{'lon'};
-					push(@entries,makeJSON($d,1));
-				}
+			if($features[$f]{'lon'}){
+				$d->{'lon'} = $features[$f]{'lon'};
 			}
+			$features[$f]{'popup'}{'value'} =~ s/\n//g;
+#			$features[$f]{'popup'}{'value'} =~ s/[\s\t]+/\s/g;
+			if($features[$f]{'popup'}{'value'} =~ /<h3[^\>]*>(.*?)<\/h3>/s){
+				$d->{'title'} = $1;
+				if($d->{'title'} =~ /href="([^\"]+)"/){
+					$d->{'url'} = "https://www.cumberland.gov.uk".$1;
+				}
+				$d->{'title'} =~ s/<[^\>]*>//g;
+				$d->{'title'} =~ s/(^\s+|\s+$)//g;
+			}
+			if($features[$f]{'popup'}{'value'} =~ /<a href="tel:[0-9]+">([^\<]*)<\/a>/){
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Tel: $1";
+			}
+			if($features[$f]{'popup'}{'value'} =~ /<div [^\>]*field--type-email[^\>]*>(.*?)<\/div>/){
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: $1";
+			}
+			push(@entries,makeJSON($d,1));
 		}
 	}
 
