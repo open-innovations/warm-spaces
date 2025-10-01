@@ -19,31 +19,64 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 	
-	$str =~ s/<meta[^\>]*>//g;
-	
-
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'div.geolocation-location', "warmspaces[]" => scraper {
-			process 'h2', 'title' => 'TEXT';
+		process 'div.warm-places', "warmspaces[]" => scraper {
+			process '.views-field-title h2', 'title' => 'TEXT';
 			process '.views-field-title a', 'url' => '@HREF';
-			process '.views-field-localgov-directory-address', 'address' => 'HTML';
-			process '*', 'lat' => '@data-lat';
-			process '*', 'lon' => '@data-lng';
+			process '.views-field-localgov-directory-address', 'address' => 'TEXT';
 		}
 	};
-	my $res = $warmspaces->scrape( $str );
 
-	$n = @{$res->{'warmspaces'}};
-	warning("\tMatched $n warmspaces on page.\n");
+	$total = 0;
+	$page = 0;
+	if($str =~ /of ([0-9]+) warm spaces/){
+		$total = $1;
+	}
 
-	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
-		$d = $res->{'warmspaces'}[$i];
-		$d->{'address'} = trim($d->{'address'});
-		if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://livewell.bathnes.gov.uk".$d->{'url'}; }
+	while(@entries < $total && $page < 10){
+		
+		if($str eq ""){
+			$page++;
+			$url = "https://livewell.bathnes.gov.uk/warm-spaces-directory?page=$page";
+			$rfile = $file;
+			$rfile =~ s/\.html/-$page.html/;
+		
+			warning("\tGetting details for page <yellow>$page<none> from <cyan>$url<none>\n");
 
-		# Store the entry as JSON
-		push(@entries,makeJSON($d,1));
+			# Keep cached copy of individual URL
+			$age = getFileAge($rfile);
+			if($age >= 86400 || -s $rfile == 0){
+				warning("\tSaving $url to <cyan>$rfile<none>\n");
+				# For each entry we now need to get the sub page to find the location information
+				`curl '$url' -o $rfile -s --insecure -L --compressed -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Upgrade-Insecure-Requests: 1'`;
+			}
+			open(FILE,"<:utf8",$rfile);
+			@lines = <FILE>;
+			close(FILE);
+			$str = join("",@lines);
+		}
+
+		# Trim before and after
+		$str =~ s/<!--.*?-->//sg;
+		$str =~ s/.*<main class="govuk-main-wrapper" id="main">//gs;
+		$str =~ s/<\/main>.*//sg;
+
+
+		my $res = $warmspaces->scrape( $str );
+
+		$n = @{$res->{'warmspaces'}};
+		warning("\tMatched $n warmspaces on page.\n");
+
+		for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+			$d = $res->{'warmspaces'}[$i];
+			$d->{'address'} = trim($d->{'address'});
+			if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://livewell.bathnes.gov.uk".$d->{'url'}; }
+
+			# Store the entry as JSON
+			push(@entries,makeJSON($d,1));
+		}
+		$str = "";
 	}
 
 	open(FILE,">:utf8","$file.json");

@@ -351,7 +351,10 @@
 		{"text":"10am-5.30pm (Mon-Sun)","good":"Mo-Su 10:00-17:30"},
 		{"text":"10am-5.30pm (Sun)","good":"Su 10:00-17:30"},
 		{"text":"Mon-Frid, 9am-5pm","good":"Mo-Fr 09:00-17:00"},
-		{"text":"Second Tuesday each month 10:30am - 11:30am","good":"Tu[2] 10:30-11:30"}
+		{"text":"Second Tuesday each month 10:30am - 11:30am","good":"Tu[2] 10:30-11:30"},
+		{"text":"first Thursday of every month 10am - 12 noon","good":"Th[1] 10:00-12:00"},
+		{"text":"Open every day, 10-4","good":"Mo-Su 10:00-16:00"},
+		{"text":"Monday 12-2pm","good":"Mo 12:00-14:00"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},

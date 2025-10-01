@@ -1058,7 +1058,8 @@ sub getHTML {
 			$log->warning("\tNo JSON returned from scraper\n");
 		}
 	}else{
-		$log->warning("\tNo scaper at scrapers/$d->{'id'}.pl\n");
+		$log->error("\tNo scraper at scrapers/$d->{'id'}.pl\n");
+		exit;
 	}
 	return @features;
 }

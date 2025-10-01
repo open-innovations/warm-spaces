@@ -30,8 +30,12 @@ if(-e $file){
 			$content =~ s/\n//g;
 			$d->{'description'} = trim($content);
 
-			if($content =~ /<a [^>]*href="([^\"]+)"/s){
+			if($content =~ /<a class="btn-style-primary" [^>]*href="([^\"]+)"/s){
 				$d->{'url'} = $1;
+				if($d->{'url'} =~ /mailto:(.*)/){
+					$d->{'contact'} = "Email: $1";
+					delete $d->{'url'};
+				}
 			}
 
 			$d->{'hours'} = parseOpeningHours({'_text'=>trim($content)});

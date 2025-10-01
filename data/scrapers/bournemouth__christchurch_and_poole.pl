@@ -27,7 +27,7 @@ if(-e $file){
 
 		# Now we can get records
 		$rfile = "raw/bournemouth__christchurch_and_poole_points.json";
-		`curl -s -o $rfile 'https://maps.bcpcouncil.gov.uk/map/Aurora.svc/GetRecordsByPoint?sessionId=$session&x=405717.9530666637&y=92776.7988&radius=5000&scaleDenominator=65536' --compressed -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br, zstd' -H 'DNT: 1' -H 'Sec-GPC: 1' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: document' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: cross-site' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers'`;
+		`curl -s -o $rfile 'https://maps.bcpcouncil.gov.uk/map/Aurora.svc/GetRecordsByPoint?sessionId=$session&x=409336.7567807406&y=94214.41700541861&radius=20000&scaleDenominator=65536' --compressed -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br, zstd' -H 'DNT: 1' -H 'Sec-GPC: 1' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: document' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: cross-site' -H 'Priority: u=0, i' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers'`;
 
 		# Open the results
 		open(FILE,"<:utf8",$rfile);
@@ -36,7 +36,8 @@ if(-e $file){
 		$str = join("",@lines);
 		$str =~ s/\\(\"|\/|\\)/$1/g;
 		$str =~ s/\\u000a/\-/g;
-		
+		$str =~ s/([0-9]) to([0-9])/$1 - $2/g;
+
 		my $warmspaces = scraper {
 			process 'li', "warmspaces[]" => 'TEXT';
 		};
@@ -67,7 +68,9 @@ if(-e $file){
 			if($results[$i] =~ /\-Email \- (.*?)\-\-/){
 				$d->{'contact'} = ($d->{'contact'} ? "; ":"")."Email: ".$1;
 			}
-			push(@entries,makeJSON($d,1));
+			if(defined($d->{'title'})){
+				push(@entries,makeJSON($d,1));
+			}
 		}
 	
 	}else{

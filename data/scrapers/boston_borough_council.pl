@@ -41,6 +41,7 @@ if(-e $file){
 
 
 	my @pp = ({'page'=>1,'content'=>$str},$pagescrape->scrape($str));
+	print Dumper @pp;
 	my ($res,@entries,@results);
 	@entries = ();
 

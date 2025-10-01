@@ -37,18 +37,23 @@ directories:
     data:
       url: https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces
       type: html
+      headers:
+        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
   - title: "Aberdeenshire Council"
-    url: "https://www.avashire.org.uk/warm-spaces-aberdeenshire"
-    map:
-      url: "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.29830561485551%2C-2.414152099999982&z=9"
-      type: googlemap
+    url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living"
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1q00_IOc3ZCQ6ySo2ShQvcAoUI8zj-Ac&ehbc=2E312F&ll=57.24528062892277%2C-2.5887244499999973&z=8"
-      type: googlemap
-      keys:
-        title: name
-        description: description
-        hours: description
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warm-space-banff-and-buchan/"
+        type: html
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warm-space-buchan"
+        type: html
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warms-space-formartine"
+        type: html
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warms-space-garioch"
+        type: html
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warm-space-kincardine-and-mearns"
+        type: html
+      - url: "https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living/warm-space-marr"
+        type: html
   - title: "Adur and Worthing Council"
     url: "https://www.adur-worthing.gov.uk/warm-spaces/"
     map:
@@ -63,7 +68,36 @@ directories:
         hours: "description"
   - title: "Angus Council"
     url: "https://www.angus.gov.uk/community_spaces"
-    notes: "No location data or real structure"
+    notes: "Most entries have no real address information"
+    data:
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1627"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1628"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1629"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1630"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=2022"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1633"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
+      - url: "https://www.angus.gov.uk/community_spaces?page_id=1634"
+        type: html
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
   - title: "Ards and North Down Council"
     inactive: 2023-11-01
     url: "https://www.ardsandnorthdown.gov.uk/resident/community/warm-welcome-here-campaign"
@@ -77,17 +111,9 @@ directories:
     url: "https://www.armaghbanbridgecraigavon.gov.uk/costofliving/#warmspaces"
     notes: "Not enough location information"
   - title: "Banbury Town Council"
-    url: "https://www.banbury.gov.uk/Warm_Welcome_43971.aspx"
-    data:
-      url: "https://services8.arcgis.com/UQpattfmZaWDEU5y/arcgis/rest/services/Cherwell_Public_Warm_Spaces_TEST/FeatureServer/0/query?f=json&cacheHint=true&maxRecordCountFactor=4&resultOffset=0&resultRecordCount=4000&where=1%3D1&orderByFields=OBJECTID&outFields=*&outSR=27700&spatialRel=esriSpatialRelIntersects"
-      type: arcgis
-      keys:
-        title: Organisation
-        address: Address
-        contact: "{{ Key_contact }} Tel: {{ Telephone }} Email: {{ Email }}"
-        hours: Opening_Times
-        description: Facilities_Provided
-        url: Website
+    url: "https://banbury.gov.uk/grants/"
+    inactive: 2025-10-01
+    notes: No longer exists
   - title: "Barnet Council"
     url: "https://www.barnet.gov.uk/directories/warm-spaces"
     register:
@@ -99,8 +125,10 @@ directories:
       url: "https://www.barnet.gov.uk/directories/warm-spaces"
       type: html
   - title: "Barnsley Council"
-    url: "https://www.barnsley.gov.uk/news/welcoming-spaces-in-barnsley-organisations-encouraged-to-register-their-offer/"
-    notes: "Refers people to Warm Welcome UK"
+    url: "https://www.barnsley.gov.uk/services/community-and-volunteering/welcoming-spaces/"
+    data:
+      url: "https://www.barnsley.gov.uk/services/community-and-volunteering/welcoming-spaces/"
+      type: html
   - title: "Barrow Council"
     url: "https://barrowbc.gov.uk/warm-welcome-spaces-start-open-borough"
     notes: "Only available as a PDF"
@@ -108,7 +136,7 @@ directories:
     url: "https://basildon.gov.uk/article/9481/Activities-and-places-to-go"
     notes: "Not enough structure to parse"
   - title: "Bassetlaw CVS"
-    url: "https://www.bcvs.org.uk/warmspaces"
+    url: "https://www.bcvs.org.uk/news/warm-welcoming-spaces-grants-are-now-open"
     map:
       url: "https://bassetlaw.maps.arcgis.com/apps/webappviewer/index.html?id=cc9edef318684393b1acd4ae10346044"
       type: arcgis
@@ -130,7 +158,7 @@ directories:
     register:
       url: "https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset"
     data:
-      url: "https://livewell.bathnes.gov.uk/map-of-warm-spaces"
+      url: "https://livewell.bathnes.gov.uk/warm-places-list"
       type: html
   - title: "Bedford Council"
     url: "https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -139,13 +167,14 @@ directories:
       type: html
   - title: "Belfast Council"
     url: "https://www.belfastcity.gov.uk/costoflivingsupport#897-3"
-    notes: "Now just mentions leisure centres, libraries and links to Warm Welcome UK"
+    notes: "Now just mentions leisure centres, libraries and links to Warm Welcome UK."
   - title: "Bexley Council"
-    notes: "Removed"
-    inactive: 2024-11-19
     url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
     register:
       url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
+    data:
+      url: "https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places"
+      type: html
   - title: "Birmingham Council"
     url: "https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
     register:
@@ -162,11 +191,13 @@ directories:
         Upgrade-Insecure-Requests: "1"
   - title: "Bolton at Home"
     url: "https://www.boltonathome.org.uk/warm-spaces/"
+    notes: "Their page is under review as of 1st October 2025"
     data:
       url: "https://www.boltonathome.org.uk/warm-spaces/"
       type: html
   - title: "Boston Borough Council"
     url: "https://www.boston.gov.uk/warmspaces"
+    notes: "Blocks scraping (1st October 2025)"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1SIefe-uUT4vXmlNm5jmyz4RrzTvNk4A&ehbc=2E312F&ll=52.95608205790583%2C-0.03415664999999457&z=11"
       type: googlemap
@@ -187,6 +218,7 @@ directories:
   - title: "Bracknell Forest Council"
     notes: "No longer exists"
     inactive: 2024-11-19
+    url: https://www.bracknell-forest.gov.uk/housing/energy-home/home-energy-improvement-grants/warm-safe-and-well-scheme
   - title: "Bradford Council"
     url: "https://costoflivingbradford.co.uk/warm-spaces/"
     register:
@@ -212,9 +244,16 @@ directories:
     url: "https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
     notes: "Refers people to Warm Welcome"
   - title: "Bridgend Council"
+    notes: "No longer exists"
+    inactive: 2025-10-01
     url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
     data:
       url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
+      type: html
+  - title: "Bridgend Association of Voluntary Organisations"
+    url: "https://www.bavo.org.uk/warm-well-this-winter-warm-hubs-near-you/"
+    data:
+      url: "https://www.bavo.org.uk/warm-well-this-winter-warm-hubs-near-you/"
       type: html
   - title: "Brighton & Hove Council"
     url: "https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go"
