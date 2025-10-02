@@ -37,11 +37,18 @@ if(-e $file){
 
 		$d->{'title'} = $d->{'td'}[0];
 		$d->{'address'} = $d->{'td'}[1];
+		for($j = 0; $j < @{$d->{'td'}}; $j++){
+			$d->{'td'}[$j] =~ s/<p>//g;
+			$d->{'td'}[$j] =~ s/<\/p>/ /g;
+			$d->{'td'}[$j] =~ s/<br ?\/?>/ /g;
+			$d->{'td'}[$j] =~ s/<[^\>]*>//g;
+			$d->{'td'}[$j] =~ s/(^ | $)//g;
+		}
 		if($d->{'td'}[2]){
 			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'td'}[2]});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 		}
-		$d->{'description'} = $d->{'td'}[3];
+		$d->{'description'} =~ s/<\/p>/ /g;
 		$d->{'contact'} = parseText($d->{'td'}[4]);
 
 		# Remove the <li> entry

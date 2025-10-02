@@ -3,7 +3,6 @@
 use lib "./";
 use utf8;
 use Data::Dumper;
-use Web::Scraper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 

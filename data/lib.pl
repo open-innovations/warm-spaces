@@ -191,13 +191,8 @@ sub getFileContents {
 	close(FILE);
 	return @lines;
 }
-sub getJSON {
-	my (@files,$str,@lines,$json);
-	my $file = $_[0];
-	open(FILE,"<:utf8",$file);
-	@lines = <FILE>;
-	close(FILE);
-	$str = (join("",@lines));
+sub parseJSON {
+	my $str = shift;
 	# Error check for JS variable e.g. South Tyneside https://maps.southtyneside.gov.uk/warm_spaces/assets/data/wsst_council_spaces.geojson.js
 	$str =~ s/[^\{]*var [^\{]+ = //g;
 	if(!$str){ $str = "{}"; }
@@ -205,6 +200,17 @@ sub getJSON {
 		$json = JSON::XS->new->decode($str);
 	};
 	if($@){ error("\tInvalid output in $file.\n"); $json = {}; }
+	
+	return $json;
+}
+sub getJSON {
+	my (@files,$str,@lines,$json);
+	my $file = $_[0];
+	open(FILE,"<:utf8",$file);
+	@lines = <FILE>;
+	close(FILE);
+	$str = (join("",@lines));
+	return parseJSON($str);
 	
 	return $json;
 }

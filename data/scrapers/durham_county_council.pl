@@ -7,6 +7,14 @@ use Data::Dumper;
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
+# Fix for Web::Scraper not finding <meta> tags
+use HTML::Tagset;
+for (qw/ link meta /) {
+    $HTML::Tagset::isHeadElement{$_}       = 0;
+    $HTML::Tagset::isHeadOrBodyElement{$_} = 1;
+}
+
+
 # Get the file to process
 $file = $ARGV[0];
 
@@ -22,23 +30,37 @@ if(-e $file){
 	$str =~ s/[\n\r]/ /g;
 	$str =~ s/[\s]{2,}/ /g;
 	$str =~ s/\&nbsp;/ /g;
-
-	while($str =~ s/<div class="service-summary-left col-sm-8 col-xs-12 bem-search-result-item__summary-left">(.*?)(<div class="service-summary-right)//){
-		
-		$item = $1;
-		$d = {};
-
-		if($item =~ /<a[^\>]*href="([^\"]+)" itemprop="url">([^\<]+)<\/a>/){
-			$d->{'title'} = $2;
-			$d->{'url'} = $1;
-			$d->{'url'} = ($d->{'url'} =~ /^\// ? "https://www.durhamlocate.org.uk":"").$d->{'url'};
+	
+	
+	# Build a web scraper
+	my $warmspaces = scraper {
+		process 'div.service-summary-left', "warmspaces[]" => scraper {
+			process 'a.service-name', 'title' => 'TEXT';
+			process 'meta[itemprop=latitude]', 'lat' => '@content';
+			process 'meta[itemprop=longitude]', 'lon' => '@content';
+			process 'span[itemprop=streetAddress]', 'address' => 'TEXT';
+			process 'span[itemprop=postalCode]', 'postcode' => 'TEXT';
+			process '.bem-search-result-item__contact-item', 'contacts[]' => 'TEXT';
 		}
-		if($item =~ /<meta itemprop="latitude" content="([^\"]+)" \/>/){ $d->{'lat'} = $1; }
-		if($item =~ /<meta itemprop="longitude" content="([^\"]+)" \/>/){ $d->{'lon'} = $1; }
-		if($item =~ /<div class="bem-search-result-item__contact">(.*?)<\/div>/){ $d->{'contact'} = parseText($1); }
-		if($item =~ /<p class="service-location bem-search-result-item__location">(.*?)<\/p>/){ $d->{'address'} = parseText($1); }
+	};
+	my $res = $warmspaces->scrape( $str );
+
+	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
+		$d = $res->{'warmspaces'}[$i];
 		
-		# Store the entry as JSON
+		if(defined($d->{'contacts'})){
+			$d->{'contact'} = "";
+			for($c = 0; $c < @{$d->{'contacts'}}; $c++){
+				$d->{'contacts'}[$c] =~ s/(^\s+|\s+$)//g;
+				$d->{'contacts'}[$c] =~ s/\s+/ /g;
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"").$d->{'contacts'}[$c];
+			}
+			delete $d->{'contacts'};
+		}
+		if($d->{'postcode'}){
+			$d->{'address'} .= " ".$d->{'postcode'};
+			delete $d->{'postcode'};
+		}
 		push(@entries,makeJSON($d,1));
 	}
 

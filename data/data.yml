@@ -682,22 +682,26 @@ directories:
         hours: "Dyddiau ac Oriau agor / Opening Days and Times"
         description: "Beth fydd ar gael yn rhan o’ch “Croeso Cynnes”?"
   - title: "Derbyshire Council"
-    url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/keep-warm-in-winter.aspx"
-    notes: "In 2022/3 it was too unstructured to parse"
+    checked: 2025-10-02
+    url: "https://www.derbyshire.gov.uk/social-health/health-and-wellbeing/your-health/keeping-warm-in-winter/warm-spaces/warm-spaces.aspx"
+    notes: "Links to WarmWelcome"
   - title: "Derbyshire Dales Council"
+    checked: 2025-10-02
     url: "https://www.derbyshiredales.gov.uk/community/warm-spaces"
-    notes: "As of Nov 2024 it is still too unstructured to parse with no address information."
+    notes: "As of October 2025 it is still too unstructured to parse with no address information."
   - title: "Devizes Council"
+    checked: 2025-10-02
     inactive: 2023-04-04
     url: "https://www.devizes-tc.gov.uk/warmspaces/"
     data:
       url: "https://www.devizes-tc.gov.uk/warmspaces/"
       type: html
   - title: "Dover Council"
-    inactive: 2024-11-26
+    checked: 2025-10-02
     url: "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
     notes: "They now (2024) link to WarmWelcome."
   - title: "Durham County Council"
+    checked: 2025-10-02
     url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
     register:
       url: "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network"
@@ -707,9 +711,8 @@ directories:
     data:
       - url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
         type: html
-      - url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&UDG=True&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&SME=True&ServicePageIndex=2"
-        type: html
   - title: "Ealing Council"
+    checked: 2025-10-02
     url: "https://www.ealing.gov.uk/info/201320/cost_of_living_support_and_advice/3116/warm_spacesSaving"
     map:
       url: "https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces"
@@ -718,7 +721,8 @@ directories:
       url: "https://www.dosomethinggood.org.uk/wp-admin/admin-ajax.php?action=generate_map_markers&cat=warm-community-spaces"
       type: html
   - title: "East Ayrshire Council"
-    url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/community/warm-spaces.aspx"
+    checked: 2025-10-02
+    url: "https://www.east-ayrshire.gov.uk/Community/cost-of-living/cost-of-living.aspx"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&ehbc=2E312F&ll=55.51842662792143%2C-4.327784799999996&z=9"
       type: googlemap
@@ -731,6 +735,7 @@ directories:
         hours: "Opening times"
         description: "Support available"
   - title: "East Lindsey Council"
+    checked: 2025-10-02
     url: "https://www.e-lindsey.gov.uk/warmspaces"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&ehbc=2E312F&ll=53.25336230230613%2C0.0483210000000156&z=9"
@@ -741,17 +746,21 @@ directories:
       keys:
         title: "name"
   - title: "East Staffordshire Council"
+    checked: 2025-10-02
     url: "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
-    notes: "In 2022/3 there was not enough address information for half the entries"
     data:
       url: "https://www.eaststaffsbc.gov.uk/cost-living-support/local-warmer-public-community-spaces"
       type: html
   - title: "Eastleigh Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "They are now blocking indexing of their pages"
     url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
     data:
       url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
       type: html
   - title: "Edinburgh Council"
+    checked: 2025-10-02
     url: "https://www.edinburgh.gov.uk/warm-welcoming-spaces"
     map:
       url: "https://cityofedinburgh.maps.arcgis.com/apps/instant/basic/index.html?appid=b12a908ff5a240bca9c52ecb480b0c37"
@@ -794,9 +803,13 @@ directories:
           description: "Facilities"
           contact: "Tel: {{ phone }}; Email: {{ mail }}"
   - title: "Enfield Council"
+    checked: 2025-10-02
     url: "https://www.enfield.gov.uk/services/your-council/cost-of-living-support/warm-spaces"
     notes: "Refers people to Warm Welcome"
   - title: "Enfield Food Alliance"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "Their website no longer exists but their Google Map does"
     url: "https://www.enfieldfoodalliance.co.uk/warm-hubs"
     map:
       url: "https://www.google.com/maps/d/u/5/viewer?mid=1fdCZEnF1DBpmHmh2geCCGWUFm2--kLc&ll=51.642885200133605%2C-0.08113014999998835&z=13"
@@ -810,7 +823,8 @@ directories:
         address: "{{ Address }} {{ Postcode }}"
         hours: "When"
   - title: "Essex Map"
-    url: "https://www.essexmap.co.uk/warm-spaces/"
+    checked: 2025-10-02
+    url: "https://www.essexmap.co.uk/warm-spaces-initiative/"
     map:
       url: "https://www.essexmap.co.uk/search/?geodir_search=1&stype=gd_place&s=warm+spaces&snear&sgeo_lat&sgeo_lon"
       type: googlemap
@@ -822,9 +836,12 @@ directories:
         Accept-Language: en-GB,en;q=0.5
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
   - title: "Exeter Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
     url: "https://exeter.gov.uk/benefits-and-welfare/help-managing-your-money/cost-of-living-support/warm-spaces-and-community-facilities/"
-    notes: "Not enough location information"
+    notes: "No longer exists"
   - title: "Fife Council"
+    checked: 2025-10-02
     url: "https://our.fife.scot/gethelp/topics/support-with-heating-and-utility-costs/warm-spaces/warm-space-locations"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&ehbc=2E312FF&z=9&ll=56.22315434431997%2C-3.177828299999998"
@@ -834,22 +851,32 @@ directories:
       type: googlemap
       keys:
         title: "Venue name"
-        address: "Venue address"
+        address: "{{ Venue address }} {{ Postcode }}"
         hours: "Monday {{ Monday }}; Tuesday {{ Tuesday }}; Wednesday {{ Wednesday }}; Thursday {{ Thursday }}; Friday {{ Friday }}; Saturday {{ Saturday }}; Sunday {{ Sunday }}"
         description: "Additional info"
         url: "Website"
         contact: "Tel: {{ Phone number }}; Email: {{ Email address }}"
   - title: "Frome Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "They had an .ics file in 2023 but they no longer reference it"
     url: "https://www.frometowncouncil.gov.uk/your-community/community/cost-of-living-crisis-support/"
     data:
       url: "https://www.frometowncouncil.gov.uk/wp-content/uploads/2023/10/Fromes-Warm-Spaces-2023-24.ics"
       type: html
   - title: "Fylde Council"
+    checked: 2025-10-02
     url: "https://fylde.gov.uk/warm-spaces-in-fylde/"
     notes: "Not enough location information and structure to parse"
     register:
       url: mailto:edyta.paxton@fylde.gov.uk
+    data:
+      url: "https://fylde.gov.uk/warm-spaces-in-fylde/"
+      type: html
   - title: "Gateshead Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "They now block indexing"
     url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
     map:
       url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*"
@@ -864,11 +891,15 @@ directories:
       - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=list&p=4&q=*"
         type: html
   - title: "Gedling Council"
-    url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/warmspaces/"
+    checked: 2025-10-02
+    url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
     data:
       url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
       type: html
   - title: "Glasgow Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "Not been updated since 2022"
     url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
     map:
       url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
@@ -877,17 +908,17 @@ directories:
       url: "https://storymaps.arcgis.com/stories/609f78e4be9442e185cadeb36d68a2d0"
       type: html
   - title: "Gloucester Council"
+    checked: 2025-10-02
+    inactive: 2023-10-02
     url: "https://www.gloucestershire.gov.uk/your-community/support-hub/warm-spaces/"
-    notes: "No longer exists as of October 2023"
+    notes: "Redirects people to other places"
     register:
       url: "https://www.gloucester.gov.uk/community-living/community-warm-spaces-grant/"
-    data:
-      url: "https://www.gloucester.gov.uk/community-living/warm-spaces/"
-      type: html
   - title: "Greenwich Council"
-    inactive: "2024-11-26"
+    checked: 2025-10-02
+    inactive: 2024-11-26
     notes: "No longer exists"
-    url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you/2412/warm_spaces_in_royal_greenwich"
+    url: "https://www.royalgreenwich.gov.uk/info/200344/supporting_you"
     map:
       url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
       type: googlemap
@@ -895,18 +926,24 @@ directories:
       url: "https://www.royalgreenwich.gov.uk/directory/111/welcoming_spaces_across_royal_greenwich"
       type: html
   - title: "Hackney Council"
-    inactive: "2024-11-26"
+    checked: 2025-10-02
+    inactive: 2023-10-01
     url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/warm-spaces-in-hackney"
     notes: "No longer exists as of October 2023"
   - title: "Haringey Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "No longer exists"
     url: "https://www.haringey.gov.uk/community/haringey-warm-welcome"
     data:
       url: "https://new.haringey.gov.uk/community-support-safety/haringey-here-to-help/haringey-warm-welcome/a-warm-welcome-this-winter"
       type: html
   - title: "Harlow Council"
+    checked: 2025-10-02
     url: "https://www.harlow.gov.uk/warm-spaces"
-    notes: "Not enough information to parse"
+    notes: "Not enough location information to parse"
   - title: "Harrogate NetMakers"
+    checked: 2025-10-02
     url: "http://netmakers.org.uk/warmwelcome/"
     map:
       url: "https://www.google.com/maps/d/u/1/embed?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&ehbc=2E312F"
@@ -918,8 +955,10 @@ directories:
         title: "name"
         hours: "description"
   - title: "Havant Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
     url: "https://www.havant.gov.uk/cost-living-support"
-    notes: "Not enough structure to parse"
+    notes: "No longer exists"
   - title: "Havering Council"
     url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
     data:
@@ -1356,6 +1395,12 @@ directories:
     data:
       url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
       type: html
+  - title: "Places for People"
+    checked: 2025-10-02
+    url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/"
+    data:
+       url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/"
+       type: html
   - title: "Plymouth Council"
     url: "https://www.plymouth.gov.uk/warm-welcoming-spaces"
     register:

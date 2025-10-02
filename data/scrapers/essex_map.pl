@@ -27,9 +27,29 @@ if(-e $file){
 			process 'h1', 'title' => 'TEXT';
 			process 'a', 'url' => '@HREF';
 			process '*', 'id' => '@ID';
+			process '.gd-bh-open-hours .dropdown-item', 'days[]' => scraper {
+				process '.gd-bh-days-d', 'day' => 'HTML';
+				process '.gd-bh-slot-r', 'times' => 'HTML';
+			}
 		}
 	};
 	
+	# Find the map widget properties
+	$coords = {};
+	if($str =~ /var wp_widget_gd_map = ([^\;]*?);/){
+		$json = $1;
+		if(!$json){ $json = "{}"; }
+		eval {
+			$json = JSON::XS->new->decode($json);
+		};
+		if($@){ error("\tInvalid output in $file.\n"); $json = {}; }
+		$json = parseJSON(getURL($json->{'map_markers_ajax_url'}."&post_type=".$json->{'post_type'}."&_wpnonce=".$json->{'_wpnonce'}));
+		foreach $item (@{$json->{'items'}}){
+			$coords->{$item->{'m'}} = {'lat'=>$item->{'lt'},'lon'=>$item->{'ln'},'title'=>$item->{'t'}};
+		}
+	}
+
+
 	# Loop over pages
 	$next = "placeholder";
 	$n = 0;
@@ -40,7 +60,7 @@ if(-e $file){
 			# Keep cached copy of individual URL
 			$age = getFileAge($rfile);
 			if($age >= 86400 || -s $rfile == 0){
-				warning("\tSaving $next to <cyan>$rfile<none>\n");
+				warning("\tSaving page $n (<green>$next<none>) to <cyan>$rfile<none>\n");
 				# For each entry we now need to get the sub page to find the location information
 				`curl '$next' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1' -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" -H "Accept-Language: en-GB,en;q=0.5" -H "Accept-Encoding: gzip, deflate"`;
 			}
@@ -49,6 +69,8 @@ if(-e $file){
 			close(FILE);
 			$str = join("",@lines);
 		}
+
+
 		# Get next page link
 		if($str =~ /"next page-link".*?href="([^\"]+)"/){
 			$n++;
@@ -60,56 +82,28 @@ if(-e $file){
 
 		# Parse listing page
 		$warm = $warmspaces->scrape( $str );
+
 		for($j = 0; $j < @{$warm->{'warmspaces'}}; $j++){
 			$d = $warm->{'warmspaces'}[$j];
 			$d->{'id'} =~ s/post-//g;
-			if($d->{'url'} =~ /https:\/\/www.essexmap.co.uk/){
 
-				$url = $d->{'url'};
-				$rfile = "raw/essex_map_post_$d->{'id'}.html";
-				# Keep cached copy of individual URL
-				$age = getFileAge($rfile);
-				if($age >= 86400 || -s $rfile == 0){
-					warning("\tSaving <green>$url<none> to <cyan>$rfile<none>\n");
-					# For each entry we now need to get the sub page to find the location information
-					`curl '$url' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1' -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" -H "Accept-Language: en-GB,en;q=0.5" -H "Accept-Encoding: gzip, deflate"`;
+		
+			if(defined($coords->{$d->{'id'}})){
+				$d->{'lat'} = $coords->{$d->{'id'}}{'lat'};
+				$d->{'lon'} = $coords->{$d->{'id'}}{'lon'};
+				if(defined($d->{'days'})){
+					$hours = "";
+					for($i = 0; $i < @{$d->{'days'}}; $i++){
+						if($d->{'days'}[$i]{'times'} ne "Closed"){
+							$hours .= ($hours ? ", ":"").$d->{'days'}[$i]{'day'}." ".$d->{'days'}[$i]{'times'};
+						}
+					}
+					$d->{'hours'} = parseOpeningHours({'_text'=>$hours});
+					delete $d->{'days'};
 				}
-				open(FILE,"<:utf8",$rfile);
-				@lines = <FILE>;
-				close(FILE);
-				$str = join("",@lines);
-
-				if($str =~ /<script type="application\/ld\+json">(.*?)<\/script>/){
-					$json = $1;
-					if(!$json){ $json = "{}"; }
-					eval {
-						$json = JSON::XS->new->decode($json);
-					};
-					if($@){ warning("\tInvalid JSON.\n".$json); }
-					if(ref($json) eq "ARRAY"){
-						$json = {'array'=>\@{$json}};
-					}
-					if($json->{'geo'}){
-						$d->{'lat'} = $json->{'geo'}{'latitude'};
-						$d->{'lon'} = $json->{'geo'}{'longitude'};
-					}
-					if($json->{'address'} && $json->{'address'}{'@type'} eq "PostalAddress"){
-						$d->{'address'} = $json->{'address'}{'streetAddress'};
-						#if($json->{'address'}{'addressLocality'}){ $d->{'address'} .= ($d->{'address'} ? ", ":"").$json->{'address'}{'addressLocality'}; }
-						#if($json->{'address'}{'addressRegion'}){ $d->{'address'} .= ($d->{'address'} ? ", ":"").$json->{'address'}{'addressRegion'}; }
-						#if($json->{'address'}{'postalCode'}){ $d->{'address'} .= ($d->{'address'} ? ", ":"").$json->{'address'}{'postalCode'}; }
-					}
-					if($json->{'openingHours'}){
-						$d->{'hours'} = parseOpeningHours({'_text'=>join("; ",@{$json->{'openingHours'}})});
-						if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
-					}
-					if($json->{'description'}){
-						$d->{'description'} = $json->{'description'};
-					}
-					delete $d->{'id'};
-				}
-				push(@entries,makeJSON($d,1));
 			}
+			delete $d->{'id'};
+			push(@entries,makeJSON($d,1));
 		}
 	}
 

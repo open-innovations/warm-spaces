@@ -18,6 +18,11 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
+	
+	# Convert special characters
+	$str =~ s/–/-/g;
+	$str =~ s/\&nbsp;/ /g;
+	$str =~ s/’/\'/g;
 
 
 	# Build a web scraper
@@ -26,36 +31,57 @@ if(-e $file){
 			process 'td', 'td[]', 'HTML';
 		}
 	};
+	$pscraper = scraper {
+		process 'p', "p[]" => 'TEXT';
+	};
 
 	my $res = $warmspaces->scrape( $str );
 
-	
 	for($r = 0; $r < @{$res->{'tr'}}; $r++){
 
-		if(@{$res->{'tr'}[$l]{'td'}} == 3){
+		@cols = @{$res->{'tr'}[$r]{'td'}};
+		
+		if(@cols == 3){
 			
 			$d = {};
-			if($res->{'tr'}[$r]{'td'}[0] =~ s/^(.*?)<br ?\/?> ?//){
-				$d->{'title'} = $1;
-				$d->{'address'} = $res->{'tr'}[$r]{'td'}[0];
-				$d->{'address'} =~ s/<br ?\/?> ?/, /g;
-				$d->{'description'} = $res->{'tr'}[$r]{'td'}[1];
-				$h = parseOpeningHours({'_text'=>$res->{'tr'}[$r]{'td'}[1]});
-				if($h->{'opening'}){
-					$d->{'hours'} = $h;
-				}
-				$d->{'contact'} = $res->{'tr'}[$r]{'td'}[2];
-				
-				$d->{'contact'} =~ s/<\/?ul>//g;
-				$d->{'contact'} =~ s/<\/li>/, /g;
-				$d->{'contact'} =~ s/<li>//g;
-				$d->{'contact'} =~ s/<a href="mailto:[^\"]+"[^\>]*>(.*?)<\/a>/$1/g;
-				if($d->{'contact'} =~ s/<a href="([^\"]+)"[^\>]*>.*?<\/a>//g){
-					$d->{'url'} = $1;
-				}
-				while($d->{'contact'} =~ s/\, $//g){}
 
+			# Loop over table columns
+			for($c = 0; $c < @cols; $c++){
+				if($cols[$c] !~ /^<p>/){
+					$cols[$c] = "<p>".$cols[$c]."</p>";
+				}
+				$got = $pscraper->scrape( $cols[$c] );
+				@ps = @{$got->{'p'}};
+				if($c == 0){
+					if($ps[0] =~ /([^\,]*)\, (.*)/){
+						$d->{'title'} = $1;
+						$d->{'address'} = $2;
+					}else{
+						$d->{'title'} = $ps[0];
+					}
+				}elsif($c==1){
+					for($p = 0; $p < @ps; $p++){
+						if($ps[$p] =~ /(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)/i){
+							$d->{'times'} .= ($d->{'hours'} ? "; ":"").$ps[$p];
+						}else{
+							$d->{'description'} .= ($d->{'description'} ? "; ":"").$ps[$p];
+						}
+					}
+				}elsif($c==2){
+					for($p = 0; $p < @ps; $p++){
+						if($ps[$p] =~ /([0-9]{3,}\s?[0-9]{5,})/){
+							$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Telephone: ".$ps[$p];
+						}elsif($ps[$p] =~ /^([^\s]+\@[^\s]+)$/){
+							$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: ".$ps[$p];
+						}
+					}
+				}
 			}
+			if(defined($d->{'times'})){
+				$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'times'}});
+				delete $d->{'times'};
+			}
+
 			push(@entries,makeJSON($d,1));
 		}
 	}
