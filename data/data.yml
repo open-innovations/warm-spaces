@@ -960,16 +960,19 @@ directories:
     url: "https://www.havant.gov.uk/cost-living-support"
     notes: "No longer exists"
   - title: "Havering Council"
+    checked: 2025-10-02
     url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
     data:
       url: "https://www.havering.gov.uk/info/20096/community/883/warm_spaces"
       type: html
   - title: "#HelpAndKindness"
+    checked: 2025-10-02
     url: "https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
     data:
       url: "https://www.helpandkindness.co.uk/winter-activities-and-services-in-dorset/dorset/warm-spaces-and-warm-hubs"
       type: html
   - title: "Herefordshire Council"
+    checked: 2025-10-02
     url: "https://www.talkcommunitydirectory.org/warmspace"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&ehbc=2E312F&ll=52.132531376470354%2C-2.6930566499999875&z=9"
@@ -982,6 +985,7 @@ directories:
         description: "description"
         hours: "description"
   - title: "Hertfordshire Council"
+    checked: 2025-10-02
     url: "https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
     register:
       url: "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx"
@@ -989,34 +993,16 @@ directories:
       url: "https://directory.hertfordshire.gov.uk/Search?categoryId=165"
       type: googlemap
     data:
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&SM=ServiceSearch"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=2"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=3"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=4"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=5"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=6"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=7"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=8"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=9"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=10"
-        type: html
-      - url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165&UDG=False&OrderBy=Relevance&InfoPageIndex=1&SM=ServiceSearch&ServicePageIndex=11"
+      - url: "https://directory.hertfordshire.gov.uk/Search?AI%5b0%5d=943&DR=False&UDG=False&OrderBy=Relevance&SM=ServiceSearch&SME=True"
         type: html
   - title: "High Peak Council"
+    checked: 2025-10-02
     url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
     data:
       url: "https://www.highpeak.gov.uk/CostOfLiving-WelcomingSpaces"
       type: html
   - title: "Hinckley and Bosworth Council"
+    checked: 2025-10-02
     url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support"
     register:
       url: "https://www.hinckley-bosworth.gov.uk/warmplacesQ"
@@ -1024,6 +1010,7 @@ directories:
       - url: "https://www.hinckley-bosworth.gov.uk/info/200411/cost_of_living_support/1883/warm_places"
         type: html
   - title: "Horsham District"
+    checked: 2025-10-02
     notes: Website no longer exists
     inactive: 2023-11-23
     url: "https://www.horshamdistrictwarmspaces.com/"
@@ -1041,11 +1028,14 @@ directories:
       - url: "https://www.horshamdistrictwarmspaces.com/copy-of-lower-beeding"
         type: html
   - title: "Hounslow Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
     url: "https://www.hounslow.gov.uk/warmspaces"
     data:
       url: "https://www.hounslow.gov.uk/warmspaces"
       type: html    
   - title: "Hull Council"
+    checked: 2025-10-02
     url: "https://www.hull.gov.uk/benefits-support-and-welfare-advice/debt-and-money/cost-living"
     map:
       url: "https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces"
@@ -1055,24 +1045,27 @@ directories:
       type: geojson
       coords: switch
       keys:
-        title: "fields->sheet1__f4"
+        title: "fields->organisati"
         url: "links->sheet1__f4"
-        address: "{{ fields->sheet1__f5 }}, {{ fields->sheet1__f6 }}, {{ fields->sheet1__f7 }}"
-        contact: "fields->sheet1__f9"
-        description: "fields->activities"
+        address: "{{ fields->address }}"
+        contact: "fields->telephone"
+        description: "fields->offer2"
   - title: "Huntingdonshire Council"
+    checked: 2025-10-02
     url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
     map:
-      url: https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/
+      url: https://www.google.com/maps/d/embed?mid=1wCMMlSzTEe6oJV3wR2D2hbNZ-U0Tm38&ehbc=2E312F
       type: googlemap
     data:
-      url: "https://www.huntingdonshire.gov.uk/people-communities/warm-spaces/warm-spaces-locations/"
+      url: "https://www.huntingdonshire.gov.uk/people-communities/community-spaces/community-spaces-locations/"
       type: html
   - title: "Ipswich Council"
+    checked: 2025-10-02
     inactive: 2023-10-01
     url: "https://www.ipswich.gov.uk/content/warm-bank-venues"
     notes: "No longer exists as of October 2023"
   - title: "Isle of Wight Council"
+    checked: 2025-10-02
     url: "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
     register:
       url: "https://forms.office.com/pages/responsepage.aspx?id=B8c3UX1ZIEqjiUyRWpSgRW6QhHiV7nZNt1ylpUj8I3tUMFAzUUZUQVJSOUdUN0w1VVRQRjY3S0JGTC4u"

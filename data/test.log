@@ -1,4 +1,4 @@
-Tests started: 2025-10-01T15:59:35
+Tests started: 2025-10-02T12:38:24
 
 Test 1: [PASS] "Monday: 1pm - 5pm, Wednesday: 9.30am - 4pm"
 Test 2: [PASS] "&lsquo;Soup Socials&rsquo; will operate from noon to 2pm on Mondays."
@@ -367,6 +367,9 @@ Test 343: [FAIL] "Open every day, 10-4"
   Ideal:  "Mo-Su 10:00-16:00"
 Test 344: [PASS] "Monday 12-2pm"
 Test 345: [PASS] "Thursday, 2pm - 4pm (fortnightly, first and third week of each month)"
+Test 346: [FAIL] "second Monday of the month from 12noon to 1"
+  Output: "Mo[2] 12:00-01:00"
+  Ideal:  "Mo[2] 12:00-13:00"
 
 [PASS]: 336 tests
-[FAIL]: 9 tests
+[FAIL]: 10 tests

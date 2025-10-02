@@ -355,7 +355,8 @@
 		{"text":"first Thursday of every month 10am - 12 noon","good":"Th[1] 10:00-12:00"},
 		{"text":"Open every day, 10-4","good":"Mo-Su 10:00-16:00"},
 		{"text":"Monday 12-2pm","good":"Mo 12:00-14:00"},
-		{"text":"Thursday, 2pm - 4pm (fortnightly, first and third week of each month)","good":"Th[1,3] 14:00-16:00"}
+		{"text":"Thursday, 2pm - 4pm (fortnightly, first and third week of each month)","good":"Th[1,3] 14:00-16:00"},
+		{"text":"second Monday of the month from 12noon to 1","good":"Mo[2] 12:00-13:00"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},

@@ -37,8 +37,7 @@ if(-e $file){
 		$warmspaces->{trimText($title)} = {'links'=>$warm->{'warmspaces'}[$i]{'links'},'p'=>$warm->{'warmspaces'}[$i]{'p'}};
 	}
 	$coords = {};
-	
-	
+
 	if($str =~ /<script type=\"text\/javascript\">(.*?new google.maps.*?)<\/script>/s){
 		$script = $1;
 		$script =~ s/^.*?map.setOptions\(\{styles: styles_0\}\)//gs;
@@ -67,7 +66,6 @@ if(-e $file){
 	}
 	foreach $title (sort(keys(%{$warmspaces}))){
 		$d = {'title'=>$title};
-#		print Dumper $coords->{$title};
 		if($coords->{$title}{'url'}){
 			foreach $bit (sort(keys(%{$coords->{$title}}))){
 				$d->{$bit} = $coords->{$title}{$bit};
@@ -90,6 +88,18 @@ if(-e $file){
 				}
 			}
 		}
+		if($d->{'description'}){
+			$d->{'description'} =~ s/12noon to 1/12 noon to 13:00/;
+			$d->{'description'} =~ s/ ([0-9]{1,2})\.([0-9]{2})/ $1:$2/g;
+			$d->{'description'} =~ s/ ?([ap])\.?(m)\.?/$1$2/g;
+			if($d->{'description'} =~ /([^\.]*)(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)([^\.]*)/){
+				$hours = $1.$2.$3;
+				$d->{'hours'} = parseOpeningHours({'_text'=>$hours});
+				if(!defined($d->{'hours'}{'opening'})){
+					delete $d->{'hours'};
+				}
+			}
+		}
 		if($d->{'url'}){
 			push(@entries,makeJSON($d,1));
 		}
@@ -106,21 +116,4 @@ if(-e $file){
 
 	print "";
 
-}
-
-
-
-
-sub parseJSON {
-	my $str = $_[0];
-	my ($json);
-	# Error check for JS variable
-	$str =~ s/[^\{]*var [^\{]+ = //g;
-	if(!$str){ $str = "{}"; }
-	eval {
-		$json = JSON::XS->new->decode($str);
-	};
-	if($@){ error("\tInvalid output in $file.\n"); $json = {}; }
-	
-	return $json;
 }

@@ -28,8 +28,12 @@ if(-e $file){
 		process 'div[class="collapsible-content-block"]', "warmspaces[]" => scraper {
 #			# And, in each DIV,
 			process 'h3', 'address' => 'TEXT';
+			process 'p', "p[]" => "HTML";
 			process 'li', "li[]" => "TEXT";
 			process 'div[class="collapsible-content"]', 'content' => 'HTML';
+			process 'table tbody tr', 'tr[]' => scraper {
+				process 'td', 'td[]' => 'HTML';
+			};
 		};
 	};
 
@@ -43,11 +47,28 @@ if(-e $file){
 		$d = $res->{'warmspaces'}[$i];
 
 		$d->{'description'} = '';
-		for($li = 0; $li < @{$d->{'li'}}; $li++){ $d->{'description'} .= ($d->{'description'} ? ", ":"").$d->{'li'}[$li]; }
-		$d->{'description'} = "Facilities: ".$d->{'description'};
+		for($p = 0; $p < @{$d->{'p'}}; $p++){
+			if($d->{'p'}[$p] =~ /mailto:([^\"]+)/){
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: ".$1;
+			}elsif($d->{'p'}[$p] =~ /href="([^\"]+)"/){
+				$d->{'url'} = $1;
+			}else{
+				$d->{'description'} .= ($d->{'description'} ? ", ":"").$d->{'p'}[$p];
+			}
+		}
+		
+		$facilities = "";
+		for($li = 0; $li < @{$d->{'li'}}; $li++){
+			$facilities .= ($facilities ? ", ":"").$d->{'li'}[$li];
+		}
+		if($facilities){
+			$d->{'description'} .= "Facilities: ".$facilities;
+		}
 
-		if($d->{'content'} =~ /<h3>Opening times<\/h3>\n*[\t\s]*<p>(.*?)<\/p>/i){
-			$d->{'hours'} = parseOpeningHours({'_text'=>$1});
+		if($d->{'content'} =~ /<h3>Opening times<\/h3>\n*[\t\s]*<p>(.*?)<\/p>/si){
+			$temp = $1;
+			$temp =~ s/<br ?\/?>/; /g;
+			$d->{'hours'} = parseOpeningHours({'_text'=>$temp});
 		}
 
 		delete $d->{'li'};
@@ -56,6 +77,8 @@ if(-e $file){
 
 		# Remove the <li> entry
 		delete $d->{'li'};
+		delete $d->{'p'};
+		delete $d->{'tr'};
 
 		# Store the entry as JSON
 		push(@entries,makeJSON($d,1));

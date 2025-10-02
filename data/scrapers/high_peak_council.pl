@@ -23,6 +23,9 @@ if(-e $file){
 	$str =~ s/\&nbsp;/ /g;
 	# Remove empty paragraphs first - the table has loads of them
 	$str =~ s/<p> <\/p>//g;
+	
+	# Fix
+	$str =~ s/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun) - (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun) - /$1 - $2 /gi;
 
 	# Build a web scraper
 	my $warmspaces = scraper {
@@ -52,7 +55,10 @@ if(-e $file){
 				}
 			}
 			if($d->{'td'}[2] =~ /^<p>(.*?)<\/p>/){
-				$d->{'hours'} = parseOpeningHours({'_text'=>$1});
+				$temp = $d->{'td'}[2];
+				$temp =~ s/<p>//g;
+				$temp =~ s/<\/p>/ /g;
+				$d->{'hours'} = parseOpeningHours({'_text'=>$temp});
 			}
 			if($d->{'td'}[3] =~ /^<p>(.*?)<\/p>/){
 				$d->{'description'} = $1;
