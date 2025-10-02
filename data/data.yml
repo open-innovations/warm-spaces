@@ -754,7 +754,7 @@ directories:
   - title: "Eastleigh Council"
     checked: 2025-10-02
     inactive: 2025-10-02
-    notes: "They are now blocking indexing of their pages"
+    notes: "Blocks scraping (2nd October 2025)"
     url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
     data:
       url: "https://www.eastleigh.gov.uk/our-community/warm-welcomes"
@@ -876,7 +876,7 @@ directories:
   - title: "Gateshead Council"
     checked: 2025-10-02
     inactive: 2025-10-02
-    notes: "They now block indexing"
+    notes: "Blocks scraping (2nd October 2025)"
     url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
     map:
       url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=map&q=*"
@@ -1073,8 +1073,9 @@ directories:
       url: "https://www.iow.gov.uk/keep-the-island-safe/cost-of-living/warm-welcome-spaces-on-the-isle-of-wight/list-of-isle-of-wight-warm-welcome-spaces/"
       type: html
   - title: "Kensington and Chelsea"
-    notes: The map is no longer accessible
+    checked: 2025-10-02
     inactive: 2023-11-23
+    notes: "The map is no longer accessible"
     url: "https://www.rbkc.gov.uk/cost-living-support-hub/warm-spaces-kensington-and-chelsea"
     map:
       url: "https://lbhf.maps.arcgis.com/apps/instant/nearby/index.html?appid=e7e3050fbb8e49b79b5743bf17b9c720&sliderDistance=400&findSource=1&find=-23824.558013193524%252C6713243.6715945285"
@@ -1089,8 +1090,9 @@ directories:
         hours: "Timings_and_Offers"
         url: "Weblink"
   - title: "Kingston Council"
-    url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/8"
+    checked: 2025-10-02
     inactive: 2023-11-10
+    url: "https://www.kingston.gov.uk/benefits-5/support-rising-living-costs/8"
     notes: "Their Google map has had access limited."
     map:
       url: "https://www.google.com/maps/d/u/0/viewer?hl=en&ll=51.41010910537069%2C-0.2977900670410172&z=13&mid=18qlVM3JMV-aKnLig17V9mmEakLlR3Vc"
@@ -1105,12 +1107,14 @@ directories:
         description: "description"
         hours: "description"
   - title: "Kirklees Council"
+    checked: 2025-10-02
     url: "https://www.kirklees.gov.uk/beta/cost-of-living/warm-spaces.aspx"
     notes: "Mentions libraries and refers to Warm Welcome UK. No opening times given by the Kirklees website; they outsource those to Google."
     data:
       url: "https://www.kirklees.gov.uk/beta/wheres-my-nearest/xml/iLibraries.xml"
       type: html
   - title: "Lambeth Council"
+    checked: 2025-10-02
     url: "https://www.lambeth.gov.uk/warm-spaces"
     register:
       url: "https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch"
@@ -1121,6 +1125,7 @@ directories:
       - url: "https://www.lambeth.gov.uk/warm-spaces"
         type: html
   - title: "Lancashire Council"
+    checked: 2025-10-02
     url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-and-welcome-places/"
     register:
       url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/register-as-a-warm-space/"
@@ -1143,6 +1148,10 @@ directories:
           url: "URL"
           address: "{{ ADDRESS1 }}, {{ ADDRESS2 }}, {{ TOWN }}, {{ POSTCODE }}"
   - title: "Lancaster Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
+    notes: "Replaced by Lancashire CC"
+    url: "https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/"
     map:
       url: "https://www.google.com/maps/d/viewer?mid=1bP5gmUB9jRQXMWen1XGLGvp6kl6XgYo&ll=54.079464630036675%2C-2.8243405999999993&z=12"
       type: googlemap
@@ -1150,6 +1159,7 @@ directories:
       url: "https://www.lancaster.gov.uk/sites/cost-of-living/energy-bills-staying-warm"
       type: html
   - title: "Leeds City Council"
+    checked: 2025-10-02
     url: https://www.leeds.gov.uk/campaign/welcome-spaces
     map:
       url: https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/
@@ -1178,39 +1188,44 @@ directories:
         saturday: "Saturday"
         sunday: "Sunday"
   - title: "Leicester Council"
+    checked: 2025-10-02
+    inactive: 2025-10-02
     url: "https://www.leicester.gov.uk/your-community/benefits-and-support/find-a-warm-space/"
     notes: "Refers to Warm Welcome"
   - title: "Lewes and Eastbourne Council"
-    url: "hhttps://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
+    checked: 2025-10-02
+    notes: "Blocks scraping (2nd October 2025)"
+    url: "https://www.lewes-eastbourne.gov.uk/article/1280/Community-Spaces-Warm-Spaces"
     register:
       url: "https://www.lewes-eastbourne.gov.uk/community/cost-of-living-crisis/warm-spaces/application-form/"
     data:
       url: "https://www.lewes-eastbourne.gov.uk/article/1639/Community-Spaces-directory"
       type: html
   - title: "Lewisham Local"
+    checked: 2025-10-02
     url: "https://lewishamlocal.my.site.com/s/warm-welcomes"
     map:
       url: "https://www.lewishamlocal.com/lewisham-warm-welcomes/"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1hFV8_mbekGM3gXlvvEahmDRddCbM_8E&ehbc=2E312F&ll=51.489940563781964%2C-0.08656799999999798&z=9"
+      url: "https://www.google.com/maps/d/u/0/embed?mid=1oy8WfEERTci8pza4RbEsbmUehdkjg3g&ehbc=2E312F&noprof=1"
       type: googlemap
       keys:
-        title: Name
-        address: "Address & Post Code"
-        hours: "Opening Times"
-        description: "Warm Welcome Activities"
+        title: Project Name
+        address: "Address"
+        hours: "{{ Days open }} {{ Opening times }}"
+        contact: "Email: {{ Email }}; Telephone: {{ Phone }}"
+        description: "About Warm Weclome (paragraph)"
   - title: "Lichfield Council"
-    url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
-    map:
-      url: "https://www.lichfielddc.gov.uk/homepage/159/warm-spaces-map"
-      type: googlemap
+    url: "https://www.lichfielddc.gov.uk/cost-living-support-1/warm-spaces-across-lichfield-district"
     data:
       url: "https://www.lichfielddc.gov.uk/directory/11/keeping-warm/category/18"
       type: html
   - title: "Looe Town Council"
-    url: "https://www.looetowncouncil.gov.uk/news/warm-space-sessions"
-    notes: "Only available as a JPG"
+    checked: 2025-10-02
+    url: "https://www.looetowncouncil.gov.uk/the-community/useful-links/education#toggle-id-22"
+    notes: "Directs people to WarmWelcome"
+    inactive: 2025-10-02
   - title: "Luton Council"
     url: "https://m.luton.gov.uk/Page/Show/news/Pages/Stay-Warm-and-Well-this-Winter.aspx"
     data:

@@ -75,7 +75,7 @@ sub getFileAge {
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
-	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile,$cmd);
+	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile,$cmd,$temp,$baseurl,$jsfile);
 
 	$url = $d->{'data'}[$n]{'url'};
 
