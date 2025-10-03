@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.79434,57.07519],"type":"Point"},"properties":{"_source":"aberdeenshire_council","description":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","hours":{"_text":"name: Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN Hours: Every Friday, 10am-12pm","opening":"Fr 10:00-12:00"},"title":"Aboyne Social Space, Aboyne Library, Bridgeview Road, Aboyne, AB34 5JN"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.47162,57.06307],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Unit 14, East Banchory Business Park, Burn O'Bennie Road, Banchory, AB31 5ZU","contact":"Facebook: https://www.facebook.com/DeesideCompassion/","description":"Weekly drop-in providing space to connect with others.","hours":{"_text":"Thursdays 10am - 11.30am. ","opening":"Th 10:00-11:30"},"loc_pcd":true,"title":"Banchory: The Compassion Cafe (part of Grace Church Family)"},"type":"Feature"}
 	]
 }

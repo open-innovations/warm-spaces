@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.70113,57.23181],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Wednesday: 11:00 - 02:00","opening":"We 11:00-02:00"},"title":"Friendship Cafe"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.70113,57.23181],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Wednesday: 11:00 - 02:00","opening":"We 11:00-02:00"},"title":"Friendship Cafe"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.70709,57.23174],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Plot 1, Murray Terrace, Alford, AB33 8PY","loc_pcd":true,"title":"Alford and District Men’s Shed","url":"http://www.alfordmensshed.org.uk/contact-find-us.html"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.70113,57.23179],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Main Street, Alford, AB33 8PX","hours":{"_text":"Wednesdays 11.30am - 2pm. Run in conjunction with Alford Rotary Club.","opening":"We 11:30-14:00"},"loc_pcd":true,"title":"Alford St. Andrew’s Episcopal Church: Friendship Café","url":"https://standrewsalford.weebly.com/contact.html"},"type":"Feature"}
 	]
 }

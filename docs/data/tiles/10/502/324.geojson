@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.42742,54.80812],"type":"Point"},"properties":{"_source":"cumberland_council","contact":"Tel: 01900881044 Email: Pub@thelowtherarms.co.uk","title":"The Lowther Arms, Mawbray","url":"https://www.cumberland.gov.uk/health-and-social-care/public-health/find-local-organisations-can-help-cost-living-and-welfare-support/lowther-arms-mawbray"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.60551,55.42210],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"Stewart Road, Campbeltown, PA28 6AT","description":"A conversation cafe that runs on every Tuesday from 11am - 2pm. Free lunch is provided.","hours":{"_text":"Tuesday from 11am - 2pm","opening":"Tu 11:00-14:00"},"loc_pcd":true,"title":"Kintyre Community Centre"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.60548,55.42210],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"Stewart Road, Campbeltown, PA28 6AT","hours":{"_text":"A conversation cafe that runs on every Tuesday from 11am - 2pm . Free lunch is provided.","opening":"Tu 11:00-14:00"},"loc_pcd":true,"title":"Kintyre Community Centre"},"type":"Feature"}
 	]
 }

@@ -1,1 +1,8 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.05326,54.61870],"type":"Point"},"properties":{"_source":"cumberland_council","contact":"Tel: 017687 72174 Email: awwelton@outlook.com","title":"Community Socials - Tea and Chat at Threlkeld Village Hall","url":"https://www.cumberland.gov.uk/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare/community-socials-tea-and-chat-threlkeld-village-hall"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.12771,54.62528],"type":"Point"},"properties":{"_source":"cumberland_council","contact":"Tel: 017687 72174 Email: awwelton@outlook.com","title":"Community Socials - Tea and Chat at Underskiddaw","url":"https://www.cumberland.gov.uk/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare/community-socials-tea-and-chat-underskiddaw"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.13941,54.60159],"type":"Point"},"properties":{"_source":"cumberland_council","contact":"Tel: 017687 72174 Email: awwelton@outlook.com","title":"Keswick Senior Citizens Club Drop In Centre","url":"https://www.cumberland.gov.uk/health-and-social-care/health-and-wellbeing/cost-living-and-welfare-support/find-local-support-cost-living-and-welfare/keswick-senior-citizens-club-drop-centre"},"type":"Feature"}
+	]
+}

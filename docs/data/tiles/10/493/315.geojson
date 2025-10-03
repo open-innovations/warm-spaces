@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.52752,56.62337],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"Isle of Coll, PA78 6SY","description":"An Cridhe Community Centre have a warm space open from 9am to 9pm each day. There is tea and coffee and free internet available.","loc_pcd":true,"title":"An Cridhe Community Centre"},"type":"Feature"}
+	]
+}

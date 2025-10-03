@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.57864,56.56112],"type":"Point"},"properties":{"_source":"angus_council","address":"Mondays at 7pm at Abbot Street Lounge, 16 Barbers Croft, Arbroath DD11 1HB.","contact":"Facebook: https://www.facebook.com/andysmanclubarbroath","description":"A men's suicide prevention charity, providing a place to come and be, talk or listen. It's not complicated to join us, there's no waiting lists, you don't need a referral, just turn up and have a cup of tea with us and remember, it is okay to talk.","loc_pcd":true,"title":"Andy's Man Club","url":"https://andysmanclub.co.uk/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.46812,56.71369],"type":"Point"},"properties":{"_source":"angus_council","address":"Mondays, Wednesdays and Fridays 10am to 3pm at Montrose Connections, 98 Murray Street, Montrose, DD10 8JG.","contact":"Email: meetingcentre@montrosect.org.uk; Facebook: https://www.facebook.com/MontroseConnections","description":"Meeting Centres are a community based inclusive intervention to support people with mild to moderate dementia and their family carers.","loc_pcd":true,"title":"Dementia support hub"},"type":"Feature"}
+	]
+}
