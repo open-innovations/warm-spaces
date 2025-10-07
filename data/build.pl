@@ -1031,7 +1031,7 @@ sub getHTML {
 		# Get the data (if we don't have a cached version)
 		$file = getDataFromURL($d,$i);
 
-		$log->msg("\tParsing web page using <cyan>$scraper<none>\n");
+		$log->msg("\tParsing web page using <cyan>$scraper<none> (".(-s $file)." bytes)\n");
 
 		$str = `perl $scraper $file`;
 
@@ -1056,6 +1056,9 @@ sub getHTML {
 
 		}else{
 			$log->warning("\tNo JSON returned from scraper\n");
+		}
+		if(@features == 0){
+			$log->warning("\tNo features found in web page.\n");
 		}
 	}else{
 		$log->error("\tNo scraper at scrapers/$d->{'id'}.pl\n");
