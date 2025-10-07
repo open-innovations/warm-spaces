@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.26773,52.76338],"type":"Point"},"properties":{"_source":"powys_council","address":"POWYS COUNTY COUNCIL, LLANFYLLIN LIBRARY YOUTH & COMMUNITY CENTRE, HIGH STREET, LLANFYLLIN, SY22 5BQ","description":"Accessible entrance; Free wi-fi; Free devices to use; Free use of computers; Charging facilities for phones and other devices; Work stations for agile working; Library corner; Book borrowing/swap; Toilets; Disabled toilets; Play equipment; Outdoor space/activities; Car Parking; Other","loc_pcd":true,"title":"Llanfyllin Library","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=2614-1544-1030-7890"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.27209,52.76590],"type":"Point"},"properties":{"_source":"powys_council","address":"THE CROSSKEYS,HIGH STREET,LLANFYLLIN,SY22 5AT","description":"Accessible entrance; Free wi-fi; Free devices to use; Free use of computers; Charging facilities for phones and other devices; Work stations for agile working; Hot drinks cordial and biscuits; Dairy alternative - oat milk / almond milk; TV; Magazines; Library corner; Book borrowing/swap; Toilets; Disabled toilets; Baby changing facilities; Activities; Play equipment; Outdoor space/activities; Other","loc_pcd":true,"title":"The Crosskeys Llanfyllin CIC","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=7274-5690-1697-9646"},"type":"Feature"}
+	]
+}

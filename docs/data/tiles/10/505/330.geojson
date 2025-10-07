@@ -124,6 +124,17 @@
 		{"geometry":{"coordinates":[-2.13598,53.63260],"type":"Point"},"properties":{"_source":"rochdale_council","contact":"smallbridge.library@rochdale.gov.uk","description":"Stevenson Square, Rochdale OL12 9SA","title":"Warm Welcome Space at Smallbridge Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.18128,53.62294],"type":"Point"},"properties":{"_source":"rochdale_council","contact":"spotland.library@rochdale.gov.uk","description":"Ings Lane, Rochdale OL12 7AL","title":"Warm Welcome Space at Spotland Library"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.13238,53.64633],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at Wardle Library"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.17927,53.54374],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at Junction Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.17927,53.54374],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at Junction Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.22786,53.59970],"type":"Point"},"properties":{"_source":"rochdale_council","description":"52 Peel Lane, Heywood OL10 4TU","title":"Warm Welcome Space at Back o' th' Moss Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.14678,53.61960],"type":"Point"},"properties":{"_source":"rochdale_council","description":"108 Ramsay Street, Rochdale OL16 2EZ","title":"Warm Welcome Space at Bangladesh Association and Community Project centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.13747,53.63178],"type":"Point"},"properties":{"_source":"rochdale_council","description":"Smallbridge Church, Rhodes Street, Smallbridge, Rochdale OL12 9RW","title":"Warm Welcome Space at Branches Christian Fellowship"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.22575,53.55974],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at Bowlee Pavilion"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.20954,53.56099],"type":"Point"},"properties":{"_source":"rochdale_council","description":"36 Burnside Crescent, Middleton, Manchester M24 5NN","title":"Warm Welcome Space at Burnside Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.15295,53.60781],"type":"Point"},"properties":{"_source":"rochdale_council","description":"Hare Road, Rochdale OL11 1JT","title":"Warm Welcome Space at Deeplish Community Centre"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.14132,53.62263],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at Kashmir Youth Project"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.15710,53.59780],"type":"Point"},"properties":{"_source":"rochdale_council","description":"79 Daventry Road, Rochdale OL11 2LW","title":"Warm Welcome Space at Kirkholt Community Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.11266,53.61068],"type":"Point"},"properties":{"_source":"rochdale_council","description":"Edmund Street, Milnrow OL16 4HR","title":"Warm Welcome Space at New Life Church"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.16060,53.61749],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Welcome Space at The Salvation Army"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.14882,53.61998],"type":"Point"},"properties":{"_source":"rochdale_council","title":"Warm Safe Space at Wardleworth Community Centre"},"type":"Feature"}
 	]
 }

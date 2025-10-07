@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.15135,52.66020],"type":"Point"},"properties":{"_source":"powys_council","address":"WELSHPOOL BAPTIST CHURCH, CHELSEA LANE, WELSHPOOL, SY21 7JS","description":"Accessible entrance; Free wi-fi; Charging facilities for phones and other devices; Hot drinks cordial and biscuits; Toilets","loc_pcd":true,"title":"Welshpool Baptist Church","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=4128-4868-4078-5558"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.14912,52.66071],"type":"Point"},"properties":{"_source":"powys_council","address":"THE TOWN HALL AND MARKET, HIGH STREET, WELSHPOOL, SY21 7JQ","description":"Accessible entrance; Free wi-fi; Hot drinks cordial and biscuits; Book borrowing/swap; Toilets; Disabled toilets; Baby changing facilities; Other","loc_pcd":true,"title":"Welshpool Town Council","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=5239-8444-3315-7524"},"type":"Feature"}
+	]
+}

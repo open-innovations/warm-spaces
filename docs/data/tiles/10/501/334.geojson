@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.60773,52.89010],"type":"Point"},"properties":{"_source":"cyngor_gwynedd","address":"Llangower, Y Bala , LL237BT","contact":"Tel: 07845237007; Email: neuaddgywair@outlook.com","description":"Defnydd o stafell gynnes / The use of a warm room, Paned / Warm Beverage, Bwyd / Food, WIFI, Gweithgareddau / Activities","hours":{"_text":"Dydd Llun-Gwener"},"loc_pcd":true,"title":"Neuadd Gywair, Llangower"},"type":"Feature"}
+	]
+}

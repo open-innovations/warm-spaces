@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.08873,55.87153],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eyemouth Library, Berwickshire TD14 5JE","description":"Public Library","hours":{"_text":"Monday: 10:00 - 13:00 / 14:00 - 17:00, Thursday: 10:00 - 13:00, Friday: 10:00 - 13:00 / 14:00 - 17:00","opening":"Mo 10:00-13:00,14:00-17:00; Th 10:00-13:00; Fr 10:00-13:00,14:00-17:00"},"title":"Eyemouth Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.08873,55.87153],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eyemouth Library, Berwickshire TD14 5JE","description":"Public Library","hours":{"_text":"Monday: 10:00 - 13:00 / 14:00 - 17:00, Thursday: 10:00 - 13:00, Friday: 10:00 - 13:00 / 14:00 - 17:00","opening":"Mo 10:00-13:00,14:00-17:00; Th 10:00-13:00; Fr 10:00-13:00,14:00-17:00"},"title":"Eyemouth Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.01269,55.77767],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Parade Berwick Upon Tweed Northumberland TD15 1NT","hours":{"_text":""},"loc_pcd":true,"title":"Holy Trinity Berwick Parish Church"},"type":"Feature"}
 	]
 }

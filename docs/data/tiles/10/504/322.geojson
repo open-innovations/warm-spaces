@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.57952,55.23186],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kielder Library, Hexham, Northumberland NE48 1HQ","description":"Our library space is open to all providing free WiFi, PC use, online access and phone charging facilities.","hours":{"_text":"Friday: 13:00 - 17:00","opening":"Fr 13:00-17:00"},"title":"Kielder Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.57952,55.23186],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kielder Library, Hexham, Northumberland NE48 1HQ","description":"Our library space is open to all providing free WiFi, PC use, online access and phone charging facilities.","hours":{"_text":"Friday: 13:00 - 17:00","opening":"Fr 13:00-17:00"},"title":"Kielder Library"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.57956,55.23185],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Kielder Community First School Kielder Northumberland NE48 1HQ","hours":{"_text":""},"loc_pcd":true,"title":"Kielder Library","url":"https://west.northumberlandfrontline.org.uk/Library/ServiceDetail/621635f4324c081715fcce1f"},"type":"Feature"}
 	]
 }
