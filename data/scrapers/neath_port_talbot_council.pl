@@ -33,12 +33,14 @@ if(-e $file){
 
 		for($i = 0; $i < @{$json->{'features'}}; $i++){
 			$area = $json->{'features'}[$i];
+			$area->{'properties'}{'openingHours'} =~ s/\r\n/ /g;
 			$d = {};
 			$d->{'lat'} = $area->{'geometry'}{'coordinates'}[1];
 			$d->{'lon'} = $area->{'geometry'}{'coordinates'}[0];
 			$d->{'title'} = $area->{'properties'}{'name'};
 			$d->{'address'} = $area->{'properties'}{'address'};
 			$d->{'hours'} = parseOpeningHours({'_text'=>$area->{'properties'}{'openingHours'}});
+			$d->{'url'} = "https://www.npt.gov.uk/business/npt-warm-spaces/business-profile/?b=".$area->{'properties'}{'id'};
 
 			push(@entries,makeJSON($d,1));
 		}

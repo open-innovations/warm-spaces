@@ -1217,6 +1217,7 @@ directories:
         contact: "Email: {{ Email }}; Telephone: {{ Phone }}"
         description: "About Warm Weclome (paragraph)"
   - title: "Lichfield Council"
+    checked: 2025-10-07
     url: "https://www.lichfielddc.gov.uk/cost-living-support-1/warm-spaces-across-lichfield-district"
     data:
       url: "https://www.lichfielddc.gov.uk/directory/11/keeping-warm/category/18"
@@ -1227,7 +1228,11 @@ directories:
     notes: "Directs people to WarmWelcome"
     inactive: 2025-10-02
   - title: "Luton Council"
+    checked: 2025-10-07
     url: "https://m.luton.gov.uk/Page/Show/news/Pages/Stay-Warm-and-Well-this-Winter.aspx"
+    map:
+      url: "https://map.foodfirstluton.co.uk/map"
+      type: plinth
     data:
       url: "https://map.foodfirstluton.co.uk/api/points"
       type: html
@@ -1246,65 +1251,67 @@ directories:
         Sec-Fetch-Site: same-origin
         TE: trailers
   - title: "Malvern Hills Council"
+    checked: 2025-10-07
+    inactive: 2025-10-07
     url: "https://www.malvernhills.gov.uk/community/general-information-support"
     notes: "Refers people to Warm Welcome and libraries"
   - title: "Manchester Council"
-    url: "https://www.manchester.gov.uk/info/10050/help_with_the_cost_of_living_crisis/8498/warm_spaces_in_libraries_across_manchester"
-    notes: "Links to libraries"
+    checked: 2025-10-07
+    url: "https://www.manchester.gov.uk/news/article/9579/how_local_libraries_will_help_mancunians_stay_warm_this_winter"
+    notes: "Links to libraries and WarmWelcome"
   - title: "Mansfield Council"
+    checked: 2025-10-07
     url: "https://www.mansfield.gov.uk/finance/financial-support-1/8"
-    notes: "Not enough structure to parse"
+    notes: "Not updated since spring 2024 and is in a PDF"
   - title: "Merton Council"
+    checked: 2025-10-07
     url: "https://www.merton.gov.uk/communities-and-neighbourhoods/warm-spaces"
     notes: "Referes to WarmWelcome"
   - title: "Mid and East Antrim Council"
-    url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
-    notes: "Some spaces are without addresses"
+    checked: 2025-10-07
+    inactive: 2025-10-07
+    url: "https://www.midandeastantrim.gov.uk/warm-spaces"
+    notes: "No content"
     data:
       url: "https://www.midandeastantrim.gov.uk/resident/healthandwellbeing/a-safe-warm-well-come/"
       type: html
   - title: "Midlothian Council"
+    checked: 2025-10-07
     url: "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
     data:
       url: "https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
       type: html
   - title: "Middlesbrough Council"
-    url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
-    map:
-      url: "https://www.middlesbrough.gov.uk/community-support-and-safety/cost-living/warm-spaces"
-      type: googlemap
+    checked: 2025-10-07
+    inactive: 2025-10-07
+    url: "https://www.middlesbrough.gov.uk/community-support/cost-of-living/help-to-keep-warm/"
+    notes: "A <a href='https://www.google.com/maps/d/embed?mid=1UmvNYg24mUNr-rnBaiirspUi5LO8wXY&ehbc=2E312F&ll=54.55430542048388%2C-1.220620400000012&z=12'>Google Map</a> was provided in 2023 but this has not been updated"
     data:
       url: "https://www.google.com/maps/d/embed?mid=1UmvNYg24mUNr-rnBaiirspUi5LO8wXY&ehbc=2E312F&ll=54.55430542048388%2C-1.220620400000012&z=12"
       type: googlemap
       parse: "Address:<br>{{address}}<br>Opening times:{{hours}}"
       keys:
         title: "name"
-    register:
-      url: mailto:livewellcentre@middlesbrough.gov.uk
   - title: "Neath Port Talbot Council"
-    url: "https://www.npt.gov.uk/34533"
+    checked: 2025-10-07
+    url: "https://www.npt.gov.uk/business/npt-warm-spaces/"
     register:
-      url: "https://appsportal2.npt.gov.uk/businessaccount"
+      url: "https://www.npt.gov.uk/your-community/warm-hubs-grant-2025-2026/"
     data:
-      - url: "https://www.npt.gov.uk/34536?c=1"
-        type: html
-      - url: "https://www.npt.gov.uk/34536?c=2"
-        type: html
-      - url: "https://www.npt.gov.uk/34536?c=3"
-        type: html
-      - url: "https://www.npt.gov.uk/34536?c=4"
-        type: html
-      - url: "https://www.npt.gov.uk/34536?c=5"
-        type: html
+      url: "https://www.npt.gov.uk/business/npt-warm-spaces/search/?c=0"
+      type: html
   - title: "Newcastle under Lyme Council"
+    checked: 2025-10-07
     inactive: 2023-04-04
     url: "https://www.newcastle-staffs.gov.uk/warmspaces"
     data:
       url: "https://www.newcastle-staffs.gov.uk/directory/8/a-to-z/A"
       type: html
   - title: "Newham Council"
+    checked: 2025-10-07
+    inactive: 2025-10-07
     notes: "In 2024 they just list their libraries"
-    url: "https://www.newham.gov.uk/warmhavens"
+    url: "https://www.newham.gov.uk/public-health-safety/energy/9"
     map:
       url: "https://lbnewham.maps.arcgis.com/apps/webappviewer/index.html?id=a6fb4671e35243698513effb08478e0d"
       type: arcgis
@@ -1312,24 +1319,25 @@ directories:
       url: "https://libraries.newham.gov.uk/digital-content/libraries/find-a-library"
       type: html
   - title: "Norfolk Community Foundation"
+    checked: 2025-10-07
     url: "https://www.norfolkfoundation.com/hot-spots/"
+    notes: "Needs to be checked again during winter 2025-6"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8"
       type: googlemap
     data:
-      url: "https://www.google.com/maps/d/embed?mid=1WSlv1plWsNXZa9l3RJ_qtwkFYnFn8F0&ehbc=2E312F&ll=52.66981982723225%2C0.9787110000000077&z=8"
+      url: "https://www.google.com/maps/d/embed?mid=1PlhA0LQ2nYqDdl1omiaYhgz_xM_VAT0&ehbc=2E312F&ll=52.68260605654554%2C1.0272583500000065&z=9"
       type: googlemap
       keys:
-        title: "name"
-        address: "{{ Local Authority: Local Authority Name }}, {{ Area of Benefit Postcode }}"
+        title: "Community Hot-Spot Organiser"
+        address: "{{ Address }}, {{ Area of Benefit Postcode }}"
+        hours: "When is this Hot-Spot Running? (PLEASE NOTE THESE TIMES ARE SUBJECT TO CHANGE)"
   - title: "North Devon Council"
-    inactive: 2023-10-01
-    url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
-    notes: "Has been removed as of October 2023"
-    data:
-      url: "https://www.northdevon.gov.uk/cost-of-living-help-and-advice/warm-spaces-in-north-devon/"
-      type: html
+    checked: 2025-10-07
+    url: "https://www.northdevon.gov.uk/leisure-and-lifestyle/community-grants-and-support/warm-spaces-in-north-devon"
+    notes: "Refers people to WarmWelcome"
   - title: "North East Derbyshire"
+    checked: 2025-10-07
     notes: "They use CloudFlare to block access to automated scripts"
     url: "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
   - title: "North Herts Council"
