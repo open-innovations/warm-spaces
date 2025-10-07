@@ -21,30 +21,20 @@ if(-e $file){
 	$str =~ s/[\n\r]/ /g;
 	$str =~ s/[\s]{2,}/ /g;
 	$str =~ s/\&nbsp;/ /g;
-
-	if($str =~ /var myPoints = (\[.*?\]);/s){
-
-		$str = $1;
-		$str =~ s/\,[\n\s\t]*\]/\]/g;
-		if(!$str){ $str = "{}"; }
-		$json = JSON::XS->new->decode($str);	
-
-		for($i = 0; $i < @{$json}; $i++){
-			$d = {};
-			$d->{'lat'} = $json->[$i][0]+0;
-			$d->{'lon'} = $json->[$i][1]+0;
-			if($json->[$i][2] =~ /<h4[^\>]*>(.*?)<\/h4>/){
-				$d->{'title'} = $1;
-			}
-			if($json->[$i][2] =~ /<a href=['"]([^\"\']+)['"]>/){
-				$d->{'url'} = $1;
-			}
-			if($json->[$i][2] =~ /<p[^\>]*>(.*?)<\/p>/){
-				$d->{'description'} = $1;
-				$d->{'description'} =~ s/(Find out more)/<a href="$d->{'url'}">$1<\/a>/;
-			}
-			push(@entries,makeJSON($d,1));
+	
+	while($str =~ s/<h3>(.*?)<\/h3>(.*?)(<h3>|<\/div>)/$3/){
+		$d = {};
+		$d->{'title'} = $1;
+		$html = $2;
+		if($html =~ s/<p><strong>Address:<\/strong> ?(.*?)<\/p>//){
+			$d->{'address'} = $1;
 		}
+		if($html =~ s/<p><strong>Opening hours:<\/strong> ?(.*?)<\/p>//){
+			$d->{'hours'} = parseOpeningHours({'_text'=>$1});
+			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+		}
+
+		push(@entries,makeJSON($d,1));
 	}
 
 	open(FILE,">:utf8","$file.json");

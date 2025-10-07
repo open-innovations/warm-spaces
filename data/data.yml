@@ -1748,8 +1748,8 @@ directories:
     url: "https://www.tendringdc.gov.uk/warm-hubs"
     notes: "As of winter 2024 they no longer seem to have a dedicated page"
   - title: "Tewkesbury Council"
+    checked: 2025-10-07
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
-    notes: "No location information is given so they can't be geocoded"
     register:
       url: "https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/"
     map:
@@ -1759,20 +1759,19 @@ directories:
       url: "https://tewkesbury.gov.uk/services/community/warm-spaces/warm-spaces-directory-list/"
       type: html
   - title: "Tonbridge and Malling Council"
+    checked: 2025-10-07
     url: "https://www.tmbc.gov.uk/community-services/warm-spaces"
     data:
       url: "https://www.tmbc.gov.uk/directory/7/a-to-z/A"
       type: html
   - title: "Torbay Council"
-    inactive: 2023-04-04
-    url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/"
-    map:
-      url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/"
-      type: googlemap
+    checked: 2025-10-07
+    url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces-col/"
     data:
-      url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces/find-a-warm-space/"
+      url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces-col/"
       type: html
   - title: "Vale of Glamorgan Council"
+    checked: 2025-10-07
     url: "https://www.valeofglamorgan.gov.uk/en/living/Cost-of-Living/Warm-Spaces.aspx"
     map:
       url: "https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700"

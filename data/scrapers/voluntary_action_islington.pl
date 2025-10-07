@@ -22,18 +22,27 @@ if(-e $file){
 	$str =~ s/\&nbsp;/ /g;
 	$str =~ s/ / /g;
 
-	while($str =~ s/<p><(b|strong)>(.*?)<\/(b|strong)><\/p>(.*?)<p> <\/p>//s){
+	while($str =~ s/<p><(b|strong)>[0-9]+\. (.*?)<br ?\/?>(.*?)<\/p>//s){
 		$d = {};
-		$d->{'title'} = trimText($2);
-		$txt = $4;
+		$d->{'title'} = trimHTML(trimText($2));
+		$txt = $3;
+
+
 		@ps = split(/<p>/,$txt);
 		$hours = "";
 		for($p = 0; $p < @ps; $p++){
-			if($ps[$p] =~ /<img [^\>]+address[^\>]+>[\s ]*<a href="([^\"]+)">(.*?)<\/a>/){
-				$d->{'address'} = trimText($2);
+			if($ps[$p] =~ /Address: ?(.*)/){
+				$d->{'address'} = trimHTML(trimText($1));
 			}
-			if($ps[$p] =~ /Opening-Hours[^\>]+>([^\>]*)</){
-				$hours .= trimText($1);
+			if($ps[$p] =~ /Opening time: ?(.*)/){
+				$d->{'hours'} = parseOpeningHours({'_text'=>$1});
+				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+			}
+			if($ps[$p] =~ /Email:.*mailto:([^\"]*)\"/){
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: $1";
+			}
+			if($ps[$p] =~ /Telephone: ?(.*)/){
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Telephone: ".trimHTML($1);
 			}
 			if($ps[$p] =~ /Website Icon[^\>]+><a href="([^\"]*)"/){
 				$d->{'url'} = $1;
@@ -43,6 +52,7 @@ if(-e $file){
 			$d->{'hours'} = parseOpeningHours({'_text'=>$hours});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 		}
+
 		# Store the entry as JSON
 		push(@entries,makeJSON($d,1));
 	}
@@ -59,3 +69,11 @@ if(-e $file){
 
 }
 
+
+sub trimHTML {
+	my $str = shift;
+	$str =~ s/<[^\>]*>/ /g;
+	$str =~ s/\s+/ /g;
+	$str =~ s/(^\s|\s$)//g;
+	return $str;
+}
