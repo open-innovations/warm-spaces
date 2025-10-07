@@ -19,22 +19,21 @@ if(-e $file){
 	close(FILE);
 	$str = join("",@lines);
 
-	while($str =~ s/<h3>(.*?)<\/h3>(.*?)<hr ?\/?>//s){
+	if($str =~ /var dataCommunitySpaces = (.*)/s){
+		$json = parseJSON($1);
+	}else{
+		error("\tNo JSON data found\n");
+		return "";
+	}
+
+	@features = @{$json->{'features'}};
+
+	for($f = 0; $f < @features; $f++){
 		$d = {};
-		$d->{'title'} = parseText($1);
-		$content = $2;
-		$content =~ s/\&nbsp;/ /g;
-		$content =~ s/[\s]{2,}/ /g;
-		if($content =~ s/<p>.*?Address:.*?>(.*?)<br \/>//){
-			$d->{'address'} = parseText($1);
-		}
-		if($content =~ s/<strong>Drop-in[^\<]*(.*?)<strong>/<strong>/){
-			$d->{'hours'} = parseOpeningHours({'_text'=>parseText($1)});
-			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
-		}
-		$content =~ s/<br \/>/; /g;
-		$content =~ s/<[^\>]+>//g;
-		$d->{'description'} = $content;
+		$d->{'title'} = $features[$f]->{'properties'}{'popupContent'};
+		$d->{'url'} = $features[$f]->{'properties'}{'url'};
+		$d->{'lat'} = $features[$f]->{'geometry'}{'coordinates'}[1];
+		$d->{'lon'} = $features[$f]->{'geometry'}{'coordinates'}[0];
 
 		push(@entries,makeJSON($d,1));
 	}

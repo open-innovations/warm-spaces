@@ -20,6 +20,7 @@ if(-e $file){
 	$str = join("",@lines);
 
 	$str =~ s/[\n\r]+/\n/s;
+	$str =~ s/\&nbsp;/ /gs;
 
 	@entries = ();
 	

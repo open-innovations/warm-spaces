@@ -31,31 +31,41 @@ if(-e $file){
 	my $res = $warmspaces->scrape($str);
 	for($i = 0; $i < @{$res->{'titles'}}; $i++){
 
-
 		$d = {};
 		$d->{'title'} = trimText($res->{'titles'}[$i]);
 
 		@bits = @{$res->{'content'}[$i]{'p'}};
-		for($b = 0; $b < @bits; $b++){
-			if($bits[$b] =~ /Location/ && $b+1 < @bits){
-				$d->{'address'} = $bits[$b+1];
+		@ps = ();
+		for($b = 0,$p = -1; $b < @bits; $b++){
+			if($bits[$b] =~ /^<strong>/){
+				$p++;
 			}
-			if($bits[$b] =~ /<strong>Opening hours<\/strong>(.*)$/i){
-				$bits[$b] = trimHTML($1);
-				$d->{'hours'} = parseOpeningHours({'_text'=>$bits[$b]});
+			$ps[$p] .= ($ps[$p] ? " ":"").$bits[$b];
+		}
+		for($p = 0; $p < @ps; $p++){
+			$ps[$p] =~ s/<br ?\/?>//g;
+			$ps[$p] =~ s/<\/?span[^\>]*>//g;
+			$ps[$p] =~ s/<strong[^\>]*>/ /g;
+			$ps[$p] =~ s/<\/strong[^\>]*>/ /g;
+			$ps[$p] =~ s/(^\s*|\s*$)//g;
+		}
+
+		for($p = 0; $p < @ps; $p++){
+			if($ps[$p] =~ /^Location ?(.*)$/i){
+				$d->{'address'} = trimHTML($1);
+			}elsif($ps[$p] =~ /^Opening hours ?(.*)$/i){
+				$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($1)});
 				if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
-			}
-			if($bits[$b] =~ /<strong>Activity<\/strong>(.*)$/i){
+			}elsif($ps[$p] =~ /^Activity ?(.*)$/i){
 				$d->{'description'} = trimHTML($1);
-			}
-			if($bits[$b] =~ /Website.*href="([^\"]+)"/){
+			}elsif($ps[$p] =~ /^Website.*href="([^\"]+)"/){
 				$d->{'url'} = $1;
 			}
-			if($bits[$b] =~ /Contact.*href="mailto:([^\"]+)"/){
-				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".trimText($1);
+			if($ps[$p] =~ s/^(Contact.*)<a href="mailto:([^\"]+)">.*?<\/a>/$1/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".trimText($2);
 			}
-			if($bits[$b] =~ /Contact.*((\+[0-9]+)?\s*((\(0\)|0)[0-9]{2,})\s+(([0-9]{3,} ?[0-9]{3,})))/){
-				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".trimText($1);
+			if($ps[$p] =~ /^Contact ?(.*)((\+[0-9]+)?\s*((\(0\)|0)[0-9]{2,})\s+(([0-9]{3,} ?[0-9]{3,})))/){
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Telephone: ".trimHTML($1)." ".trimText($2);
 			}
 			
 		}

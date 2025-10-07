@@ -25,7 +25,7 @@ if(-e $file){
 
 	# Build a web scraper
 	$warmspaces = scraper {
-		process '#main .infopage table > tbody > tr', "warmspaces[]" => scraper {
+		process '#main .infopage > table > tbody > tr', "warmspaces[]" => scraper {
 			process 'td[valign="top"]', 'td[]' => 'HTML';
 		};
 	};
@@ -39,6 +39,7 @@ if(-e $file){
 		}else{
 			@td = ();
 		}
+
 		$d = {};
 		if(@td == 5){
 			if($td[0] =~ /href="([^\"]+)"/){
@@ -54,12 +55,35 @@ if(-e $file){
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 			if(!$d->{'hours'}{'_text'}){ delete $d->{'hours'}; }
 			$d->{'description'} = trimHTML($td[3]);
+
+		}elsif(@td == 4){
+
+			if($td[0] =~ s/<a href="([^\"]+)">(.*?)<\/a>//){
+				$d->{'url'} = $1;
+				$d->{'title'} = $2;
+				if($d->{'url'} =~ /^\//){ $d->{'url'} = "https://www.tameside.gov.uk".$d->{'url'}; }
+				$d->{'address'} = trimHTML($td[0]);
+			}
+
+			if($d->{'address'} =~ s/\.? ([0-9]{4,} ?[0-9]{3,8} ?[0-9]{3,8})//){
+				$d->{'contact'} = "Tel: ".$1;
+			}
+
+			$d->{'address'} =~ s/(^\, ?| ?\,$)//g;
+
+			$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($td[1])});
+			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
+			if(!$d->{'hours'}{'_text'}){ delete $d->{'hours'}; }
+
+			$d->{'description'} = trimHTML($td[2]);
+
 		}
 
 		if($d->{'title'}){
 			push(@entries,makeJSON($d,1));
 		}
 	}
+
 	open(FILE,">:utf8","$file.json");
 	print FILE "[\n".join(",\n",@entries)."\n]";
 	close(FILE);

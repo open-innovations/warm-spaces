@@ -28,7 +28,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process '.paragraph--type--localgov-accordion-pane .field--name-localgov-body-text', "warmspaces[]" => 'HTML';
+		process '.scc-accordion-v2__content', "warmspaces[]" => 'HTML';
 	};
 	my $res = $warmspaces->scrape( $str );
 	my $n = @{$res->{'warmspaces'}};
@@ -37,10 +37,11 @@ if(-e $file){
 	for($i = 0; $i < @{$res->{'warmspaces'}}; $i++){
 		$str = $res->{'warmspaces'}[$i];
 
-		while($str =~ s/<h4 id="([^\>]*)">(.*?)<\/h4>(.*?)(<h4|$)/$4/){
+		while($str =~ s/<h4>(.*?)<\/h4>(.*?)(<h4|$)/$4/){
+			
 			$d = {};
-			$d->{'title'} = $2;
-			$html = $3;
+			$d->{'title'} = $1;
+			$html = $2;
 			if($html =~ s/<p>(Open:)<\/p><ul>(.*?)<\/ul>// || $html =~ s/<p>(Open) ((Mon|Tue|Wed|Thu|Fri|Sat|Sun).*?)<\/p>//){
 				$hours = $1." ".$2;
 				$hours =~ s/<\/li>/; /g;
@@ -48,28 +49,18 @@ if(-e $file){
 				$hours =~ s/; $//g;
 				$d->{'hours'} = parseOpeningHours({'_text'=>$hours});
 			}
-			if($html =~ s/<p>Contact:<\/p><ul>(.*?)<\/ul>//){
-				$contact = $1;
-				$contact =~ s/<li>//g;
-				@li = split(/<\/li>/,$contact);
-				for($l = 0; $l < @li; $l++){
-					if($li[$l] =~ /([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})/){
-						$d->{'address'} = $li[$l];
-					}
-					if($li[$l] =~ /href="([^\"]*)"/){
-						$d->{'url'} = $1;
-					}
-					if($li[$l] =~ /([0-9\s]{8,})/){
-						$d->{'contact'} = "Telephone: $1";
-					}
-				}
+			if($html =~ s/<p>Address: (.*?)<\/p>//){
+				$d->{'address'} = $1;
 			}
 			$html =~ s/<\/?ul>//g;
 			$html =~ s/<\/li><li>/; /g;
 			$html =~ s/<\/?li>//g;
-			$html =~ s/<\/?p>/ /g;
+			$html =~ s/<\/p>/. /g;
+			$html =~ s/<p>//g;
+			$html =~ s/<hr ?\/?>//g;
 			$html =~ s/(^ | $)//g;
 			$html =~ s/\s+/ /g;
+			$html =~ s/\.+/\./g;
 			$d->{'description'} = $html;
 			push(@entries,makeJSON($d));
 		}

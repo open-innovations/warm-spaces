@@ -1339,42 +1339,50 @@ directories:
   - title: "North East Derbyshire"
     checked: 2025-10-07
     notes: "They use CloudFlare to block access to automated scripts"
+    blocked: true
     url: "https://www.ne-derbyshire.gov.uk/community/cost-of-living/warm-spaces"
   - title: "North Herts Council"
+    checked: 2025-10-07
     inactive: 2023-10-01
     url: "https://www.north-herts.gov.uk/warm-spaces"
     notes: "Removed as of October 2023"
   - title: "North Northamptonshire Council"
-    notes: "As of 24 October 2024 they are coordinating a network but haven't put it anywhere yet."
+    checked: 2025-10-07
+    notes: "As in 2024 they are coordinating a network but still don't seem to have put it anywhere online yet."
     url: "https://www.northnorthants.gov.uk/cost-living/warm-spaces"
     register:
-      url: "https://www.northnorthants.gov.uk/supporting-residents/register-warm-space"
+      url: "https://www.northnorthants.gov.uk/support-offer/register-warm-space"
   - title: "North Somerset Council"
+    checked: 2025-10-07
     url: "https://www.n-somerset.gov.uk/my-services/north-somerset-together/community-living-rooms-north-somerset"
-    notes: "Static image map is not parseable"
+    notes: "Static image map is not parseable. May not be updated."
     map:
       url: "https://map.n-somerset.gov.uk/communitylivingrooms.html"
       type: os
   - title: "North Yorkshire Council"
+    checked: 2025-10-07
     url: "https://www.northyorks.gov.uk/healthy-living/other-health-information/keep-well-and-warm-winter"
     notes: "Links to WarmWelcomeUK"
   - title: "Northumberland County Council"
-    url: "https://www.northumberland.gov.uk/Support/Types-of-support/Warm-Spaces.aspx"
+    checked: 2025-10-07
+    url: "https://www.northumberland.gov.uk/cost-living-support/warm-community-spaces-near-you"
     register:
       url: "https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q"
     map:
-      url: "http://northumberland.maps.arcgis.com/apps/webappviewer/index.html?id=00357beba6b34afe80940a3fd4b6e6ef"
+      url: "https://experience.arcgis.com/experience/7d5148655cf2405b928b9c55bbb97804"
       type: arcgis
+    debug: true
     data:
       url: "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Support/Warm%20Spaces/Warm-spaces-in-Northumberland.xlsx"
       type: xls
-      sheet: "sheet1"
+      sheet: "sheet2"
       startrow: 2
       keys:
         title: "A"
         address: "B"
         url: "C"
   - title: "Oxford Council"
+    checked: 2025-10-07
     url: "https://www.oxford.gov.uk/warmspaces"
     map:
       url: "https://www.google.com/maps/d/embed?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&ehbc=2E312F&ll=51.75012025595476%2C-1.2414510500000064&z=12"
@@ -1389,6 +1397,7 @@ directories:
         description: "description"
         hours: "description"
   - title: "Perth and Kinross Council"
+    checked: 2025-10-07
     url: "https://www.pkc.gov.uk/warmspaces"
     map:
       url: "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716"
@@ -1405,6 +1414,7 @@ directories:
     register:
       url: mailto:CommunityPlanningPartnership@pkc.gov.uk
   - title: "Peterborough Council"
+    checked: 2025-10-07
     inactive: 2023-11-30
     notes: "They have removed their winter support hubs and now have Cost of Living Support Hubs which may or may not be a warm space"
     url: "https://www.peterborough.gov.uk/council/campaigns/support-with-the-cost-of-living/winter-support-hubs"
@@ -1418,56 +1428,47 @@ directories:
        url: "https://www.placesforpeople.co.uk/about-us/community/community-projects/"
        type: html
   - title: "Plymouth Council"
-    url: "https://www.plymouth.gov.uk/warm-welcoming-spaces"
-    register:
-      url: "https://plymouth-self.achieveservice.com/en/AchieveForms/?form_uri=sandbox-publish://AF-Process-caff32d7-4540-4bbe-81f5-e1197581c684/AF-Stage-ae3f08e6-58ef-42f9-904e-1397d96ed7b9/definition.json&redirectlink=%2Fen&cancelRedirectLink=%2Fen&consentMessage=yes"
-    map:
-      url: "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13"
-      type: googlemap
-    data:
-      url: "https://www.google.com/maps/d/embed?mid=1RFMKXwh6yBJGzxwWyoiAOorXH51CxLM&ll=50.39134023710181%2C-4.119128149999997&z=13"
-      type: googlemap
-      keys:
-        url: "Website"
-        contact: "Contact telephone number"
-        address: "Full address and postcode"
-        title: "Building / venue name"
-        hours: "Opening days/hours"
-        description: "Services or activities provided: (e.g. Wi-Fi, refreshments, games, art & craft, support & advice, food etc.)"
+    checked: 2025-10-07
+    url: "https://www.plymouth.gov.uk/welcoming-spaces"
+    notes: "Now links to other providers"
   - title: "Portsmouth Council"
-    url: "https://www.portsmouth.gov.uk/services/benefits-and-support/cost-of-living-hub/help-others-during-the-cost-of-living-crisis/warm-spaces/"
-    data:
-      url: "https://www.portsmouth.gov.uk/wp-json/wpgmza/v1/features/base64eJyrVkrLzClJLVKyUqqOUcpNLIjPTIlRsopRMjWIUdIBiRRnlBZ4uhQDBaNjgQLJpcUl+blumak5KRCxWqVaABZ5Fu4"
-      type: html
+    checked: 2025-10-07
+    url: "https://www.portsmouth.gov.uk/services/benefits-and-money-advice/cost-of-living-hub/help-others-with-the-rising-cost-of-living/warm-spaces/"
+    notes: "No longer linked to even though <a href='https://www.portsmouth.gov.uk/wp-json/wpgmza/v1/features/base64eJyrVkrLzClJLVKyUqqOUcpNLIjPTIlRsopRMjWIUdIBiRRnlBZ4uhQDBaNjgQLJpcUl+blumak5KRCxWqVaABZ5Fu4'>the data exists</a>"
   - title: "Powys Council"
-    url: "https://en.powys.gov.uk/costofliving"
-    notes: "As of 2024-11-27 they are creating a network"
+    checked: 2025-10-07
+    url: "https://en.powys.gov.uk/powyswarmspaces"
     register:
       url: "https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys"
+    map:
+      url: https://en.powys.gov.uk/powyswarmspaces?view=map
+      type: os
+    data:
+      url: "https://en.powys.gov.uk/powyswarmspaces"
+      type: html
   - title: "Preston Council"
+    checked: 2025-10-07
     inactive: 2024-11-27
-    url: "https://council.lancashire.gov.uk/documents/s200514/Appendix%20A.pdf"
-    notes: "Direct to Lancashire"
+    notes: "Replaced by Lancashire CC"
   - title: "Reading Council"
-    url: "https://www.reading.gov.uk/housing/money-matters/warm-spaces-in-reading/"
+    checked: 2025-10-07
+    url: "https://www.reading.gov.uk/benefits-and-financial-support/money-matters/warm-spaces-in-reading/"
     notes: "Not enough structure to be able to parse"
   - title: "Redcar and Cleveland Council"
-    url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+    checked: 2025-10-07
+    url: "https://www.redcar-cleveland.gov.uk/warm-spaces"
     map:
-      url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+      url: "https://www.redcar-cleveland.gov.uk/warm-spaces"
       type: leaflet
     data:
-      - url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces"
+      - url: "https://www.redcar-cleveland.gov.uk/warm-spaces?page=0"
         type: html
-      - url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces?page=1"
+      - url: "https://www.redcar-cleveland.gov.uk/warm-spaces?page=1"
         type: html
-      - url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces?page=2"
-        type: html
-      - url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces?page=3"
-        type: html
-      - url: "https://www.redcar-cleveland.gov.uk/cost-of-living-support/warm-spaces?page=4"
+      - url: "https://www.redcar-cleveland.gov.uk/warm-spaces?page=2"
         type: html
   - title: "Richmond upon Thames Council"
+    checked: 2025-10-07
     url: "https://richmond.gov.uk/services/cost_of_living_hub/warm_spaces"
     register:
       url: "https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory"
@@ -1478,6 +1479,7 @@ directories:
       url: "https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory"
       type: html
   - title: "Rochdale Council"
+    checked: 2025-10-07
     url: "https://www.rochdale.gov.uk/warmspaces"
     map:
       url: "https://www.google.com/maps/d/viewer?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&ll=53.59395131187499%2C-2.1698963500000046&z=12"
@@ -1490,22 +1492,27 @@ directories:
         description: "description"
         contact: "Email"
   - title: "Rotherham Council"
+    checked: 2025-10-07
     url: "https://www.rotherham.gov.uk/warm-welcome"
     notes: "Refers people to Warm Welcome"
   - title: "Rugby Council"
+    checked: 2025-10-07
     url: "https://www.rugby.gov.uk/warmhubs"
     data:
       url: "https://www.rugby.gov.uk/warmhubs"
       type: html
   - title: "Ryedale Council"
+    checked: 2025-10-07
     inactive: 2023-04-01
     url: "https://docs.google.com/document/d/1yXJo4aSFxJanNCN_eoxt5sr1es1zBFzM/edit"
     notes: "No longer exists. Merged into North Yorkshire council."
   - title: "Salisbury Council"
+    checked: 2025-10-07
     inactive: 2024-11-28
     url: "https://www.salisburycitycouncil.gov.uk/responsibilities/community-development/warm-and-welcoming-spaces"
     notes: "Since removed"
   - title: "Sandwell Council"
+    checked: 2025-10-07
     url: "https://www.sandwell.gov.uk/warmspaces"
     map:
       url: "https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces"
@@ -1514,6 +1521,7 @@ directories:
       url: "https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces"
       type: html
   - title: "Scarborough Council"
+    checked: 2025-10-07
     inactive: 2023-12-12
     notes: "No longer exists. Scarborough is now part of North Yorkshire council."
     url: "https://www.scarborough.gov.uk/latest-news/launch-warm-spaces-online-database"
@@ -1527,11 +1535,13 @@ directories:
         Content-Type: "application/json"
         softr-page-id: "f1621728-1e38-4b0e-ac4e-a01420cc4945"
   - title: "Sefton Council"
+    checked: 2025-10-07
     url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
     data:
       url: "https://www.sefton.gov.uk/cost-of-living/warm-places-details/"
       type: html
   - title: "Sefton CVS"
+    checked: 2025-10-07
     url: "https://seftoncvs.org.uk/warmspaces/"
     map:
       url: "https://seftoncvs.org.uk/warmspaces/"
@@ -1543,6 +1553,7 @@ directories:
       keys:
         title: "name"
   - title: "Sevenoaks Council"
+    checked: 2025-10-07
     url: "https://www.sevenoaks.gov.uk/info/20026/your_community/686/warm_spaces"
     register:
       url: "https://sevenoaks-dc-central.oncreate.app/w/webpage/request?service=warm_spaces"
@@ -1550,6 +1561,7 @@ directories:
       url: "https://www.sevenoaks.gov.uk/directory/37/warm_spaces"
       type: html
   - title: "Sheffield VAS"
+    checked: 2025-10-07
     url: "https://www.vas.org.uk/sheffield-living-crisis-map-of-support/"
     map:
       url: "https://foxdash.co.uk/vas/index.htm"
@@ -1568,29 +1580,42 @@ directories:
         description: "information"
         hours: "openingtimes"
   - title: "South Cambs Council"
-    url: "https://www.scambs.gov.uk/warm-hubs/"
+    checked: 2025-10-07
+    url: "https://scambs.gov.uk/community-and-people/community-hubs"
+    map:
+      url: "https://www.google.com/maps/d/embed?mid=1agvlRj_UnyGXZwMB6WdLKiH8WS-7wf8&ehbc=2E312F&ll=52.19536637105232%2C0.15465880000000265&z=10"
     data:
-      url: "https://www.scambs.gov.uk/warm-hubs/"
-      type: html
+      url: "https://www.google.com/maps/d/embed?mid=1agvlRj_UnyGXZwMB6WdLKiH8WS-7wf8&ehbc=2E312F&ll=52.19536637105232%2C0.15465880000000265&z=10"
+      type: googlemap
+      keys:
+        title: "name"
+        address: "description"
+        hours: "Opening times"
   - title: "South Tyneside Council"
-    url: "https://www.southtyneside.gov.uk/article/14924/Warm-spaces-South-Tyneside"
+    checked: 2025-10-07
+    notes: "Individual pages and directory are now blocked by CloudFlare"
+    blocked: true
+    checked: ""
+    url: "https://www.southtyneside.gov.uk/article/17556/Welcoming-places-in-South-Tyneside"
     map:
       url: "https://maps.southtyneside.gov.uk/warm_spaces/"
-      type: os
+      type: leaflet
     data:
-      - url: "https://www.southtyneside.gov.uk/article/14887/Warm-spaces-South-Tyneside-Community-spaces"
-        type: html
-      - url: "https://www.southtyneside.gov.uk/article/14901"
-        type: html
-      - url: "https://www.southtyneside.gov.uk/article/14899"
-        type: html
-      - url: "https://maps.southtyneside.gov.uk/warm_spaces/assets/data/wsst_council_spaces.geojson.js"
-        type: geojson
-        keys:
-          title: "popupContent"
-          url: "url"
+      url: "https://maps.southtyneside.gov.uk/warm_spaces/assets/data/wsst_community_spaces.geojson.js"
+      type: html
+  - title: "Southwalk Council"
+    checked: 2025-10-07
+    url: "https://services.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
+    map:
+      url: "https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
+    data:
+      url: "https://www.southwark.gov.uk/benefits-and-support/cost-living/warm-spaces"
+      type: html
   - title: "Spark Somerset"
-    url: "https://sparksomerset.org.uk/warm-welcome"
+    checked: 2025-10-07
+    needscheck: true
+    inactive: 2025-04-10
+    url: "https://www.sparksomerset.org.uk/find-warm-welcome/"
     register:
       url: "https://www.surveymonkey.co.uk/r/warmwelcomesomerset"
     map:
@@ -1601,56 +1626,21 @@ directories:
       headers:
         Cookie: "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk"
       type: html
-  - title: "Southwalk Council"
-    notes: "Removed. Being updated in autumn 2023."
-    url: "https://services.southwark.gov.uk/benefits-and-support/cost-of-living-support/warm-spaces"
-    map:
-      url: "https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
-    data:
-      url: "https://geomap.southwark.gov.uk/connect/analyst/controller/connectProxy/rest/Spatial/FeatureService"
-      type: geojson
-      method: POST
-      convertFromOSGB: true
-      set-cookies: "https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
-      form: "url=tables%2Ffeatures.json%3Fpage%3D1%26pageLength%3D100&encodeSpecialChars=true&postData=%7B%22query%22%3A%22SELECT%20%5C%22Type%5C%22%2C%5C%22Warm_Space%5C%22%2C%5C%22Address%5C%22%2C%5C%22Postcode%5C%22%2C%5C%22Service_Group%5C%22%2C%5C%22Opening_schedule%5C%22%2C%5C%22Open_from%5C%22%2C%5C%22Services_available%5C%22%2C%5C%22Website%5C%22%2C%5C%22Phone_number%5C%22%2C%5C%22Wheelchair_accessible%5C%22%2C%5C%22Accessible_toilet%5C%22%2C%5C%22Hearing__audio_induction__loop%5C%22%2C%5C%22Accessible_parking%5C%22%2C%5C%22Transport_provided%5C%22%2C%5C%22Languages_available_other_than%5C%22%2C%5C%22Accessibility_Other%5C%22%2C%5C%22X%5C%22%2C%5C%22Y%5C%22%2C%5C%22Ward%5C%22%20FROM%20%5C%22%2FNamedTables%2FWarm_Spaces_in_Southwark%5C%22%20WHERE%20MI_Intersects(obj%2CMI_Box(530186%2C170547%2C537292%2C181585%2C'EPSG%3A27700'))%22%7D&projectName=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces"
-      headers:
-        Accept: "application/json, text/plain, */*"
-        Accept-Language: "en-GB,en;q=0.5"
-        Accept-Encoding: "gzip, deflate"
-        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0"
-        Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
-        Origin: https://geomap.southwark.gov.uk
-        DNT: 1
-        Connection: keep-alive
-        Sec-Fetch-Dest: empty,
-        Sec-Fetch-Mode: cors
-        Sec-Fetch-Site: same-origin
-        Pragma: no-cache
-        Cache-Control: no-cache
-        TE: trailers
-      keys:
-        title: "Warm_Space"
-        url: "Website"
-        address: "{{ Address }}, {{ Postcode }}"
-        contact: "Tel: {{ Phone_number }}"
-        hours: "Opening_schedule"
-        description: "{{Services_available }}\nAccessibility:\nwheelchair: {{ Wheelchair_accessible }}; toilet: {{ Accessible_toilet }}; induction loop: {{ Hearing__audio_induction__loop }}; parking: {{ Accessible_parking }}; other: {{ Accessibility_Other }}"
   - title: "St Helens Council"
+    checked: 2025-10-07
     url: "https://www.sthelens.gov.uk/welcomespaces"
     register:
       url: "https://sthelens.gov.uk/article/7260/Register-your-warm-space"
     data:
-      - url: "https://www.sthelens.gov.uk/article/7261/Directory"
-        type: html
-  - title: "Stafford Borough Council"
-    inactive: 2024-11-28
-    notes: "No longer provide a directory"
-    url: "https://www.staffordbc.gov.uk/warm-spaces"
-    register: mailto:warmspaces@staffordbc.gov.uk
-    data:
-      url: "https://www.staffordbc.gov.uk/warm-spaces"
+      url: "https://www.sthelens.gov.uk/article/7261/Directory"
       type: html
+  - title: "Stafford Borough Council"
+    checked: 2025-10-07
+    needscheck: true
+    url: "https://www.staffordbc.gov.uk/warm-spaces"
+    register: mailto:WarmSpaces@staffordbc.gov.uk
   - title: "Staffordshire Fire and Rescue"
+    checked: 2025-10-07
     inactive: 2023-11-30
     notes: "Has been removed"
     url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
@@ -1658,13 +1648,14 @@ directories:
       url: "https://www.staffordshirefire.gov.uk/your-safety/safety-at-home/be-warm-be-safe/warm-spaces/"
       type: html
   - title: "Stevenage Council"
-    notes: "Removed."
+    checked: 2025-10-07
+    inactive: 2025-10-07
+    notes: "No longer contains warm spaces"
     url: "https://www.stevenage.gov.uk/town-and-community/emergencies/keeping-warm-in-winter"
   - title: "Stockport Council"
-    url: "https://www.stockport.gov.uk/warm-spaces"
-    map:
-      url: "https://www.stockport.gov.uk/warm-spaces"
-      type: leaflet
+    checked: 2025-10-07
+    needscheck: true
+    url: "https://www.stockport.gov.uk/news/support-available-to-residents-and-families-this-winter"
     data:
       url: "https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=neighbourhoods:warm_spaces2&outputFormat=application/json&bbox=-2.2731399536132817,53.320415173590504,-2.003288269042969,53.463729990468764,EPSG:4326&srsName=EPSG:4326"
       type: geojson
@@ -1675,6 +1666,9 @@ directories:
         contact: "phone_number"
         url: "website"
   - title: "Stockton-on-Tees Council"
+    checked: 2025-10-07
+    notes: "Blocked by CloudFlare"
+    blocked: true
     url: "https://www.stockton.gov.uk/community-spaces"
     register:
       url: "https://www.stockton.gov.uk/warm-spaces-application"
@@ -1682,11 +1676,13 @@ directories:
       - url: "https://www.stockton.gov.uk/community-spaces-directory"
         type: html
   - title: "Stroud CSCIC"
+    checked: 2025-10-07
     url: "https://cscic.org/community-hubs/warm-spaces/"
     data:
       url: "https://cscic.org/programmes/community-hubs/warm-spaces-in-stroud/"
       type: html
   - title: "Suffolk - Rural Coffee Caravan"
+    checked: 2025-10-07
     url: https://ruralcoffeecaravan.org.uk/map/
     map:
       url: "https://ruralcoffeecaravan.org.uk/map/"
@@ -1695,42 +1691,22 @@ directories:
       url: "https://ruralcoffeecaravan.org.uk/map/"
       type: html
   - title: "Sunderland Council"
+    checked: 2025-10-07
     inactive: 2023-11-10
-    notes: "Removed."
+    notes: "Removed"
     url: "https://sunderland.gov.uk/article/24806/Warm-spaces?p=5"
-    map:
-      url: "https://sunderland.gov.uk/image/27893/Cost-of-living-support-hub/large.jpg"
-      type: image
+  - title: "Surrey County Council"
+    checked: 2025-10-07
+    url: "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-welcome-venues"
     data:
-      - url: "https://sunderland.gov.uk/article/25211/Coalfield-Area"
-        type: html
-      - url: "https://sunderland.gov.uk/article/25212/East-Area"
-        type: html
-      - url: "https://sunderland.gov.uk/article/25213/North-Area"
-        type: html
-      - url: "https://sunderland.gov.uk/article/25214/Washington-Area"
-        type: html
-      - url: "https://sunderland.gov.uk/article/25215/West-Area"
-        type: html
-      - url: "https://sunderland.gov.uk/article/26268/City-wide"
-        type: html
-  - title: "Surrey County Council warm hubs"
-    url: "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-hubs"
-    map:
-      url: "https://surreycc.maps.arcgis.com/apps/webappviewer/index.html?id=e2f8a0a3debb427e8ce996cc8bd3f515"
-      type: arcgis
-    data:
-      url: "https://services2.arcgis.com/lLe1XejBt1om9C8p/arcgis/rest/services/WarmHomes_v1/FeatureServer/0/query?f=geojson&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=5&outSR=4326&resultOffset=0&resultRecordCount=5000&cacheHint=true&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1.0583333333333336%2C%22extent%22%3A%7B%22xmin%22%3A483642.0031000003%2C%22ymin%22%3A132818.2544999998%2C%22xmax%22%3A540462.7911999999%2C%22ymax%22%3A171644.57689999975%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D"
-      type: geojson
-      licence: none
-      keys:
-        title: Hub_Name
-        address: Address
-        hours: OpenHours
+      url: "https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-welcome-venues/list-of-warm-welcome-in-surrey"
+      type: html
   - title: "Sutton Council"
+    inactive: 2025-10-07
     url: "https://www.sutton.gov.uk/-/warm-spaces-in-sutton"
     notes: "Removed."
   - title: "Swansea Council"
+    checked: 2025-10-07
     url: "https://www.swansea.gov.uk/swanseaspaces"
     register:
       url: "https://swansea.gov.uk/swanseaspacesdirectory"
@@ -1741,11 +1717,13 @@ directories:
       - url: "https://www.swansea.gov.uk/swanseaspaces"
         type: html
   - title: "Swindon Council"
+    checked: 2025-10-07
     url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
     data:
       - url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
         type: html
   - title: "Tameside Council"
+    checked: 2025-10-07
     url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
     data:
       - url: "https://www.tameside.gov.uk/warm-welcome-hub/ashton"
@@ -1765,14 +1743,18 @@ directories:
       - url: "https://www.tameside.gov.uk/warm-welcome-hub/stalybridge"
         type: html
   - title: "Tendring Council"
-    url: "https://www.tendringdc.gov.uk/warm-hubs"
+    checked: 2025-10-07
     inactive: 2024-12-03
+    url: "https://www.tendringdc.gov.uk/warm-hubs"
     notes: "As of winter 2024 they no longer seem to have a dedicated page"
   - title: "Tewkesbury Council"
     url: "https://www.tewkesbury.gov.uk/warm-spaces"
     notes: "No location information is given so they can't be geocoded"
     register:
       url: "https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/"
+    map:
+      url: "https://experience.arcgis.com/experience/54f42321c3764ce4a190283aa918a520/"
+      type: arcgis
     data:
       url: "https://tewkesbury.gov.uk/services/community/warm-spaces/warm-spaces-directory-list/"
       type: html
@@ -1912,6 +1894,8 @@ directories:
       parse: "Address: {{ address }}<br>Opening Hours for Warm Hub: {{ hours }}<br>Website: {{ url }}<br>.*"
       keys:
         title: "name"
+        hours: "Opening Hours for Warm Hub"
+        url: "Website"
   - title: "Wiltshire Council"
     url: "https://www.wiltshire.gov.uk/article/6829/Wiltshire-Council-warm-spaces"
     map:

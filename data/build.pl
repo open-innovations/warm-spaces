@@ -75,7 +75,7 @@ sub processDirectories {
 		@features = ();
 
 		# If there is data
-		if(!$d->{'inactive'} && $d->{'data'} && (!$key || ($key && $d->{'id'} eq $key))){
+		if(!$d->{'inactive'} && !$d->{'blocked'} && $d->{'data'} && (!$key || ($key && $d->{'id'} eq $key))){
 
 			# If the data structure is a HASH we turn it into an array of hashes
 			if(ref $d->{'data'} eq "HASH"){

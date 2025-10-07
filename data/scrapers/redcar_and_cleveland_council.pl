@@ -28,13 +28,15 @@ if(-e $file){
 
 		for($i = 0; $i < @features; $i++){
 
-			$popup = $features[$i]{'popup'};
-
-			if($str =~ /<article (.*?)$features[$i]{'title'}(.*?)<\/h3>(.*?)<\/article>/s){
-				$popup = "<article ".$1.$features[$i]{'title'}.$2."</h3>".$3."</article>";
-			}
+			$features[$i]{'title_alt'} = $features[$i]{'title'};
+			$features[$i]{'title_alt'} =~ s/\&/\&amp;/g;
+			$features[$i]{'title_alt'} =~ s/\(/\\\(/g;
+			$features[$i]{'title_alt'} =~ s/\)/\\\)/g;
+			$features[$i]{'title_alt'} =~ s/\'/\&#039;/g;
 			
-			if($popup){
+
+			if($str =~ /<article (.*?)($features[$i]{'title'}|$features[$i]{'title_alt'})(.*?)<\/h3>(.*?)<\/article>/s){
+				$popup = "<article ".$1.$features[$i]{'title'}.$3."</h3>".$4."</article>";
 
 				$d = {};
 				$d->{'title'} = $features[$i]{'title'}; 
@@ -56,6 +58,7 @@ if(-e $file){
 					$d->{'address'} = $1;
 					$d->{'address'} =~ s/[\n\r]/, /g;
 				}
+
 				push(@entries,makeJSON($d,1));
 			}
 		}
