@@ -1787,6 +1787,7 @@ directories:
         contact: "contact_details"
         url: "website"
   - title: "Voluntary Action Islington"
+    checked: 2025-10-07
     url: "https://vai.org.uk/warm-spaces-in-islington/"
     data:
       url: "https://vai.org.uk/warm-spaces-in-islington/"
