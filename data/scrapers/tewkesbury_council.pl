@@ -65,7 +65,7 @@ if(-e $file){
 				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Email: ".trimText($2);
 			}
 			if($ps[$p] =~ /^Contact ?(.*)((\+[0-9]+)?\s*((\(0\)|0)[0-9]{2,})\s+(([0-9]{3,} ?[0-9]{3,})))/){
-				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Telephone: ".trimHTML($1)." ".trimText($2);
+				$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".trimHTML($1)." ".trimText($2);
 			}
 			
 		}

@@ -32,7 +32,7 @@ if(-e $file){
 			$d->{'address'} = $json->{'array'}[$i]{'address'};
 			$d->{'lat'} = $json->{'array'}[$i]{'lat'};
 			$d->{'lon'} = $json->{'array'}[$i]{'lng'};
-			$d->{'description'} = $json->{'array'}[$i]{'info'};			
+			$d->{'description'} = $json->{'array'}[$i]{'info'}.($json->{'array'}[$i]{'pin'} =~ /icon-map-community-hub\.png/ ? "<p>This information is provided by a community group so it is advisable to check opening times with them directly, particularly over holiday periods.</p>" : "");			
 			$d->{'hours'} = parseOpeningHours({'_text'=>$json->{'array'}[$i]{'date'}});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}; }
 

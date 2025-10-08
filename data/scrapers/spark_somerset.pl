@@ -27,7 +27,7 @@ if(-e $file){
 			$d->{'lon'} = $lon+0;
 		}
 		$d->{'hours'} = parseOpeningHours({'_text'=>$json->{'data'}{$id}{'opening_da'}});
-		$d->{'contact'} .= ($json->{'data'}{$id}{'phone_numb'} ? ($d->{'contact'} ? "; " : "")."Telephone: ".$json->{'data'}{$id}{'phone_numb'} : "");
+		$d->{'contact'} .= ($json->{'data'}{$id}{'phone_numb'} ? ($d->{'contact'} ? "; " : "")."Tel: ".$json->{'data'}{$id}{'phone_numb'} : "");
 		$d->{'contact'} .= ($json->{'data'}{$id}{'email_addr'} ? ($d->{'contact'} ? "; " : "")."Email: ".$json->{'data'}{$id}{'email_addr'} : "");
 
 		push(@entries,makeJSON($d,1));

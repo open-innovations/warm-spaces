@@ -60,7 +60,7 @@ if(-e $file){
 						$d->{'url'} = $1;
 					}
 					if($li[$l] =~ /([0-9\s]{8,})/){
-						$d->{'contact'} = "Telephone: $1";
+						$d->{'contact'} = "Tel: $1";
 					}
 				}
 			}

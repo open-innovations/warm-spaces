@@ -134,7 +134,7 @@ if(-e $file){
 				}elsif($w->{'typography'}[$t] =~ /Accessibility.*<p>(.*?)<\/p>/){
 					$d->{'description'} .= " Accessibility: $1";
 				}elsif($w->{'typography'}[$t] =~ /tel:([^\"]+)/){
-					$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Telephone: ".$1;
+					$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Tel: ".$1;
 				}elsif($w->{'typography'}[$t] =~ /mailto:([^\"]+)/){
 					$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: ".$1;
 				}

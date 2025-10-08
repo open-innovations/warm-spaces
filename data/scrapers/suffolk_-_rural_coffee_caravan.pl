@@ -56,7 +56,7 @@ if(-e $file){
 					$d->{'url'} = $json->{'places'}[$i]{'location'}{'extra_fields'}{'website'};
 				}
 				if($json->{'places'}[$i]{'location'}{'extra_fields'}{'phone-1'}){
-					$d->{'contact'} = "Telephone: ".$json->{'places'}[$i]{'location'}{'extra_fields'}{'phone-1'};
+					$d->{'contact'} = "Tel: ".$json->{'places'}[$i]{'location'}{'extra_fields'}{'phone-1'};
 				}
 				push(@entries,makeJSON($d,1));
 			}

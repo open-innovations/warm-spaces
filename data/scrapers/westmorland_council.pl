@@ -77,7 +77,7 @@ if(-e $file){
 			# Keep cached copy of individual URL
 			$age = getFileAge($rfile);
 			if($age >= 86400 || -s $rfile == 0){
-				warning("\tSaving $next to <cyan>$rfile<none>\n");
+				warning("\tSaving <cyan>$d->{'url'}<none> to <cyan>$rfile<none>\n");
 				# For each entry we now need to get the sub page to find the location information
 				`curl '$d->{'url'}' -o $rfile -s --insecure -L --compressed -H 'Upgrade-Insecure-Requests: 1'`;
 			}
@@ -94,6 +94,9 @@ if(-e $file){
 			
 			my $warm = $warmparser->scrape($str);
 			if($warm->{'opening'}){
+				$warm->{'opening'} =~ s/<\/p><p>/\; /g;
+				$warm->{'opening'} =~ s/([0-9\.]{1,}(am|pm) to [0-9\.]{1,}(am|pm)) ([0-9\.]{1,}(am|pm) to [0-9\.]{1,}(am|pm))/$1 and $4/gs;
+#				print $warm->{'opening'}."\n\n";
 				$d->{'hours'} = parseOpeningHours({'_text'=>trimHTML($warm->{'opening'})});
 			}
 			if($warm->{'address'}){

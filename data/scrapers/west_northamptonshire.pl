@@ -18,6 +18,9 @@ if(-e $file){
 	@lines = <FILE>;
 	close(FILE);
 	$str = join("",@lines);
+	
+	# Trim unnecessary HTML
+	$str =~ s/<\/?span>//g;
 
 	# Build a web scraper
 	my $warmspaces = scraper {
@@ -40,6 +43,7 @@ if(-e $file){
 		$d->{'title'} = $1;
 		$d->{'address'} = $d->{'td'}[0];
 		$d->{'address'} =~ s/<br ?\/?> ?/, /g;
+		$d->{'address'} =~ s/\,+/\,/g;
 
 		$d->{'hours'} = parseOpeningHours({'_text'=>parseText($d->{'td'}[2])});
 		if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }

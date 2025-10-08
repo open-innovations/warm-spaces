@@ -70,7 +70,7 @@ if(-e $file){
 				}elsif($c==2){
 					for($p = 0; $p < @ps; $p++){
 						if($ps[$p] =~ /([0-9]{3,}\s?[0-9]{5,})/){
-							$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Telephone: ".$ps[$p];
+							$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Tel: ".$ps[$p];
 						}elsif($ps[$p] =~ /^([^\s]+\@[^\s]+)$/){
 							$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: ".$ps[$p];
 						}

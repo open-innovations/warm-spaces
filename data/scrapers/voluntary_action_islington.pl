@@ -42,7 +42,7 @@ if(-e $file){
 				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Email: $1";
 			}
 			if($ps[$p] =~ /Telephone: ?(.*)/){
-				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Telephone: ".trimHTML($1);
+				$d->{'contact'} .= ($d->{'contact'} ? " ":"")."Tel: ".trimHTML($1);
 			}
 			if($ps[$p] =~ /Website Icon[^\>]+><a href="([^\"]*)"/){
 				$d->{'url'} = $1;
