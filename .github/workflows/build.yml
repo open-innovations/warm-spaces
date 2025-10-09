@@ -43,6 +43,11 @@ jobs:
         run: |
           perl makeTiles.pl 10
 
+      - name: Build summary
+        working-directory: data/
+        run: |
+          perl log-summary.pl >> $GITHUB_STEP_SUMMARY
+
       - name: Commit changes to files
         working-directory: ./
         run: |
