@@ -225,12 +225,14 @@ sub processDirectories {
 
 	open($fh,">:utf8",$dir."summary.html");
 	print $fh "<p>As of $ts.</p>\n";
+	print $fh "<div class=\"table-holder\">\n";
 	print $fh "<table>\n";
 	print $fh "<thead><tr><th>Directory</th><th>Entries</th><th>Geocoded</th><th>Map</th><th>Register</th><th>Notes</th></thead></tr>\n";
 	print $fh "<tbody>\n";
 	print $fh $table;
 	print $fh "</tbody>\n";
 	print $fh "</table>\n";
+	print $fh "</div>\n";
 	close($fh);
 
 	$log->msg("Added $total features in total ($totalgeo geocoded from $totaldir directories).\n");

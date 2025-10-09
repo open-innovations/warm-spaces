@@ -208,9 +208,14 @@ header nav ul li { display: inline-block; margin-top: 0; }
 header nav ul > li > a { padding: 0.5em 1em; display: inline-block; width: 100%; color: inherit; line-height: 1.44em; white-space: nowrap; }
 header nav ul > li > a:hover, header nav ul > li > a:focus { background: white; color: black; }
 
+.table-holder {
+	overflow-x: auto;
+}
+
 @media only screen and (max-width: 1020px) {
 	ul.grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media only screen and (max-width: 700px) {
-	ul.grid { grid-template-columns: 100%; }	
+	ul.grid { grid-template-columns: 100%; }
+	header nav ul > li > a { padding: 0.2em 0.3em; }
 }
