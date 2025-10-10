@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 326,
-		"geocount": 326,
+		"count": 328,
+		"geocount": 328,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -198,8 +198,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 180,
-		"geocount": 180,
+		"count": 179,
+		"geocount": 179,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -215,8 +215,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 39,
-		"geocount": 39,
+		"count": 40,
+		"geocount": 40,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 222,
-		"geocount": 216,
+		"count": 225,
+		"geocount": 218,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 45,
-		"geocount": 43,
+		"count": 46,
+		"geocount": 44,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -980,9 +980,12 @@
 		"url":"https://www.lichfielddc.gov.uk/cost-living-support-1/warm-spaces-across-lichfield-district"
 	},
 	"live_well_york": {
-		"count": 2,
-		"geocount": 1,
+		"checked":"2025-10-08",
+		"count":"0",
+		"geocount":"0",
 		"id":"live_well_york",
+		"needscheck":"1",
+		"notes":"As of April 2025 the directory is closed until the winter",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
@@ -1539,12 +1542,14 @@
 		"url":"https://vai.org.uk/warm-spaces-in-islington/"
 	},
 	"wakefield_council": {
+		"blocked":"1",
 		"id":"wakefield_council",
 		"notes":"Wakefield Council website blocks automatic access of webpages but also directs people to WarmWelcomeUK",
 		"title":"Wakefield Council",
 		"url":"https://www.wakefield.gov.uk/cost-of-living-support/welcome-spaces/"
 	},
 	"wandsworth_council": {
+		"checked":"2025-10-08",
 		"count": 70,
 		"geocount": 70,
 		"id":"wandsworth_council",
@@ -1564,8 +1569,8 @@
 	},
 	"warm_welcome": {
 		"checked":"2025-10-01",
-		"count": 4825,
-		"geocount": 4825,
+		"count": 4843,
+		"geocount": 4843,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1573,24 +1578,25 @@
 		"url":"https://www.warmwelcome.uk/"
 	},
 	"warwickshire_rural_council": {
+		"checked":"2025-10-08",
 		"count": 104,
 		"geocount": 104,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
-		"notes":"Not enough details to include",
 		"title":"Warwickshire Rural Council",
 		"url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/what-are-warm-hubs/"
 	},
 	"west_berkshire_council": {
+		"checked":"2025-10-08",
 		"count": 26,
 		"geocount": 26,
 		"id":"west_berkshire_council",
-		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/warm-spaces/" },
-		"register": { "url":"https://adoddle.org/app/partners/west-berkshire/create" },
+		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/community-welcome-space/" },
 		"title":"West Berkshire Council",
-		"url":"https://www.westberks.gov.uk/warm-spaces"
+		"url":"https://westberks.gov.uk/community-welcome-spaces"
 	},
 	"west_devon_council": {
+		"checked":"2025-10-08",
 		"count":"0",
 		"geocount":"0",
 		"id":"west_devon_council",
@@ -1599,68 +1605,77 @@
 		"url":"https://www.westdevon.gov.uk/warm-spaces-directory"
 	},
 	"west_dunbartonshire_council": {
+		"checked":"2025-10-08",
 		"count": 16,
 		"geocount": 14,
 		"id":"west_dunbartonshire_council",
 		"title":"West Dunbartonshire Council",
-		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/acts-of-kindness/warm-hubs/"
+		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/warm-hubs/"
 	},
 	"west_northamptonshire": {
+		"checked":"2025-10-08",
 		"count": 103,
 		"geocount": 98,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
-		"register": { "url":"https://forms.office.com/r/EHJpfj9uCF" },
+		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u" },
 		"title":"West Northamptonshire",
 		"url":"https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"westminster_council": {
+		"checked":"2025-10-08",
 		"count": 19,
 		"geocount": 19,
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
+		"needscheck":"1",
+		"notes":"Their page was last updated in January 2024 and their links give 403 errors. However the ArcGIS map still exists.",
 		"title":"Westminster Council",
-		"url":"https://www.westminster.gov.uk/winter-in-the-city"
+		"url":"https://www.westminster.gov.uk/cold-weather-support-and-advice"
 	},
 	"westmorland_council": {
-		"count": 79,
-		"geocount": 79,
+		"checked":"2025-10-08",
+		"count": 80,
+		"geocount": 80,
 		"id":"westmorland_council",
-		"title":"Westmorland Council"
+		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
+		"title":"Westmorland Council",
+		"url":"https://www.westmorlandandfurness.gov.uk/warmspots"
 	},
 	"wigan_council": {
+		"checked":"2025-10-08",
 		"count": 154,
 		"geocount": 154,
 		"id":"wigan_council",
-		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y" },
+		"needscheck":"1",
+		"notes":"Warm Welcoming Spaces are now closed until Autumn 2025.",
 		"title":"Wigan Council",
-		"url":"https://www.wigan.gov.uk/Council/The-Deal/Deal-Communities/Here-for-you/Warm-welcoming-spaces.aspx"
+		"url":"https://www.wigan.gov.uk/Council/Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},
 	"wiltshire_council": {
-		"count":"0",
-		"geocount":"0",
+		"checked":"1",
 		"id":"wiltshire_council",
-		"map": { "type":"powerbi","url":"https://app.powerbi.com/view?r=eyJrIjoiMWU5MzUyYjgtOTllMy00ZDlkLTlmMzYtM2Y4OTRlMzE3NjczIiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9&pageName=ReportSectionc894cab5f45ce9d20f9e&pageName=ReportSection18174813a0158fa8f5ef&pageName=ReportSectionff92d37ba976de2e710b" },
+		"map": { "type":"powerbi","url":"https://app.powerbi.com/view?r=eyJrIjoiYzM1NTMxZjYtY2QwYi00MWY2LWFkY2MtZWNjNDA0MTY5NzI4IiwidCI6IjU1NDZlNzVlLTNiZTEtNDgxMy1iMGZmLTI2NjUxZWEyZmUxOSIsImMiOjh9" },
 		"notes":"All the data is stored in a PowerBi visualisation and is inaccessible to this tool.",
 		"title":"Wiltshire Council",
 		"url":"https://www.wiltshire.gov.uk/article/6829/Wiltshire-Council-warm-spaces"
 	},
 	"wokingham_council": {
+		"checked":"2025-10-08",
 		"id":"wokingham_council",
 		"inactive":"2024-12-03",
 		"notes":"Removed in 2024.",
-		"register": { "url":"https://www.wokingham.gov.uk/cost-of-living/run-a-warm-space/" },
-		"title":"Wokingham Council",
-		"url":"https://www.wokingham.gov.uk/cost-of-living/warm-spaces/"
+		"title":"Wokingham Council"
 	},
 	"wolverhampton_council": {
+		"checked":"2025-10-08",
 		"id":"wolverhampton_council",
 		"inactive":"2024-12-03",
 		"notes":"No longer exists",
-		"title":"Wolverhampton Council",
-		"url":"https://www.wolverhampton.gov.uk/community/cost-of-living-support/warm-spaces"
+		"title":"Wolverhampton Council"
 	},
 	"worcestershire_council": {
+		"checked":"2025-10-08",
 		"id":"worcestershire_council",
 		"notes":"Lists libraries and links to Warm Welcome",
 		"title":"Worcestershire Council",

@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.60773,52.89010],"type":"Point"},"properties":{"_source":"cyngor_gwynedd","address":"Llangower, Y Bala , LL237BT","contact":"Tel: 07845237007; Email: neuaddgywair@outlook.com","description":"Defnydd o stafell gynnes / The use of a warm room, Paned / Warm Beverage, Bwyd / Food, WIFI, Gweithgareddau / Activities","hours":{"_text":"Dydd Llun-Gwener"},"loc_pcd":true,"title":"Neuadd Gywair, Llangower"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.60773,52.89010],"type":"Point"},"properties":{"_source":"cyngor_gwynedd","address":"Llangower, Y Bala , LL237BT","contact":"Tel: 07845237007; Email: neuaddgywair@outlook.com","description":"Defnydd o stafell gynnes / The use of a warm room, Paned / Warm Beverage, Bwyd / Food, WIFI, Gweithgareddau / Activities","hours":{"_text":"Dydd Mercher 10-12 a 4-7, Dydd Iau 10-12, Dydd Gwener 3-7, yn gallu newid dibynnu ar beth sydd ymlaen yn y gymuned // Wednesday 10-12 and 4-7, Thursday 10-12, Friday 3-7, can open anytime, depends what is on in the community.","opening":"We 10:00-12:00,04:00-07:00; Th 10:00-12:00; Fr 03:00-07:00"},"loc_pcd":true,"title":"Neuadd Gywair, Llangower"},"type":"Feature"}
 	]
 }
