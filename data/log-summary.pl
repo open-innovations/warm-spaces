@@ -29,7 +29,7 @@ for($d = 0; $d < @ds; $d++){
 }
 
 # Process log files
-$log = processLog($basedir."build.log.old","old",$log);
+$log = processLog((-e $basedir."build.log.old" ? $basedir."build.log.old" : $basedir."build.log"),"old",$log);
 $log = processLog($basedir."build.log","new",$log);
 
 # Make output
