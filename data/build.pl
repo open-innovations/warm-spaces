@@ -20,7 +20,8 @@ use List::Util qw( min max );
 require "lib.pl";
 binmode STDOUT, 'utf8';
 
-
+# Make a copy of any existing log file
+if(-e "build.log"){ `cp build.log build.log.old`; }
 my $log = OpenInnovations::Log->new()->open("build.log");
 $log->msg("Build started: ".strftime("%FT%H:%M:%S", localtime)."\n\n");
 
