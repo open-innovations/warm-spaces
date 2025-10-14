@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 17,
-		"geocount": 17,
+		"count": 20,
+		"geocount": 19,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -142,8 +142,8 @@
 	},
 	"bexley_council": {
 		"checked":"2025-10-01",
-		"count": 16,
-		"geocount": 16,
+		"count":"0",
+		"geocount":"0",
 		"id":"bexley_council",
 		"register": { "url":"https://www.bexley.gov.uk/services/cost-living/help-cost-living/warm-and-welcoming-places" },
 		"title":"Bexley Council",
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 328,
-		"geocount": 328,
+		"count": 327,
+		"geocount": 327,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -215,8 +215,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 40,
-		"geocount": 40,
+		"count": 39,
+		"geocount": 39,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -1518,8 +1518,8 @@
 	},
 	"torbay_council": {
 		"checked":"2025-10-07",
-		"count": 8,
-		"geocount": 8,
+		"count":"0",
+		"geocount":"0",
 		"id":"torbay_council",
 		"title":"Torbay Council",
 		"url":"https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces-col/"
@@ -1569,8 +1569,8 @@
 	},
 	"warm_welcome": {
 		"checked":"2025-10-01",
-		"count": 4843,
-		"geocount": 4843,
+		"count": 4846,
+		"geocount": 4846,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
