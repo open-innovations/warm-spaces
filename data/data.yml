@@ -1726,21 +1726,7 @@ directories:
     checked: 2025-10-07
     url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
     data:
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/ashton"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/denton"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/droylsden"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/dukinfield"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/londgendale"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/hyde"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/mossley"
-        type: html
-      - url: "https://www.tameside.gov.uk/warm-welcome-hub/stalybridge"
+      - url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
         type: html
   - title: "Tendring Council"
     checked: 2025-10-07
