@@ -80,7 +80,7 @@ sub processLog {
 				$log->{$id}{'geo'}{$typ} = $2;
 			}
 		}
-		if($lines[$i] =~ /Processed in ([0-9]+) seconds/){
+		if($lines[$i] =~ /Processed in ([0-9]+) seconds?/){
 			if($id){
 				$log->{$id}{'seconds'}{$typ} = $1;
 			}
