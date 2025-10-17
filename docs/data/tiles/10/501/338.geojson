@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-3.79744,51.99398],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Llandovery Youth and Community Centre, Llandovery, Carmarthenshire SA20 0AB","description":"The space is open to all - the kettle is always on for anyone who calls in. We are open to the public from 9.30 am till 3.30 pm Monday to Friday. We offer numerous art, craft, gardening and social groups.","hours":{"_text":"Monday: 09:30 - 15:30, Tuesday: 09:30 - 15:30, Wednesday: 09:30 - 15:30, Thursday: 09:30 - 15:30, Friday: 09:30 - 15:30","opening":"Mo 09:30-15:30; Tu 09:30-15:30; We 09:30-15:30; Th 09:30-15:30; Fr 09:30-15:30"},"title":"LYCC Warm Hub"},"type":"Feature"},
 		{"geometry":{"coordinates":[-3.78868,51.95612],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Myddfai Community Hall & Visitor Centre, Dyfed SA20 0JD","description":"Cafe gift shop & events hall","hours":{"_text":"Wednesday: 11:00 - 16:00, Friday: 11:00 - 16:00, Saturday: 11:00 - 16:00, Sunday: 11:00 - 16:00","opening":"We 11:00-16:00; Fr 11:00-16:00; Sa 11:00-16:00; Su 11:00-16:00"},"title":"Myddfai Community Hall & Visitor Centre"},"type":"Feature"}
 	]
 }

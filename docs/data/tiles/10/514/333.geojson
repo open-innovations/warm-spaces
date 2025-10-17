@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[0.85374,52.95451],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Norfolk County Council, Wells-Next-the-Sea, Norfolk NR23 1EA","description":"You can access most Libraries outside staffed hours with “Open Library” providing extra access to the library, its books and computers. Check if it's currently available at your local library at www.norfolk.gov.uk/openlibrary Free hot drinks available, please see our What’s On page or ask in the library for times: https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/whats-on","hours":{"_text":"Monday: 11:30 - 19:00, Wednesday: 09:00 - 19:00, Friday: 09:00 - 19:00, Saturday: 10:00 - 16:00","opening":"Mo 11:30-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 10:00-16:00"},"title":"Wells Library"},"type":"Feature"}
+		{"geometry":{"coordinates":[0.85374,52.95451],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Wells Library, Station Road, Wells-next-the-Sea, Norfolk, Norfolk NR23 1EA","description":"Free hot drinks during staffed times, please see our What’s On page or ask in the library for times: https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/whats-on","hours":{"_text":"Monday: 11:30 - 19:00, Wednesday: 09:00 - 19:00, Friday: 09:00 - 19:00, Saturday: 10:00 - 16:00","opening":"Mo 11:30-19:00; We 09:00-19:00; Fr 09:00-19:00; Sa 10:00-16:00"},"title":"Wells Library"},"type":"Feature"}
 	]
 }
