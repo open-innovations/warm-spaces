@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 21,
-		"geocount": 21,
+		"count": 25,
+		"geocount": 25,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 329,
-		"geocount": 329,
+		"count": 330,
+		"geocount": 330,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -399,8 +399,8 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count": 45,
-		"geocount": 29,
+		"count": 41,
+		"geocount": 36,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 46,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 43,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1467,7 +1467,7 @@
 	"swansea_council": {
 		"checked":"2025-10-07",
 		"count": 71,
-		"geocount": 71,
+		"geocount": 70,
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },
@@ -1569,8 +1569,8 @@
 	},
 	"warm_welcome": {
 		"checked":"2025-10-01",
-		"count": 4882,
-		"geocount": 4882,
+		"count": 4926,
+		"geocount": 4926,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1579,8 +1579,8 @@
 	},
 	"warwickshire_rural_council": {
 		"checked":"2025-10-08",
-		"count": 104,
-		"geocount": 104,
+		"count": 105,
+		"geocount": 105,
 		"id":"warwickshire_rural_council",
 		"map": { "type":"googlemap","url":"https://www.wrccrural.org.uk/services/wrcc-warm-hubs/warm-hubs-network/" },
 		"title":"Warwickshire Rural Council",

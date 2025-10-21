@@ -1,19 +1,19 @@
-Build started: 2025-10-17T18:45:05
+Build started: 2025-10-21T18:48:54
 
 1: Warm Welcome (warm_welcome)
 	Processing Storepoint data
 	WARNING: Unlikely coordinates (40.742888, -84.116778) so geocoding based on NP12 8NW
 	WARNING: Unlikely coordinates (40.703013, -73.990639) so geocoding based on BT31 9DQ
 	WARNING: Unlikely coordinates (44.987597, -85.254636) so geocoding based on BT43 6EB
-	Added 4882 features (4882 geocoded).
-	Total = 4882
-	Processed in 10 seconds
+	Added 4926 features (4926 geocoded).
+	Total = 4926
+	Processed in 9 seconds
 2: Warm spaces (warm_spaces)
 3: Aberdeen City Council (aberdeen_city_council)
-	Parsing web page using scrapers/aberdeen_city_council.pl (232407 bytes)
+	Parsing web page using scrapers/aberdeen_city_council.pl (233234 bytes)
 	Added 32 features (32 geocoded).
-	Total = 4914
-	Processed in 1 second
+	Total = 4958
+	Processed in 3 seconds
 4: Aberdeenshire Council (aberdeenshire_council)
 	Parsing web page using scrapers/aberdeenshire_council.pl (36064 bytes)
 	Parsing web page using scrapers/aberdeenshire_council.pl (45441 bytes)
@@ -22,100 +22,101 @@ Build started: 2025-10-17T18:45:05
 	Parsing web page using scrapers/aberdeenshire_council.pl (37848 bytes)
 	Parsing web page using scrapers/aberdeenshire_council.pl (39710 bytes)
 	Added 52 features (47 geocoded).
-	Total = 4966
-	Processed in 3 seconds
+	Total = 5010
+	Processed in 4 seconds
 5: Adur and Worthing Council (adur_and_worthing_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=10Pl9rx9V9oh_owU5nUCG7UsOtP41vp4&resourcekey&lid=O-8SM5N4wKc
 	Unzipping kmz
 	Added 16 features (16 geocoded).
-	Total = 4982
+	Total = 5026
+	Processed in 1 second
 6: Angus Council (angus_council)
-	Parsing web page using scrapers/angus_council.pl (56409 bytes)
-	Parsing web page using scrapers/angus_council.pl (56301 bytes)
-	Parsing web page using scrapers/angus_council.pl (56733 bytes)
-	Parsing web page using scrapers/angus_council.pl (58162 bytes)
-	Parsing web page using scrapers/angus_council.pl (55204 bytes)
+	Parsing web page using scrapers/angus_council.pl (56352 bytes)
+	Parsing web page using scrapers/angus_council.pl (56244 bytes)
+	Parsing web page using scrapers/angus_council.pl (56676 bytes)
+	Parsing web page using scrapers/angus_council.pl (58105 bytes)
+	Parsing web page using scrapers/angus_council.pl (55147 bytes)
 	WARNING: No features found in web page.
-	Parsing web page using scrapers/angus_council.pl (55622 bytes)
-	Parsing web page using scrapers/angus_council.pl (56203 bytes)
+	Parsing web page using scrapers/angus_council.pl (55565 bytes)
+	Parsing web page using scrapers/angus_council.pl (56146 bytes)
 	Added 17 features (5 geocoded).
-	Total = 4999
-	Processed in 5 seconds
+	Total = 5043
+	Processed in 6 seconds
 7: Ards and North Down Council (ards_and_north_down_council)
 8: Argyll and Bute Third Sector Interface (argyll_and_bute_third_sector_interface)
-	Parsing web page using scrapers/argyll_and_bute_third_sector_interface.pl (95918 bytes)
+	Parsing web page using scrapers/argyll_and_bute_third_sector_interface.pl (95920 bytes)
 	Added 35 features (35 geocoded).
-	Total = 5034
+	Total = 5078
 	Processed in 1 second
 9: Armagh City, Bandridge and Craigavon Council (armagh_city__bandridge_and_craigavon_council)
 10: Banbury Town Council (banbury_town_council)
 11: Barnet Council (barnet_council)
-	Parsing web page using scrapers/barnet_council.pl (49865 bytes)
+	Parsing web page using scrapers/barnet_council.pl (49837 bytes)
 	Added 8 features (8 geocoded).
-	Total = 5042
-	Processed in 2 seconds
+	Total = 5086
+	Processed in 4 seconds
 12: Barnsley Council (barnsley_council)
 	Parsing web page using scrapers/barnsley_council.pl (42168 bytes)
 	Added 18 features (18 geocoded).
-	Total = 5060
+	Total = 5104
 	Processed in 1 second
 13: Barrow Council (barrow_council)
 14: Basildon Council (basildon_council)
 15: Bassetlaw CVS (bassetlaw_cvs)
 	Processing GeoJSON
 	Added 41 features (41 geocoded).
-	Total = 5101
+	Total = 5145
+	Processed in 1 second
 16: Bath and North East Somerset Council (bath_and_north_east_somerset_council)
-	Parsing web page using scrapers/bath_and_north_east_somerset_council.pl (44507 bytes)
-	Added 21 features (21 geocoded).
-	Total = 5122
-	Processed in 3 seconds
+	Parsing web page using scrapers/bath_and_north_east_somerset_council.pl (44448 bytes)
+	Added 25 features (25 geocoded).
+	Total = 5170
+	Processed in 4 seconds
 17: Bedford Council (bedford_council)
-	Parsing web page using scrapers/bedford_council.pl (44117 bytes)
+	Parsing web page using scrapers/bedford_council.pl (44167 bytes)
 	Added 25 features (24 geocoded).
-	Total = 5147
+	Total = 5195
 	Processed in 1 second
 18: Belfast Council (belfast_council)
 19: Bexley Council (bexley_council)
 	Parsing web page using scrapers/bexley_council.pl (72996 bytes)
 	Added 16 features (16 geocoded).
-	Total = 5163
+	Total = 5211
 	Processed in 1 second
 20: Birmingham Council (birmingham_council)
-	Parsing web page using scrapers/birmingham_council.pl (112870 bytes)
-	Added 329 features (329 geocoded).
-	Total = 5492
-	Processed in 417 seconds
+	Parsing web page using scrapers/birmingham_council.pl (113066 bytes)
+	Added 330 features (330 geocoded).
+	Total = 5541
+	Processed in 410 seconds
 21: Bolton at Home (bolton_at_home)
 	Parsing web page using scrapers/bolton_at_home.pl (34713 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 5492
-	Processed in 1 second
+	Total = 5541
+	Processed in 5 seconds
 22: Boston Borough Council (boston_borough_council)
 	Parsing web page using scrapers/boston_borough_council.pl (13 bytes)
 	WARNING: No JSON returned from scraper
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 5492
-	Processed in 1 second
+	Total = 5541
 23: Bournemouth, Christchurch and Poole (bournemouth__christchurch_and_poole)
-	Parsing web page using scrapers/bournemouth__christchurch_and_poole.pl (112701 bytes)
+	Parsing web page using scrapers/bournemouth__christchurch_and_poole.pl (141507 bytes)
 	Added 76 features (71 geocoded).
-	Total = 5568
-	Processed in 4 seconds
+	Total = 5617
+	Processed in 5 seconds
 24: Bracknell Forest Council (bracknell_forest_council)
 25: Bradford Council (bradford_council)
-	Parsing web page using scrapers/bradford_council.pl (204878 bytes)
+	Parsing web page using scrapers/bradford_council.pl (204876 bytes)
 	Added 223 features (223 geocoded).
-	Total = 5791
-	Processed in 11 seconds
+	Total = 5840
+	Processed in 13 seconds
 26: Bradford on Avon Council (bradford_on_avon_council)
 27: Braintree Council (braintree_council)
 	Parsing web page using scrapers/braintree_council.pl (118105 bytes)
 	Added 38 features (38 geocoded).
-	Total = 5829
+	Total = 5878
 	Processed in 1 second
 28: Breckland Council (breckland_council)
 29: Brent (brent)
@@ -123,17 +124,17 @@ Build started: 2025-10-17T18:45:05
 31: Bridgend Association of Voluntary Organisations (bridgend_association_of_voluntary_organisations)
 	Parsing web page using scrapers/bridgend_association_of_voluntary_organisations.pl (52976 bytes)
 	Added 43 features (34 geocoded).
-	Total = 5872
+	Total = 5921
 	Processed in 6 seconds
 32: Brighton & Hove Council (brighton___hove_council)
-	Parsing web page using scrapers/brighton___hove_council.pl (229136 bytes)
+	Parsing web page using scrapers/brighton___hove_council.pl (229135 bytes)
 	Added 52 features (49 geocoded).
-	Total = 5924
-	Processed in 9 seconds
+	Total = 5973
+	Processed in 11 seconds
 33: Bristol Council (bristol_council)
 	Processing GeoJSON
 	Added 87 features (87 geocoded).
-	Total = 6011
+	Total = 6060
 	Processed in 1 second
 34: Broadland and South Norfolk Council (broadland_and_south_norfolk_council)
 35: Bromley Well (bromley_well)
@@ -143,96 +144,98 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&resourcekey&lid=Cl3w8S4i7jQ
 	Unzipping kmz
 	Added 22 features (22 geocoded).
-	Total = 6033
+	Total = 6082
 	Processed in 103 seconds
 36: Buckinghamshire Council (buckinghamshire_council)
 	Parsing web page using scrapers/buckinghamshire_council.pl (161824 bytes)
 	Added 41 features (41 geocoded).
-	Total = 6074
+	Total = 6123
 	Processed in 1 second
 37: Burnley Council (burnley_council)
-	Parsing web page using scrapers/burnley_council.pl (96595 bytes)
+	Parsing web page using scrapers/burnley_council.pl (96593 bytes)
 	Added 25 features (25 geocoded).
-	Total = 6099
-	Processed in 1 second
-38: Bury Directory (bury_directory)
-	Parsing web page using scrapers/bury_directory.pl (2045294 bytes)
-	Added 21 features (19 geocoded).
-	Total = 6120
+	Total = 6148
 	Processed in 2 seconds
+38: Bury Directory (bury_directory)
+	Parsing web page using scrapers/bury_directory.pl (2044769 bytes)
+	Added 21 features (19 geocoded).
+	Total = 6169
+	Processed in 1 second
 39: Calderdale Council (calderdale_council)
 	Processing GeoJSON
 	Added 54 features (54 geocoded).
-	Total = 6174
+	Total = 6223
 	Processed in 1 second
 40: Cambridge Council (cambridge_council)
 41: Cambridgeshire ACRE (cambridgeshire_acre)
-	Parsing web page using scrapers/cambridgeshire_acre.pl (123394 bytes)
+	Parsing web page using scrapers/cambridgeshire_acre.pl (123386 bytes)
 	Added 40 features (40 geocoded).
-	Total = 6214
-	Processed in 3 seconds
+	Total = 6263
+	Processed in 4 seconds
 42: Camden Council (camden_council)
 	Processing GeoJSON
 	Added 48 features (48 geocoded).
-	Total = 6262
-	Processed in 2 seconds
+	Total = 6311
+	Processed in 1 second
 43: Cannock Chase Council (cannock_chase_council)
 44: Carefree Cornwall (carefree_cornwall)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1Zb6kSYdWEp1eX8dAoch_ezTuaEzYSQ4&resourcekey&lid=X-tRlQE1Xrk
 	Unzipping kmz
 	Added 71 features (65 geocoded).
-	Total = 6333
+	Total = 6382
 	Processed in 1 second
 45: Causeway Coast and Glens Council (causeway_coast_and_glens_council)
 	Processing GeoJSON
 	Added 43 features (43 geocoded).
-	Total = 6376
+	Total = 6425
 46: Central Bedfordshire Council (central_bedfordshire_council)
 	Parsing web page using scrapers/central_bedfordshire_council.pl (56483 bytes)
 	Added 65 features (61 geocoded).
-	Total = 6441
-	Processed in 38 seconds
+	Total = 6490
+	Processed in 53 seconds
 47: Ceredigion Council (ceredigion_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1skpEIxs2eV_I-kb9soJedAMgDeei9io&resourcekey&lid=n1Ur6rfW4iU
 	Unzipping kmz
 	Added 47 features (45 geocoded).
-	Total = 6488
+	Total = 6537
 	Processed in 1 second
 48: Charnwood Council (charnwood_council)
 49: Chelmsford Connects (chelmsford_connects)
-	Parsing web page using scrapers/chelmsford_connects.pl (20550 bytes)
-	Added 45 features (29 geocoded).
-	Total = 6533
-	Processed in 28 seconds
+	Parsing web page using scrapers/chelmsford_connects.pl (20541 bytes)
+	Added 41 features (36 geocoded).
+	Total = 6578
+	Processed in 36 seconds
 50: Cheltenham Council (cheltenham_council)
 	Parsing web page using scrapers/cheltenham_council.pl (28347 bytes)
 	Added 5 features (5 geocoded).
-	Total = 6538
+	Total = 6583
+	Processed in 1 second
 51: Cherwell Council (cherwell_council)
 	Processing GeoJSON
 	Added 36 features (36 geocoded).
-	Total = 6574
-	Processed in 2 seconds
+	Total = 6619
+	Processed in 1 second
 52: Cheshire East Council (cheshire_east_council)
 	Parsing web page using scrapers/cheshire_east_council.pl (179 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 6574
+	Total = 6619
+	Processed in 1 second
 53: Cheshire West and Chester Council (cheshire_west_and_chester_council)
 54: Chesterfield Council (chesterfield_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&resourcekey&lid=tqSgbSBvQ6I
 	Unzipping kmz
 	Added 38 features (38 geocoded).
-	Total = 6612
+	Total = 6657
 	Processed in 1 second
 55: Chichester Deanery (chichester_deanery)
 56: Chorley Council (chorley_council)
 	Parsing web page using scrapers/chorley_council.pl (55613 bytes)
 	Added 21 features (18 geocoded).
-	Total = 6633
+	Total = 6678
 	Processed in 1 second
 57: City of London (city_of_london)
 58: Colchester Council (colchester_council)
@@ -246,37 +249,37 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1fSLMBDw-ksZ1RPuB9cUDSczeKpBa36M&resourcekey&lid=QAx8tJhNh2U
 	Unzipping kmz
 	Added 50 features (50 geocoded).
-	Total = 6683
-	Processed in 1 second
+	Total = 6728
+	Processed in 2 seconds
 59: Communities 1st (communities_1st)
-	Parsing web page using scrapers/communities_1st.pl (100555 bytes)
+	Parsing web page using scrapers/communities_1st.pl (100692 bytes)
 	Added 30 features (28 geocoded).
-	Total = 6713
-	Processed in 8 seconds
+	Total = 6758
+	Processed in 7 seconds
 60: Community Action Derby (community_action_derby)
 	Parsing web page using scrapers/community_action_derby.pl (79916 bytes)
 	Added 42 features (28 geocoded).
-	Total = 6755
-	Processed in 1 second
+	Total = 6800
+	Processed in 2 seconds
 61: Coventry Council (coventry_council)
 	Parsing web page using scrapers/coventry_council.pl (112124 bytes)
 	Added 59 features (59 geocoded).
-	Total = 6814
-	Processed in 27 seconds
+	Total = 6859
+	Processed in 38 seconds
 62: Croydon Council (croydon_council)
 	Parsing web page using scrapers/croydon_council.pl (108622 bytes)
 	Added 21 features (21 geocoded).
-	Total = 6835
-	Processed in 3 seconds
+	Total = 6880
+	Processed in 4 seconds
 63: Croydon Simply Connect (croydon_simply_connect)
 	Parsing web page using scrapers/croydon_simply_connect.pl (44919 bytes)
 	Added 25 features (25 geocoded).
-	Total = 6860
+	Total = 6905
 	Processed in 1 second
 64: Cumberland Council (cumberland_council)
 	Parsing web page using scrapers/cumberland_council.pl (133479 bytes)
 	Added 32 features (32 geocoded).
-	Total = 6892
+	Total = 6937
 	Processed in 2 seconds
 65: Cumbria Council (cumbria_council)
 66: Cyngor Gwynedd (cyngor_gwynedd)
@@ -284,7 +287,7 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&resourcekey&lid=1pw4HGkTdPo
 	Unzipping kmz
 	Added 228 features (221 geocoded).
-	Total = 7120
+	Total = 7165
 	Processed in 2 seconds
 67: Derbyshire Council (derbyshire_council)
 68: Derbyshire Dales Council (derbyshire_dales_council)
@@ -294,31 +297,32 @@ Build started: 2025-10-17T18:45:05
 	Parsing web page using scrapers/durham_county_council.pl (179 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 7120
+	Total = 7165
 72: Ealing Council (ealing_council)
 	Parsing web page using scrapers/ealing_council.pl (29285 bytes)
 	Added 42 features (42 geocoded).
-	Total = 7162
+	Total = 7207
 	Processed in 2 seconds
 73: East Ayrshire Council (east_ayrshire_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1_-Q0RGWdJtKksfhUaA0EF-z-88zUvy4&resourcekey&lid=59J7OzSf3nQ
 	Unzipping kmz
 	Added 44 features (44 geocoded).
-	Total = 7206
+	Total = 7251
 	Processed in 1 second
 74: East Lindsey Council (east_lindsey_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1mtJyfW1oQ-BZ7lFJh7nRjedxtwPlsFc&resourcekey&lid=z6a0zpTzgq0
 	Unzipping kmz
 	Added 23 features (23 geocoded).
-	Total = 7229
+	Total = 7274
+	Processed in 1 second
 75: East Staffordshire Council (east_staffordshire_council)
 	Parsing web page using scrapers/east_staffordshire_council.pl ( bytes)
 	WARNING: No JSON returned from scraper
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 7229
+	Total = 7274
 	Processed in 10 seconds
 76: Eastleigh Council (eastleigh_council)
 77: Edinburgh Council (edinburgh_council)
@@ -327,7 +331,7 @@ Build started: 2025-10-17T18:45:05
 	Processing GeoJSON
 	Processing GeoJSON
 	Added 76 features (76 geocoded).
-	Total = 7305
+	Total = 7350
 	Processed in 2 seconds
 78: Enfield Council (enfield_council)
 79: Enfield Food Alliance (enfield_food_alliance)
@@ -335,7 +339,7 @@ Build started: 2025-10-17T18:45:05
 	Parsing web page using scrapers/essex_map.pl (7476 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 7305
+	Total = 7350
 	Processed in 1 second
 81: Exeter Council (exeter_council)
 82: Fife Council (fife_council)
@@ -343,18 +347,19 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1icpsjK7hfUSOabXLw-ccXrFkSiX9-lc&resourcekey&lid=VKz1AUB7YH8
 	Unzipping kmz
 	Added 60 features (58 geocoded).
-	Total = 7365
+	Total = 7410
+	Processed in 1 second
 83: Frome Council (frome_council)
 84: Fylde Council (fylde_council)
-	Parsing web page using scrapers/fylde_council.pl (101824 bytes)
+	Parsing web page using scrapers/fylde_council.pl (101816 bytes)
 	Added 14 features (14 geocoded).
-	Total = 7379
-	Processed in 3 seconds
+	Total = 7424
+	Processed in 2 seconds
 85: Gateshead Council (gateshead_council)
 86: Gedling Council (gedling_council)
 	Parsing web page using scrapers/gedling_council.pl (34158 bytes)
 	Added 36 features (34 geocoded).
-	Total = 7415
+	Total = 7460
 	Processed in 1 second
 87: Glasgow Council (glasgow_council)
 88: Gloucester Council (gloucester_council)
@@ -367,41 +372,40 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=132pQ79bvABq8HA9j_OZAI39Gb7rkXuY&resourcekey&lid=0HHhcZN0zss
 	Unzipping kmz
 	Added 15 features (15 geocoded).
-	Total = 7430
+	Total = 7475
 94: Havant Council (havant_council)
 95: Havering Council (havering_council)
-	Parsing web page using scrapers/havering_council.pl (44682 bytes)
+	Parsing web page using scrapers/havering_council.pl (46052 bytes)
 	Added 10 features (8 geocoded).
-	Total = 7440
+	Total = 7485
 	Processed in 1 second
 96: #HelpAndKindness (_helpandkindness)
 	Parsing web page using scrapers/_helpandkindness.pl (265277 bytes)
 	Added 110 features (110 geocoded).
-	Total = 7550
+	Total = 7595
 	Processed in 2 seconds
 97: Herefordshire Council (herefordshire_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1_t4olAcd46ls5NEpxD3mMnCkm4uAav4&resourcekey&lid=ifi_on_aGXI
 	Unzipping kmz
 	Added 43 features (43 geocoded).
-	Total = 7593
+	Total = 7638
 	Processed in 1 second
 98: Hertfordshire Council (hertfordshire_council)
 	Parsing web page using scrapers/hertfordshire_council.pl (179 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 7593
-	Processed in 1 second
+	Total = 7638
 99: High Peak Council (high_peak_council)
-	Parsing web page using scrapers/high_peak_council.pl (67899 bytes)
+	Parsing web page using scrapers/high_peak_council.pl (67851 bytes)
 	Added 13 features (10 geocoded).
-	Total = 7606
+	Total = 7651
 	Processed in 1 second
 100: Hinckley and Bosworth Council (hinckley_and_bosworth_council)
-	Parsing web page using scrapers/hinckley_and_bosworth_council.pl (33654 bytes)
-	Added 46 features (44 geocoded).
-	Total = 7652
-	Processed in 3 seconds
+	Parsing web page using scrapers/hinckley_and_bosworth_council.pl (34083 bytes)
+	Added 45 features (43 geocoded).
+	Total = 7696
+	Processed in 5 seconds
 101: Horsham District (horsham_district)
 102: Hounslow Council (hounslow_council)
 103: Hull Council (hull_council)
@@ -454,52 +458,50 @@ Build started: 2025-10-17T18:45:05
 	WARNING: Coordinates seem to be an array so calculating centre.
 	WARNING: Coordinates seem to be an array so calculating centre.
 	Added 46 features (46 geocoded).
-	Total = 7698
-	Processed in 3 seconds
+	Total = 7742
+	Processed in 2 seconds
 104: Huntingdonshire Council (huntingdonshire_council)
 	Parsing web page using scrapers/huntingdonshire_council.pl (170247 bytes)
 	Added 35 features (35 geocoded).
-	Total = 7733
-	Processed in 1 second
+	Total = 7777
+	Processed in 2 seconds
 105: Ipswich Council (ipswich_council)
 106: Isle of Wight Council (isle_of_wight_council)
-	Parsing web page using scrapers/isle_of_wight_council.pl (33113 bytes)
+	Parsing web page using scrapers/isle_of_wight_council.pl (33183 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 7733
+	Total = 7777
 	Processed in 2 seconds
 107: Kensington and Chelsea (kensington_and_chelsea)
 108: Kingston Council (kingston_council)
 109: Kirklees Council (kirklees_council)
 	Parsing web page using scrapers/kirklees_council.pl (5224 bytes)
 	Added 24 features (24 geocoded).
-	Total = 7757
-	Processed in 1 second
+	Total = 7801
 110: Lambeth Council (lambeth_council)
 	Parsing web page using scrapers/lambeth_council.pl (69659 bytes)
 	Added 24 features (24 geocoded).
-	Total = 7781
-	Processed in 37 seconds
+	Total = 7825
+	Processed in 75 seconds
 111: Lancashire Council (lancashire_council)
 	Processing GeoJSON
 	Processing GeoJSON
 	WARNING: No features for Lancashire Council
 	Added 100 features (100 geocoded).
-	Total = 7881
+	Total = 7925
 	Processed in 1 second
 112: Lancaster Council (lancaster_council)
 113: Leeds City Council (leeds_city_council)
 	Processing GeoJSON
 	Added 190 features (190 geocoded).
-	Total = 8071
+	Total = 8115
 	Processed in 1 second
 114: Leicester Council (leicester_council)
 115: Lewes and Eastbourne Council (lewes_and_eastbourne_council)
 	Parsing web page using scrapers/lewes_and_eastbourne_council.pl (13 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 8071
-	Processed in 1 second
+	Total = 8115
 116: Lewisham Local (lewisham_local)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1oy8WfEERTci8pza4RbEsbmUehdkjg3g&resourcekey&lid=bqTdl2gIAYs
@@ -509,19 +511,19 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1oy8WfEERTci8pza4RbEsbmUehdkjg3g&resourcekey&lid=SA_-maBnVhQ
 	Unzipping kmz
 	Added 97 features (95 geocoded).
-	Total = 8168
-	Processed in 2 seconds
+	Total = 8212
+	Processed in 3 seconds
 117: Lichfield Council (lichfield_council)
-	Parsing web page using scrapers/lichfield_council.pl (44250 bytes)
+	Parsing web page using scrapers/lichfield_council.pl (44328 bytes)
 	Added 19 features (19 geocoded).
-	Total = 8187
-	Processed in 13 seconds
+	Total = 8231
+	Processed in 16 seconds
 118: Looe Town Council (looe_town_council)
 119: Luton Council (luton_council)
 	Parsing web page using scrapers/luton_council.pl (121641 bytes)
 	Added 20 features (20 geocoded).
-	Total = 8207
-	Processed in 3 seconds
+	Total = 8251
+	Processed in 2 seconds
 120: Malvern Hills Council (malvern_hills_council)
 121: Manchester Council (manchester_council)
 122: Mansfield Council (mansfield_council)
@@ -530,13 +532,13 @@ Build started: 2025-10-17T18:45:05
 125: Midlothian Council (midlothian_council)
 	Parsing web page using scrapers/midlothian_council.pl (54778 bytes)
 	Added 15 features (13 geocoded).
-	Total = 8222
-	Processed in 1 second
+	Total = 8266
+	Processed in 2 seconds
 126: Middlesbrough Council (middlesbrough_council)
 127: Neath Port Talbot Council (neath_port_talbot_council)
-	Parsing web page using scrapers/neath_port_talbot_council.pl (232777 bytes)
+	Parsing web page using scrapers/neath_port_talbot_council.pl (233308 bytes)
 	Added 51 features (51 geocoded).
-	Total = 8273
+	Total = 8317
 	Processed in 2 seconds
 128: Newcastle under Lyme Council (newcastle_under_lyme_council)
 129: Newham Council (newham_council)
@@ -545,8 +547,7 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1PlhA0LQ2nYqDdl1omiaYhgz_xM_VAT0&resourcekey&lid=zxRJqTid3-E
 	Unzipping kmz
 	Added 78 features (5 geocoded).
-	Total = 8351
-	Processed in 1 second
+	Total = 8395
 131: North Devon Council (north_devon_council)
 132: North East Derbyshire (north_east_derbyshire)
 133: North Herts Council (north_herts_council)
@@ -557,32 +558,33 @@ Build started: 2025-10-17T18:45:05
 	Unzipping xlsx to extract data from sheet2 (raw/northumberland_county_council.xls)
 	There are 142 rows in sheet sheet2
 	Added 141 features (139 geocoded).
-	Total = 8492
-	Processed in 1 second
+	Total = 8536
+	Processed in 2 seconds
 138: Oxford Council (oxford_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1Dsla6w3UdjubT3ZLY5UhZe3KGBNa2xg&resourcekey&lid=71BboqKSgL4
 	Unzipping kmz
 	Added 43 features (43 geocoded).
-	Total = 8535
+	Total = 8579
+	Processed in 1 second
 139: Perth and Kinross Council (perth_and_kinross_council)
 	Processing GeoJSON
 	Added 115 features (115 geocoded).
-	Total = 8650
+	Total = 8694
 	Processed in 6 seconds
 140: Peterborough Council (peterborough_council)
 141: Places for People (places_for_people)
 	Parsing web page using scrapers/places_for_people.pl (977075 bytes)
 	Added 28 features (22 geocoded).
-	Total = 8678
-	Processed in 10 seconds
+	Total = 8722
+	Processed in 12 seconds
 142: Plymouth Council (plymouth_council)
 143: Portsmouth Council (portsmouth_council)
 144: Powys Council (powys_council)
-	Parsing web page using scrapers/powys_council.pl (293184 bytes)
+	Parsing web page using scrapers/powys_council.pl (293160 bytes)
 	Added 35 features (35 geocoded).
-	Total = 8713
-	Processed in 5 seconds
+	Total = 8757
+	Processed in 3 seconds
 145: Preston Council (preston_council)
 146: Reading Council (reading_council)
 147: Redcar and Cleveland Council (redcar_and_cleveland_council)
@@ -590,13 +592,13 @@ Build started: 2025-10-17T18:45:05
 	Parsing web page using scrapers/redcar_and_cleveland_council.pl (237034 bytes)
 	Parsing web page using scrapers/redcar_and_cleveland_council.pl (232966 bytes)
 	Added 33 features (33 geocoded).
-	Total = 8746
-	Processed in 4 seconds
+	Total = 8790
+	Processed in 8 seconds
 148: Richmond upon Thames Council (richmond_upon_thames_council)
 	Parsing web page using scrapers/richmond_upon_thames_council.pl (211095 bytes)
 	Added 88 features (87 geocoded).
-	Total = 8834
-	Processed in 1 second
+	Total = 8878
+	Processed in 2 seconds
 149: Rochdale Council (rochdale_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&resourcekey&lid=mpvQeT_0Hxs
@@ -604,158 +606,163 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1qaajLgcGvWqN34TRBrlLoZs3Ac6WfP4&resourcekey&lid=aAb9OWX91aU
 	Unzipping kmz
 	Added 26 features (26 geocoded).
-	Total = 8860
+	Total = 8904
 	Processed in 1 second
 150: Rotherham Council (rotherham_council)
 151: Rugby Council (rugby_council)
-	Parsing web page using scrapers/rugby_council.pl (137072 bytes)
+	Parsing web page using scrapers/rugby_council.pl (137184 bytes)
 	Added 10 features (10 geocoded).
-	Total = 8870
+	Total = 8914
 	Processed in 1 second
 152: Ryedale Council (ryedale_council)
 153: Salisbury Council (salisbury_council)
 154: Sandwell Council (sandwell_council)
 	Parsing web page using scrapers/sandwell_council.pl (132465 bytes)
 	Added 24 features (24 geocoded).
-	Total = 8894
+	Total = 8938
 	Processed in 1 second
 155: Scarborough Council (scarborough_council)
 156: Sefton Council (sefton_council)
 	Parsing web page using scrapers/sefton_council.pl (74400 bytes)
 	Added 35 features (34 geocoded).
-	Total = 8929
+	Total = 8973
+	Processed in 1 second
 157: Sefton CVS (sefton_cvs)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1ufQzUkVn58B6Hw1pTwvmGTYWtSE2DRA&resourcekey&lid=ffKRWzYZG8A
 	Unzipping kmz
 	Added 34 features (34 geocoded).
-	Total = 8963
+	Total = 9007
 	Processed in 1 second
 158: Sevenoaks Council (sevenoaks_council)
 	Parsing web page using scrapers/sevenoaks_council.pl (37744 bytes)
 	Added 21 features (21 geocoded).
-	Total = 8984
-	Processed in 15 seconds
+	Total = 9028
+	Processed in 21 seconds
 159: Sheffield VAS (sheffield_vas)
 	Processing CSV
 	Added 197 features (197 geocoded).
-	Total = 9181
+	Total = 9225
 	Processed in 2 seconds
 160: South Cambs Council (south_cambs_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1agvlRj_UnyGXZwMB6WdLKiH8WS-7wf8&resourcekey&lid=tbF15j2GqK0
 	Unzipping kmz
 	Added 18 features (18 geocoded).
-	Total = 9199
+	Total = 9243
+	Processed in 1 second
 161: South Tyneside Council (south_tyneside_council)
 162: Southwalk Council (southwalk_council)
 	Parsing web page using scrapers/southwalk_council.pl (78023 bytes)
 	Added 51 features (50 geocoded).
-	Total = 9250
-	Processed in 1 second
+	Total = 9294
+	Processed in 4 seconds
 163: Spark Somerset (spark_somerset)
 164: St Helens Council (st_helens_council)
 	Parsing web page using scrapers/st_helens_council.pl (59183 bytes)
 	Added 30 features (29 geocoded).
-	Total = 9280
-	Processed in 12 seconds
+	Total = 9324
+	Processed in 16 seconds
 165: Stafford Borough Council (stafford_borough_council)
 166: Staffordshire Fire and Rescue (staffordshire_fire_and_rescue)
 167: Stevenage Council (stevenage_council)
 168: Stockport Council (stockport_council)
 	Processing GeoJSON
 	Added 99 features (99 geocoded).
-	Total = 9379
+	Total = 9423
 	Processed in 1 second
 169: Stockton-on-Tees Council (stockton-on-tees_council)
 170: Stroud CSCIC (stroud_cscic)
 	Parsing web page using scrapers/stroud_cscic.pl (146947 bytes)
 	Added 22 features (22 geocoded).
-	Total = 9401
-	Processed in 1 second
+	Total = 9445
+	Processed in 2 seconds
 171: Suffolk - Rural Coffee Caravan (suffolk_-_rural_coffee_caravan)
 	Parsing web page using scrapers/suffolk_-_rural_coffee_caravan.pl (592128 bytes)
 	Added 99 features (99 geocoded).
-	Total = 9500
-	Processed in 2 seconds
+	Total = 9544
+	Processed in 1 second
 172: Sunderland Council (sunderland_council)
 173: Surrey County Council (surrey_county_council)
-	Parsing web page using scrapers/surrey_county_council.pl (61079 bytes)
+	Parsing web page using scrapers/surrey_county_council.pl (61547 bytes)
 	Added 18 features (17 geocoded).
-	Total = 9518
+	Total = 9562
+	Processed in 1 second
 174: Sutton Council (sutton_council)
 175: Swansea Council (swansea_council)
-	Parsing web page using scrapers/swansea_council.pl (62787 bytes)
-	Added 71 features (71 geocoded).
-	Total = 9589
-	Processed in 47 seconds
+	Parsing web page using scrapers/swansea_council.pl (62880 bytes)
+	Added 71 features (70 geocoded).
+	Total = 9633
+	Processed in 54 seconds
 176: Swindon Council (swindon_council)
-	Parsing web page using scrapers/swindon_council.pl (32237 bytes)
+	Parsing web page using scrapers/swindon_council.pl (32431 bytes)
 	Added 43 features (42 geocoded).
-	Total = 9632
-	Processed in 20 seconds
+	Total = 9676
+	Processed in 27 seconds
 177: Tameside Council (tameside_council)
 	Parsing web page using scrapers/tameside_council.pl ( bytes)
 	WARNING: No JSON returned from scraper
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 9632
+	Total = 9676
 	Processed in 10 seconds
 178: Tendring Council (tendring_council)
 179: Tewkesbury Council (tewkesbury_council)
-	Parsing web page using scrapers/tewkesbury_council.pl (62022 bytes)
+	Parsing web page using scrapers/tewkesbury_council.pl (62023 bytes)
 	Added 12 features (12 geocoded).
-	Total = 9644
-	Processed in 1 second
+	Total = 9688
+	Processed in 2 seconds
 180: Tonbridge and Malling Council (tonbridge_and_malling_council)
 	Parsing web page using scrapers/tonbridge_and_malling_council.pl (40655 bytes)
 	Added 24 features (23 geocoded).
-	Total = 9668
-	Processed in 19 seconds
+	Total = 9712
+	Processed in 22 seconds
 181: Torbay Council (torbay_council)
 	Parsing web page using scrapers/torbay_council.pl (37245 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 9668
+	Total = 9712
 	Processed in 1 second
 182: Vale of Glamorgan Council (vale_of_glamorgan_council)
 	Processing GeoJSON
 	Added 18 features (18 geocoded).
-	Total = 9686
+	Total = 9730
+	Processed in 2 seconds
 183: Voluntary Action Islington (voluntary_action_islington)
 	Parsing web page using scrapers/voluntary_action_islington.pl (96452 bytes)
 	Added 27 features (25 geocoded).
-	Total = 9713
+	Total = 9757
 	Processed in 2 seconds
 184: Wakefield Council (wakefield_council)
 185: Wandsworth Council (wandsworth_council)
 	Parsing web page using scrapers/wandsworth_council.pl (151957 bytes)
 	Added 70 features (70 geocoded).
-	Total = 9783
+	Total = 9827
 	Processed in 1 second
 186: Warwickshire Rural Council (warwickshire_rural_council)
-	Parsing web page using scrapers/warwickshire_rural_council.pl (116474 bytes)
-	Added 104 features (104 geocoded).
-	Total = 9887
-	Processed in 5 seconds
+	Parsing web page using scrapers/warwickshire_rural_council.pl (117057 bytes)
+	Added 105 features (105 geocoded).
+	Total = 9932
+	Processed in 2 seconds
 187: West Berkshire Council (west_berkshire_council)
 	Processing GeoJSON
 	Added 26 features (26 geocoded).
-	Total = 9913
+	Total = 9958
+	Processed in 1 second
 188: West Devon Council (west_devon_council)
 	Parsing web page using scrapers/west_devon_council.pl (0 bytes)
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 9913
-	Processed in 1 second
+	Total = 9958
 189: West Dunbartonshire Council (west_dunbartonshire_council)
-	Parsing web page using scrapers/west_dunbartonshire_council.pl (32868 bytes)
+	Parsing web page using scrapers/west_dunbartonshire_council.pl (32861 bytes)
 	Added 16 features (14 geocoded).
-	Total = 9929
+	Total = 9974
+	Processed in 1 second
 190: West Northamptonshire (west_northamptonshire)
-	Parsing web page using scrapers/west_northamptonshire.pl (236452 bytes)
+	Parsing web page using scrapers/west_northamptonshire.pl (236489 bytes)
 	Added 110 features (105 geocoded).
-	Total = 10039
+	Total = 10084
 	Processed in 1 second
 191: Westminster Council (westminster_council)
 	Processing GeoJSON
@@ -763,13 +770,13 @@ Build started: 2025-10-17T18:45:05
 	Processing GeoJSON
 	Processing GeoJSON
 	Added 19 features (19 geocoded).
-	Total = 10058
-	Processed in 2 seconds
+	Total = 10103
+	Processed in 3 seconds
 192: Westmorland Council (westmorland_council)
-	Parsing web page using scrapers/westmorland_council.pl (217279 bytes)
+	Parsing web page using scrapers/westmorland_council.pl (217309 bytes)
 	Added 80 features (80 geocoded).
-	Total = 10138
-	Processed in 27 seconds
+	Total = 10183
+	Processed in 28 seconds
 193: Wigan Council (wigan_council)
 	Getting Google Maps pageData
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y&resourcekey&lid=qqvSy7YrMao
@@ -777,8 +784,8 @@ Build started: 2025-10-17T18:45:05
 	Getting Google Maps kmz from https://www.google.com/maps/d/kml?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y&resourcekey&lid=k2BEKF52tZ0
 	Unzipping kmz
 	Added 154 features (154 geocoded).
-	Total = 10292
-	Processed in 1 second
+	Total = 10337
+	Processed in 2 seconds
 194: Wiltshire Council (wiltshire_council)
 195: Wokingham Council (wokingham_council)
 196: Wolverhampton Council (wolverhampton_council)
@@ -788,6 +795,5 @@ Build started: 2025-10-17T18:45:05
 	WARNING: No JSON returned from scraper
 	WARNING: No features found in web page.
 	Added 0 features (0 geocoded).
-	Total = 10292
-	Processed in 1 second
-Added 10292 features in total (10089 geocoded from 103 directories).
+	Total = 10337
+Added 10337 features in total (10144 geocoded from 103 directories).

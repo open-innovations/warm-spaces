@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.51985,55.99989],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Dunbar Library, Dunbar, East Lothian EH42 1DX","description":"Within the library which is part of the Bleachingfield Centre, Thers is a seated area and tea and coffe is provided free of charge, books , games, computers are also free to use","hours":{"_text":"Monday: 09:00 - 13:00 / 14:00 - 17:00, Tuesday: 09:00 - 13:00 / 14:00 - 17:00, Wednesday: 10:00 - 13:00 / 14:00 - 17:00, Thursday: 09:00 - 13:00 / 14:00 - 17:00, Friday: 09:00 - 13:00 / 14:00 - 17:00, Saturday: 10:00 - 13:00","opening":"Mo 09:00-13:00,14:00-17:00; Tu 09:00-13:00,14:00-17:00; We 10:00-13:00,14:00-17:00; Th 09:00-13:00,14:00-17:00; Fr 09:00-13:00,14:00-17:00; Sa 10:00-13:00"},"title":"Dunbar Library"},"type":"Feature"}
+	]
+}
