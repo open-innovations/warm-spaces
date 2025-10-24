@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 330,
-		"geocount": 330,
+		"count": 331,
+		"geocount": 331,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -399,8 +399,8 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count": 41,
-		"geocount": 36,
+		"count": 42,
+		"geocount": 37,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 228,
-		"geocount": 221,
+		"count": 232,
+		"geocount": 224,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -1236,8 +1236,8 @@
 	},
 	"richmond_upon_thames_council": {
 		"checked":"2025-10-07",
-		"count": 88,
-		"geocount": 87,
+		"count": 99,
+		"geocount": 98,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1262,8 +1262,8 @@
 	},
 	"rugby_council": {
 		"checked":"2025-10-07",
-		"count": 10,
-		"geocount": 10,
+		"count": 9,
+		"geocount": 8,
 		"id":"rugby_council",
 		"title":"Rugby Council",
 		"url":"https://www.rugby.gov.uk/warmhubs"
@@ -1451,8 +1451,8 @@
 	},
 	"surrey_county_council": {
 		"checked":"2025-10-07",
-		"count": 18,
-		"geocount": 17,
+		"count": 51,
+		"geocount": 1,
 		"id":"surrey_county_council",
 		"title":"Surrey County Council",
 		"url":"https://www.surreycc.gov.uk/health-and-welfare/support/welfare-support/everyday-living/warm-welcome-venues"
@@ -1569,8 +1569,8 @@
 	},
 	"warm_welcome": {
 		"checked":"2025-10-01",
-		"count": 4926,
-		"geocount": 4926,
+		"count": 4955,
+		"geocount": 4955,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
@@ -1635,8 +1635,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 80,
-		"geocount": 80,
+		"count": 78,
+		"geocount": 78,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",

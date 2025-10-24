@@ -17,7 +17,7 @@
 		{"geometry":{"coordinates":[-0.31485,53.75258],"type":"Point"},"properties":{"_source":"hull_council","address":"The Well, The Mount Retail Park, Hull","title":"River City"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.29399,53.75994],"type":"Point"},"properties":{"_source":"hull_council","address":"139 Southcoates Avenue, Hull","title":"St Aidans"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.25468,53.75601],"type":"Point"},"properties":{"_source":"hull_council","address":"Annandale Road Hull","title":"St Hildas"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.26358,53.76860],"type":"Point"},"properties":{"_source":"hull_council","address":"107 Amethyst Road, Hull","title":"St Philip's"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.26410,53.76863],"type":"Point"},"properties":{"_source":"hull_council","address":"115 Amethyst Road, Hull","title":"St Philip's"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.29956,53.75312],"type":"Point"},"properties":{"_source":"hull_council","address":"Rosmead Street, Hull","title":"St.John's (Drypool) Church and Community Project"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.26784,53.76049],"type":"Point"},"properties":{"_source":"hull_council","address":"Marfleet Community Centre - Rear Of 22-24 Swanfield Road","title":"TIMEBANK"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.34793,53.75011],"type":"Point"},"properties":{"_source":"hull_council","address":"29 Beverley Road","title":"Toranj"},"type":"Feature"},

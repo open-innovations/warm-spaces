@@ -22,7 +22,6 @@
 		{"geometry":{"coordinates":[-0.35790,53.76843],"type":"Point"},"properties":{"_source":"hull_council","address":"310 Newland Avenue, HULL","title":"Oasis"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.35197,53.74952],"type":"Point"},"properties":{"_source":"hull_council","address":"91A Spring Bank, Hull","title":"Solidarity"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.38401,53.77290],"type":"Point"},"properties":{"_source":"hull_council","address":"62 HALL ROAD","title":"St Albans"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.37683,53.78764],"type":"Point"},"properties":{"_source":"hull_council","address":"Ellerburn Avenue, Orchard Park Road, Orchard Park, Hull","title":"St Mikes Project"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.45264,53.76139],"type":"Point"},"properties":{"_source":"hull_council","address":"8 St George Court","title":"WELCOME TO ENGLISH"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.37683,53.78764],"type":"Point"},"properties":{"_source":"hull_council","address":"Ellerburn Avenue, Orchard Park Road, Orchard Park, Hull","title":"St Mikes Project"},"type":"Feature"}
 	]
 }
