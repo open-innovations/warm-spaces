@@ -43,10 +43,11 @@ savePostcodes($pcfile);
 
 sub processDirectories {
 
-	my ($i,$j,$k,$d,@features,@nfeatures,$file,$json,$f,$rtnjson,$scraper,$json,$feat,$n,@warmplaces,$sources);
+	my ($i,$j,$k,$d,@features,@nfeatures,$file,$json,$f,$rtnjson,$scraper,$json,$feat,$n,@warmplaces,$sources,@ignore,$ig,$igmatch,$tomatch,$temp);
 	
 	# Load the main config file
 	my $data = LoadFile('data.yml');
+	my @ignore = (-e 'ignore.yml' ? @{LoadFile('ignore.yml')} : ());
 
 	# How many directories do we have
 	my $n = @{$data->{'directories'}};
@@ -128,8 +129,44 @@ sub processDirectories {
 				}
 				push(@features,@nfeatures);
 			}
+
+			# Remove any features that match "ignore"
+			if(@ignore){
+				for($f = @features-1; $f >= 0; $f--){
+					# Remove trailing spaces in title
+					$features[$f]{'title'} =~ s/(^\s+|\s+$)//g;
+					for($ig = 0; $ig < @ignore; $ig++){
+						$igmatch = 0;
+						$tomatch = 0;
+						if($ignore[$ig]{'title'}){
+							$tomatch++;
+							$temp = $ignore[$ig]{'title'};
+							$temp =~ s/\[/\\\[/g;
+							$temp =~ s/\]/\\\]/g;
+							if($temp =~ /^\~/){
+								$temp =~ s/^\~//;
+								if($features[$f]{'title'} =~ /$temp/){ $igmatch++; }
+							}else{
+								if($features[$f]{'title'} eq $temp){ $igmatch++; }
+							}
+						}
+						if($ignore[$ig]{'directory'}){
+							$tomatch++;
+							if($ignore[$ig]{'directory'} eq $d->{'id'}){ $igmatch++; }
+						}
+						if($tomatch > 0 && $igmatch == $tomatch){
+							# Remove this feature
+							msg("\tRemove: <yellow>$features[$f]{'title'}<none> (score = ".$igmatch.")\n");
+							splice(@features,$f,1);
+						}
+					}
+				}
+			}
+
 			$d->{'count'} = @features;
 			$d->{'geocount'} = 0;
+
+
 			for($f = 0; $f < @features; $f++){
 				if($features[$f]{'lat'} && $features[$f]{'lon'}){
 					# Truncate coordinates to remove unnecessary precision (no need for better than 1m)
