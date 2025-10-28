@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-02",
-		"count": 110,
-		"geocount": 110,
+		"count":"0",
+		"geocount":"0",
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 25,
-		"geocount": 25,
+		"count": 26,
+		"geocount": 26,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 331,
-		"geocount": 331,
+		"count": 332,
+		"geocount": 332,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -199,7 +199,7 @@
 	"bradford_council": {
 		"checked":"2025-10-01",
 		"count": 223,
-		"geocount": 223,
+		"geocount": 195,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -399,7 +399,7 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count": 42,
+		"count": 43,
 		"geocount": 37,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -1569,8 +1569,8 @@
 	},
 	"warm_welcome": {
 		"checked":"2025-10-01",
-		"count": 4955,
-		"geocount": 4955,
+		"count": 4967,
+		"geocount": 4967,
 		"id":"warm_welcome",
 		"map": { "type":"mapbox","url":"https://www.warmwelcome.uk/#find-a-space" },
 		"register": { "url":"https://www.warmwelcome.uk/get-started/signup" },
