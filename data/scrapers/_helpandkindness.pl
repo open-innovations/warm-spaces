@@ -38,7 +38,7 @@ if(-e $file){
 	}
 	$coords = {};
 
-	if($str =~ /<script type=\"text\/javascript\">(.*?new google.maps.*?)<\/script>/s){
+	if($str =~ /<script type=\"[^\"]+text\/javascript\">(.*?new google.maps.*?)<\/script>/s){
 		$script = $1;
 		$script =~ s/^.*?map.setOptions\(\{styles: styles_0\}\)//gs;
 		while($script =~ s/var myLatlng = new google.maps.LatLng\(([^\,]+), ([^\\)]+)\).*?(marker_[0-9]+) = createMarker_map\(markerOptions\);.*?marker_[0-9]+.set\("content", "(.*?)"\)\;//s){
@@ -62,8 +62,8 @@ if(-e $file){
 			}
 			$coords->{$title} = $d;
 		}
-
 	}
+
 	foreach $title (sort(keys(%{$warmspaces}))){
 		$d = {'title'=>$title};
 		if($coords->{$title}{'url'}){
