@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.05260,54.83644],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Eco Art, Kirkcudbright, Kirkcudbrightshire DG6 4JA","description":"Warm community space for picking up free food, enjoying cake, pastries and a cuppa with new and old friends. Everyone is welcome.","hours":{"_text":"Friday: 10:00 - 11:30","opening":"Fr 10:00-11:30"},"title":"Free Food Fridays"},"type":"Feature"}
+	]
+}
