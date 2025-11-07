@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.39273,51.94808],"type":"Point"},"properties":{"_source":"powys_council","address":"QUEENS HEAD VAULTS, MARKET STREET, BRECON, LD3 9AH","description":"Accessible entrance; Free wi-fi; Free devices to use; Free use of computers; Charging facilities for phones and other devices; Work stations for agile working; Hot drinks cordial and biscuits; Dairy alternative - oat milk / almond milk; Magazines; Newspapers; Book borrowing/swap; Toilets; Disabled toilets; Activities; Car Parking; Other","loc_pcd":true,"title":"Brecon Volunteer Bureau","url":"https://en.powys.gov.uk/powyswarmspaces?view=detail&id=9422-8518-8017-5713"},"type":"Feature"}
+	]
+}

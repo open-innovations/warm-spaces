@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-0.95215,52.76380],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints' Church, Asfordby, LE14 3RU","description":"We offer a free monthly coffee morning where everyone is welcome to come along to our warm space for a hot drink and some cake and a chat or just to spend some time with others.","hours":{"_text":"Saturday: 10:00 - 12:00 Monthly","opening":"Sa 10:00-12:00"},"title":"Coffee Morning and Chat 1st Saturday of the month 10 - 12."},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.80682,52.81595],"type":"Point"},"properties":{"_source":"warm_welcome","address":"High Street, Melton Mowbray, Leics LE14 4AH","description":"We cater for young and old and in-between! We run a café with hot drinks and cake at the same time as our Little Gems parent/carer baby/toddler group - all welcome","hours":{"_text":"Wednesday: 10:00 - 11:30","opening":"We 10:00-11:30"},"title":"St Mary Magdalene"},"type":"Feature"}
 	]
 }
