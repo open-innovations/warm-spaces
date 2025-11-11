@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 110,
-		"geocount": 110,
+		"count": 111,
+		"geocount": 111,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 334,
-		"geocount": 334,
+		"count": 333,
+		"geocount": 333,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -415,8 +415,8 @@
 	},
 	"cherwell_council": {
 		"checked":"2025-10-01",
-		"count": 36,
-		"geocount": 36,
+		"count": 37,
+		"geocount": 37,
 		"id":"cherwell_council",
 		"map": { "type":"arcgis","url":"https://cherwell.maps.arcgis.com/apps/instant/nearby/index.html?appid=5eb7e00e295e49c7bbbcd1896ebdb535&sliderDistance=2" },
 		"notes":"Links to a PDF and Warm Welcome UK",
@@ -1203,8 +1203,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 4,
-		"geocount": 4,
+		"count": 10,
+		"geocount": 10,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
