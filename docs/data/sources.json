@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 111,
-		"geocount": 111,
+		"count": 112,
+		"geocount": 112,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 333,
-		"geocount": 333,
+		"count": 335,
+		"geocount": 335,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -198,8 +198,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 221,
-		"geocount": 198,
+		"count": 223,
+		"geocount": 195,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -237,8 +237,8 @@
 	},
 	"bridgend_association_of_voluntary_organisations": {
 		"checked":"2025-10-01",
-		"count": 43,
-		"geocount": 34,
+		"count":"0",
+		"geocount":"0",
 		"id":"bridgend_association_of_voluntary_organisations",
 		"title":"Bridgend Association of Voluntary Organisations",
 		"url":"https://www.bavo.org.uk/warm-well-this-winter-warm-hubs-near-you/"
@@ -415,8 +415,8 @@
 	},
 	"cherwell_council": {
 		"checked":"2025-10-01",
-		"count": 37,
-		"geocount": 37,
+		"count": 41,
+		"geocount": 41,
 		"id":"cherwell_council",
 		"map": { "type":"arcgis","url":"https://cherwell.maps.arcgis.com/apps/instant/nearby/index.html?appid=5eb7e00e295e49c7bbbcd1896ebdb535&sliderDistance=2" },
 		"notes":"Links to a PDF and Warm Welcome UK",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 28,
+		"geocount": 30,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -496,8 +496,8 @@
 	},
 	"coventry_council": {
 		"checked":"2025-10-01",
-		"count": 59,
-		"geocount": 59,
+		"count": 58,
+		"geocount": 58,
 		"id":"coventry_council",
 		"map": { "type":"googlemap","url":"https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search" },
 		"title":"Coventry Council",
@@ -1181,8 +1181,8 @@
 	},
 	"places_for_people": {
 		"checked":"2025-10-02",
-		"count": 28,
-		"geocount": 22,
+		"count": 33,
+		"geocount": 27,
 		"id":"places_for_people",
 		"title":"Places for People",
 		"url":"https://www.placesforpeople.co.uk/about-us/community/community-projects/"
@@ -1203,8 +1203,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 10,
-		"geocount": 10,
+		"count": 15,
+		"geocount": 15,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1236,8 +1236,8 @@
 	},
 	"richmond_upon_thames_council": {
 		"checked":"2025-10-07",
-		"count": 99,
-		"geocount": 98,
+		"count": 100,
+		"geocount": 99,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1624,8 +1624,8 @@
 	},
 	"westminster_council": {
 		"checked":"2025-10-08",
-		"count": 19,
-		"geocount": 19,
+		"count": 18,
+		"geocount": 18,
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"needscheck":"1",
@@ -1635,8 +1635,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 76,
-		"geocount": 76,
+		"count": 72,
+		"geocount": 72,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",
