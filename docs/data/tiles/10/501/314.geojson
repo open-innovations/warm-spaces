@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-3.83945,56.76390],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Blair Atholl Golf Club, Invertilt Road, Blair Atholl, PH18 5TE","contact":"01796 481552","description":"Activities, crafts and refrehsments (Ages 65+)","hours":{"_text":"Wednesday 11am-3pm","opening":"We 11:00-15:00"},"title":"Tulach Bar and Restaurant"},"type":"Feature"}
-	]
-}
+{}
