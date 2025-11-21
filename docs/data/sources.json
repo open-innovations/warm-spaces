@@ -198,8 +198,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 125,
-		"geocount": 109,
+		"count":"0",
+		"geocount":"0",
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -376,7 +376,7 @@
 	"central_bedfordshire_council": {
 		"checked":"2025-10-01",
 		"count": 65,
-		"geocount": 61,
+		"geocount": 60,
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -505,8 +505,8 @@
 	},
 	"croydon_council": {
 		"checked":"2025-10-01",
-		"count": 21,
-		"geocount": 21,
+		"count":"0",
+		"geocount":"0",
 		"id":"croydon_council",
 		"map": { "type":"leaflet","url":"https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title":"Croydon Council",
@@ -709,8 +709,8 @@
 	},
 	"gedling_council": {
 		"checked":"2025-10-02",
-		"count": 36,
-		"geocount": 34,
+		"count":"0",
+		"geocount":"0",
 		"id":"gedling_council",
 		"title":"Gedling Council",
 		"url":"https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
@@ -1203,8 +1203,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 18,
-		"geocount": 18,
+		"count": 23,
+		"geocount": 23,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1236,8 +1236,8 @@
 	},
 	"richmond_upon_thames_council": {
 		"checked":"2025-10-07",
-		"count": 100,
-		"geocount": 99,
+		"count": 99,
+		"geocount": 98,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
@@ -1614,8 +1614,8 @@
 	},
 	"west_northamptonshire": {
 		"checked":"2025-10-08",
-		"count": 111,
-		"geocount": 106,
+		"count":"0",
+		"geocount":"0",
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u" },
@@ -1624,8 +1624,8 @@
 	},
 	"westminster_council": {
 		"checked":"2025-10-08",
-		"count": 19,
-		"geocount": 19,
+		"count": 21,
+		"geocount": 21,
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"needscheck":"1",
@@ -1635,8 +1635,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 72,
-		"geocount": 72,
+		"count": 73,
+		"geocount": 73,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",
