@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 334,
-		"geocount": 334,
+		"count": 337,
+		"geocount": 337,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -262,8 +262,8 @@
 	},
 	"bristol_council": {
 		"checked":"2025-10-01",
-		"count": 86,
-		"geocount": 86,
+		"count": 85,
+		"geocount": 85,
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -514,8 +514,8 @@
 	},
 	"croydon_simply_connect": {
 		"checked":"2025-10-01",
-		"count": 25,
-		"geocount": 25,
+		"count": 24,
+		"geocount": 24,
 		"id":"croydon_simply_connect",
 		"register": { "url":"https://forms.office.com/r/iBHN1rt1HE" },
 		"title":"Croydon Simply Connect",
@@ -1203,8 +1203,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 23,
-		"geocount": 23,
+		"count": 26,
+		"geocount": 26,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
