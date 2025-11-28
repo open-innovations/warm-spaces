@@ -21,6 +21,7 @@
 		{"geometry":{"coordinates":[-0.29956,53.75312],"type":"Point"},"properties":{"_source":"hull_council","address":"Rosmead Street, Hull","title":"St.John's (Drypool) Church and Community Project"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.26784,53.76049],"type":"Point"},"properties":{"_source":"hull_council","address":"Marfleet Community Centre - Rear Of 22-24 Swanfield Road","title":"TIMEBANK"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.34793,53.75011],"type":"Point"},"properties":{"_source":"hull_council","address":"29 Beverley Road","title":"Toranj"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.32114,53.78471],"type":"Point"},"properties":{"_source":"hull_council","address":"Astra Youth Centre, 100 Barnstaple Road","title":"Yap and Yarn"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.32114,53.78471],"type":"Point"},"properties":{"_source":"hull_council","address":"Astra Youth Centre, 100 Barnstaple Road","title":"Yap and Yarn"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.31123,53.77943],"type":"Point"},"properties":{"_source":"hull_council","address":"Redwood Glades, Leads Road, Hull","title":"Riverside Group"},"type":"Feature"}
 	]
 }

@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 114,
-		"geocount": 114,
+		"count": 121,
+		"geocount": 121,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 30,
-		"geocount": 30,
+		"count": 31,
+		"geocount": 31,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 337,
-		"geocount": 337,
+		"count": 343,
+		"geocount": 343,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -262,8 +262,8 @@
 	},
 	"bristol_council": {
 		"checked":"2025-10-01",
-		"count": 85,
-		"geocount": 85,
+		"count": 81,
+		"geocount": 81,
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -316,8 +316,8 @@
 	},
 	"calderdale_council": {
 		"checked":"2025-10-01",
-		"count": 54,
-		"geocount": 54,
+		"count":"0",
+		"geocount":"0",
 		"id":"calderdale_council",
 		"title":"Calderdale Council",
 		"url":"https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
@@ -496,8 +496,8 @@
 	},
 	"coventry_council": {
 		"checked":"2025-10-01",
-		"count": 58,
-		"geocount": 58,
+		"count": 57,
+		"geocount": 57,
 		"id":"coventry_council",
 		"map": { "type":"googlemap","url":"https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search" },
 		"title":"Coventry Council",
@@ -505,8 +505,8 @@
 	},
 	"croydon_council": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 25,
+		"geocount": 25,
 		"id":"croydon_council",
 		"map": { "type":"leaflet","url":"https://www.croydon.gov.uk/warm-spaces-directory" },
 		"title":"Croydon Council",
@@ -843,8 +843,8 @@
 	},
 	"hull_council": {
 		"checked":"2025-10-02",
-		"count": 46,
-		"geocount": 46,
+		"count": 49,
+		"geocount": 49,
 		"id":"hull_council",
 		"map": { "type":"iShare","url":"https://maps.hull.gov.uk/?tab=maps&Layers=Warm_Spaces" },
 		"title":"Hull Council",
@@ -1203,8 +1203,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 26,
-		"geocount": 26,
+		"count": 28,
+		"geocount": 28,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1624,8 +1624,8 @@
 	},
 	"westminster_council": {
 		"checked":"2025-10-08",
-		"count": 21,
-		"geocount": 21,
+		"count":"0",
+		"geocount":"0",
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"needscheck":"1",

@@ -30,6 +30,7 @@
 		{"geometry":{"coordinates":[-0.38396,53.74179],"type":"Point"},"properties":{"_source":"hull_council","address":"Rainbow Family Hub and Community Centre Wheeler Street, Anlaby Road Hull","title":"Panda People"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.37190,53.72984],"type":"Point"},"properties":{"_source":"hull_council","address":"7 The Beacon Way","title":"PFH"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.36947,53.74167],"type":"Point"},"properties":{"_source":"hull_council","address":"Vulcan Centre, 42 Heron Street, Hull Fish Trades","title":"Vulcan Centre"},"type":"Feature"},
-		{"geometry":{"coordinates":[-0.35221,53.73978],"type":"Point"},"properties":{"_source":"hull_council","address":"Family Centre (side entrance), Walker Street","title":"Welcome to English"},"type":"Feature"}
+		{"geometry":{"coordinates":[-0.35221,53.73978],"type":"Point"},"properties":{"_source":"hull_council","address":"Family Centre (side entrance), Walker Street","title":"Welcome to English"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.38091,53.73912],"type":"Point"},"properties":{"_source":"hull_council","address":"Cecil Gardens, Hawthorn Avenue, Hull","title":"Riverside Group"},"type":"Feature"}
 	]
 }
