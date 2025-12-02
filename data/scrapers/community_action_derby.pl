@@ -24,7 +24,8 @@ if(-e $file){
 		process '.container--inner', 'row[]' => 'HTML';
 	};
 	
-	if($str =~ /Warm Welcome Hub List \(by area\)(.*?)<\/div>/s){
+	if($str =~ /Warm Welcome Hub List \(by ward\)(.*?)<\/div>/s){
+
 		while($str =~ s/<h4>(.*?)<\/h4>(.*?)<hr[^\>]*>//s){
 			$d = {};
 			$d->{'title'} = $1;

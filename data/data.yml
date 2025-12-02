@@ -211,11 +211,9 @@ directories:
         Upgrade-Insecure-Requests: "1"
   - title: "Bolton at Home"
     checked: 2025-10-01
+    inactive: 2025-12-02
     url: "https://www.boltonathome.org.uk/warm-spaces/"
-    notes: "Their page is under review as of 1st October 2025"
-    data:
-      url: "https://www.boltonathome.org.uk/warm-spaces/"
-      type: html
+    notes: "They now link to WarmWelcome instead"
   - title: "Boston Borough Council"
     checked: 2025-10-01
     url: "https://www.boston.gov.uk/warmspaces"
@@ -240,8 +238,8 @@ directories:
       type: html
   - title: "Bracknell Forest Council"
     checked: 2025-10-01
-    notes: "No longer exists"
     inactive: 2024-11-19
+    notes: "No longer exists"
     url: https://www.bracknell-forest.gov.uk/housing/energy-home/home-energy-improvement-grants/warm-safe-and-well-scheme
   - title: "Bradford Council"
     checked: 2025-10-01
@@ -256,8 +254,8 @@ directories:
       type: html
   - title: "Bradford on Avon Council"
     checked: 2025-10-01
-    notes: "No longer exists"
     inactive: 2024-11-19
+    notes: "No longer exists"
   - title: "Braintree Council"
     checked: 2025-10-01
     url: "https://www.braintree.gov.uk/warmspaces"
@@ -266,25 +264,26 @@ directories:
       type: html
   - title: "Breckland Council"
     checked: 2025-10-01
-    notes: "No longer exists"
     inactive: 2024-11-19
+    notes: "No longer exists"
   - title: "Brent"
     checked: 2025-10-01
+    inactive: 2025-12-02
     url: "https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
-    notes: "Refers people to Warm Welcome"
+    notes: "No longer exists"
   - title: "Bridgend Council"
     checked: 2025-10-01
-    notes: "No longer exists"
     inactive: 2025-10-01
+    notes: "No longer exists"
     url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
     data:
       url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
       type: html
   - title: "Bridgend Association of Voluntary Organisations"
     checked: 2025-10-01
-    url: "https://www.bavo.org.uk/warm-well-this-winter-warm-hubs-near-you/"
+    url: "https://www.bavo.org.uk/help-for-people/warm-well-this-winter-25-26/"
     data:
-      url: "https://www.bavo.org.uk/warm-well-this-winter-warm-hubs-near-you/"
+      url: "https://www.bavo.org.uk/help-for-people/warm-well-this-winter-25-26/"
       type: html
   - title: "Brighton & Hove Council"
     checked: 2025-10-01
@@ -312,9 +311,9 @@ directories:
         address: "ADDRESS"
   - title: "Broadland and South Norfolk Council"
     checked: 2025-10-01
+    inactive: 2024-11-19
     url: "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
     notes: "No longer exists"
-    inactive: 2024-11-19
   - title: "Bromley Well"
     checked: 2025-10-01
     url: "https://www.bromleywell.org.uk/advice/bromley-warm-centres-map/"
@@ -362,11 +361,13 @@ directories:
     checked: 2025-10-01
     url: "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
     data:
-      url: "https://dataworks.calderdale.gov.uk/download/e6x89/kee/Warm%20and%20Welcoming%20Spaces%20December%202024.geojson"
+      url: "https://dataworks.calderdale.gov.uk/download/e6x89/v0x/Warm%20and%20Welcoming%20Spaces%20December%202025.geojson"
       type: geojson
       keys:
         title: "Organisation"
-        address: "Address"  
+        address: "Address"
+        lat: Latitude
+        lon: Longitude
   - title: "Cambridge Council"
     checked: 2025-10-01
     url: "https://www.cambridge.gov.uk/warm-and-welcoming-spaces"
@@ -702,7 +703,7 @@ directories:
     notes: "They now (2024) link to WarmWelcome."
   - title: "Durham County Council"
     checked: 2025-10-02
-    url: "https://www.durhamlocate.org.uk/Search?CategoryId=152&SM=ServiceSearch&UDG=True&SME=True"
+    url: "https://durham.gov.uk/article/28227/What-Welcome-Spaces-are-why-we-need-them-and-how-to-find-them"
     register:
       url: "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network"
     map:

@@ -20,7 +20,7 @@ if(-e $file){
 	$str = join("",@lines);
 
 	# Get pages
-	while($str =~ s/<h4>.*?<\/h4>.*?<a href="([^\"]+)"><img//s){
+	while($str =~ s/<a href="([^\"]+)"><img [^\>]*class="alignnone wp//s){
 		push(@pages,$1);
 	}
 
@@ -42,31 +42,52 @@ if(-e $file){
 		close(FILE);
 		$str = join("",@lines);
 		
-		while($str =~ s/<h3>(.*?)<\/h3>.*?<ul>(.*?)<\/ul>//s){
-			$d = {};
-			$list = $2;
-			$d->{'title'} = $1;
-			$d->{'title'} = trim($d->{'title'});
-			$list =~ s/\n?<li>//g;
-			$list =~ s/\n$//g;
-			@li = split(/<\/li>/,$list);
+		while($str =~ s/<h3>🌡️ (.*?) – Warm Space<\/h3>(.*?)(<h3>|<\/div>)/$3/s){
+			$title = trim($1);
+			$desc = $2;
 
-			for($i = 0; $i < @li; $i++){
-				if($li[$i] =~ /<strong>Address:<\/strong> (.*)/){
-					$d->{'address'} = $1;
-				}elsif($li[$i] =~ /<strong>When:<\/strong> (.*)/){
-					$d->{'hours'} = {'_text'=>$1};
-					$d->{'hours'}{'_text'} =~ s/<[^\>]+>/ /g;
-					$d->{'hours'} = parseOpeningHours($d->{'hours'});
-				}else{
-					$d->{'description'} .= ($d->{'description'} ? ". ":"").$li[$i];
+			$d = {};
+			$d->{'title'} = trim($title);
+
+			$desc =~ s/\<\/div>.*//g;
+
+			if($desc =~ /&quot;centerLatitude&quot;:([0-9\.]+),&quot;centerLongitude&quot;:([-0-9\.]+),/){
+				$d->{'lat'} = $1;
+				$d->{'lon'} = $2;
+			}
+
+			if($desc =~ s/Address:<\/strong>(.*?)<\/p>//is){
+				$address = $1;
+				$d->{'address'} = trim($address);
+				if($address =~ /\&quot;centerLatitude\&quot;:([0-9\.]+),\&quot;centerLongitude&quot;:([-0-9\.]+)/){
+					$d->{'lat'} = $1;
+					$d->{'lon'} = $2;
 				}
 			}
-			$d->{'description'} = trim($d->{'description'});
-			$d->{'description'} =~ s/\n/ /g;
 
+			$list = "";
+			if($desc =~ s/Opening hours:.*?<ul>(.*?)<\/ul>//is){
+				$d->{'hours'} = {'_text'=>trim($1)};
+				$d->{'hours'}{'_text'} =~ s/<[^\>]+>/ /g;
+				$d->{'hours'} = parseOpeningHours($d->{'hours'});
+			}
+
+			if($desc =~ s/About:(.*?)<\/p>//is){
+				$d->{'description'} = trim($1);
+			}
+
+
+			if($desc =~ s/Contact:(.*?)(<\/(li|p)>)/$2/is){
+				$contact = $1;
+				$contact =~ s/<\/?strong>//g;
+				if($contact =~ /[0-9\s]{8,}/){
+					$d->{'contact'} .= ($d->{'contact'} ? "; ":"")."Tel: ".trim($contact);
+				}
+			}
+			
 			push(@entries,makeJSON($d,1));
 		}
+		
 	}
 
 	open(FILE,">:utf8","$file.json");
@@ -84,6 +105,8 @@ if(-e $file){
 
 sub trim {
 	my $str = shift;
+	#$str =~ s/\n/<br \/>/g;
 	$str =~ s/<[^\>]+>//g;
+	$str =~ s/^\n//g;
 	return $str;
 }

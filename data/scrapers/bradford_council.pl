@@ -21,10 +21,10 @@ if(-e $file){
 	$str = join("",@lines);
 
 	my $pages = scraper {
-		process 'h2.elementor-heading-title a', 'url[]' =>  '@href';
+		process 'h2.wp-block-heading a', 'url[]' =>  '@href';
 	};
 	$pages = $pages->scrape( $str );
-
+	
 	# Build a web scraper
 	my $warmspaces = scraper {
 		process '.wpbdp-listing', "warmspace[]" => scraper {
@@ -70,7 +70,6 @@ if(-e $file){
 				}
 			}
 
-
 			$res = $warmspaces->scrape( $html );
 
 			for($i = 0; $i < @{$res->{'warmspace'}}; $i++){
@@ -88,6 +87,7 @@ if(-e $file){
 							$d->{'lon'} = $urls->{$d->{'url'}}{'geolocation'}{'lng'};
 						}
 					}
+
 					push(@entries,makeJSON($d,1));
 				}
 			}

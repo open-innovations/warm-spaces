@@ -33,11 +33,11 @@ $log = processLog((-e $basedir."build.log.old" ? $basedir."build.log.old" : $bas
 $log = processLog($basedir."build.log","new",$log);
 
 # Make output
-$str = "| Number | Name | Total | Geo-coded | Change | Warnings | Time (s) |\n";
-$str .= "| --- | --- | --- | --- | --- | --- | --- |\n";
+$str = "| Number | Name | Total | Geo-coded | Change | Warnings | Time (s) | Active | Notes |\n";
+$str .= "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n";
 $n = 1;
 foreach $id (sort{$log->{$a}{'n'} <=> $log->{$b}{'n'}}(keys(%{$log}))){
-	$str .= "| $n | ".($log->{$id}{'config'}{'url'} ? "[$log->{$id}{'name'}]($log->{$id}{'config'}{'url'})" : "$log->{$id}{'name'}")." | $log->{$id}{'total'}{'new'} | $log->{$id}{'geo'}{'new'} | ".($log->{$id}{'geo'}{'new'} eq $log->{$id}{'geo'}{'old'} ? "-" : ($log->{$id}{'geo'}{'new'} > $log->{$id}{'geo'}{'old'} ? "▲":"▼"))." | $log->{$id}{'warn'} | $log->{$id}{'seconds'}{'new'} |\n";
+	$str .= "| $n | ".($log->{$id}{'config'}{'url'} ? "[$log->{$id}{'name'}]($log->{$id}{'config'}{'url'})" : "$log->{$id}{'name'}")." | $log->{$id}{'total'}{'new'} | $log->{$id}{'geo'}{'new'} | ".($log->{$id}{'geo'}{'new'} eq $log->{$id}{'geo'}{'old'} ? "-" : ($log->{$id}{'geo'}{'new'} > $log->{$id}{'geo'}{'old'} ? "▲":"▼"))." | $log->{$id}{'warn'} | $log->{$id}{'seconds'}{'new'} | ".($log->{$id}{'config'}{'inactive'} ? "INACTIVE":"")." | $log->{$id}{'config'}{'notes'} |\n";
 	$n++;
 }
 print $str;
