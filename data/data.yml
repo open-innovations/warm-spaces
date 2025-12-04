@@ -210,7 +210,7 @@ directories:
         Accept-Encoding: "gzip, deflate, br"
         Upgrade-Insecure-Requests: "1"
   - title: "Bolton at Home"
-    checked: 2025-10-01
+    checked: 2025-12-02
     inactive: 2025-12-02
     url: "https://www.boltonathome.org.uk/warm-spaces/"
     notes: "They now link to WarmWelcome instead"
@@ -237,7 +237,7 @@ directories:
       url: "https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
       type: html
   - title: "Bracknell Forest Council"
-    checked: 2025-10-01
+    checked: 2025-12-02
     inactive: 2024-11-19
     notes: "No longer exists"
     url: https://www.bracknell-forest.gov.uk/housing/energy-home/home-energy-improvement-grants/warm-safe-and-well-scheme
@@ -267,12 +267,12 @@ directories:
     inactive: 2024-11-19
     notes: "No longer exists"
   - title: "Brent"
-    checked: 2025-10-01
+    checked: 2025-12-02
     inactive: 2025-12-02
     url: "https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
     notes: "No longer exists"
   - title: "Bridgend Council"
-    checked: 2025-10-01
+    checked: 2025-12-02
     inactive: 2025-10-01
     notes: "No longer exists"
     url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
@@ -280,7 +280,7 @@ directories:
       url: "https://www.bridgend.gov.uk/residents/benefits-and-support/cost-of-living-support/warm-spaces/"
       type: html
   - title: "Bridgend Association of Voluntary Organisations"
-    checked: 2025-10-01
+    checked: 2025-12-02
     url: "https://www.bavo.org.uk/help-for-people/warm-well-this-winter-25-26/"
     data:
       url: "https://www.bavo.org.uk/help-for-people/warm-well-this-winter-25-26/"
@@ -310,7 +310,7 @@ directories:
         contact: "CONTACT"
         address: "ADDRESS"
   - title: "Broadland and South Norfolk Council"
-    checked: 2025-10-01
+    checked: 2025-12-02
     inactive: 2024-11-19
     url: "https://www.southnorfolkandbroadland.gov.uk/communities/broadland-district-council-warm-spaces-grant/2"
     notes: "No longer exists"
@@ -358,7 +358,7 @@ directories:
       - url: "https://theburydirectory.co.uk/health-and-wellbeing/warm-spaces-bury"
         type: html
   - title: "Calderdale Council"
-    checked: 2025-10-01
+    checked: 2025-12-02
     url: "https://dataworks.calderdale.gov.uk/dataset/e6x89/warm-and-welcoming-spaces"
     data:
       url: "https://dataworks.calderdale.gov.uk/download/e6x89/v0x/Warm%20and%20Welcoming%20Spaces%20December%202025.geojson"
@@ -702,7 +702,7 @@ directories:
     url: "https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
     notes: "They now (2024) link to WarmWelcome."
   - title: "Durham County Council"
-    checked: 2025-10-02
+    checked: 2025-12-02
     url: "https://durham.gov.uk/article/28227/What-Welcome-Spaces-are-why-we-need-them-and-how-to-find-them"
     register:
       url: "https://www.durham.gov.uk/article/28229/Warm-Spaces-Network"
@@ -892,7 +892,7 @@ directories:
       - url: "https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory?view=list&p=4&q=*"
         type: html
   - title: "Gedling Council"
-    checked: 2025-10-02
+    checked: 2025-12-04
     url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
     data:
       url: "https://www.gedling.gov.uk/benefits-and-support/welcome-and-warm-spaces"
@@ -1398,7 +1398,7 @@ directories:
         description: "description"
         hours: "description"
   - title: "Perth and Kinross Council"
-    checked: 2025-10-07
+    checked: 2025-12-04
     url: "https://www.pkc.gov.uk/warmspaces"
     map:
       url: "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716"
@@ -1614,19 +1614,22 @@ directories:
       type: html
   - title: "Spark Somerset"
     checked: 2025-10-07
-    needscheck: true
-    inactive: 2025-04-10
     url: "https://www.sparksomerset.org.uk/find-warm-welcome/"
     register:
-      url: "https://www.surveymonkey.co.uk/r/warmwelcomesomerset"
+      url: "https://forms.monday.com/forms/e008ca596e3aec318224de83ec936d4a?r=use1"
     map:
-      url: "https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185"
-      type: xmap
+      url: "https://www.google.com/maps/d/u/0/viewer?mid=1UzcEkxxuRfH0v501VVNag_twR9CnhZM&ll=51.04768715638769%2C-2.9910590068712795&z=12"
+      type: googlemap
     data:
-      url: "https://shared.xmap.cloud/data/southsomerset/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=application/json;type=utfgrid&TRANSPARENT=true&LAYERS=warm_welcome&CRS=EPSG%3A27700&STYLES=&WIDTH=1278&HEIGHT=646&BBOX=265971.46439628483%2C99824%2C392030.53560371517%2C163544"
-      headers:
-        Cookie: "gx-pmv-tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHMiOlsic291dGhzb21lcnNldCIsImd4X2RhdGFfb3MiXSwibGF5ZXJzIjpbImZvb2Rwcm9qZWN0cyIsIndhcm1fd2VsY29tZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay13aGl0ZSIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1zdGFuZGFyZCIsIm9zLXBzbWE6b3MtcHJlbWl1bS1zdGFjay1ncmV5c2NhbGUiXSwiaWF0IjoxNjcxMDQzODM1fQ.WlwSdOnMTMD4H29qIhxNNL8fl_19iBcTYqkA5m6LiUk"
-      type: html
+      url: "https://www.google.com/maps/d/u/0/viewer?mid=1UzcEkxxuRfH0v501VVNag_twR9CnhZM&ll=51.04768715638769%2C-2.9910590068712795&z=12"
+      type: googlemap
+      keys:
+        title: "Name"
+        hours: "Opening days and times of venue"
+        url: "Venue website"
+        address: "{{ Venue address }}, {{ Venue postcode }}"
+        contact: "{{ Venue email address }}"
+        description: "Facilities: {{ What facilities are on offer at your Warm Welcome space }}; Other support: {{ Does venue offer any other support }}"
   - title: "St Helens Council"
     checked: 2025-10-07
     url: "https://www.sthelens.gov.uk/welcomespaces"
@@ -1636,10 +1639,12 @@ directories:
       url: "https://www.sthelens.gov.uk/article/7261/Directory"
       type: html
   - title: "Stafford Borough Council"
-    checked: 2025-10-07
-    needscheck: true
+    checked: 2025-12-04
     url: "https://www.staffordbc.gov.uk/warm-spaces"
     register: mailto:WarmSpaces@staffordbc.gov.uk
+    data:
+      url: https://www.staffordbc.gov.uk/warm-spaces
+      type: html
   - title: "Staffordshire Fire and Rescue"
     checked: 2025-10-07
     inactive: 2023-11-30
@@ -1654,18 +1659,10 @@ directories:
     notes: "No longer contains warm spaces"
     url: "https://www.stevenage.gov.uk/town-and-community/emergencies/keeping-warm-in-winter"
   - title: "Stockport Council"
-    checked: 2025-10-07
+    checked: 2025-12-04
+    url: "https://www.stockport.gov.uk/warm-spaces"
+    notes: "Only mentions libraries and no longer has community locations"
     needscheck: true
-    url: "https://www.stockport.gov.uk/news/support-available-to-residents-and-families-this-winter"
-    data:
-      url: "https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=neighbourhoods:warm_spaces2&outputFormat=application/json&bbox=-2.2731399536132817,53.320415173590504,-2.003288269042969,53.463729990468764,EPSG:4326&srsName=EPSG:4326"
-      type: geojson
-      keys:
-        title: "name"
-        description: "facilities"
-        hours: "times"
-        contact: "phone_number"
-        url: "website"
   - title: "Stockton-on-Tees Council"
     checked: 2025-10-07
     notes: "Blocked by CloudFlare"
@@ -1683,7 +1680,7 @@ directories:
       url: "https://cscic.org/programmes/community-hubs/warm-spaces-in-stroud/"
       type: html
   - title: "Suffolk - Rural Coffee Caravan"
-    checked: 2025-10-07
+    checked: 2025-12-04
     url: https://ruralcoffeecaravan.org.uk/map/
     map:
       url: "https://ruralcoffeecaravan.org.uk/map/"
@@ -1724,7 +1721,7 @@ directories:
       - url: "https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
         type: html
   - title: "Tameside Council"
-    checked: 2025-10-07
+    checked: 2025-12-04
     url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
     data:
       - url: "https://www.tameside.gov.uk/helpinghand/warm-welcome-hub"
@@ -1752,7 +1749,7 @@ directories:
       url: "https://www.tmbc.gov.uk/directory/7/a-to-z/A"
       type: html
   - title: "Torbay Council"
-    checked: 2025-10-07
+    checked: 2025-12-04
     url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces-col/"
     data:
       url: "https://www.torbay.gov.uk/benefits/cost-of-living/warm-spaces-col/"
@@ -1834,7 +1831,7 @@ directories:
       url: "https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/warm-hubs/warm-hubs/"
       type: html
   - title: "West Northamptonshire"
-    checked: 2025-10-08
+    checked: 2025-12-04
     url: "https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
     map:
       url: "https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10"
@@ -1845,35 +1842,20 @@ directories:
       url: "https://directory.westnorthants.gov.uk/api/v1/services?page=1&per_page=20&text=&proximity=4&postcode=&taxonomy_id=vCSE:19&minimum_age=&maximum_age=&facility=&language=&team=vcse&service_area="
       type: html
   - title: "Westminster Council"
-    checked: 2025-10-08
-    notes: "Their page was last updated in January 2024 and their links give 403 errors. However the ArcGIS map still exists."
-    needscheck: true
+    checked: 2025-12-04
     url: "https://www.westminster.gov.uk/cold-weather-support-and-advice"
     map:
       url: "https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379"
       type: arcgis
     data:
-      - url: "https://utility.arcgis.com/usrsvcs/servers/547b97991ccc41e3a7953c069d982a0e/rest/services/WCC/AGOL/MapServer/224/query?f=json&where=Category%20%3D%20%27Cultural%20%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-24460%2C%22ymin%22%3A6706890%2C%22xmax%22%3A-9784%2C%22ymax%22%3A6716675%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A9.554628535634157%2C%22extent%22%3A%7B%22xmin%22%3A-24460%2C%22ymin%22%3A6706890%2C%22xmax%22%3A-9784%2C%22ymax%22%3A6716675%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D"
-        type: arcgis
-        keys:
-          address: "Address"
-          title: "Institution"
-          url: "Link"
-          description: "Extra_Info"
-      - url: "https://utility.arcgis.com/usrsvcs/servers/547b97991ccc41e3a7953c069d982a0e/rest/services/WCC/AGOL/MapServer/224/query?f=json&where=Category%20%3D%20%27Community%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-50000.0%2C%22ymin%22%3A6700000.0%2C%22xmax%22%3A-0.0%2C%22ymax%22%3A6730000.0%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A19.109257071268306%2C%22extent%22%3A%7B%22xmin%22%3A523972.49120000005%2C%22ymin%22%3A178098.98189999908%2C%22xmax%22%3A530746.7812999999%2C%22ymax%22%3A183226.29169999994%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D"
-        type: arcgis
-        keys:
-          address: "Address"
-          title: "Institution"
-          url: "Link"
-          description: "Extra_Info"
-      - url: "https://utility.arcgis.com/usrsvcs/servers/547b97991ccc41e3a7953c069d982a0e/rest/services/WCC/AGOL/MapServer/224/query?f=json&where=Category%20%3D%20%27Library%20%27&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-50000.0%2C%22ymin%22%3A6700000.0%2C%22xmax%22%3A-0.0%2C%22ymax%22%3A6730000.0%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&quantizationParameters=%7B%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A19.109257071268306%2C%22extent%22%3A%7B%22xmin%22%3A523972.49120000005%2C%22ymin%22%3A178098.98189999908%2C%22xmax%22%3A530746.7812999999%2C%22ymax%22%3A183226.29169999994%2C%22spatialReference%22%3A%7B%22wkid%22%3A27700%2C%22latestWkid%22%3A27700%7D%7D%7D"
-        type: arcgis
-        keys:
-          address: "Address"
-          title: "Institution"
-          url: "Link"
-          description: "Extra_Info"
+      - url: "https://www.westminster.gov.uk/cost-of-living-support/winter-in-the-city/northwest"
+        type: html
+      - url: "https://www.westminster.gov.uk/cost-of-living-support/winter-in-the-city/northeast"
+        type: html
+      - url: "https://www.westminster.gov.uk/cost-of-living-support/winter-in-the-city/central"
+        type: html
+      - url: "https://www.westminster.gov.uk/cost-of-living-support/winter-in-the-city/south"
+        type: html
   - title: "Westmorland Council"
     checked: 2025-10-08
     url: "https://www.westmorlandandfurness.gov.uk/warmspots"
@@ -1884,17 +1866,8 @@ directories:
       type: html
   - title: "Wigan Council"
     url: "https://www.wigan.gov.uk/Council/Communities/Here-for-you/Warm-welcoming-spaces.aspx"
-    checked: 2025-10-08
-    needscheck: true
-    notes: "Warm Welcoming Spaces are now closed until Autumn 2025."
-    data:
-      url: "https://www.google.com/maps/d/embed?mid=1zBuimD6bspFrz6sKCs9DgA-cE4BbM3Y&ll=53.52978513678878%2C-2.5874970965000044&z=11"
-      type: googlemap
-      parse: "Address: {{ address }}<br>Opening Hours for Warm Hub: {{ hours }}<br>Website: {{ url }}<br>.*"
-      keys:
-        title: "name"
-        hours: "Opening Hours for Warm Hub"
-        url: "Website"
+    checked: 2025-12-04
+    notes: "Now only available as a PDF."
   - title: "Wiltshire Council"
     checked: true
     url: "https://www.wiltshire.gov.uk/article/6829/Wiltshire-Council-warm-spaces"
@@ -1915,10 +1888,8 @@ directories:
     url: "https://www.worcestershire.gov.uk/council-services/worcestershire-libraries/warm-welcome"
     notes: "Lists libraries and links to Warm Welcome"
   - title: "Live Well York"
-    checked: 2025-10-08
-    needscheck: true
+    checked: 2025-12-04
     url: "https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
-    notes: "As of April 2025 the directory is closed until the winter"
     data:
-      oldurl: "https://www.livewellyork.co.uk/api/s4s-advanced-search/products/get-list?searchParams=%7B%22searchTab%22:%22productsTab%22,%22searchText%22:%22%22,%22sortOption%22:%22Rank;asc%22,%22pageNumber%22:1,%22pageSize%22:50,%22activities%22:%5B%5D,%22locations%22:%5B%5D,%22whoIsFor%22:%5B%5D,%22services%22:%5B%225bdc51f7-e332-43e1-9d1b-af0a00dd6f90%22%5D,%22volunteering%22:false,%22postcodeOptions%22:%7B%22distance%22:%221609%22%7D%7D"
+      url: "https://www.livewellyork.co.uk/api/s4s-advanced-search/products/get-list?searchParams=%7B%22searchTab%22:%22productsTab%22,%22searchText%22:%22%22,%22sortOption%22:%22Rank;asc%22,%22pageNumber%22:1,%22pageSize%22:50,%22activities%22:%5B%5D,%22locations%22:%5B%5D,%22whoIsFor%22:%5B%5D,%22services%22:%5B%225bdc51f7-e332-43e1-9d1b-af0a00dd6f90%22%5D,%22volunteering%22:false,%22postcodeOptions%22:%7B%22distance%22:%221609%22%7D%7D"
       type: html

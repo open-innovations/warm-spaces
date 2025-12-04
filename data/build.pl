@@ -869,6 +869,9 @@ sub getGoogleMap {
 					print "No lookup for $entry->{'title'}\n";
 				}
 				
+				# Fix dodgy URLs
+				$entry->{'url'} =~ s/.*(https?:\/\/)/$1/g;
+				
 				$entry->{'_source'} = $d->{'id'};
 				push(@entries,$entry);
 			}
