@@ -333,6 +333,7 @@ sub parseOpeningHours {
 
 
 		$str =~ s/\: - \/ /\: /g;	# Fix empty dates in some formats
+		$str =~ s/12 ?noon/12:00/gi;
 		$str =~ s/ (at|in) [^0-9]+ from /: /g;
 		$str =~ s/ (between) ([0-9\:amp]+) (and|to) / $2 - /g;
 		$str =~ s/ (to|until|til|till) / - /g;
@@ -370,8 +371,13 @@ sub parseOpeningHours {
 		$str =~ s/(everyday|Every day|7 days a week|7 days|daily)/Mo-Su/gi;
 
 		# Convert "noon" values to numbers
-		$str =~ s/12 ?noon/12:00/gi;
-		$str =~ s/(noon|midday)/ 12:00/gi;
+		$str =~ s/(noon|midday)/12:00/gi;
+		
+		# Fix for extra hyphen
+		$str =~ s/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)s? - (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)s? - /$1 - $2 /g;
+
+		# Fix for colon separated times e.g. "11:30am : 2:30pm" or "1pm : 3pm"
+		$str =~ s/([0-9]{1,2}:?([0-9]{2})?(am|pm)) : ([0-9]{1,2}:?([0-9]{2})?(am|pm))/$1 - $4/g;		
 
 		for($i = 0; $i < @days; $i++){
 			for($j = 0; $j < @{$days[$i]->{'match'}}; $j++){
@@ -547,6 +553,14 @@ sub getHourRange {
 			else{ $h1 = $t1; $m1 = ""; }
 			if($t2 =~ /:/){ ($h2,$m2) = split(/[\:\.]/,$t2); }
 			else{ $h2 = $t2; $m2 = ""; }
+
+			# Check for ambiguous hours
+			if($h2 < $h1){
+				# The end hour seems to be before the start hour
+				# If the start hour is up to noon and the end hour is under 12 then let's assume the end hour is in the afternoon
+				if($h1 <= 12 && $h2 < 12){ $h2 += 12; }
+			}
+
 			# e.g. "1-4pm" 
 			if($t1 !~ /(am|pm)/ && $t2 =~ /(pm)/ && $h1 < 12 && $h2 < 12 && $h1 < $h2){ $h1 += 12; }
 			# e.g. "10am-2"

@@ -248,7 +248,7 @@
 		{"text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00, Saturday: 10:00 - 16:00, Sunday: 10:00 - 16:00","good":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00; Sa 10:00-16:00; Su 10:00-16:00"},
 		{"text":"Thursday: 15:00 - 17:00","good":"Th 15:00-17:00"},
 		{"text":"Monday: 09:30 - 17:00 / -, Tuesday: 09:30 - 13:30 / -, Wednesday: 09:30 - 17:00 / -, Thursday: 09:30 - 17:00 / -, Friday: 09:30 - 17:00 / -, Saturday: 09:30 - 17:00 / -","good":"Mo 09:30-17:00; Tu 09:30-13:30; We 09:30-17:00; Th 09:30-17:00; Fr 09:30-17:00; Sa 09:30-17:00"},
-		{"text":"Monday: 9:00 - 17:30, Tuesday: 9:00 - 17:30, Wednesday: 9:00 - 17:30, Friday: 9:00 - 17:30, Saturday: 9:00 - 1:00","good":"Mo 09:00-17:30; Tu 09:00-17:30; We 09:00-17:30; Fr 09:00-17:30; Sa 09:00-01:00"},
+		{"text":"Monday: 9:00 - 17:30, Tuesday: 9:00 - 17:30, Wednesday: 9:00 - 17:30, Friday: 9:00 - 17:30, Saturday: 9:00 - 1:00","good":"Mo 09:00-17:30; Tu 09:00-17:30; We 09:00-17:30; Fr 09:00-17:30; Sa 09:00-13:00"},
 		{"text":"Tuesday: 09:30 - 17:30, Thursday: 09:30 - 17:30, Friday: 09:30 - 17:30","good":"Tu 09:30-17:30; Th 09:30-17:30; Fr 09:30-17:30"},
 		{"text":"Tuesday: 9:00 - 17:30 / 14:00 - 17:30, Wednesday: 9:00 - 17:30 / 14:00 - 17:30, Thursday: 9:00 - 17:30 / 14:00 - 17:30, Friday: 9:00 - 17:30 / 14:00 - 17:30, Saturday: 9:00 - 13:00","good":"Tu 09:00-17:30,14:00-17:30; We 09:00-17:30,14:00-17:30; Th 09:00-17:30,14:00-17:30; Fr 09:00-17:30,14:00-17:30; Sa 09:00-13:00"},
 		{"text":"Monday: 10:00 - 16:00, Tuesday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00","good":"Mo 10:00-16:00; Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00"},
@@ -356,7 +356,8 @@
 		{"text":"Open every day, 10-4","good":"Mo-Su 10:00-16:00"},
 		{"text":"Monday 12-2pm","good":"Mo 12:00-14:00"},
 		{"text":"Thursday, 2pm - 4pm (fortnightly, first and third week of each month)","good":"Th[1,3] 14:00-16:00"},
-		{"text":"second Monday of the month from 12noon to 1","good":"Mo[2] 12:00-13:00"}
+		{"text":"second Monday of the month from 12noon to 1","good":"Mo[2] 12:00-13:00"},
+		{"text":"Every 3rd Thursday in the month between 12 noon and 1.30pm","good":"Th[3] 12:00-13:30"}
 	],
 	"ambiguous": [
 		{"text":"Wednesdays 9am - 12pm","good":"We 09:00-12:00","note":"The pm probably means noon but could be midnight"},

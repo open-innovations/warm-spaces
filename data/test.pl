@@ -34,7 +34,7 @@ my $state = 0;
 for($i = 0; $i < $n; $i++){
 	$d = parseOpeningHours({'_text'=>$tests[$i]{'text'}});
 
-	$state = ($tests[$i]{'good'} ? ($d->{'opening'} eq $tests[$i]{'good'} ? 'green':'red') : 'none');
+	$state = ($tests[$i]{'good'} ? ($d->{'opening'} eq $tests[$i]{'good'} ? 'green':'red') : 'red');
 
 	$log->msg("<cyan>Test ".($i+1)."<none>: <$state>".($state eq "green" ? "[PASS]":"[FAIL]")."<none> \"$tests[$i]{'text'}\"\n");
 
