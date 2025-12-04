@@ -1404,11 +1404,11 @@ directories:
       url: "https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716"
       type: arcgis
     data:
-      url: "https://utility.arcgis.com/usrsvcs/servers/a123d863c02e46d48bfac590d67ad974/rest/services/Warm_Spaces/FeatureServer/52/query?f=geojson&outFields=Email_Contact%2CFunder%2CName_of_Organisation%2COpening_Times%2COrganisation_Address%2CPhone_Number%2CProject_Description%2CWard%2CMI_PRINX&outSR=4326&returnM=true&returnZ=true&spatialRel=esriSpatialRelIntersects&where=1%3D1"
+      url: "https://utility.arcgis.com/usrsvcs/servers/a123d863c02e46d48bfac590d67ad974/rest/services/Warm_Spaces/FeatureServer/6/query?f=geojson&objectIds=&outFields=Email_Contact%2CFunder%2CName_of_Organisation%2COpening_Times%2COrganisation_Address%2CPhone_Number%2CProject_Description%2CUPRN%2CWard%2CWebsite%2CMI_PRINX&outSR=4326&returnM=true&returnZ=true&spatialRel=esriSpatialRelIntersects&where=1%3D1"
       type: arcgis
       keys:
         address: "Organisation_Address"
-        contact: "Phone_Number"
+        contact: "Tel: {{ Phone_Number }}; Email: {{ Email_Contact }}"
         description: "Project_Description"
         title: "Name_of_Organisation"
         hours: "Opening_Times"
