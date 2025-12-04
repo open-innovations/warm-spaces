@@ -21,7 +21,7 @@ if(-e $file){
 
 	# Build a web scraper
 	my $warmspaces = scraper {
-		process 'table[class="table table-striped"] > tbody > tr', "warmspaces[]" => scraper {
+		process '.accordion-pane__content table tbody > tr', "warmspaces[]" => scraper {
 			process 'td', 'td[]' => 'HTML';
 		};
 	};
@@ -48,6 +48,7 @@ if(-e $file){
 			$d->{'hours'} = parseOpeningHours({'_text'=>$d->{'td'}[2]});
 			if(!$d->{'hours'}{'opening'}){ delete $d->{'hours'}{'opening'}; }
 		}
+		$d->{'description'} = $d->{'td'}[3];
 		$d->{'description'} =~ s/<\/p>/ /g;
 		$d->{'contact'} = parseText($d->{'td'}[4]);
 
