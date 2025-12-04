@@ -1817,7 +1817,9 @@ directories:
         url: "project_url"
         description: "{{ project_mission }}. {{ project_age->text }}"
   - title: "West Devon Council"
-    checked: 2025-10-08
+    checked: 2025-12-04
+    notes: "They use CloudFlare to block access to automated scripts"
+    blocked: true
     url: "https://www.westdevon.gov.uk/warm-spaces-directory"
     map:
       url: "https://www.westdevon.gov.uk/warm-spaces-directory"
@@ -1840,7 +1842,7 @@ directories:
     register:
       url: "https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u"
     data:
-      url: "https://www.westnorthants.gov.uk/cost-living-support/welcoming-spaces"
+      url: "https://directory.westnorthants.gov.uk/api/v1/services?page=1&per_page=20&text=&proximity=4&postcode=&taxonomy_id=vCSE:19&minimum_age=&maximum_age=&facility=&language=&team=vcse&service_area="
       type: html
   - title: "Westminster Council"
     checked: 2025-10-08
