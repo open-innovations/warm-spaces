@@ -32,7 +32,10 @@ if(-e $file){
 		for($i = 0; $i < @{$json->{'places'}}; $i++){
 			$ok = 0;
 			for($j = 0; $j < @{$json->{'places'}[$i]{'categories'}}; $j++){
-				if($json->{'places'}[$i]{'categories'}[$j]{'name'} eq "Warm Welcome Spaces"){
+				if($json->{'places'}[$i]{'categories'}[$j]{'name'} eq "c-a-f-e"){
+					$ok = 1;
+				}
+				if($json->{'places'}[$i]{'categories'}[$j]{'name'} eq "RCC visit"){
 					$ok = 1;
 				}
 			}
