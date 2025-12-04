@@ -895,7 +895,7 @@ directories:
     checked: 2025-10-02
     url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
     data:
-      url: "https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
+      url: "https://www.gedling.gov.uk/benefits-and-support/welcome-and-warm-spaces"
       type: html
   - title: "Glasgow Council"
     checked: 2025-10-02
@@ -991,7 +991,7 @@ directories:
     register:
       url: "https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx"
     map:
-      url: "https://directory.hertfordshire.gov.uk/Search?categoryId=165"
+      url: "https://directory.hertfordshire.gov.uk/Search?CategoryId=165"
       type: googlemap
     data:
       - url: "https://directory.hertfordshire.gov.uk/Search?AI%5b0%5d=943&DR=False&UDG=False&OrderBy=Relevance&SM=ServiceSearch&SME=True"
