@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.00474,54.74626],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Thomas' Church Hall, Stanhope, County Durham DL13 2UE","description":"A warm, welcoming community café, open to everyone. Healthy, delicious food and drinks and regular programme of crafts and events.","hours":{"_text":"Thursday: 09:00 - 03:00, Friday: 09:00 - 03:00","opening":"Th 09:00-03:00; Fr 09:00-03:00"},"title":"Root & Branch Community Café"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.00474,54.74626],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Thomas' Church Hall, Stanhope, County Durham DL13 2UE","description":"A warm, welcoming community café, open to everyone. Healthy, delicious food and drinks and regular programme of crafts and events.","hours":{"_text":"Thursday: 09:00 - 03:00, Friday: 09:00 - 03:00","opening":"Th 09:00-15:00; Fr 09:00-15:00"},"title":"Root & Branch Community Café"},"type":"Feature"},
 		{"geometry":{"coordinates":[-1.81597,54.74797],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Community Centre, Bishop Auckland, County Durham DL13 4AW","description":"We hold a Drop In and warm space with a parent led toddler group every Thursday between 10am and 12.30pm. Everyone is welcome to come along.","hours":{"_text":"Thursday: 10:00 - 12:30","opening":"Th 10:00-12:30"},"title":"Tow law community centre"},"type":"Feature"}
 	]
 }

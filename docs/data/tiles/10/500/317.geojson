@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.99105,56.35676],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Hut 65, Cultybraggan Camp, Comrie, PH6 2AB","contact":"Tel: 07518839170 / 07503203650; Email: comriemensshed@gmail.com","description":"Warm safe space for 18+ open to all with woodworking etc","hours":{"_text":"Tuesdays, Wednesdays, Thursdays and Saturdays 10am -4 pm (1/11/25-31/3/26)","opening":"Tu 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Sa 10:00-16:00"},"title":"Comrie Men’s Shed"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.87791,56.26663],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Ardoch Parish Church Hall, Feddal Road, Braco Dunblane, FK15 9QD","contact":"Tel: 07799100050; Email: berryduncan@hotmail.co.uk","description":"Warm space and social club. Soup & sandwich lunch , hot drinks and home baking","hours":{"_text":"Tuesdays 11am-3pm 4th November 2025- March 31st 2026 inclusive","opening":"Tu 11:00-15:00"},"title":"Ardoch Parish Church"},"type":"Feature"}
+	]
+}

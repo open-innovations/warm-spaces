@@ -127,8 +127,8 @@
 	},
 	"bedford_council": {
 		"checked":"2025-10-01",
-		"count": 25,
-		"geocount": 24,
+		"count": 28,
+		"geocount": 27,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -151,15 +151,15 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 341,
-		"geocount": 341,
+		"count": 343,
+		"geocount": 343,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
 		"url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces"
 	},
 	"bolton_at_home": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"id":"bolton_at_home",
 		"inactive":"2025-12-02",
 		"notes":"They now link to WarmWelcome instead",
@@ -188,7 +188,7 @@
 		"url":"https://www.bcpcouncil.gov.uk/communities/cost-of-living-help/stay-warm-in-a-community-welcome-space"
 	},
 	"bracknell_forest_council": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"id":"bracknell_forest_council",
 		"inactive":"2024-11-19",
 		"notes":"No longer exists",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 162,
-		"geocount": 162,
+		"count": 184,
+		"geocount": 184,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -228,7 +228,7 @@
 		"title":"Breckland Council"
 	},
 	"brent": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"id":"brent",
 		"inactive":"2025-12-02",
 		"notes":"No longer exists",
@@ -236,7 +236,7 @@
 		"url":"https://www.brent.gov.uk/news-in-brent/2024/november/cost-of-living-support-this-winter"
 	},
 	"bridgend_association_of_voluntary_organisations": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"count": 43,
 		"geocount": 28,
 		"id":"bridgend_association_of_voluntary_organisations",
@@ -244,7 +244,7 @@
 		"url":"https://www.bavo.org.uk/help-for-people/warm-well-this-winter-25-26/"
 	},
 	"bridgend_council": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"id":"bridgend_council",
 		"inactive":"2025-10-01",
 		"notes":"No longer exists",
@@ -270,7 +270,7 @@
 		"url":"https://www.bristol.gov.uk/residents/people-and-communities/welcoming-spaces/find-a-welcoming-space"
 	},
 	"broadland_and_south_norfolk_council": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"id":"broadland_and_south_norfolk_council",
 		"inactive":"2024-11-19",
 		"notes":"No longer exists",
@@ -315,7 +315,7 @@
 		"url":"https://theburydirectory.co.uk/health-and-wellbeing/warm-spaces-bury"
 	},
 	"calderdale_council": {
-		"checked":"2025-10-01",
+		"checked":"2025-12-02",
 		"count": 57,
 		"geocount": 57,
 		"id":"calderdale_council",
@@ -331,7 +331,7 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count": 40,
+		"count": 41,
 		"geocount": 40,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
@@ -440,8 +440,8 @@
 	},
 	"chesterfield_council": {
 		"checked":"2025-10-01",
-		"count": 38,
-		"geocount": 38,
+		"count": 34,
+		"geocount": 34,
 		"id":"chesterfield_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title":"Chesterfield Council"
@@ -577,7 +577,7 @@
 		"url":"https://www.dover.gov.uk/Community/Cost-of-Living-Webpages/Warm-Spaces.aspx"
 	},
 	"durham_county_council": {
-		"checked":"2025-10-02",
+		"checked":"2025-12-02",
 		"count":"0",
 		"geocount":"0",
 		"id":"durham_county_council",
@@ -708,9 +708,9 @@
 		"url":"https://www.gateshead.gov.uk/article/21258/Warm-Spaces-directory"
 	},
 	"gedling_council": {
-		"checked":"2025-10-02",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 36,
+		"geocount": 34,
 		"id":"gedling_council",
 		"title":"Gedling Council",
 		"url":"https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
@@ -804,7 +804,7 @@
 		"count":"0",
 		"geocount":"0",
 		"id":"hertfordshire_council",
-		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?categoryId=165" },
+		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
 		"title":"Hertfordshire Council",
 		"url":"https://www.hertfordshire.gov.uk/services/adult-social-services/news-and-campaigns/warm-spaces.aspx"
@@ -980,12 +980,10 @@
 		"url":"https://www.lichfielddc.gov.uk/cost-living-support-1/warm-spaces-across-lichfield-district"
 	},
 	"live_well_york": {
-		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 13,
+		"geocount": 13,
 		"id":"live_well_york",
-		"needscheck":"1",
-		"notes":"As of April 2025 the directory is closed until the winter",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
 	},
@@ -1162,9 +1160,9 @@
 		"url":"https://www.oxford.gov.uk/warmspaces"
 	},
 	"perth_and_kinross_council": {
-		"checked":"2025-10-07",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 113,
+		"geocount": 113,
 		"id":"perth_and_kinross_council",
 		"map": { "type":"arcgis","url":"https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url":"mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1365,11 +1363,11 @@
 	},
 	"spark_somerset": {
 		"checked":"2025-10-07",
+		"count": 37,
+		"geocount": 36,
 		"id":"spark_somerset",
-		"inactive":"2025-04-10",
-		"map": { "type":"xmap","url":"https://shared.xmap.cloud/?map=09aff583-733d-4f28-a6c8-a207c9452185" },
-		"needscheck":"1",
-		"register": { "url":"https://www.surveymonkey.co.uk/r/warmwelcomesomerset" },
+		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/u/0/viewer?mid=1UzcEkxxuRfH0v501VVNag_twR9CnhZM&ll=51.04768715638769%2C-2.9910590068712795&z=12" },
+		"register": { "url":"https://forms.monday.com/forms/e008ca596e3aec318224de83ec936d4a?r=use1" },
 		"title":"Spark Somerset",
 		"url":"https://www.sparksomerset.org.uk/find-warm-welcome/"
 	},
@@ -1383,9 +1381,10 @@
 		"url":"https://www.sthelens.gov.uk/welcomespaces"
 	},
 	"stafford_borough_council": {
-		"checked":"2025-10-07",
+		"checked":"2025-12-04",
+		"count": 7,
+		"geocount": 7,
 		"id":"stafford_borough_council",
-		"needscheck":"1",
 		"register":"mailto:WarmSpaces@staffordbc.gov.uk",
 		"title":"Stafford Borough Council",
 		"url":"https://www.staffordbc.gov.uk/warm-spaces"
@@ -1407,13 +1406,12 @@
 		"url":"https://www.stevenage.gov.uk/town-and-community/emergencies/keeping-warm-in-winter"
 	},
 	"stockport_council": {
-		"checked":"2025-10-07",
-		"count": 99,
-		"geocount": 99,
+		"checked":"2025-12-04",
 		"id":"stockport_council",
 		"needscheck":"1",
+		"notes":"Only mentions libraries and no longer has community locations",
 		"title":"Stockport Council",
-		"url":"https://www.stockport.gov.uk/news/support-available-to-residents-and-families-this-winter"
+		"url":"https://www.stockport.gov.uk/warm-spaces"
 	},
 	"stockton-on-tees_council": {
 		"blocked":"1",
@@ -1433,9 +1431,9 @@
 		"url":"https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
-		"checked":"2025-10-07",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 110,
+		"geocount": 110,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1451,7 +1449,7 @@
 	},
 	"surrey_county_council": {
 		"checked":"2025-10-07",
-		"count": 51,
+		"count": 52,
 		"geocount": 1,
 		"id":"surrey_county_council",
 		"title":"Surrey County Council",
@@ -1483,7 +1481,7 @@
 		"url":"https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
 	},
 	"tameside_council": {
-		"checked":"2025-10-07",
+		"checked":"2025-12-04",
 		"count":"0",
 		"geocount":"0",
 		"id":"tameside_council",
@@ -1517,8 +1515,8 @@
 		"url":"https://www.tmbc.gov.uk/community-services/warm-spaces"
 	},
 	"torbay_council": {
-		"checked":"2025-10-07",
-		"count":"0",
+		"checked":"2025-12-04",
+		"count": 16,
 		"geocount":"0",
 		"id":"torbay_council",
 		"title":"Torbay Council",
@@ -1550,8 +1548,8 @@
 	},
 	"wandsworth_council": {
 		"checked":"2025-10-08",
-		"count": 71,
-		"geocount": 71,
+		"count": 72,
+		"geocount": 72,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1596,11 +1594,11 @@
 		"url":"https://westberks.gov.uk/community-welcome-spaces"
 	},
 	"west_devon_council": {
-		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"blocked":"1",
+		"checked":"2025-12-04",
 		"id":"west_devon_council",
 		"map": { "type":"leaflet","url":"https://www.westdevon.gov.uk/warm-spaces-directory" },
+		"notes":"They use CloudFlare to block access to automated scripts",
 		"title":"West Devon Council",
 		"url":"https://www.westdevon.gov.uk/warm-spaces-directory"
 	},
@@ -1613,9 +1611,9 @@
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/warm-hubs/"
 	},
 	"west_northamptonshire": {
-		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 169,
+		"geocount": 164,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u" },
@@ -1623,13 +1621,11 @@
 		"url":"https://www.westnorthants.gov.uk/cost-living-support/looking-warm-spaces"
 	},
 	"westminster_council": {
-		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"checked":"2025-12-04",
+		"count": 30,
+		"geocount": 26,
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
-		"needscheck":"1",
-		"notes":"Their page was last updated in January 2024 and their links give 403 errors. However the ArcGIS map still exists.",
 		"title":"Westminster Council",
 		"url":"https://www.westminster.gov.uk/cold-weather-support-and-advice"
 	},
@@ -1643,12 +1639,9 @@
 		"url":"https://www.westmorlandandfurness.gov.uk/warmspots"
 	},
 	"wigan_council": {
-		"checked":"2025-10-08",
-		"count": 154,
-		"geocount": 154,
+		"checked":"2025-12-04",
 		"id":"wigan_council",
-		"needscheck":"1",
-		"notes":"Warm Welcoming Spaces are now closed until Autumn 2025.",
+		"notes":"Now only available as a PDF.",
 		"title":"Wigan Council",
 		"url":"https://www.wigan.gov.uk/Council/Communities/Here-for-you/Warm-welcoming-spaces.aspx"
 	},

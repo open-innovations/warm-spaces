@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.85678,58.00931],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Brora Community Centre, Sutherland KW9 6PG","description":"Lunch Club free lunch is open to all Tuesdays 12 - 2pm starting 26th November. Coffee Cake Create open to over 16s to learn creative writing or do other creative crafts every second Friday 7.30 - 9pm starting 6th December (Free). Food Annex open weekdays 9am until 4pm.","hours":{"_text":"Monday: 09:00 - 04:00, Tuesday: 09:00 - 04:00, Wednesday: 09:00 - 04:00, Thursday: 09:00 - 04:00, Friday: 09:00 - 04:00","opening":"Mo 09:00-04:00; Tu 09:00-04:00; We 09:00-04:00; Th 09:00-04:00; Fr 09:00-04:00"},"title":"Lunch Club/Coffee Cake Create/Food Annex"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.85678,58.00931],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Brora Community Centre, Sutherland KW9 6PG","description":"Lunch Club free lunch is open to all Tuesdays 12 - 2pm starting 26th November. Coffee Cake Create open to over 16s to learn creative writing or do other creative crafts every second Friday 7.30 - 9pm starting 6th December (Free). Food Annex open weekdays 9am until 4pm.","hours":{"_text":"Monday: 09:00 - 04:00, Tuesday: 09:00 - 04:00, Wednesday: 09:00 - 04:00, Thursday: 09:00 - 04:00, Friday: 09:00 - 04:00","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00"},"title":"Lunch Club/Coffee Cake Create/Food Annex"},"type":"Feature"}
 	]
 }
