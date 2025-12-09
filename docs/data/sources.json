@@ -127,8 +127,8 @@
 	},
 	"bedford_council": {
 		"checked":"2025-10-01",
-		"count": 28,
-		"geocount": 27,
+		"count": 29,
+		"geocount": 28,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 343,
-		"geocount": 343,
+		"count": 346,
+		"geocount": 346,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 184,
-		"geocount": 184,
+		"count": 165,
+		"geocount": 163,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -214,8 +214,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 38,
-		"geocount": 38,
+		"count": 36,
+		"geocount": 36,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -254,7 +254,7 @@
 	"brighton___hove_council": {
 		"checked":"2025-10-01",
 		"count": 52,
-		"geocount": 49,
+		"geocount": 48,
 		"id":"brighton___hove_council",
 		"map": { "type":"leaflet","url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go?view=map" },
 		"title":"Brighton & Hove Council",
@@ -1161,8 +1161,8 @@
 	},
 	"perth_and_kinross_council": {
 		"checked":"2025-12-04",
-		"count": 113,
-		"geocount": 113,
+		"count":"0",
+		"geocount":"0",
 		"id":"perth_and_kinross_council",
 		"map": { "type":"arcgis","url":"https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url":"mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1201,8 +1201,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 30,
-		"geocount": 30,
+		"count": 32,
+		"geocount": 32,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1284,8 +1284,8 @@
 	},
 	"sandwell_council": {
 		"checked":"2025-10-07",
-		"count": 27,
-		"geocount": 27,
+		"count": 28,
+		"geocount": 28,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1498,8 +1498,8 @@
 	},
 	"tewkesbury_council": {
 		"checked":"2025-10-07",
-		"count": 7,
-		"geocount": 6,
+		"count": 9,
+		"geocount": 8,
 		"id":"tewkesbury_council",
 		"map": { "type":"arcgis","url":"https://experience.arcgis.com/experience/54f42321c3764ce4a190283aa918a520/" },
 		"register": { "url":"https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/" },
@@ -1631,8 +1631,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 73,
-		"geocount": 73,
+		"count": 75,
+		"geocount": 75,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",

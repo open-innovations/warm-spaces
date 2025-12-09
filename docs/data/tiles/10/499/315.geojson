@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-4.44174,56.67668],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Georgetown Hall, Bridge of Gaur, Rannoch PH17 2QE","contact":"Tel: 07876746407; Email: veronicagrosset@gmail.com","description":"Afternoon tea and chat with crafts for all ages","hours":{"_text":"Fridays 2pm - 4pm","opening":"Fr 14:00-16:00"},"title":"Rannoch Community Trust"},"type":"Feature"}
-	]
-}
+{}
