@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 121,
-		"geocount": 121,
+		"count": 120,
+		"geocount": 120,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -19,8 +19,8 @@
 	},
 	"aberdeenshire_council": {
 		"checked":"2025-10-01",
-		"count": 52,
-		"geocount": 47,
+		"count": 53,
+		"geocount": 48,
 		"id":"aberdeenshire_council",
 		"title":"Aberdeenshire Council",
 		"url":"https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 346,
-		"geocount": 346,
+		"count": 347,
+		"geocount": 347,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 165,
-		"geocount": 163,
+		"count": 180,
+		"geocount": 180,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -262,8 +262,8 @@
 	},
 	"bristol_council": {
 		"checked":"2025-10-01",
-		"count": 58,
-		"geocount": 58,
+		"count": 53,
+		"geocount": 53,
 		"id":"bristol_council",
 		"map": { "type":"arcgis","url":"https://bcc.maps.arcgis.com/apps/instant/sidebar/index.html?appid=166f72c919cd4a3682e94c1e44cbc7da" },
 		"title":"Bristol Council",
@@ -308,8 +308,8 @@
 	},
 	"bury_directory": {
 		"checked":"2025-10-01",
-		"count": 23,
-		"geocount": 21,
+		"count": 26,
+		"geocount": 22,
 		"id":"bury_directory",
 		"title":"Bury Directory",
 		"url":"https://theburydirectory.co.uk/health-and-wellbeing/warm-spaces-bury"
@@ -332,7 +332,7 @@
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
 		"count": 41,
-		"geocount": 40,
+		"geocount": 41,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 238,
-		"geocount": 230,
+		"count": 239,
+		"geocount": 231,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -981,8 +981,8 @@
 	},
 	"live_well_york": {
 		"checked":"2025-12-04",
-		"count": 13,
-		"geocount": 13,
+		"count":"0",
+		"geocount":"0",
 		"id":"live_well_york",
 		"title":"Live Well York",
 		"url":"https://www.livewellyork.co.uk/search/?searchTab=productsTab&sortOption=Rank%3Basc&pageNumber=1&pageSize=50&services.0=5bdc51f7-e332-43e1-9d1b-af0a00dd6f90&postcodeOptions.distance=1609"
@@ -1161,8 +1161,8 @@
 	},
 	"perth_and_kinross_council": {
 		"checked":"2025-12-04",
-		"count":"0",
-		"geocount":"0",
+		"count": 113,
+		"geocount": 113,
 		"id":"perth_and_kinross_council",
 		"map": { "type":"arcgis","url":"https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url":"mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1201,8 +1201,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 32,
-		"geocount": 32,
+		"count": 34,
+		"geocount": 34,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1464,8 +1464,8 @@
 	},
 	"swansea_council": {
 		"checked":"2025-10-07",
-		"count": 72,
-		"geocount": 72,
+		"count":"0",
+		"geocount":"0",
 		"id":"swansea_council",
 		"map": { "type":"leaflet","url":"https://www.swansea.gov.uk/swanseaspacesmap" },
 		"register": { "url":"https://swansea.gov.uk/swanseaspacesdirectory" },

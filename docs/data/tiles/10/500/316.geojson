@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.98537,56.37542],"type":"Point"},"properties":{"_source":"perth_and_kinross_council","address":"Comrie Community Library, Drummond St, Comrie, PH6 2DS","contact":"Tel: 01764 657860; Email: comrielibrary@culturepk.org.uk","description":"Hot drinks & Access to library resources for all ages. Knitting & Crochet groups.","hours":{"_text":"Thurs 2pm-7pm; Fri 10am-1pm; Sat 10am-1pm","opening":"Th 14:00-19:00; Fr 10:00-13:00; Sa 10:00-13:00"},"title":"CPK Libraries"},"type":"Feature"}
+	]
+}
