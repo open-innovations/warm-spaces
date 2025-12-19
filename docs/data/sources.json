@@ -86,8 +86,8 @@
 	},
 	"barnsley_council": {
 		"checked":"2025-10-01",
-		"count": 18,
-		"geocount": 18,
+		"count": 22,
+		"geocount": 22,
 		"id":"barnsley_council",
 		"title":"Barnsley Council",
 		"url":"https://www.barnsley.gov.uk/services/community-and-volunteering/welcoming-spaces/"
@@ -178,8 +178,8 @@
 	},
 	"bournemouth__christchurch_and_poole": {
 		"checked":"2025-10-01",
-		"count": 76,
-		"geocount": 71,
+		"count": 79,
+		"geocount": 74,
 		"id":"bournemouth__christchurch_and_poole",
 		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
 		"notes":"Not enough structure to parse",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 181,
-		"geocount": 181,
+		"count": 180,
+		"geocount": 180,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -339,8 +339,8 @@
 	},
 	"camden_council": {
 		"checked":"2025-10-01",
-		"count": 48,
-		"geocount": 48,
+		"count":"0",
+		"geocount":"0",
 		"id":"camden_council",
 		"map": { "type":"arcgis","url":"https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -375,8 +375,8 @@
 	},
 	"central_bedfordshire_council": {
 		"checked":"2025-10-01",
-		"count": 65,
-		"geocount": 60,
+		"count": 64,
+		"geocount": 59,
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -588,8 +588,8 @@
 	},
 	"ealing_council": {
 		"checked":"2025-10-02",
-		"count": 42,
-		"geocount": 42,
+		"count": 44,
+		"geocount": 44,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
@@ -935,8 +935,8 @@
 	},
 	"leeds_city_council": {
 		"checked":"2025-10-02",
-		"count": 190,
-		"geocount": 190,
+		"count":"0",
+		"geocount":"0",
 		"id":"leeds_city_council",
 		"licence":"OGLv3",
 		"map": { "type":"arcgis","url":"https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
@@ -1161,8 +1161,8 @@
 	},
 	"perth_and_kinross_council": {
 		"checked":"2025-12-04",
-		"count": 113,
-		"geocount": 113,
+		"count": 114,
+		"geocount": 114,
 		"id":"perth_and_kinross_council",
 		"map": { "type":"arcgis","url":"https://perth-kinross.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=020cd36d29244205bc2c77f00714b716" },
 		"register": { "url":"mailto:CommunityPlanningPartnership@pkc.gov.uk" },
@@ -1201,8 +1201,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 36,
-		"geocount": 36,
+		"count": 38,
+		"geocount": 38,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1524,8 +1524,8 @@
 	},
 	"vale_of_glamorgan_council": {
 		"checked":"2025-10-07",
-		"count": 18,
-		"geocount": 18,
+		"count": 29,
+		"geocount": 29,
 		"id":"vale_of_glamorgan_council",
 		"map": { "type":"astuntechnology","url":"https://ol-ishare.services.astuntechnology.com/v1/apps/spotlight/map.html?v=1&ishareurl=https%3A%2F%2Fmyvale.valeofglamorgan.gov.uk%2F&navigation=true&gazetteer=false&infopopup=true&layerswitcher=false&layerswitcherLegend=dynamic&layerswitcherOpen=true&fullscreen=false&profile=ValeOfGlamorgan%2FAllMaps&layers=Vale_of_Glamorgan_CBC_boundary%21vis1%2CWarm_Sites_1%21vis1&easting=302449.8&northing=171673.99&resolution=38.00002051999999&basemap=mapsources%2Fbase_ospremium&srs=EPSG%3A27700" },
 		"title":"Vale of Glamorgan Council",
