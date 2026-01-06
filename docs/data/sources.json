@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count":"0",
-		"geocount":"0",
+		"count": 118,
+		"geocount": 118,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 180,
-		"geocount": 180,
+		"count": 179,
+		"geocount": 179,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -298,8 +298,8 @@
 	},
 	"burnley_council": {
 		"checked":"2025-10-01",
-		"count": 25,
-		"geocount": 25,
+		"count":"0",
+		"geocount":"0",
 		"id":"burnley_council",
 		"map": { "type":"googlemap","url":"https://burnley.gov.uk/council-democracy/warm-hearts-warm-spaces/find-a-warm-space/" },
 		"register": { "url":"https://www.surveymonkey.com/r/Burnleywarmspaces25-26" },
@@ -1201,8 +1201,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 39,
-		"geocount": 39,
+		"count": 40,
+		"geocount": 40,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1354,8 +1354,8 @@
 	},
 	"southwalk_council": {
 		"checked":"2025-10-07",
-		"count": 63,
-		"geocount": 58,
+		"count": 65,
+		"geocount": 57,
 		"id":"southwalk_council",
 		"map": { "url":"https://geomap.southwark.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FAnalyst%2FNamedProjects%2FSouthwark%20Warm%20Spaces" },
 		"title":"Southwalk Council",
@@ -1432,8 +1432,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 110,
-		"geocount": 110,
+		"count": 107,
+		"geocount": 107,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
