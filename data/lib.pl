@@ -75,16 +75,24 @@ sub getFileAge {
 sub getDataFromURL {
 	my $d = shift;
 	my $n = shift;
-	my ($url,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile,$cmd,$temp,$baseurl,$jsfile);
+	my ($url,$cookieurl,$file,$age,$now,$epoch_timestamp,$args,$h,$cfile,$cmd,$temp,$baseurl,$jsfile);
 
 	$url = $d->{'data'}[$n]{'url'};
+
+	# Encode square brackets which shouldn't be in a URL (but Leeds has them)
+	$url =~ s/\[/\%5B/g;
+	$url =~ s/\]/\%5D/g;
 
 	msg("\tURL: <blue>$url<none>\n");
 
 	# Make the website set some cookies
 	if($d->{'data'}[$n]{'set-cookies'}){
 		$cfile = $rawdir.$d->{'id'}.($n ? "-$n":"").".cookies";
-		`curl -s --insecure -L $args --compressed -c $cfile "$url"`;
+		$cookieurl = $d->{'data'}[$n]{'set-cookies'};
+		# Encode square brackets which shouldn't be in a URL (but Leeds has them)
+		$cookieurl =~ s/\[/\%5B/g;
+		$cookieurl =~ s/\]/\%5D/g;
+		`curl -s --insecure -L $args --compressed -c $cfile "$cookieurl"`;
 	}
 
 	$file = $rawdir.$d->{'id'}.($n ? "-$n":"").".".$d->{'data'}[$n]{'type'};
