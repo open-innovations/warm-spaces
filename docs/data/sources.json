@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 118,
-		"geocount": 118,
+		"count": 119,
+		"geocount": 119,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -127,8 +127,8 @@
 	},
 	"bedford_council": {
 		"checked":"2025-10-01",
-		"count": 28,
-		"geocount": 27,
+		"count": 29,
+		"geocount": 28,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 348,
-		"geocount": 348,
+		"count": 356,
+		"geocount": 356,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -178,8 +178,8 @@
 	},
 	"bournemouth__christchurch_and_poole": {
 		"checked":"2025-10-01",
-		"count": 79,
-		"geocount": 74,
+		"count": 80,
+		"geocount": 75,
 		"id":"bournemouth__christchurch_and_poole",
 		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
 		"notes":"Not enough structure to parse",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 179,
-		"geocount": 179,
+		"count": 180,
+		"geocount": 180,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -214,8 +214,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 36,
-		"geocount": 36,
+		"count": 35,
+		"geocount": 35,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -288,8 +288,8 @@
 	},
 	"buckinghamshire_council": {
 		"checked":"2025-10-01",
-		"count": 40,
-		"geocount": 40,
+		"count": 39,
+		"geocount": 39,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -440,8 +440,8 @@
 	},
 	"chesterfield_council": {
 		"checked":"2025-10-01",
-		"count": 34,
-		"geocount": 34,
+		"count": 35,
+		"geocount": 35,
 		"id":"chesterfield_council",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/u/0/viewer?mid=1JrCSjycja_aUlPvSTs5YeqkGhaRwNw8&ll=53.25006019069983%2C-1.3945123519775438&z=12" },
 		"title":"Chesterfield Council"
@@ -455,8 +455,8 @@
 	},
 	"chorley_council": {
 		"checked":"2025-10-01",
-		"count": 21,
-		"geocount": 18,
+		"count":"0",
+		"geocount":"0",
 		"id":"chorley_council",
 		"title":"Chorley Council",
 		"url":"https://chorley.gov.uk/cost-living-support/warmspaces"
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 46,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 43,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -934,15 +934,13 @@
 		"url":"https://www.lancashire.gov.uk/health-and-social-care/cost-of-living/warm-spaces/"
 	},
 	"leeds_city_council": {
-		"checked":"2025-10-02",
+		"checked":"2026-01-08",
 		"count":"0",
 		"geocount":"0",
 		"id":"leeds_city_council",
-		"licence":"OGLv3",
-		"map": { "type":"arcgis","url":"https://experience.arcgis.com/experience/d6adbf692a7b4cfb8250b36bf8501a90/" },
-		"register": { "url":"https://experience.arcgis.com/experience/2264b176caef4da292a4647c057938bf/" },
+		"register": { "url":"https://www.leeds.gov.uk/campaign/welcome-spaces" },
 		"title":"Leeds City Council",
-		"url":"https://www.leeds.gov.uk/campaign/welcome-spaces"
+		"url":"https://www.leedsdirectory.org/s4s/WhereILive/Council?pageId=5318&Filter=ae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2C&Search="
 	},
 	"leicester_council": {
 		"checked":"2025-10-02",
@@ -1201,8 +1199,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 40,
-		"geocount": 40,
+		"count": 41,
+		"geocount": 41,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
@@ -1327,8 +1325,8 @@
 	},
 	"sheffield_vas": {
 		"checked":"2025-10-07",
-		"count": 197,
-		"geocount": 197,
+		"count":"0",
+		"geocount":"0",
 		"id":"sheffield_vas",
 		"map": { "type":"leaflet","url":"https://foxdash.co.uk/vas/index.htm" },
 		"title":"Sheffield VAS",
@@ -1432,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 107,
-		"geocount": 107,
+		"count": 99,
+		"geocount": 99,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1631,8 +1629,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 75,
-		"geocount": 75,
+		"count": 74,
+		"geocount": 74,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",
