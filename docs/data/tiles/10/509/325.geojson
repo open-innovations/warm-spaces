@@ -1,1 +1,7 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-0.97726,54.58131],"type":"Point"},"properties":{"_source":"redcar_and_cleveland_council","address":"18 High Street, Brotton, TS12 2QD, United Kingdom","hours":{"_text":"Tuesday - 1.00pm until 4.00pm","opening":"Tu 13:00-16:00"},"title":"Emmanuel Church Saltburn","url":"https://www.clevelandfire.gov.uk/community/ssaw/"},"type":"Feature"},
+		{"geometry":{"coordinates":[-1.01960,54.59056],"type":"Point"},"properties":{"_source":"redcar_and_cleveland_council","address":"18 High Street, Brotton, TS12 2QD, United Kingdom","hours":{"_text":"Tuesday - 1.00pm until 4.00pm","opening":"Tu 13:00-16:00"},"title":"Marske Centre","url":"https://www.clevelandfire.gov.uk/community/ssaw/"},"type":"Feature"}
+	]
+}
