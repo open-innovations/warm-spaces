@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.18114,53.37089],"type":"Point"},"properties":{"_source":"warm_welcome","address":"29 Westbourne Road, West Kirby, Wirral CH484DQ","description":"A warm church hall where every week around 30 adults and around 8 children with their nursery staff gather for coffee, soup & bread and a chat.","hours":{"_text":"Friday: 10:00 - 12:00","opening":"Fr 10:00-12:00"},"title":"West Kirby Methodist Church"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.42468,53.33512],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The Church of the Holy Spirit, Prestatyn, Denbighshire LL19 7SS","description":"A totally free warm space on Wednesdays 10am-Midday, where refreshments are available and there are optional quizzes, games and activities as well as plenty of others to chat with. All very welcome.","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Chatty Café"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.40310,53.33351],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, Parish Commity Hall, Prestatyn, Denbighshire LL19 9BN","description":"A free toddler group (ages 0-5yrs), where children and there parents and grown ups can come, play and socialise in a warm, safe and supportive environment.","hours":{"_text":"Tuesday: 13:00 - 14:30","opening":"Tu 13:00-14:30"},"title":"Tots on Tuesday"},"type":"Feature"},
+		{"geometry":{"coordinates":[-3.40310,53.33351],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Christ Church, Parish Community Hall, Prestatyn, Denbighshire LL19 9BN LL19 9BN","description":"This space is open to all for a warm meal, tea and coffee, craft and games","hours":{"_text":"Thursday: 12:00 - 14:00","opening":"Th 12:00-14:00"},"title":"Ty Croeso"},"type":"Feature"}
 	]
 }

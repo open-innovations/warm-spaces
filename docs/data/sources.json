@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 167,
-		"geocount": 166,
+		"count": 156,
+		"geocount": 156,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -288,8 +288,8 @@
 	},
 	"buckinghamshire_council": {
 		"checked":"2025-10-01",
-		"count": 39,
-		"geocount": 39,
+		"count": 38,
+		"geocount": 38,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -523,8 +523,8 @@
 	},
 	"cumberland_council": {
 		"checked":"2025-10-01",
-		"count": 32,
-		"geocount": 32,
+		"count": 29,
+		"geocount": 29,
 		"id":"cumberland_council",
 		"title":"Cumberland Council",
 		"url":"https://www.cumberland.gov.uk/health-and-social-care/cost-living-support/find-and-register-warm-spots"
@@ -588,8 +588,8 @@
 	},
 	"ealing_council": {
 		"checked":"2025-10-02",
-		"count": 44,
-		"geocount": 44,
+		"count": 45,
+		"geocount": 45,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 45,
-		"geocount": 43,
+		"count": 46,
+		"geocount": 44,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1138,9 +1138,9 @@
 	},
 	"northumberland_county_council": {
 		"checked":"2025-10-07",
-		"count": 141,
+		"count":"0",
 		"debug":"1",
-		"geocount": 139,
+		"geocount":"0",
 		"id":"northumberland_county_council",
 		"map": { "type":"arcgis","url":"https://experience.arcgis.com/experience/7d5148655cf2405b928b9c55bbb97804" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=3qkTu5CC8EKpgNw73-cPQETNnDx8cXJFhm1fWERtC3pUMUFDQ1RaU1pHMVpFV0w3RVM1UkZET1YyWi4u&fbclid=IwAR2aUhlf1MTPtvsKjP76MxNfwpmtpoWMkBPEjo6t_S2vseN6cYN4dfcTC7Q" },
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 100,
-		"geocount": 100,
+		"count": 101,
+		"geocount": 101,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1472,8 +1472,8 @@
 	},
 	"swindon_council": {
 		"checked":"2025-10-07",
-		"count": 43,
-		"geocount": 42,
+		"count": 38,
+		"geocount": 37,
 		"id":"swindon_council",
 		"title":"Swindon Council",
 		"url":"https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
@@ -1629,8 +1629,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count": 74,
-		"geocount": 74,
+		"count":"0",
+		"geocount":"0",
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",

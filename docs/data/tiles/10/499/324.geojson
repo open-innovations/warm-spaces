@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.48604,54.81773],"type":"Point"},"properties":{"_source":"warm_welcome","address":"12 Main Street, Wigtownshire DG8 9SD","description":"Provides a warm welcoming space for the community","hours":{"_text":"Sunday: 11:00 - 15:00","opening":"Su 11:00-15:00"},"title":"Number 12"},"type":"Feature"}
+	]
+}

@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.78120,55.95480],"type":"Point"},"properties":{"_source":"warm_welcome","address":"East Lothian Council, Haddington, East Lothian EH41 3DX","description":"The space is open to all.","hours":{"_text":"Monday: 09:00 - 13:00 / 14:00 - 19:00, Tuesday: 09:00 - 13:00 / 14:00 - 17:00, Wednesday: 10:00 - 13:00 / 14:00 - 17:00, Thursday: 09:00 - 13:00 / 14:00 - 17:00, Friday: 09:00 - 13:00 / 14:00 - 17:00, Saturday: 10:00 - 16:00","opening":"Mo 09:00-13:00,14:00-19:00; Tu 09:00-13:00,14:00-17:00; We 10:00-13:00,14:00-17:00; Th 09:00-13:00,14:00-17:00; Fr 09:00-13:00,14:00-17:00; Sa 10:00-16:00"},"title":"Haddington Library"},"type":"Feature"}
+	]
+}

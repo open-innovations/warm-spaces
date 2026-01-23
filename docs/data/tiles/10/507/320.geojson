@@ -1,6 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-1.72210,55.60669],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Radcliffe Road Bamburgh Northumberland NE69 7AE","hours":{"_text":""},"loc_pcd":true,"title":"RNLI Grace Darling Museum"},"type":"Feature"}
-	]
-}
+{}

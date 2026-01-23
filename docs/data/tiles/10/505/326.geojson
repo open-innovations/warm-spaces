@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.34759,54.47420],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Kirkby Stephen Local Links, Kirkby Stephen, Cumbria CA17 4QX","description":"Public library - open to all","hours":{"_text":"Monday: 10:00 - 12:00 / 13:00 - 16:00, Wednesday: 10:00 - 12:00 / 13:00 - 16:00, Saturday: 10:00 - 13:00","opening":"Mo 10:00-12:00,13:00-16:00; We 10:00-12:00,13:00-16:00; Sa 10:00-13:00"},"title":"Kirkby Stephen Library"},"type":"Feature"}
+	]
+}

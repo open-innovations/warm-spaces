@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-4.14290,57.48530],"type":"Point"},"properties":{"_source":"warm_welcome","address":"King's Inverness, Inverness, Inverness-shire IV2 7WL","description":"SPACE OPENING ON 3rd December 2025** Every Wednesday, 1pm - 3pm, we are opening a warm space for those who would like to pop in for a hot drink, perhaps needs some company, or just wants to get out the house. There will be board games out for those who would like to use them.","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"Warm Space @ King's Inverness"},"type":"Feature"}
+		{"geometry":{"coordinates":[-4.14290,57.48530],"type":"Point"},"properties":{"_source":"warm_welcome","address":"King's Inverness, Inverness, Inverness-shire IV2 7WL","description":"Every Wednesday, 1pm - 3pm, we are opening a warm space for those who would like to pop in for a hot drink, perhaps needs some company, or just wants to get out the house. There will be board games out for those who would like to use them.","hours":{"_text":"Wednesday: 13:00 - 15:00","opening":"We 13:00-15:00"},"title":"Community Drop In @ King's Inverness"},"type":"Feature"}
 	]
 }

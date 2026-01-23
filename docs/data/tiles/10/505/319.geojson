@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.34860,55.77660],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Volunteer Hall, Duns, Berwickshire TD11 3AF","description":"Staying socially connected and maintaining an active lifestyle are key elements of staying healthy. But not everyone finds it so easy to get out and about and stay social, especially those who live alone or are less mobile. That’s where our social activities services come in. We run a wide range of clubs, groups and events in local communities, many of them staffed by our volunteers. They’re great places to meet old friends, make new ones, refresh existing skills or try something new. Our social activities are available online and in person depending on where you live","hours":{"_text":"Monday: 10:00 - 14:00","opening":"Mo 10:00-14:00"},"title":"Duns Social Centre"},"type":"Feature"}
+	]
+}

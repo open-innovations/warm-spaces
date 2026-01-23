@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-2.83294,57.33396],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Unit 1 and 2 Richmond Industrial Estate, Rhynie, Aberdeenshire AB54 4HJ","description":"A pop up library/bookshop with the offer of a warm space and cuppa.","hours":{"_text":"Monday: 10:00 - 14:00, Tuesday: 10:00 - 14:00, Wednesday: 0:00, Thursday: 0:00","opening":"Mo 10:00-14:00; Tu 10:00-14:00"},"title":"Pop up library/bookshop"},"type":"Feature"}
+	]
+}

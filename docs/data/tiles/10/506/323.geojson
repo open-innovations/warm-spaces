@@ -2,11 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-1.79117,54.99630],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Heddon-on-the-Wall Methodist Church, Tyne and Wear NE15 0DT","description":"open to all","hours":{"_text":"Thursday: 10:00 - 12:00","opening":"Th 10:00-12:00"},"title":"Community Coffee"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.94056,55.17275],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scots Gap Methodist Church, Northumberland NE61 4EG","description":"Open to all","hours":{"_text":"Friday: 10:00 - 14:00","opening":"Fr 10:00-14:00"},"title":"Friday at the Gap"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.95314,55.04147],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Matfen Village Hall Southside Matfen NE20 0RP","hours":{"_text":""},"loc_pcd":true,"title":"Matfen Village Hall","url":"https://west.northumberlandfrontline.org.uk/Library/ServiceDetail/63456674c5558436374721be"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.94057,55.17275],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Scots Gap Methodist Church Scots Gap NE61 4EG","hours":{"_text":""},"loc_pcd":true,"title":"Friday @ the Gap"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.79163,54.99649],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Heddon Methodist Church The Towne Gate Heddon-on-the-Wall NE15 0EJ","hours":{"_text":""},"loc_pcd":true,"title":"Heddon-on-the-Wall Methodist Church"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.96028,55.16547],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Cambo Village Hall Cambo Morpeth Northumberland NE61 4BA","hours":{"_text":""},"loc_pcd":true,"title":"Cambo Village Hall (Cambo Cosy Kitchen)"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.87656,55.04150],"type":"Point"},"properties":{"_source":"northumberland_county_council","address":"Stamfordham Newcastle upon Tyne NE18 0PF","hours":{"_text":""},"loc_pcd":true,"title":"Stamfordham Village Hall"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.94056,55.17275],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scots Gap Methodist Church, Northumberland NE61 4EG","description":"Open to all","hours":{"_text":"Friday: 10:00 - 14:00","opening":"Fr 10:00-14:00"},"title":"Friday at the Gap"},"type":"Feature"}
 	]
 }
