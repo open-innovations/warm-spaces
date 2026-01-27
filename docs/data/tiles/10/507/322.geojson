@@ -2,6 +2,6 @@
 	"type": "FeatureCollection",
 	"features": [
 		{"geometry":{"coordinates":[-1.61449,55.24115],"type":"Point"},"properties":{"_source":"warm_welcome","address":"A T A C Community Hall, Northumberland NE61 5QL","description":"Community Hall on mile road, widdrington station, northumberland","hours":{"_text":"Tuesday: 11:00 - 04:00, Wednesday: 10:30 - 12:30","opening":"Tu 11:00-16:00; We 10:30-12:30"},"title":"ATAC COMMUNITY HALL"},"type":"Feature"},
-		{"geometry":{"coordinates":[-1.64520,55.18150],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Pegswood Community Hub, Morpeth, Northumberland NE61 6XF NE61 6XF","description":"Community centre. Open to all.","hours":{"_text":"Monday: 09:00 - 16:00, Tuesday: 09:00 - 16:00, Wednesday: 09:00 - 16:00, Thursday: 09:00 - 16:00, Friday: 09:00 - 16:00","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00"},"title":"Pegswood Community Hub"},"type":"Feature"}
+		{"geometry":{"coordinates":[-1.64520,55.18150],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Pegswood Community Hub, Morpeth, Northumberland NE61 6XF","description":"Community centre. Open to all.","hours":{"_text":"Monday: 09:00 - 16:00, Tuesday: 09:00 - 16:00, Wednesday: 09:00 - 16:00, Thursday: 09:00 - 16:00, Friday: 09:00 - 16:00","opening":"Mo 09:00-16:00; Tu 09:00-16:00; We 09:00-16:00; Th 09:00-16:00; Fr 09:00-16:00"},"title":"Pegswood Community Hub"},"type":"Feature"}
 	]
 }

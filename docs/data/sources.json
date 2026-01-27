@@ -9,8 +9,8 @@
 	},
 	"aberdeen_city_council": {
 		"checked":"2025-10-01",
-		"count": 30,
-		"geocount": 30,
+		"count":"0",
+		"geocount":"0",
 		"id":"aberdeen_city_council",
 		"map": { "type":"googlemap","url":"https://www.aberdeencity.gov.uk/services/people-and-communities/warm-spaces" },
 		"register": { "url":"mailto:warmspace@aberdeencity.gov.uk" },
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -1371,8 +1371,8 @@
 	},
 	"st_helens_council": {
 		"checked":"2025-10-07",
-		"count": 30,
-		"geocount": 29,
+		"count":"0",
+		"geocount":"0",
 		"id":"st_helens_council",
 		"register": { "url":"https://sthelens.gov.uk/article/7260/Register-your-warm-space" },
 		"title":"St Helens Council",
@@ -1472,8 +1472,8 @@
 	},
 	"swindon_council": {
 		"checked":"2025-10-07",
-		"count": 38,
-		"geocount": 37,
+		"count": 39,
+		"geocount": 38,
 		"id":"swindon_council",
 		"title":"Swindon Council",
 		"url":"https://www.swindon.gov.uk/directory/56/warm_and_welcome_spaces/category/264/categoryInfo/4"
@@ -1629,8 +1629,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"count": 74,
+		"geocount": 74,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",

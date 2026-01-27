@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-5.15485,57.89839],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lochbroom & Ullapool Parish Hub, Ullapool, Ross-shire IV262UN IV262UN","description":"SPACE OPENING ON 15th November 2024** A friendly and warm space to enjoy crafting with others, refreshments provided include home baking and warm drinks","hours":{"_text":"Friday: 14:00 - 16:00","opening":"Fr 14:00-16:00"},"title":"Craft & Cake"},"type":"Feature"},
-		{"geometry":{"coordinates":[-5.15849,57.89779],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lochbroom & Ullapool Church of Scotland Parish Hub, Ullapool, Ross-shire IV262UN IV262UN","description":"A warm and welcoming breakfast avaiable on the last Saturday of the month","hours":{"_text":"Saturday: 10:00 - 12:00 Monthly","opening":"Sa 10:00-12:00"},"title":"Men's Breakfast"},"type":"Feature"}
+		{"geometry":{"coordinates":[-5.15485,57.89839],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lochbroom & Ullapool Parish Hub, Ullapool, Ross-shire IV26 2UN","description":"SPACE OPENING ON 15th November 2024** A friendly and warm space to enjoy crafting with others, refreshments provided include home baking and warm drinks","hours":{"_text":"Friday: 14:00 - 16:00","opening":"Fr 14:00-16:00"},"title":"Craft & Cake"},"type":"Feature"},
+		{"geometry":{"coordinates":[-5.15659,57.89832],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Lochbroom & Ullapool Church of Scotland Parish Hub, Ullapool, Ross-shire IV26 2UN","description":"A warm and welcoming breakfast avaiable on the last Saturday of the month","hours":{"_text":"Saturday: 10:00 - 12:00 Monthly","opening":"Sa 10:00-12:00"},"title":"Men's Breakfast"},"type":"Feature"}
 	]
 }
