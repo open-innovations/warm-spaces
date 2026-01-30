@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-3.28728,57.71728],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scottish Fire & Rescue Service, Lossiemouth, Morayshire IV31 6DP","description":"SPACE OPENING ON 29th January 2026** This space is open to all members of the community. Running on Thursdays between 14:30 - 16:00. Commencing 29th January 2026 until Spring 2026. In collaboration with The Co-Op","hours":{"_text":"Thursday: 14:30 - 16:00","opening":"Th 14:30-16:00"},"title":"Lossiemouth Fire Station Warm Space"},"type":"Feature"}
+		{"geometry":{"coordinates":[-3.28728,57.71728],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Scottish Fire & Rescue Service, Lossiemouth, Morayshire IV31 6DP","description":"This space is open to all members of the community. Running on Thursdays between 14:30 - 16:00. Commencing 29th January 2026 until Spring 2026. In collaboration with The Co-Op","hours":{"_text":"Thursday: 14:30 - 16:00","opening":"Th 14:30-16:00"},"title":"Lossiemouth Fire Station Warm Space"},"type":"Feature"}
 	]
 }
