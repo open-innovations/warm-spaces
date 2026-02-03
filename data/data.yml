@@ -1165,7 +1165,7 @@ directories:
     register:
       url: "https://www.leeds.gov.uk/campaign/welcome-spaces"
     data:
-      url: "https://www.leedsdirectory.org/s4s/api/Event/GetEventsJson?templateId=4333c62a-f7a8-4343-8314-aa5000d6f84b&search=&criterias%5BOccurrence,In,RepeatingGroup,AND%5D=08-01-2026/15-01-2026&criterias%5BOneOffGroup,Eq,RootGroup,OR%5D=true&criterias%5BRepeatingGroup,Eq,RootGroup,OR%5D=true&fields=Id,Name,Description,Full%20description,Address,DetailsImageUrl,Postcode,Start%20date,StartTime,EndTime,Geolocation,Phone,Email,Website,Occurrences&attrValue=ae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2C&attributesToSelect=DBC3D724-C90E-4EC0-A72F-A97A00A14458,4b73d940-9fb4-4b6d-80b5-aab600bff4ae&SortColumn=Start%20date&SortType=&page=1&itemsPerPage=500"
+      url: "https://www.leedsdirectory.org/s4s/api/Event/GetEventsJson?templateId=4333c62a-f7a8-4343-8314-aa5000d6f84b&search=&criterias[OneOffGroup,Eq,RootGroup,OR]=true&criterias[RepeatingGroup,Eq,RootGroup,OR]=true&fields=Id,Name,Description,Full%20description,Address,DetailsImageUrl,Postcode,Start%20date,StartTime,EndTime,Geolocation,Phone,Email,Website,Occurrences&attrValue=ae0e8411-7506-49df-990e-afeb00e2ab10&attributesToSelect=DBC3D724-C90E-4EC0-A72F-A97A00A14458,4b73d940-9fb4-4b6d-80b5-aab600bff4ae&SortColumn=Start%20date&SortType=&page=1&itemsPerPage=500"
       set-cookies: "https://www.leedsdirectory.org/s4s/WhereILive/Council?pageId=5318&Filter=ae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2Cae0e8411-7506-49df-990e-afeb00e2ab10%2C"
       type: html
   - title: "Leicester Council"

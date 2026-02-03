@@ -80,8 +80,8 @@ sub getDataFromURL {
 	$url = $d->{'data'}[$n]{'url'};
 
 	# Encode square brackets which shouldn't be in a URL (but Leeds has them)
-	$url =~ s/\[/\%5B/g;
-	$url =~ s/\]/\%5D/g;
+#	$url =~ s/\[/\%5B/g;
+#	$url =~ s/\]/\%5D/g;
 
 	msg("\tURL: <blue>$url<none>\n");
 
@@ -122,6 +122,11 @@ sub getDataFromURL {
 		if(-e $cfile){
 			$args .= " -b $cfile";
 		}
+		# If the URL has brackets (which shouldn't be in a URL) we need to switch off curl's "URL globbing parser"
+		if($url =~ /[\[\]]/){
+			$args .= " --globoff";
+		}
+
 		$cmd = "curl -s --insecure -L $args --connect-timeout 10 --compressed \"$url\" -o \"$file\"";
 		#msg("$cmd\n");
 		`$cmd`;
