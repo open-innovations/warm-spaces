@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 355,
-		"geocount": 355,
+		"count": 353,
+		"geocount": 353,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -308,7 +308,7 @@
 	},
 	"bury_directory": {
 		"checked":"2025-10-01",
-		"count": 26,
+		"count": 27,
 		"geocount": 22,
 		"id":"bury_directory",
 		"title":"Bury Directory",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 239,
-		"geocount": 231,
+		"count": 241,
+		"geocount": 233,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
