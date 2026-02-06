@@ -19,8 +19,8 @@
 	},
 	"aberdeenshire_council": {
 		"checked":"2025-10-01",
-		"count": 53,
-		"geocount": 48,
+		"count": 52,
+		"geocount": 47,
 		"id":"aberdeenshire_council",
 		"title":"Aberdeenshire Council",
 		"url":"https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 353,
-		"geocount": 353,
+		"count": 352,
+		"geocount": 352,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 156,
-		"geocount": 156,
+		"count": 157,
+		"geocount": 157,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -331,8 +331,8 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -1199,8 +1199,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 42,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 43,
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },

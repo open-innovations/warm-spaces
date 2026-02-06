@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.28203,56.84545],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Scout Hall, Church Street, Inverbervie, DD10 0RU","hours":{"_text":" Fridays 10am - 12noon ","opening":"Fr 10:00-12:00"},"loc_pcd":true,"title":"Bervie Community Cafe"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.44925,56.89823],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Monboddo Street, Auchenblae, AB30 1XQ","hours":{"_text":" Mondays 10am - 12noon ","opening":"Mo 10:00-12:00"},"loc_pcd":true,"title":"Catch Up Community Cafe, Auchenblae<span> </span>"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.33513,56.79491],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"15 Mid Street, Johnshaven, Montrose, DD10 0HB","hours":{"_text":"Tuesdays 10am - 12noon","opening":"Tu 10:00-12:00"},"loc_pcd":true,"title":"<span>Community Cafe, </span>Johnshaven"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.28203,56.84545],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Scout Hall, Church Street, Inverbervie, DD10 0RU","contact":"Facebook: https://www.facebook.com/berviecommunitycafe","loc_pcd":true,"title":"Bervie Community Cafe"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.44925,56.89823],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Monboddo Street, Auchenblae, AB30 1XQ","contact":"Facebook: https://www.facebook.com/auchenblaecommunitycafe","loc_pcd":true,"title":"Catch Up Community Cafe, Auchenblae<span> </span>"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.33513,56.79491],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"15 Mid Street, Johnshaven, Montrose, DD10 0HB","contact":"Facebook: https://www.facebook.com/JohnshavenCommunityCafe/","loc_pcd":true,"title":"<span>Community Cafe, </span>Johnshaven"},"type":"Feature"}
 	]
 }
