@@ -1,7 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.49375,57.67074],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Market Street, Macduff, AB44 1LL","hours":{"_text":"Every Monday 2pm - 4.30pm","opening":"Mo 14:00-16:30"},"loc_pcd":true,"title":"<span>Cosy Corner Cafe, </span>Macduff Parish Church Hall"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.69158,57.68160],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"15 Seafield Street, Portsoy, Banff, AB45 2QL","contact":"Tel: 01261843125","hours":{"_text":"Monday to Friday 10am - 3pm","opening":"Mo-Fr 10:00-15:00"},"loc_pcd":true,"title":"Portsoy Church Centre","url":"https://www.portsoychurch.org/church-hall-redevelopment"},"type":"Feature"}
-	]
-}
+{}

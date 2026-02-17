@@ -1,8 +1,1 @@
-{
-	"type": "FeatureCollection",
-	"features": [
-		{"geometry":{"coordinates":[-2.93386,57.12459],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"St Thomas’ Church, Aboyne, AB34 5NJ","hours":{"_text":"Every Tuesday, from 20th February to 26th March 2024 - ​12pm to 1pm","opening":"Tu 00:00-00:00"},"loc_pcd":true,"title":"Aboyne St Thomas’ Church Soul Soup","url":"https://www.stthomasaboyne.org/contact-us/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.93386,57.12459],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"St Thomas’ Church, Aboyne, AB34 5NJ","hours":{"_text":"Every Thursday, from 22nd February to 28th March 2024 - ​12pm to 1pm","opening":"Th 00:00-00:00"},"loc_pcd":true,"title":"Ballater St Kentigern’s Church Soul Soup","url":"http://stkentigernsballater.aodiocese.org.uk/"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.93323,57.12661],"type":"Point"},"properties":{"_source":"aberdeenshire_council","address":"Logie Coldstone Village Hall, Logie Coldstone, Aboyne, AB34 5PQ","hours":{"_text":"First Friday of each month, 10am - 12pm","opening":"Fr[1] 10:00-12:00"},"loc_pcd":true,"title":"Logie Coldstone Community Café","url":"https://www.logiecoldstone.org/contact"},"type":"Feature"}
-	]
-}
+{}

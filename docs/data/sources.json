@@ -19,8 +19,8 @@
 	},
 	"aberdeenshire_council": {
 		"checked":"2025-10-01",
-		"count": 52,
-		"geocount": 47,
+		"count":"0",
+		"geocount":"0",
 		"id":"aberdeenshire_council",
 		"title":"Aberdeenshire Council",
 		"url":"https://www.aberdeenshire.gov.uk/communities-and-events/cost-of-living"
@@ -197,7 +197,7 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 157,
+		"count": 158,
 		"geocount": 157,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -906,8 +906,8 @@
 	},
 	"lambeth_council": {
 		"checked":"2025-10-02",
-		"count": 24,
-		"geocount": 24,
+		"count":"0",
+		"geocount":"0",
 		"id":"lambeth_council",
 		"map": { "type":"leaflet","url":"https://www.lambeth.gov.uk/warm-spaces" },
 		"register": { "url":"https://forms.lambeth.gov.uk/SIGNUPTOBEAWARMSPACE/launch" },
