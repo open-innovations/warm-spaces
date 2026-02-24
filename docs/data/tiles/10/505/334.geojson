@@ -10,7 +10,7 @@
 		{"geometry":{"coordinates":[-2.16413,52.80080],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Billington Lane, Derrington, ST18 9LR","loc_pcd":true,"title":"Derrington Village Hall","url":"https://www.derringtonvillagehall.co.uk/home"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.12093,52.81552],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Rowley Street, Stafford, ST16 2RH","loc_pcd":true,"title":"Mount Peniel Church","url":"https://mountpeniel.org/Contact-Us/"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.11356,52.78925],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Thirlmere Way Community Centre, Thirlmere Way, Stafford, ST17 9EJ","loc_pcd":true,"title":"Penkside Community Champions","url":"https://www.penkside.com/warm-spaces"},"type":"Feature"},
-		{"geometry":{"coordinates":[-2.11896,52.78753],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Burton Square, Stafford, ST17 9LT","loc_pcd":true,"title":"Rising Brook Community Church","url":"https://risingbrook.org/warmspaces"},"type":"Feature"},
+		{"geometry":{"coordinates":[-2.11896,52.78753],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Burton Square, Stafford, ST17 9LT","loc_pcd":true,"title":"Rising Brook Community Church","url":"https://risingbrook.org/rbcc"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.20279,52.89085],"type":"Point"},"properties":{"_source":"stafford_borough_council","address":"Yarnfield Village Hall, Yarnfield, ST15 0NJ","loc_pcd":true,"title":"Yarnfield and Cold Meece Parish Council","url":"https://www.ycm-pc.org.uk/"},"type":"Feature"}
 	]
 }
