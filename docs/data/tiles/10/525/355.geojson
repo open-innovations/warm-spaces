@@ -1,0 +1,6 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[4.72270,48.16243],"type":"Point"},"properties":{"_source":"warm_welcome","address":"R102, Paris, France 10200 10200","description":"Computer de Bureau PCU Siemens Work UK. Computer de Bureau CPU Pentium Work UK. Computer de Bureau PSU IBM Work Computer de Bureau SPU Sony Ericsson Work UK. Computer de Bureau PC Ordinateur Centrale Sony Evolution Work UK. Computer de Bureau CP Ordinateur Portable Sony Revolution Work UK.","hours":{"_text":"Monday: 10:00 - 11:00, Tuesday: 12:00 - 13:00, Wednesday: 14:00 - 15:00, Thursday: 16:00 - 19:00, Friday: 13:00 - 18:00, Saturday: 12:00 - 15:00, Sunday: 17:00 - 20:00","opening":"Mo 10:00-11:00; Tu 12:00-13:00; We 14:00-15:00; Th 16:00-19:00; Fr 13:00-18:00; Sa 12:00-15:00; Su 17:00-20:00"},"title":"RIADISAMIR"},"type":"Feature"}
+	]
+}

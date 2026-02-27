@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 353,
-		"geocount": 353,
+		"count": 352,
+		"geocount": 352,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 167,
-		"geocount": 165,
+		"count": 157,
+		"geocount": 157,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -523,8 +523,8 @@
 	},
 	"cumberland_council": {
 		"checked":"2025-10-01",
-		"count": 29,
-		"geocount": 29,
+		"count":"0",
+		"geocount":"0",
 		"id":"cumberland_council",
 		"title":"Cumberland Council",
 		"url":"https://www.cumberland.gov.uk/health-and-social-care/cost-living-support/find-and-register-warm-spots"
@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 241,
-		"geocount": 233,
+		"count": 243,
+		"geocount": 235,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 101,
-		"geocount": 101,
+		"count": 95,
+		"geocount": 95,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1447,7 +1447,7 @@
 	},
 	"surrey_county_council": {
 		"checked":"2025-10-07",
-		"count": 52,
+		"count": 51,
 		"geocount": 1,
 		"id":"surrey_county_council",
 		"title":"Surrey County Council",
@@ -1610,8 +1610,8 @@
 	},
 	"west_northamptonshire": {
 		"checked":"2025-12-04",
-		"count": 169,
-		"geocount": 164,
+		"count": 167,
+		"geocount": 162,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u" },
