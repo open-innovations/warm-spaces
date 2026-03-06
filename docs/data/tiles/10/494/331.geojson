@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-6.26372,53.34749],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Starbucks Coffee Co (UK) Ltd, Newcastle upon Tyne, Tyne and Wear NE2 2SX","description":"The space is open to all","hours":{"_text":"Tuesday: 10:00 - 13:00","opening":"Tu 10:00-13:00"},"title":"Starbucks Jesmond"},"type":"Feature"}
+	]
+}

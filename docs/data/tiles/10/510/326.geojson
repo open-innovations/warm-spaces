@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-0.61557,54.48649],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Flowergate Hall, North Yorkshire, North Yorkshire yo21 3ba","description":"PAYF cafe in arts centre look out on our social media for additional opening hours - @flashcompanyarts","hours":{"_text":"Monday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00","opening":"Mo 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00"},"title":"Flowergate Hall - The People's Kitchen"},"type":"Feature"},
+		{"geometry":{"coordinates":[-0.61457,54.48654],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Flowergate Hall, North Yorkshire, North Yorkshire yo21 3ba","description":"PAYF cafe in arts centre look out on our social media for additional opening hours - @flashcompanyarts","hours":{"_text":"Monday: 10:00 - 16:00, Wednesday: 10:00 - 16:00, Thursday: 10:00 - 16:00, Friday: 10:00 - 16:00","opening":"Mo 10:00-16:00; We 10:00-16:00; Th 10:00-16:00; Fr 10:00-16:00"},"title":"Flowergate Hall - The People's Kitchen"},"type":"Feature"},
 		{"geometry":{"coordinates":[-0.60933,54.48165],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Green Lane Centre, Whitby, North Yorkshire YO22 4EH","description":"Four volunteers open up the space and offer free drinks and biscuits. Food bank available. Please check with venue or Facebook page. Occasionally the session maybe cancelled in the school holidays.","hours":{"_text":"Friday: 11:00 - 01:00","opening":"Fr 11:00-13:00"},"title":"GLCC - A warm welcome"},"type":"Feature"}
 	]
 }
