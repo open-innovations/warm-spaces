@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count":"0",
-		"geocount":"0",
+		"count": 121,
+		"geocount": 121,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 30,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
