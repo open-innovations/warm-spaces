@@ -399,8 +399,8 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count": 43,
-		"geocount": 37,
+		"count":"0",
+		"geocount":"0",
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -415,8 +415,8 @@
 	},
 	"cherwell_council": {
 		"checked":"2025-10-01",
-		"count": 41,
-		"geocount": 41,
+		"count":"0",
+		"geocount":"0",
 		"id":"cherwell_council",
 		"map": { "type":"arcgis","url":"https://cherwell.maps.arcgis.com/apps/instant/nearby/index.html?appid=5eb7e00e295e49c7bbbcd1896ebdb535&sliderDistance=2" },
 		"notes":"Links to a PDF and Warm Welcome UK",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -995,8 +995,8 @@
 	},
 	"luton_council": {
 		"checked":"2025-10-07",
-		"count": 20,
-		"geocount": 20,
+		"count": 19,
+		"geocount": 19,
 		"id":"luton_council",
 		"map": { "type":"plinth","url":"https://map.foodfirstluton.co.uk/map" },
 		"title":"Luton Council",
