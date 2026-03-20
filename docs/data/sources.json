@@ -151,7 +151,7 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 352,
+		"count": 353,
 		"geocount": 352,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
@@ -400,7 +400,7 @@
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
 		"count": 43,
-		"geocount": 37,
+		"geocount": 29,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 30,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -588,8 +588,8 @@
 	},
 	"ealing_council": {
 		"checked":"2025-10-02",
-		"count":"0",
-		"geocount":"0",
+		"count": 46,
+		"geocount": 46,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
