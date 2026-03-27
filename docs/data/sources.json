@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 352,
-		"geocount": 352,
+		"count": 353,
+		"geocount": 353,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -214,8 +214,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 35,
-		"geocount": 35,
+		"count": 34,
+		"geocount": 34,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -254,7 +254,7 @@
 	"brighton___hove_council": {
 		"checked":"2025-10-01",
 		"count": 52,
-		"geocount": 48,
+		"geocount":"0",
 		"id":"brighton___hove_council",
 		"map": { "type":"leaflet","url":"https://www.brighton-hove.gov.uk/cost-living-support/directories/warm-welcome-directory-indoor-activities-and-places-go?view=map" },
 		"title":"Brighton & Hove Council",
@@ -331,8 +331,8 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count": 43,
-		"geocount": 43,
+		"count": 41,
+		"geocount": 41,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -400,7 +400,7 @@
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
 		"count": 43,
-		"geocount": 2,
+		"geocount": 37,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 95,
-		"geocount": 95,
+		"count": 101,
+		"geocount": 101,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
