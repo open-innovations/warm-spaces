@@ -288,8 +288,8 @@
 	},
 	"buckinghamshire_council": {
 		"checked":"2025-10-01",
-		"count": 37,
-		"geocount": 37,
+		"count": 36,
+		"geocount": 36,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 47,
-		"geocount": 45,
+		"count": 45,
+		"geocount": 43,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1282,8 +1282,8 @@
 	},
 	"sandwell_council": {
 		"checked":"2025-10-07",
-		"count": 31,
-		"geocount": 31,
+		"count": 45,
+		"geocount": 45,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 100,
-		"geocount": 100,
+		"count": 101,
+		"geocount": 101,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
