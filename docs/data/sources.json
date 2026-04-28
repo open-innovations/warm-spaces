@@ -540,8 +540,8 @@
 	},
 	"cyngor_gwynedd": {
 		"checked":"2025-10-01",
-		"count": 243,
-		"geocount": 235,
+		"count": 244,
+		"geocount": 236,
 		"id":"cyngor_gwynedd",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?mid=1x04iINvNfqHSAA0QmGuZBaizs8KCvXs&ll=52.9799414237734%2C-3.818051850000006&z=9" },
 		"register": { "url":"https://docs.google.com/forms/d/e/1FAIpQLSdz4Pf8-xBPKcRXLZ8siqYCwQPrDhmePlz4mkmMNtm4giUtvA/viewform" },
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 99,
-		"geocount": 99,
+		"count": 103,
+		"geocount": 103,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1514,7 +1514,7 @@
 	},
 	"torbay_council": {
 		"checked":"2025-12-04",
-		"count": 16,
+		"count":"0",
 		"geocount":"0",
 		"id":"torbay_council",
 		"title":"Torbay Council",
