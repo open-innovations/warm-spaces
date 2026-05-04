@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 353,
-		"geocount": 353,
+		"count": 351,
+		"geocount": 351,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 158,
-		"geocount": 158,
+		"count": 154,
+		"geocount": 154,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -479,8 +479,8 @@
 	},
 	"communities_1st": {
 		"checked":"2025-10-01",
-		"count": 30,
-		"geocount": 28,
+		"count":"0",
+		"geocount":"0",
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -488,8 +488,8 @@
 	},
 	"community_action_derby": {
 		"checked":"2025-10-01",
-		"count": 47,
-		"geocount": 34,
+		"count": 45,
+		"geocount": 32,
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -709,8 +709,8 @@
 	},
 	"gedling_council": {
 		"checked":"2025-12-04",
-		"count": 36,
-		"geocount": 34,
+		"count": 35,
+		"geocount": 33,
 		"id":"gedling_council",
 		"title":"Gedling Council",
 		"url":"https://www.gedling.gov.uk/resident/community/costoflivingsupport/welcomeandwarmspaces/"
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 103,
-		"geocount": 103,
+		"count": 101,
+		"geocount": 101,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
