@@ -53,8 +53,8 @@
 	},
 	"argyll_and_bute_third_sector_interface": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 35,
+		"geocount": 35,
 		"id":"argyll_and_bute_third_sector_interface",
 		"title":"Argyll and Bute Third Sector Interface",
 		"url":"https://www.argylltsi.org/warm-spaces/"
@@ -152,7 +152,7 @@
 	"birmingham_council": {
 		"checked":"2025-10-01",
 		"count": 354,
-		"geocount": 306,
+		"geocount": 323,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 157,
-		"geocount": 157,
+		"count": 162,
+		"geocount": 162,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -331,8 +331,8 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 41,
+		"geocount": 41,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -399,8 +399,8 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 43,
+		"geocount": 37,
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -488,8 +488,8 @@
 	},
 	"community_action_derby": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 42,
+		"geocount": 30,
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -588,8 +588,8 @@
 	},
 	"ealing_council": {
 		"checked":"2025-10-02",
-		"count": 46,
-		"geocount": 46,
+		"count": 47,
+		"geocount": 47,
 		"id":"ealing_council",
 		"map": { "type":"googlemap","url":"https://www.dosomethinggood.org.uk/community-support-search/?cat=warm-community-spaces" },
 		"title":"Ealing Council",
@@ -690,8 +690,8 @@
 	},
 	"fylde_council": {
 		"checked":"2025-10-02",
-		"count":"0",
-		"geocount":"0",
+		"count": 14,
+		"geocount": 14,
 		"id":"fylde_council",
 		"notes":"Not enough location information and structure to parse",
 		"register": { "url":"mailto:edyta.paxton@fylde.gov.uk" },
@@ -1422,16 +1422,16 @@
 	},
 	"stroud_cscic": {
 		"checked":"2025-10-07",
-		"count":"0",
-		"geocount":"0",
+		"count": 22,
+		"geocount": 22,
 		"id":"stroud_cscic",
 		"title":"Stroud CSCIC",
 		"url":"https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 101,
-		"geocount": 101,
+		"count": 102,
+		"geocount": 102,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1447,7 +1447,7 @@
 	},
 	"surrey_county_council": {
 		"checked":"2025-10-07",
-		"count": 23,
+		"count":"0",
 		"geocount":"0",
 		"id":"surrey_county_council",
 		"title":"Surrey County Council",
@@ -1546,8 +1546,8 @@
 	},
 	"wandsworth_council": {
 		"checked":"2025-10-08",
-		"count": 72,
-		"geocount": 72,
+		"count": 73,
+		"geocount": 73,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
@@ -1584,8 +1584,8 @@
 	},
 	"west_berkshire_council": {
 		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"count": 26,
+		"geocount": 26,
 		"id":"west_berkshire_council",
 		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/community-welcome-space/" },
 		"title":"West Berkshire Council",

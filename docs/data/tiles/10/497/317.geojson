@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-5.07272,56.23133],"type":"Point"},"properties":{"_source":"argyll_and_bute_third_sector_interface","address":"27a Front St, Inveraray, PA32 8UY","description":"We are offering out the Inveraray Hub to all local charities, groups and organisations to use this winter. For whatever reason you need a space, we can offer a warm environment with free use of the coffee machine and tea! Contact: [email protected]","loc_pcd":true,"title":"Inveraray Hub"},"type":"Feature"}
+	]
+}
