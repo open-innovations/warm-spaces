@@ -127,8 +127,8 @@
 	},
 	"bedford_council": {
 		"checked":"2025-10-01",
-		"count": 30,
-		"geocount": 29,
+		"count": 27,
+		"geocount": 26,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -152,7 +152,7 @@
 	"birmingham_council": {
 		"checked":"2025-10-01",
 		"count": 354,
-		"geocount": 323,
+		"geocount": 299,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 162,
-		"geocount": 162,
+		"count": 153,
+		"geocount": 152,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -514,8 +514,8 @@
 	},
 	"croydon_simply_connect": {
 		"checked":"2025-10-01",
-		"count": 24,
-		"geocount": 24,
+		"count": 19,
+		"geocount": 19,
 		"id":"croydon_simply_connect",
 		"register": { "url":"https://forms.office.com/r/iBHN1rt1HE" },
 		"title":"Croydon Simply Connect",
@@ -1423,15 +1423,15 @@
 	"stroud_cscic": {
 		"checked":"2025-10-07",
 		"count": 22,
-		"geocount": 22,
+		"geocount":"0",
 		"id":"stroud_cscic",
 		"title":"Stroud CSCIC",
 		"url":"https://cscic.org/community-hubs/warm-spaces/"
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 102,
-		"geocount": 102,
+		"count": 104,
+		"geocount": 104,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1496,8 +1496,8 @@
 	},
 	"tewkesbury_council": {
 		"checked":"2025-10-07",
-		"count": 13,
-		"geocount": 12,
+		"count":"0",
+		"geocount":"0",
 		"id":"tewkesbury_council",
 		"map": { "type":"arcgis","url":"https://experience.arcgis.com/experience/54f42321c3764ce4a190283aa918a520/" },
 		"register": { "url":"https://tewkesbury.gov.uk/forms/warm-spaces-directory-registration/" },
@@ -1602,8 +1602,8 @@
 	},
 	"west_dunbartonshire_council": {
 		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"count": 16,
+		"geocount": 14,
 		"id":"west_dunbartonshire_council",
 		"title":"West Dunbartonshire Council",
 		"url":"https://www.west-dunbarton.gov.uk/community/community-planning-west-dunbartonshire/communities/your-community/warm-hubs/"
@@ -1620,8 +1620,8 @@
 	},
 	"westminster_council": {
 		"checked":"2025-12-04",
-		"count": 10,
-		"geocount": 7,
+		"count":"0",
+		"geocount":"0",
 		"id":"westminster_council",
 		"map": { "type":"arcgis","url":"https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=8bf1f9ed1a474940b0f92e710e3f0379" },
 		"title":"Westminster Council",
