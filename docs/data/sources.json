@@ -152,7 +152,7 @@
 	"birmingham_council": {
 		"checked":"2025-10-01",
 		"count": 354,
-		"geocount": 299,
+		"geocount": 292,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 153,
-		"geocount": 152,
+		"count": 127,
+		"geocount": 127,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -339,8 +339,8 @@
 	},
 	"camden_council": {
 		"checked":"2025-10-01",
-		"count": 48,
-		"geocount": 48,
+		"count":"0",
+		"geocount":"0",
 		"id":"camden_council",
 		"map": { "type":"arcgis","url":"https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -496,8 +496,8 @@
 	},
 	"coventry_council": {
 		"checked":"2025-10-01",
-		"count": 57,
-		"geocount": 57,
+		"count": 60,
+		"geocount": 60,
 		"id":"coventry_council",
 		"map": { "type":"googlemap","url":"https://www.coventry.gov.uk/directory/search?directoryID=115&showInMap=1&keywords=coventry&postcode=&search=Search" },
 		"title":"Coventry Council",
@@ -801,8 +801,8 @@
 	},
 	"hertfordshire_council": {
 		"checked":"2025-10-02",
-		"count":"0",
-		"geocount":"0",
+		"count": 69,
+		"geocount": 68,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 44,
-		"geocount": 42,
+		"count": 43,
+		"geocount": 41,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
