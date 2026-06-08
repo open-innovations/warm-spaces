@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 354,
-		"geocount": 292,
+		"count": 359,
+		"geocount": 311,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -339,8 +339,8 @@
 	},
 	"camden_council": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 48,
+		"geocount": 48,
 		"id":"camden_council",
 		"map": { "type":"arcgis","url":"https://ssa.camden.gov.uk/connect/analyst/mobile/#/main?mapcfg=%2FMapProjects%2FWarmSpacesMap" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=NEqPXtsrVEi7QrTQx9AkbMIlX2RFq2ZPjyjaXoTGKaNUOE9PV0ZCUkNNUkNYUElNQlAyVEVTMkFGVS4u" },
@@ -1199,8 +1199,8 @@
 	},
 	"powys_council": {
 		"checked":"2025-10-07",
-		"count": 43,
-		"geocount": 43,
+		"count":"0",
+		"geocount":"0",
 		"id":"powys_council",
 		"map": { "type":"os","url":"https://en.powys.gov.uk/powyswarmspaces?view=map" },
 		"register": { "url":"https://en.powys.gov.uk/article/13330/Creating-warm-spaces-for-Powys" },
