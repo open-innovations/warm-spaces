@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 120,
-		"geocount": 120,
+		"count": 122,
+		"geocount": 122,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 359,
-		"geocount": 311,
+		"count": 358,
+		"geocount": 300,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -214,8 +214,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 34,
-		"geocount": 34,
+		"count": 43,
+		"geocount": 43,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -331,8 +331,8 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count": 41,
-		"geocount": 41,
+		"count": 40,
+		"geocount": 40,
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -1334,8 +1334,8 @@
 	},
 	"south_cambs_council": {
 		"checked":"2025-10-07",
-		"count": 18,
-		"geocount": 18,
+		"count": 10,
+		"geocount": 10,
 		"id":"south_cambs_council",
 		"map": { "url":"https://www.google.com/maps/d/embed?mid=1agvlRj_UnyGXZwMB6WdLKiH8WS-7wf8&ehbc=2E312F&ll=52.19536637105232%2C0.15465880000000265&z=10" },
 		"title":"South Cambs Council",
