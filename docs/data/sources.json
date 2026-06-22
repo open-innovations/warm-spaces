@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 122,
-		"geocount": 122,
+		"count": 121,
+		"geocount": 121,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -127,8 +127,8 @@
 	},
 	"bedford_council": {
 		"checked":"2025-10-01",
-		"count": 27,
-		"geocount": 26,
+		"count": 4,
+		"geocount": 3,
 		"id":"bedford_council",
 		"title":"Bedford Council",
 		"url":"https://www.bedford.gov.uk/benefits-and-support/warm-spaces"
@@ -152,7 +152,7 @@
 	"birmingham_council": {
 		"checked":"2025-10-01",
 		"count": 358,
-		"geocount": 300,
+		"geocount": 288,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -331,8 +331,8 @@
 	},
 	"cambridgeshire_acre": {
 		"checked":"2025-10-01",
-		"count": 40,
-		"geocount": 40,
+		"count":"0",
+		"geocount":"0",
 		"id":"cambridgeshire_acre",
 		"title":"Cambridgeshire ACRE",
 		"url":"https://www.cambsacre.org.uk/projects/cambridgeshire-community-hubs-network/"
@@ -399,8 +399,8 @@
 	},
 	"chelmsford_connects": {
 		"checked":"2025-10-01",
-		"count": 43,
-		"geocount": 37,
+		"count":"0",
+		"geocount":"0",
 		"id":"chelmsford_connects",
 		"title":"Chelmsford Connects",
 		"url":"https://chelmsfordconnects.org.uk/search?category=1555"
@@ -488,8 +488,8 @@
 	},
 	"community_action_derby": {
 		"checked":"2025-10-01",
-		"count": 42,
-		"geocount": 30,
+		"count":"0",
+		"geocount":"0",
 		"id":"community_action_derby",
 		"title":"Community Action Derby",
 		"url":"https://www.communityactionderby.org.uk/crisis-support/help-with-the-cost-of-living/warm-welcome-hubs"
@@ -690,8 +690,8 @@
 	},
 	"fylde_council": {
 		"checked":"2025-10-02",
-		"count": 14,
-		"geocount": 14,
+		"count":"0",
+		"geocount":"0",
 		"id":"fylde_council",
 		"notes":"Not enough location information and structure to parse",
 		"register": { "url":"mailto:edyta.paxton@fylde.gov.uk" },
@@ -801,8 +801,8 @@
 	},
 	"hertfordshire_council": {
 		"checked":"2025-10-02",
-		"count": 69,
-		"geocount": 68,
+		"count": 71,
+		"geocount": 71,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -820,7 +820,7 @@
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
 		"count": 43,
-		"geocount": 41,
+		"geocount": 42,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1422,7 +1422,7 @@
 	},
 	"stroud_cscic": {
 		"checked":"2025-10-07",
-		"count": 22,
+		"count":"0",
 		"geocount":"0",
 		"id":"stroud_cscic",
 		"title":"Stroud CSCIC",
@@ -1584,8 +1584,8 @@
 	},
 	"west_berkshire_council": {
 		"checked":"2025-10-08",
-		"count": 26,
-		"geocount": 26,
+		"count":"0",
+		"geocount":"0",
 		"id":"west_berkshire_council",
 		"map": { "type":"leaflet","url":"https://wb-communitymap.adoddle.org/community-welcome-space/" },
 		"title":"West Berkshire Council",
