@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-3.35993,55.12312],"type":"Point"},"properties":{"_source":"warm_welcome","address":"All Saints Scottish Episcopal Church, Lockerbie, DG11 2BP","description":"We hold 'Soul Soup' free food and company once a month. Please see our website for details","hours":{"_text":"Thursday: 12:00 - 13:30 Monthly, Sunday: 11:00 - 13:00","opening":"Th 12:00-13:30; Su 11:00-13:00"},"title":"All Saints Episcopal Church, Lockerbie"},"type":"Feature"}
+	]
+}

@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-6.26372,53.34749],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Starbucks Coffee Co (UK) Ltd, Newcastle upon Tyne, Tyne and Wear NE2 2SX","description":"The space is open to all","hours":{"_text":"Tuesday: 10:00 - 13:00","opening":"Tu 10:00-13:00"},"title":"Starbucks Jesmond"},"type":"Feature"}
+		{"geometry":{"coordinates":[-6.26372,53.34749],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Starbucks Coffee Co (UK) Ltd, Newcastle upon Tyne, Tyne and Wear NE2 2SX","description":"The space is open to all","hours":{"_text":"Tuesday: 10:00 - 13:00","opening":"Tu 10:00-13:00"},"title":"Starbucks Jesmond"},"type":"Feature"},
+		{"geometry":{"coordinates":[-6.26469,53.34374],"type":"Point"},"properties":{"_source":"warm_welcome","address":"The George, Newnham, Gloucestershire GL14 1BS GL14 1BS","description":"A community owned and run building in our village High Street, offering a community cafe, event and exhibition space and rooms to rent for workshops and private functions and a well stocked 'honesty shop' with donated goods. we also run a 'tool library' where people can register and borrow tools and other useful things in return for a donation.","hours":{"_text":"Monday: 10:00 - 12:30","opening":"Mo 10:00-12:30"},"title":"The George"},"type":"Feature"}
 	]
 }
