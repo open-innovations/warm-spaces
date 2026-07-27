@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 122,
-		"geocount": 122,
+		"count":"0",
+		"geocount":"0",
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -152,7 +152,7 @@
 	"birmingham_council": {
 		"checked":"2025-10-01",
 		"count": 366,
-		"geocount": 308,
+		"geocount": 365,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 126,
-		"geocount": 126,
+		"count": 127,
+		"geocount": 127,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -375,8 +375,8 @@
 	},
 	"central_bedfordshire_council": {
 		"checked":"2025-10-01",
-		"count": 64,
-		"geocount": 59,
+		"count":"0",
+		"geocount":"0",
 		"id":"central_bedfordshire_council",
 		"title":"Central Bedfordshire Council",
 		"url":"https://www.centralbedfordshire.gov.uk/info/165/support_with_the_cost_of_living/1264/warm_spaces"
@@ -479,8 +479,8 @@
 	},
 	"communities_1st": {
 		"checked":"2025-10-01",
-		"count":"0",
-		"geocount":"0",
+		"count": 30,
+		"geocount": 28,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -801,8 +801,8 @@
 	},
 	"hertfordshire_council": {
 		"checked":"2025-10-02",
-		"count": 69,
-		"geocount": 69,
+		"count": 83,
+		"geocount": 83,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1282,8 +1282,8 @@
 	},
 	"sandwell_council": {
 		"checked":"2025-10-07",
-		"count": 45,
-		"geocount": 45,
+		"count": 44,
+		"geocount": 44,
 		"id":"sandwell_council",
 		"map": { "type":"googlemap","url":"https://route2wellbeing.info/browse?source=bar&phrase=%23welcomingspaces" },
 		"title":"Sandwell Council",
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 103,
-		"geocount": 103,
+		"count": 104,
+		"geocount": 104,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
