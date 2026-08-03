@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count":"0",
-		"geocount":"0",
+		"count": 122,
+		"geocount": 122,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -288,8 +288,8 @@
 	},
 	"buckinghamshire_council": {
 		"checked":"2025-10-01",
-		"count": 34,
-		"geocount": 34,
+		"count": 33,
+		"geocount": 33,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 28,
+		"geocount": 29,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -801,8 +801,8 @@
 	},
 	"hertfordshire_council": {
 		"checked":"2025-10-02",
-		"count": 83,
-		"geocount": 83,
+		"count": 84,
+		"geocount": 84,
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
