@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 109,
-		"geocount": 109,
+		"count": 127,
+		"geocount": 127,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -214,8 +214,8 @@
 	},
 	"braintree_council": {
 		"checked":"2025-10-01",
-		"count": 24,
-		"geocount": 24,
+		"count": 23,
+		"geocount": 23,
 		"id":"braintree_council",
 		"title":"Braintree Council",
 		"url":"https://www.braintree.gov.uk/warmspaces"
@@ -279,8 +279,8 @@
 	},
 	"bromley_well": {
 		"checked":"2025-10-01",
-		"count": 21,
-		"geocount": 21,
+		"count": 22,
+		"geocount": 22,
 		"id":"bromley_well",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/embed?mid=17_SgSZLOLQgzkig4vVXQHIBOic0q_7E&ehbc=2E312F&ll=51.39453111194717%2C0.023261450000000572&z=12" },
 		"title":"Bromley Well",
@@ -523,8 +523,8 @@
 	},
 	"cumberland_council": {
 		"checked":"2025-10-01",
-		"count": 31,
-		"geocount": 31,
+		"count":"0",
+		"geocount":"0",
 		"id":"cumberland_council",
 		"title":"Cumberland Council",
 		"url":"https://www.cumberland.gov.uk/health-and-social-care/cost-living-support/find-and-register-warm-spots"
@@ -801,8 +801,8 @@
 	},
 	"hertfordshire_council": {
 		"checked":"2025-10-02",
-		"count": 84,
-		"geocount": 84,
+		"count":"0",
+		"geocount":"0",
 		"id":"hertfordshire_council",
 		"map": { "type":"googlemap","url":"https://directory.hertfordshire.gov.uk/Search?CategoryId=165" },
 		"register": { "url":"https://www.hertfordshire.gov.uk/services/adult-social-services/professionals/warm-spaces-professionals-area.aspx" },
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 104,
-		"geocount": 104,
+		"count": 106,
+		"geocount": 106,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1610,8 +1610,8 @@
 	},
 	"west_northamptonshire": {
 		"checked":"2025-12-04",
-		"count":"0",
-		"geocount":"0",
+		"count": 167,
+		"geocount": 162,
 		"id":"west_northamptonshire",
 		"map": { "type":"googlemap","url":"https://www.google.com/maps/d/viewer?hl=en&mid=1BtrOICbcVc3tUsrS_DLsfSHuLkqctWA&ll=52.228250747031765%2C-1.0235380000000172&z=10" },
 		"register": { "url":"https://forms.office.com/pages/responsepage.aspx?id=9rFq2WDmUE2ez1oK8hIXl2ax1Wpb8MZKnrfsL_MeqfxUQTUyOFFVNkQ0RzZaTFhGRVpZRlA3TUoyOS4u" },
