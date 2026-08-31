@@ -178,8 +178,8 @@
 	},
 	"bournemouth__christchurch_and_poole": {
 		"checked":"2025-10-01",
-		"count": 80,
-		"geocount": 75,
+		"count": 81,
+		"geocount": 76,
 		"id":"bournemouth__christchurch_and_poole",
 		"map": { "type":"aurora","url":"https://maps.bcpcouncil.gov.uk/map/Aurora.svc/run?resize=always&script=%5CAurora%5CWarm%20Spaces.AuroraScript$" },
 		"notes":"Not enough structure to parse",
@@ -288,8 +288,8 @@
 	},
 	"buckinghamshire_council": {
 		"checked":"2025-10-01",
-		"count": 32,
-		"geocount": 32,
+		"count": 31,
+		"geocount": 31,
 		"id":"buckinghamshire_council",
 		"map": { "url":"https://directory.buckinghamshire.gov.uk/?categories=welcoming-spaces&collection=advice-and-support&map=true&page=1" },
 		"register": { "url":"https://www.buckinghamshire.gov.uk/cost-of-living/community-toolkit-register-as-a-welcoming-space/how-to-register-your-welcoming-space/" },
@@ -514,8 +514,8 @@
 	},
 	"croydon_simply_connect": {
 		"checked":"2025-10-01",
-		"count": 19,
-		"geocount": 19,
+		"count": 3,
+		"geocount": 3,
 		"id":"croydon_simply_connect",
 		"register": { "url":"https://forms.office.com/r/iBHN1rt1HE" },
 		"title":"Croydon Simply Connect",
@@ -1049,8 +1049,8 @@
 	},
 	"midlothian_council": {
 		"checked":"2025-10-07",
-		"count": 14,
-		"geocount": 12,
+		"count": 6,
+		"geocount":"0",
 		"id":"midlothian_council",
 		"title":"Midlothian Council",
 		"url":"https://www.midlothian.gov.uk/info/200301/cost_of_living/645/support_coping_with_rising_living_costs/5"
