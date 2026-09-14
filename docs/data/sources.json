@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 30,
+		"geocount": 29,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 106,
-		"geocount": 106,
+		"count": 107,
+		"geocount": 107,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1531,8 +1531,8 @@
 	},
 	"voluntary_action_islington": {
 		"checked":"2025-10-07",
-		"count": 27,
-		"geocount": 25,
+		"count": 203,
+		"geocount": 148,
 		"id":"voluntary_action_islington",
 		"title":"Voluntary Action Islington",
 		"url":"https://vai.org.uk/warm-spaces-in-islington/"

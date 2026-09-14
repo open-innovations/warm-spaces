@@ -1,1 +1,6 @@
-{}
+{
+	"type": "FeatureCollection",
+	"features": [
+		{"geometry":{"coordinates":[-4.25260,50.96622],"type":"Point"},"properties":{"_source":"warm_welcome","address":"Buckland Brewer Methodist Church, Bideford, Devon EX39 5LP","description":"We are open to all, especially those new to the Parish. We meet for refreshments & a chat - getting to know each other from 10am - 12noon every Wednesday.","hours":{"_text":"Wednesday: 10:00 - 12:00","opening":"We 10:00-12:00"},"title":"Buckland Coffee Morning"},"type":"Feature"}
+	]
+}
