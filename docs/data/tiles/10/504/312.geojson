@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{"geometry":{"coordinates":[-2.70329,57.23315],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Thursday: 09:00 - 12:00","opening":"Th 09:00-12:00"},"title":"Friendship Cafe"},"type":"Feature"}
+		{"geometry":{"coordinates":[-2.70329,57.23315],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Andrews Episcopal Church, Alford, Aberdeenshire AB33 8PX","description":"Small rural church in Aberdeenshire","hours":{"_text":"Thursday: 09:00 - 12:00","opening":"Th 09:00-12:00"},"title":"Alford Fly Cup at St. Andrew’s"},"type":"Feature"}
 	]
 }

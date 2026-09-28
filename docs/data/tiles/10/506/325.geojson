@@ -1,6 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
+		{"geometry":{"coordinates":[-1.82553,54.75392],"type":"Point"},"properties":{"_source":"warm_welcome","address":"1 Browns Buildings, Co. Durham, Durham DH9 9AB","description":"A lovely welcoming warm space and you can feel the hug as soon as you walk in. A space for all ages to relax/meet/socialise and have a nice hug in a mug and home made treats.","hours":{"_text":"Monday: 09:00 - 15:00, Tuesday: 09:00 - 15:30, Wednesday: 09:00 - 15:30, Thursday: 09:00 - 15:30, Friday: 09:00 - 15:30, Saturday: 09:00 - 15:30","opening":"Mo 09:00-15:00; Tu 09:00-15:30; We 09:00-15:30; Th 09:00-15:30; Fr 09:00-15:30; Sa 09:00-15:30"},"title":"No. 17 Cafe & Bistro"},"type":"Feature"},
 		{"geometry":{"coordinates":[-2.00474,54.74626],"type":"Point"},"properties":{"_source":"warm_welcome","address":"St Thomas' Church Hall, Stanhope, County Durham DL13 2UE","description":"A warm, welcoming community café, open to everyone. Healthy, delicious food and drinks and regular programme of crafts and events.","hours":{"_text":"Thursday: 09:00 - 03:00, Friday: 09:00 - 03:00","opening":"Th 09:00-15:00; Fr 09:00-15:00"},"title":"Root & Branch Community Café"},"type":"Feature"}
 	]
 }

@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 370,
-		"geocount": 369,
+		"count": 371,
+		"geocount": 370,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 127,
-		"geocount": 127,
+		"count": 128,
+		"geocount": 128,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -897,8 +897,8 @@
 	},
 	"kirklees_council": {
 		"checked":"2025-10-02",
-		"count": 24,
-		"geocount": 24,
+		"count":"0",
+		"geocount":"0",
 		"id":"kirklees_council",
 		"notes":"Mentions libraries and refers to Warm Welcome UK. No opening times given by the Kirklees website; they outsource those to Google.",
 		"title":"Kirklees Council",
