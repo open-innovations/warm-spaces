@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 371,
-		"geocount": 370,
+		"count": 372,
+		"geocount": 371,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -480,7 +480,7 @@
 	"communities_1st": {
 		"checked":"2025-10-01",
 		"count": 30,
-		"geocount": 29,
+		"geocount": 30,
 		"id":"communities_1st",
 		"register": { "url":"https://www.communities1st.org.uk/RegisterWarmHubs" },
 		"title":"Communities 1st",
@@ -897,8 +897,8 @@
 	},
 	"kirklees_council": {
 		"checked":"2025-10-02",
-		"count":"0",
-		"geocount":"0",
+		"count": 24,
+		"geocount": 24,
 		"id":"kirklees_council",
 		"notes":"Mentions libraries and refers to Warm Welcome UK. No opening times given by the Kirklees website; they outsource those to Google.",
 		"title":"Kirklees Council",
@@ -1258,7 +1258,7 @@
 	},
 	"rugby_council": {
 		"checked":"2025-10-07",
-		"count": 9,
+		"count": 8,
 		"geocount": 8,
 		"id":"rugby_council",
 		"title":"Rugby Council",
@@ -1546,8 +1546,8 @@
 	},
 	"wandsworth_council": {
 		"checked":"2025-10-08",
-		"count": 74,
-		"geocount": 74,
+		"count": 75,
+		"geocount": 75,
 		"id":"wandsworth_council",
 		"map": { "type":"leaflet","url":"https://www.wandsworth.gov.uk/cost-of-living-hub/community-spaces/community-spaces-directory/" },
 		"register": { "url":"https://wandsworth-self.achieveservice.com/service/register_interest_in_joining_the_warm_spaces_network" },
