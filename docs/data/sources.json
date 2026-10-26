@@ -1,8 +1,8 @@
 {
 	"_helpandkindness": {
 		"checked":"2025-10-28",
-		"count": 139,
-		"geocount": 139,
+		"count": 138,
+		"geocount": 138,
 		"id":"_helpandkindness",
 		"title":"#HelpAndKindness",
 		"url":"https://www.helpandkindness.co.uk/warm-welcomes-in-dorset"
@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 23,
-		"geocount": 23,
+		"count": 25,
+		"geocount": 25,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -197,8 +197,8 @@
 	},
 	"bradford_council": {
 		"checked":"2025-10-01",
-		"count": 110,
-		"geocount": 110,
+		"count": 107,
+		"geocount": 107,
 		"id":"bradford_council",
 		"map": { "type":"googlemap","url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
 		"register": { "url":"https://costoflivingbradford.co.uk/warm-spaces-directory/" },
@@ -415,8 +415,8 @@
 	},
 	"cherwell_council": {
 		"checked":"2025-10-01",
-		"count": 41,
-		"geocount": 41,
+		"count": 43,
+		"geocount": 43,
 		"id":"cherwell_council",
 		"map": { "type":"arcgis","url":"https://cherwell.maps.arcgis.com/apps/instant/nearby/index.html?appid=5eb7e00e295e49c7bbbcd1896ebdb535&sliderDistance=2" },
 		"notes":"Links to a PDF and Warm Welcome UK",
@@ -819,8 +819,8 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 46,
-		"geocount": 45,
+		"count": 47,
+		"geocount": 46,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
 		"title":"Hinckley and Bosworth Council",
@@ -1232,8 +1232,8 @@
 	},
 	"richmond_upon_thames_council": {
 		"checked":"2025-10-07",
-		"count": 102,
-		"geocount": 101,
+		"count": 104,
+		"geocount": 103,
 		"id":"richmond_upon_thames_council",
 		"map": { "type":"leaflet","url":"https://richmond.gov.uk/services/cost_of_living_hub/col_spaces_and_services/cost_of_living_directory" },
 		"register": { "url":"https://richmond-self.achieveservice.com/service/register_interest_in_joining_the_cost_of_living_directory" },
