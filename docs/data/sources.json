@@ -117,8 +117,8 @@
 	},
 	"bath_and_north_east_somerset_council": {
 		"checked":"2025-10-01",
-		"count": 29,
-		"geocount": 29,
+		"count": 33,
+		"geocount": 33,
 		"id":"bath_and_north_east_somerset_council",
 		"map": { "type":"leaflet","url":"https://livewell.bathnes.gov.uk/map-of-warm-spaces" },
 		"register": { "url":"https://livewell.bathnes.gov.uk/cost-living-support/register-become-warm-space-bath-and-north-east-somerset" },
@@ -151,8 +151,8 @@
 	},
 	"birmingham_council": {
 		"checked":"2025-10-01",
-		"count": 374,
-		"geocount": 373,
+		"count": 377,
+		"geocount": 376,
 		"id":"birmingham_council",
 		"register": { "url":"https://www.birmingham.gov.uk/info/50274/cost_of_living_support/2637/birmingham_warm_welcome_spaces/2" },
 		"title":"Birmingham Council",
@@ -819,7 +819,7 @@
 	},
 	"hinckley_and_bosworth_council": {
 		"checked":"2025-10-02",
-		"count": 49,
+		"count": 50,
 		"geocount": 46,
 		"id":"hinckley_and_bosworth_council",
 		"register": { "url":"https://www.hinckley-bosworth.gov.uk/warmplacesQ" },
@@ -1430,8 +1430,8 @@
 	},
 	"suffolk_-_rural_coffee_caravan": {
 		"checked":"2025-12-04",
-		"count": 111,
-		"geocount": 111,
+		"count": 118,
+		"geocount": 118,
 		"id":"suffolk_-_rural_coffee_caravan",
 		"map": { "type":"googlemap","url":"https://ruralcoffeecaravan.org.uk/map/" },
 		"title":"Suffolk - Rural Coffee Caravan",
@@ -1629,8 +1629,8 @@
 	},
 	"westmorland_council": {
 		"checked":"2025-10-08",
-		"count":"0",
-		"geocount":"0",
+		"count": 78,
+		"geocount": 78,
 		"id":"westmorland_council",
 		"register": { "url":"https://www.surveymonkey.co.uk/r/warmspots" },
 		"title":"Westmorland Council",
